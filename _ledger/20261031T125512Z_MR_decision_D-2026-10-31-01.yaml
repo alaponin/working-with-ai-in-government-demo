@@ -1,0 +1,11 @@
+kind: decision
+written: 2026-10-31T12:55:12Z
+code: MR
+by: "MR · orchestrator"
+account: arne.laponin@gmail.com
+computer: MacBookPro
+id: D-2026-10-31-01
+what: "The cut-over of the record stops at step 0 (9.1): the coordination is no git repository and no remote holds the ledger (git -C wai-demo remote -v: not a git repository, 12:54:44 UTC). Is the ledger durable enough for this estate, and how?"
+recommendation: "Read step 0 under the history the owner chose at inception (local, 2.5.3): make _coordination a git repository on this computer, with _ledger/README.md committed and no remote, and count a committed ledger as durable; accept that it is lost with the Mac. A Sonnet round makes the repository; the cut-over follows. The rival: a private GitHub remote, as step 0 asks as written."
+paper: none
+format: 2
