@@ -1,0 +1,128 @@
+# r5_figures.sh started 2026-10-31T20:09:59Z
+=== A13: src/ now (reviewer's sha256, data/ apart) against version 1's checksums (src.v1.sha256)
+13,14c13,14
+< afbf7a8a03f8230fe5e8054d4767f426490caccc6e280b1356d5aca94d67a1e8  ./test/goal.test.js
+< 3a095ee99b35c196712017edcd9f968e8808fedd7bfd96d8e579a07c3825d8a2  ./test/requirements.test.js
+---
+> 1f83c42e8168395f1073957abe15c0dee242a1dabd00cab7accc3ab4244c9273  ./test/goal.test.js
+> 53e5b9e003d083f0eced74373f7a076b55df6a75db29acb65a2827941ff38ec4  ./test/requirements.test.js
+diff exit 1
+=== A13: version 1's checksums of the six files it wrote, as the first review's R7_outputs.log quoted them
+3661 f1e54e4fa0364985170b2f3322787fd36225e4011937911774d86658a2c490b0  src/server.js
+5324 378230f1b2f82d68ba94ec85acaa5c55d4981deb88124556ab625f4ede5b8a31  src/lib/enrol.js
+4703 446a49e6567b3adc57df514416f2bbf5ad3551cfcd38bbeeccdac82e899dfa0b  src/lib/screens.js
+18739 afbf7a8a03f8230fe5e8054d4767f426490caccc6e280b1356d5aca94d67a1e8  src/test/goal.test.js
+17719 3a095ee99b35c196712017edcd9f968e8808fedd7bfd96d8e579a07c3825d8a2  src/test/requirements.test.js
+286 61bd479d6b29fb2018cfefc2cac6ab59cf47ac4adf0e91f2458e548b6f8983ca  src/package.json
+=== A13: round 5's files against the first review's src.start.sha256
+diff exit 0
+=== data/ now against the round's data.end.sha256
+diff exit 0
+=== 57 checks: test( calls per file
+data.test.js 18
+goal.test.js 13
+requirements.test.js 15
+reset.test.js 3
+search.test.js 8
+total 57
+=== A3: each of the 13 paired requirements and F-1..F-7 among the names of ok lines in the reviewer's own TAP
+R-01 1
+R-02 1
+R-03 1
+R-04 1
+R-05 1
+R-06 1
+R-07 1
+R-14 1
+R-15 1
+R-17 3
+R-18 1
+R-20 1
+R-22 1
+F-1 1
+F-2 1
+F-3 1
+F-4 2
+F-5 1
+F-6 1
+F-7 1
+requirements paired with a goal element in count.csv: R-01 R-02 R-03 R-04 R-05 R-06 R-07 R-14 R-15 R-17 R-18 R-20 R-22 
+without a check: 0
+=== A6: program launches, connections and osascript under src/ (data/ apart)
+/Users/arnelaponin/Documents/Dev/wai-demo/mini-registry/_working/round-06-build-v2-review/_evidence/r5_figures.sh:28: no matches found: --include=*.js
+dependencies in package.json: 0
+=== times read at their source (UTC)
+2026-10-31T20:05:13Z 16856 REPORT_BUILD_2026-10-31_v2.md
+2026-10-31T20:00:49Z 22891 goal.test.js
+2026-10-31T20:00:49Z 22331 requirements.test.js
+2026-10-31T19:58:20Z 826 A1_stage1.log
+2026-10-31T20:00:52Z 995 A2_tests.log
+2026-10-31T19:58:48Z 755 W0_probe.log
+2026-10-31T20:04:28Z 2776 A8_checks.log
+A1_stage1.log stamps:
+2026-10-31T19:58:18Z
+# tests 57
+# pass 57
+# fail 0
+2026-10-31T19:58:20Z
+RECORD.txt first write under src/:
+48:added · /Users/arnelaponin/Documents/Dev/wai-demo/mini-registry/_working/round-06-build-v2/_evidence/planted/sc3-without-line/src/test/goal.test.js · absent · 22891 1f83c42e8168395f1073957abe15c0dee242a1dabd00cab7accc3ab4244c9273 2026-10-31T20:01:50.138Z · written by run 10, 8
+49:added · /Users/arnelaponin/Documents/Dev/wai-demo/mini-registry/_working/round-06-build-v2/_evidence/planted/sc3-without-line/src/test/requirements.test.js · absent · 22331 53e5b9e003d083f0eced74373f7a076b55df6a75db29acb65a2827941ff38ec4 2026-10-31T20:01:50.140Z · written by run 10, 8
+72:added · /Users/arnelaponin/Documents/Dev/wai-demo/mini-registry/_working/round-06-build-v2/_evidence/planted/search-forgives-spaces/src/test/goal.test.js · absent · 22891 1f83c42e8168395f1073957abe15c0dee242a1dabd00cab7accc3ab4244c9273 2026-10-31T20:01:50.067Z · written by run 10, 8
+73:added · /Users/arnelaponin/Documents/Dev/wai-demo/mini-registry/_working/round-06-build-v2/_evidence/planted/search-forgives-spaces/src/test/requirements.test.js · absent · 22331 53e5b9e003d083f0eced74373f7a076b55df6a75db29acb65a2827941ff38ec4 2026-10-31T20:01:50.069Z · written by run 10, 8
+7:# files the round names as written: 108; the latest, /Users/arnelaponin/Documents/Dev/wai-demo/mini-registry/_reports/REPORT_BUILD_2026-10-31_v2.md, last written 2026-10-31T20:05:13.634Z
+=== the report's outputs line against the files
+22891 1f83c42e8168395f1073957abe15c0dee242a1dabd00cab7accc3ab4244c9273 goal.test.js
+22331 53e5b9e003d083f0eced74373f7a076b55df6a75db29acb65a2827941ff38ec4 requirements.test.js
+evidence files cited by the report found:
+found A1_stage1.log 826
+found A2_tests.log 995
+found A2_tests_first.log 1162
+found A3_A5_A6_A7_A13.log 6454
+found A4_A12_planted.log 4942
+found A4_A12_planted_first.log 4620
+found A8_checks.log 2776
+found A10_ledger.log 17339
+found W0_probe.log 755
+found outputs.log 449
+found src.v1.sha256 1331
+found src.start.sha256 1352
+found src.end.sha256 1352
+found record/check.out 3497
+found record/window.out 23051
+found record/RECORD.txt 43146
+found record/opened.jsonl 118450
+=== A8 and A10 logs, exits
+15:placement check: clean
+16:placement exit 0
+27:trace check: clean
+28:trace exit 0
+8
+=== the ledger's report paths: ~/IdeaProjects/mini-registry
+ls: /Users/arnelaponin/IdeaProjects/mini-registry: No such file or directory
+# r5_figures.sh ended 2026-10-31T20:09:59Z
+=== A6 (rerun, the include quoted) 20:10:09Z
+test/goal.test.js:16:const childProcess = require('node:child_process');
+test/goal.test.js:19:const execFileUnwrapped = childProcess.execFile;
+test/goal.test.js:21:for (const fn of ['spawn', 'spawnSync', 'exec', 'execSync', 'execFile', 'execFileSync', 'fork']) {
+test/goal.test.js:28:const net = require('node:net');
+test/goal.test.js:53:// Read by CGWindowListCopyWindowInfo through osascript's JavaScript bridge: a command that brings
+test/goal.test.js:65:  windowReads.push('/usr/bin/osascript -l JavaScript -e <CGWindowListCopyWindowInfo>');
+test/goal.test.js:67:    execFileUnwrapped('/usr/bin/osascript', ['-l', 'JavaScript', '-e', WINDOWS_JXA],
+test/goal.test.js:141:  const r = await fetch(app.base + where, { redirect: 'manual' });
+test/goal.test.js:148:  const r = await fetch(app.base + '/enrol', {
+test/requirements.test.js:14:const childProcess = require('node:child_process');
+test/requirements.test.js:17:const execFileUnwrapped = childProcess.execFile;
+test/requirements.test.js:19:for (const fn of ['spawn', 'spawnSync', 'exec', 'execSync', 'execFile', 'execFileSync', 'fork']) {
+test/requirements.test.js:26:const net = require('node:net');
+test/requirements.test.js:51:// Read by CGWindowListCopyWindowInfo through osascript's JavaScript bridge: a command that brings
+test/requirements.test.js:63:  windowReads.push('/usr/bin/osascript -l JavaScript -e <CGWindowListCopyWindowInfo>');
+test/requirements.test.js:65:    execFileUnwrapped('/usr/bin/osascript', ['-l', 'JavaScript', '-e', WINDOWS_JXA],
+test/requirements.test.js:139:  const r = await fetch(app.base + where, { redirect: 'manual' });
+test/requirements.test.js:146:  const r = await fetch(app.base + '/enrol', {
+server.js:76:    server.listen(opts.port === undefined ? DEFAULT_PORT : opts.port, HOST, () => {
+=== RECORD.txt lines for the real src/test files
+112:changed · /Users/arnelaponin/Documents/Dev/wai-demo/mini-registry/src/test/goal.test.js · 18739 afbf7a8a03f8230fe5e8054d4767f426490caccc6e280b1356d5aca94d67a1e8 · 22891 1f83c42e8168395f1073957abe15c0dee242a1dabd00cab7accc3ab4244c9273 2026-10-31T20:00:49.872Z · written by run 4, 6
+113:changed · /Users/arnelaponin/Documents/Dev/wai-demo/mini-registry/src/test/requirements.test.js · 17719 3a095ee99b35c196712017edcd9f968e8808fedd7bfd96d8e579a07c3825d8a2 · 22331 53e5b9e003d083f0eced74373f7a076b55df6a75db29acb65a2827941ff38ec4 2026-10-31T20:00:49.871Z · written by run 4, 6
+147:/Users/arnelaponin/Documents/Dev/wai-demo/mini-registry/src/test/goal.test.js · yes · afbf7a8a03f8230fe5e8054d4767f426490caccc6e280b1356d5aca94d67a1e8 · 1f83c42e8168395f1073957abe15c0dee242a1dabd00cab7accc3ab4244c9273 · 2026-10-31T19:59:53.891Z
+148:/Users/arnelaponin/Documents/Dev/wai-demo/mini-registry/src/test/requirements.test.js · yes · 3a095ee99b35c196712017edcd9f968e8808fedd7bfd96d8e579a07c3825d8a2 · 53e5b9e003d083f0eced74373f7a076b55df6a75db29acb65a2827941ff38ec4 · 2026-10-31T19:59:53.890Z

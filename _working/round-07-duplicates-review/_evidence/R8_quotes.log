@@ -1,0 +1,40 @@
+started 2026-10-31T20:31:33Z
+--- R-12 in REQUIREMENTS.md
+### R-12
+
+**Cites:** U-19, brief line 26
+
+> | Of those, children whose family name is spelt differently on one list | 4 |
+
+**Requirement.** Of the children on more than one list, 4 have their family name spelt differently on one list.
+
+**Test.**
+- *Set up:* the prototype's data reset, before any enrolment; the children of R-11.
+- *Do:* for each of them, compare the family name each list gives it, letter for letter; count the children whose family name is spelt differently on one list.
+- *See:* **Expected:** 4. Pass if the count is 4. This test counts the data; how many of these children the registry's search catches is not tested here.
+--- the quoted phrases across docs/ and brief/ (DUPLICATES.md excluded)
+[a second record for the same child, with a new learner number]
+/Users/arnelaponin/Documents/Dev/wai-demo/mini-registry/docs/GOAL.md:105:- **What is saved:** a second record for the same child, with a new learner number (S-6), so that the registry registers the same child twice. This is a limit of the search step, the brief's own rule: of the data's 8 children o
+[so that the registry registers the same child twice]
+/Users/arnelaponin/Documents/Dev/wai-demo/mini-registry/docs/GOAL.md:105:- **What is saved:** a second record for the same child, with a new learner number (S-6), so that the registry registers the same child twice. This is a limit of the search step, the brief's own rule: of the data's 8 children o
+[a limit of the search step]
+/Users/arnelaponin/Documents/Dev/wai-demo/mini-registry/docs/GOAL.md:105:- **What is saved:** a second record for the same child, with a new learner number (S-6), so that the registry registers the same child twice. This is a limit of the search step, the brief's own rule: of the data's 8 children o
+[the brief's own rule]
+/Users/arnelaponin/Documents/Dev/wai-demo/mini-registry/docs/GOAL.md:105:- **What is saved:** a second record for the same child, with a new learner number (S-6), so that the registry registers the same child twice. This is a limit of the search step, the brief's own rule: of the data's 8 children o
+/Users/arnelaponin/Documents/Dev/wai-demo/mini-registry/docs/GROUNDWORK.md:56:14. **Capitals in "share".** The ruling on G-05 says "no two different children share all three fields", and does not say whether capitals are ignored in "share"; the brief's line 13 compares "the same family name, given n
+/Users/arnelaponin/Documents/Dev/wai-demo/mini-registry/docs/GAPS-PAPER.md:28:| G-03 | At reset every list entry is enrolled by the brief's own rule; the search then looks among learners only |
+/Users/arnelaponin/Documents/Dev/wai-demo/mini-registry/docs/GAPS-PAPER.md:122:**Position B — the lists enrolled at reset by the brief's own rule; the search looks among learners.** At each reset the registry enrols every entry of the three lists, in a fixed order (the census, then the candidate lis
+/Users/arnelaponin/Documents/Dev/wai-demo/mini-registry/docs/GAPS-PAPER.md:133:**Recommendation — a proposal for the owner's ruling, not a decision.** We recommend Position B: at each reset the registry enrols every list entry, in a fixed order, through the brief's own rule, so that the lists' child
+/Users/arnelaponin/Documents/Dev/wai-demo/mini-registry/docs/QUESTIONS-PAPER.md:267:> `docs/GROUNDWORK.md:56` 14. **Capitals in "share".** The ruling on G-05 says "no two different children share all three fields", and does not say whether capitals are ignored in "share"; the brief's line 13 compare
+[The prototype is for agreement. It is not the registry]
+/Users/arnelaponin/Documents/Dev/wai-demo/mini-registry/docs/GAPS-PAPER.md:11:- **(a) For agreement, not the registry.** `../brief/MINI-REGISTRY-BRIEF.md:7` «the planning unit wants to see a small working prototype: a school clerk enrols a child, and the registry does not register the same child twi
+/Users/arnelaponin/Documents/Dev/wai-demo/mini-registry/docs/GOAL-QUESTIONS-PAPER.md:16:**The tests**, the same for every question; a table carries only those that bear. **(a)** `../brief/MINI-REGISTRY-BRIEF.md:7` «The prototype is for agreement. It is not the registry.» **(b)** the "must not" sente
+/Users/arnelaponin/Documents/Dev/wai-demo/mini-registry/docs/QUESTIONS-PAPER.md:14:**The tests**, the same for every question; a table carries only those that bear. **(a)** `../brief/MINI-REGISTRY-BRIEF.md:7` «wants one list of learners instead of three» · «The prototype is for agreement. It is not 
+/Users/arnelaponin/Documents/Dev/wai-demo/brief/MINI-REGISTRY-BRIEF.md:7:Progressa's Ministry of Education, Youth and Skills (MoEYS) wants one list of learners instead of three. Before anyone builds the real thing, the planning unit wants to see a small working prototype: a school clerk enrols a chi
+--- F-5 lines
+/Users/arnelaponin/Documents/Dev/wai-demo/mini-registry/docs/COUNT.md:33:| F-5 — the same child, not caught | `docs/GOAL.md:106` brief:7 · brief:13 · brief:14 · R-01 · R-06 · R-07 · ruling:G-05 · groundwork:search_rule.csv:5 · groundwork:search_rule.csv:6 · groundwork:settings.csv:14; as ruled, `doc
+/Users/arnelaponin/Documents/Dev/wai-demo/mini-registry/docs/GOAL.md:100:### F-5 — The same child, not caught
+/Users/arnelaponin/Documents/Dev/wai-demo/mini-registry/docs/GOAL.md:128:- **Named by:** S-6, S-7, F-5.
+/Users/arnelaponin/Documents/Dev/wai-demo/mini-registry/docs/GOAL-QUESTIONS-PAPER.md:259:**Position A — a way it goes wrong.** F-7, at S-4: the child is shown as the learner on SC-2, nothing saved; a limit of the brief's rule, as F-5 is; met when a clerk enters such a child; it gets a check.
+/Users/arnelaponin/Documents/Dev/wai-demo/mini-registry/docs/GOAL-QUESTIONS-PAPER.md:265:| (a) for agreement | the limit is shown, as F-5's is | the limit is not named | divides |
+/Users/arnelaponin/Documents/Dev/wai-demo/mini-registry/docs/GOAL-QUESTIONS-PAPER.md:306:| F-5 | unchanged |

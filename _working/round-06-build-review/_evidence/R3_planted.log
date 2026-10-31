@@ -1,0 +1,17 @@
+2026-10-31T19:45:40Z
+$ /usr/bin/python3 -I plant.py
+planted in /Users/arnelaponin/Documents/Dev/wai-demo/mini-registry/_working/round-06-build-review/_evidence/planted/f4-saves/src/lib/enrol.js
+$ diff real src/lib/enrol.js planted
+103c103,105
+<     return { screen: 'SC-5', outcome: 'cannot', failure: 'F-4', entry };
+---
+>     const planted = Object.assign({ learner_number: Math.max(...learners.map((l) => l.learner_number)) + 1 }, entry);
+>     learners.push(planted); store.saveLearners(learners);
+>     return { screen: 'SC-3', outcome: 'new', learner: planted }; // PLANTED: F-4 saves a record
+$ cd planted/f4-saves/src && node --test test/
+EXIT=1
+not ok 25 - F-4 — more than one learner found: SC-5, the entry cannot be completed, nothing saved (set up by a record no clerk's entry can make)
+# tests 57
+# pass 56
+# fail 1
+2026-10-31T19:45:42Z

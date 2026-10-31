@@ -1,0 +1,26 @@
+started 2026-10-31T20:28:18Z
+ae86a420f759f3927a108ee58b2dbd10ab3fd688447e248815f3979d7bbd30da  /Users/arnelaponin/Documents/Dev/wai-demo/mini-registry/src/data/key_table.json
+9c62470ee7bb837245f1e4d6b60348ca5d941e240be4ded670fe065adf6a137c  /Users/arnelaponin/Documents/Dev/wai-demo/mini-registry/src/data/school_census.json
+6be0ea384c1e95e1ff1c59fabe157a5f54ad9fc54d0a3e5050a6eb21476b4224  /Users/arnelaponin/Documents/Dev/wai-demo/mini-registry/src/data/exam_candidate_list.json
+ed1c694c37603d608b2c43bc0cd21c68cdb891e9393e7d2c1b1d674228ca166e  /Users/arnelaponin/Documents/Dev/wai-demo/mini-registry/src/data/social_grant_list.json
+route2 run 2026-10-31T20:28:18Z
+list school_census        24 entries
+list exam_candidate_list  22 entries
+list social_grant_list    22 entries
+entries in the three lists: 68
+key table rows: 68; children named: 60; entries not in a list: -; list entries not in key table: -
+children on two or more entries: 8 -> C19 C24 C26 C31 C50 C53 C56 C58
+rule keys shared by two or more different children: 0 
+
+child | entries | joined by the rule | fields differing (both values)
+C19 | school_census:10 · social_grant_list:7 | yes | none
+C24 | school_census:20 · exam_candidate_list:20 | no | family_name: "Prarasel" (school_census:20) vs "Praresel" (exam_candidate_list:20)
+C26 | exam_candidate_list:22 · social_grant_list:17 | yes | none
+C31 | school_census:11 · exam_candidate_list:13 | yes | none
+C50 | school_census:17 · social_grant_list:19 | no | family_name: "Temnok" (school_census:17) vs "Tomnok" (social_grant_list:19)
+C53 | school_census:13 · exam_candidate_list:8 | yes | none
+C56 | school_census:22 · social_grant_list:9 | no | family_name: "Orowes" (school_census:22) vs "Orowus" (social_grant_list:9)
+C58 | exam_candidate_list:14 · social_grant_list:2 | no | family_name: "Tumitem" (exam_candidate_list:14) vs "Tomitem" (social_grant_list:2)
+
+the rule joins 4 of the 8
+EXIT 0

@@ -1,0 +1,32 @@
+# r1_checks.sh started 2026-10-31T20:07:10Z on MacBookPro
+frontmost before: "LSDisplayName"="Claude"
+reading win.before.tsv: exit 0, 252 windows listed, 0 bytes on the error stream, 397 ms
+# 20:07:11Z cd src && node reset.js && node --test test/
+v20.5.1
+wrote data/enrolments.json 5083 bytes
+wrote data/exam_candidate_list.json 3623 bytes
+wrote data/key_table.json 5024 bytes
+wrote data/learners.json 11017 bytes
+wrote data/reads.json 296 bytes
+wrote data/school_census.json 3907 bytes
+wrote data/schools.json 85 bytes
+wrote data/social_grant_list.json 3566 bytes
+EXIT=0
+# 20:07:13Z checks ended
+reading win.after.tsv: exit 0, 252 windows listed, 0 bytes on the error stream, 383 ms
+frontmost after: "LSDisplayName"="Claude"
+windows in the after list, not in the before list (by number): 0
+windows in the before list, gone from the after list: 0
+windows owned by osascript or node in either list: 0
+--- TAP summary and window diagnostics
+ok 31 - R-21 — every check of this file ran to its end; the list of windows read before, while they ran and when they ended: 0 windows added at each reading
+# R-21: windows listed before the checks: 252; readings while they ran: 2; windows listed when they ended: 252; windows added at any reading: 0
+ok 43 - R-20 — the list of windows read before and after: the prototype started, the data reset, a child enrolled through a windowless check, the prototype stopped; 0 windows added
+# R-20: windows listed before: 252; windows listed after: 252; windows added: 0
+ok 46 - R-21 — every check of this file ran to its end; the list of windows read before, while they ran and when they ended: 0 windows added at each reading
+# R-21: windows listed before the checks: 252; readings while they ran: 3; windows listed when they ended: 252; windows added at any reading: 0
+# tests 57
+# pass 57
+# fail 0
+ok lines: 57
+# r1_checks.sh ended 2026-10-31T20:07:13Z

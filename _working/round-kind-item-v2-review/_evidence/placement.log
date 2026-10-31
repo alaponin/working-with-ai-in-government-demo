@@ -1,0 +1,10 @@
+Sat Oct 31 19:43:25 UTC 2026
+placement check of /Users/arnelaponin/Documents/Dev/wai-demo/mini-registry/_prompts/PROMPT_KIND_ITEM_2026-10-31.md
+  constants: /Users/arnelaponin/Documents/Dev/wai-demo/mini-registry/CONSTANTS.md (the nearest above the instruction)
+  the estate's root: /Users/arnelaponin/Documents/Dev/wai-demo/mini-registry
+  the places: instruction _prompts/ = /Users/arnelaponin/Documents/Dev/wai-demo/mini-registry/_prompts, report _reports/ = /Users/arnelaponin/Documents/Dev/wai-demo/mini-registry/_reports, review _reviews/ = /Users/arnelaponin/Documents/Dev/wai-demo/mini-registry/_reviews
+  not judged: /Users/arnelaponin/Documents/Dev/wai-demo/mini-registry/_working/round-kind-item-v2/_evidence/ — a folder
+  in its place: /Users/arnelaponin/Documents/Dev/wai-demo/mini-registry/_reports/REPORT_KIND_ITEM_2026-10-31_v2.md — a report, under /Users/arnelaponin/Documents/Dev/wai-demo/mini-registry/_reports
+  running_record: names the code MR (read from the constants)
+placement check: clean
+exit=0

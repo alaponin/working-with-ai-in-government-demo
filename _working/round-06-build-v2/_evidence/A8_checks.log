@@ -1,0 +1,29 @@
+2026-10-31T20:04:28Z
+placement check of /Users/arnelaponin/Documents/Dev/wai-demo/mini-registry/_prompts/PROMPT_BUILD_2026-10-31.md
+  constants: /Users/arnelaponin/Documents/Dev/wai-demo/mini-registry/CONSTANTS.md
+  the estate's root: /Users/arnelaponin/Documents/Dev/wai-demo/mini-registry
+  the places: instruction _prompts/ = /Users/arnelaponin/Documents/Dev/wai-demo/mini-registry/_prompts, report _reports/ = /Users/arnelaponin/Documents/Dev/wai-demo/mini-registry/_reports, review _reviews/ = /Users/arnelaponin/Documents/Dev/wai-demo/mini-registry/_reviews
+  not judged: /Users/arnelaponin/Documents/Dev/wai-demo/mini-registry/src/server.js — of none of the three kinds
+  not judged: /Users/arnelaponin/Documents/Dev/wai-demo/mini-registry/src/lib/enrol.js — of none of the three kinds
+  not judged: /Users/arnelaponin/Documents/Dev/wai-demo/mini-registry/src/lib/screens.js — of none of the three kinds
+  not judged: /Users/arnelaponin/Documents/Dev/wai-demo/mini-registry/src/test/goal.test.js — of none of the three kinds
+  not judged: /Users/arnelaponin/Documents/Dev/wai-demo/mini-registry/src/test/requirements.test.js — of none of the three kinds
+  not judged: /Users/arnelaponin/Documents/Dev/wai-demo/mini-registry/src/package.json — of none of the three kinds
+  not judged: /Users/arnelaponin/Documents/Dev/wai-demo/mini-registry/_working/round-06-build-v2/_evidence/ — a folder
+  in its place: /Users/arnelaponin/Documents/Dev/wai-demo/mini-registry/_reports/REPORT_BUILD_2026-10-31_v2.md — a report, under /Users/arnelaponin/Documents/Dev/wai-demo/mini-registry/_reports
+  running_record: names the code MR (read from the constants)
+placement check: clean
+placement exit 0
+trace check of /Users/arnelaponin/Documents/Dev/wai-demo/mini-registry/_reports/REPORT_BUILD_2026-10-31_v2.md (a report)
+  constants: /Users/arnelaponin/Documents/Dev/wai-demo/mini-registry/CONSTANTS.md
+  the estate's root: /Users/arnelaponin/Documents/Dev/wai-demo/mini-registry
+  the places: instruction _prompts/ = /Users/arnelaponin/Documents/Dev/wai-demo/mini-registry/_prompts, report _reports/ = /Users/arnelaponin/Documents/Dev/wai-demo/mini-registry/_reports, review _reviews/ = /Users/arnelaponin/Documents/Dev/wai-demo/mini-registry/_reviews
+  coordination: /Users/arnelaponin/Documents/Dev/wai-demo/_coordination/CONSTANTS.md
+  the instruction: /Users/arnelaponin/Documents/Dev/wai-demo/mini-registry/_prompts/PROMPT_BUILD_2026-10-31.md
+  agrees: the report answers C-2026-10-31-25, the instruction's commission_id
+  agrees: the instruction's downstream_artefact is this report
+  outputs: 8 of 8 named exist
+  inputs: 10 of 10 pinned by 20261031T195352Z_MR_issued_C-2026-10-31-25.yaml hash the same now
+trace check: clean
+trace exit 0
+2026-10-31T20:04:28Z

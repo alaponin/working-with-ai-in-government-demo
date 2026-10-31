@@ -1,0 +1,54 @@
+2026-10-31T20:22:42Z
+P1: social_grant_list:7 learner_number 10 -> 11
+P1: exam_candidate_list:20 learner_number 42 -> 20
+P1 written: /Users/arnelaponin/Documents/Dev/wai-demo/mini-registry/_working/round-07-duplicates/_evidence/planted/enrolments.P1.json
+P2: social_grant_list:7 learner_number 10 -> 11
+P2 written: /Users/arnelaponin/Documents/Dev/wai-demo/mini-registry/_working/round-07-duplicates/_evidence/planted/enrolments.P2.json
+P3: exam_candidate_list:20 learner_number 42 -> 20
+P3 written: /Users/arnelaponin/Documents/Dev/wai-demo/mini-registry/_working/round-07-duplicates/_evidence/planted/enrolments.P3.json
+EXIT 0
+--- count over planted P1
+enrolments: /Users/arnelaponin/Documents/Dev/wai-demo/mini-registry/_working/round-07-duplicates/_evidence/planted/enrolments.P1.json (68 rows)
+C19 | school_census:10 · social_grant_list:7 | 10 · 11 | caught=no | none
+C24 | school_census:20 · exam_candidate_list:20 | 20 · 20 | caught=yes | family_name: "Prarasel" (school_census:20) vs "Praresel" (exam_candidate_list:20)
+C26 | exam_candidate_list:22 · social_grant_list:17 | 44 · 44 | caught=yes | none
+C31 | school_census:11 · exam_candidate_list:13 | 11 · 11 | caught=yes | none
+C50 | school_census:17 · social_grant_list:19 | 17 · 61 | caught=no | family_name: "Temnok" (school_census:17) vs "Tomnok" (social_grant_list:19)
+C53 | school_census:13 · exam_candidate_list:8 | 13 · 13 | caught=yes | none
+C56 | school_census:22 · social_grant_list:9 | 22 · 52 | caught=no | family_name: "Orowes" (school_census:22) vs "Orowus" (social_grant_list:9)
+C58 | exam_candidate_list:14 · social_grant_list:2 | 36 · 46 | caught=no | family_name: "Tumitem" (exam_candidate_list:14) vs "Tomitem" (social_grant_list:2)
+the search catches 4 of the 8
+EXIT 0
+--- count over planted P2
+enrolments: /Users/arnelaponin/Documents/Dev/wai-demo/mini-registry/_working/round-07-duplicates/_evidence/planted/enrolments.P2.json (68 rows)
+C19 | school_census:10 · social_grant_list:7 | 10 · 11 | caught=no | none
+C24 | school_census:20 · exam_candidate_list:20 | 20 · 42 | caught=no | family_name: "Prarasel" (school_census:20) vs "Praresel" (exam_candidate_list:20)
+C26 | exam_candidate_list:22 · social_grant_list:17 | 44 · 44 | caught=yes | none
+C31 | school_census:11 · exam_candidate_list:13 | 11 · 11 | caught=yes | none
+C50 | school_census:17 · social_grant_list:19 | 17 · 61 | caught=no | family_name: "Temnok" (school_census:17) vs "Tomnok" (social_grant_list:19)
+C53 | school_census:13 · exam_candidate_list:8 | 13 · 13 | caught=yes | none
+C56 | school_census:22 · social_grant_list:9 | 22 · 52 | caught=no | family_name: "Orowes" (school_census:22) vs "Orowus" (social_grant_list:9)
+C58 | exam_candidate_list:14 · social_grant_list:2 | 36 · 46 | caught=no | family_name: "Tumitem" (exam_candidate_list:14) vs "Tomitem" (social_grant_list:2)
+the search catches 3 of the 8
+EXIT 0
+--- count over planted P3
+enrolments: /Users/arnelaponin/Documents/Dev/wai-demo/mini-registry/_working/round-07-duplicates/_evidence/planted/enrolments.P3.json (68 rows)
+C19 | school_census:10 · social_grant_list:7 | 10 · 10 | caught=yes | none
+C24 | school_census:20 · exam_candidate_list:20 | 20 · 20 | caught=yes | family_name: "Prarasel" (school_census:20) vs "Praresel" (exam_candidate_list:20)
+C26 | exam_candidate_list:22 · social_grant_list:17 | 44 · 44 | caught=yes | none
+C31 | school_census:11 · exam_candidate_list:13 | 11 · 11 | caught=yes | none
+C50 | school_census:17 · social_grant_list:19 | 17 · 61 | caught=no | family_name: "Temnok" (school_census:17) vs "Tomnok" (social_grant_list:19)
+C53 | school_census:13 · exam_candidate_list:8 | 13 · 13 | caught=yes | none
+C56 | school_census:22 · social_grant_list:9 | 22 · 52 | caught=no | family_name: "Orowes" (school_census:22) vs "Orowus" (social_grant_list:9)
+C58 | exam_candidate_list:14 · social_grant_list:2 | 36 · 46 | caught=no | family_name: "Tumitem" (exam_candidate_list:14) vs "Tomitem" (social_grant_list:2)
+the search catches 5 of the 8
+EXIT 0
+--- diff real csv vs P1 csv
+2,3c2,3
+< C19,school_census:10 · social_grant_list:7,10 · 10,yes,none
+< C24,school_census:20 · exam_candidate_list:20,20 · 42,no,"family_name: ""Prarasel"" (school_census:20) vs ""Praresel"" (exam_candidate_list:20)"
+---
+> C19,school_census:10 · social_grant_list:7,10 · 11,no,none
+> C24,school_census:20 · exam_candidate_list:20,20 · 20,yes,"family_name: ""Prarasel"" (school_census:20) vs ""Praresel"" (exam_candidate_list:20)"
+diff EXIT 1
+2026-10-31T20:22:44Z

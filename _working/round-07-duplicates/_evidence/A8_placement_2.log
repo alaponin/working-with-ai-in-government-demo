@@ -1,0 +1,13 @@
+2026-10-31T20:25:13Z
+placement check of /Users/arnelaponin/Documents/Dev/wai-demo/mini-registry/_prompts/PROMPT_DUPLICATES_2026-10-31.md
+  constants: /Users/arnelaponin/Documents/Dev/wai-demo/mini-registry/CONSTANTS.md
+  the estate's root: /Users/arnelaponin/Documents/Dev/wai-demo/mini-registry
+  the places: instruction _prompts/ = /Users/arnelaponin/Documents/Dev/wai-demo/mini-registry/_prompts, report _reports/ = /Users/arnelaponin/Documents/Dev/wai-demo/mini-registry/_reports, review _reviews/ = /Users/arnelaponin/Documents/Dev/wai-demo/mini-registry/_reviews
+  not judged: /Users/arnelaponin/Documents/Dev/wai-demo/mini-registry/docs/DUPLICATES.md — of none of the three kinds
+  not judged: /Users/arnelaponin/Documents/Dev/wai-demo/mini-registry/docs/count/duplicates.csv — of none of the three kinds
+  not judged: /Users/arnelaponin/Documents/Dev/wai-demo/mini-registry/_working/round-07-duplicates/_evidence/ — a folder
+  in its place: /Users/arnelaponin/Documents/Dev/wai-demo/mini-registry/_reports/REPORT_DUPLICATES_2026-10-31.md — a report, under /Users/arnelaponin/Documents/Dev/wai-demo/mini-registry/_reports
+  running_record: names the code MR (read from the constants)
+placement check: clean
+EXIT 0
+2026-10-31T20:25:13Z

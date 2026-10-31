@@ -1,0 +1,156 @@
+2026-10-31T19:45:14Z
+=== THE CLERK: from a fresh reset
+wrote data/enrolments.json 5083 bytes
+wrote data/exam_candidate_list.json 3623 bytes
+wrote data/key_table.json 5024 bytes
+wrote data/learners.json 11017 bytes
+wrote data/reads.json 296 bytes
+wrote data/school_census.json 3907 bytes
+wrote data/schools.json 85 bytes
+wrote data/social_grant_list.json 3566 bytes
+learners (count, highest number): 64 64
+server pid 36254: mini registry: http://127.0.0.1:8139/ (Invented data, Progressa is fictional)
+node    36254 arnelaponin   16u  IPv4 0x8448d27b2cbd96d1      0t0  TCP 127.0.0.1:8139 (LISTEN)
+--- W0_SC-1.html (HTTP 200)
+<main data-screen="SC-1">
+<p class="notice"><strong>Invented data, Progressa is fictional</strong></p>
+<h1>Enrol a learner</h1>
+<form method="post" action="/enrol">
+<p><label for="family_name">Family name</label> <input type="text" id="family_name" name="family_name" value=""></p>
+<p><label for="given_names">Given names</label> <input type="text" id="given_names" name="given_names" value=""></p>
+<p><label for="date_of_birth">Date of birth (YYYY-MM-DD)</label> <input type="text" id="date_of_birth" name="date_of_birth" value=""></p>
+<p><label for="school">School</label> <select id="school" name="school">
+<option value="">(choose a school)</option>
+<option value="Velmora Primary School">Velmora Primary School</option>
+<option value="Kestrin Hill School">Kestrin Hill School</option>
+<option value="Dunavel Lakeside School">Dunavel Lakeside School</option>
+</select></p>
+<p><button type="submit">Enrol</button></p>
+</form>
+</main>
+=== (1) a child the registry holds: learner 12, Galtemzu / Jortovvin / 2013-11-27 / Dunavel Lakeside School, family name entered as gALTEMZU
+--- W1_held.html (HTTP 200)
+<main data-screen="SC-2">
+<p class="notice"><strong>Invented data, Progressa is fictional</strong></p>
+<h1>An existing learner was found</h1>
+<p>The registry already holds this learner. Nothing new was entered.</p>
+<dl>
+<dt>Learner number</dt><dd>12</dd>
+<dt>Family name</dt><dd>Galtemzu</dd>
+<dt>Given names</dt><dd>Jortovvin</dd>
+<dt>Date of birth</dt><dd>2013-11-27</dd>
+<dt>School</dt><dd>Dunavel Lakeside School</dd>
+</dl>
+<p><a href="/">Back to the enrolment screen</a></p>
+</main>
+learners after (1): 64 64
+=== (2) a new child: Brannick / Solvey Amara / 2017-03-09 / Kestrin Hill School
+--- W2_new.html (HTTP 200)
+<main data-screen="SC-3">
+<p class="notice"><strong>Invented data, Progressa is fictional</strong></p>
+<h1>A new learner number was given</h1>
+<p>No learner was found. A new learner number was given and the record was saved.</p>
+<p>New learner number: <strong class="learner-number">65</strong></p>
+<p><a href="/">Back to the enrolment screen</a></p>
+</main>
+learners after (2): 65 65
+saved: {'learner_number': 65, 'family_name': 'Brannick', 'given_names': 'Solvey Amara', 'date_of_birth': '2017-03-09', 'school': 'Kestrin Hill School'}
+=== (3) the new child again, the same four
+--- W3_again.html (HTTP 200)
+<main data-screen="SC-2">
+<p class="notice"><strong>Invented data, Progressa is fictional</strong></p>
+<h1>An existing learner was found</h1>
+<p>The registry already holds this learner. Nothing new was entered.</p>
+<dl>
+<dt>Learner number</dt><dd>65</dd>
+<dt>Family name</dt><dd>Brannick</dd>
+<dt>Given names</dt><dd>Solvey Amara</dd>
+<dt>Date of birth</dt><dd>2017-03-09</dd>
+<dt>School</dt><dd>Kestrin Hill School</dd>
+</dl>
+<p><a href="/">Back to the enrolment screen</a></p>
+</main>
+learners after (3): 65 65
+=== the way back from SC-3, followed
+GET / -> HTTP 200, screen data-screen="SC-1"
+server stopped, pid 36254; listening on 8139 now: 0
+
+=== THE WAY IT GOES WRONG: from a fresh reset, date of birth 2019-02-30, the school left out
+wrote data/enrolments.json 5083 bytes
+wrote data/exam_candidate_list.json 3623 bytes
+wrote data/key_table.json 5024 bytes
+wrote data/learners.json 11017 bytes
+wrote data/reads.json 296 bytes
+wrote data/school_census.json 3907 bytes
+wrote data/schools.json 85 bytes
+wrote data/social_grant_list.json 3566 bytes
+32e01ac3a4a25a130d4b54cbaca140252690e13aa3c20a122210ce0232350b66  data/learners.json
+server pid 36313: mini registry: http://127.0.0.1:8139/ (Invented data, Progressa is fictional)
+node    36313 arnelaponin   16u  IPv4 0x2ea4d9be1e3bd4fc      0t0  TCP 127.0.0.1:8139 (LISTEN)
+--- X1_refused.html (HTTP 200)
+<main data-screen="SC-4">
+<p class="notice"><strong>Invented data, Progressa is fictional</strong></p>
+<h1>The entry refused</h1>
+<p>The entry is refused:</p>
+<ul>
+<li>Date of birth: names no day of the calendar</li>
+<li>School: not entered</li>
+</ul>
+<form method="get" action="/">
+<input type="hidden" name="family_name" value="Brannick">
+<input type="hidden" name="given_names" value="Solvey Amara">
+<input type="hidden" name="date_of_birth" value="2019-02-30">
+<input type="hidden" name="school" value="">
+<button type="submit">Back to the enrolment screen, the entries kept</button>
+</form>
+</main>
+--- the same with the school sent empty, as SC-1 sends "(choose a school)"
+--- X2_refused_empty.html (HTTP 200)
+<main data-screen="SC-4">
+<p class="notice"><strong>Invented data, Progressa is fictional</strong></p>
+<h1>The entry refused</h1>
+<p>The entry is refused:</p>
+<ul>
+<li>Date of birth: names no day of the calendar</li>
+<li>School: not entered</li>
+</ul>
+<form method="get" action="/">
+<input type="hidden" name="family_name" value="Brannick">
+<input type="hidden" name="given_names" value="Solvey Amara">
+<input type="hidden" name="date_of_birth" value="2019-02-30">
+<input type="hidden" name="school" value="">
+<button type="submit">Back to the enrolment screen, the entries kept</button>
+</form>
+</main>
+32e01ac3a4a25a130d4b54cbaca140252690e13aa3c20a122210ce0232350b66  data/learners.json
+learners: 64 64
+--- the way back of SC-4, followed: the address its form names, with its hidden entries
+GET /?family_name=Brannick&given_names=Solvey+Amara&date_of_birth=2019-02-30&school=
+--- X3_back_kept.html (HTTP 200)
+<main data-screen="SC-1">
+<p class="notice"><strong>Invented data, Progressa is fictional</strong></p>
+<h1>Enrol a learner</h1>
+<form method="post" action="/enrol">
+<p><label for="family_name">Family name</label> <input type="text" id="family_name" name="family_name" value="Brannick"></p>
+<p><label for="given_names">Given names</label> <input type="text" id="given_names" name="given_names" value="Solvey Amara"></p>
+<p><label for="date_of_birth">Date of birth (YYYY-MM-DD)</label> <input type="text" id="date_of_birth" name="date_of_birth" value="2019-02-30"></p>
+<p><label for="school">School</label> <select id="school" name="school">
+<option value="">(choose a school)</option>
+<option value="Velmora Primary School">Velmora Primary School</option>
+<option value="Kestrin Hill School">Kestrin Hill School</option>
+<option value="Dunavel Lakeside School">Dunavel Lakeside School</option>
+</select></p>
+<p><button type="submit">Enrol</button></p>
+</form>
+</main>
+server stopped, pid 36313; listening on 8139 now: 0
+wrote data/enrolments.json 5083 bytes
+wrote data/exam_candidate_list.json 3623 bytes
+wrote data/key_table.json 5024 bytes
+wrote data/learners.json 11017 bytes
+wrote data/reads.json 296 bytes
+wrote data/school_census.json 3907 bytes
+wrote data/schools.json 85 bytes
+wrote data/social_grant_list.json 3566 bytes
+after the final reset: 64 64
+2026-10-31T19:45:21Z

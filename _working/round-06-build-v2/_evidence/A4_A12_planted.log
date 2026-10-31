@@ -1,0 +1,59 @@
+2026-10-31T20:01:50Z
+=== search-forgives-spaces: $ diff -r src planted/search-forgives-spaces/src (data/ left out)
+diff -r -x data /Users/arnelaponin/Documents/Dev/wai-demo/mini-registry/src/lib/search.js /Users/arnelaponin/Documents/Dev/wai-demo/mini-registry/_working/round-06-build-v2/_evidence/planted/search-forgives-spaces/src/lib/search.js
+16c16
+<   return String(a).toLowerCase() === String(b).toLowerCase();
+---
+>   return String(a).toLowerCase().replace(/\s+/g, '') === String(b).toLowerCase().replace(/\s+/g, '');
+=== search-forgives-spaces: $ cd planted/search-forgives-spaces/src && node reset.js && node --test test/
+EXIT=1
+not ok 26 - F-5 — the same child entered with a difference but capitals: not caught, a new learner number, a second record
+not ok 53 - search: nothing but capitals forgiven (a space, a dropped name, another form of date)
+# R-21: windows listed before the checks: 252; readings while they ran: 2; windows listed when they ended: 252; windows added at any reading: 0
+# R-20: windows listed before: 252; windows listed after: 252; windows added: 0
+# R-21: windows listed before the checks: 252; readings while they ran: 3; windows listed when they ended: 252; windows added at any reading: 0
+# pass 55
+# fail 2
+=== sc3-without-line: $ diff -r src planted/sc3-without-line/src (data/ left out)
+diff -r -x data /Users/arnelaponin/Documents/Dev/wai-demo/mini-registry/src/lib/screens.js /Users/arnelaponin/Documents/Dev/wai-demo/mini-registry/_working/round-06-build-v2/_evidence/planted/sc3-without-line/src/lib/screens.js
+36c36
+<     '<p class="notice"><strong>' + LINE + '</strong></p>\n' +
+---
+>     (id === 'SC-3' ? '' : '<p class="notice"><strong>' + LINE + '</strong></p>\n') +
+=== sc3-without-line: $ cd planted/sc3-without-line/src && node reset.js && node --test test/
+EXIT=1
+not ok 30 - R-17 — every screen any check of this file reached carries "Invented data, Progressa is fictional"
+not ok 41 - R-17 — every screen, shown in turn, says "Invented data, Progressa is fictional"
+not ok 45 - R-17 — every screen any check of this file reached carries the line
+# R-21: windows listed before the checks: 252; readings while they ran: 2; windows listed when they ended: 252; windows added at any reading: 0
+# R-20: windows listed before: 252; windows listed after: 252; windows added: 0
+# R-21: windows listed before the checks: 252; readings while they ran: 3; windows listed when they ended: 252; windows added at any reading: 0
+# pass 54
+# fail 3
+=== window-added: $ diff -r src planted/window-added/src (data/ left out)
+diff -r -x data /Users/arnelaponin/Documents/Dev/wai-demo/mini-registry/src/test/goal.test.js /Users/arnelaponin/Documents/Dev/wai-demo/mini-registry/_working/round-06-build-v2/_evidence/planted/window-added/src/test/goal.test.js
+63a64
+> const planted = { readings: 0 };
+76a78
+>         if (++planted.readings > 1) list.set('999999', { pid: process.pid, owner: 'planted window' });
+diff -r -x data /Users/arnelaponin/Documents/Dev/wai-demo/mini-registry/src/test/requirements.test.js /Users/arnelaponin/Documents/Dev/wai-demo/mini-registry/_working/round-06-build-v2/_evidence/planted/window-added/src/test/requirements.test.js
+61a62
+> const planted = { readings: 0 };
+74a76
+>         if (++planted.readings > 1) list.set('999999', { pid: process.pid, owner: 'planted window' });
+429a432
+>   after.set('999998', { pid: process.pid, owner: 'planted window' });
+=== window-added: $ cd planted/window-added/src && node reset.js && node --test test/
+EXIT=1
+not ok 31 - R-21 — every check of this file ran to its end; the list of windows read before, while they ran and when they ended: 0 windows added at each reading
+not ok 43 - R-20 — the list of windows read before and after: the prototype started, the data reset, a child enrolled through a windowless check, the prototype stopped; 0 windows added
+not ok 46 - R-21 — every check of this file ran to its end; the list of windows read before, while they ran and when they ended: 0 windows added at each reading
+# R-21: windows listed before the checks: 252; readings while they ran: 2; windows listed when they ended: 253; windows added at any reading: 3
+# R-20: windows listed before: 253; windows listed after: 254; windows added: 1
+# R-21: windows listed before the checks: 252; readings while they ran: 3; windows listed when they ended: 253; windows added at any reading: 4
+  error: 'reading started 2026-10-31T20:01:57.901Z: window 999999 of planted window (pid 40780); reading started 2026-10-31T20:01:58.451Z: window 999999 of planted window (pid 40780); when the checks ended: window 999999
+  error: 'window 999998 of planted window (pid 40781)'
+  error: 'reading started 2026-10-31T20:01:57.994Z: window 999999 of planted window (pid 40781); reading started 2026-10-31T20:01:58.600Z: window 999999 of planted window (pid 40781); reading started 2026-10-31T20:01:59.
+# pass 54
+# fail 3
+2026-10-31T20:02:00Z

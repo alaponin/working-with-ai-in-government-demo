@@ -1,0 +1,14 @@
+2026-10-31T20:53:31Z
+placement check of /Users/arnelaponin/Documents/Dev/wai-demo/mini-registry/_prompts/PROMPT_NOTE_2026-10-31.md
+  constants: /Users/arnelaponin/Documents/Dev/wai-demo/mini-registry/CONSTANTS.md
+  the estate's root: /Users/arnelaponin/Documents/Dev/wai-demo/mini-registry
+  the places: instruction _prompts/ = /Users/arnelaponin/Documents/Dev/wai-demo/mini-registry/_prompts, report _reports/ = /Users/arnelaponin/Documents/Dev/wai-demo/mini-registry/_reports, review _reviews/ = /Users/arnelaponin/Documents/Dev/wai-demo/mini-registry/_reviews
+  not judged: /Users/arnelaponin/Documents/Dev/wai-demo/mini-registry/docs/NOTE.md — of none of the three kinds
+  not judged: /Users/arnelaponin/Documents/Dev/wai-demo/mini-registry/docs/note/build.py — of none of the three kinds
+  not judged: /Users/arnelaponin/Documents/Dev/wai-demo/mini-registry/docs/note/NOTE.pdf — of none of the three kinds
+  not judged: /Users/arnelaponin/Documents/Dev/wai-demo/mini-registry/_working/round-08-note/_evidence/ — a folder
+  in its place: /Users/arnelaponin/Documents/Dev/wai-demo/mini-registry/_reports/REPORT_NOTE_2026-10-31.md — a report, under /Users/arnelaponin/Documents/Dev/wai-demo/mini-registry/_reports
+  running_record: names the code MR (read from the constants)
+finding: missing: /Users/arnelaponin/Documents/Dev/wai-demo/mini-registry/_reports/REPORT_NOTE_2026-10-31.md is named among the outputs and does not exist
+placement check: 1 finding
+placement exit 1

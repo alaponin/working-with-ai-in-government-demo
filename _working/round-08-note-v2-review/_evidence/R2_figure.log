@@ -1,0 +1,33 @@
+2026-10-31T21:32:56Z
+# 1. the figure, by Python's csv module
+rows (children): 8
+caught column yes: 4 ['C19', 'C26', 'C31', 'C53']
+rows whose two learner numbers are one: 4 ['C19', 'C26', 'C31', 'C53']
+the same four: True
+missed, differing in family_name only: 4
+  C24 Prarasel / Praresel letters differing: 1
+  C50 Temnok / Tomnok letters differing: 1
+  C56 Orowes / Orowus letters differing: 1
+  C58 Tumitem / Tomitem letters differing: 1
+caught 4 of 8
+# 1b. the figure, by awk on the caught column
+awk: caught 4 of 8
+# 2. NOTE.pdf: size, sha256
+57324 bytes, modified 2026-10-31T23:21:45
+46a1e66e74cbbb85c1bc195689057e2c788700e12c1e19b654ecd8758725a677  /Users/arnelaponin/Documents/Dev/wai-demo/mini-registry/docs/note/NOTE.pdf
+# 2a. page count, by the file's bytes (Python, zlib for compressed object streams)
+page objects (/Type /Page): 1
+/Pages /Count: ['1']
+MediaBox: ['0 0 595 842']
+# 2b. page count and boxes, by Ghostscript's bbox device (no display)
+gs bbox page boxes: 1
+gs pdfpagecount, MediaBox: 1
+gs pdfpagecount, MediaBox: [0 0 595 842]
+# 2c. Spotlight
+kMDItemNumberOfPages = 1
+kMDItemPageHeight    = (null)
+kMDItemPageWidth     = (null)
+# 3. the PDF's text by Ghostscript's txtwrite (no display)
+gs txtwrite exit 0
+      42 /Users/arnelaponin/Documents/Dev/wai-demo/mini-registry/_working/round-08-note-v2-review/_evidence/note_text.gs.txt
+exit 0

@@ -1,0 +1,26 @@
+started 2026-10-31T20:31:03Z
+--- brief lines 7, 11-15, 26, 54
+     1	Progressa's Ministry of Education, Youth and Skills (MoEYS) wants one list of learners instead of three. Before anyone builds the real thing, the planning unit wants to see a small working prototype: a school clerk enrols a child, and the registry does not register the same child twice. The prototype is for agreement. It is not the registry.
+     2	- if it finds exactly one learner with the same family name, given names and date of birth (capitals ignored), it shows that learner and enters nothing new;
+     3	| Of those, children whose family name is spelt differently on one list | 4 |
+     4	| 7 | The duplicates count: how many of the 8 the search catches | checking |
+--- register: R-12, F-5 (files that carry them)
+/Users/arnelaponin/Documents/Dev/wai-demo/mini-registry/docs/REQUIREMENTS.md
+/Users/arnelaponin/Documents/Dev/wai-demo/mini-registry/docs/groundwork/lists.csv
+/Users/arnelaponin/Documents/Dev/wai-demo/mini-registry/docs/groundwork/settings.csv
+/Users/arnelaponin/Documents/Dev/wai-demo/mini-registry/docs/count/count.csv
+/Users/arnelaponin/Documents/Dev/wai-demo/mini-registry/docs/COUNT.md
+/Users/arnelaponin/Documents/Dev/wai-demo/mini-registry/docs/GOAL.md
+/Users/arnelaponin/Documents/Dev/wai-demo/mini-registry/docs/DUPLICATES.md
+/Users/arnelaponin/Documents/Dev/wai-demo/mini-registry/docs/GAPS-PAPER.md
+/Users/arnelaponin/Documents/Dev/wai-demo/mini-registry/docs/GOAL-QUESTIONS-PAPER.md
+/Users/arnelaponin/Documents/Dev/wai-demo/mini-registry/docs/QUESTIONS-PAPER.md
+started 2026-10-31T20:31:16Z
+--- REQUIREMENTS.md lines with R-12 or F-5
+162:### R-12
+332:- **G-05** (R-11, R-12) How does the made-up data record that entries on two lists are the same child, so that the 8 and the 4 can be counted?
+--- phrases quoted in DUPLICATES.md, searched in REQUIREMENTS.md
+a second record for the same child, with a new learner number => 
+so that the registry registers the same child twice => 
+a limit of the search step, the brief => 
+the brief's own rule => 

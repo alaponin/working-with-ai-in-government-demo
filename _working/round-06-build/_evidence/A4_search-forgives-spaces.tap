@@ -1,0 +1,326 @@
+TAP version 13
+# Subtest: R-08: three lists, by the names of brief line 19, and every child on at least one
+ok 1 - R-08: three lists, by the names of brief line 19, and every child on at least one
+  ---
+  duration_ms: 9.454406
+  ...
+# Subtest: R-09, G-04: 60 different children, named C01 to C60 (Q-11)
+ok 2 - R-09, G-04: 60 different children, named C01 to C60 (Q-11)
+  ---
+  duration_ms: 1.047053
+  ...
+# Subtest: R-10: 3 schools in the data, and every entry and learner at one of them
+ok 3 - R-10: 3 schools in the data, and every entry and learner at one of them
+  ---
+  duration_ms: 0.799893
+  ...
+# Subtest: Q-9: every entry carries a school, the same on both lists of a child
+ok 4 - Q-9: every entry carries a school, the same on both lists of a child
+  ---
+  duration_ms: 0.942288
+  ...
+# Subtest: Q-7: 20 children at each of the 3 schools
+ok 5 - Q-7: 20 children at each of the 3 schools
+  ---
+  duration_ms: 0.823191
+  ...
+# Subtest: G-04, Q-6: 68 entries, 24, 22 and 22 in the order of the lists
+ok 6 - G-04, Q-6: 68 entries, 24, 22 and 22 in the order of the lists
+  ---
+  duration_ms: 0.461613
+  ...
+# Subtest: Q-11: each list numbered 1 upwards
+ok 7 - Q-11: each list numbered 1 upwards
+  ---
+  duration_ms: 0.620774
+  ...
+# Subtest: Q-10, G-07: every date YYYY-MM-DD, a day of the calendar, on every entry and learner
+ok 8 - Q-10, G-07: every date YYYY-MM-DD, a day of the calendar, on every entry and learner
+  ---
+  duration_ms: 1.284214
+  ...
+# Subtest: R-13, G-06, Q-1: every age 6 to 12 in completed years on 2026-10-31
+ok 9 - R-13, G-06, Q-1: every age 6 to 12 in completed years on 2026-10-31
+  ---
+  duration_ms: 0.878977
+  ...
+# Subtest: R-11, G-04, Q-5: 8 children on exactly two lists, in the pairs of ruling Q-5
+ok 10 - R-11, G-04, Q-5: 8 children on exactly two lists, in the pairs of ruling Q-5
+  ---
+  duration_ms: 1.248589
+  ...
+# Subtest: R-12, G-05, Q-5: 4 of the 8 spelt differently, 1, 2 and 1 over the pairs; none in capitals only
+ok 11 - R-12, G-05, Q-5: 4 of the 8 spelt differently, 1, 2 and 1 over the pairs; none in capitals only
+  ---
+  duration_ms: 2.379182
+  ...
+# Subtest: Q-8: the 4 differ in the family name only; the other 4 match on all three fields, letter for letter and in the same capitals
+ok 12 - Q-8: the 4 differ in the family name only; the other 4 match on all three fields, letter for letter and in the same capitals
+  ---
+  duration_ms: 0.736231
+  ...
+# Subtest: Q-5: each of the 4 is spelt differently on the later list, which makes a second learner
+ok 13 - Q-5: each of the 4 is spelt differently on the later list, which makes a second learner
+  ---
+  duration_ms: 0.748633
+  ...
+# Subtest: Q-14, G-05: no two different children share all three fields, capitals ignored
+ok 14 - Q-14, G-05: no two different children share all three fields, capitals ignored
+  ---
+  duration_ms: 0.527487
+  ...
+# Subtest: Q-11: the key table, 68 rows, each entry named <list>:<number> once, each child C01 to C60
+ok 15 - Q-11: the key table, 68 rows, each entry named <list>:<number> once, each child C01 to C60
+  ---
+  duration_ms: 2.005385
+  ...
+# Subtest: Q-13, Q-4, G-01: 64 learners after reset, numbered 1 to 64, each once
+ok 16 - Q-13, Q-4, G-01: 64 learners after reset, numbered 1 to 64, each once
+  ---
+  duration_ms: 0.3749
+  ...
+# Subtest: Q-12: the record of entries, 68 rows, one for each entry, in the order of ruling Q-2
+ok 17 - Q-12: the record of entries, 68 rows, one for each entry, in the order of ruling Q-2
+  ---
+  duration_ms: 0.652205
+  ...
+# Subtest: G-03, G-01: each entry made or found a learner holding its three fields, capitals ignored; a new number one above the highest
+ok 18 - G-03, G-01: each entry made or found a learner holding its three fields, capitals ignored; a new number one above the highest
+  ---
+  duration_ms: 1.9376
+  ...
+# Subtest: F-1 — an entry missing, or of spaces only: refused on SC-4, each entry missing named; nothing read, nothing saved
+ok 19 - F-1 — an entry missing, or of spaces only: refused on SC-4, each entry missing named; nothing read, nothing saved
+  ---
+  duration_ms: 211.830392
+  ...
+# Subtest: F-2 — a date of birth not in the form YYYY-MM-DD, or naming no day: refused on SC-4; nothing read, nothing saved
+ok 20 - F-2 — a date of birth not in the form YYYY-MM-DD, or naming no day: refused on SC-4; nothing read, nothing saved
+  ---
+  duration_ms: 101.883819
+  ...
+# Subtest: F-2, Q-2 — no age is reckoned on the entry: a child under 6, over 12, or born after 2026-10-31 is enrolled
+ok 21 - F-2, Q-2 — no age is reckoned on the entry: a child under 6, over 12, or born after 2026-10-31 is enrolled
+  ---
+  duration_ms: 39.380458
+  ...
+# Subtest: F-3 — a school not among the three, sent around SC-1: refused on SC-4; nothing read, nothing saved
+ok 22 - F-3 — a school not among the three, sent around SC-1: refused on SC-4; nothing read, nothing saved
+  ---
+  duration_ms: 23.111555
+  ...
+# Subtest: F-1, F-2, F-3 at once (Q-9): every fault found is named on SC-4, in the order of the entries
+ok 23 - F-1, F-2, F-3 at once (Q-9): every fault found is named on SC-4, in the order of the entries
+  ---
+  duration_ms: 19.575196
+  ...
+# Subtest: F-4 — on the reset's data the search never finds more than one: each learner's three fields find that learner alone
+ok 24 - F-4 — on the reset's data the search never finds more than one: each learner's three fields find that learner alone
+  ---
+  duration_ms: 244.018844
+  ...
+# Subtest: F-4 — more than one learner found: SC-5, the entry cannot be completed, nothing saved (set up by a record no clerk's entry can make)
+ok 25 - F-4 — more than one learner found: SC-5, the entry cannot be completed, nothing saved (set up by a record no clerk's entry can make)
+  ---
+  duration_ms: 18.7173
+  ...
+# Subtest: F-5 — the same child entered with a difference but capitals: not caught, a new learner number, a second record
+not ok 26 - F-5 — the same child entered with a difference but capitals: not caught, a new learner number, a second record
+  ---
+  duration_ms: 19.787577
+  failureType: 'testCodeFailure'
+  error: '{"family_name":"Elpra "}'
+  code: 'ERR_ASSERTION'
+  name: 'AssertionError'
+  expected: 'SC-3'
+  actual: 'SC-2'
+  operator: 'strictEqual'
+  stack: |-
+    TestContext.<anonymous> (/Users/arnelaponin/Documents/Dev/wai-demo/mini-registry/_working/round-06-build/_evidence/planted/search-forgives-spaces/src/test/goal.test.js:315:14)
+    process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    async Test.run (node:internal/test_runner/test:581:9)
+    async Test.processPendingSubtests (node:internal/test_runner/test:325:7)
+  ...
+# Subtest: F-6 — a record that cannot be saved: SC-5, nothing saved, no learner number given
+ok 27 - F-6 — a record that cannot be saved: SC-5, nothing saved, no learner number given
+  ---
+  duration_ms: 27.586992
+  ...
+# Subtest: F-7 — a different child sharing a learner's three fields, at another school: taken for that learner on SC-2, no notice, nothing saved
+ok 28 - F-7 — a different child sharing a learner's three fields, at another school: taken for that learner on SC-2, no notice, nothing saved
+  ---
+  duration_ms: 21.413
+  ...
+# Subtest: S-7, Q-13 — each result screen offers the way back to SC-1: empty after SC-2 and SC-3, the entries kept after SC-4 and SC-5
+ok 29 - S-7, Q-13 — each result screen offers the way back to SC-1: empty after SC-2 and SC-3, the entries kept after SC-4 and SC-5
+  ---
+  duration_ms: 36.964071
+  ...
+# Subtest: R-17 — every screen any check of this file reached carries "Invented data, Progressa is fictional"
+ok 30 - R-17 — every screen any check of this file reached carries "Invented data, Progressa is fictional"
+  ---
+  duration_ms: 2.327046
+  ...
+# Subtest: R-21 — every check of this file ran to its end without launching a program (the window list itself: see the report)
+ok 31 - R-21 — every check of this file ran to its end without launching a program (the window list itself: see the report)
+  ---
+  duration_ms: 0.15109
+  ...
+# Subtest: R-01 — a child enrolled twice: the first enrolment adds one learner, the second none
+ok 32 - R-01 — a child enrolled twice: the first enrolment adds one learner, the second none
+  ---
+  duration_ms: 166.77341
+  ...
+# Subtest: R-02 — the screens offer one goal, enrolling a learner, and no other
+ok 33 - R-02 — the screens offer one goal, enrolling a learner, and no other
+  ---
+  duration_ms: 69.911875
+  ...
+# Subtest: R-03 — the enrolment screen offers the four entries, and the record saved holds them as entered
+ok 34 - R-03 — the enrolment screen offers the four entries, and the record saved holds them as entered
+  ---
+  duration_ms: 31.50085
+  ...
+# Subtest: R-04 — in each enrolment the search is the first act on the data, before any write; the second has no write
+ok 35 - R-04 — in each enrolment the search is the first act on the data, before any write; the second has no write
+  ---
+  duration_ms: 29.011476
+  ...
+# Subtest: R-05 — exactly F, G and D, and F and G in other capitals: the learner of the set-up shown, nothing new
+ok 36 - R-05 — exactly F, G and D, and F and G in other capitals: the learner of the set-up shown, nothing new
+  ---
+  duration_ms: 37.304903
+  ...
+# Subtest: R-06 — none found, then a family name one letter different: one record saved each time, each a number not held before
+ok 37 - R-06 — none found, then a family name one letter different: one record saved each time, each a number not held before
+  ---
+  duration_ms: 31.682074
+  ...
+# Subtest: R-07 — the clerk sees which of the two happened, and the two screens say different things
+ok 38 - R-07 — the clerk sees which of the two happened, and the two screens say different things
+  ---
+  duration_ms: 25.199419
+  ...
+# Subtest: R-14 — reset, count, enrol one child, reset again, count again: both runs give the known numbers
+ok 39 - R-14 — reset, count, enrol one child, reset again, count again: both runs give the known numbers
+  ---
+  duration_ms: 31.17448
+  ...
+# Subtest: R-15 — reset, copy, enrol one child, reset again, copy: the two copies are the same, record by record
+ok 40 - R-15 — reset, copy, enrol one child, reset again, copy: the two copies are the same, record by record
+  ---
+  duration_ms: 31.160882
+  ...
+# Subtest: R-17 — every screen, shown in turn, says "Invented data, Progressa is fictional"
+ok 41 - R-17 — every screen, shown in turn, says "Invented data, Progressa is fictional"
+  ---
+  duration_ms: 34.784358
+  ...
+# Subtest: R-18 — every connection has both its ends on this computer
+ok 42 - R-18 — every connection has both its ends on this computer
+  ---
+  duration_ms: 23.695051
+  ...
+# Subtest: R-20 — a child enrolled through a windowless check: no program launched, nothing loaded that could open a window
+ok 43 - R-20 — a child enrolled through a windowless check: no program launched, nothing loaded that could open a window
+  ---
+  duration_ms: 14.788962
+  ...
+# Subtest: R-22 — on this computer the prototype starts and a child the registry does not hold is enrolled
+ok 44 - R-22 — on this computer the prototype starts and a child the registry does not hold is enrolled
+  ---
+  duration_ms: 19.088844
+  ...
+# Subtest: R-17 — every screen any check of this file reached carries the line
+ok 45 - R-17 — every screen any check of this file reached carries the line
+  ---
+  duration_ms: 0.859909
+  ...
+# Subtest: R-21 — every check of this file ran to its end without launching a program (the window list itself: see the report)
+ok 46 - R-21 — every check of this file ran to its end without launching a program (the window list itself: see the report)
+  ---
+  duration_ms: 0.148878
+  ...
+# Subtest: R-15: the reset made twice gives byte for byte the same files
+ok 47 - R-15: the reset made twice gives byte for byte the same files
+  ---
+  duration_ms: 23.096127
+  ...
+# Subtest: R-15: data/ holds exactly what the reset makes, byte for byte
+ok 48 - R-15: data/ holds exactly what the reset makes, byte for byte
+  ---
+  duration_ms: 9.374263
+  ...
+# Subtest: G-10, R-16: the reset's record of its reads names only files under src/
+ok 49 - G-10, R-16: the reset's record of its reads names only files under src/
+  ---
+  duration_ms: 1.631436
+  ...
+# Subtest: search: the same three fields find the learner
+ok 50 - search: the same three fields find the learner
+  ---
+  duration_ms: 6.505341
+  ...
+# Subtest: search: capitals ignored, in each of the three fields
+ok 51 - search: capitals ignored, in each of the three fields
+  ---
+  duration_ms: 0.964422
+  ...
+# Subtest: search: one letter different in any of the three fields, not found
+ok 52 - search: one letter different in any of the three fields, not found
+  ---
+  duration_ms: 0.414429
+  ...
+# Subtest: search: nothing but capitals forgiven (a space, a dropped name, another form of date)
+not ok 53 - search: nothing but capitals forgiven (a space, a dropped name, another form of date)
+  ---
+  duration_ms: 4.450517
+  failureType: 'testCodeFailure'
+  error: |-
+    Expected values to be strictly equal:
+    
+    1 !== 0
+    
+  code: 'ERR_ASSERTION'
+  name: 'AssertionError'
+  expected: 0
+  actual: 1
+  operator: 'strictEqual'
+  stack: |-
+    TestContext.<anonymous> (/Users/arnelaponin/Documents/Dev/wai-demo/mini-registry/_working/round-06-build/_evidence/planted/search-forgives-spaces/src/test/search.test.js:41:10)
+    Test.runInAsyncScope (node:async_hooks:206:9)
+    Test.run (node:internal/test_runner/test:580:25)
+    Test.processPendingSubtests (node:internal/test_runner/test:325:18)
+    Test.postRun (node:internal/test_runner/test:649:19)
+    Test.run (node:internal/test_runner/test:608:10)
+    async Test.processPendingSubtests (node:internal/test_runner/test:325:7)
+  ...
+# Subtest: search: the school is not compared, nor any field but the three
+ok 54 - search: the school is not compared, nor any field but the three
+  ---
+  duration_ms: 0.368257
+  ...
+# Subtest: enrol: none found gives the next learner number and saves; one found enters nothing new
+ok 55 - enrol: none found gives the next learner number and saves; one found enters nothing new
+  ---
+  duration_ms: 0.868438
+  ...
+# Subtest: enrol: more than one found enters nothing new
+ok 56 - enrol: more than one found enters nothing new
+  ---
+  duration_ms: 0.37609
+  ...
+# Subtest: search: the module reads neither the key table nor the record of entries, and needs no other module
+ok 57 - search: the module reads neither the key table nor the record of entries, and needs no other module
+  ---
+  duration_ms: 0.865154
+  ...
+1..57
+# tests 57
+# suites 0
+# pass 55
+# fail 2
+# cancelled 0
+# skipped 0
+# todo 0
+# duration_ms 1115.732234

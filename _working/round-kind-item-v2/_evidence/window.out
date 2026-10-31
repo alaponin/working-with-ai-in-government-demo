@@ -1,0 +1,23 @@
+# round_record.py window, run at 2026-10-31T19:41:36.646Z
+# run with: round_record.py window --ledger /Users/arnelaponin/Documents/Dev/wai-demo/_coordination/_ledger --code MR --id C-2026-10-31-27 --report /Users/arnelaponin/Documents/Dev/wai-demo/mini-registry/_reports/REPORT_KIND_ITEM_2026-10-31_v2.md --written /Users/arnelaponin/Documents/Dev/wai-demo/mini-registry/_working/round-kind-item-v2/_evidence --write --out /Users/arnelaponin/Documents/Dev/wai-demo/mini-registry/_working/round-kind-item-v2/_evidence/window.out
+# opens at the started entry 20261031T193900Z_MR_started_C-2026-10-31-27.yaml, its `written`: 2026-10-31T19:39:00.000Z
+# the finished entry: 20261031T193246Z_MR_finished_C-2026-10-31-27.yaml, 2026-10-31T19:32:46.000Z
+# the record: none named
+# wrote the line into /Users/arnelaponin/Documents/Dev/wai-demo/mini-registry/_reports/REPORT_KIND_ITEM_2026-10-31_v2.md; its last write, read back by stat: 2026-10-31T19:41:36.651Z
+# files the round names as written: 10; the latest, /Users/arnelaponin/Documents/Dev/wai-demo/mini-registry/_reports/REPORT_KIND_ITEM_2026-10-31_v2.md, last written 2026-10-31T19:41:36.651Z
+#   2026-10-31T19:39:47.890Z · /Users/arnelaponin/Documents/Dev/wai-demo/mini-registry/_working/round-kind-item-v2/_evidence/00_start.txt · in a folder the outputs line names
+#   2026-10-31T19:39:56.897Z · /Users/arnelaponin/Documents/Dev/wai-demo/mini-registry/_working/round-kind-item-v2/_evidence/check_lines.sh · in a folder the outputs line names
+#   2026-10-31T19:40:16.487Z · /Users/arnelaponin/Documents/Dev/wai-demo/mini-registry/_working/round-kind-item-v2/_evidence/GAPS.planted.md · in a folder the outputs line names
+#   2026-10-31T19:40:16.740Z · /Users/arnelaponin/Documents/Dev/wai-demo/mini-registry/_working/round-kind-item-v2/_evidence/A1_gaps.txt · in a folder the outputs line names
+#   2026-10-31T19:40:26.263Z · /Users/arnelaponin/Documents/Dev/wai-demo/mini-registry/_working/round-kind-item-v2/_evidence/A2_page_lines.txt · in a folder the outputs line names
+#   2026-10-31T19:40:26.401Z · /Users/arnelaponin/Documents/Dev/wai-demo/mini-registry/_working/round-kind-item-v2/_evidence/A3_page_state.txt · in a folder the outputs line names
+#   2026-10-31T19:40:37.469Z · /Users/arnelaponin/Documents/Dev/wai-demo/mini-registry/_working/round-kind-item-v2/_evidence/A5_show_before_finished.txt · in a folder the outputs line names
+#   2026-10-31T19:40:49.719Z · /Users/arnelaponin/Documents/Dev/wai-demo/mini-registry/_working/round-kind-item-v2/_evidence/S7_listing.txt · in a folder the outputs line names
+#   2026-10-31T19:41:36.280Z · /Users/arnelaponin/Documents/Dev/wai-demo/mini-registry/_working/round-kind-item-v2/_evidence/window.cmd.txt · in a folder the outputs line names
+#   2026-10-31T19:41:36.651Z · /Users/arnelaponin/Documents/Dev/wai-demo/mini-registry/_reports/REPORT_KIND_ITEM_2026-10-31_v2.md · the report
+
+window: 2026-10-31 19:39:00 UTC to 2026-10-31 19:41:36 UTC, no pause; closed at the last write of the 10 files the round names as written, REPORT_KIND_ITEM_2026-10-31_v2.md, read by stat; printed by round_record.py window, its command and output kept in /Users/arnelaponin/Documents/Dev/wai-demo/mini-registry/_working/round-kind-item-v2/_evidence/window.out
+
+
+## Findings — 0
+none

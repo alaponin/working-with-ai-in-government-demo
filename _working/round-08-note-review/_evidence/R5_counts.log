@@ -1,0 +1,68 @@
+2026-10-31T21:02:29Z
+== stat, UTC (A1 order; window close against the report's last write)
+2026-10-31T20:45:59Z 9401 /Users/arnelaponin/Documents/Dev/wai-demo/mini-registry/_working/round-08-note/_evidence/CLAIMS.md
+2026-10-31T20:46:37Z 6627 /Users/arnelaponin/Documents/Dev/wai-demo/mini-registry/_working/round-08-note/_evidence/LIMITS.md
+2026-10-31T20:46:48Z 3542 /Users/arnelaponin/Documents/Dev/wai-demo/mini-registry/docs/NOTE.md
+2026-10-31T20:50:42Z 4525 /Users/arnelaponin/Documents/Dev/wai-demo/mini-registry/_working/round-08-note/_evidence/PAIRS.md
+2026-10-31T20:54:58Z 16001 /Users/arnelaponin/Documents/Dev/wai-demo/mini-registry/_reports/REPORT_NOTE_2026-10-31.md
+2026-10-31T20:55:10Z 2542 /Users/arnelaponin/Documents/Dev/wai-demo/mini-registry/_working/round-08-note/_evidence/A8_checks.log
+2026-10-31T20:55:34Z 5582 /Users/arnelaponin/Documents/Dev/wai-demo/mini-registry/_working/round-08-note/_evidence/A9_ledger_show.log
+2026-10-31T20:55:20Z 2650 /Users/arnelaponin/Documents/Dev/wai-demo/mini-registry/_working/round-08-note/_evidence/record/check.out
+== runs through run (report: 17)
+      17
+  13 "exit": 0
+   3 "exit": 1
+   1 "exit": 2
+== window.out (report: 36 files, close 20:54:58)
+1:# round_record.py window, run at 2026-10-31T20:54:58.428Z
+2:# run with: round_record.py window --ledger /Users/arnelaponin/Documents/Dev/wai-demo/_coordination/_ledger --code MR --id C-2026-10-31-31 --report /Users/arnelaponin/Documents/Dev/wai-demo/mini-registry/_reports/REPORT_NOTE_2026-10-31.md --write --out /Users/arnelaponin/Documents/Dev/wai-demo/mini-registry/_working/round-08-note/_evidence/record/window.out
+7:# files the round names as written: 36; the latest, /Users/arnelaponin/Documents/Dev/wai-demo/mini-registry/_reports/REPORT_NOTE_2026-10-31.md, last written 2026-10-31T20:54:58.469Z
+45:window: 2026-10-31 20:41:00 UTC to 2026-10-31 20:54:58 UTC, no pause; closed at the last write of the 36 files the round names as written, REPORT_NOTE_2026-10-31.md, read by stat; printed by round_record.py window, its command and output kept in /Users/arnelaponin/Documents/Dev/wai-demo/mini-registry/_working/round-08-note/_evidence/record/window.out
+== windows lists (report: 252 before, 252 after)
+252 lines /Users/arnelaponin/Documents/Dev/wai-demo/mini-registry/_working/round-08-note/_evidence/win.before.tsv
+252 lines /Users/arnelaponin/Documents/Dev/wai-demo/mini-registry/_working/round-08-note/_evidence/win.after.tsv
+13777	CursorUIViewService
+before = after, byte for byte
+== sources at start (report: 15) and src (report: 24)
+      16
+      24
+== the sources' sha256 now, against the round's start list (A7, by the reviewer)
+Traceback (most recent call last):
+  File "<stdin>", line 7, in <module>
+ValueError: not enough values to unpack (expected 2, got 1)
+== src/ now against the round's start list
+src files: 24, changed or unreadable: 0
+== A6: the two builds' texts, and the final PDF's text (gs) against build 2's
+build1 text = build2 text
+da5b40830ec8a6ba25a7f7372fcdb1b8c71ccbc065bcc1c666100d9240160492  /Users/arnelaponin/Documents/Dev/wai-demo/mini-registry/_working/round-08-note/_evidence/text.build1.txt
+da5b40830ec8a6ba25a7f7372fcdb1b8c71ccbc065bcc1c666100d9240160492  /Users/arnelaponin/Documents/Dev/wai-demo/mini-registry/_working/round-08-note/_evidence/text.build2.txt
+pages=1
+page 1: width=595.00 height=842.00
+pages=1
+page 1: width=595.00 height=842.00
+build2 text words: 643  gs text words: 643  same: True
+2:windows before: 252
+6:osascript exit 0: saved=true text_height_pt=587.9 usable_height_pt=728.5 smallest_type_pt=11.00 largest_type_pt=14.00 
+8:BUILD1 EXIT=0
+15:osascript exit 0: saved=true text_height_pt=587.9 usable_height_pt=728.5 smallest_type_pt=11.00 largest_type_pt=14.00 
+17:BUILD2 EXIT=0
+20:windows after: 252
+21:windows added: 0
+22:windows owned by osascript or Python now: 0
+== outputs at their paths, size and sha256 against the report's outputs line
+found 3542 19a7dba5c65fdd8e0627cbd770cf6c105808346e475c4baa310e6f2bff00b277 /Users/arnelaponin/Documents/Dev/wai-demo/mini-registry/docs/NOTE.md
+found 6561 1f3d3144ad255fed2de0547915ba412b7ce4f08aff3ed476b497587b2eee9549 /Users/arnelaponin/Documents/Dev/wai-demo/mini-registry/docs/note/build.py
+found 57094 6ff1a6b80f6a305267db6805a57f28f1b2a5fb85fd6b72d787bd6b34a6fb5666 /Users/arnelaponin/Documents/Dev/wai-demo/mini-registry/docs/note/NOTE.pdf
+found 4226 fea63b9a329ac97c26a93da5395338a465af290ca7b8bb4aa32f417f6d537799 /Users/arnelaponin/Documents/Dev/wai-demo/mini-registry/docs/note/NOTE.html
+found 252 75c94433f420feb8fdb183e7459a780d7f5f18784d8d8a03f7f0cd8944ba680e /Users/arnelaponin/Documents/Dev/wai-demo/mini-registry/docs/note/register_exceptions.txt
+found 16001 93799708c8a2eec2e2479e70738f83bd2e85952a5a15a99d14bf5b3e8d9bc72c /Users/arnelaponin/Documents/Dev/wai-demo/mini-registry/_reports/REPORT_NOTE_2026-10-31.md
+drwxr-xr-x@ 35 arnelaponin  staff  1120 Oct 31 22:55 /Users/arnelaponin/Documents/Dev/wai-demo/mini-registry/_working/round-08-note/_evidence
+evidence files:       33
+== the round's A1 log, its last lines
+claims: 52 rows, 0 not found
+note: 34 sentences; pairs: 34 rows; unpaired 0, mismatched 0, unknown claims 0, extra pairs 0
+0 not found
+A1 EXIT=0
+== PAIRS rows (report: 34)
+34
+SCRIPT EXIT=0

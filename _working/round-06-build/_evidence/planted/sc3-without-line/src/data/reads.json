@@ -1,0 +1,22 @@
+[
+  {
+    "file": "lib/lists.js",
+    "under_src": true
+  },
+  {
+    "file": "lib/names.js",
+    "under_src": true
+  },
+  {
+    "file": "lib/random.js",
+    "under_src": true
+  },
+  {
+    "file": "lib/search.js",
+    "under_src": true
+  },
+  {
+    "file": "reset.js",
+    "under_src": true
+  }
+]

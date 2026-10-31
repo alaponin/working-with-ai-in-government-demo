@@ -1,0 +1,29 @@
+Sat Oct 31 19:34:14 UTC 2026
+v2:116:
+The search still catches 4, because the reset turns every date before it compares. The settings, though, are read on the lists, and that is where the paper's ow
+v2:124:
+**A fault the page lacks.** Item 7 names a dependency declared in one direction only, but not one declared in neither direction, and it does not say against wha
+gaps in section7 counts:
+G1 (item
+G1 (item
+G1 (item
+G2 (item
+
+  File "/Users/arnelaponin/Documents/Dev/wai-demo/mini-registry/_working/round-kind-item/_evidence/check_gaps.py", line 11, in <module>
+    text, root = pathlib.Path(sys.argv[1]).read_text().splitlines(), pathlib.Path(sys.argv[2])
+IndexError: list index out of range
+
+26
+1:# The four gaps of the kind `item` — C-2026-10-31-27
+5:## GA1 — G1 of the first questions review (analysis)
+7:Source: `_reviews/REVIEW_QUESTIONS_2026-10-31.md:107`
+10:Source: `_reviews/REVIEW_QUESTIONS_2026-10-31.md:107`
+13:Source: `_reviews/REVIEW_QUESTIONS_2026-10-31.md:109`
+18:## GA2 — G1 of the second questions review (analysis)
+20:Source: `_reviews/REVIEW_QUESTIONS_2026-10-31_v2.md:99`
+23:Source: `_reviews/REVIEW_QUESTIONS_2026-10-31_v2.md:116`
+26:Source: `_reviews/REVIEW_QUESTIONS_2026-10-31_v2.md:124`
+31:## GC1 — G1 of the third commit review (kind `none`)
+33:Source: `_reviews/REVIEW_COMMIT3_2026-10-31.md:53`
+38:## GC2 — G2 of the third commit review (kind `none`)
+40:Source: `_reviews/REVIEW_COMMIT3_2026-10-31.md:54`

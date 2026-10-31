@@ -1,0 +1,24 @@
+2026-10-31T20:50:56Z
+L01  source found     in the note                The prototype is for agreement; it is not the registry
+L02  source found     in the note                The data is invented; Progressa is fictional; no real person's data
+L03  source found     in the note                Nothing connects outside the computer; other bodies only simulated
+L04  source found     in the note                The search misses 4 of the 8: each differs in its family name by one letter, and
+L05  source found     in the note                That miss is a limit of the search step, not of the whole
+L06  source found     in the note                The figure does not show how the real registry would fare on real lists; the dat
+L07  source found     in the note                A different child sharing the three fields is taken for a learner (F-7)
+L08  source found     in the note                More than one learner found: never reached in the data, checked only on a record
+L09  source found     in the note                An entry of any blank characters, not only spaces, is taken as missing (kept as 
+L10  source found     in the note                A fourth school is not kept on the way back (kept as built)
+L11  source found     in the note                The three are kept as built, the simplest approaches
+L12  source found     in the note                Enrolment is the only goal; no screen for looking learners up
+L13  source found     left out, with its reason  No age is held on the entry: 6 to 12 holds the data, not the entry
+L14  source found     left out, with its reason  A different school on a learner found: no notice, nothing changed
+L15  source found     left out, with its reason  A record not saved, or a number not given, is a way it goes wrong (F-6), shown a
+L16  source found     left out, with its reason  The window checks compare window numbers only and count every window of the logi
+L17  source found     left out, with its reason  The ways the goal goes wrong are reached by no requirement's test; each one's ch
+L18  source found     left out, with its reason  No element of the goal carries the made-up data and its numbers, the simulation 
+L19  source found     left out, with its reason  How many children the search catches is not tested by the requirement on the 4
+L20  source found     left out, with its reason  The kit's tracer records names given relative to a directory as under the root, 
+limits: 20; in the note 12; left out with a reason 8; sources not found 0
+0 unaccounted
+A2 EXIT=0

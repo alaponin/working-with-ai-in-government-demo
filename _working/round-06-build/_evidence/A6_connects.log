@@ -1,0 +1,25 @@
+2026-10-31T19:38:59Z
+$ grep -rnE "listen|fetch|http\.request|https|[^a-z_]net[^a-z_]|dgram|child_process|open\(" --include=*.js --include=*.json . (data/ left out)
+./test/goal.test.js:10:// port of 127.0.0.1, and its screens are fetched with Node's own fetch and read as text.
+./test/goal.test.js:15:const childProcess = require('node:child_process');
+./test/goal.test.js:24:const net = require('node:net');
+./test/goal.test.js:26:const connect = net.Socket.prototype.connect;
+./test/goal.test.js:28:  // net.connect hands the socket its arguments normalised, as [options, callback].
+./test/goal.test.js:87:  const r = await fetch(app.base + where, { redirect: 'manual' });
+./test/goal.test.js:94:  const r = await fetch(app.base + '/enrol', {
+./test/requirements.test.js:9:// port of 127.0.0.1, and its screens are fetched with Node's own fetch and read as text.
+./test/requirements.test.js:14:const childProcess = require('node:child_process');
+./test/requirements.test.js:23:const net = require('node:net');
+./test/requirements.test.js:25:const connect = net.Socket.prototype.connect;
+./test/requirements.test.js:27:  // net.connect hands the socket its arguments normalised, as [options, callback].
+./test/requirements.test.js:86:  const r = await fetch(app.base + where, { redirect: 'manual' });
+./test/requirements.test.js:93:  const r = await fetch(app.base + '/enrol', {
+./test/requirements.test.js:362:    assert.ok(outbound.length > 0, 'the fetches were recorded');
+./server.js:2:// The prototype's server: Node's own http module, listening on 127.0.0.1 only, serving
+./server.js:76:    server.listen(opts.port === undefined ? DEFAULT_PORT : opts.port, HOST, () => {
+
+$ grep -c dependencies package.json
+0
+$ node -e keys of package.json
+name version private description scripts
+2026-10-31T19:38:59Z

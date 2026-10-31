@@ -1,0 +1,74 @@
+2026-10-31T21:20:49Z
+ruling D03:8 found «Rule all 13 as recommended»
+ruling D05:8 found «Rule all 14 as recommended»
+ruling D07:8 found «Rule all 13 as recommended»
+ruling D11:8 found «let's currently go with simplest approaches»
+B01  source found     limit yes v1 L01   in the note                The prototype is for agreement; it is not the registry
+B02  source found     limit yes v1 L02   in the note                No real person's data; the data is invented, Progressa fictional
+B03  source found     limit yes v1 L03   in the note                Nothing outside the computer is connected; other bodies only simulated
+B04  source found     limit no  v1 none  in the note                It opens no window on its own; every check runs without one
+R01  source found     limit yes v1 L02   in the note                The register: no real person's data held
+R02  source found     limit yes v1 L03   in the note                The register: nothing outside the computer it runs on
+R03  source found     limit yes v1 L03   in the note                The register: another body only simulated
+R04  source found     limit yes v1 L12   in the note                The register: one goal, enrolment
+R05  source found     limit no  v1 none  in the note                The register: the note, one page, says what is shown and what is not
+G01  source found     limit no  v1 none  left out, with its reason  A learner number: a whole number in sequence, never given twice
+G02  source found     limit yes v1 L08   in the note                More than one learner found: never reached under the data; refused
+G03  source found     limit no  v1 none  left out, with its reason  The reset enrols every list entry by the brief's rule; the search look
+G04  source found     limit no  v1 none  in the note                60 different children; 68 entries, each of the 8 on exactly two lists
+G05  source found     limit yes v1 none  in the note                None of the 8 differs in capitals only
+G06  source found     limit no  v1 none  left out, with its reason  Age in completed years on one fixed date; 6 and 12 included
+G07  source found     limit yes v1 none  in the note                The date as YYYY-MM-DD; any other form refused; the school chosen from
+G08  source found     limit yes v1 L12   in the note                Enrolment the only goal; no screen for looking learners up
+G09  source found     limit no  v1 none  left out, with its reason  Every view the clerk sees is a screen, refusals included
+G10  source found     limit no  v1 none  left out, with its reason  No real data: evidence by construction, a fixed seed
+G11  source found     limit yes v1 L03   in the note                No other body: the three lists are data inside the prototype
+G12  source found     limit yes v1 none  left out, with its reason  Its checks are the register's own tests, as programs
+G13  source found     limit no  v1 none  left out, with its reason  The note: one A4 page, as a PDF
+G14  source found     limit yes v1 none  in the note                A space is part of a name: the search forgives capitals and nothing el
+P01  source found     limit no  v1 none  left out, with its reason  Ages reckoned on 2026-10-31
+P02  source found     limit no  v1 none  left out, with its reason  The order of the reset's enrolment
+P03  source found     limit no  v1 none  left out, with its reason  The seed
+P04  source found     limit no  v1 none  left out, with its reason  The first learner number, 1
+P05  source found     limit no  v1 none  left out, with its reason  Which lists carry the 8: every pair of lists with a catch and a miss
+P06  source found     limit no  v1 none  left out, with its reason  The spread over the lists, 24, 22 and 22
+P07  source found     limit no  v1 none  left out, with its reason  The spread over the schools, 20 each
+P08  source found     limit yes v1 L04   in the note                The 4 differ in the family name only, missed for spelling alone
+P09  source found     limit yes v1 none  left out, with its reason  Every list carries a school, the same on both lists of each of the 8
+P10  source found     limit yes v1 none  left out, with its reason  Every list holds dates as YYYY-MM-DD: no list in another form
+P11  source found     limit no  v1 none  left out, with its reason  The key table holds all 68 entries
+P12  source found     limit no  v1 none  left out, with its reason  The reset records which learner each entry made or found
+P13  source found     limit no  v1 none  left out, with its reason  64 learners after reset
+P14  source found     limit yes v1 none  in the note                "Share" ignores capitals: no two different children share all three
+Q01  source found     limit no  v1 none  in the note                A date that names no day is refused
+Q02  source found     limit yes v1 L13   left out, with its reason  No age is held on the entry: 6 to 12 holds the data, not the entry
+Q03  source found     limit yes v1 L15   left out, with its reason  A record not saved, or a number not given, is a way it goes wrong, sho
+Q04a source found     limit yes v1 none  in the note                A name has no longest length and no character refused
+Q04b source found     limit yes v1 L09   in the note                A name of spaces only is an entry missing
+Q05  source found     limit no  v1 none  in the note                An entry missing is refused
+Q06  source found     limit no  v1 none  in the note                A school not among the three is refused where it reaches the registry
+Q07  source found     limit no  v1 none  in the note                Every check of the entry runs before the search
+Q08  source found     limit no  v1 none  in the note                Each refusal names its fault; the entries kept
+Q09  source found     limit no  v1 none  in the note                Every fault shown at once
+Q10  source found     limit no  v1 none  in the note                The learner found shown with its number and four details
+Q11  source found     limit yes v1 L14   left out, with its reason  A different school on a learner found: no notice, nothing changed
+Q12  source found     limit yes v1 L07   in the note                A different child sharing the three details is taken for the learner
+Q13  source found     limit no  v1 none  left out, with its reason  Each result screen offers a way back to the entry
+V08  source found     limit yes v1 L08   in the note                More than one learner found: checked only on a record its check writes
+V09  source found     limit yes v1 L09   in the note                Any blank characters, not only spaces, taken as missing (kept as built
+V10  source found     limit yes v1 L10   in the note                A fourth school not kept on the way back (kept as built)
+V11  source found     limit yes v1 L11   in the note                The three kept as built, the simplest approaches
+V16  source found     limit yes v1 L16   left out, with its reason  The window checks compare window numbers only; a window opened and clo
+V20  source found     limit yes v1 L20   left out, with its reason  The kit's tracer: the build's record check exits 1
+C04  source found     limit yes v1 L04   in the note                The search misses 4 of the 8: each differs in its family name by one l
+C05  source found     limit yes v1 L05   in the note                That miss is a limit of the search step, not of the whole
+C06  source found     limit yes v1 L06   in the note                The figure does not show how the real registry would fare on real list
+C12  source found     limit yes v1 L12   in the note                Enrolment the only goal; no screen for looking learners up
+C17  source found     limit yes v1 L17   left out, with its reason  The ways the goal goes wrong are reached by no requirement's test; eac
+C18  source found     limit yes v1 L18   left out, with its reason  No element of the goal carries the made-up data, the simulation, the w
+C19  source found     limit yes v1 L19   left out, with its reason  How many the search catches is not tested by the requirement on the 4
+C21  source found     limit yes v1 =G07  in the note                A date in any other form than YYYY-MM-DD refused
+rows: 65; limits among them: 38; in the note 37; left out with a reason 28; sources not found 0; rulings not found 0
+limits version 1's list lacked: 8 (G05, G07, G12, G14, P09, P10, P14, Q04a); besides Q-4's: 7 (G05, G07, G12, G14, P09, P10, P14)
+0 unaccounted
+A2 EXIT=0

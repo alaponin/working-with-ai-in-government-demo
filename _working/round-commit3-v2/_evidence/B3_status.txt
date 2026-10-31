@@ -1,0 +1,4 @@
+# git status --porcelain after step 5 (B3), 2026-10-31T19:22:41Z
+## mini-registry
+?? _working/round-commit3-v2/
+## _coordination

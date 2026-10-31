@@ -1,0 +1,29 @@
+2026-10-31T19:40:16Z
+$ zsh _working/round-kind-item-v2/_evidence/check_lines.sh _working/round-kind-item/_evidence/GAPS.md .
+found     _reviews/REVIEW_QUESTIONS_2026-10-31.md:107  **G1 (item) — Q-6 judges its rival without Q-5 as recommended, so the 
+found     _reviews/REVIEW_QUESTIONS_2026-10-31.md:107  The two positions of one table are judged under two different answers 
+found     _reviews/REVIEW_QUESTIONS_2026-10-31.md:109  *To judge the positions of one question under an answer to another que
+found     _reviews/REVIEW_QUESTIONS_2026-10-31_v2.md:99  **G1 (item): Q-10's rival is credited with meeting every number beside
+found     _reviews/REVIEW_QUESTIONS_2026-10-31_v2.md:116  The round's program says `can be met: yes` because it checks only the 
+found     _reviews/REVIEW_QUESTIONS_2026-10-31_v2.md:124  *To test whether positions can be built together on the counts alone, 
+found     _reviews/REVIEW_COMMIT3_2026-10-31.md:53  **G1 (item)** — A1 not met: the round's own evidence file was redirect
+found     _reviews/REVIEW_COMMIT3_2026-10-31.md:54  **G2 (item)** — A4 not met literally: the committed set exceeds the be
+8 quotations, 0 not found
+exit=0
+$ the planted fault: a copy of GAPS.md with 'Q-6 judges' changed to 'Q-7 judges', checked the same way
+exit=1
+NOT FOUND _reviews/REVIEW_QUESTIONS_2026-10-31.md:107  **G1 (item) — Q-7 judges its rival without Q-5 as recommended, so the 
+8 quotations, 1 not found
+$ the gaps of each review, from its section 7 (awk between '## 7' and '## 8'), the lines opening a G-number
+-- _reviews/REVIEW_QUESTIONS_2026-10-31.md
+107: **G1 (item) — Q-6 judges its rival without Q-5 as recommended, so the rival is credited with numbers it c
+-- _reviews/REVIEW_QUESTIONS_2026-10-31_v2.md
+99: **G1 (item): Q-10's rival is credited with meeting every number beside Q-8 as recommended, which it cannot
+-- _reviews/REVIEW_COMMIT3_2026-10-31.md
+53: - **G1 (item)** — A1 not met: the round's own evidence file was redirected into the repository being commi
+54: - **G2 (item)** — A4 not met literally: the committed set exceeds the before list by two evidence files (`
+$ count of G-lines over the three sections 7:
+4
+$ count of the G-headings in GAPS.md:
+4
+2026-10-31T19:40:16Z

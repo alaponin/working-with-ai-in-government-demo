@@ -1,0 +1,9 @@
+child,entries,learner_numbers,caught,fields_differing
+C19,school_census:10 · social_grant_list:7,10 · 11,no,none
+C24,school_census:20 · exam_candidate_list:20,20 · 20,yes,"family_name: ""Prarasel"" (school_census:20) vs ""Praresel"" (exam_candidate_list:20)"
+C26,exam_candidate_list:22 · social_grant_list:17,44 · 44,yes,none
+C31,school_census:11 · exam_candidate_list:13,11 · 11,yes,none
+C50,school_census:17 · social_grant_list:19,17 · 61,no,"family_name: ""Temnok"" (school_census:17) vs ""Tomnok"" (social_grant_list:19)"
+C53,school_census:13 · exam_candidate_list:8,13 · 13,yes,none
+C56,school_census:22 · social_grant_list:9,22 · 52,no,"family_name: ""Orowes"" (school_census:22) vs ""Orowus"" (social_grant_list:9)"
+C58,exam_candidate_list:14 · social_grant_list:2,36 · 46,no,"family_name: ""Tumitem"" (exam_candidate_list:14) vs ""Tomitem"" (social_grant_list:2)"

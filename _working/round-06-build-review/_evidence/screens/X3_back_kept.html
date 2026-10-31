@@ -1,0 +1,25 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<title>Enrol a learner — Progressa learner registry (prototype)</title>
+</head>
+<body>
+<main data-screen="SC-1">
+<p class="notice"><strong>Invented data, Progressa is fictional</strong></p>
+<h1>Enrol a learner</h1>
+<form method="post" action="/enrol">
+<p><label for="family_name">Family name</label> <input type="text" id="family_name" name="family_name" value="Brannick"></p>
+<p><label for="given_names">Given names</label> <input type="text" id="given_names" name="given_names" value="Solvey Amara"></p>
+<p><label for="date_of_birth">Date of birth (YYYY-MM-DD)</label> <input type="text" id="date_of_birth" name="date_of_birth" value="2019-02-30"></p>
+<p><label for="school">School</label> <select id="school" name="school">
+<option value="">(choose a school)</option>
+<option value="Velmora Primary School">Velmora Primary School</option>
+<option value="Kestrin Hill School">Kestrin Hill School</option>
+<option value="Dunavel Lakeside School">Dunavel Lakeside School</option>
+</select></p>
+<p><button type="submit">Enrol</button></p>
+</form>
+</main>
+</body>
+</html>

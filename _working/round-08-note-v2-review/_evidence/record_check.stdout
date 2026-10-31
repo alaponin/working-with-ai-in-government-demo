@@ -1,0 +1,39 @@
+# round_record.py check, run at 2026-10-31T21:35:02.557Z, over the record /Users/arnelaponin/Documents/Dev/wai-demo/mini-registry/_working/round-08-note-v2/_evidence/record
+# run with: --record /Users/arnelaponin/Documents/Dev/wai-demo/mini-registry/_working/round-08-note-v2/_evidence/record --report /Users/arnelaponin/Documents/Dev/wai-demo/mini-registry/_reports/REPORT_NOTE_2026-10-31_v2.md --tolerance 2 --out /Users/arnelaponin/Documents/Dev/wai-demo/mini-registry/_working/round-08-note-v2-review/_evidence/record_check.out
+# report: /Users/arnelaponin/Documents/Dev/wai-demo/mini-registry/_reports/REPORT_NOTE_2026-10-31_v2.md
+# files changed after the end list inside the window: 0
+
+## Findings — 0
+none
+
+## Read and found as stated
+the window closes at 2026-10-31T21:24:27.000Z
+added after the window closed (2026-10-31T21:30:11.794Z), by another hand or later: /Users/arnelaponin/Documents/Dev/wai-demo/mini-registry/_working/round-08-note-v2-review/_evidence/R1_claims_at_source.log
+added after the window closed (2026-10-31T21:32:57.739Z), by another hand or later: /Users/arnelaponin/Documents/Dev/wai-demo/mini-registry/_working/round-08-note-v2-review/_evidence/R2_figure.log
+added after the window closed (2026-10-31T21:33:23.831Z), by another hand or later: /Users/arnelaponin/Documents/Dev/wai-demo/mini-registry/_working/round-08-note-v2-review/_evidence/R3_register.log
+added after the window closed (2026-10-31T21:35:02.384Z), by another hand or later: /Users/arnelaponin/Documents/Dev/wai-demo/mini-registry/_working/round-08-note-v2-review/_evidence/R4_mechanical.log
+added after the window closed (2026-10-31T21:34:36.623Z), by another hand or later: /Users/arnelaponin/Documents/Dev/wai-demo/mini-registry/_working/round-08-note-v2-review/_evidence/R6_limits.log
+added after the window closed (2026-10-31T21:34:09.706Z), by another hand or later: /Users/arnelaponin/Documents/Dev/wai-demo/mini-registry/_working/round-08-note-v2-review/_evidence/R6_limits_relisted.md
+added after the window closed (2026-10-31T21:32:57.724Z), by another hand or later: /Users/arnelaponin/Documents/Dev/wai-demo/mini-registry/_working/round-08-note-v2-review/_evidence/note_text.gs.txt
+added after the window closed (2026-10-31T21:30:10.007Z), by another hand or later: /Users/arnelaponin/Documents/Dev/wai-demo/mini-registry/_working/round-08-note-v2-review/_evidence/r1_claims.py
+added after the window closed (2026-10-31T21:32:55.663Z), by another hand or later: /Users/arnelaponin/Documents/Dev/wai-demo/mini-registry/_working/round-08-note-v2-review/_evidence/r2_figure.sh
+added after the window closed (2026-10-31T21:33:14.196Z), by another hand or later: /Users/arnelaponin/Documents/Dev/wai-demo/mini-registry/_working/round-08-note-v2-review/_evidence/r3_register.sh
+added after the window closed (2026-10-31T21:35:01.475Z), by another hand or later: /Users/arnelaponin/Documents/Dev/wai-demo/mini-registry/_working/round-08-note-v2-review/_evidence/r4_mech.sh
+added after the window closed (2026-10-31T21:34:35.945Z), by another hand or later: /Users/arnelaponin/Documents/Dev/wai-demo/mini-registry/_working/round-08-note-v2-review/_evidence/r6_limits.py
+added after the window closed (2026-10-31T21:35:02.385Z), by another hand or later: /Users/arnelaponin/Documents/Dev/wai-demo/mini-registry/_working/round-08-note-v2-review/_evidence/record_check.stdout
+added after the window closed (2026-10-31T21:24:43.328Z), by another hand or later: /Users/arnelaponin/Documents/Dev/wai-demo/mini-registry/_working/round-08-note-v2/_evidence/A8_checks.log
+added after the window closed (2026-10-31T21:24:58.664Z), by another hand or later: /Users/arnelaponin/Documents/Dev/wai-demo/mini-registry/_working/round-08-note-v2/_evidence/A9_ledger_show.log
+changed after the end list, by the ledger's own entries: /Users/arnelaponin/Documents/Dev/wai-demo/mini-registry/WHAT_IS_RUNNING.md
+the report's record line names this record: /Users/arnelaponin/Documents/Dev/wai-demo/mini-registry/_working/round-08-note-v2/_evidence/record
+output as declared: /Users/arnelaponin/Documents/Dev/wai-demo/mini-registry/docs/NOTE.md 3753 bytes c537d7041de582a0…
+output as declared: /Users/arnelaponin/Documents/Dev/wai-demo/mini-registry/docs/note/build.py 6561 bytes 1f3d3144ad255fed…
+output as declared: /Users/arnelaponin/Documents/Dev/wai-demo/mini-registry/docs/note/NOTE.pdf 57324 bytes 46a1e66e74cbbb85…
+output as declared: /Users/arnelaponin/Documents/Dev/wai-demo/mini-registry/docs/note/NOTE.html 4437 bytes 5167c1e6b8ec9487…
+declared output is a folder, read as such: /Users/arnelaponin/Documents/Dev/wai-demo/mini-registry/_working/round-08-note-v2/_evidence
+report line 32: quoted block of 1 lines found in /Users/arnelaponin/Documents/Dev/wai-demo/mini-registry/_working/round-08-note-v2/_evidence/A2_limits.log
+report line 52: quoted block of 4 lines found in /Users/arnelaponin/Documents/Dev/wai-demo/mini-registry/_working/round-08-note-v2/_evidence/A1_claims.log
+report line 64: quoted block of 3 lines found in /Users/arnelaponin/Documents/Dev/wai-demo/mini-registry/_working/round-08-note-v2/_evidence/A2_limits.log
+report line 93: quoted block of 2 lines found in /Users/arnelaponin/Documents/Dev/wai-demo/mini-registry/_working/round-08-note-v2/_evidence/A3_register.log
+report line 103: quoted block of 2 lines found in /Users/arnelaponin/Documents/Dev/wai-demo/mini-registry/_working/round-08-note-v2/_evidence/A4_pages.log
+quoted blocks read against the file they name: 5
+wrote /Users/arnelaponin/Documents/Dev/wai-demo/mini-registry/_working/round-08-note-v2-review/_evidence/record_check.out

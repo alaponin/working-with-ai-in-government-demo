@@ -1,0 +1,119 @@
+2026-10-31T21:37:18Z
+# outputs: size and sha256 against the report's outputs line
+found 3753 c537d7041de582a0 2026-10-31T21:20:12Z /Users/arnelaponin/Documents/Dev/wai-demo/mini-registry/docs/NOTE.md
+found 6561 1f3d3144ad255fed 2026-10-31T20:49:21Z /Users/arnelaponin/Documents/Dev/wai-demo/mini-registry/docs/note/build.py
+found 57324 46a1e66e74cbbb85 2026-10-31T21:21:45Z /Users/arnelaponin/Documents/Dev/wai-demo/mini-registry/docs/note/NOTE.pdf
+found 4437 5167c1e6b8ec9487 2026-10-31T21:21:43Z /Users/arnelaponin/Documents/Dev/wai-demo/mini-registry/docs/note/NOTE.html
+found 252 75c94433f420feb8 2026-10-31T20:49:51Z /Users/arnelaponin/Documents/Dev/wai-demo/mini-registry/docs/note/register_exceptions.txt
+found 19123 32698107493debda 2026-10-31T21:24:27Z /Users/arnelaponin/Documents/Dev/wai-demo/mini-registry/_reports/REPORT_NOTE_2026-10-31_v2.md
+evidence folder: 36 entries; record folder: 8 entries
+# A7: the round's start checksums of the sources, checked now (first line a stamp)
+2026-10-31T21:14:44Z
+ec6971e74a6a8387de0e5bd7a5e1cdead6ddf711b8fdac3ccc1d4b7555e11f64  /Users/arnelaponin/Documents/Dev/wai-demo/brief/MINI-REGISTRY-BRIEF.md
+/Users/arnelaponin/Documents/Dev/wai-demo/brief/MINI-REGISTRY-BRIEF.md: OK
+/Users/arnelaponin/Documents/Dev/wai-demo/mini-registry/docs/REQUIREMENTS.md: OK
+/Users/arnelaponin/Documents/Dev/wai-demo/mini-registry/docs/GOAL.md: OK
+/Users/arnelaponin/Documents/Dev/wai-demo/mini-registry/docs/GOAL-QUESTIONS-PAPER.md: OK
+/Users/arnelaponin/Documents/Dev/wai-demo/mini-registry/docs/QUESTIONS-PAPER.md: OK
+/Users/arnelaponin/Documents/Dev/wai-demo/mini-registry/docs/GAPS-PAPER.md: OK
+/Users/arnelaponin/Documents/Dev/wai-demo/mini-registry/docs/COUNT.md: OK
+/Users/arnelaponin/Documents/Dev/wai-demo/mini-registry/docs/DUPLICATES.md: OK
+/Users/arnelaponin/Documents/Dev/wai-demo/mini-registry/_reviews/REVIEW_BUILD_2026-10-31_v2.md: OK
+/Users/arnelaponin/Documents/Dev/wai-demo/mini-registry/_reviews/REVIEW_NOTE_2026-10-31.md: OK
+/Users/arnelaponin/Documents/Dev/wai-demo/_coordination/_ledger/20261031T195657Z_MR_ruled_D-2026-10-31-11.yaml: OK
+/Users/arnelaponin/Documents/Dev/wai-demo/_coordination/_ledger/20261031T181936Z_MR_ruled_D-2026-10-31-07.yaml: OK
+/Users/arnelaponin/Documents/Dev/wai-demo/_coordination/_ledger/20261031T161245Z_MR_ruled_D-2026-10-31-05.yaml: OK
+/Users/arnelaponin/Documents/Dev/wai-demo/_coordination/_ledger/20261031T205234Z_MR_ruled_D-2026-10-31-14.yaml: OK
+/Users/arnelaponin/Library/Application Support/Claude/local-agent-mode-sessions/ffbe2f0e-bc4b-46d3-ad76-b08a7882aae9/7bbcb800-2754-4c5e-97ea-ccb874ea3fee/rpm/plugin_018SiGJfFaxxAvevS4xGQJgb/skills/orchestrator/references/READERS-REGISTER.md: OK
+/Users/arnelaponin/Documents/Dev/wai-demo/mini-registry/_kinds/drafting.md: OK
+/Users/arnelaponin/Library/Application Support/Claude/local-agent-mode-sessions/ffbe2f0e-bc4b-46d3-ad76-b08a7882aae9/7bbcb800-2754-4c5e-97ea-ccb874ea3fee/rpm/plugin_018SiGJfFaxxAvevS4xGQJgb/skills/orchestrator/SKILL.md: OK
+/Users/arnelaponin/Documents/Dev/wai-demo/mini-registry/CONSTANTS.md: OK
+/Users/arnelaponin/Library/Application Support/Claude/local-agent-mode-sessions/ffbe2f0e-bc4b-46d3-ad76-b08a7882aae9/7bbcb800-2754-4c5e-97ea-ccb874ea3fee/rpm/plugin_018SiGJfFaxxAvevS4xGQJgb/skills/orchestrator/references/REPORT-template.md: OK
+/Users/arnelaponin/Documents/Dev/wai-demo/mini-registry/_prompts/PROMPT_NOTE_2026-10-31.md: OK
+/Users/arnelaponin/Documents/Dev/wai-demo/mini-registry/_prompts/PROMPT_REVIEW_NOTE_2026-10-31.md: OK
+SOURCES SHASUM -c EXIT=0
+sources listed: 21
+# src/ against the round's start list
+shasum: src/README.md: No such file or directory
+src/README.md: FAILED open or read
+shasum: src/data/enrolments.json: No such file or directory
+src/data/enrolments.json: FAILED open or read
+shasum: src/data/exam_candidate_list.json: No such file or directory
+src/data/exam_candidate_list.json: FAILED open or read
+shasum: src/data/key_table.json: No such file or directory
+src/data/key_table.json: FAILED open or read
+shasum: src/data/learners.json: No such file or directory
+src/data/learners.json: FAILED open or read
+shasum: src/data/reads.json: No such file or directory
+src/data/reads.json: FAILED open or read
+shasum: src/data/school_census.json: No such file or directory
+src/data/school_census.json: FAILED open or read
+shasum: src/data/schools.json: No such file or directory
+src/data/schools.json: FAILED open or read
+shasum: src/data/social_grant_list.json: No such file or directory
+src/data/social_grant_list.json: FAILED open or read
+shasum: src/lib/data_files.js: No such file or directory
+src/lib/data_files.js: FAILED open or read
+shasum: src/lib/enrol.js: No such file or directory
+src/lib/enrol.js: FAILED open or read
+shasum: src/lib/lists.js: No such file or directory
+src/lib/lists.js: FAILED open or read
+shasum: src/lib/names.js: No such file or directory
+src/lib/names.js: FAILED open or read
+shasum: src/lib/random.js: No such file or directory
+src/lib/random.js: FAILED open or read
+shasum: src/lib/screens.js: No such file or directory
+src/lib/screens.js: FAILED open or read
+shasum: src/lib/search.js: No such file or directory
+src/lib/search.js: FAILED open or read
+shasum: src/package.json: No such file or directory
+src/package.json: FAILED open or read
+shasum: src/reset.js: No such file or directory
+src/reset.js: FAILED open or read
+shasum: src/server.js: No such file or directory
+src/server.js: FAILED open or read
+shasum: src/test/data.test.js: No such file or directory
+src/test/data.test.js: FAILED open or read
+shasum: src/test/goal.test.js: No such file or directory
+src/test/goal.test.js: FAILED open or read
+shasum: src/test/requirements.test.js: No such file or directory
+src/test/requirements.test.js: FAILED open or read
+shasum: src/test/reset.test.js: No such file or directory
+src/test/reset.test.js: FAILED open or read
+shasum: src/test/search.test.js: No such file or directory
+src/test/search.test.js: FAILED open or read
+shasum: WARNING: 24 listed files could not be read
+src files: 24, not OK lines above (none = all OK)
+# A6: the two builds' texts, and the windows
+text.build1 = text.build2 (cmp exit 0)
+4a6756a65cee1ec6  /Users/arnelaponin/Documents/Dev/wai-demo/mini-registry/_working/round-08-note-v2/_evidence/text.build1.txt
+4a6756a65cee1ec6  /Users/arnelaponin/Documents/Dev/wai-demo/mini-registry/_working/round-08-note-v2/_evidence/text.build2.txt
+5167c1e6b8ec9487  /Users/arnelaponin/Documents/Dev/wai-demo/mini-registry/_working/round-08-note-v2/_evidence/html.build1.html
+5167c1e6b8ec9487  /Users/arnelaponin/Documents/Dev/wai-demo/mini-registry/_working/round-08-note-v2/_evidence/html.build2.html
+5167c1e6b8ec9487  /Users/arnelaponin/Documents/Dev/wai-demo/mini-registry/docs/note/NOTE.html
+win.before = win.after (cmp exit 0)
+windows listed before: 253 after: 253
+windows before: 253
+osascript exit 0: saved=true text_height_pt=612.9 usable_height_pt=728.5 smallest_type_pt=11.00 largest_type_pt=14.00 
+BUILD1 EXIT=0
+osascript exit 0: saved=true text_height_pt=612.9 usable_height_pt=728.5 smallest_type_pt=11.00 largest_type_pt=14.00 
+BUILD2 EXIT=0
+windows after: 253
+windows added: 0
+windows owned by osascript or Python now: 0
+# the report's window line against the report's mtime and window.out
+report mtime 2026-10-31T21:24:27
+7:# files the round names as written: 38; the latest, /Users/arnelaponin/Documents/Dev/wai-demo/mini-registry/_reports/REPORT_NOTE_2026-10-31_v2.md, last written 2026-10-31T21:24:27.578Z
+47:window: 2026-10-31 21:11:42 UTC to 2026-10-31 21:24:27 UTC, no pause; closed at the last write of the 38 files the round names as written, REPORT_NOTE_2026-10-31_v2.md, read by stat; printed by round_record.py window, its command and output kept in /Users/arnelaponin/Documents/Dev/wai-demo/mini-registry/_working/round-08-note-v2/_evidence/record/window.out
+# A8, A9 logs: their results
+placement check: clean
+placement exit 0
+trace check: clean
+trace exit 0
+20261031T203812Z_MR_issued_C-2026-10-31-31.yaml
+20261031T204100Z_MR_started_C-2026-10-31-31.yaml
+20261031T205534Z_MR_finished_C-2026-10-31-31.yaml
+20261031T210827Z_MR_issued_C-2026-10-31-31.yaml
+20261031T211142Z_MR_started_C-2026-10-31-31.yaml
+20261031T212458Z_MR_finished_C-2026-10-31-31.yaml
+exit 0

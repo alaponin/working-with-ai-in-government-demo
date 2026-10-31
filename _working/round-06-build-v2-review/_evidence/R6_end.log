@@ -1,0 +1,13 @@
+# R6_end.log 2026-10-31T20:11:03Z
+src/ (data apart) start vs end:
+diff exit 0
+data/ start vs end:
+diff exit 0
+server on 8141 or 8126 listening: 0
+the hook's path line (record/_hook/sitecustomize.py:39):
+        p = os.path.realpath(os.path.abspath(path))
+plant.py lines 37-39:
+    if os.path.exists(dest):
+        shutil.rmtree(dest)
+    shutil.copytree(src, dest, copy_function=shutil.copy, ignore=shutil.ignore_patterns('.DS_Store'))
+opened.jsonl, run 10: 'remove' events on a path of one segment under /: 72

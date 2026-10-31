@@ -1,0 +1,286 @@
+run at 2026-10-31T21:30:11.761962Z
+row with a bar inside its words: K16b
+row with a bar inside its words: K19a
+row with a bar inside its words: K19b
+row with a bar inside its words: K21a
+K01a  found  mini-registry/CONSTANTS.md:29
+    claim: The note is addressed to the Permanent Secretary
+    words: the Permanent Secretary receives the note
+    line : The owner, Arne Laponin, receives every deliverable and every decision paper. Inside Progressa's story, the head of MoEYS's planning unit receives the decision papers, and the Permanent Secretary receives the note.
+K01b  found  brief/MINI-REGISTRY-BRIEF.md:40
+    claim: The note is addressed to the Permanent Secretary
+    words: A one-page note to the Permanent Secretary: what the prototype shows, and what it does not.
+    line : 2. A one-page note to the Permanent Secretary: what the prototype shows, and what it does not.
+K02  found  brief/MINI-REGISTRY-BRIEF.md:7
+    claim: The Ministry is the Ministry of Education, Youth and Skills
+    words: Progressa's Ministry of Education, Youth and Skills
+    line : Progressa's Ministry of Education, Youth and Skills (MoEYS) wants one list of learners instead of three. Before anyone builds the real thing, the planning unit wants to see a small working prototype: a school clerk enrols a child, and the registry does not register the same child twice. The prototype is for agreement. It is not the registry.
+K03  found  brief/MINI-REGISTRY-BRIEF.md:7
+    claim: A clerk can enrol a child; the registry does not register the same child twice
+    words: a school clerk enrols a child, and the registry does not register the same child twice
+    line : Progressa's Ministry of Education, Youth and Skills (MoEYS) wants one list of learners instead of three. Before anyone builds the real thing, the planning unit wants to see a small working prototype: a school clerk enrols a child, and the registry does not register the same child twice. The prototype is for agreement. It is not the registry.
+K04  found  brief/MINI-REGISTRY-BRIEF.md:13
+    claim: Exactly one learner with the same family name, given names and date of birth, capitals aside: shown, nothing new entered
+    words: if it finds exactly one learner with the same family name, given names and date of birth (capitals ignored), it shows that learner and enters nothing new
+    line : - if it finds exactly one learner with the same family name, given names and date of birth (capitals ignored), it shows that learner and enters nothing new;
+K05  found  mini-registry/docs/DUPLICATES.md:26
+    claim: Not recognised when the family name is spelt differently; 4 of the 8 caught, the other four held twice
+    words: Each missed child is held twice, under two learner numbers.
+    line : Each of the four missed differs in its family name by one letter and in nothing else; each of the four caught matches on all three fields letter for letter, in the same capitals. Each missed child is held twice, under two learner numbers.
+K06  found  brief/MINI-REGISTRY-BRIEF.md:7
+    claim: The Ministry wants one list of learners instead of three
+    words: wants one list of learners instead of three
+    line : Progressa's Ministry of Education, Youth and Skills (MoEYS) wants one list of learners instead of three. Before anyone builds the real thing, the planning unit wants to see a small working prototype: a school clerk enrols a child, and the registry does not register the same child twice. The prototype is for agreement. It is not the registry.
+K07  found  brief/MINI-REGISTRY-BRIEF.md:7
+    claim: A small working prototype, for the planning unit's agreement before the real one is built
+    words: Before anyone builds the real thing, the planning unit wants to see a small working prototype
+    line : Progressa's Ministry of Education, Youth and Skills (MoEYS) wants one list of learners instead of three. Before anyone builds the real thing, the planning unit wants to see a small working prototype: a school clerk enrols a child, and the registry does not register the same child twice. The prototype is for agreement. It is not the registry.
+K08  found  brief/MINI-REGISTRY-BRIEF.md:11
+    claim: The clerk enters family name, given names, date of birth and school
+    words: A school clerk enters a child's family name, given names, date of birth and school.
+    line : One goal: **enrol a learner.** A school clerk enters a child's family name, given names, date of birth and school. The registry searches for the child first:
+K09  found  brief/MINI-REGISTRY-BRIEF.md:11
+    claim: The registry searches for the child first
+    words: The registry searches for the child first
+    line : One goal: **enrol a learner.** A school clerk enters a child's family name, given names, date of birth and school. The registry searches for the child first:
+K10  found  brief/MINI-REGISTRY-BRIEF.md:14
+    claim: None found: a new learner number, the record saved
+    words: if it finds none, it gives the child a new learner number and saves the record
+    line : - if it finds none, it gives the child a new learner number and saves the record;
+K11  found  brief/MINI-REGISTRY-BRIEF.md:15
+    claim: The clerk sees which of the two happened
+    words: the clerk sees which of the two happened
+    line : - the clerk sees which of the two happened.
+K12a  found  mini-registry/docs/GOAL-QUESTIONS-PAPER.md:297
+    claim: Refused before the search: a detail missing, a date naming no real day, a school other than the three
+    words: before the search (Q-7), holds: all four entered, spaces only missing (Q-4, Q-5); the date a day (Q-1); the school one of the 3 (Q-6)
+    line : | S-3 | before the search (Q-7), holds: all four entered, spaces only missing (Q-4, Q-5); the date a day (Q-1); the school one of the 3 (Q-6); no age (Q-2); every fault found (Q-9) |
+K12b  found  mini-registry/docs/GOAL-QUESTIONS-PAPER.md:154
+    claim: The school other than the three is refused
+    words: such a school is refused on SC-4
+    line : **Proposal — not a decision.** We recommend Position A: such a school is refused on SC-4.
+K13a  found  mini-registry/docs/GOAL-QUESTIONS-PAPER.md:297
+    claim: The clerk is told each fault
+    words: every fault found (Q-9)
+    line : | S-3 | before the search (Q-7), holds: all four entered, spaces only missing (Q-4, Q-5); the date a day (Q-1); the school one of the 3 (Q-6); no age (Q-2); every fault found (Q-9) |
+K13b  found  mini-registry/docs/GOAL-QUESTIONS-PAPER.md:192
+    claim: The clerk is told each fault
+    words: each refusal names its fault
+    line : **Proposal — not a decision.** We recommend Position A: each refusal names its fault; entries kept.
+K14  found  mini-registry/_reviews/REVIEW_BUILD_2026-10-31_v2.md:69
+    claim: Nothing is saved on a refused entry
+    words: nothing saved (Q-7)
+    line : Both faults named (Q-8, Q-9); the date as no day (Q-1, G-07), the school as missing (Q-6, Q-5); the four entries kept in the way back (Q-8); R-17's line on the screen; `learners.json` `32e01ac3…` and 64 learners before and after — nothing saved (Q-7). Windows 252 before, 252 after, 0 added; the server stopped (`listening on 8141 now: 0`). **As ruled.**
+K15  found  brief/MINI-REGISTRY-BRIEF.md:39
+    claim: It runs on one computer
+    words: The working prototype, on your computer, with its checks passing.
+    line : 1. The working prototype, on your computer, with its checks passing.
+K16a  found  brief/MINI-REGISTRY-BRIEF.md:34
+    claim: It connects to nothing outside the computer
+    words: Connect to anything outside your computer.
+    line : - Connect to anything outside your computer. Other bodies, if the project needs them, are simulated.
+K16b  found  mini-registry/_reviews/REVIEW_BUILD_2026-10-31_v2.md:28
+    claim: It connects to nothing outside the computer (met)
+    words: A6 — nothing connects, nothing opens | met
+    line : | A6 — nothing connects, nothing opens | met | Own grep over `src/*.js` (`<E>/R5_figures.log`): `server.js:76` listens on `HOST` = `'127.0.0.1'`; every `fetch` is `app.base + …`; `child_process` and `net` only wrapped to record; `osascript` only at `goal.test.js:65,67` and `requirements.test.js:63,65`, through `execFileUnwrapped`, started by the checks; `dependencies in package.json: 0`. As the report's table says. |
+K17  found  mini-registry/_reviews/REVIEW_BUILD_2026-10-31_v2.md:24
+    claim: All of its checks pass
+    words: `# fail 0`
+    line : | A2 — every check passes | met | Own run, `<E>/R1_checks.log`: `v20.5.1`, `# tests 57`, `# pass 57`, `# fail 0`, `EXIT=0`, 57 lines `^ok`. |
+K18a  found  brief/MINI-REGISTRY-BRIEF.md:35
+    claim: None of the checks opens a window
+    words: Open a window on its own. Every check of the screens runs without one.
+    line : - Open a window on its own. Every check of the screens runs without one.
+K18b  found  mini-registry/_reviews/REVIEW_BUILD_2026-10-31_v2.md:33
+    claim: None of the checks opens a window (met)
+    words: windows added: 0
+    line : | A11 — R-20 and R-21 read the list before and after | met | Read in the code (`requirements.test.js:56-82, 420-433, 462-476`; the same in `goal.test.js`): `CGWindowListCopyWindowInfo` by `/usr/bin/osascript -l JavaScript`, compared by window number. Own run (`<E>/R1_checks.log`): `ok 43 - R-20 …`, `# R-20: windows listed before: 252; windows listed after: 252; windows added: 0`; `ok 31` and `ok 46 - R-21 …`, `readings while they ran: 2` and `3`, `252`, `added at any reading: 0`. |
+K19a  found  brief/MINI-REGISTRY-BRIEF.md:23
+    claim: 60 invented children
+    words: Children | 60
+    line : | Children | 60 |
+K19b  found  brief/MINI-REGISTRY-BRIEF.md:24
+    claim: three schools
+    words: Schools | 3
+    line : | Schools | 3 |
+K20  found  brief/MINI-REGISTRY-BRIEF.md:19
+    claim: Three lists: school census, examinations authority's candidate list, social grant programme's list
+    words: The prototype starts with invented children spread over three lists: the school census, the examinations authority's candidate list and the social grant programme's list.
+    line : The prototype starts with invented children spread over three lists: the school census, the examinations authority's candidate list and the social grant programme's list.
+K21a  found  brief/MINI-REGISTRY-BRIEF.md:25
+    claim: Eight children on two lists
+    words: Children on more than one list | 8
+    line : | Children on more than one list | 8 |
+K21b  found  mini-registry/docs/DUPLICATES.md:13
+    claim: Eight children on two lists (each on exactly two)
+    words: 8 children, each on exactly two entries
+    line : **How it was counted.** The 8 are the children the key table (`src/data/key_table.json`) names, by `same_child`, on two list entries (`list_entry`); the set was listed first, 8 children, each on exactly two entries. For each entry, the learner number it made or found was read from the reset's record of what the search did, `src/data/enrolments.json` (ruling Q-12). A child is **caught** where both its entries point to one learner, **missed** where they point to two. The reason is read from the three list files, field by field, on the three fields the search compares — family name, given names, date of birth — capitals ignored. The same table, as data, is `docs/count/duplicates.csv`.
+K22  found  mini-registry/docs/DUPLICATES.md:26
+    claim: For four of them the family name on one list differs by a single letter
+    words: Each of the four missed differs in its family name by one letter and in nothing else
+    line : Each of the four missed differs in its family name by one letter and in nothing else; each of the four caught matches on all three fields letter for letter, in the same capitals. Each missed child is held twice, under two learner numbers.
+K23  found  mini-registry/docs/DUPLICATES.md:5
+    claim: The search catches 4 of the 8
+    words: The search catches 4 of the 8.
+    line : **The search catches 4 of the 8.**
+K24a  found  mini-registry/docs/DUPLICATES.md:26
+    claim: The four caught have the same three details on both lists
+    words: each of the four caught matches on all three fields letter for letter
+    line : Each of the four missed differs in its family name by one letter and in nothing else; each of the four caught matches on all three fields letter for letter, in the same capitals. Each missed child is held twice, under two learner numbers.
+K24b  found  mini-registry/docs/DUPLICATES.md:13
+    claim: Each caught child is held once
+    words: A child is **caught** where both its entries point to one learner
+    line : **How it was counted.** The 8 are the children the key table (`src/data/key_table.json`) names, by `same_child`, on two list entries (`list_entry`); the set was listed first, 8 children, each on exactly two entries. For each entry, the learner number it made or found was read from the reset's record of what the search did, `src/data/enrolments.json` (ruling Q-12). A child is **caught** where both its entries point to one learner, **missed** where they point to two. The reason is read from the three list files, field by field, on the three fields the search compares — family name, given names, date of birth — capitals ignored. The same table, as data, is `docs/count/duplicates.csv`.
+K25  found  mini-registry/docs/DUPLICATES.md:26
+    claim: Each of the other four held twice, under two learner numbers
+    words: Each missed child is held twice, under two learner numbers.
+    line : Each of the four missed differs in its family name by one letter and in nothing else; each of the four caught matches on all three fields letter for letter, in the same capitals. Each missed child is held twice, under two learner numbers.
+K26  found  mini-registry/docs/GOAL.md:39
+    claim: The search treats every difference other than capitals as a different child
+    words: every difference but capitals makes two values differ
+    line : - **The registry:** searches after the clerk has entered all four, and first, before it does anything else with the entry and before any write (against S-3, gap 7); it looks among learners only; it compares the family name, the given names and the date of birth; two values that differ in capitals only are the same, and every difference but capitals makes two values differ; it does not compare the school, which is entered and saved and never searched on, nor any field but the three; it does not read the key table. If it finds exactly one learner the goal goes on at S-5; if it finds none, at S-6; on more than one, at F-4.
+K27  found  mini-registry/docs/GOAL.md:105
+    claim: A limit of the search step as defined
+    words: This is a limit of the search step, the brief's own rule
+    line : - **What is saved:** a second record for the same child, with a new learner number (S-6), so that the registry registers the same child twice. This is a limit of the search step, the brief's own rule: of the data's 8 children on more than one list, the search catches 4.
+K28  found  mini-registry/docs/DUPLICATES.md:28
+    claim: The invented data is made so that four of the eight differ; the figure does not show real lists
+    words: it does not show how the real registry would fare on real lists, for the data is invented and made so that 4 of the 8 differ by one letter in the family name alone
+    line : **What the figure shows, and what it does not.** It shows that the brief's own rule — the search for "exactly one learner with the same family name, given names and date of birth (capitals ignored)" (brief line 13) — joins the 4 of the 8 whose three fields match and, for each of the 4 "whose family name is spelt differently on one list" (brief line 26, R-12), "a second record for the same child, with a new learner number … so that the registry registers the same child twice", "a limit of the search step, the brief's own rule" (F-5); it does not show how the real registry would fare on real lists, for the data is invented and made so that 4 of the 8 differ by one letter in the family name alone, and "the prototype is for agreement. It is not the registry" (brief line 7).
+K29  found  brief/MINI-REGISTRY-BRIEF.md:7
+    claim: It is not the registry; it is for agreement
+    words: The prototype is for agreement. It is not the registry.
+    line : Progressa's Ministry of Education, Youth and Skills (MoEYS) wants one list of learners instead of three. Before anyone builds the real thing, the planning unit wants to see a small working prototype: a school clerk enrols a child, and the registry does not register the same child twice. The prototype is for agreement. It is not the registry.
+K30  found  mini-registry/docs/GOAL.md:7
+    claim: Enrolment only; no way to look a learner up
+    words: there is no screen for looking learners up
+    line : **What it is not.** Enrolment is the only goal (the ruling on G-08): the reset of the made-up data is a command outside the clerk's screens and is not a step of this goal, and there is no screen for looking learners up.
+K31a  found  brief/MINI-REGISTRY-BRIEF.md:3
+    claim: Only invented data; Progressa is fictional
+    words: Everything in it is invented for Progressa, the fictional country
+    line : *The project you build in Module 5, with the orchestrator plugin. Give this page to your orchestrator session as the document that governs the project. Everything in it is invented for Progressa, the fictional country every course here uses.*
+K31b  found  brief/MINI-REGISTRY-BRIEF.md:33
+    claim: Every screen says so
+    words: Every screen says "Invented data, Progressa is fictional".
+    line : - Hold any real person's data. Every screen says "Invented data, Progressa is fictional".
+K31c  found  mini-registry/_reviews/REVIEW_BUILD_2026-10-31_v2.md:69
+    claim: Every screen says so (as built)
+    words: R-17's line on the screen
+    line : Both faults named (Q-8, Q-9); the date as no day (Q-1, G-07), the school as missing (Q-6, Q-5); the four entries kept in the way back (Q-8); R-17's line on the screen; `learners.json` `32e01ac3…` and 64 learners before and after — nothing saved (Q-7). Windows 252 before, 252 after, 0 added; the server stopped (`listening on 8141 now: 0`). **As ruled.**
+K32  found  brief/MINI-REGISTRY-BRIEF.md:34
+    claim: Connected to no other body; the three lists are part of the invented data
+    words: Other bodies, if the project needs them, are simulated.
+    line : - Connect to anything outside your computer. Other bodies, if the project needs them, are simulated.
+K33a  found  mini-registry/docs/GOAL-QUESTIONS-PAPER.md:259
+    claim: Two different children sharing the three details: the second taken for the first, nothing new saved
+    words: the child is shown as the learner on SC-2, nothing saved
+    line : **Position A — a way it goes wrong.** F-7, at S-4: the child is shown as the learner on SC-2, nothing saved; a limit of the brief's rule, as F-5 is; met when a clerk enters such a child; it gets a check.
+K33b  found  _coordination/_ledger/20261031T181936Z_MR_ruled_D-2026-10-31-07.yaml:8
+    claim: The paper's proposals are ruled
+    words: Rule all 13 as recommended
+    line : word: "Rule all 13 as recommended (Recommended) — the owner's answer on the question form in MR · orchestrator, 20:19 Tallinn time, 31 October 2026; the 13 as the closing proposal of each section of docs/GOAL-QUESTIONS-PAPER.md gives them"
+K34  found  mini-registry/docs/GOAL.md:95
+    claim: No two children in the invented data share all three
+    words: no two different children share all three fields
+    line : - **What sets it off:** the search of S-4 finds more than one learner. Under the data's settings it is never reached: no two different children share all three fields, and "share" ignores capitals.
+K35  found  _coordination/_ledger/20261031T195657Z_MR_ruled_D-2026-10-31-11.yaml:8
+    claim: Three points kept in their simplest form
+    words: let's currently go with simplest approaches
+    line : word: "For the three questions, let's currently go with simplest approaches. — the owner's message in MR · orchestrator, 21:56 Tallinn time, 31 October 2026; read by the orchestrator as keeping all three as round 6 built them"
+K36a  found  mini-registry/_reviews/REVIEW_BUILD_2026-10-31_v2.md:104
+    claim: An entry of blank characters of any kind, not only spaces, is treated as missing
+    words: Q-4 (any whitespace read as "spaces")
+    line : - **Still for the owner or the orchestrator, from edition 1**: Q-4 (any whitespace read as "spaces"), Q-6 with Q-8 (a fourth school lost on the way back), and F-4 against the building page's item 3 — named again by the report, ruled by no one yet.
+K36b  found  mini-registry/docs/GOAL-QUESTIONS-PAPER.md:115
+    claim: Spaces only are an entry missing (the ruling)
+    words: spaces only are an entry missing
+    line : **Proposal — not a decision.** We recommend no length and no character refused, and Position A: spaces only are an entry missing.
+K37  found  mini-registry/_reviews/REVIEW_BUILD_2026-10-31_v2.md:104
+    claim: A school other than the three, once refused, is not shown again on the way back
+    words: Q-6 with Q-8 (a fourth school lost on the way back)
+    line : - **Still for the owner or the orchestrator, from edition 1**: Q-4 (any whitespace read as "spaces"), Q-6 with Q-8 (a fourth school lost on the way back), and F-4 against the building page's item 3 — named again by the report, ruled by no one yet.
+K38a  found  mini-registry/docs/GOAL-QUESTIONS-PAPER.md:305
+    claim: More than one matching learner: refused, nothing saved
+    words: SC-5 also says nothing was saved
+    line : | F-4 | SC-5 also says nothing was saved (Q-8) |
+K38b  found  mini-registry/docs/GOAL.md:95
+    claim: Never arises in the invented data
+    words: Under the data's settings it is never reached
+    line : - **What sets it off:** the search of S-4 finds more than one learner. Under the data's settings it is never reached: no two different children share all three fields, and "share" ignores capitals.
+K38c  found  mini-registry/_reviews/REVIEW_BUILD_2026-10-31_v2.md:82
+    claim: Checked only on a record added for the purpose
+    words: F-4's check writes its own record
+    line : **The faults of the page, part 1, read against the report.** Item 1: the counts quoted are from the test runs' output. Item 2: checks run with results. Item 3: unchanged since edition 1 (F-4's check writes its own record; for the orchestrator). Item 4: nothing added beyond the task. Item 5: round 5's files untouched. Item 6: no window opened, by the round's checks or this review (0 added at every reading). Item 7, added from G1: the command was tried before the check was written (`W0_probe.log`, three readings, `exit 0`, `0 bytes` on the error stream) — kept.
+K32b  found  mini-registry/docs/GAPS-PAPER.md:36
+    claim: Connected to no other body; the three lists are part of the invented data
+    words: None: the three lists are data inside the prototype, not bodies it connects to
+    line : | G-11 | None: the three lists are data inside the prototype, not bodies it connects to |
+K39a  found  mini-registry/docs/GOAL.md:32
+    claim: A date of birth not written as year, month and day is refused
+    words: a date in any other form is refused (F-2)
+    line : - **The registry:** holds the date of birth to the form YYYY-MM-DD; a date in any other form is refused (F-2). Whether this comes before or after the search of S-4 is not settled by the sources (gap 7).
+K39b  found  mini-registry/docs/GAPS-PAPER.md:32
+    claim: A date of birth not written as year, month and day is refused (the ruling)
+    words: Date as YYYY-MM-DD
+    line : | G-07 | Date as YYYY-MM-DD; school chosen from the three; all four entered before the search |
+K40a  found  mini-registry/docs/GOAL-QUESTIONS-PAPER.md:115
+    claim: A name is not limited in length, and no character in it is refused
+    words: We recommend no length and no character refused
+    line : **Proposal — not a decision.** We recommend no length and no character refused, and Position A: spaces only are an entry missing.
+K40b  found  _coordination/_ledger/20261031T141251Z_MR_ruled_D-2026-10-31-03.yaml:8
+    claim: The gaps paper's proposals are ruled
+    words: Rule all 13 as recommended
+    line : word: "Rule all 13 as recommended (Recommended) — the owner's answer on the question form in MR · orchestrator, 16:12 Tallinn time, 31 October 2026; the thirteen as docs/GAPS-PAPER.md lines 26 to 38 give them"
+K41a  found  mini-registry/docs/GAPS-PAPER.md:196
+    claim: None of the eight differs in capital letters alone; the figure does not show capital letters set aside
+    words: so none of the 8 differs in capitals only
+    line : **Recommendation — a proposal for the owner's ruling, not a decision.** We recommend Position A, with settings 1 to 4 for round 2 — the 4 differ in at least one letter, the other 4 match letter for letter and in the same capitals, so none of the 8 differs in capitals only, and no two different children share all three fields — which gives round 7 the known answer of 4 of the 8 caught and R-12 a count of 4 whether or not its comparison heeds capitals.
+K41b  found  mini-registry/docs/DUPLICATES.md:26
+    claim: None of the eight differs in capital letters alone (as counted)
+    words: each of the four caught matches on all three fields letter for letter, in the same capitals
+    line : Each of the four missed differs in its family name by one letter and in nothing else; each of the four caught matches on all three fields letter for letter, in the same capitals. Each missed child is held twice, under two learner numbers.
+K41c  found  mini-registry/docs/GAPS-PAPER.md:179
+    claim: Capital letters set aside are exercised by the data only where one of the 8 differs in capitals only
+    words: so that line 13's «(capitals ignored)» is exercised by the data
+    line : **A conflict, and how this paper resolves it.** The first edition proposed that some of the 8 differ in capitals only, so that line 13's «(capitals ignored)» is exercised by the data. Register line 172 compares family names «letter for letter»: if that comparison heeds capitals, a child whose family name differs in capitals only is counted as spelt differently, and R-12 counts more than 4. This paper drops the capitals-only children: under setting 2 below, R-12 counts 4 whether its comparison heeds capitals or not, and «(capitals ignored)» is still exercised, by R-05's test (b) at register line 79. The other way out — keeping capitals-only children and having round 2 read register line 172 as capitals ignored — would read into an accepted test and is not recommended.
+== CLAIM rows: 60; not found: 0
+== note sentences (reviewer's split): 36; PAIRS rows: 36
+ 1 same 
+ 2 same 
+ 3 same 
+ 4 same 
+ 5 same 
+ 6 same 
+ 7 same 
+ 8 same 
+ 9 same 
+10 same 
+11 same 
+12 same 
+13 same 
+14 same 
+15 same 
+16 same 
+17 same 
+18 same 
+19 same 
+20 same 
+21 same 
+22 same 
+23 same 
+24 same 
+25 same 
+26 same 
+27 same 
+28 same 
+29 same 
+30 same 
+31 same 
+32 same 
+33 same 
+34 same 
+35 same 
+36 same 
+== sentences differing from PAIRS: 0
+== claim rows used by no sentence: []
+exit 0

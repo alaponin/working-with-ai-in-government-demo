@@ -1,0 +1,10 @@
+2026-10-31T19:31:19Z
+$ ls -ld "/Users/arnelaponin/Documents/Dev/wai-demo/mini-registry/_kinds/analysis.md"
+-rw-r--r--@ 1 arnelaponin  staff  3350 Oct 31 21:29 /Users/arnelaponin/Documents/Dev/wai-demo/mini-registry/_kinds/analysis.md
+exit=0
+$ ls -ld "/Users/arnelaponin/Documents/Dev/wai-demo/mini-registry/_working/round-kind-item/_evidence"
+drwxr-xr-x@ 11 arnelaponin  staff  352 Oct 31 21:31 /Users/arnelaponin/Documents/Dev/wai-demo/mini-registry/_working/round-kind-item/_evidence
+exit=0
+$ ls -ld "/Users/arnelaponin/Documents/Dev/wai-demo/mini-registry/_reports/REPORT_KIND_ITEM_2026-10-31.md"
+-rw-r--r--@ 1 arnelaponin  staff  8491 Oct 31 21:31 /Users/arnelaponin/Documents/Dev/wai-demo/mini-registry/_reports/REPORT_KIND_ITEM_2026-10-31.md
+exit=0

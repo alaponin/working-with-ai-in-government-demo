@@ -1,18 +1,18 @@
 ---
 kind: instruction
 commission_id: C-2026-10-31-26
-version: 1
+version: 2
 session_name: MR · review · the goal built
 kind_of_work: building
-upstream_artefact: /Users/arnelaponin/Documents/Dev/wai-demo/mini-registry/_reports/REPORT_BUILD_2026-10-31.md
+upstream_artefact: /Users/arnelaponin/Documents/Dev/wai-demo/mini-registry/_reports/REPORT_BUILD_2026-10-31_v2.md
 inputs: /Users/arnelaponin/Documents/Dev/wai-demo/mini-registry/_prompts/PROMPT_BUILD_2026-10-31.md · /Users/arnelaponin/Documents/Dev/wai-demo/mini-registry/docs/GOAL.md · /Users/arnelaponin/Documents/Dev/wai-demo/mini-registry/docs/GOAL-QUESTIONS-PAPER.md · /Users/arnelaponin/Documents/Dev/wai-demo/mini-registry/docs/REQUIREMENTS.md · /Users/arnelaponin/Documents/Dev/wai-demo/mini-registry/docs/count/count.csv · /Users/arnelaponin/Documents/Dev/wai-demo/mini-registry/_kinds/building.md
-downstream_artefact: /Users/arnelaponin/Documents/Dev/wai-demo/mini-registry/_reviews/REVIEW_BUILD_2026-10-31.md
+downstream_artefact: /Users/arnelaponin/Documents/Dev/wai-demo/mini-registry/_reviews/REVIEW_BUILD_2026-10-31_v2.md
 serves: the verdict on C-2026-10-31-25, the goal built
 model: Opus — named in the instruction under review's reviewer line
 effort: high — named in the same line
 reviewer: not applicable — this instruction is the review
 waits_for: none
-outputs: /Users/arnelaponin/Documents/Dev/wai-demo/mini-registry/_reviews/REVIEW_BUILD_2026-10-31.md · /Users/arnelaponin/Documents/Dev/wai-demo/mini-registry/_working/round-06-build-review/_evidence/
+outputs: /Users/arnelaponin/Documents/Dev/wai-demo/mini-registry/_reviews/REVIEW_BUILD_2026-10-31_v2.md · /Users/arnelaponin/Documents/Dev/wai-demo/mini-registry/_working/round-06-build-v2-review/_evidence/
 running_record: MR — the issued entry is written in the ledger by ledger.py from this declaration, once this file is complete and before the start message is handed over
 ---
 
@@ -60,3 +60,9 @@ The eight things of part one of the review form, in order, written to `downstrea
 ```text
 /usr/bin/python3 "/Users/arnelaponin/Library/Application Support/Claude/local-agent-mode-sessions/ffbe2f0e-bc4b-46d3-ad76-b08a7882aae9/7bbcb800-2754-4c5e-97ea-ccb874ea3fee/rpm/plugin_018SiGJfFaxxAvevS4xGQJgb/skills/orchestrator/scripts/ledger.py" finished --constants /Users/arnelaponin/Documents/Dev/wai-demo/_coordination/CONSTANTS.md --code MR --id C-2026-10-31-26 --report /Users/arnelaponin/Documents/Dev/wai-demo/mini-registry/_reviews/REVIEW_BUILD_2026-10-31.md --verdict <accepted or not-accepted> [--kinds "<count by kind; left out, brackets and all, where there is no gap>"] --outcome "<one line: the verdict and its ground>" --moved nothing --account <the same account as your started entry> --by "MR · review · the goal built"
 ```
+
+---
+
+## Version 2 — 31 October 2026, 2026-10-31 19:55 UTC: the review of the second attempt
+
+The first edition, `/Users/arnelaponin/Documents/Dev/wai-demo/mini-registry/_reviews/REVIEW_BUILD_2026-10-31.md`, found G1: R-20's check read no list of windows. The working instruction's version 2 changes only the test files, so that the window checks read the list before and after. This edition is written by a new session with an empty memory as `/Users/arnelaponin/Documents/Dev/wai-demo/mini-registry/_reviews/REVIEW_BUILD_2026-10-31_v2.md`, evidence under `/Users/arnelaponin/Documents/Dev/wai-demo/mini-registry/_working/round-06-build-v2-review/_evidence/`; your entries name this edition's file in `--report`. Judge A1 to A13: run `node --test` yourself and read the window counts; read the window list yourself, by your own command, before and after a run; plant a fault that adds a window to the "after" list and see the check fail; confirm that nothing under `src/` changed but the test files. When you copy `src/` for a planted fault, do not keep file times. The first edition's walk through the screens stands; repeat it only if a screen-making file changed.

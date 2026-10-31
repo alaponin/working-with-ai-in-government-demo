@@ -1,0 +1,10 @@
+compared 2026-10-31T20:23:28Z: src.start.sha256 against src.end.sha256 (first line, the time, left out)
+--- every file under src/ but src/data/:
+diff EXIT 0
+files compared: 16
+--- src/data/ (rewritten by the reset):
+diff EXIT 0
+--- src/data/ after reset against end:
+diff EXIT 0
+--- sources start against now:
+diff EXIT 0

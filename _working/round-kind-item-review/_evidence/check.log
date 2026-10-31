@@ -1,0 +1,4 @@
+Sat Oct 31 19:33:32 UTC 2026
+input-changed: MR C-2026-10-31-28 — the started of 2026-10-31T19:33:05Z hashes 3 inputs otherwise than the issued of 2026-10-31T19:19:23Z: /Users/arnelaponin/Documents/Dev/wai-demo/mini-registry/_reports/REPORT_KIND_ITEM_2026-10-31.md (absent at issue, sha256:1fa54de2912a at start); /Users/arnelaponin/Documents/Dev/wai-demo/mini-registry/_prompts/PROMPT_KIND_ITEM_2026-10-31.md (sha256:c3e18d926991 at issue, sha256:e33fbea077fd at start); /Users/arnelaponin/Documents/Dev/wai-demo/mini-registry/_kinds/analysis.md (sha256:a5054bec7db8 at issue, sha256:be2fdb717015 at start) — a finding for the orchestrator and no refusal: it reads what changed in each input named before it reads the report, and tells the review where the change bears on the round; nothing stops the round
+check: 1 defect
+exit=1

@@ -1,0 +1,36 @@
+2026-10-31T20:22:41Z
+C19  school_census:10 · social_grant_list:7
+    family_name   "Praquinvel" | "Praquinvel"  -> equal, letter for letter
+    given_names   "Joren Kekesa" | "Joren Kekesa"  -> equal, letter for letter
+    date_of_birth "2017-04-19" | "2017-04-19"  -> equal, letter for letter
+C24  school_census:20 · exam_candidate_list:20
+    family_name   "Prarasel" | "Praresel"  -> DIFFERENT
+    given_names   "Linbrimel Osrin" | "Linbrimel Osrin"  -> equal, letter for letter
+    date_of_birth "2016-03-07" | "2016-03-07"  -> equal, letter for letter
+C26  exam_candidate_list:22 · social_grant_list:17
+    family_name   "Velnokgal" | "Velnokgal"  -> equal, letter for letter
+    given_names   "Tovsan" | "Tovsan"  -> equal, letter for letter
+    date_of_birth "2016-10-11" | "2016-10-11"  -> equal, letter for letter
+C31  school_census:11 · exam_candidate_list:13
+    family_name   "Miquin" | "Miquin"  -> equal, letter for letter
+    given_names   "Madanta Celcello" | "Madanta Celcello"  -> equal, letter for letter
+    date_of_birth "2019-12-11" | "2019-12-11"  -> equal, letter for letter
+C50  school_census:17 · social_grant_list:19
+    family_name   "Temnok" | "Tomnok"  -> DIFFERENT
+    given_names   "Ostovvin" | "Ostovvin"  -> equal, letter for letter
+    date_of_birth "2018-12-10" | "2018-12-10"  -> equal, letter for letter
+C53  school_census:13 · exam_candidate_list:8
+    family_name   "Orobenwes" | "Orobenwes"  -> equal, letter for letter
+    given_names   "Celgrelo Maisa" | "Celgrelo Maisa"  -> equal, letter for letter
+    date_of_birth "2014-12-17" | "2014-12-17"  -> equal, letter for letter
+C56  school_census:22 · social_grant_list:9
+    family_name   "Orowes" | "Orowus"  -> DIFFERENT
+    given_names   "Etovn" | "Etovn"  -> equal, letter for letter
+    date_of_birth "2020-04-14" | "2020-04-14"  -> equal, letter for letter
+C58  exam_candidate_list:14 · social_grant_list:2
+    family_name   "Tumitem" | "Tomitem"  -> DIFFERENT
+    given_names   "Brihallo Niahaln" | "Brihallo Niahaln"  -> equal, letter for letter
+    date_of_birth "2014-04-12" | "2014-04-12"  -> equal, letter for letter
+children read: 8
+EXIT 0
+2026-10-31T20:22:42Z

@@ -1,0 +1,75 @@
+# r3_planted.sh started 2026-10-31T20:07:38Z
+
+=== plant r20-after-window: test/requirements.test.js
+copied with times not kept: src/server.js mtime 2026-10-31T22:07:38 (real 2026-10-31T21:33:29)
+429a430
+>   after.set("999999", { pid: 1, owner: "planted window" });
+EXIT=1
+# R-21: windows listed before the checks: 252; readings while they ran: 2; windows listed when they ended: 252; windows added at any reading: 0
+not ok 43 - R-20 — the list of windows read before and after: the prototype started, the data reset, a child enrolled through a windowless check, the prototype stopped; 0 windows added
+# R-20: windows listed before: 252; windows listed after: 253; windows added: 1
+# R-21: windows listed before the checks: 252; readings while they ran: 3; windows listed when they ended: 252; windows added at any reading: 0
+# pass 56
+# fail 1
+not ok 43 - R-20 — the list of windows read before and after: the prototype started, the data reset, a child enrolled through a windowless check, the prototype stopped; 0 windows added
+
+=== plant r21-end-window: test/goal.test.js
+copied with times not kept: src/server.js mtime 2026-10-31T22:07:41 (real 2026-10-31T21:33:29)
+459a460
+>   end.set("999998", { pid: 1, owner: "planted window" });
+EXIT=1
+not ok 31 - R-21 — every check of this file ran to its end; the list of windows read before, while they ran and when they ended: 0 windows added at each reading
+# R-21: windows listed before the checks: 252; readings while they ran: 2; windows listed when they ended: 253; windows added at any reading: 1
+# R-20: windows listed before: 252; windows listed after: 252; windows added: 0
+# R-21: windows listed before the checks: 252; readings while they ran: 3; windows listed when they ended: 252; windows added at any reading: 0
+# pass 56
+# fail 1
+not ok 31 - R-21 — every check of this file ran to its end; the list of windows read before, while they ran and when they ended: 0 windows added at each reading
+
+=== plant list-unreadable: test/requirements.test.js
+copied with times not kept: src/server.js mtime 2026-10-31T22:07:44 (real 2026-10-31T21:33:29)
+65c65
+<     execFileUnwrapped('/usr/bin/osascript', ['-l', 'JavaScript', '-e', WINDOWS_JXA],
+---
+>     execFileUnwrapped('/usr/bin/osascript-absent', ['-l', 'JavaScript', '-e', WINDOWS_JXA],
+EXIT=1
+# R-21: windows listed before the checks: 252; readings while they ran: 2; windows listed when they ended: 252; windows added at any reading: 0
+not ok 32 - R-01 — a child enrolled twice: the first enrolment adds one learner, the second none
+not ok 33 - R-02 — the screens offer one goal, enrolling a learner, and no other
+not ok 34 - R-03 — the enrolment screen offers the four entries, and the record saved holds them as entered
+not ok 35 - R-04 — in each enrolment the search is the first act on the data, before any write; the second has no write
+not ok 36 - R-05 — exactly F, G and D, and F and G in other capitals: the learner of the set-up shown, nothing new
+not ok 37 - R-06 — none found, then a family name one letter different: one record saved each time, each a number not held before
+not ok 38 - R-07 — the clerk sees which of the two happened, and the two screens say different things
+not ok 39 - R-14 — reset, count, enrol one child, reset again, count again: both runs give the known numbers
+not ok 40 - R-15 — reset, copy, enrol one child, reset again, copy: the two copies are the same, record by record
+not ok 41 - R-17 — every screen, shown in turn, says "Invented data, Progressa is fictional"
+not ok 42 - R-18 — every connection has both its ends on this computer
+not ok 43 - R-20 — the list of windows read before and after: the prototype started, the data reset, a child enrolled through a windowless check, the prototype stopped; 0 windows added
+not ok 44 - R-22 — on this computer the prototype starts and a child the registry does not hold is enrolled
+not ok 45 - R-17 — every screen any check of this file reached carries the line
+not ok 46 - R-21 — every check of this file ran to its end; the list of windows read before, while they ran and when they ended: 0 windows added at each reading
+# pass 42
+# fail 15
+not ok 43 - R-20 — the list of windows read before and after: the prototype started, the data reset, a child enrolled through a windowless check, the prototype stopped; 0 windows added
+not ok 46 - R-21 — every check of this file ran to its end; the list of windows read before, while they ran and when they ended: 0 windows added at each reading
+
+=== F-4 in enrol.js, as it stands:
+16://   F-4  more than one learner found: nothing saved (G-02).
+88://   { screen: 'SC-5', outcome: 'cannot', failure, entry }       F-4, F-6
+103:    return { screen: 'SC-5', outcome: 'cannot', failure: 'F-4', entry };
+# r3_planted.sh ended 2026-10-31T20:07:46Z
+# r3b started 2026-10-31T20:08:05Z
+103c103,104
+<     return { screen: 'SC-5', outcome: 'cannot', failure: 'F-4', entry };
+---
+>     const n = Math.max(...learners.map((l) => l.learner_number)) + 1; learners.push(Object.assign({ learner_number: n }, entry)); store.saveLearners(learners);
+>     return { screen: 'SC-3', outcome: 'new', learner: learners[learners.length - 1] };
+EXIT=1
+not ok 25 - F-4 — more than one learner found: SC-5, the entry cannot be completed, nothing saved (set up by a record no clerk's entry can make)
+# pass 56
+# fail 1
+  error: |-
+  expected: 'SC-5'
+  actual: 'SC-3'
+# r3b ended 2026-10-31T20:08:09Z

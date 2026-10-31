@@ -1,0 +1,56 @@
+===== 2026-10-31T21:17:44.808Z
+E=/Users/arnelaponin/Documents/Dev/wai-demo/mini-registry/_working/round-08-note-v2/_evidence; V1=/Users/arnelaponin/Documents/Dev/wai-demo/mini-registry/_working/round-08-note/_evidence; /usr/bin/python3 - "$V1/CLAIMS.md" "$E/CLAIMS.md" <<'EOF'
+import sys
+src, dst = sys.argv[1:3]
+t = open(src, encoding="utf-8").read()
+t = t.replace("# CLAIMS — every claim the note will make, each with its source\n",
+ "# CLAIMS — every claim the note will make, each with its source (version 2)\n\n"
+ "Version 2: version 1's 52 rows kept unchanged (copied from version 1's evidence), and six rows added below them for the three facts version 2 adds to the note (K39 to K41) and the source that carries K32's fact (K32b, from the review of version 1, section 8). "
+ "Added short names: gaps = `mini-registry/docs/GAPS-PAPER.md` (ruled whole, D-2026-10-31-03).\n", 1)
+add = """| K32b | Connected to no other body; the three lists are part of the invented data | mini-registry/docs/GAPS-PAPER.md:36 | None: the three lists are data inside the prototype, not bodies it connects to |
+| K39a | A date of birth not written as year, month and day is refused | mini-registry/docs/GOAL.md:32 | a date in any other form is refused (F-2) |
+| K39b | A date of birth not written as year, month and day is refused (the ruling) | mini-registry/docs/GAPS-PAPER.md:32 | Date as YYYY-MM-DD |
+| K40a | A name is not limited in length, and no character in it is refused | mini-registry/docs/GOAL-QUESTIONS-PAPER.md:115 | We recommend no length and no character refused |
+| K40b | The gaps paper's proposals are ruled | _coordination/_ledger/20261031T141251Z_MR_ruled_D-2026-10-31-03.yaml:8 | Rule all 13 as recommended |
+| K41a | None of the eight differs in capital letters alone; the figure does not show capital letters set aside | mini-registry/docs/GAPS-PAPER.md:196 | so none of the 8 differs in capitals only |
+| K41b | None of the eight differs in capital letters alone (as counted) | mini-registry/docs/DUPLICATES.md:26 | each of the four caught matches on all three fields letter for letter, in the same capitals |
+"""
+if not t.endswith("\n"): t += "\n"
+open(dst, "w", encoding="utf-8").write(t + add)
+EOF
+grep -c "^| K" $E/CLAIMS.md; head -5 $E/CLAIMS.md | cut -c1-200
+--- output: {"content": [{"type": "text", "text": "Process started with PID 60197 (shell: /bin/zsh)\nInitial output:\n59\n# CLAIMS \u2014 every claim the note will make, each with its source (version 2)\n\nVersion 2: version 1's 52 rows kept unchanged (copied from version 1's evidence), and six rows added below them for the three facts version 2 adds to the note (K39 to K41) and the source that carries \n\nWritten before the note (the drafting page, item 4). Root of every path: `/Users/arnelaponin/Documents/Dev/wai-demo`. Each row is one claim; `source` is `path:line`; `words` are the words at that line\n\n\u2705 Process 60197 has finished execution"}]}
+===== 2026-10-31T21:17:54.828Z
+E=/Users/arnelaponin/Documents/Dev/wai-demo/mini-registry/_working/round-08-note-v2/_evidence; sed -i '' 's/and six rows added below them/and seven rows added below them/' $E/CLAIMS.md; grep -c "seven rows" $E/CLAIMS.md
+--- output: {"content": [{"type": "text", "text": "Process started with PID 60270 (shell: /bin/zsh)\nInitial output:\n1\n\n\u2705 Process 60270 has finished execution"}]}
+===== 2026-10-31T21:20:33.320Z
+E=/Users/arnelaponin/Documents/Dev/wai-demo/mini-registry/_working/round-08-note-v2/_evidence; V1=/Users/arnelaponin/Documents/Dev/wai-demo/mini-registry/_working/round-08-note/_evidence; printf '%s\n' '| K41c | Capital letters set aside are exercised by the data only where one of the 8 differs in capitals only | mini-registry/docs/GAPS-PAPER.md:179 | so that line 13'"'"'s «(capitals ignored)» is exercised by the data |' >> $E/CLAIMS.md; sed -i '' 's/and seven rows added below them/and eight rows added below them/' $E/CLAIMS.md
+/usr/bin/python3 - "$V1/PAIRS.md" "$E/PAIRS.md" <<'EOF'
+import sys
+src, dst = sys.argv[1:3]
+head, rows = [], []
+for line in open(src, encoding="utf-8"):
+    if line.startswith("| ") and not line.startswith("| #") and not line.startswith("|---"):
+        c = [x.strip() for x in line.rstrip("\n").split("|")[1:-1]]
+        rows.append([c[1], c[2]])
+    else:
+        head.append(line)
+rows[11] = ["An entry with a detail missing, a date of birth not written as year, month and day or not naming a real day, or a school other than the three is refused before the search; the clerk is told each fault, and nothing is saved.",
+            "K12a, K12b, K13a, K13b, K14, K39a, K39b, K40b"]
+rows.insert(12, ["A name is not limited in length, and no character in it is refused.", "K40a, K33b"])
+# old 22 (index 21) is now index 22; insert after it
+assert rows[22][0].startswith("The invented data is made so"), rows[22][0]
+rows.insert(23, ["None of the eight differs in capital letters alone, so the figure does not show capital letters being set aside.", "K41a, K41b, K41c, K40b"])
+for r in rows:
+    if r[0] in ("It is connected to no other body.",) or r[0].startswith("The three lists are part of the invented data"):
+        r[1] += ", K32b"
+h = "".join(head).replace("# PAIRS — each sentence of the note, with the claim rows of CLAIMS.md it rests on",
+    "# PAIRS — each sentence of the note, with the claim rows of CLAIMS.md it rests on (version 2)\n\nVersion 2: version 1's 34 rows, with sentence 12 changed, sentences 13 and 24 added, and K32b added to sentences 28 and 29.")
+out = h.rstrip("\n") + "\n"
+for i, r in enumerate(rows, 1):
+    out += "| %d | %s | %s |\n" % (i, r[0], r[1])
+open(dst, "w", encoding="utf-8").write(out)
+print(len(rows))
+EOF
+grep -n "^| 1[234] \|^| 2[3-9] " $E/PAIRS.md | cut -c1-120; head -8 $E/PAIRS.md
+--- output: {"content": [{"type": "text", "text": "Process started with PID 60975 (shell: /bin/zsh)\nInitial output:\n36\n20:| 12 | An entry with a detail missing, a date of birth not written as year, month and day or not naming a real day, o\n21:| 13 | A name is not limited in length, and no character in it is refused. | K40a, K33b |\n22:| 14 | The prototype runs on one computer and connects to nothing outside it. | K15, K16a, K16b |\n31:| 23 | The invented data is made so that exactly four of the eight differ in this way: the figure shows how the rule \n32:| 24 | None of the eight differs in capital letters alone, so the figure does not show capital letters being set asid\n33:| 25 | What the prototype does not show | none |\n34:| 26 | It is not the registry. | K29 |\n35:| 27 | It is for agreement, i

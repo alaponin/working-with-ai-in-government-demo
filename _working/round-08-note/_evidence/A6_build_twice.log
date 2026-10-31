@@ -1,0 +1,23 @@
+2026-10-31T20:52:01Z
+windows before: 252
+# build 1
+source /Users/arnelaponin/Documents/Dev/wai-demo/mini-registry/docs/NOTE.md, 3542 bytes
+wrote /Users/arnelaponin/Documents/Dev/wai-demo/mini-registry/docs/note/NOTE.html, 4226 bytes
+osascript exit 0: saved=true text_height_pt=587.9 usable_height_pt=728.5 smallest_type_pt=11.00 largest_type_pt=14.00 
+wrote /Users/arnelaponin/Documents/Dev/wai-demo/mini-registry/docs/note/NOTE.pdf, 57094 bytes; type 11 pt, margins 20 mm
+BUILD1 EXIT=0
+fea63b9a329ac97c26a93da5395338a465af290ca7b8bb4aa32f417f6d537799  /Users/arnelaponin/Documents/Dev/wai-demo/mini-registry/docs/note/NOTE.html
+85eab30b99fe293a60cdab95c27522f8a62714b42c70f4040e4b98b3cc96f161  /Users/arnelaponin/Documents/Dev/wai-demo/mini-registry/docs/note/NOTE.pdf
+2026-10-31T20:52:12Z
+# build 2
+source /Users/arnelaponin/Documents/Dev/wai-demo/mini-registry/docs/NOTE.md, 3542 bytes
+wrote /Users/arnelaponin/Documents/Dev/wai-demo/mini-registry/docs/note/NOTE.html, 4226 bytes
+osascript exit 0: saved=true text_height_pt=587.9 usable_height_pt=728.5 smallest_type_pt=11.00 largest_type_pt=14.00 
+wrote /Users/arnelaponin/Documents/Dev/wai-demo/mini-registry/docs/note/NOTE.pdf, 57094 bytes; type 11 pt, margins 20 mm
+BUILD2 EXIT=0
+fea63b9a329ac97c26a93da5395338a465af290ca7b8bb4aa32f417f6d537799  /Users/arnelaponin/Documents/Dev/wai-demo/mini-registry/docs/note/NOTE.html
+6ff1a6b80f6a305267db6805a57f28f1b2a5fb85fd6b72d787bd6b34a6fb5666  /Users/arnelaponin/Documents/Dev/wai-demo/mini-registry/docs/note/NOTE.pdf
+windows after: 252
+windows added: 0
+windows owned by osascript or Python now: 0
+2026-10-31T20:52:23Z

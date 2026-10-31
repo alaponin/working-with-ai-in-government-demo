@@ -1,0 +1,51 @@
+# round_record.py window, run at 2026-10-31T21:24:27.551Z
+# run with: round_record.py window --ledger /Users/arnelaponin/Documents/Dev/wai-demo/_coordination/_ledger --code MR --id C-2026-10-31-31 --report /Users/arnelaponin/Documents/Dev/wai-demo/mini-registry/_reports/REPORT_NOTE_2026-10-31_v2.md --write --out /Users/arnelaponin/Documents/Dev/wai-demo/mini-registry/_working/round-08-note-v2/_evidence/record/window.out
+# opens at the started entry 20261031T211142Z_MR_started_C-2026-10-31-31.yaml, its `written`: 2026-10-31T21:11:42.000Z
+# the finished entry: 20261031T205534Z_MR_finished_C-2026-10-31-31.yaml, 2026-10-31T20:55:34.000Z
+# the record: /Users/arnelaponin/Documents/Dev/wai-demo/mini-registry/_working/round-08-note-v2/_evidence/record
+# wrote the line into /Users/arnelaponin/Documents/Dev/wai-demo/mini-registry/_reports/REPORT_NOTE_2026-10-31_v2.md; its last write, read back by stat: 2026-10-31T21:24:27.578Z
+# files the round names as written: 38; the latest, /Users/arnelaponin/Documents/Dev/wai-demo/mini-registry/_reports/REPORT_NOTE_2026-10-31_v2.md, last written 2026-10-31T21:24:27.578Z
+#   2026-10-31T20:49:21.097Z · /Users/arnelaponin/Documents/Dev/wai-demo/mini-registry/docs/note/build.py · named in the outputs line
+#   2026-10-31T21:14:44.115Z · /Users/arnelaponin/Documents/Dev/wai-demo/mini-registry/_working/round-08-note-v2/_evidence/sources.list · in a folder the outputs line names
+#   2026-10-31T21:14:44.753Z · /Users/arnelaponin/Documents/Dev/wai-demo/mini-registry/_working/round-08-note-v2/_evidence/sources.start.sha256 · in a folder the outputs line names
+#   2026-10-31T21:14:44.794Z · /Users/arnelaponin/Documents/Dev/wai-demo/mini-registry/_working/round-08-note-v2/_evidence/src.start.sha256 · in a folder the outputs line names
+#   2026-10-31T21:14:44.799Z · /Users/arnelaponin/Documents/Dev/wai-demo/mini-registry/_working/round-08-note-v2/_evidence/NOTE.v1.md · in a folder the outputs line names
+#   2026-10-31T21:19:03.401Z · /Users/arnelaponin/Documents/Dev/wai-demo/mini-registry/_working/round-08-note-v2/_evidence/LIMITS.md · in a folder the outputs line names
+#   2026-10-31T21:19:23.819Z · /Users/arnelaponin/Documents/Dev/wai-demo/mini-registry/_working/round-08-note-v2/_evidence/a2_limits_v2.py · in a folder the outputs line names
+#   2026-10-31T21:19:50.025Z · /Users/arnelaponin/Documents/Dev/wai-demo/mini-registry/_working/round-08-note-v2/_evidence/A2_limits_before_change.log · in a folder the outputs line names
+#   2026-10-31T21:20:12.987Z · /Users/arnelaponin/Documents/Dev/wai-demo/mini-registry/docs/NOTE.md · named in the outputs line
+#   2026-10-31T21:20:32.707Z · /Users/arnelaponin/Documents/Dev/wai-demo/mini-registry/_working/round-08-note-v2/_evidence/CLAIMS.md · in a folder the outputs line names
+#   2026-10-31T21:20:32.798Z · /Users/arnelaponin/Documents/Dev/wai-demo/mini-registry/_working/round-08-note-v2/_evidence/PAIRS.md · in a folder the outputs line names
+#   2026-10-31T21:20:48.644Z · /Users/arnelaponin/Documents/Dev/wai-demo/mini-registry/_working/round-08-note-v2/_evidence/a1_claims.py · in a folder the outputs line names
+#   2026-10-31T21:20:48.646Z · /Users/arnelaponin/Documents/Dev/wai-demo/mini-registry/_working/round-08-note-v2/_evidence/pdfread.py · in a folder the outputs line names
+#   2026-10-31T21:20:49.149Z · /Users/arnelaponin/Documents/Dev/wai-demo/mini-registry/_working/round-08-note-v2/_evidence/A1_claims.log · in a folder the outputs line names
+#   2026-10-31T21:20:49.631Z · /Users/arnelaponin/Documents/Dev/wai-demo/mini-registry/_working/round-08-note-v2/_evidence/A2_limits.log · in a folder the outputs line names
+#   2026-10-31T21:21:23.382Z · /Users/arnelaponin/Documents/Dev/wai-demo/mini-registry/_working/round-08-note-v2/_evidence/A3_register.log · in a folder the outputs line names
+#   2026-10-31T21:21:38.821Z · /Users/arnelaponin/Documents/Dev/wai-demo/mini-registry/_working/round-08-note-v2/_evidence/win.before.tsv · in a folder the outputs line names
+#   2026-10-31T21:21:42.545Z · /Users/arnelaponin/Documents/Dev/wai-demo/mini-registry/_working/round-08-note-v2/_evidence/text.build1.txt · in a folder the outputs line names
+#   2026-10-31T21:21:43.198Z · /Users/arnelaponin/Documents/Dev/wai-demo/mini-registry/_working/round-08-note-v2/_evidence/info.build1.txt · in a folder the outputs line names
+#   2026-10-31T21:21:43.234Z · /Users/arnelaponin/Documents/Dev/wai-demo/mini-registry/_working/round-08-note-v2/_evidence/html.build1.html · in a folder the outputs line names
+#   2026-10-31T21:21:43.622Z · /Users/arnelaponin/Documents/Dev/wai-demo/mini-registry/docs/note/NOTE.html · named in the outputs line
+#   2026-10-31T21:21:45.915Z · /Users/arnelaponin/Documents/Dev/wai-demo/mini-registry/docs/note/NOTE.pdf · named in the outputs line
+#   2026-10-31T21:21:46.628Z · /Users/arnelaponin/Documents/Dev/wai-demo/mini-registry/_working/round-08-note-v2/_evidence/text.build2.txt · in a folder the outputs line names
+#   2026-10-31T21:21:47.285Z · /Users/arnelaponin/Documents/Dev/wai-demo/mini-registry/_working/round-08-note-v2/_evidence/info.build2.txt · in a folder the outputs line names
+#   2026-10-31T21:21:47.321Z · /Users/arnelaponin/Documents/Dev/wai-demo/mini-registry/_working/round-08-note-v2/_evidence/html.build2.html · in a folder the outputs line names
+#   2026-10-31T21:21:48.159Z · /Users/arnelaponin/Documents/Dev/wai-demo/mini-registry/_working/round-08-note-v2/_evidence/win.after.tsv · in a folder the outputs line names
+#   2026-10-31T21:21:48.222Z · /Users/arnelaponin/Documents/Dev/wai-demo/mini-registry/_working/round-08-note-v2/_evidence/A6_build_twice.log · in a folder the outputs line names
+#   2026-10-31T21:21:59.165Z · /Users/arnelaponin/Documents/Dev/wai-demo/mini-registry/_working/round-08-note-v2/_evidence/A6_compare.log · in a folder the outputs line names
+#   2026-10-31T21:21:59.338Z · /Users/arnelaponin/Documents/Dev/wai-demo/mini-registry/_working/round-08-note-v2/_evidence/A4_pages.log · in a folder the outputs line names
+#   2026-10-31T21:21:59.367Z · /Users/arnelaponin/Documents/Dev/wai-demo/mini-registry/_working/round-08-note-v2/_evidence/A5_r23.log · in a folder the outputs line names
+#   2026-10-31T21:22:17.671Z · /Users/arnelaponin/Documents/Dev/wai-demo/mini-registry/_working/round-08-note-v2/_evidence/note_text.txt · in a folder the outputs line names
+#   2026-10-31T21:22:18.131Z · /Users/arnelaponin/Documents/Dev/wai-demo/mini-registry/_working/round-08-note-v2/_evidence/A3_register_pdftext.log · in a folder the outputs line names
+#   2026-10-31T21:22:19.094Z · /Users/arnelaponin/Documents/Dev/wai-demo/mini-registry/_working/round-08-note-v2/_evidence/sources.end.sha256 · in a folder the outputs line names
+#   2026-10-31T21:22:19.184Z · /Users/arnelaponin/Documents/Dev/wai-demo/mini-registry/_working/round-08-note-v2/_evidence/src.end.sha256 · in a folder the outputs line names
+#   2026-10-31T21:22:19.204Z · /Users/arnelaponin/Documents/Dev/wai-demo/mini-registry/_working/round-08-note-v2/_evidence/A7_unchanged.log · in a folder the outputs line names
+#   2026-10-31T21:22:32.308Z · /Users/arnelaponin/Documents/Dev/wai-demo/mini-registry/_working/round-08-note-v2/_evidence/note_diff.log · in a folder the outputs line names
+#   2026-10-31T21:22:32.481Z · /Users/arnelaponin/Documents/Dev/wai-demo/mini-registry/_working/round-08-note-v2/_evidence/outputs.log · in a folder the outputs line names
+#   2026-10-31T21:24:27.578Z · /Users/arnelaponin/Documents/Dev/wai-demo/mini-registry/_reports/REPORT_NOTE_2026-10-31_v2.md · the report
+
+window: 2026-10-31 21:11:42 UTC to 2026-10-31 21:24:27 UTC, no pause; closed at the last write of the 38 files the round names as written, REPORT_NOTE_2026-10-31_v2.md, read by stat; printed by round_record.py window, its command and output kept in /Users/arnelaponin/Documents/Dev/wai-demo/mini-registry/_working/round-08-note-v2/_evidence/record/window.out
+
+
+## Findings — 0
+none

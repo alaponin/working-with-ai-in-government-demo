@@ -1,20 +1,20 @@
 ---
 kind: instruction
 commission_id: C-2026-10-31-27
-version: 1
+version: 2
 session_name: MR · work · the pages against the kind item
 kind_of_work: none — the method's own work in this estate: amending a page of a kind of work for a kind of gap that recurs
 upstream_artefact: /Users/arnelaponin/Documents/Dev/wai-demo/mini-registry/_reviews/REVIEW_QUESTIONS_2026-10-31.md
-inputs: /Users/arnelaponin/Documents/Dev/wai-demo/mini-registry/_reviews/REVIEW_QUESTIONS_2026-10-31_v2.md · /Users/arnelaponin/Documents/Dev/wai-demo/mini-registry/_reviews/REVIEW_COMMIT3_2026-10-31.md · /Users/arnelaponin/Documents/Dev/wai-demo/mini-registry/_kinds/analysis.md · /Users/arnelaponin/Documents/Dev/wai-demo/mini-registry/_prompts/PROMPT_COMMIT3_2026-10-31.md · /Users/arnelaponin/Library/Application Support/Claude/local-agent-mode-sessions/ffbe2f0e-bc4b-46d3-ad76-b08a7882aae9/7bbcb800-2754-4c5e-97ea-ccb874ea3fee/rpm/plugin_018SiGJfFaxxAvevS4xGQJgb/skills/orchestrator/references/FINDING-KINDS.md
-downstream_artefact: /Users/arnelaponin/Documents/Dev/wai-demo/mini-registry/_reports/REPORT_KIND_ITEM_2026-10-31.md
+inputs: /Users/arnelaponin/Documents/Dev/wai-demo/mini-registry/_reviews/REVIEW_QUESTIONS_2026-10-31_v2.md · /Users/arnelaponin/Documents/Dev/wai-demo/mini-registry/_reviews/REVIEW_COMMIT3_2026-10-31.md · /Users/arnelaponin/Documents/Dev/wai-demo/mini-registry/_prompts/PROMPT_COMMIT3_2026-10-31.md · /Users/arnelaponin/Library/Application Support/Claude/local-agent-mode-sessions/ffbe2f0e-bc4b-46d3-ad76-b08a7882aae9/7bbcb800-2754-4c5e-97ea-ccb874ea3fee/rpm/plugin_018SiGJfFaxxAvevS4xGQJgb/skills/orchestrator/references/FINDING-KINDS.md
+downstream_artefact: /Users/arnelaponin/Documents/Dev/wai-demo/mini-registry/_reports/REPORT_KIND_ITEM_2026-10-31_v2.md
 serves: the working prototype, deliverable 1 of the constants — the ledger's check names the kind item recurring in three reviews of MR (the setting ledger.recurring_kind, 3), and the procedure, section 3, has a task amend the page of the kind of work for it
 answers_kind: item — the kind ledger.py check names recurring in MR C-2026-10-31-12 versions 1 and 2 and MR C-2026-10-31-24 version 1
 model: Sonnet — the content is the three reviews' own gaps; what remains is writing each as one line of the page it belongs to, which a reviewer can check line by line
 effort: medium — three gaps, one page, a few lines
 reviewer: a separate session started from the review instruction below, as a sub-agent of this session; Sonnet, effort medium — the review reads each gap against the line written for it
 review_instruction: /Users/arnelaponin/Documents/Dev/wai-demo/mini-registry/_prompts/PROMPT_REVIEW_KIND_ITEM_2026-10-31.md
-waits_for: C-2026-10-31-23 — the third commit of the day accepted first, since it stages every file
-outputs: /Users/arnelaponin/Documents/Dev/wai-demo/mini-registry/_kinds/analysis.md · /Users/arnelaponin/Documents/Dev/wai-demo/mini-registry/_working/round-kind-item/_evidence/ · /Users/arnelaponin/Documents/Dev/wai-demo/mini-registry/_reports/REPORT_KIND_ITEM_2026-10-31.md
+waits_for: none
+outputs: /Users/arnelaponin/Documents/Dev/wai-demo/mini-registry/_working/round-kind-item-v2/_evidence/ · /Users/arnelaponin/Documents/Dev/wai-demo/mini-registry/_reports/REPORT_KIND_ITEM_2026-10-31_v2.md
 running_record: MR — the issued entry is written in the ledger by ledger.py from this declaration, once this file is complete and before the start message is handed over
 ---
 
@@ -84,3 +84,13 @@ Load the shell tool this session has for commands on the computer (desktop-comma
 ```
 
 Never create a scheduled task to start it. Wait for it, and end with one line: its verdict line and its path, or why it could not run.
+
+---
+
+## Version 2 — 31 October 2026, 2026-10-31 19:36 UTC: the gap of the review
+
+The review of version 1, `/Users/arnelaponin/Documents/Dev/wai-demo/mini-registry/_reviews/REVIEW_KIND_ITEM_2026-10-31.md`, is **not accepted** on one gap, G1 (form): A4, the trace check exit 0, could not be met, because this instruction named `_kinds/analysis.md` both among its inputs — pinned by its checksum at issue — and among its outputs, so the round's own amendment showed as an input changed. **The cause is this instruction, not the round.** The review found the page line carrying each gap.
+
+This version is carried out by a new session with an empty memory. **It changes nothing in `_kinds/analysis.md`**, which stands as version 1 amended it and is no longer an input or an output of this instruction; the report reads it. Your entries are those of the sections above, with `--report` in the `finished` entry naming `/Users/arnelaponin/Documents/Dev/wai-demo/mini-registry/_reports/REPORT_KIND_ITEM_2026-10-31_v2.md`; the program reads the version from this declaration.
+
+**What this version does:** re-establish A1, A2 and A5 against the three reviews and the page as it now stands, by commands of your own, evidence under `/Users/arnelaponin/Documents/Dev/wai-demo/mini-registry/_working/round-kind-item-v2/_evidence/`; quote version 1's `diff` of the page (its evidence, `_working/round-kind-item/_evidence/`) in place of A3 and show by `shasum -a 256` that the page is as that diff left it; write the report; run the trace check of A4, which now has nothing changed to name.

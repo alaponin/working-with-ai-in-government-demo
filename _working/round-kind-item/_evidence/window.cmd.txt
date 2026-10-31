@@ -1,0 +1,2 @@
+$ round_record.py window --ledger /Users/arnelaponin/Documents/Dev/wai-demo/_coordination/_ledger --code MR --id C-2026-10-31-27 --report /Users/arnelaponin/Documents/Dev/wai-demo/mini-registry/_reports/REPORT_KIND_ITEM_2026-10-31.md --written /Users/arnelaponin/Documents/Dev/wai-demo/mini-registry/_kinds/analysis.md --written /Users/arnelaponin/Documents/Dev/wai-demo/mini-registry/_working/round-kind-item/_evidence --write --out /Users/arnelaponin/Documents/Dev/wai-demo/mini-registry/_working/round-kind-item/_evidence/window.out
+2026-10-31T19:32:21Z

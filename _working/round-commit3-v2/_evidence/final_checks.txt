@@ -1,0 +1,8 @@
+## mini-registry status
+ M WHAT_IS_RUNNING.md
+?? _reports/REPORT_COMMIT3_2026-10-31_v2.md
+?? _working/round-commit3-v2/
+## _coordination status
+?? _ledger/20261031T192304Z_MR_finished_C-2026-10-31-23.yaml
+drwxr-xr-x@ 23 arnelaponin  staff  736 Oct 31 21:23 /Users/arnelaponin/Documents/Dev/wai-demo/mini-registry/_working/round-commit3-v2/_evidence
+-rw-r--r--@ 1 arnelaponin  staff  4494 Oct 31 21:22 /Users/arnelaponin/Documents/Dev/wai-demo/mini-registry/_reports/REPORT_COMMIT3_2026-10-31_v2.md

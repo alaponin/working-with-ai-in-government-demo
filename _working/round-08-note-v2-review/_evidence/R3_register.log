@@ -1,0 +1,95 @@
+2026-10-31T21:33:20Z
+# self-test
+program under test: /Users/arnelaponin/Library/Application Support/Claude/local-agent-mode-sessions/ffbe2f0e-bc4b-46d3-ad76-b08a7882aae9/7bbcb800-2754-4c5e-97ea-ccb874ea3fee/rpm/plugin_018SiGJfFaxxAvevS4xGQJgb/skills/orchestrator/scripts/readers_register_check.py
+scratch folder:     /tmp/readers_register_selftest_s_w7xhqk
+ok   R1 — 232 patterns (lists 1 to 4: 15, 9, 168, 40) each refuse their own line; 6 clean lines pass
+ok   R2 — planted Markdown: exit 1; 5 of 5 planted faults reported at their lines; clean lines refused: none
+ok   R3 — planted Word document: exit 1; the table cell's date and the text box's American word reported at paragraphs 2 and 4; the text box read 1 time(s); its plain outer paragraph refused: False
+ok   R4 — a clean document of 7 lines: exit 0
+ok   R5 — the review's two sentences of the work's own history: exit 1; 3 of 3 accounts reported
+ok   R6 — an inflected word opening a sentence, and listed words inside longer words: exit 0
+ok   R7 — P21 excepted and listed under its exception, M16 still refused (exit 1); an exception naming no pattern: exit 2
+ok   R8 — a missing document, a document of another kind, a broken Word package: exits 2, 2, 2
+ok   R9 — a copy whose pattern for 'gray' cannot fire refuses to read a clean document: exit 2
+ok   R10 — a document holding the sign at-least and a Cyrillic word: exit 1; its American word reported at line 2 with both intact: True; an error printed: False
+
+cases: 10, failed: 0
+SELFTEST EXIT=0
+# check over NOTE.md, no exceptions
+readers_register_check — the register a document for a business reader is written in
+self-test: 232 patterns (list 1: 15, list 2: 9, list 3: 168, list 4: 40) each refused its own line; 6 clean lines passed every pattern
+document: /Users/arnelaponin/Documents/Dev/wai-demo/mini-registry/docs/NOTE.md
+          3753 bytes, sha256 c537d7041de582a060d79d608bf9af08d2bab5d7ee5fb40e3df07056bd8083fb; 16 units of text read
+
+1. forbidden material (rule 3) — 1 refused
+  line 3  [the name of a program, skill or plugin]  «Skills»  …anent Secretary, Ministry of Education, Youth and Skills**
+
+2. reported investigation and an account of the work (rule 4) — 0 refused
+
+3. idiomatic expression (rule 2) — 0 refused
+
+4. American usage (rule 1) — 0 refused
+
+5. British spellings present (the positive list)
+  recognise: 1, programme: 2
+
+exceptions named: 0
+
+refused: 1 (list 1: 1, list 2: 0, list 3: 0, list 4: 0); excepted by name: 0
+exit 1
+CHECK (no exceptions) EXIT=1
+# check over NOTE.md, with the build folder's exceptions
+the name of a program, skill or plugin :: the Ministry's own name, "Ministry of Education, Youth and Skills", holds the word "Skills"; the note is addressed to its Permanent Secretary under that name, and no program, skill or plugin is named :: Skills
+75c94433f420feb8fdb183e7459a780d7f5f18784d8d8a03f7f0cd8944ba680e  /Users/arnelaponin/Documents/Dev/wai-demo/mini-registry/docs/note/register_exceptions.txt
+readers_register_check — the register a document for a business reader is written in
+self-test: 232 patterns (list 1: 15, list 2: 9, list 3: 168, list 4: 40) each refused its own line; 6 clean lines passed every pattern
+document: /Users/arnelaponin/Documents/Dev/wai-demo/mini-registry/docs/NOTE.md
+          3753 bytes, sha256 c537d7041de582a060d79d608bf9af08d2bab5d7ee5fb40e3df07056bd8083fb; 16 units of text read
+
+1. forbidden material (rule 3) — 0 refused
+
+2. reported investigation and an account of the work (rule 4) — 0 refused
+
+3. idiomatic expression (rule 2) — 0 refused
+
+4. American usage (rule 1) — 0 refused
+
+5. British spellings present (the positive list)
+  recognise: 1, programme: 2
+
+exceptions named: 1
+  [the name of a program, skill or plugin], only of the form Skills — the Ministry's own name, "Ministry of Education, Youth and Skills", holds the word "Skills"; the note is addressed to its Permanent Secretary under that name, and no program, skill or plugin is named — 1 matches excepted
+      line 3  «Skills»  …anent Secretary, Ministry of Education, Youth and Skills**
+
+refused: 0 (list 1: 0, list 2: 0, list 3: 0, list 4: 0); excepted by name: 1
+exit 0
+CHECK (with exceptions) EXIT=0
+# check over the PDF's text extracted here by Ghostscript, with the exceptions
+readers_register_check — the register a document for a business reader is written in
+self-test: 232 patterns (list 1: 15, list 2: 9, list 3: 168, list 4: 40) each refused its own line; 6 clean lines passed every pattern
+document: /Users/arnelaponin/Documents/Dev/wai-demo/mini-registry/_working/round-08-note-v2-review/_evidence/note_text.gs.txt
+          4078 bytes, sha256 c04bd2b5a6fb6dc4f942e5459774f4a3962753ecf4ceb05c2b35dfd65a4fa71a; 42 units of text read
+
+1. forbidden material (rule 3) — 0 refused
+
+2. reported investigation and an account of the work (rule 4) — 0 refused
+
+3. idiomatic expression (rule 2) — 0 refused
+
+4. American usage (rule 1) — 0 refused
+
+5. British spellings present (the positive list)
+  recognise: 1, programme: 2
+
+exceptions named: 1
+  [the name of a program, skill or plugin], only of the form Skills — the Ministry's own name, "Ministry of Education, Youth and Skills", holds the word "Skills"; the note is addressed to its Permanent Secretary under that name, and no program, skill or plugin is named — 1 matches excepted
+
+refused: 0 (list 1: 0, list 2: 0, list 3: 0, list 4: 0); excepted by name: 1
+exit 0
+CHECK (PDF text, gs, with exceptions) EXIT=0
+# the words of NOTE.md (markup removed) against the words of the PDF's text
+words: NOTE.md 683, PDF text (gs) 683, build1 text 683, build2 text 683
+NOTE.md == PDF text (gs), word for word: True
+build1 == build2, word for word: True ; byte for byte: True
+build2 text == PDF text (gs), word for word: True
+exit 0

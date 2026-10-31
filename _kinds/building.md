@@ -11,6 +11,7 @@
 4. **To decide for every case what the instruction decided for one**, such as adding a retry or a default everywhere when one place was asked for.
 5. **To repair a defect in the data or the groundwork it was not asked to repair.** It is reported, and becomes a candidate for a new instruction.
 6. **To open a window on the screen.** Every check runs without one.
+7. **To set a register's test aside as needing a permission or a window without trying a command that asks for neither.** The attempt and what it printed are kept. *(Added 31 October 2026 from the review `_reviews/REVIEW_BUILD_2026-10-31.md`, gap G1, in the reviewer's proposed words.)*
 
 ## 2. What the review chat runs
 - The project's checks again, in its own run, with the result kept.

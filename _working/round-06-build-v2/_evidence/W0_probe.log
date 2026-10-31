@@ -1,0 +1,14 @@
+2026-10-31T19:58:46.3NZ
+frontmost application before: Claude
+reading 1: exit 0, 252 windows listed, 408 ms, error stream: 0 bytes
+reading 2: exit 0, 252 windows listed, 416 ms, error stream: 0 bytes
+reading 3: exit 0, 252 windows listed, 416 ms, error stream: 0 bytes
+frontmost application after: Claude
+windows in reading 3 not in reading 1: 0
+windows owned by osascript in any reading: 0
+windows of a permission dialog's owner (UserNotificationCenter, universalAccessAuthWarn, SecurityAgent, tccd, System Settings) in reading 3 not in reading 1: 0
+a window number and its owner, the first three lines of reading 1 (number, owner pid, owner):
+13757	778	CursorUIViewService
+13711	778	CursorUIViewService
+13716	778	CursorUIViewService
+2026-10-31T19:58:48Z

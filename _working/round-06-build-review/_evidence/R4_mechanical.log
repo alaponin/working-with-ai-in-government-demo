@@ -1,0 +1,168 @@
+=== 2026-10-31T19:46:02Z trace check over the report
+trace check of /Users/arnelaponin/Documents/Dev/wai-demo/mini-registry/_reports/REPORT_BUILD_2026-10-31.md (a report)
+  constants: /Users/arnelaponin/Documents/Dev/wai-demo/mini-registry/CONSTANTS.md
+  the estate's root: /Users/arnelaponin/Documents/Dev/wai-demo/mini-registry
+  the places: instruction _prompts/ = /Users/arnelaponin/Documents/Dev/wai-demo/mini-registry/_prompts, report _reports/ = /Users/arnelaponin/Documents/Dev/wai-demo/mini-registry/_reports, review _reviews/ = /Users/arnelaponin/Documents/Dev/wai-demo/mini-registry/_reviews
+  coordination: /Users/arnelaponin/Documents/Dev/wai-demo/_coordination/CONSTANTS.md
+  the instruction: /Users/arnelaponin/Documents/Dev/wai-demo/mini-registry/_prompts/PROMPT_BUILD_2026-10-31.md
+  agrees: the report answers C-2026-10-31-25, the instruction's commission_id
+  agrees: the instruction's downstream_artefact is this report
+  outputs: 8 of 8 named exist
+  inputs: 10 of 10 pinned by 20261031T192636Z_MR_issued_C-2026-10-31-25.yaml hash the same now
+trace check: clean
+trace exit 0
+=== 2026-10-31T19:46:02Z placement check over the instruction under review
+placement check of /Users/arnelaponin/Documents/Dev/wai-demo/mini-registry/_prompts/PROMPT_BUILD_2026-10-31.md
+  constants: /Users/arnelaponin/Documents/Dev/wai-demo/mini-registry/CONSTANTS.md
+  the estate's root: /Users/arnelaponin/Documents/Dev/wai-demo/mini-registry
+  the places: instruction _prompts/ = /Users/arnelaponin/Documents/Dev/wai-demo/mini-registry/_prompts, report _reports/ = /Users/arnelaponin/Documents/Dev/wai-demo/mini-registry/_reports, review _reviews/ = /Users/arnelaponin/Documents/Dev/wai-demo/mini-registry/_reviews
+  not judged: /Users/arnelaponin/Documents/Dev/wai-demo/mini-registry/src/server.js — of none of the three kinds
+  not judged: /Users/arnelaponin/Documents/Dev/wai-demo/mini-registry/src/lib/enrol.js — of none of the three kinds
+  not judged: /Users/arnelaponin/Documents/Dev/wai-demo/mini-registry/src/lib/screens.js — of none of the three kinds
+  not judged: /Users/arnelaponin/Documents/Dev/wai-demo/mini-registry/src/test/goal.test.js — of none of the three kinds
+  not judged: /Users/arnelaponin/Documents/Dev/wai-demo/mini-registry/src/test/requirements.test.js — of none of the three kinds
+  not judged: /Users/arnelaponin/Documents/Dev/wai-demo/mini-registry/src/package.json — of none of the three kinds
+  not judged: /Users/arnelaponin/Documents/Dev/wai-demo/mini-registry/_working/round-06-build/_evidence/ — a folder
+  in its place: /Users/arnelaponin/Documents/Dev/wai-demo/mini-registry/_reports/REPORT_BUILD_2026-10-31.md — a report, under /Users/arnelaponin/Documents/Dev/wai-demo/mini-registry/_reports
+  running_record: names the code MR (read from the constants)
+placement check: clean
+placement exit 0
+=== 2026-10-31T19:46:03Z record check, the options check.out prints on '# run with:', the reviewer's own --out
+# round_record.py check, run at 2026-10-31T19:46:03.666Z, over the record /Users/arnelaponin/Documents/Dev/wai-demo/mini-registry/_working/round-06-build/_evidence/record
+# run with: --record /Users/arnelaponin/Documents/Dev/wai-demo/mini-registry/_working/round-06-build/_evidence/record --report /Users/arnelaponin/Documents/Dev/wai-demo/mini-registry/_reports/REPORT_BUILD_2026-10-31.md --tolerance 2 --out /Users/arnelaponin/Documents/Dev/wai-demo/mini-registry/_working/round-06-build-review/_evidence/record_check.out
+# report: /Users/arnelaponin/Documents/Dev/wai-demo/mini-registry/_reports/REPORT_BUILD_2026-10-31.md
+# files changed after the end list inside the window: 29
+
+## Findings — 9
+added after the end list, inside the window, on no record and not named in the report: /Users/arnelaponin/Documents/Dev/wai-demo/mini-registry/_working/round-06-build-review/_evidence/planted/f4-saves/src/README.md (last changed 2026-10-31T12:48:16.928Z)
+added after the end list, inside the window, on no record and not named in the report: /Users/arnelaponin/Documents/Dev/wai-demo/mini-registry/_working/round-06-build-review/_evidence/planted/f4-saves/src/lib/data_files.js (last changed 2026-10-31T18:54:33.321Z)
+added after the end list, inside the window, on no record and not named in the report: /Users/arnelaponin/Documents/Dev/wai-demo/mini-registry/_working/round-06-build-review/_evidence/planted/f4-saves/src/lib/lists.js (last changed 2026-10-31T18:53:51.658Z)
+added after the end list, inside the window, on no record and not named in the report: /Users/arnelaponin/Documents/Dev/wai-demo/mini-registry/_working/round-06-build-review/_evidence/planted/f4-saves/src/lib/names.js (last changed 2026-10-31T18:53:27.701Z)
+added after the end list, inside the window, on no record and not named in the report: /Users/arnelaponin/Documents/Dev/wai-demo/mini-registry/_working/round-06-build-review/_evidence/planted/f4-saves/src/lib/random.js (last changed 2026-10-31T18:53:26.799Z)
+added after the end list, inside the window, on no record and not named in the report: /Users/arnelaponin/Documents/Dev/wai-demo/mini-registry/_working/round-06-build-review/_evidence/planted/f4-saves/src/reset.js (last changed 2026-10-31T18:54:04.453Z)
+added after the end list, inside the window, on no record and not named in the report: /Users/arnelaponin/Documents/Dev/wai-demo/mini-registry/_working/round-06-build-review/_evidence/planted/f4-saves/src/test/data.test.js (last changed 2026-10-31T18:55:05.144Z)
+added after the end list, inside the window, on no record and not named in the report: /Users/arnelaponin/Documents/Dev/wai-demo/mini-registry/_working/round-06-build-review/_evidence/planted/f4-saves/src/test/reset.test.js (last changed 2026-10-31T18:55:28.501Z)
+added after the end list, inside the window, on no record and not named in the report: /Users/arnelaponin/Documents/Dev/wai-demo/mini-registry/_working/round-06-build-review/_evidence/planted/f4-saves/src/test/search.test.js (last changed 2026-10-31T18:55:27.560Z)
+
+## Read and found as stated
+the window closes at 2026-10-31T19:42:21.000Z
+added after the end list, inside the window, named in the report: /Users/arnelaponin/Documents/Dev/wai-demo/mini-registry/_reports/REPORT_KIND_ITEM_2026-10-31_v2.md
+added after the window closed (2026-10-31T19:43:58.168Z), by another hand or later: /Users/arnelaponin/Documents/Dev/wai-demo/mini-registry/_reviews/REVIEW_KIND_ITEM_2026-10-31_v2.md
+added after the window closed (2026-10-31T19:44:40.832Z), by another hand or later: /Users/arnelaponin/Documents/Dev/wai-demo/mini-registry/_working/round-06-build-review/_evidence/R1_checks.log
+added after the window closed (2026-10-31T19:45:21.669Z), by another hand or later: /Users/arnelaponin/Documents/Dev/wai-demo/mini-registry/_working/round-06-build-review/_evidence/R2_walk.log
+added after the window closed (2026-10-31T19:45:42.705Z), by another hand or later: /Users/arnelaponin/Documents/Dev/wai-demo/mini-registry/_working/round-06-build-review/_evidence/R3_planted.log
+added after the window closed (2026-10-31T19:45:42.657Z), by another hand or later: /Users/arnelaponin/Documents/Dev/wai-demo/mini-registry/_working/round-06-build-review/_evidence/R3_planted.tap
+added after the window closed (2026-10-31T19:46:03.233Z), by another hand or later: /Users/arnelaponin/Documents/Dev/wai-demo/mini-registry/_working/round-06-build-review/_evidence/R4_mechanical.log
+added after the window closed (2026-10-31T19:44:38.047Z), by another hand or later: /Users/arnelaponin/Documents/Dev/wai-demo/mini-registry/_working/round-06-build-review/_evidence/data.start.sha256
+added after the window closed (2026-10-31T19:45:57.751Z), by another hand or later: /Users/arnelaponin/Documents/Dev/wai-demo/mini-registry/_working/round-06-build-review/_evidence/mech.sh
+added after the window closed (2026-10-31T19:45:33.327Z), by another hand or later: /Users/arnelaponin/Documents/Dev/wai-demo/mini-registry/_working/round-06-build-review/_evidence/plant.py
+added after the window closed (2026-10-31T19:45:21.479Z), by another hand or later: /Users/arnelaponin/Documents/Dev/wai-demo/mini-registry/_working/round-06-build-review/_evidence/planted/f4-saves/src/data/enrolments.json
+added after the window closed (2026-10-31T19:45:21.480Z), by another hand or later: /Users/arnelaponin/Documents/Dev/wai-demo/mini-registry/_working/round-06-build-review/_evidence/planted/f4-saves/src/data/exam_candidate_list.json
+added after the window closed (2026-10-31T19:45:21.480Z), by another hand or later: /Users/arnelaponin/Documents/Dev/wai-demo/mini-registry/_working/round-06-build-review/_evidence/planted/f4-saves/src/data/key_table.json
+added after the window closed (2026-10-31T19:45:21.482Z), by another hand or later: /Users/arnelaponin/Documents/Dev/wai-demo/mini-registry/_working/round-06-build-review/_evidence/planted/f4-saves/src/data/learners.json
+added after the window closed (2026-10-31T19:45:21.483Z), by another hand or later: /Users/arnelaponin/Documents/Dev/wai-demo/mini-registry/_working/round-06-build-review/_evidence/planted/f4-saves/src/data/reads.json
+added after the window closed (2026-10-31T19:45:21.483Z), by another hand or later: /Users/arnelaponin/Documents/Dev/wai-demo/mini-registry/_working/round-06-build-review/_evidence/planted/f4-saves/src/data/school_census.json
+added after the window closed (2026-10-31T19:45:21.484Z), by another hand or later: /Users/arnelaponin/Documents/Dev/wai-demo/mini-registry/_working/round-06-build-review/_evidence/planted/f4-saves/src/data/schools.json
+added after the window closed (2026-10-31T19:45:21.485Z), by another hand or later: /Users/arnelaponin/Documents/Dev/wai-demo/mini-registry/_working/round-06-build-review/_evidence/planted/f4-saves/src/data/social_grant_list.json
+added after the window closed (2026-10-31T19:45:40.581Z), by another hand or later: /Users/arnelaponin/Documents/Dev/wai-demo/mini-registry/_working/round-06-build-review/_evidence/planted/f4-saves/src/lib/enrol.js
+added after the end list, inside the window, named in the report: /Users/arnelaponin/Documents/Dev/wai-demo/mini-registry/_working/round-06-build-review/_evidence/planted/f4-saves/src/lib/screens.js
+added after the end list, inside the window, named in the report: /Users/arnelaponin/Documents/Dev/wai-demo/mini-registry/_working/round-06-build-review/_evidence/planted/f4-saves/src/lib/search.js
+added after the end list, inside the window, named in the report: /Users/arnelaponin/Documents/Dev/wai-demo/mini-registry/_working/round-06-build-review/_evidence/planted/f4-saves/src/package.json
+added after the end list, inside the window, named in the report: /Users/arnelaponin/Documents/Dev/wai-demo/mini-registry/_working/round-06-build-review/_evidence/planted/f4-saves/src/server.js
+added after the end list, inside the window, named in the report: /Users/arnelaponin/Documents/Dev/wai-demo/mini-registry/_working/round-06-build-review/_evidence/planted/f4-saves/src/test/goal.test.js
+added after the end list, inside the window, named in the report: /Users/arnelaponin/Documents/Dev/wai-demo/mini-registry/_working/round-06-build-review/_evidence/planted/f4-saves/src/test/requirements.test.js
+added after the window closed (2026-10-31T19:45:16.785Z), by another hand or later: /Users/arnelaponin/Documents/Dev/wai-demo/mini-registry/_working/round-06-build-review/_evidence/screens/W0_SC-1.html
+added after the window closed (2026-10-31T19:45:16.851Z), by another hand or later: /Users/arnelaponin/Documents/Dev/wai-demo/mini-registry/_working/round-06-build-review/_evidence/screens/W1_held.html
+added after the window closed (2026-10-31T19:45:17.081Z), by another hand or later: /Users/arnelaponin/Documents/Dev/wai-demo/mini-registry/_working/round-06-build-review/_evidence/screens/W2_new.html
+added after the window closed (2026-10-31T19:45:17.474Z), by another hand or later: /Users/arnelaponin/Documents/Dev/wai-demo/mini-registry/_working/round-06-build-review/_evidence/screens/W3_again.html
+added after the window closed (2026-10-31T19:45:17.756Z), by another hand or later: /Users/arnelaponin/Documents/Dev/wai-demo/mini-registry/_working/round-06-build-review/_evidence/screens/W4_back.html
+added after the window closed (2026-10-31T19:45:20.166Z), by another hand or later: /Users/arnelaponin/Documents/Dev/wai-demo/mini-registry/_working/round-06-build-review/_evidence/screens/X1_refused.html
+added after the window closed (2026-10-31T19:45:20.219Z), by another hand or later: /Users/arnelaponin/Documents/Dev/wai-demo/mini-registry/_working/round-06-build-review/_evidence/screens/X2_refused_empty.html
+added after the window closed (2026-10-31T19:45:20.688Z), by another hand or later: /Users/arnelaponin/Documents/Dev/wai-demo/mini-registry/_working/round-06-build-review/_evidence/screens/X3_back_kept.html
+added after the window closed (2026-10-31T19:45:15.606Z), by another hand or later: /Users/arnelaponin/Documents/Dev/wai-demo/mini-registry/_working/round-06-build-review/_evidence/server.walk.out
+added after the window closed (2026-10-31T19:45:19.070Z), by another hand or later: /Users/arnelaponin/Documents/Dev/wai-demo/mini-registry/_working/round-06-build-review/_evidence/server.wrong.out
+added after the window closed (2026-10-31T19:44:37.972Z), by another hand or later: /Users/arnelaponin/Documents/Dev/wai-demo/mini-registry/_working/round-06-build-review/_evidence/src.start.sha256
+added after the window closed (2026-10-31T19:45:10.400Z), by another hand or later: /Users/arnelaponin/Documents/Dev/wai-demo/mini-registry/_working/round-06-build-review/_evidence/walk.sh
+added after the window closed (2026-10-31T19:42:35.830Z), by another hand or later: /Users/arnelaponin/Documents/Dev/wai-demo/mini-registry/_working/round-06-build/_evidence/A10_ledger.log
+added after the end list, inside the window, named in the report: /Users/arnelaponin/Documents/Dev/wai-demo/mini-registry/_working/round-06-build/_evidence/A8_checks.log
+added after the window closed (2026-10-31T19:43:06.188Z), by another hand or later: /Users/arnelaponin/Documents/Dev/wai-demo/mini-registry/_working/round-kind-item-v2-review/_evidence/check.log
+added after the window closed (2026-10-31T19:42:41.038Z), by another hand or later: /Users/arnelaponin/Documents/Dev/wai-demo/mini-registry/_working/round-kind-item-v2-review/_evidence/figure.log
+added after the window closed (2026-10-31T19:43:26.413Z), by another hand or later: /Users/arnelaponin/Documents/Dev/wai-demo/mini-registry/_working/round-kind-item-v2-review/_evidence/placement.log
+added after the window closed (2026-10-31T19:43:05.390Z), by another hand or later: /Users/arnelaponin/Documents/Dev/wai-demo/mini-registry/_working/round-kind-item-v2-review/_evidence/show27.log
+added after the window closed (2026-10-31T19:43:04.607Z), by another hand or later: /Users/arnelaponin/Documents/Dev/wai-demo/mini-registry/_working/round-kind-item-v2-review/_evidence/trace.log
+added after the end list, inside the window, named in the report: /Users/arnelaponin/Documents/Dev/wai-demo/mini-registry/_working/round-kind-item-v2/_evidence/00_start.txt
+added after the end list, inside the window, named in the report: /Users/arnelaponin/Documents/Dev/wai-demo/mini-registry/_working/round-kind-item-v2/_evidence/A1_gaps.txt
+added after the end list, inside the window, named in the report: /Users/arnelaponin/Documents/Dev/wai-demo/mini-registry/_working/round-kind-item-v2/_evidence/A2_page_lines.txt
+added after the end list, inside the window, named in the report: /Users/arnelaponin/Documents/Dev/wai-demo/mini-registry/_working/round-kind-item-v2/_evidence/A3_page_state.txt
+added after the end list, inside the window, named in the report: /Users/arnelaponin/Documents/Dev/wai-demo/mini-registry/_working/round-kind-item-v2/_evidence/A4_trace_check.txt
+added after the end list, inside the window, named in the report: /Users/arnelaponin/Documents/Dev/wai-demo/mini-registry/_working/round-kind-item-v2/_evidence/A5_show.txt
+added after the end list, inside the window, named in the report: /Users/arnelaponin/Documents/Dev/wai-demo/mini-registry/_working/round-kind-item-v2/_evidence/A5_show_before_finished.txt
+added after the end list, inside the window, named in the report: /Users/arnelaponin/Documents/Dev/wai-demo/mini-registry/_working/round-kind-item-v2/_evidence/GAPS.planted.md
+added after the end list, inside the window, named in the report: /Users/arnelaponin/Documents/Dev/wai-demo/mini-registry/_working/round-kind-item-v2/_evidence/S7_listing.txt
+added after the end list, inside the window, named in the report: /Users/arnelaponin/Documents/Dev/wai-demo/mini-registry/_working/round-kind-item-v2/_evidence/check_lines.sh
+added after the end list, inside the window, named in the report: /Users/arnelaponin/Documents/Dev/wai-demo/mini-registry/_working/round-kind-item-v2/_evidence/window.cmd.txt
+added after the end list, inside the window, named in the report: /Users/arnelaponin/Documents/Dev/wai-demo/mini-registry/_working/round-kind-item-v2/_evidence/window.out
+changed after the end list, by the ledger's own entries: /Users/arnelaponin/Documents/Dev/wai-demo/mini-registry/WHAT_IS_RUNNING.md
+the report's record line names this record: /Users/arnelaponin/Documents/Dev/wai-demo/mini-registry/_working/round-06-build/_evidence/record
+output as declared: /Users/arnelaponin/Documents/Dev/wai-demo/mini-registry/src/server.js 3661 bytes f1e54e4fa0364985…
+output as declared: /Users/arnelaponin/Documents/Dev/wai-demo/mini-registry/src/lib/enrol.js 5324 bytes 378230f1b2f82d68…
+output as declared: /Users/arnelaponin/Documents/Dev/wai-demo/mini-registry/src/lib/screens.js 4703 bytes 446a49e6567b3adc…
+output as declared: /Users/arnelaponin/Documents/Dev/wai-demo/mini-registry/src/test/goal.test.js 18739 bytes afbf7a8a03f8230f…
+output as declared: /Users/arnelaponin/Documents/Dev/wai-demo/mini-registry/src/test/requirements.test.js 17719 bytes 3a095ee99b35c196…
+output as declared: /Users/arnelaponin/Documents/Dev/wai-demo/mini-registry/src/package.json 286 bytes 61bd479d6b29fb20…
+declared output is a folder, read as such: /Users/arnelaponin/Documents/Dev/wai-demo/mini-registry/_working/round-06-build/_evidence
+report line 31: quoted block of 5 lines found in /Users/arnelaponin/Documents/Dev/wai-demo/mini-registry/_working/round-06-build/_evidence/A1_stage1.log
+report line 45: quoted block of 4 lines found in /Users/arnelaponin/Documents/Dev/wai-demo/mini-registry/_working/round-06-build/_evidence/A2_tests.log
+report line 58: quoted block of 4 lines found in /Users/arnelaponin/Documents/Dev/wai-demo/mini-registry/_working/round-06-build/_evidence/A3_checks.log
+report line 71: quoted block of 4 lines found in /Users/arnelaponin/Documents/Dev/wai-demo/mini-registry/_working/round-06-build/_evidence/A4_planted.log
+report line 80: quoted block of 5 lines found in /Users/arnelaponin/Documents/Dev/wai-demo/mini-registry/_working/round-06-build/_evidence/A4_planted.log
+report line 92: quoted block of 4 lines found in /Users/arnelaponin/Documents/Dev/wai-demo/mini-registry/_working/round-06-build/_evidence/A5_round5.log
+report line 117: quoted block of 1 lines found in /Users/arnelaponin/Documents/Dev/wai-demo/mini-registry/_working/round-06-build/_evidence/clerk_walk.log
+report line 125: quoted block of 1 lines found in /Users/arnelaponin/Documents/Dev/wai-demo/mini-registry/_working/round-06-build/_evidence/A7_sources.log
+report line 135: quoted block of 6 lines found in /Users/arnelaponin/Documents/Dev/wai-demo/mini-registry/_working/round-06-build/_evidence/A8_checks.log
+report line 156: quoted block of 3 lines found in /Users/arnelaponin/Documents/Dev/wai-demo/mini-registry/_working/round-06-build/_evidence/screens/2_new.html
+report line 164: quoted block of 3 lines found in /Users/arnelaponin/Documents/Dev/wai-demo/mini-registry/_working/round-06-build/_evidence/screens/3_again.html
+report line 172: quoted block of 4 lines found in /Users/arnelaponin/Documents/Dev/wai-demo/mini-registry/_working/round-06-build/_evidence/screens/4_refused.html
+report line 181: quoted block of 2 lines found in /Users/arnelaponin/Documents/Dev/wai-demo/mini-registry/_working/round-06-build/_evidence/screens/5_cannot.html
+quoted blocks read against the file they name: 13
+wrote /Users/arnelaponin/Documents/Dev/wai-demo/mini-registry/_working/round-06-build-review/_evidence/record_check.out
+record check exit 1
+=== 2026-10-31T19:46:04Z ledger show C-2026-10-31-25
+show exit 0
+20261031T190933Z_MR_issued_C-2026-10-31-25.yaml
+  kind: issued
+  written: 2026-10-31T19:09:33Z
+  account: arne.laponin@gmail.com
+  computer: MacBookPro
+20261031T192623Z_MR_issued_C-2026-10-31-25.yaml
+  kind: issued
+  written: 2026-10-31T19:26:23Z
+  account: arne.laponin@gmail.com
+  computer: MacBookPro
+20261031T192636Z_MR_issued_C-2026-10-31-25.yaml
+  kind: issued
+  written: 2026-10-31T19:26:36Z
+  account: arne.laponin@gmail.com
+  computer: MacBookPro
+20261031T192828Z_MR_started_C-2026-10-31-25.yaml
+  kind: started
+  written: 2026-10-31T19:28:28Z
+  account: arne.laponin@gmail.com
+  computer: MacBookPro
+  started_by: unknown
+20261031T194235Z_MR_finished_C-2026-10-31-25.yaml
+  kind: finished
+  written: 2026-10-31T19:42:35Z
+  account: arne.laponin@gmail.com
+  computer: MacBookPro
+  outcome: "The goal is built under src/: lib/enrol.js (S-1 to S-7, F-1 to F-7 as ruled, search by round 5's lib/search.js unchanged), lib/screens.js (SC-1 to SC-5, each with R-17's line), server.js on 127.0.0.1 only; node --test passes 57 of 57 (round 5's 29 and 28 new), 0 of 20 paired requirements and failures without a check; both planted faults fail by name; round 5's files unchanged but package.json's start script; sources unchanged; placement, trace and record checks exit 0; F-4 is reached only on a record the check writes, and the window list was not read (report sections 3, 4)"
+=== 2026-10-31T19:46:04Z ledger check
+check exit 1
+       3
+--- lines naming MR
+1:input-changed: MR C-2026-10-31-26 — the started of 2026-10-31T19:42:54Z hashes 1 input otherwise than the issued of 2026-10-31T19:09:34Z: /Users/arnelaponin/Documents/Dev/wai-demo/mini-registry/_prompts/PROMPT_BUILD_2026-10-31.md (sha256:2a9543ef8b76 at issue, sha256:a6167418b262 at start) — a finding for the orchestrator and no refusal: it reads what changed in each input named before it reads the report, and tells the review where the change bears on the round; nothing stops the round
+2:input-changed: MR C-2026-10-31-28 — the started of 2026-10-31T19:42:11Z hashes 1 input otherwise than the issued of 2026-10-31T19:36:07Z: /Users/arnelaponin/Documents/Dev/wai-demo/mini-registry/_reports/REPORT_KIND_ITEM_2026-10-31_v2.md (absent at issue, sha256:69b0de25a5b8 at start) — a finding for the orchestrator and no refusal: it reads what changed in each input named before it reads the report, and tells the review where the change bears on the round; nothing stops the round
+=== 2026-10-31T19:46:32Z the reviewer's planted copy was made by shutil.copytree, which keeps the source files' times, so 9 of its files carry times inside the round's window; they are touched to now and the record check is run again
+record check (second run) exit 0
+# files changed after the end list inside the window: 14
+## Findings — 0

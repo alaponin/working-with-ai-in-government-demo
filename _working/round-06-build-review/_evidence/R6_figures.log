@@ -1,0 +1,62 @@
+2026-10-31T19:47:51Z
+=== the figure 57 = 29 + 13 + 15, counted by grep over the test files (the report counted the TAP output)
+test/data.test.js 18
+test/goal.test.js 13
+test/requirements.test.js 15
+test/reset.test.js 3
+test/search.test.js 8
+total 57
+TAP lines '^ok' in the reviewer's own run: 57
+=== A5: round 5 files, the round start list against now
+2026-10-31T19:31:57Z
+5d09b36143fbba7d397ea81bf5159bf619ba110b5b6f964872b9938ec43cee59  ./README.md
+4435bfa8398d2230c2a45738b633afcb2d3063f523e3390458328be0400bb3dd  ./data/enrolments.json
+1d0
+< 2026-10-31T19:31:57Z
+3,10d1
+< 4435bfa8398d2230c2a45738b633afcb2d3063f523e3390458328be0400bb3dd  ./data/enrolments.json
+< 6be0ea384c1e95e1ff1c59fabe157a5f54ad9fc54d0a3e5050a6eb21476b4224  ./data/exam_candidate_list.json
+< ae86a420f759f3927a108ee58b2dbd10ab3fd688447e248815f3979d7bbd30da  ./data/key_table.json
+< 32e01ac3a4a25a130d4b54cbaca140252690e13aa3c20a122210ce0232350b66  ./data/learners.json
+< 62ffc8413ccf864c57e238644419881854b992cfb18b9652cdc0eaae7f4b6f25  ./data/reads.json
+< 9c62470ee7bb837245f1e4d6b60348ca5d941e240be4ded670fe065adf6a137c  ./data/school_census.json
+< ba3aef875bd398e24c0cd29322b3173bb6c2b94457927c24532de000e4fa8512  ./data/schools.json
+< ed1c694c37603d608b2c43bc0cd21c68cdb891e9393e7d2c1b1d674228ca166e  ./data/social_grant_list.json
+11a3
+> 378230f1b2f82d68ba94ec85acaa5c55d4981deb88124556ab625f4ede5b8a31  ./lib/enrol.js
+14a7
+> 446a49e6567b3adc57df514416f2bbf5ad3551cfcd38bbeeccdac82e899dfa0b  ./lib/screens.js
+16c9
+< 5edcd8ce794903095d86953ee12a49d83afd4b0f235779c0971edf352cba4def  ./package.json
+---
+> 61bd479d6b29fb2018cfefc2cac6ab59cf47ac4adf0e91f2458e548b6f8983ca  ./package.json
+17a11
+> f1e54e4fa0364985170b2f3322787fd36225e4011937911774d86658a2c490b0  ./server.js
+18a13,14
+> afbf7a8a03f8230fe5e8054d4767f426490caccc6e280b1356d5aca94d67a1e8  ./test/goal.test.js
+> 3a095ee99b35c196712017edcd9f968e8808fedd7bfd96d8e579a07c3825d8a2  ./test/requirements.test.js
+diff exit 1
+=== the reviewer start list against now (nothing changed by the review)
+diff exit 0
+data diff exit 0
+=== A6: every listen, fetch, http.request, https, net, dgram, child_process, open( in src (data left out)
+./test/goal.test.js:10:// port of 127.0.0.1, and its screens are fetched with Node's own fetch and read as text.
+./test/goal.test.js:15:const childProcess = require('node:child_process');
+./test/goal.test.js:24:const net = require('node:net');
+./test/goal.test.js:26:const connect = net.Socket.prototype.connect;
+./test/goal.test.js:27:net.Socket.prototype.connect = function recorded(...args) {
+./test/goal.test.js:28:  // net.connect hands the socket its arguments normalised, as [options, callback].
+./test/goal.test.js:87:  const r = await fetch(app.base + where, { redirect: 'manual' });
+./test/goal.test.js:94:  const r = await fetch(app.base + '/enrol', {
+./test/requirements.test.js:9:// port of 127.0.0.1, and its screens are fetched with Node's own fetch and read as text.
+./test/requirements.test.js:14:const childProcess = require('node:child_process');
+./test/requirements.test.js:23:const net = require('node:net');
+./test/requirements.test.js:25:const connect = net.Socket.prototype.connect;
+./test/requirements.test.js:26:net.Socket.prototype.connect = function recorded(...args) {
+./test/requirements.test.js:27:  // net.connect hands the socket its arguments normalised, as [options, callback].
+./test/requirements.test.js:86:  const r = await fetch(app.base + where, { redirect: 'manual' });
+./test/requirements.test.js:93:  const r = await fetch(app.base + '/enrol', {
+./test/requirements.test.js:362:    assert.ok(outbound.length > 0, 'the fetches were recorded');
+./server.js:2:// The prototype's server: Node's own http module, listening on 127.0.0.1 only, serving
+./server.js:76:    server.listen(opts.port === undefined ? DEFAULT_PORT : opts.port, HOST, () => {
+dependencies in package.json: 0

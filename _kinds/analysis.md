@@ -23,3 +23,4 @@
 - The question is one you have not already decided, and the instruction asks for a recommendation.
 - Every document the analysis rests on is in the material.
 - Each set a test counts is named, with the source it is listed from.
+- Where the questions depend on one another, the instruction asks for every dependency, listed from every proposal's words and declared both ways, and for every rival judged under the other questions' recommendations, with a run that builds each rival beside them and reads it against the ruled settings and the other recommendations' words, not the counts alone. *(Added 31 October 2026 from the reviews `_reviews/REVIEW_QUESTIONS_2026-10-31.md`, gap G1, and `_reviews/REVIEW_QUESTIONS_2026-10-31_v2.md`, gap G1.)*

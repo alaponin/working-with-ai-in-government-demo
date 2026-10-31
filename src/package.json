@@ -5,6 +5,7 @@
   "description": "Prototype of Progressa's learner registry. Invented data, Progressa is fictional.",
   "scripts": {
     "reset": "node reset.js",
+    "start": "node server.js",
     "test": "node --test test/"
   }
 }

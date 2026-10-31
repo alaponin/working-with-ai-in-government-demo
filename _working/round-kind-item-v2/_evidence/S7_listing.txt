@@ -1,0 +1,16 @@
+2026-10-31T19:40:49Z
+$ ls -ld "/Users/arnelaponin/Documents/Dev/wai-demo/mini-registry/_working/round-kind-item-v2/_evidence"
+drwxr-xr-x@ 10 arnelaponin  staff  320 Oct 31 21:40 /Users/arnelaponin/Documents/Dev/wai-demo/mini-registry/_working/round-kind-item-v2/_evidence
+exit=0
+$ ls -1 _working/round-kind-item-v2/_evidence
+00_start.txt
+A1_gaps.txt
+A2_page_lines.txt
+A3_page_state.txt
+A5_show_before_finished.txt
+GAPS.planted.md
+S7_listing.txt
+check_lines.sh
+$ ls -1 _working/round-kind-item-v2/_evidence | wc -l
+8
+2026-10-31T19:40:49Z

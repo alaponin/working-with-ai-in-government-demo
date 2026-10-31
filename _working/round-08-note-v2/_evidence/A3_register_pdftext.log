@@ -1,0 +1,24 @@
+2026-10-31T21:22:17Z
+# the register's check over the PDF's extracted text
+readers_register_check — the register a document for a business reader is written in
+self-test: 232 patterns (list 1: 15, list 2: 9, list 3: 168, list 4: 40) each refused its own line; 6 clean lines passed every pattern
+document: /Users/arnelaponin/Documents/Dev/wai-demo/mini-registry/_working/round-08-note-v2/_evidence/note_text.txt
+          3718 bytes, sha256 4a6756a65cee1ec65204a12b36941277d2e718052387f8fb695e1d1d8d2ad24b; 42 units of text read
+
+1. forbidden material (rule 3) — 0 refused
+
+2. reported investigation and an account of the work (rule 4) — 0 refused
+
+3. idiomatic expression (rule 2) — 0 refused
+
+4. American usage (rule 1) — 0 refused
+
+5. British spellings present (the positive list)
+  recognise: 1, programme: 2
+
+exceptions named: 1
+  [the name of a program, skill or plugin], only of the form Skills — the Ministry's own name, "Ministry of Education, Youth and Skills", holds the word "Skills"; the note is addressed to its Permanent Secretary under that name, and no program, skill or plugin is named — 1 matches excepted
+
+refused: 0 (list 1: 0, list 2: 0, list 3: 0, list 4: 0); excepted by name: 1
+exit 0
+CHECK (PDF text, with exceptions) EXIT=0

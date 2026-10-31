@@ -1,19 +1,19 @@
 ---
 kind: instruction
 commission_id: C-2026-10-31-25
-version: 1
+version: 2
 session_name: MR · work · the goal built
 kind_of_work: building
 upstream_artefact: /Users/arnelaponin/Documents/Dev/wai-demo/mini-registry/docs/GOAL.md
 inputs: /Users/arnelaponin/Documents/Dev/wai-demo/mini-registry/docs/GOAL-QUESTIONS-PAPER.md · /Users/arnelaponin/Documents/Dev/wai-demo/mini-registry/docs/REQUIREMENTS.md · /Users/arnelaponin/Documents/Dev/wai-demo/mini-registry/docs/COUNT.md · /Users/arnelaponin/Documents/Dev/wai-demo/mini-registry/docs/count/count.csv · /Users/arnelaponin/Documents/Dev/wai-demo/mini-registry/docs/groundwork/ · /Users/arnelaponin/Documents/Dev/wai-demo/mini-registry/docs/GAPS-PAPER.md · /Users/arnelaponin/Documents/Dev/wai-demo/mini-registry/docs/QUESTIONS-PAPER.md · /Users/arnelaponin/Documents/Dev/wai-demo/brief/MINI-REGISTRY-BRIEF.md · /Users/arnelaponin/Documents/Dev/wai-demo/mini-registry/_kinds/building.md
-downstream_artefact: /Users/arnelaponin/Documents/Dev/wai-demo/mini-registry/_reports/REPORT_BUILD_2026-10-31.md
+downstream_artefact: /Users/arnelaponin/Documents/Dev/wai-demo/mini-registry/_reports/REPORT_BUILD_2026-10-31_v2.md
 serves: the working prototype, deliverable 1 of the constants — round 6 of the brief, the goal built: a school clerk enrols a learner, and the registry does not register the same child twice
 model: Opus — the goal is settled step by step by the accepted goal and the owner's ruling on its thirteen questions; what remains is building it exactly, with a check for each requirement and each way it can go wrong; the risk is a screen or a failure built otherwise than ruled, or checked by its own description
 effort: high — this is the prototype the brief delivers; round 7 counts on it and the note of round 8 describes it
 reviewer: a separate session started from the review instruction below, as a sub-agent of this session; Opus, effort high — the review runs the checks, goes through the screens as a clerk without a window, and sets up a way the goal goes wrong
 review_instruction: /Users/arnelaponin/Documents/Dev/wai-demo/mini-registry/_prompts/PROMPT_REVIEW_BUILD_2026-10-31.md
-waits_for: C-2026-10-31-23 — the third commit of the day accepted first, so that the screens are built on committed code
-outputs: /Users/arnelaponin/Documents/Dev/wai-demo/mini-registry/src/server.js · /Users/arnelaponin/Documents/Dev/wai-demo/mini-registry/src/lib/enrol.js · /Users/arnelaponin/Documents/Dev/wai-demo/mini-registry/src/lib/screens.js · /Users/arnelaponin/Documents/Dev/wai-demo/mini-registry/src/test/goal.test.js · /Users/arnelaponin/Documents/Dev/wai-demo/mini-registry/src/test/requirements.test.js · /Users/arnelaponin/Documents/Dev/wai-demo/mini-registry/src/package.json · /Users/arnelaponin/Documents/Dev/wai-demo/mini-registry/_working/round-06-build/_evidence/ · /Users/arnelaponin/Documents/Dev/wai-demo/mini-registry/_reports/REPORT_BUILD_2026-10-31.md
+waits_for: none
+outputs: /Users/arnelaponin/Documents/Dev/wai-demo/mini-registry/src/server.js · /Users/arnelaponin/Documents/Dev/wai-demo/mini-registry/src/lib/enrol.js · /Users/arnelaponin/Documents/Dev/wai-demo/mini-registry/src/lib/screens.js · /Users/arnelaponin/Documents/Dev/wai-demo/mini-registry/src/test/goal.test.js · /Users/arnelaponin/Documents/Dev/wai-demo/mini-registry/src/test/requirements.test.js · /Users/arnelaponin/Documents/Dev/wai-demo/mini-registry/src/package.json · /Users/arnelaponin/Documents/Dev/wai-demo/mini-registry/_working/round-06-build-v2/_evidence/ · /Users/arnelaponin/Documents/Dev/wai-demo/mini-registry/_reports/REPORT_BUILD_2026-10-31_v2.md
 running_record: MR — the issued entry is written in the ledger by ledger.py from this declaration, once this file is complete and before the start message is handed over
 ---
 
@@ -122,3 +122,24 @@ Load the shell tool this session has for commands on the computer (desktop-comma
 ```
 
 Never create a scheduled task to start it. Wait for it, add nothing, and end with one line: its verdict line and its path, or why it could not run. Do not judge it; route nothing.
+
+---
+
+## Version 2 — 31 October 2026, 2026-10-31 19:55 UTC: the gap of the review
+
+The review of version 1, `/Users/arnelaponin/Documents/Dev/wai-demo/mini-registry/_reviews/REVIEW_BUILD_2026-10-31.md`, is **not accepted** on one gap, G1 (item): R-20's check reads no list of windows, as the register's test says it must (`docs/REQUIREMENTS.md:277-279`), and the reason the report gave — a permission and a dialog — does not hold. The reviewer read the list of windows, each with its number and owner, by `CGWindowListCopyWindowInfo` through `osascript -l JavaScript`, with no permission asked and no window opened: 252 before, 252 after, 0 added (`/Users/arnelaponin/Documents/Dev/wai-demo/mini-registry/_working/round-06-build-review/_evidence/R5_windows.log`). Everything else in version 1 stood in the reviewer's own run. Read the review's sections 7 and 8 in full.
+
+This version is carried out by a new session with an empty memory. It changes **only** `src/test/requirements.test.js` — and `src/test/goal.test.js` only if a window check lives there — and nothing else under `src/`. Your entries are those of sections 1 and 9, with `--report` in the `finished` entry naming `/Users/arnelaponin/Documents/Dev/wai-demo/mini-registry/_reports/REPORT_BUILD_2026-10-31_v2.md`; evidence and record under `/Users/arnelaponin/Documents/Dev/wai-demo/mini-registry/_working/round-06-build-v2/_evidence/` (record at `…/record`). The program reads the version from this declaration.
+
+**What this version must do:**
+
+- **R-20 and R-21, as their tests say**, for every requirement whose test reads the list of windows: the check reads the list of windows before and after, by a command that brings nothing forward and asks no permission — `CGWindowListCopyWindowInfo` through `osascript -l JavaScript`, as the review did, or another you show to ask neither — and expects 0 windows added, by window number. The check is a test of the prototype's checks and runs in `node --test`; `osascript` is started by the test only, and A6's listing names it and says why.
+- **Before you trust it** (the checking page's item 1, here for building): in a scratch copy, make the check run while a window is added — or, if no window can be added without opening one, show the check failing on a planted "after" list with one window more — and see it fail by name.
+- **Where a command is refused**, keep the command and what it printed; only then may the report say the list could not be read (the building page, item 7, added today).
+- **Name, do not fix,** the review's "found, not fixed" items on the whitespace read as "spaces" (Q-4) and the fourth school lost on the way back (Q-6, Q-8): each goes to the report as a question for the owner.
+
+**The tests of success of this version** (A1 to A10 stand, read with this version's paths, A5 allowing the change to the test files):
+
+- **A11** — R-20's and R-21's checks read the list of windows before and after; their output, from a run of `node --test`, quoted with the window counts.
+- **A12** — The planted case fails by name; its output quoted.
+- **A13** — The diff of `src/` against version 1's checksums shows only the test files changed; quoted.

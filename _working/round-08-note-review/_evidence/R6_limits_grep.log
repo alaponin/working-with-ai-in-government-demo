@@ -1,0 +1,19 @@
+2026-10-31T21:03:37Z
+$ the ruled sentence at its line
+**Proposal — not a decision.** We recommend no length and no character refused, and Position A: spaces only are an entry missing.
+$ the ruling that makes it ruled
+word: "Rule all 13 as recommended (Recommended) — the owner's answer on the question form in MR · orchestrator, 20:19 Tallinn time, 31 October 2026; the 13 as the closing proposal of each section of docs/GOAL-QUESTIONS-PAPER.md gives them"
+$ grep -n -i -E "no length|length|character refused|characters refused|any character" over the note, LIMITS.md, CLAIMS.md, PAIRS.md and the report
+grep exit 1 (1 = no line found)
+$ the accepted data review, outside the instruction s named record
+- **No two children share a family name.** The generator gives all 60 children different family names (`src/lib/lists.js:72-80`), more than Q-14 asks. So the data hold no two different children with one family name. This sets no number wrong, but round 6 has no list case where the search must tell such children apart by given names or date.
+$ G-11 summary row
+| G-11 | None: the three lists are data inside the prototype, not bodies it connects to |
+$ Q-6 passages
+## Q-6 — a school not among the three
+
+> `docs/GOAL.md:155` 6. **A school not among the three (F-3).** The school is "chosen from the data's three" (the ruling on G-07; `groundwork/settings.csv:18`): can a school not among them reach the registry at all? If it can, what does the clerk see, is the entry refused, and is anything saved?
+
+**Depends on:** Q-7. **Depended on by:** Q-8, Q-9.
+142:**Passages:** `docs/groundwork/settings.csv:18` «chosen from the data's 3 schools». SC-1 offers the 3 alone under both positions.
+144:**Position A — refused if it reaches.** Such a school reaching the registry, as a windowless check can send it, is refused before the search (Q-7) on SC-4; nothing saved.

@@ -1,0 +1,8 @@
+2026-10-31T19:47:31Z
+windows listed before: 252
+enrolled through curl on 127.0.0.1: HTTP 200
+windows owned by the server's process 37054 while it runs: 0
+windows listed after: 252
+windows added (in the second list, not the first): 0
+windows owned by node, curl or osascript in the second list: 0
+2026-10-31T19:47:35Z
