@@ -1,0 +1,13 @@
+# 2026-10-31T16:31:06Z /usr/bin/python3 -B R_screens.py
+SC-n mentioned anywhere in the goal: 7 ['SC-1', 'SC-2', 'SC-3', 'SC-4', 'SC-5', 'SC-6', 'SC-7']
+screens listed: 7 ['SC-1', 'SC-2', 'SC-3', 'SC-4', 'SC-5', 'SC-6', 'SC-7']
+mentioned and not listed: []; listed and never mentioned before the list: []
+  SC-1 named by (declared) ['S-1', 'S-2', 'S-3'], (found) ['S-1', 'S-2', 'S-3', 'S-4'], agree False; carries the line: True
+  SC-2 named by (declared) ['S-5', 'S-7'], (found) ['S-5', 'S-7'], agree True; carries the line: True
+  SC-3 named by (declared) ['F-5', 'S-6', 'S-7'], (found) ['F-5', 'S-6', 'S-7'], agree True; carries the line: True
+  SC-4 named by (declared) ['F-1'], (found) ['F-1'], agree True; carries the line: True
+  SC-5 named by (declared) ['F-2'], (found) ['F-2'], agree True; carries the line: True
+  SC-6 named by (declared) ['F-3'], (found) ['F-3'], agree True; carries the line: True
+  SC-7 named by (declared) ['F-4'], (found) ['F-4'], agree True; carries the line: True
+views named in the gaps section without an SC number: ['on which screen', 'a refusal', 'a refusal']
+EXIT=0

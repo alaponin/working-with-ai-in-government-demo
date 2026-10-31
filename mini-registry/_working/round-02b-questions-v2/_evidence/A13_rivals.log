@@ -1,0 +1,38 @@
+2026-10-31T15:53:08Z
+Q-1 rival (B: another date, 2027-03-01), with every other recommendation: can be met: yes
+    children 60 schools 3 entries 68 per_list [24, 22, 22] on_two 8 spelt 4 (capitals ignored 4) ages (6, 12) learners 64 highest 64 caught 4 more_than_one 0 per_school [20, 20, 20] key_rows 68 school_supplied_by_reset 0
+Q-2 rival (B: another fixed order, the lists reversed and each list from its last entry), with every other recommendation: can be met: yes
+    children 60 schools 3 entries 68 per_list [24, 22, 22] on_two 8 spelt 4 (capitals ignored 4) ages (6, 12) learners 64 highest 64 caught 4 more_than_one 0 per_school [20, 20, 20] key_rows 68 school_supplied_by_reset 0
+Q-3 rival (B: another seed, 12345), with every other recommendation: can be met: yes
+    children 60 schools 3 entries 68 per_list [24, 22, 22] on_two 8 spelt 4 (capitals ignored 4) ages (6, 12) learners 64 highest 64 caught 4 more_than_one 0 per_school [20, 20, 20] key_rows 68 school_supplied_by_reset 0
+Q-4 rival (B: another first number, 1001), with every other recommendation: can be met: yes
+    children 60 schools 3 entries 68 per_list [24, 22, 22] on_two 8 spelt 4 (capitals ignored 4) ages (6, 12) learners 64 highest 1064 caught 4 more_than_one 0 per_school [20, 20, 20] key_rows 68 school_supplied_by_reset 0
+Q-5 rival (B: every one of the 8 on the census and one other list), with every other recommendation: can be met: yes
+    children 60 schools 3 entries 68 per_list [24, 22, 22] on_two 8 spelt 4 (capitals ignored 4) ages (6, 12) learners 64 highest 64 caught 4 more_than_one 0 per_school [20, 20, 20] key_rows 68 school_supplied_by_reset 0
+Q-6 rival (B: every child on the census, 60, 4 and 4), with every other recommendation: can be met: no
+    entries still needed per list after the 8 are laid [54, -1, -1]
+Q-7 rival (B: another spread, 25, 20 and 15), with every other recommendation: can be met: yes
+    children 60 schools 3 entries 68 per_list [24, 22, 22] on_two 8 spelt 4 (capitals ignored 4) ages (6, 12) learners 64 highest 64 caught 4 more_than_one 0 per_school [25, 20, 15] key_rows 68 school_supplied_by_reset 0
+Q-8 rival (B: the 4's given names and date left free), with every other recommendation: can be met: yes
+    children 60 schools 3 entries 68 per_list [24, 22, 22] on_two 8 spelt 4 (capitals ignored 4) ages (6, 12) learners 64 highest 64 caught 4 more_than_one 0 per_school [20, 20, 20] key_rows 68 school_supplied_by_reset 0
+Q-9 rival (B: a school on the census only; the reset gives every other learner one), with every other recommendation: can be met: no
+    children per school read from the lists [8, 7, 9], not [20, 20, 20] (36 children carry no school on the lists)
+Q-10 rival (B: each list its own form of date, turned by the reset), with every other recommendation: can be met: yes
+    children 60 schools 3 entries 68 per_list [24, 22, 22] on_two 8 spelt 4 (capitals ignored 4) ages (6, 12) learners 64 highest 64 caught 4 more_than_one 0 per_school [20, 20, 20] key_rows 68 school_supplied_by_reset 0
+Q-11 rival (B: the key table holds the 16 entries of the 8 only), with every other recommendation: can be met: yes
+    children 60 schools 3 entries 68 per_list [24, 22, 22] on_two 8 spelt 4 (capitals ignored 4) ages (6, 12) learners 64 highest 64 caught 4 more_than_one 0 per_school [20, 20, 20] key_rows 16 school_supplied_by_reset 0
+Q-12 rival (B: no record of entries; round 7 compares again), with every other recommendation: can be met: yes
+    children 60 schools 3 entries 68 per_list [24, 22, 22] on_two 8 spelt 4 (capitals ignored 4) ages (6, 12) learners 64 highest 64 caught 4 more_than_one 0 per_school [20, 20, 20] key_rows 68 school_supplied_by_reset 0
+Q-13 rival (B: no setting for the learners after reset), with every other recommendation: can be met: yes
+    children 60 schools 3 entries 68 per_list [24, 22, 22] on_two 8 spelt 4 (capitals ignored 4) ages (6, 12) learners 64 highest 64 caught 4 more_than_one 0 per_school [20, 20, 20] key_rows 68 school_supplied_by_reset 0
+Q-14 rival (B: capitals heeded in share, no such pair laid), with every other recommendation: can be met: yes
+    children 60 schools 3 entries 68 per_list [24, 22, 22] on_two 8 spelt 4 (capitals ignored 4) ages (6, 12) learners 64 highest 64 caught 4 more_than_one 0 per_school [20, 20, 20] key_rows 68 school_supplied_by_reset 0
+further runs named in the paper:
+  Q-6 B with Q-5 B: can be met: yes — children 60 schools 3 entries 68 per_list [60, 4, 4] on_two 8 spelt 4 (capitals ignored 4) ages (6, 12) learners 64 highest 64 caught 4 more_than_one 0 per_school [20, 20, 20] key_rows 68 school_supplied_by_reset 0
+  Q-14 B with one pair laid: can be met: no — learners after reset 63, against the setting 64
+  Q-9 B: learners whose school the reset supplies 40; children carrying no school on the lists 36
+  Q-2 order [0, 2, 1]: learners 64 caught 4 can be met: yes
+  Q-2 order [1, 0, 2]: learners 64 caught 4 can be met: yes
+  Q-2 order [1, 2, 0]: learners 64 caught 4 can be met: yes
+  Q-2 order [2, 0, 1]: learners 64 caught 4 can be met: yes
+EXIT=0

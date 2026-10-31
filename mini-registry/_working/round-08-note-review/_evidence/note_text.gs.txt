@@ -1,0 +1,40 @@
+      One list of learners: what the prototype shows, and what it does not
+      To the Permanent Secretary, Ministry of Education, Youth and Skills
+      The prototype shows that a school clerk can enrol a child in a single list of learners, and that the registry 
+      does not register the same child twice when the child's names and date of birth are entered as the registry 
+      already holds them. It does not show that the registry recognises the same child when the family name is 
+      spelt differently: of the eight invented children who appear on two lists, the search catches 4 of the 8 as 
+      one child, and holds each of the other four twice.
+      What the prototype shows
+      The Ministry wants one list of learners instead of three. The prototype is a small working model of that 
+      list, made so that the planning unit can agree what the registry is to do before the real one is built.
+      A clerk enters a child's family name, given names, date of birth and school, and the registry searches for 
+      the child first. If it finds exactly one learner with the same family name, given names and date of birth, 
+      capital letters aside, it shows that learner and enters nothing new. If it finds none, it gives the child a new 
+      learner number and saves the record. The clerk sees which of the two happened.
+      An entry with a detail missing, a date of birth that does not name a real day, or a school other than the 
+      three is refused before the search; the clerk is told each fault, and nothing is saved.
+      The prototype runs on one computer and connects to nothing outside it. All of its checks pass, and none of 
+      them opens a window.
+      The children on more than one list
+      The prototype holds 60 invented children in three schools, spread over three lists: the school census, the 
+      examinations authority's candidate list and the social grant programme's list. Eight children are on two 
+      lists, and for four of them the family name on one list differs by a single letter.
+      The search catches 4 of the 8. Those four have the same family name, given names and date of birth on 
+      both lists, and each is held once. Each of the other four is held twice, under two learner numbers, because 
+      the search treats every difference other than capital letters as a different child. This is a limit of the search 
+      step as it is defined. The invented data is made so that exactly four of the eight differ in this way: the 
+      figure shows how the rule behaves, not how many children a registry would hold twice on real lists.
+      What the prototype does not show
+       •  It is not the registry. It is for agreement, it offers enrolment only, with no way to look a learner 
+          up, and it holds only invented data: Progressa is fictional, and every screen says so.
+       •  It is connected to no other body. The three lists are part of the invented data; no system of the 
+          census, the examinations authority or the social grant programme is linked to it.
+       •  It cannot tell apart two different children who share a family name, given names and date of 
+          birth. The second would be taken for the first, and nothing new saved. No two children in the 
+          invented data share all three.
+       •  Three points are kept in their simplest form. An entry of blank characters of any kind, not only 
+          spaces, is treated as missing. A school other than the three, once refused, is not shown again when 
+          the clerk returns to correct the entry. Where the search finds more than one matching learner, the 
+          entry is refused and nothing is saved; this never arises in the invented data, and is checked only on 
+          a record added for the purpose.

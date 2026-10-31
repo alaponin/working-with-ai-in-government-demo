@@ -1,0 +1,5 @@
+$ date -u; write the window close into the review; stat and shasum the review
+close read: 2026-10-31 14:09:16 UTC
+8:window: 2026-10-31 14:01:12 UTC to 2026-10-31 14:09:16 UTC — opened at the first command (`date -u; hostname`), with no pause, and closed at this line's own write, the review's last; read by `date -u` in the command kept in /Users/arnelaponin/Documents/Dev/wai-demo/mini-registry/_working/round-01b-gaps-v2-review/_evidence/window.out
+2026-10-31 16:09:16 16907 bytes _reviews/REVIEW_GAPS_2026-10-31_v2.md
+2d3abd35cb3980b76cdf6ca06e67291ea955b50afe608559c7646d6f61afe743  _reviews/REVIEW_GAPS_2026-10-31_v2.md

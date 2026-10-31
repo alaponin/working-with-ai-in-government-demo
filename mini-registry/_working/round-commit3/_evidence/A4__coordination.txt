@@ -1,0 +1,4 @@
+$ diff before_list__coordination.txt committed_list__coordination.txt
+diff exit=0
+      50
+      50

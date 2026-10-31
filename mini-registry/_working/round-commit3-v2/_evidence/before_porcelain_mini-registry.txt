@@ -1,0 +1,21 @@
+ M WHAT_IS_RUNNING.md
+ M _prompts/PROMPT_COMMIT3_2026-10-31.md
+ M _prompts/PROMPT_REVIEW_COMMIT3_2026-10-31.md
+ M _working/round-commit3/_evidence/commit_and_A1.txt
+?? _prompts/PROMPT_KIND_ITEM_2026-10-31.md
+?? _prompts/PROMPT_REVIEW_KIND_ITEM_2026-10-31.md
+?? _reports/REPORT_COMMIT3_2026-10-31.md
+?? _reviews/REVIEW_COMMIT3_2026-10-31.md
+?? _working/round-commit3-review/
+?? _working/round-commit3/_evidence/A4__coordination.txt
+?? _working/round-commit3/_evidence/A4_mini-registry.txt
+?? _working/round-commit3/_evidence/after__coordination.txt
+?? _working/round-commit3/_evidence/after_mini-registry.txt
+?? _working/round-commit3/_evidence/committed_list__coordination.txt
+?? _working/round-commit3/_evidence/committed_list_mini-registry.txt
+?? _working/round-commit3/_evidence/ledger_show.out
+?? _working/round-commit3/_evidence/ls_outputs.txt
+?? _working/round-commit3/_evidence/show_stat__coordination.txt
+?? _working/round-commit3/_evidence/show_stat_mini-registry.txt
+?? _working/round-commit3/_evidence/trace_check.out
+?? _working/round-commit3/_evidence/window.out

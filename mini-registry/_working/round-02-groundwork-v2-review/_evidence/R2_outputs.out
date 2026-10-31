@@ -1,0 +1,27 @@
+2026-10-31T15:00:13Z
+## sources (B6)
+ec6971e74a6a8387de0e5bd7a5e1cdead6ddf711b8fdac3ccc1d4b7555e11f64  brief/MINI-REGISTRY-BRIEF.md
+ad583b3958fb5c5fdf6683b5c2487b6f0c425d66cebc7c46811e2e19af13f103  mini-registry/docs/REQUIREMENTS.md
+d03db64c6e49a1b92467c1e6e19929c321964bd89f6cb715d15dd570f37bc8bb  mini-registry/docs/GAPS-PAPER.md
+## outputs: size sha256 path
+7429 5ed9b62f282d433df7c337a2da30e4830c56170dca1e646ae5aacc2cc2795dce /Users/arnelaponin/Documents/Dev/wai-demo/mini-registry/docs/GROUNDWORK.md
+1127 a94c31fe9fc96410910e425b1a0dfc708ea6acf09f3fb9ab1c990e71f8ef9cfd /Users/arnelaponin/Documents/Dev/wai-demo/mini-registry/docs/groundwork/settings.csv
+2391 1d08f58c5ea6d1caddfed7f6266800083bed696e7cd1b76c6efc53be72c9eef7 /Users/arnelaponin/Documents/Dev/wai-demo/mini-registry/docs/groundwork/lists.csv
+1335 9a7c98ce9b57dde82ccca48c84c638b7efd5c08f26f1677e738ecc8d00386fdb /Users/arnelaponin/Documents/Dev/wai-demo/mini-registry/docs/groundwork/search_rule.csv
+11106 a04a5e1b5ca1efb5697fa297eb63713e98100a3e45d899349e831266dc92c432 /Users/arnelaponin/Documents/Dev/wai-demo/mini-registry/_reports/REPORT_GROUNDWORK_2026-10-31_v2.md
+6850 f2284affe810c2886d8a1899681e3d16af96a547dea10f7acc6bcbfca2584df9 /Users/arnelaponin/Documents/Dev/wai-demo/mini-registry/_working/round-02-groundwork-v2/_evidence/GROUNDWORK_v1.md
+drwxr-xr-x@ 18 arnelaponin  staff  576 Oct 31 16:57 /Users/arnelaponin/Documents/Dev/wai-demo/mini-registry/_working/round-02-groundwork-v2/_evidence
+evidence entries: 16
+## B1: the first review's recorded checksums (R2_outputs.out of round-02-groundwork-review) against now
+CHANGED  docs/GROUNDWORK.md  f2284aff -> 5ed9b62f
+same     docs/groundwork/settings.csv a94c31fe (full 64 characters equal)
+same     docs/groundwork/lists.csv 1d08f58c (full 64 characters equal)
+same     docs/groundwork/search_rule.csv 9a7c98ce (full 64 characters equal)
+## B1: diff of GROUNDWORK_v1.md (the round's copy; its checksum above) against docs/GROUNDWORK.md now
+55a56
+> 14. **Capitals in "share".** The ruling on G-05 says "no two different children share all three fields", and does not say whether capitals are ignored in "share"; the brief's line 13 compares "the same family name, given names and date of birth (capitals ignored)", and under the ruling on G-03 the reset enrols every list entry "through the brief's own rule", so two different children who differ in capitals only would be merged into one learner: may two different children differ in capitals only, or do no two different children share all three fields with capitals ignored?
+diff EXIT=1
+## times UTC birth / modified
+14:56:20 / 14:57:16 /Users/arnelaponin/Documents/Dev/wai-demo/mini-registry/_reports/REPORT_GROUNDWORK_2026-10-31_v2.md
+14:36:19 / 14:54:34 /Users/arnelaponin/Documents/Dev/wai-demo/mini-registry/docs/GROUNDWORK.md
+14:56:58 / 14:57:16 /Users/arnelaponin/Documents/Dev/wai-demo/mini-registry/_working/round-02-groundwork-v2/_evidence/record/check.out

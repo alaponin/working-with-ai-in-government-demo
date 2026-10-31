@@ -1,0 +1,57 @@
+2026-10-31T21:22:32Z
+# the note, version 1 against version 2, word by word
+250,251d249
+< that
+< does
+253c251,259
+< name
+---
+> written
+> as
+> year,
+> month
+> and
+> day
+> or
+> not
+> naming
+278a285,298
+> A
+> name
+> is
+> not
+> limited
+> in
+> length,
+> and
+> no
+> character
+> in
+> it
+> is
+> refused.
+464a485,504
+> None
+> of
+> the
+> eight
+> differs
+> in
+> capital
+> letters
+> alone,
+> so
+> the
+> figure
+> does
+> not
+> show
+> capital
+> letters
+> being
+> set
+> aside.
+DIFF EXIT=1 (1 = differences, as intended)
+# build.py unchanged since version 1:
+1f3d3144ad255fed2de0547915ba412b7ce4f08aff3ed476b497587b2eee9549  /Users/arnelaponin/Documents/Dev/wai-demo/mini-registry/docs/note/build.py
+75c94433f420feb8fdb183e7459a780d7f5f18784d8d8a03f7f0cd8944ba680e  /Users/arnelaponin/Documents/Dev/wai-demo/mini-registry/docs/note/register_exceptions.txt

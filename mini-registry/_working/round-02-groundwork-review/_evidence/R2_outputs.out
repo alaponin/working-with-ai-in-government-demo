@@ -1,0 +1,47 @@
+# 2026-10-31T14:45:08Z
+## outputs: size sha256 path
+6850 f2284affe810c2886d8a1899681e3d16af96a547dea10f7acc6bcbfca2584df9 /Users/arnelaponin/Documents/Dev/wai-demo/mini-registry/docs/GROUNDWORK.md
+1127 a94c31fe9fc96410910e425b1a0dfc708ea6acf09f3fb9ab1c990e71f8ef9cfd /Users/arnelaponin/Documents/Dev/wai-demo/mini-registry/docs/groundwork/settings.csv
+2391 1d08f58c5ea6d1caddfed7f6266800083bed696e7cd1b76c6efc53be72c9eef7 /Users/arnelaponin/Documents/Dev/wai-demo/mini-registry/docs/groundwork/lists.csv
+1335 9a7c98ce9b57dde82ccca48c84c638b7efd5c08f26f1677e738ecc8d00386fdb /Users/arnelaponin/Documents/Dev/wai-demo/mini-registry/docs/groundwork/search_rule.csv
+13242 8b2c536b9c73cae7e6d30475c5092ac5cb69437b3e43ab18005936e9fd43a6d9 /Users/arnelaponin/Documents/Dev/wai-demo/mini-registry/_reports/REPORT_GROUNDWORK_2026-10-31.md
+drwxr-xr-x@ 17 arnelaponin  staff  544 Oct 31 16:39 /Users/arnelaponin/Documents/Dev/wai-demo/mini-registry/_working/round-02-groundwork/_evidence
+evidence files: 15
+## sources (A6)
+ec6971e74a6a8387de0e5bd7a5e1cdead6ddf711b8fdac3ccc1d4b7555e11f64  brief/MINI-REGISTRY-BRIEF.md
+ad583b3958fb5c5fdf6683b5c2487b6f0c425d66cebc7c46811e2e19af13f103  mini-registry/docs/REQUIREMENTS.md
+d03db64c6e49a1b92467c1e6e19929c321964bd89f6cb715d15dd570f37bc8bb  mini-registry/docs/GAPS-PAPER.md
+## times, UTC: birth / last modified
+14:34:36 / 14:35:29 /Users/arnelaponin/Documents/Dev/wai-demo/mini-registry/_working/round-02-groundwork/_evidence/SETTINGS_SET.md
+14:35:50 / 14:35:50 /Users/arnelaponin/Documents/Dev/wai-demo/mini-registry/docs/groundwork/settings.csv
+14:35:52 / 14:35:52 /Users/arnelaponin/Documents/Dev/wai-demo/mini-registry/docs/groundwork/lists.csv
+14:35:53 / 14:35:53 /Users/arnelaponin/Documents/Dev/wai-demo/mini-registry/docs/groundwork/search_rule.csv
+14:36:19 / 14:36:19 /Users/arnelaponin/Documents/Dev/wai-demo/mini-registry/docs/GROUNDWORK.md
+14:38:31 / 14:40:14 /Users/arnelaponin/Documents/Dev/wai-demo/mini-registry/_reports/REPORT_GROUNDWORK_2026-10-31.md
+14:39:39 / 14:40:14 /Users/arnelaponin/Documents/Dev/wai-demo/mini-registry/_working/round-02-groundwork/_evidence/record/check.out
+## the gaps section (A5): numbered lines, and those not ending in a question mark
+13
+0
+## the search rule's parts (A3)
+   1 at_reset
+   3 compares
+   2 does_not_compare
+   1 does_not_read
+   1 forgives
+   1 forgives_nothing_else
+   1 on_exactly_one
+   2 on_more_than_one
+   1 on_none
+   1 part
+   1 tells
+   2 when
+   1 where
+2:compares,family name,brief:13 · R-05
+3:compares,given names,brief:13 · R-05
+4:compares,date of birth,brief:13 · R-05
+5:forgives,capitals: two values that differ in capitals only are the same,brief:13 · R-05
+6:forgives_nothing_else,every difference but capitals makes two values differ,brief:13
+7:does_not_compare,"school: entered and saved, never searched on",brief:13 · ruling:G-07
+8:does_not_compare,any field but the three compared,brief:13
+9:does_not_read,the key table,ruling:G-05
+EXIT=0

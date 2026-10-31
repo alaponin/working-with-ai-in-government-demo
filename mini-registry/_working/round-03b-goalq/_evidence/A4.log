@@ -1,0 +1,17 @@
+# A4 2026-10-31T18:02:47Z
+$ /usr/bin/python3 -B _working/round-03b-goalq/_evidence/check_paper.py /Users/arnelaponin/Documents/Dev/wai-demo/mini-registry A4
+section | positions | tables | proposals
+Q-1 | 2 | 1 | 1
+Q-2 | 2 | 1 | 1
+Q-3 | 2 | 1 | 1
+Q-4 | 2 | 1 | 1
+Q-5 | 2 | 1 | 1
+Q-6 | 2 | 1 | 1
+Q-7 | 2 | 1 | 1
+Q-8 | 2 | 1 | 1
+Q-9 | 2 | 1 | 1
+Q-10 | 2 | 1 | 1
+Q-11 | 2 | 1 | 1
+Q-12 | 2 | 1 | 1
+Q-13 | 2 | 1 | 1
+exit=0

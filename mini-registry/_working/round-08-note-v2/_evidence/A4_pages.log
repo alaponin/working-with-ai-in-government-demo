@@ -1,0 +1,9 @@
+2026-10-31T21:21:59Z
+# A4: pdfread.py info (PDFKit, MediaBox), build 2 = the PDF now
+pages=1
+page 1: width=595.00 height=842.00
+
+# A4 second reading: the MediaBox and page count in the file's bytes
+   2 /MediaBox [0 0 595 842]
+1
+kMDItemNumberOfPages = 1

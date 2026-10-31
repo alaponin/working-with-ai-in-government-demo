@@ -1,0 +1,50 @@
+# The record of the round, produced by round_record.py from /Users/arnelaponin/Documents/Dev/wai-demo/mini-registry/_working/round-03-goal/_evidence/record
+# window: from the start list 2026-10-31T16:19:21.927Z to the end list 2026-10-31T16:22:26.575Z
+# roots: /Users/arnelaponin/Documents/Dev/wai-demo/mini-registry
+# start list: 380 files; end list: 394 files; runs traced: 7
+
+## 1. Every file changed inside the window — 14
+change · path · before (bytes, sha256) · after (bytes, sha256, last changed) · by
+added · /Users/arnelaponin/Documents/Dev/wai-demo/mini-registry/_working/round-03-goal/_evidence/A1_check.out · absent · 126 e54c02512af6964118b450240da509a6809d4353732026cbad96607274f86b96 2026-10-31T16:22:13.332Z · written by no traced run: by hand or by another round
+added · /Users/arnelaponin/Documents/Dev/wai-demo/mini-registry/_working/round-03-goal/_evidence/A1_list.out · absent · 57 1b87023f9077a1f2d8791c87a0d60afbb3457f73a2482434fbc10cdb77e1b8b0 2026-10-31T16:20:54.952Z · written by no traced run: by hand or by another round
+added · /Users/arnelaponin/Documents/Dev/wai-demo/mini-registry/_working/round-03-goal/_evidence/A2_check.out · absent · 79 d833b4c10f7ebd7a5e6375a2407237e2e48acde4386f7698f83af324b4cd4b11 2026-10-31T16:22:14.111Z · written by no traced run: by hand or by another round
+added · /Users/arnelaponin/Documents/Dev/wai-demo/mini-registry/_working/round-03-goal/_evidence/A3_check.out · absent · 343 cc3da2224354a18259ad631e22ba3865a3e97ca14844cd57851ff0c9bc090a7f 2026-10-31T16:22:14.768Z · written by no traced run: by hand or by another round
+added · /Users/arnelaponin/Documents/Dev/wai-demo/mini-registry/_working/round-03-goal/_evidence/A4_check.out · absent · 1526 6bbe9a54c2597817d1f0256c82ece6a18cac0d6d88b8ccbfde13fa0945d3f83e 2026-10-31T16:22:15.393Z · written by no traced run: by hand or by another round
+added · /Users/arnelaponin/Documents/Dev/wai-demo/mini-registry/_working/round-03-goal/_evidence/A5_check.out · absent · 199 26416e7e989115e4753a9f763cb4a2142824d4b020b5a8b588c62e3fec57ad3a 2026-10-31T16:22:16.050Z · written by no traced run: by hand or by another round
+added · /Users/arnelaponin/Documents/Dev/wai-demo/mini-registry/_working/round-03-goal/_evidence/A6_check.out · absent · 118 c890911815edb7505d8d9edeedaaecc925705999ae32aa79dd07b5c5a801ff09 2026-10-31T16:22:16.718Z · written by no traced run: by hand or by another round
+added · /Users/arnelaponin/Documents/Dev/wai-demo/mini-registry/_working/round-03-goal/_evidence/A7_shasum.out · absent · 846 de1719500816af96540163b08de32c33287f272768e40dd76c46fb2a74a03ba4 2026-10-31T16:22:26.202Z · written by no traced run: by hand or by another round
+added · /Users/arnelaponin/Documents/Dev/wai-demo/mini-registry/_working/round-03-goal/_evidence/FAILURES_SET.md · absent · 1606 8b3579f7b6c1ac201202a3e2c49fd56c1f768d2cd331ce45cb6569d4a8a04ef7 2026-10-31T16:20:54.951Z · written by run 1
+added · /Users/arnelaponin/Documents/Dev/wai-demo/mini-registry/_working/round-03-goal/_evidence/STEPS_SET.md · absent · 2557 cc75d583a6b30e2dbb82c5a855988476e5c36b6c5e364b020d85c725d7ae054d 2026-10-31T16:20:54.871Z · written by run 1
+added · /Users/arnelaponin/Documents/Dev/wai-demo/mini-registry/_working/round-03-goal/_evidence/check_goal.py · absent · 5888 3e2cd49222f31065cfbbcf0d5b2f987fab95f2b1bb72165b2e02ba8e1f5bd1f7 2026-10-31T16:22:04.435Z · written by no traced run: by hand or by another round
+added · /Users/arnelaponin/Documents/Dev/wai-demo/mini-registry/_working/round-03-goal/_evidence/list_sets.py · absent · 9612 b431a221fd0e70ae7da5383135255d27fd7ad83fff89693090490c747ca6de88 2026-10-31T16:20:47.332Z · written by no traced run: by hand or by another round
+added · /Users/arnelaponin/Documents/Dev/wai-demo/mini-registry/_working/round-03-goal/_evidence/sources.py · absent · 3693 dfbaa947c7a189b72a2539bb563f1674473fd508ac5cc05de5ccf6a0b9360560 2026-10-31T16:20:17.163Z · written by no traced run: by hand or by another round
+added · /Users/arnelaponin/Documents/Dev/wai-demo/mini-registry/docs/GOAL.md · absent · 11777 5ed146df4878630c8f5d279f18fec3e440f3a83dabc36af9285b45f01db6c089 2026-10-31T16:21:35.046Z · written by no traced run: by hand or by another round
+
+## 2. Every file the round's programs read — 13
+path · on the start list · sha256 at the start · sha256 at the end · first read
+/Users/arnelaponin/Documents/Dev/wai-demo/brief/MINI-REGISTRY-BRIEF.md · yes · ec6971e74a6a8387de0e5bd7a5e1cdead6ddf711b8fdac3ccc1d4b7555e11f64 · ec6971e74a6a8387de0e5bd7a5e1cdead6ddf711b8fdac3ccc1d4b7555e11f64 · 2026-10-31T16:20:54.746Z
+/Users/arnelaponin/Documents/Dev/wai-demo/mini-registry/_working/round-03-goal/_evidence/FAILURES_SET.md · no · - · 8b3579f7b6c1ac201202a3e2c49fd56c1f768d2cd331ce45cb6569d4a8a04ef7 · 2026-10-31T16:22:13.330Z
+/Users/arnelaponin/Documents/Dev/wai-demo/mini-registry/_working/round-03-goal/_evidence/STEPS_SET.md · no · - · cc75d583a6b30e2dbb82c5a855988476e5c36b6c5e364b020d85c725d7ae054d · 2026-10-31T16:22:13.329Z
+/Users/arnelaponin/Documents/Dev/wai-demo/mini-registry/_working/round-03-goal/_evidence/check_goal.py · no · - · 3e2cd49222f31065cfbbcf0d5b2f987fab95f2b1bb72165b2e02ba8e1f5bd1f7 · 2026-10-31T16:22:13.306Z
+/Users/arnelaponin/Documents/Dev/wai-demo/mini-registry/_working/round-03-goal/_evidence/list_sets.py · no · - · b431a221fd0e70ae7da5383135255d27fd7ad83fff89693090490c747ca6de88 · 2026-10-31T16:20:54.723Z
+/Users/arnelaponin/Documents/Dev/wai-demo/mini-registry/_working/round-03-goal/_evidence/sources.py · no · - · dfbaa947c7a189b72a2539bb563f1674473fd508ac5cc05de5ccf6a0b9360560 · 2026-10-31T16:20:54.742Z
+/Users/arnelaponin/Documents/Dev/wai-demo/mini-registry/docs/GAPS-PAPER.md · yes · d03db64c6e49a1b92467c1e6e19929c321964bd89f6cb715d15dd570f37bc8bb · d03db64c6e49a1b92467c1e6e19929c321964bd89f6cb715d15dd570f37bc8bb · 2026-10-31T16:20:54.756Z
+/Users/arnelaponin/Documents/Dev/wai-demo/mini-registry/docs/GOAL.md · no · - · 5ed146df4878630c8f5d279f18fec3e440f3a83dabc36af9285b45f01db6c089 · 2026-10-31T16:22:13.326Z
+/Users/arnelaponin/Documents/Dev/wai-demo/mini-registry/docs/QUESTIONS-PAPER.md · yes · 5146d23a87cf9c0527c26c2965725bfa1125bd1a0a103ac83b68fb7dbd50cce0 · 5146d23a87cf9c0527c26c2965725bfa1125bd1a0a103ac83b68fb7dbd50cce0 · 2026-10-31T16:20:54.844Z
+/Users/arnelaponin/Documents/Dev/wai-demo/mini-registry/docs/REQUIREMENTS.md · yes · ad583b3958fb5c5fdf6683b5c2487b6f0c425d66cebc7c46811e2e19af13f103 · ad583b3958fb5c5fdf6683b5c2487b6f0c425d66cebc7c46811e2e19af13f103 · 2026-10-31T16:20:54.747Z
+/Users/arnelaponin/Documents/Dev/wai-demo/mini-registry/docs/groundwork/lists.csv · yes · 1d08f58c5ea6d1caddfed7f6266800083bed696e7cd1b76c6efc53be72c9eef7 · 1d08f58c5ea6d1caddfed7f6266800083bed696e7cd1b76c6efc53be72c9eef7 · 2026-10-31T16:20:54.850Z
+/Users/arnelaponin/Documents/Dev/wai-demo/mini-registry/docs/groundwork/search_rule.csv · yes · 9a7c98ce9b57dde82ccca48c84c638b7efd5c08f26f1677e738ecc8d00386fdb · 9a7c98ce9b57dde82ccca48c84c638b7efd5c08f26f1677e738ecc8d00386fdb · 2026-10-31T16:20:54.778Z
+/Users/arnelaponin/Documents/Dev/wai-demo/mini-registry/docs/groundwork/settings.csv · yes · a94c31fe9fc96410910e425b1a0dfc708ea6acf09f3fb9ab1c990e71f8ef9cfd · a94c31fe9fc96410910e425b1a0dfc708ea6acf09f3fb9ab1c990e71f8ef9cfd · 2026-10-31T16:20:54.765Z
+
+## 3. Every run — 7
+run 1 · 2026-10-31T16:20:54.471Z to 2026-10-31T16:20:54.966Z · exit 0 · /usr/bin/python3 -B /Users/arnelaponin/Documents/Dev/wai-demo/mini-registry/_working/round-03-goal/_evidence/list_sets.py · traced in full: a Python program and the Python programs it starts
+run 2 · 2026-10-31T16:22:13.078Z to 2026-10-31T16:22:13.348Z · exit 0 · /usr/bin/python3 -B /Users/arnelaponin/Documents/Dev/wai-demo/mini-registry/_working/round-03-goal/_evidence/check_goal.py a1 · traced in full: a Python program and the Python programs it starts
+run 3 · 2026-10-31T16:22:13.753Z to 2026-10-31T16:22:14.123Z · exit 0 · /usr/bin/python3 -B /Users/arnelaponin/Documents/Dev/wai-demo/mini-registry/_working/round-03-goal/_evidence/check_goal.py a2 · traced in full: a Python program and the Python programs it starts
+run 4 · 2026-10-31T16:22:14.521Z to 2026-10-31T16:22:14.779Z · exit 0 · /usr/bin/python3 -B /Users/arnelaponin/Documents/Dev/wai-demo/mini-registry/_working/round-03-goal/_evidence/check_goal.py a3 · traced in full: a Python program and the Python programs it starts
+run 5 · 2026-10-31T16:22:15.174Z to 2026-10-31T16:22:15.404Z · exit 0 · /usr/bin/python3 -B /Users/arnelaponin/Documents/Dev/wai-demo/mini-registry/_working/round-03-goal/_evidence/check_goal.py a4 · traced in full: a Python program and the Python programs it starts
+run 6 · 2026-10-31T16:22:15.805Z to 2026-10-31T16:22:16.063Z · exit 0 · /usr/bin/python3 -B /Users/arnelaponin/Documents/Dev/wai-demo/mini-registry/_working/round-03-goal/_evidence/check_goal.py a5 · traced in full: a Python program and the Python programs it starts
+run 7 · 2026-10-31T16:22:16.460Z to 2026-10-31T16:22:16.731Z · exit 0 · /usr/bin/python3 -B /Users/arnelaponin/Documents/Dev/wai-demo/mini-registry/_working/round-03-goal/_evidence/check_goal.py a6 · traced in full: a Python program and the Python programs it starts
+
+## 4. Findings — 0
+none
+

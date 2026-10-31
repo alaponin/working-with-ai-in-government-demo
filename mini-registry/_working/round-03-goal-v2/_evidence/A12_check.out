@@ -1,0 +1,15 @@
+SC-1 (an entry for each of family name, given names, date of birth and school; the school chosen from the data's 3.) — named by S-1, S-2
+    S-1, its A11 row: *opens the enrolment screen* ← `R-03` «open the enrolment screen» (REQUIREMENTS.md:53)
+    S-2, its A11 row: *enters the family name, the given names and the date of birth* ← `brief:11` «A school clerk enters a child's family name, given names, date of birth and school.» (MINI-REGISTRY-BRIEF.md:11)
+SC-2 (that an existing learner was found, and that learner with its learner number.) — named by S-5, S-7
+    S-5, its A11 row: *shows that learner and enters nothing new* ← `brief:13` «it shows that learner and enters nothing new» (MINI-REGISTRY-BRIEF.md:13); `R-05` «the registry shows that learner and enters nothing new» (REQUIREMENTS.md:75); `groundwork:search_rule.csv:14` «on_exactly_one,shows that learner and enters nothing new» (search_rule.csv:14) |
+    S-7, its A11 row: *on SC-2, that an existing learner was found, and that learner* ← `R-07` «the second says that an existing learner was found, and shows that learner» (REQUIREMENTS.md:106)
+SC-3 (that a new learner number was given, and that number.) — named by S-6, S-7, F-5
+    S-6, its A11 row: *gives the child a new learner number* ← `brief:14` «it gives the child a new learner number» (MINI-REGISTRY-BRIEF.md:14); `R-06` «the registry gives the child a new learner number» (REQUIREMENTS.md:88)
+    S-7, its A11 row: *on SC-3, that a new learner number was given, and that number* ← `R-07` «the first screen says that a new learner number was given, and shows it» (REQUIREMENTS.md:106)
+    F-5, its A11 row: *SC-3, the screen of a new learner* ← `brief:14` «if it finds none» (MINI-REGISTRY-BRIEF.md:14); `R-07` «the first screen says that a new learner number was given, and shows it» (REQUIREMENTS.md:106)
+SC-4 (that the date of birth is refused.) — named by S-3, F-2
+    S-3, its A11 row: *a date in any other form is refused* ← `ruling:G-07` «refused otherwise» (GAPS-PAPER.md:254); `groundwork:settings.csv:17` «any other form refused» (settings.csv:17)
+    F-2, its A11 row: *SC-4* ← `ruling:G-09` «Every view the clerk can see is a screen, messages and refusals included» (GAPS-PAPER.md:34)
+SC-5 (that the entry is refused and cannot be completed.) — named by F-4
+    F-4, its A11 row: *SC-5* ← `ruling:G-09` «Every view the clerk can see is a screen, messages and refusals included» (GAPS-PAPER.md:34)

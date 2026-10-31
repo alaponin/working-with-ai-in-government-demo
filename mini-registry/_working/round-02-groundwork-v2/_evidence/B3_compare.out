@@ -1,0 +1,7 @@
+Sat Oct 31 14:54:57 UTC 2026
+$ diff <(tail -n +3 v1/A2_check.out) <(tail -n +3 v2/A2_check.out)
+EXIT=0
+$ diff <(tail -n +3 v1/A3_check.out) <(tail -n +3 v2/A3_check.out)
+EXIT=0
+$ diff <(tail -n +3 v1/A4_check.out) <(tail -n +3 v2/A4_check.out)
+EXIT=0

@@ -1,0 +1,264 @@
+# 2026-10-31T16:29:22Z /usr/bin/python3 R_lookup.py
+====================================================================================================
+S-1 — The clerk opens the enrolment screen
+  [The clerk] opens the enrolment screen and sees an entry for each of the four: family name, given names, date of birth and school, the school a choice among the data's 3 schools.
+  [The registry] offers enrolment as the only goal of its screens; there is no screen for looking learners up.
+  [Screen] SC-1, the enrolment screen.
+  -- brief:11 -> brief:11
+       | One goal: **enrol a learner.** A school clerk enters a child's family name, given names, date of birth and school. The registry searches for the child first:
+  -- R-02 -> reg:31-42
+       | **Requirement.** The prototype has one goal: to enrol a learner.
+       | - *Set up:* the prototype started and its data reset.
+       | - *Do:* by a windowless check, list every goal the prototype offers the clerk on its screens (what counts as a goal: gap G-08).
+       | - *See:* **Expected:** one goal, enrolling a learner. Pass if the list holds that goal and no other.
+  -- R-03 -> reg:44-55
+       | **Requirement.** To enrol a child, the school clerk enters the child's family name, given names, date of birth and school.
+       | - *Set up:* the prototype started and its data reset.
+       | - *Do:* by a windowless check, open the enrolment screen; enter F, G, D and S for a child the registry does not yet hold (the form of a date and of a school: gap G-07); submit.
+       | - *See:* the screen offers an entry for each of the four — family name, given names, date of birth, school — and the record saved holds F, G, D and S as entered. Pass if all four entries are offered and all four values are saved.
+  -- ruling:G-07 -> gaps:32,254
+       | | G-07 | Date as YYYY-MM-DD; school chosen from the three; all four entered before the search |
+       | **Recommendation — a proposal for the owner's ruling, not a decision.** We recommend Position A: the date entered as YYYY-MM-DD and refused otherwise, the school chosen from the data's three, and all four entered before the search runs, the school not searched on.
+  -- ruling:G-08 -> gaps:33,281
+       | | G-08 | Enrolment the only goal; reset is a command, and there is no screen for looking learners up |
+       | **Recommendation — a proposal for the owner's ruling, not a decision.** We recommend Position A: enrolment is the only thing the clerk's screens offer, reset is a command outside them, and there is no screen for looking learners up.
+  -- groundwork:settings.csv:18 -> settings.csv:18
+       | school_entry,chosen from the data's 3 schools,brief:24 · R-03 · ruling:G-07
+====================================================================================================
+S-2 — The clerk enters the child and submits
+  [The clerk] enters the family name, the given names and the date of birth, the date as YYYY-MM-DD; chooses the school; submits.
+  [The registry] nothing yet: the search runs only after the clerk has entered all four.
+  [Screen] SC-1, the enrolment screen.
+  -- brief:11 -> brief:11
+       | One goal: **enrol a learner.** A school clerk enters a child's family name, given names, date of birth and school. The registry searches for the child first:
+  -- R-03 -> reg:44-55
+       | **Requirement.** To enrol a child, the school clerk enters the child's family name, given names, date of birth and school.
+       | - *Set up:* the prototype started and its data reset.
+       | - *Do:* by a windowless check, open the enrolment screen; enter F, G, D and S for a child the registry does not yet hold (the form of a date and of a school: gap G-07); submit.
+       | - *See:* the screen offers an entry for each of the four — family name, given names, date of birth, school — and the record saved holds F, G, D and S as entered. Pass if all four entries are offered and all four values are saved.
+  -- ruling:G-07 -> gaps:32,254
+       | | G-07 | Date as YYYY-MM-DD; school chosen from the three; all four entered before the search |
+       | **Recommendation — a proposal for the owner's ruling, not a decision.** We recommend Position A: the date entered as YYYY-MM-DD and refused otherwise, the school chosen from the data's three, and all four entered before the search runs, the school not searched on.
+  -- groundwork:settings.csv:17 -> settings.csv:17
+       | date_of_birth_entry_form,YYYY-MM-DD; any other form refused,R-03 · ruling:G-07
+  -- groundwork:search_rule.csv:10 -> search_rule.csv:10
+       | when,"after the clerk has entered all four: family name, given names, date of birth and school",brief:11 · ruling:G-07
+====================================================================================================
+S-3 — The registry takes the entry
+  [The clerk] waits.
+  [The registry] takes the entry to the search only when all four are entered, the date of birth is in the form YYYY-MM-DD and the school is one of the data's 3; a date in any other form is refused. Where one of these does not hold, the goal goes on at F-1, F-2 or F-3.
+  [Screen] SC-1, the enrolment screen.
+  -- ruling:G-07 -> gaps:32,254
+       | | G-07 | Date as YYYY-MM-DD; school chosen from the three; all four entered before the search |
+       | **Recommendation — a proposal for the owner's ruling, not a decision.** We recommend Position A: the date entered as YYYY-MM-DD and refused otherwise, the school chosen from the data's three, and all four entered before the search runs, the school not searched on.
+  -- groundwork:settings.csv:17 -> settings.csv:17
+       | date_of_birth_entry_form,YYYY-MM-DD; any other form refused,R-03 · ruling:G-07
+  -- groundwork:settings.csv:18 -> settings.csv:18
+       | school_entry,chosen from the data's 3 schools,brief:24 · R-03 · ruling:G-07
+  -- groundwork:search_rule.csv:10 -> search_rule.csv:10
+       | when,"after the clerk has entered all four: family name, given names, date of birth and school",brief:11 · ruling:G-07
+====================================================================================================
+S-4 — The registry searches for the child first
+  [The clerk] waits.
+  [The registry] searches first, before it does anything else with the entry and before any write; it looks among learners only; it compares the family name, the given names and the date of birth, and nothing else; two values that differ in capitals only are the same, and every other difference makes two values differ; it does not compare the school, which is entered and saved and never searched on, nor any field but the three; it does not read the key table. On exactly one learner found the goal goes on at S-5, on none at S-6, on more than one at F-4.
+  [Screen] none of its own; the search runs between SC-1 and the screen of S-7.
+  -- brief:11 -> brief:11
+       | One goal: **enrol a learner.** A school clerk enters a child's family name, given names, date of birth and school. The registry searches for the child first:
+  -- brief:13 -> brief:13
+       | - if it finds exactly one learner with the same family name, given names and date of birth (capitals ignored), it shows that learner and enters nothing new;
+  -- R-04 -> reg:57-68
+       | **Requirement.** When the clerk has entered the child, the registry searches for the child before it does anything else with the entry.
+       | - *Set up:* the prototype started and its data reset; a program records, in order, every read and every write the registry makes on its data during an enrolment.
+       | - *Do:* enrol a child the registry does not hold (F, G, D, S); then enrol the same child again with the same entries.
+       | - *See:* in each enrolment the search is the first act on the data, before any write; in the second enrolment there is no write. Pass if a search precedes every write in both, and the second has none.
+  -- R-05 -> reg:70-81
+       | **Requirement.** If the search finds exactly one learner with the same family name, given names and date of birth, capitals ignored, the registry shows that learner and enters nothing new.
+       | - *Set up:* the prototype started and its data reset; enrol a child with F, G, D and S, and note the learner number it is given and the number of learners the registry then holds.
+       | - *Do:* (a) enrol a child with exactly F, G and D; (b) enrol a child with F and G written in other capitals — for example every letter a capital — and the same D.
+       | - *See:* in (a) and in (b), the screen shows the learner saved in the set-up, with its learner number, and the number of learners is unchanged. **Expected:** learners added: 0 in each of (a) and (b). Pass if both hold. (What the registry does when the search finds more than one: gap G-02.)
+  -- ruling:G-03 -> gaps:28,133
+       | | G-03 | At reset every list entry is enrolled by the brief's own rule; the search then looks among learners only |
+       | **Recommendation — a proposal for the owner's ruling, not a decision.** We recommend Position B: at each reset the registry enrols every list entry, in a fixed order, through the brief's own rule, so that the lists' children are learners with numbers, and the clerk's search then looks among learners only.
+  -- ruling:G-05 -> gaps:30,196
+       | | G-05 | A key table of the made-up data, read by the counts and never by the search; none of the 8 differs in capitals only |
+       | **Recommendation — a proposal for the owner's ruling, not a decision.** We recommend Position A, with settings 1 to 4 for round 2 — the 4 differ in at least one letter, the other 4 match letter for letter and in the same capitals, so none of the 8 differs in capitals only, and no two different children share all three fields — which gives round 7 the known answer of 4 of the 8 caught and R-12 a co
+  -- groundwork:search_rule.csv:2 -> search_rule.csv:2
+       | compares,family name,brief:13 · R-05
+  -- groundwork:search_rule.csv:3 -> search_rule.csv:3
+       | compares,given names,brief:13 · R-05
+  -- groundwork:search_rule.csv:4 -> search_rule.csv:4
+       | compares,date of birth,brief:13 · R-05
+  -- groundwork:search_rule.csv:5 -> search_rule.csv:5
+       | forgives,capitals: two values that differ in capitals only are the same,brief:13 · R-05
+  -- groundwork:search_rule.csv:6 -> search_rule.csv:6
+       | forgives_nothing_else,every difference but capitals makes two values differ,brief:13
+  -- groundwork:search_rule.csv:7 -> search_rule.csv:7
+       | does_not_compare,"school: entered and saved, never searched on",brief:13 · ruling:G-07
+  -- groundwork:search_rule.csv:8 -> search_rule.csv:8
+       | does_not_compare,any field but the three compared,brief:13
+  -- groundwork:search_rule.csv:9 -> search_rule.csv:9
+       | does_not_read,the key table,ruling:G-05
+  -- groundwork:search_rule.csv:11 -> search_rule.csv:11
+       | when,first: before the registry does anything else with the entry,brief:11 · R-04
+  -- groundwork:search_rule.csv:12 -> search_rule.csv:12
+       | where,among learners only,ruling:G-03
+====================================================================================================
+S-5 — Exactly one learner found
+  [The clerk] sees the learner found (S-7).
+  [The registry] shows that learner and enters nothing new.
+  [Screen] SC-2, the screen of a learner found.
+  -- brief:13 -> brief:13
+       | - if it finds exactly one learner with the same family name, given names and date of birth (capitals ignored), it shows that learner and enters nothing new;
+  -- R-05 -> reg:70-81
+       | **Requirement.** If the search finds exactly one learner with the same family name, given names and date of birth, capitals ignored, the registry shows that learner and enters nothing new.
+       | - *Set up:* the prototype started and its data reset; enrol a child with F, G, D and S, and note the learner number it is given and the number of learners the registry then holds.
+       | - *Do:* (a) enrol a child with exactly F, G and D; (b) enrol a child with F and G written in other capitals — for example every letter a capital — and the same D.
+       | - *See:* in (a) and in (b), the screen shows the learner saved in the set-up, with its learner number, and the number of learners is unchanged. **Expected:** learners added: 0 in each of (a) and (b). Pass if both hold. (What the registry does when the search finds more than one: gap G-02.)
+  -- groundwork:search_rule.csv:14 -> search_rule.csv:14
+       | on_exactly_one,shows that learner and enters nothing new,brief:13 · R-05
+====================================================================================================
+S-6 — No learner found
+  [The clerk] sees the new learner number (S-7).
+  [The registry] gives the child a new learner number — a whole number in sequence, one higher than the highest the registry holds, never given twice, and 1 where it holds none — and saves the record: the family name, given names, date of birth and school as entered, with that learner number.
+  [Screen] SC-3, the screen of a new learner.
+  -- brief:14 -> brief:14
+       | - if it finds none, it gives the child a new learner number and saves the record;
+  -- R-06 -> reg:83-94
+       | **Requirement.** If the search finds no such learner, the registry gives the child a new learner number and saves the record.
+       | - *Set up:* the prototype started and its data reset; read the number of learners and every learner number the registry holds (what a learner number looks like: gap G-01; where the search looks: gap G-03).
+       | - *Do:* (a) enrol a child whose family name, given names and date of birth, capitals ignored, match none of the records the search looks in; (b) then enrol a child with the same given names and date of birth as the child of (a), and a family name that differs from it by one letter, not by capitals alone.
+       | - *See:* after each of (a) and (b), one record is saved, holding the entries made and a learner number that no learner held before. **Expected:** learners added: 1 after (a) and 1 after (b); each new learner number unlike every number held before it. Pass if both hold.
+  -- R-03 -> reg:44-55
+       | **Requirement.** To enrol a child, the school clerk enters the child's family name, given names, date of birth and school.
+       | - *Set up:* the prototype started and its data reset.
+       | - *Do:* by a windowless check, open the enrolment screen; enter F, G, D and S for a child the registry does not yet hold (the form of a date and of a school: gap G-07); submit.
+       | - *See:* the screen offers an entry for each of the four — family name, given names, date of birth, school — and the record saved holds F, G, D and S as entered. Pass if all four entries are offered and all four values are saved.
+  -- ruling:G-01 -> gaps:26,73
+       | | G-01 | A whole number in sequence, one above the highest held, never given twice |
+       | **Recommendation — a proposal for the owner's ruling, not a decision.** We recommend Position A: a whole number given in sequence, one higher than the highest the registry holds, never given twice.
+  -- ruling:Q-4 -> qs:94
+       | **Proposal — not a decision.** Any first number serves; we recommend 1, so that the highest number is the count.
+  -- groundwork:settings.csv:9 -> settings.csv:9
+       | learner_number,"a whole number in sequence, one higher than the highest held, never given twice",R-06 · ruling:G-01
+  -- groundwork:search_rule.csv:15 -> search_rule.csv:15
+       | on_none,gives the child a new learner number by the setting learner_number and saves the record,brief:14 · R-06 · ruling:G-01
+  -- groundwork:lists.csv:11 -> lists.csv:11
+       | learners,learner_number,"given by the registry by the setting learner_number, never twice",brief:14 · R-06 · ruling:G-01
+  -- groundwork:lists.csv:12 -> lists.csv:12
+       | learners,family_name,the family name as entered by the clerk or enrolled from a list,brief:11 · R-03 · ruling:G-03
+  -- groundwork:lists.csv:13 -> lists.csv:13
+       | learners,given_names,the given names as entered by the clerk or enrolled from a list,brief:11 · R-03 · ruling:G-03
+  -- groundwork:lists.csv:14 -> lists.csv:14
+       | learners,date_of_birth,the date of birth as entered by the clerk or enrolled from a list,brief:11 · R-03 · ruling:G-03
+  -- groundwork:lists.csv:15 -> lists.csv:15
+       | learners,school,the school as chosen by the clerk; saved and never searched on,brief:11 · R-03 · ruling:G-07
+====================================================================================================
+S-7 — The clerk sees which of the two happened
+  [The clerk] sees which of the two happened: on SC-2, that an existing learner was found, and that learner with its learner number; on SC-3, that a new learner number was given, and that number. The two screens say different things.
+  [The registry] shows the screen of what happened.
+  [Screen] SC-2 or SC-3.
+  -- brief:15 -> brief:15
+       | - the clerk sees which of the two happened.
+  -- R-07 -> reg:96-107
+       | **Requirement.** After the search, the clerk sees which of the two happened: an existing learner was found and shown, or a new learner number was given and the record saved.
+       | - *Set up:* the prototype started and its data reset.
+       | - *Do:* by a windowless check, enrol a child the registry does not hold, and read the screen that follows; then enrol the same child again, and read the screen that follows.
+       | - *See:* the first screen says that a new learner number was given, and shows it; the second says that an existing learner was found, and shows that learner. Pass if each screen says which of the two happened and the two screens say different things.
+  -- R-05 -> reg:70-81
+       | **Requirement.** If the search finds exactly one learner with the same family name, given names and date of birth, capitals ignored, the registry shows that learner and enters nothing new.
+       | - *Set up:* the prototype started and its data reset; enrol a child with F, G, D and S, and note the learner number it is given and the number of learners the registry then holds.
+       | - *Do:* (a) enrol a child with exactly F, G and D; (b) enrol a child with F and G written in other capitals — for example every letter a capital — and the same D.
+       | - *See:* in (a) and in (b), the screen shows the learner saved in the set-up, with its learner number, and the number of learners is unchanged. **Expected:** learners added: 0 in each of (a) and (b). Pass if both hold. (What the registry does when the search finds more than one: gap G-02.)
+  -- groundwork:search_rule.csv:18 -> search_rule.csv:18
+       | tells,the clerk sees which of the two happened,brief:15 · R-07
+====================================================================================================
+F-1 — An entry missing
+  [At step] S-3.
+  [What sets it off] the clerk submits with one or more of the four — family name, given names, date of birth, school — not entered.
+  [What the clerk sees] SC-4: the entry is refused; the search does not run.
+  [What is saved] nothing.
+  -- brief:11 -> brief:11
+       | One goal: **enrol a learner.** A school clerk enters a child's family name, given names, date of birth and school. The registry searches for the child first:
+  -- ruling:G-07 -> gaps:32,254
+       | | G-07 | Date as YYYY-MM-DD; school chosen from the three; all four entered before the search |
+       | **Recommendation — a proposal for the owner's ruling, not a decision.** We recommend Position A: the date entered as YYYY-MM-DD and refused otherwise, the school chosen from the data's three, and all four entered before the search runs, the school not searched on.
+  -- ruling:G-09 -> gaps:34,308
+       | | G-09 | Every view the clerk can see is a screen, messages and refusals included |
+       | **Recommendation — a proposal for the owner's ruling, not a decision.** We recommend Position A: every view the clerk can see, messages and refusals included, is a screen on the list of register line 238 and carries the words.
+  -- groundwork:search_rule.csv:10 -> search_rule.csv:10
+       | when,"after the clerk has entered all four: family name, given names, date of birth and school",brief:11 · ruling:G-07
+====================================================================================================
+F-2 — The date of birth in the wrong form
+  [At step] S-3.
+  [What sets it off] a date of birth not in the form YYYY-MM-DD.
+  [What the clerk sees] SC-5: the entry is refused; the search does not run.
+  [What is saved] nothing.
+  -- ruling:G-07 -> gaps:32,254
+       | | G-07 | Date as YYYY-MM-DD; school chosen from the three; all four entered before the search |
+       | **Recommendation — a proposal for the owner's ruling, not a decision.** We recommend Position A: the date entered as YYYY-MM-DD and refused otherwise, the school chosen from the data's three, and all four entered before the search runs, the school not searched on.
+  -- ruling:G-09 -> gaps:34,308
+       | | G-09 | Every view the clerk can see is a screen, messages and refusals included |
+       | **Recommendation — a proposal for the owner's ruling, not a decision.** We recommend Position A: every view the clerk can see, messages and refusals included, is a screen on the list of register line 238 and carries the words.
+  -- groundwork:settings.csv:17 -> settings.csv:17
+       | date_of_birth_entry_form,YYYY-MM-DD; any other form refused,R-03 · ruling:G-07
+====================================================================================================
+F-3 — A school not among the three
+  [At step] S-3.
+  [What sets it off] a school that is not one of the data's 3 schools.
+  [What the clerk sees] SC-6: the entry is refused; the search does not run.
+  [What is saved] nothing.
+  -- brief:24 -> brief:24
+       | | Schools | 3 |
+  -- ruling:G-07 -> gaps:32,254
+       | | G-07 | Date as YYYY-MM-DD; school chosen from the three; all four entered before the search |
+       | **Recommendation — a proposal for the owner's ruling, not a decision.** We recommend Position A: the date entered as YYYY-MM-DD and refused otherwise, the school chosen from the data's three, and all four entered before the search runs, the school not searched on.
+  -- ruling:G-09 -> gaps:34,308
+       | | G-09 | Every view the clerk can see is a screen, messages and refusals included |
+       | **Recommendation — a proposal for the owner's ruling, not a decision.** We recommend Position A: every view the clerk can see, messages and refusals included, is a screen on the list of register line 238 and carries the words.
+  -- groundwork:settings.csv:18 -> settings.csv:18
+       | school_entry,chosen from the data's 3 schools,brief:24 · R-03 · ruling:G-07
+====================================================================================================
+F-4 — More than one learner found
+  [At step] S-4.
+  [What sets it off] the search finds more than one learner with the same family name, given names and date of birth, capitals ignored. Under the data's settings it is never reached: no two different children share all three fields, capitals ignored.
+  [What the clerk sees] SC-7: the entry cannot be completed.
+  [What is saved] nothing new.
+  -- ruling:G-02 -> gaps:27,102
+       | | G-02 | Never reached under the data's settings; if it is, enter nothing new and refuse the entry |
+       | **Recommendation — a proposal for the owner's ruling, not a decision.** We recommend Position B: under the settings given to both the case is never met, and if it is met the registry enters nothing new and says the entry cannot be completed.
+  -- ruling:G-09 -> gaps:34,308
+       | | G-09 | Every view the clerk can see is a screen, messages and refusals included |
+       | **Recommendation — a proposal for the owner's ruling, not a decision.** We recommend Position A: every view the clerk can see, messages and refusals included, is a screen on the list of register line 238 and carries the words.
+  -- ruling:Q-14 -> qs:281
+       | **Proposal — not a decision.** We recommend that "share" ignore capitals, as the search does.
+  -- groundwork:search_rule.csv:16 -> search_rule.csv:16
+       | on_more_than_one,enters nothing new and says the entry cannot be completed,ruling:G-02
+  -- groundwork:search_rule.csv:17 -> search_rule.csv:17
+       | on_more_than_one,never reached under the data's settings,ruling:G-02
+  -- groundwork:settings.csv:13 -> settings.csv:13
+       | different_children_sharing_family_name_given_names_and_date_of_birth,0,ruling:G-05
+====================================================================================================
+F-5 — The same child, not caught
+  [At step] S-4, which then goes on at S-6.
+  [What sets it off] a child the registry already holds as a learner is entered with a family name, given names or date of birth that differs from that learner's in anything but capitals — a family name spelt differently by one letter among them. The search finds none.
+  [What the clerk sees] SC-3, the screen of a new learner, as for a child the registry does not hold.
+  [What is saved] a second learner for the same child, with a new learner number (S-6). This is a limit of the search step, the brief's own rule: of the data's 8 children on more than one list, the search catches 4, and the 4 whose family name is spelt differently on one list are missed so.
+  -- brief:7 -> brief:7
+       | Progressa's Ministry of Education, Youth and Skills (MoEYS) wants one list of learners instead of three. Before anyone builds the real thing, the planning unit wants to see a small working prototype: a school clerk enrols a child, and the registry does not register the same child twice. The prototype is for agreement. It is not the registry.
+  -- brief:13 -> brief:13
+       | - if it finds exactly one learner with the same family name, given names and date of birth (capitals ignored), it shows that learner and enters nothing new;
+  -- R-06 -> reg:83-94
+       | **Requirement.** If the search finds no such learner, the registry gives the child a new learner number and saves the record.
+       | - *Set up:* the prototype started and its data reset; read the number of learners and every learner number the registry holds (what a learner number looks like: gap G-01; where the search looks: gap G-03).
+       | - *Do:* (a) enrol a child whose family name, given names and date of birth, capitals ignored, match none of the records the search looks in; (b) then enrol a child with the same given names and date of birth as the child of (a), and a family name that differs from it by one letter, not by capitals alone.
+       | - *See:* after each of (a) and (b), one record is saved, holding the entries made and a learner number that no learner held before. **Expected:** learners added: 1 after (a) and 1 after (b); each new learner number unlike every number held before it. Pass if both hold.
+  -- ruling:G-05 -> gaps:30,196
+       | | G-05 | A key table of the made-up data, read by the counts and never by the search; none of the 8 differs in capitals only |
+       | **Recommendation — a proposal for the owner's ruling, not a decision.** We recommend Position A, with settings 1 to 4 for round 2 — the 4 differ in at least one letter, the other 4 match letter for letter and in the same capitals, so none of the 8 differs in capitals only, and no two different children share all three fields — which gives round 7 the known answer of 4 of the 8 caught and R-12 a co
+  -- groundwork:search_rule.csv:6 -> search_rule.csv:6
+       | forgives_nothing_else,every difference but capitals makes two values differ,brief:13
+  -- groundwork:settings.csv:14 -> settings.csv:14
+       | of_the_8_caught_by_the_search,4,ruling:G-05
+====================================================================================================
+steps: 7; failures: 5; screens: 7; tokens not resolving: 0
+EXIT=0

@@ -1,0 +1,3 @@
+ab3cc36 The delivery of the mini registry's two deliverables, committed at the owner's word (D-2026-10-31-15, "One commit round, tests fixed"): the ledger entries and guard entries written since 62659d9
+62659d9 The day's work of 31 October 2026 since f4c9345, completing the third commit of the day (version 2), committed at the owner's word (D-2026-10-31-10, "Commit both now"): the ledger's entries and the guards written since
+f4c9345 The day's work of 31 October 2026 since 42cfa12, committed at the owner's word (D-2026-10-31-10, "Commit both now")

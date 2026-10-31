@@ -1,0 +1,13 @@
+# 2026-10-31 15:14:42 UTC trace_check
+trace check of /Users/arnelaponin/Documents/Dev/wai-demo/mini-registry/_reports/REPORT_COMMIT_2026-10-31.md (a report)
+  constants: /Users/arnelaponin/Documents/Dev/wai-demo/mini-registry/CONSTANTS.md
+  the estate's root: /Users/arnelaponin/Documents/Dev/wai-demo/mini-registry
+  the places: instruction _prompts/ = /Users/arnelaponin/Documents/Dev/wai-demo/mini-registry/_prompts, report _reports/ = /Users/arnelaponin/Documents/Dev/wai-demo/mini-registry/_reports, review _reviews/ = /Users/arnelaponin/Documents/Dev/wai-demo/mini-registry/_reviews
+  coordination: /Users/arnelaponin/Documents/Dev/wai-demo/_coordination/CONSTANTS.md
+  the instruction: /Users/arnelaponin/Documents/Dev/wai-demo/mini-registry/_prompts/PROMPT_COMMIT_2026-10-31.md
+  agrees: the report answers C-2026-10-31-09, the instruction's commission_id
+  agrees: the instruction's downstream_artefact is this report
+  outputs: 4 of 4 named exist
+  inputs: the issued entry 20261031T150755Z_MR_issued_C-2026-10-31-09.yaml pins no input (written before the field, or the instruction names none)
+trace check: clean
+# exit=0

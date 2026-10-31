@@ -1,0 +1,14 @@
+Sat Oct 31 19:33:32 UTC 2026
+trace check of /Users/arnelaponin/Documents/Dev/wai-demo/mini-registry/_reports/REPORT_KIND_ITEM_2026-10-31.md (a report)
+  constants: /Users/arnelaponin/Documents/Dev/wai-demo/mini-registry/CONSTANTS.md
+  the estate's root: /Users/arnelaponin/Documents/Dev/wai-demo/mini-registry
+  the places: instruction _prompts/ = /Users/arnelaponin/Documents/Dev/wai-demo/mini-registry/_prompts, report _reports/ = /Users/arnelaponin/Documents/Dev/wai-demo/mini-registry/_reports, review _reviews/ = /Users/arnelaponin/Documents/Dev/wai-demo/mini-registry/_reviews
+  coordination: /Users/arnelaponin/Documents/Dev/wai-demo/_coordination/CONSTANTS.md
+  the instruction: /Users/arnelaponin/Documents/Dev/wai-demo/mini-registry/_prompts/PROMPT_KIND_ITEM_2026-10-31.md
+  agrees: the report answers C-2026-10-31-27, the instruction's commission_id
+  agrees: the instruction's downstream_artefact is this report
+  outputs: 3 of 3 named exist
+  inputs: 5 of 6 pinned by 20261031T192637Z_MR_issued_C-2026-10-31-27.yaml hash the same now
+finding: input-changed: /Users/arnelaponin/Documents/Dev/wai-demo/mini-registry/_kinds/analysis.md — sha256:a5054bec7db8 at issue (20261031T192637Z_MR_issued_C-2026-10-31-27.yaml), sha256:a5054bec7db8 at start, sha256:be2fdb717015 now
+trace check: 1 finding
+exit=1

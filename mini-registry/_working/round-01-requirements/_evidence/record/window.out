@@ -1,0 +1,22 @@
+$ T=$(date -u '+%Y-%m-%d %H:%M:%S'); <write the window line into the report>; stat -f '%Sm' -t '%Y-%m-%d %H:%M:%S' (UTC) <report and every written file>; shasum -a 256 <report>
+date -u at the write: 2026-10-31 13:13:00 UTC
+2026-10-31 13:13:00 UTC  /Users/arnelaponin/Documents/Dev/wai-demo/mini-registry/_reports/REPORT_REQUIREMENTS_2026-10-31.md
+2026-10-31 13:09:34 UTC  /Users/arnelaponin/Documents/Dev/wai-demo/mini-registry/docs/REQUIREMENTS.md
+2026-10-31 13:08:01 UTC  /Users/arnelaponin/Documents/Dev/wai-demo/mini-registry/_working/round-01-requirements/_evidence/A1_inventory_count.log
+2026-10-31 13:07:46 UTC  /Users/arnelaponin/Documents/Dev/wai-demo/mini-registry/_working/round-01-requirements/_evidence/A1_inventory_count_try1_python37.log
+2026-10-31 13:10:00 UTC  /Users/arnelaponin/Documents/Dev/wai-demo/mini-registry/_working/round-01-requirements/_evidence/A2_A3_compare.log
+2026-10-31 13:10:14 UTC  /Users/arnelaponin/Documents/Dev/wai-demo/mini-registry/_working/round-01-requirements/_evidence/A2_A3_planted.log
+2026-10-31 13:10:33 UTC  /Users/arnelaponin/Documents/Dev/wai-demo/mini-registry/_working/round-01-requirements/_evidence/A4_known_numbers.log
+2026-10-31 13:10:25 UTC  /Users/arnelaponin/Documents/Dev/wai-demo/mini-registry/_working/round-01-requirements/_evidence/A5_gaps.log
+2026-10-31 13:10:44 UTC  /Users/arnelaponin/Documents/Dev/wai-demo/mini-registry/_working/round-01-requirements/_evidence/A6_brief_sha.log
+2026-10-31 13:12:06 UTC  /Users/arnelaponin/Documents/Dev/wai-demo/mini-registry/_working/round-01-requirements/_evidence/A7_placement_check.log
+2026-10-31 13:10:45 UTC  /Users/arnelaponin/Documents/Dev/wai-demo/mini-registry/_working/round-01-requirements/_evidence/A7_placement_check_before_report.log
+2026-10-31 13:12:06 UTC  /Users/arnelaponin/Documents/Dev/wai-demo/mini-registry/_working/round-01-requirements/_evidence/A7_trace_check.log
+2026-10-31 13:08:01 UTC  /Users/arnelaponin/Documents/Dev/wai-demo/mini-registry/_working/round-01-requirements/_evidence/SENTENCES.md
+2026-10-31 13:09:52 UTC  /Users/arnelaponin/Documents/Dev/wai-demo/mini-registry/_working/round-01-requirements/_evidence/compare_register.py
+2026-10-31 13:07:36 UTC  /Users/arnelaponin/Documents/Dev/wai-demo/mini-registry/_working/round-01-requirements/_evidence/dispositions.tsv
+2026-10-31 13:12:47 UTC  /Users/arnelaponin/Documents/Dev/wai-demo/mini-registry/_working/round-01-requirements/_evidence/ls_outputs.log
+2026-10-31 13:10:13 UTC  /Users/arnelaponin/Documents/Dev/wai-demo/mini-registry/_working/round-01-requirements/_evidence/planted/REQUIREMENTS_planted.md
+2026-10-31 13:07:36 UTC  /Users/arnelaponin/Documents/Dev/wai-demo/mini-registry/_working/round-01-requirements/_evidence/split_units.py
+e712f4843474ab561d665c7bbac875044dce73b080fa773d856788ea7df1edfd  /Users/arnelaponin/Documents/Dev/wai-demo/mini-registry/_reports/REPORT_REQUIREMENTS_2026-10-31.md
+   14860 /Users/arnelaponin/Documents/Dev/wai-demo/mini-registry/_reports/REPORT_REQUIREMENTS_2026-10-31.md

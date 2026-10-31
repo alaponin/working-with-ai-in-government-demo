@@ -1,0 +1,14 @@
+Sat Oct 31 14:55:27 UTC 2026
+$ diff before.sha256 after.sha256
+1,2c1,2
+< Sat Oct 31 14:54:03 UTC 2026
+< f2284affe810c2886d8a1899681e3d16af96a547dea10f7acc6bcbfca2584df9  docs/GROUNDWORK.md
+---
+> Sat Oct 31 14:55:27 UTC 2026
+> 5ed9b62f282d433df7c337a2da30e4830c56170dca1e646ae5aacc2cc2795dce  docs/GROUNDWORK.md
+EXIT=1
+$ shasum -a 256 (the three sources)
+ec6971e74a6a8387de0e5bd7a5e1cdead6ddf711b8fdac3ccc1d4b7555e11f64  brief/MINI-REGISTRY-BRIEF.md
+ad583b3958fb5c5fdf6683b5c2487b6f0c425d66cebc7c46811e2e19af13f103  mini-registry/docs/REQUIREMENTS.md
+d03db64c6e49a1b92467c1e6e19929c321964bd89f6cb715d15dd570f37bc8bb  mini-registry/docs/GAPS-PAPER.md
+EXIT=0

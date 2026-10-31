@@ -1,0 +1,19 @@
+S-1	docs/GOAL.md:15	### S-1 — The clerk opens the enrolment screen
+S-2	docs/GOAL.md:22	### S-2 — The clerk enters the child and submits
+S-3	docs/GOAL.md:29	### S-3 — The registry holds the date of birth to its form
+S-4	docs/GOAL.md:36	### S-4 — The registry searches for the child first
+S-5	docs/GOAL.md:43	### S-5 — Exactly one learner found
+S-6	docs/GOAL.md:50	### S-6 — No learner found
+S-7	docs/GOAL.md:57	### S-7 — The clerk sees which of the two happened
+F-1	docs/GOAL.md:68	### F-1 — An entry missing
+F-2	docs/GOAL.md:76	### F-2 — The date of birth in the wrong form
+F-3	docs/GOAL.md:84	### F-3 — A school not among the three
+F-4	docs/GOAL.md:92	### F-4 — More than one learner found
+F-5	docs/GOAL.md:100	### F-5 — The same child, not caught
+F-6	docs/GOAL-QUESTIONS-PAPER.md:313	**Added:** F-6, a record not saved (Q-3), and F-7, a different child taken for a learner (Q-12); no screen, no step.
+F-7	docs/GOAL-QUESTIONS-PAPER.md:313	**Added:** F-6, a record not saved (Q-3), and F-7, a different child taken for a learner (Q-12); no screen, no step.
+SC-1	docs/GOAL.md:114	### SC-1 — The enrolment screen
+SC-2	docs/GOAL.md:120	### SC-2 — A learner found
+SC-3	docs/GOAL.md:126	### SC-3 — A new learner
+SC-4	docs/GOAL.md:132	### SC-4 — The date of birth refused
+SC-5	docs/GOAL.md:138	### SC-5 — The entry cannot be completed

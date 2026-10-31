@@ -1,0 +1,5 @@
+2026-10-31 18:38:14 UTC
+$ ledger.py check --constants <coordination>
+check: clean
+exit 0
+2026-10-31 18:38:15 UTC

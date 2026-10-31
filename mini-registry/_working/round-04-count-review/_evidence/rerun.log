@@ -1,0 +1,106 @@
+2026-10-31 18:37:20 UTC
+$ /usr/bin/python3 -I list_sets.py <root> <review evidence>   (the round program, its sets written to the review folder)
+REQUIREMENTS_SET.txt: 23 lines, 23 distinct, 0 not found at its place
+  R-01 R-02 R-03 R-04 R-05 R-06 R-07 R-08 R-09 R-10 R-11 R-12 R-13 R-14 R-15 R-16 R-17 R-18 R-19 R-20 R-21 R-22 R-23
+GOAL_SET.txt: 19 lines, 19 distinct, 0 not found at its place
+  S-1 S-2 S-3 S-4 S-5 S-6 S-7 F-1 F-2 F-3 F-4 F-5 F-6 F-7 SC-1 SC-2 SC-3 SC-4 SC-5
+exit 0
+$ diff the review sets against the round sets
+exit 0
+$ wc -l
+      23 /Users/arnelaponin/Documents/Dev/wai-demo/mini-registry/_working/round-04-count-review/_evidence/REQUIREMENTS_SET.txt
+      19 /Users/arnelaponin/Documents/Dev/wai-demo/mini-registry/_working/round-04-count-review/_evidence/GOAL_SET.txt
+      42 total
+$ /usr/bin/python3 -I count.py <root> docs/count/count.csv <sets>
+rows read: 72 (/Users/arnelaponin/Documents/Dev/wai-demo/mini-registry/docs/count/count.csv)
+0 unknown, 0 absent
+
+== Requirements -> goal (23 requirements)
+  R-01 -> S-2 S-3 S-4 S-5 S-6
+  R-02 -> S-1 SC-1
+  R-03 -> S-1 S-2 S-3 S-4 S-6 SC-1
+  R-04 -> S-2 S-3 S-4 S-5 S-6
+  R-05 -> S-2 S-3 S-4 S-5 S-6 S-7 SC-2
+  R-06 -> S-2 S-3 S-4 S-6
+  R-07 -> S-2 S-3 S-4 S-5 S-6 S-7 SC-2 SC-3
+  R-08 -> none
+  R-09 -> none
+  R-10 -> none
+  R-11 -> none
+  R-12 -> none
+  R-13 -> none
+  R-14 -> S-2 S-3 S-4
+  R-15 -> S-2 S-3 S-4
+  R-16 -> none
+  R-17 -> S-5 S-6 SC-1 SC-2 SC-3 SC-4 SC-5
+  R-18 -> S-2 S-3 S-4 S-5 S-6
+  R-19 -> none
+  R-20 -> S-2 S-3 S-4
+  R-21 -> none
+  R-22 -> S-2 S-3 S-4 S-6
+  R-23 -> none
+reach at least one element: 13
+reach none: 10
+  R-08 — the made-up data: the prototype's data reset, before any enrolment
+  R-09 — the made-up data: the prototype's data reset, before any enrolment
+  R-10 — the made-up data: the prototype's data reset, before any enrolment
+  R-11 — the made-up data: the prototype's data reset, before any enrolment
+  R-12 — the made-up data: how many of these children the registry's search catches is not tested here
+  R-13 — the made-up data: the prototype's data reset, before any enrolment
+  R-16 — the made-up data: list every source from which the data is made
+  R-19 — what the prototype must not do outside the goal: the list of other bodies the prototype draws on
+  R-21 — what the prototype must not do outside the goal: run every check of the screens; while they run and when they end, read the list of windows again
+  R-23 — the delivery: the note as delivered
+
+== Goal -> requirements (19 elements)
+  S-1 <- R-02 R-03
+  S-2 <- R-01 R-03 R-04 R-05 R-06 R-07 R-14 R-15 R-18 R-20 R-22
+  S-3 <- R-01 R-03 R-04 R-05 R-06 R-07 R-14 R-15 R-18 R-20 R-22
+  S-4 <- R-01 R-03 R-04 R-05 R-06 R-07 R-14 R-15 R-18 R-20 R-22
+  S-5 <- R-01 R-04 R-05 R-07 R-17 R-18
+  S-6 <- R-01 R-03 R-04 R-05 R-06 R-07 R-17 R-18 R-22
+  S-7 <- R-05 R-07
+  F-1 <- none
+  F-2 <- none
+  F-3 <- none
+  F-4 <- none
+  F-5 <- none
+  F-6 <- none
+  F-7 <- none
+  SC-1 <- R-02 R-03 R-17
+  SC-2 <- R-05 R-07 R-17
+  SC-3 <- R-07 R-17
+  SC-4 <- R-17
+  SC-5 <- R-17
+reached by at least one requirement: 12
+reached by none: 7
+  F-1
+      docs/GOAL.md:74 **Source:** brief:11 · brief:14 · ruling:G-07 · groundwork:search_rule.csv:10
+      docs/GOAL-QUESTIONS-PAPER.md:302 | F-1 | seen on SC-4, each entry missing named (Q-4, Q-5, Q-8) |
+  F-2
+      docs/GOAL.md:82 **Source:** ruling:G-07 · ruling:G-09 · groundwork:settings.csv:17
+      docs/GOAL-QUESTIONS-PAPER.md:303 | F-2 | a date naming no day refused too (Q-1); before the search (Q-7) |
+  F-3
+      docs/GOAL.md:90 **Source:** brief:24 · ruling:G-07 · groundwork:settings.csv:18
+      docs/GOAL-QUESTIONS-PAPER.md:304 | F-3 | refused on SC-4 where it reaches the registry (Q-6) |
+  F-4
+      docs/GOAL.md:98 **Source:** ruling:G-02 · ruling:G-05 · ruling:G-09 · ruling:Q-14 · groundwork:search_rule.csv:16 · groundwork:search_rule.csv:17 · groundwork:settings.csv:13
+      docs/GOAL-QUESTIONS-PAPER.md:305 | F-4 | SC-5 also says nothing was saved (Q-8) |
+  F-5
+      docs/GOAL.md:106 **Source:** brief:7 · brief:13 · brief:14 · R-01 · R-06 · R-07 · ruling:G-05 · groundwork:search_rule.csv:5 · groundwork:search_rule.csv:6 · groundwork:settings.csv:14
+      docs/GOAL-QUESTIONS-PAPER.md:306 | F-5 | unchanged |
+  F-6
+      docs/GOAL-QUESTIONS-PAPER.md:313 **Added:** F-6, a record not saved (Q-3), and F-7, a different child taken for a learner (Q-12); no screen, no step.
+  F-7
+      docs/GOAL-QUESTIONS-PAPER.md:313 **Added:** F-6, a record not saved (Q-3), and F-7, a different child taken for a learner (Q-12); no screen, no step.
+exit 0
+$ /usr/bin/python3 -I check_grounds.py <root> docs/count/count.csv | tail -1
+72 rows, 23 tests read, 0 not found
+exit 0
+$ shasum -a 256 register goal paper
+ad583b3958fb5c5fdf6683b5c2487b6f0c425d66cebc7c46811e2e19af13f103  docs/REQUIREMENTS.md
+342515fd5ed96e45e23014568f67e8126edfeeccdb7f862dddd38e44acdb2aed  docs/GOAL.md
+9603caf1d95b8f89927a35969e33947da9e93776e04f98ccd27a3a7965ef0cef  docs/GOAL-QUESTIONS-PAPER.md
+fc2b28435e20f94d3f79408e8afee9176c77c5a8bcdaace67df3344c091131a6  docs/COUNT.md
+5a0f28ea6bcccd0ad6c3bced2144fe8e681c542a60b703fe23cec6c55eb9d9a1  docs/count/count.csv
+2026-10-31 18:37:21 UTC

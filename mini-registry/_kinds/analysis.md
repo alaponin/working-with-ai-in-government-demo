@@ -1,0 +1,26 @@
+# Analysis — the faults it refuses
+
+**The kind.** Analysis answers an open question from documents and stops at the answer. Examples are a diagnostic, a gap register or a landscape brief. It ends in a recommendation, never a decision: the decision is yours.
+
+*How this page grows: when a review finds a fault that is not on this page, add it here. Every later instruction of this kind then carries it.*
+
+## 1. What the work chat refuses
+1. **To call a proposal a decision, or to restate a governing document instead of quoting it.** Where the paper rests on a law, a strategy or the instruction, it quotes the passage and says where it is.
+2. **To make the case for one position without the passages that make the other strongest.** Each position is stated at its strongest, from the documents, before either is judged. The judgements go in one table, position by test, so that a fact counted against one and not the other can be seen.
+3. **To count over a set it has not listed.** The set a test names, such as every requirement or every goal, is listed first from its own source. Then what was covered is set against it before a total or a zero is reported.
+4. **To cite a source where it does not say what the paper says,** or to write a figure from anything but the passage that holds it.
+5. **To contradict itself or the instruction.** A figure given twice is the same both times. A departure from the instruction is stated, with its reason.
+6. **To credit one position with a setting, a count or a screen that any position could take.** Positions that differ on more than the question asks are cut back to that one difference, and everything else open to all is given to all, before any is judged. *(Added 31 October 2026 from the review `_reviews/REVIEW_GAPS_2026-10-31.md`, gap G3.)*
+7. **To judge the positions of one question under another question's answer other than the one recommended, or under different answers for each position; or to declare a dependency between two answers in one direction only.** *(Added 31 October 2026 from the review `_reviews/REVIEW_QUESTIONS_2026-10-31.md`, gap G1, in the reviewer's proposed words.)*
+
+## 2. What the review chat runs
+- Every citation read at its source, against the sentence that cites it.
+- The set each test names, listed again from its own source and compared with what the paper covers.
+- The table of positions read test by test. Every fact a judgement rests on is looked up in the other position's cells.
+- One figure of the paper worked out again by a route the paper did not use.
+
+## 3. What you check before you issue the instruction
+- The question is one you have not already decided, and the instruction asks for a recommendation.
+- Every document the analysis rests on is in the material.
+- Each set a test counts is named, with the source it is listed from.
+- Where the questions depend on one another, the instruction asks for every dependency, listed from every proposal's words and declared both ways, and for every rival judged under the other questions' recommendations, with a run that builds each rival beside them and reads it against the ruled settings and the other recommendations' words, not the counts alone. *(Added 31 October 2026 from the reviews `_reviews/REVIEW_QUESTIONS_2026-10-31.md`, gap G1, and `_reviews/REVIEW_QUESTIONS_2026-10-31_v2.md`, gap G1.)*

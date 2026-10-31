@@ -1,0 +1,41 @@
+started 2026-10-31T20:28:50Z
+--- key table rows for C26 and C56
+87-    "list_entry": "school_census:22",
+88:    "same_child": "C56"
+--
+183-    "list_entry": "exam_candidate_list:22",
+184:    "same_child": "C26"
+--
+219-    "list_entry": "social_grant_list:9",
+220:    "same_child": "C56"
+--
+251-    "list_entry": "social_grant_list:17",
+252:    "same_child": "C26"
+--- exam_candidate_list:22 (raw, from exam_candidate_list.json)
+150:    "entry": 22,
+151-    "family_name": "Velnokgal",
+152-    "given_names": "Tovsan",
+153-    "date_of_birth": "2016-10-11",
+154-    "school": "Dunavel Lakeside School"
+155-  }
+--- social_grant_list:17 (raw, from social_grant_list.json)
+115:    "entry": 17,
+116-    "family_name": "Velnokgal",
+117-    "given_names": "Tovsan",
+118-    "date_of_birth": "2016-10-11",
+119-    "school": "Dunavel Lakeside School"
+120-  },
+--- school_census:22 (raw, from school_census.json)
+150:    "entry": 22,
+151-    "family_name": "Orowes",
+152-    "given_names": "Etovn",
+153-    "date_of_birth": "2020-04-14",
+154-    "school": "Dunavel Lakeside School"
+155-  },
+--- social_grant_list:9 (raw, from social_grant_list.json)
+59:    "entry": 9,
+60-    "family_name": "Orowus",
+61-    "given_names": "Etovn",
+62-    "date_of_birth": "2020-04-14",
+63-    "school": "Dunavel Lakeside School"
+64-  },

@@ -1,0 +1,16 @@
+Sat Oct 31 14:38:51 UTC 2026
+$ ls -ld "/Users/arnelaponin/Documents/Dev/wai-demo/mini-registry/docs"
+drwxr-xr-x@ 7 arnelaponin  staff  224 Oct 31 16:36 /Users/arnelaponin/Documents/Dev/wai-demo/mini-registry/docs
+exit 0
+$ ls -ld "/Users/arnelaponin/Documents/Dev/wai-demo/mini-registry/docs/groundwork"
+drwxr-xr-x@ 5 arnelaponin  staff  160 Oct 31 16:35 /Users/arnelaponin/Documents/Dev/wai-demo/mini-registry/docs/groundwork
+exit 0
+$ ls -ld "/Users/arnelaponin/Documents/Dev/wai-demo/mini-registry/_working/round-02-groundwork/_evidence"
+drwxr-xr-x@ 17 arnelaponin  staff  544 Oct 31 16:38 /Users/arnelaponin/Documents/Dev/wai-demo/mini-registry/_working/round-02-groundwork/_evidence
+exit 0
+$ ls -ld "/Users/arnelaponin/Documents/Dev/wai-demo/mini-registry/_working/round-02-groundwork/_evidence/record"
+drwxr-xr-x@ 8 arnelaponin  staff  256 Oct 31 16:37 /Users/arnelaponin/Documents/Dev/wai-demo/mini-registry/_working/round-02-groundwork/_evidence/record
+exit 0
+$ ls -ld "/Users/arnelaponin/Documents/Dev/wai-demo/mini-registry/_reports"
+drwxr-xr-x@ 9 arnelaponin  staff  288 Oct 31 16:38 /Users/arnelaponin/Documents/Dev/wai-demo/mini-registry/_reports
+exit 0

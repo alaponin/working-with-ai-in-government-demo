@@ -1,0 +1,54 @@
+20261031T203812Z_MR_issued_C-2026-10-31-31.yaml
+  kind: issued
+  written: 2026-10-31T20:38:12Z
+  code: MR
+  by: "MR · orchestrator"
+  account: arne.laponin@gmail.com
+  computer: MacBookPro
+  id: C-2026-10-31-31
+  version: 1
+  instruction: ~/IdeaProjects/mini-registry/_prompts/PROMPT_NOTE_2026-10-31.md
+  session: "MR · work · the note to the Permanent Secretary"
+  model: Opus
+  effort: high
+  report: ~/IdeaProjects/mini-registry/_reports/REPORT_NOTE_2026-10-31.md
+  outputs: "~/IdeaProjects/mini-registry/docs/NOTE.md · ~/IdeaProjects/mini-registry/docs/note/build.py · ~/IdeaProjects/mini-registry/docs/note/NOTE.pdf · ~/IdeaProjects/mini-registry/_working/round-08-note/_evidence/ · ~/IdeaProjects/mini-registry/_reports/REPORT_NOTE_2026-10-31.md"
+  serves: "the one-page note to the Permanent Secretary, deliverable 2 of the constants — round 8 of the brief"
+  inputs: "~/IdeaProjects/mini-registry/docs/DUPLICATES.md sha256:7cd458b0e03accfed051e47249a27eb9f5534a025162b1c5bb78c9d959ed0f88 · ~/IdeaProjects/brief/MINI-REGISTRY-BRIEF.md sha256:ec6971e74a6a8387de0e5bd7a5e1cdead6ddf711b8fdac3ccc1d4b7555e11f64 · ~/IdeaProjects/mini-registry/docs/REQUIREMENTS.md sha256:ad583b3958fb5c5fdf6683b5c2487b6f0c425d66cebc7c46811e2e19af13f103 · ~/IdeaProjects/mini-registry/docs/GOAL.md sha256:342515fd5ed96e45e23014568f67e8126edfeeccdb7f862dddd38e44acdb2aed · ~/IdeaProjects/mini-registry/docs/GOAL-QUESTIONS-PAPER.md sha256:9603caf1d95b8f89927a35969e33947da9e93776e04f98ccd27a3a7965ef0cef · ~/IdeaProjects/mini-registry/docs/COUNT.md sha256:fc2b28435e20f94d3f79408e8afee9176c77c5a8bcdaace67df3344c091131a6 · ~/IdeaProjects/mini-registry/_reviews/REVIEW_BUILD_2026-10-31_v2.md sha256:70568375adadc902dc4ac5aa617bdbeb29e0bfae535c6607c82e8e8d0c48105a · ~/IdeaProjects/_coordination/_ledger/20261031T195657Z_MR_ruled_D-2026-10-31-11.yaml sha256:cb89beb2c4f10c0ba9c64ea1921bff048676748d6ee273e18f031ccc3b8489a0 · /Users/arnelaponin/Library/Application absent · ~/IdeaProjects/mini-registry/_kinds/drafting.md sha256:4eca6a27d8ef9ee5f76725fca6d0f8f26b26893068dc30d54ec87e07e7ee4b65"
+  instruction_digest: sha256:e763bd123172a9b5a4ff92108380064cb25e6d8e5b05a5e004b401ba945a6174
+  format: 2
+  on this computer, MacBookPro: instruction /Users/arnelaponin/Documents/Dev/wai-demo/mini-registry/_prompts/PROMPT_NOTE_2026-10-31.md — on disk
+  on this computer, MacBookPro: report /Users/arnelaponin/Documents/Dev/wai-demo/mini-registry/_reports/REPORT_NOTE_2026-10-31.md — on disk
+
+20261031T204100Z_MR_started_C-2026-10-31-31.yaml
+  kind: started
+  written: 2026-10-31T20:41:00Z
+  code: MR
+  by: "MR · work · the note to the Permanent Secretary"
+  account: arne.laponin@gmail.com
+  computer: MacBookPro
+  id: C-2026-10-31-31
+  version: 1
+  session: "MR · work · the note to the Permanent Secretary"
+  shell: native
+  instruction: ~/IdeaProjects/mini-registry/_prompts/PROMPT_NOTE_2026-10-31.md
+  effort: unknown
+  started_by: unknown
+  inputs: "~/IdeaProjects/mini-registry/docs/DUPLICATES.md sha256:7cd458b0e03accfed051e47249a27eb9f5534a025162b1c5bb78c9d959ed0f88 · ~/IdeaProjects/brief/MINI-REGISTRY-BRIEF.md sha256:ec6971e74a6a8387de0e5bd7a5e1cdead6ddf711b8fdac3ccc1d4b7555e11f64 · ~/IdeaProjects/mini-registry/docs/REQUIREMENTS.md sha256:ad583b3958fb5c5fdf6683b5c2487b6f0c425d66cebc7c46811e2e19af13f103 · ~/IdeaProjects/mini-registry/docs/GOAL.md sha256:342515fd5ed96e45e23014568f67e8126edfeeccdb7f862dddd38e44acdb2aed · ~/IdeaProjects/mini-registry/docs/GOAL-QUESTIONS-PAPER.md sha256:9603caf1d95b8f89927a35969e33947da9e93776e04f98ccd27a3a7965ef0cef · ~/IdeaProjects/mini-registry/docs/COUNT.md sha256:fc2b28435e20f94d3f79408e8afee9176c77c5a8bcdaace67df3344c091131a6 · ~/IdeaProjects/mini-registry/_reviews/REVIEW_BUILD_2026-10-31_v2.md sha256:70568375adadc902dc4ac5aa617bdbeb29e0bfae535c6607c82e8e8d0c48105a · ~/IdeaProjects/_coordination/_ledger/20261031T195657Z_MR_ruled_D-2026-10-31-11.yaml sha256:cb89beb2c4f10c0ba9c64ea1921bff048676748d6ee273e18f031ccc3b8489a0 · /Users/arnelaponin/Library/Application absent · ~/IdeaProjects/mini-registry/_kinds/drafting.md sha256:4eca6a27d8ef9ee5f76725fca6d0f8f26b26893068dc30d54ec87e07e7ee4b65"
+  format: 2
+  on this computer, MacBookPro: instruction /Users/arnelaponin/Documents/Dev/wai-demo/mini-registry/_prompts/PROMPT_NOTE_2026-10-31.md — on disk
+
+20261031T205534Z_MR_finished_C-2026-10-31-31.yaml
+  kind: finished
+  written: 2026-10-31T20:55:34Z
+  code: MR
+  by: "MR · work · the note to the Permanent Secretary"
+  account: arne.laponin@gmail.com
+  computer: MacBookPro
+  id: C-2026-10-31-31
+  version: 1
+  report: ~/IdeaProjects/mini-registry/_reports/REPORT_NOTE_2026-10-31.md
+  outcome: "The note is written and built: one A4 page addressed to the Permanent Secretary, the answer first, the figure 'the search catches 4 of the 8' with its meaning, and what it does not show; 34 sentences on 52 claim rows, 0 not found; 20 limits, 12 in the note and 8 left out with reasons, 0 unaccounted; register check clean but for 'Skills' in the Ministry's name, a named exception; NOTE.pdf 1 page, 595 by 842, type 11 pt; two builds the same text; sources and src/ unchanged; 0 windows added; record check exit 1 on one finding, the brief read from outside the record's root; nothing sent"
+  moved: "docs/NOTE.md and its build (docs/note/build.py, NOTE.pdf, NOTE.html, register_exceptions.txt) are new, for the owner to send"
+  format: 2
+  on this computer, MacBookPro: report /Users/arnelaponin/Documents/Dev/wai-demo/mini-registry/_reports/REPORT_NOTE_2026-10-31.md — on disk

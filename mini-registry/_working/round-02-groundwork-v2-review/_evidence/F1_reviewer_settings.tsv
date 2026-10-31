@@ -1,0 +1,17 @@
+children	B:23	| Children | 60 |
+schools	B:24	| Schools | 3 |
+children_on_more_than_one_list	B:25	| Children on more than one list | 8 |
+of_those_family_name_spelt_differently_on_one_list	B:26	spelt differently on one list | 4 |
+ages	B:27	| Ages | 6 to 12 |
+learner_number	P:73	a whole number given in sequence, one higher than the highest the registry holds, never given twice
+list_entries	P:160	which is 68
+lists_carrying_each_of_the_8	P:160	with each of the 8 on exactly two lists
+spelt_differently	P:196	the 4 differ in at least one letter
+children_of_the_8_differing_in_capitals_only	P:196	none of the 8 differs in capitals only
+the_other_4_of_the_8	P:196	the other 4 match letter for letter and in the same capitals
+different_children_sharing_family_name_given_names_and_date_of_birth	P:196	no two different children share all three fields
+of_the_8_caught_by_the_search	P:196	known answer of 4 of the 8 caught
+age_unit	P:224	ages in completed years
+age_bounds	P:224	with 6 and 12 both included
+date_of_birth_entry_form	P:254	the date entered as YYYY-MM-DD and refused otherwise
+school_entry	P:254	the school chosen from the data's three

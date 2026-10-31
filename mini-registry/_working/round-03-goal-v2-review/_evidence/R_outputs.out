@@ -1,0 +1,62 @@
+2026-10-31T17:36:48Z
+--- outputs
+/Users/arnelaponin/Documents/Dev/wai-demo/mini-registry/docs/GOAL.md 13891 bytes mtime 2026-10-31T19:25:00+0200
+/Users/arnelaponin/Documents/Dev/wai-demo/mini-registry/_reports/REPORT_GOAL_2026-10-31_v2.md 19177 bytes mtime 2026-10-31T19:30:50+0200
+/Users/arnelaponin/Documents/Dev/wai-demo/mini-registry/_working/round-03-goal-v2/_evidence 832 bytes mtime 2026-10-31T19:30:55+0200
+342515fd5ed96e45e23014568f67e8126edfeeccdb7f862dddd38e44acdb2aed  /Users/arnelaponin/Documents/Dev/wai-demo/mini-registry/docs/GOAL.md
+      24
+       8
+--- A7 now
+ec6971e74a6a8387de0e5bd7a5e1cdead6ddf711b8fdac3ccc1d4b7555e11f64  /Users/arnelaponin/Documents/Dev/wai-demo/mini-registry/../brief/MINI-REGISTRY-BRIEF.md
+ad583b3958fb5c5fdf6683b5c2487b6f0c425d66cebc7c46811e2e19af13f103  /Users/arnelaponin/Documents/Dev/wai-demo/mini-registry/docs/REQUIREMENTS.md
+5ed9b62f282d433df7c337a2da30e4830c56170dca1e646ae5aacc2cc2795dce  /Users/arnelaponin/Documents/Dev/wai-demo/mini-registry/docs/GROUNDWORK.md
+9a7c98ce9b57dde82ccca48c84c638b7efd5c08f26f1677e738ecc8d00386fdb  /Users/arnelaponin/Documents/Dev/wai-demo/mini-registry/docs/groundwork/search_rule.csv
+a94c31fe9fc96410910e425b1a0dfc708ea6acf09f3fb9ab1c990e71f8ef9cfd  /Users/arnelaponin/Documents/Dev/wai-demo/mini-registry/docs/groundwork/settings.csv
+1d08f58c5ea6d1caddfed7f6266800083bed696e7cd1b76c6efc53be72c9eef7  /Users/arnelaponin/Documents/Dev/wai-demo/mini-registry/docs/groundwork/lists.csv
+d03db64c6e49a1b92467c1e6e19929c321964bd89f6cb715d15dd570f37bc8bb  /Users/arnelaponin/Documents/Dev/wai-demo/mini-registry/docs/GAPS-PAPER.md
+5146d23a87cf9c0527c26c2965725bfa1125bd1a0a103ac83b68fb7dbd50cce0  /Users/arnelaponin/Documents/Dev/wai-demo/mini-registry/docs/QUESTIONS-PAPER.md
+--- A7 round log head
+Sat Oct 31 17:27:50 UTC 2026
+ec6971e74a6a8387de0e5bd7a5e1cdead6ddf711b8fdac3ccc1d4b7555e11f64  ../brief/MINI-REGISTRY-BRIEF.md
+ad583b3958fb5c5fdf6683b5c2487b6f0c425d66cebc7c46811e2e19af13f103  docs/REQUIREMENTS.md
+--- runs.jsonl times
+{'argv': ['/usr/bin/python3', '-B', '/Users/arnelaponin/Documents/Dev/wai-demo/mini-registry/_working/round-03-goal-v2/_evidence/keep_v1.py'], 'ended': '2026-10-31T17:21:58.872Z', 'exit': 0}
+{'argv': ['/usr/bin/python3', '-B', '/Users/arnelaponin/Documents/Dev/wai-demo/mini-registry/_working/round-03-goal-v2/_evidence/inventory.py'], 'ended': '2026-10-31T17:22:46.480Z', 'exit': 0}
+{'argv': ['/usr/bin/python3', '-B', '/Users/arnelaponin/Documents/Dev/wai-demo/mini-registry/_working/round-03-goal-v2/_evidence/quotes.py'], 'ended': '2026-10-31T17:26:00.284Z', 'exit': 0}
+{'argv': ['/usr/bin/python3', '-B', '/Users/arnelaponin/Documents/Dev/wai-demo/mini-registry/_working/round-03-goal-v2/_evidence/quotes.py'], 'ended': '2026-10-31T17:26:16.202Z', 'exit': 0}
+{'argv': ['/usr/bin/python3', '-B', '/Users/arnelaponin/Documents/Dev/wai-demo/mini-registry/_working/round-03-goal-v2/_evidence/check_goal.py', 'a1'], 'ended': '2026-10-31T17:26:55.025Z', 'exit': 0}
+{'argv': ['/usr/bin/python3', '-B', '/Users/arnelaponin/Documents/Dev/wai-demo/mini-registry/_working/round-03-goal-v2/_evidence/check_goal.py', 'a2'], 'ended': '2026-10-31T17:26:55.457Z', 'exit': 0}
+{'argv': ['/usr/bin/python3', '-B', '/Users/arnelaponin/Documents/Dev/wai-demo/mini-registry/_working/round-03-goal-v2/_evidence/check_goal.py', 'a3'], 'ended': '2026-10-31T17:26:55.902Z', 'exit': 0}
+{'argv': ['/usr/bin/python3', '-B', '/Users/arnelaponin/Documents/Dev/wai-demo/mini-registry/_working/round-03-goal-v2/_evidence/check_goal.py', 'a4'], 'ended': '2026-10-31T17:26:56.347Z', 'exit': 0}
+{'argv': ['/usr/bin/python3', '-B', '/Users/arnelaponin/Documents/Dev/wai-demo/mini-registry/_working/round-03-goal-v2/_evidence/check_goal.py', 'a5'], 'ended': '2026-10-31T17:26:56.763Z', 'exit': 0}
+{'argv': ['/usr/bin/python3', '-B', '/Users/arnelaponin/Documents/Dev/wai-demo/mini-registry/_working/round-03-goal-v2/_evidence/check_goal.py', 'a6'], 'ended': '2026-10-31T17:26:57.167Z', 'exit': 0}
+{'argv': ['/usr/bin/python3', '-B', '/Users/arnelaponin/Documents/Dev/wai-demo/mini-registry/_working/round-03-goal-v2/_evidence/check_goal.py', 'a12'], 'ended': '2026-10-31T17:26:57.570Z', 'exit': 0}
+{'argv': ['/usr/bin/python3', '-B', '/Users/arnelaponin/Documents/Dev/wai-demo/mini-registry/_working/round-03-goal-v2/_evidence/check_goal.py', 'changed'], 'ended': '2026-10-31T17:26:57.991Z', 'exit': 0}
+{'argv': ['/usr/bin/python3', '-B', '/Users/arnelaponin/Documents/Dev/wai-demo/mini-registry/_working/round-03-goal-v2/_evidence/check_goal.py', 'a12'], 'ended': '2026-10-31T17:27:16.477Z', 'exit': 0}
+{'argv': ['/usr/bin/python3', '-B', '/Users/arnelaponin/Documents/Dev/wai-demo/mini-registry/_working/round-03-goal-v2/_evidence/check_goal.py', 'a12'], 'ended': '2026-10-31T17:27:34.952Z', 'exit': 0}
+--- ledger finished file
+-rw-r--r--@  1 arnelaponin  staff  2033 Oct 31 18:14 20261031T161417Z_MR_issued_C-2026-10-31-13.yaml
+-rw-r--r--@  1 arnelaponin  staff  1556 Oct 31 18:14 20261031T161418Z_MR_issued_C-2026-10-31-14.yaml
+-rw-r--r--@  1 arnelaponin  staff  1538 Oct 31 18:16 20261031T161636Z_MR_started_C-2026-10-31-13.yaml
+-rw-r--r--@  1 arnelaponin  staff   581 Oct 31 18:24 20261031T162402Z_MR_finished_C-2026-10-31-13.yaml
+-rw-r--r--@  1 arnelaponin  staff  1264 Oct 31 18:24 20261031T162423Z_MR_started_C-2026-10-31-14.yaml
+-rw-r--r--@  1 arnelaponin  staff   591 Oct 31 18:33 20261031T163312Z_MR_finished_C-2026-10-31-14.yaml
+-rw-r--r--@  1 arnelaponin  staff  2072 Oct 31 19:13 20261031T171318Z_MR_issued_C-2026-10-31-13.yaml
+-rw-r--r--@  1 arnelaponin  staff  1568 Oct 31 19:13 20261031T171319Z_MR_issued_C-2026-10-31-14.yaml
+-rw-r--r--@  1 arnelaponin  staff  1540 Oct 31 19:16 20261031T171620Z_MR_started_C-2026-10-31-13.yaml
+-rw-r--r--@  1 arnelaponin  staff   771 Oct 31 19:31 20261031T173101Z_MR_finished_C-2026-10-31-13.yaml
+-rw-r--r--@  1 arnelaponin  staff  1267 Oct 31 19:31 20261031T173118Z_MR_started_C-2026-10-31-14.yaml
+--- gaps end in ?
+1. **A date that is not a real date.** A ... ?
+2. **An age outside 6 to 12.** The ages  ... ?
+3. **A learner number that cannot be giv ... ?
+4. **What a name may hold.** Is there a  ... ?
+5. **An entry missing (F-1).** The sourc ... ?
+6. **A school not among the three (F-3). ... ?
+7. **The order of the date check and the ... ?
+8. **What a refusal says.** What do SC-4 ... ?
+9. **More than one fault at once.** When ... ?
+10. **What SC-2 shows of the learner fou ... ?
+11. **A different school on a learner fo ... ?
+12. **A different child sharing the thre ... ?
+13. **After the result.** Once the clerk ... ?

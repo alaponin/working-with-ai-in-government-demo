@@ -1,0 +1,39 @@
+# round_record.py check, run at 2026-10-31T14:40:14.577Z, over the record /Users/arnelaponin/Documents/Dev/wai-demo/mini-registry/_working/round-02-groundwork/_evidence/record
+# run with: --record /Users/arnelaponin/Documents/Dev/wai-demo/mini-registry/_working/round-02-groundwork/_evidence/record --report /Users/arnelaponin/Documents/Dev/wai-demo/mini-registry/_reports/REPORT_GROUNDWORK_2026-10-31.md --tolerance 2 --out /Users/arnelaponin/Documents/Dev/wai-demo/mini-registry/_working/round-02-groundwork/_evidence/record/check.out
+# report: /Users/arnelaponin/Documents/Dev/wai-demo/mini-registry/_reports/REPORT_GROUNDWORK_2026-10-31.md
+# files changed after the end list inside the window: 3
+
+## Findings — 10
+read, not on the start list (no checksum at the start): /CONSTANTS.md
+read, not on the start list (no checksum at the start): /Users/CONSTANTS.md
+read, not on the start list (no checksum at the start): /Users/arnelaponin/CONSTANTS.md
+read, not on the start list (no checksum at the start): /Users/arnelaponin/Documents/CONSTANTS.md
+read, not on the start list (no checksum at the start): /Users/arnelaponin/Documents/Dev/CONSTANTS.md
+read, not on the start list (no checksum at the start): /Users/arnelaponin/Documents/Dev/wai-demo/CONSTANTS.md
+read, not on the start list (no checksum at the start): /Users/arnelaponin/Library/Application Support/Claude/local-agent-mode-sessions/ffbe2f0e-bc4b-46d3-ad76-b08a7882aae9/7bbcb800-2754-4c5e-97ea-ccb874ea3fee/rpm/plugin_018SiGJfFaxxAvevS4xGQJgb/skills/orchestrator/scripts/guard_log.py
+read, not on the start list (no checksum at the start): /Users/arnelaponin/Library/Application Support/Claude/local-agent-mode-sessions/ffbe2f0e-bc4b-46d3-ad76-b08a7882aae9/7bbcb800-2754-4c5e-97ea-ccb874ea3fee/rpm/plugin_018SiGJfFaxxAvevS4xGQJgb/skills/orchestrator/scripts/ledger.py
+read, not on the start list (no checksum at the start): /Users/arnelaponin/Library/Application Support/Claude/local-agent-mode-sessions/ffbe2f0e-bc4b-46d3-ad76-b08a7882aae9/7bbcb800-2754-4c5e-97ea-ccb874ea3fee/rpm/plugin_018SiGJfFaxxAvevS4xGQJgb/skills/orchestrator/scripts/placement_check.py
+read, not on the start list (no checksum at the start): /Users/arnelaponin/_coordination/CONSTANTS.md
+
+## Read and found as stated
+the window closes at 2026-10-31T14:40:14.000Z
+added after the end list, inside the window, named in the report: /Users/arnelaponin/Documents/Dev/wai-demo/mini-registry/_working/round-02-groundwork/_evidence/A7_placement_2.out
+added after the end list, inside the window, named in the report: /Users/arnelaponin/Documents/Dev/wai-demo/mini-registry/_working/round-02-groundwork/_evidence/A7_trace.out
+added after the end list, inside the window, named in the report: /Users/arnelaponin/Documents/Dev/wai-demo/mini-registry/_working/round-02-groundwork/_evidence/ls_ld.out
+the report's record line names this record: /Users/arnelaponin/Documents/Dev/wai-demo/mini-registry/_working/round-02-groundwork/_evidence/record
+output as declared: /Users/arnelaponin/Documents/Dev/wai-demo/mini-registry/docs/GROUNDWORK.md 6850 bytes f2284affe810c288…
+output as declared: /Users/arnelaponin/Documents/Dev/wai-demo/mini-registry/docs/groundwork/settings.csv 1127 bytes a94c31fe9fc96410…
+output as declared: /Users/arnelaponin/Documents/Dev/wai-demo/mini-registry/docs/groundwork/lists.csv 2391 bytes 1d08f58c5ea6d1ca…
+output as declared: /Users/arnelaponin/Documents/Dev/wai-demo/mini-registry/docs/groundwork/search_rule.csv 1335 bytes 9a7c98ce9b57dde8…
+declared output is a folder, read as such: /Users/arnelaponin/Documents/Dev/wai-demo/mini-registry/_working/round-02-groundwork/_evidence
+report line 31: quoted block of 1 lines found in /Users/arnelaponin/Documents/Dev/wai-demo/mini-registry/_working/round-02-groundwork/_evidence/A1_list.out
+report line 37: quoted block of 2 lines found in /Users/arnelaponin/Documents/Dev/wai-demo/mini-registry/_working/round-02-groundwork/_evidence/A1_check.out
+report line 48: quoted block of 4 lines found in /Users/arnelaponin/Documents/Dev/wai-demo/mini-registry/_working/round-02-groundwork/_evidence/A2_check.out
+report line 59: quoted block of 6 lines found in /Users/arnelaponin/Documents/Dev/wai-demo/mini-registry/_working/round-02-groundwork/_evidence/A3_check.out
+report line 72: quoted block of 2 lines found in /Users/arnelaponin/Documents/Dev/wai-demo/mini-registry/_working/round-02-groundwork/_evidence/A4_check.out
+report line 81: quoted block of 1 lines found in /Users/arnelaponin/Documents/Dev/wai-demo/mini-registry/_working/round-02-groundwork/_evidence/A5_check.out
+report line 89: quoted block of 3 lines found in /Users/arnelaponin/Documents/Dev/wai-demo/mini-registry/_working/round-02-groundwork/_evidence/A6_shasum.out
+report line 101: quoted block of 2 lines found in /Users/arnelaponin/Documents/Dev/wai-demo/mini-registry/_working/round-02-groundwork/_evidence/A7_placement_2.out
+report line 108: quoted block of 4 lines found in /Users/arnelaponin/Documents/Dev/wai-demo/mini-registry/_working/round-02-groundwork/_evidence/A7_trace.out
+report line 149: quoted block of 10 lines found in /Users/arnelaponin/Documents/Dev/wai-demo/mini-registry/_working/round-02-groundwork/_evidence/ls_ld.out
+quoted blocks read against the file they name: 10

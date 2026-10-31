@@ -1,0 +1,6 @@
+== mini-registry
+8484d1681011457502f6398f87f36bfa49aa5b40 Arne Laponin <arne.laponin@gmail.com> 2026-10-31 23:46:44 +0200
+ 676 files changed, 120828 insertions(+), 24 deletions(-)
+== _coordination
+ab3cc36c58896fcbc29ede71b7ae8f2f2e650a4f Arne Laponin <arne.laponin@gmail.com> 2026-10-31 23:46:44 +0200
+ 81 files changed, 1034 insertions(+)

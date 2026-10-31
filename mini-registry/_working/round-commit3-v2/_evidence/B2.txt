@@ -1,0 +1,6 @@
+mini-registry before-expanded 23 committed 23 -> 0 missing, 0 extra
+ missing: []
+ extra: []
+_coordination before-expanded 15 committed 15 -> 0 missing, 0 extra
+ missing: []
+ extra: []

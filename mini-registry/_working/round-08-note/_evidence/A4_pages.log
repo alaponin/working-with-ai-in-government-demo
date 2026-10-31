@@ -1,0 +1,8 @@
+2026-10-31T20:52:34Z
+# A4: pdfread.py info (PDFKit, MediaBox)
+pages=1
+page 1: width=595.00 height=842.00
+EXIT=0
+# A4 second reading: the MediaBox in the file
+   2 /MediaBox [0 0 595 842]
+1

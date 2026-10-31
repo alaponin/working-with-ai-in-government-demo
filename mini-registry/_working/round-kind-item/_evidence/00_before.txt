@@ -1,0 +1,8 @@
+$ date -u; hostname
+Sat Oct 31 19:29:26 UTC 2026
+MacBookPro
+$ cp _kinds/analysis.md _working/round-kind-item/_evidence/analysis.before.md; shasum -a 256; wc -l
+a5054bec7db874e744d0f042f348d099378b2cf0c6c6cedd027f0329843f7514  _kinds/analysis.md
+a5054bec7db874e744d0f042f348d099378b2cf0c6c6cedd027f0329843f7514  _working/round-kind-item/_evidence/analysis.before.md
+      25 _kinds/analysis.md
+2026-10-31T19:29:26Z

@@ -1,0 +1,9 @@
+started 2026-10-31T20:31:52Z
+C19 fields differing (any, letter for letter): - | family-name edit distance: 0 | keys: ['date_of_birth', 'family_name', 'given_names', 'school']
+C24 fields differing (any, letter for letter): ['family_name'] | family-name edit distance: 1 | keys: ['date_of_birth', 'family_name', 'given_names', 'school']
+C26 fields differing (any, letter for letter): - | family-name edit distance: 0 | keys: ['date_of_birth', 'family_name', 'given_names', 'school']
+C31 fields differing (any, letter for letter): - | family-name edit distance: 0 | keys: ['date_of_birth', 'family_name', 'given_names', 'school']
+C50 fields differing (any, letter for letter): ['family_name'] | family-name edit distance: 1 | keys: ['date_of_birth', 'family_name', 'given_names', 'school']
+C53 fields differing (any, letter for letter): - | family-name edit distance: 0 | keys: ['date_of_birth', 'family_name', 'given_names', 'school']
+C56 fields differing (any, letter for letter): ['family_name'] | family-name edit distance: 1 | keys: ['date_of_birth', 'family_name', 'given_names', 'school']
+C58 fields differing (any, letter for letter): ['family_name'] | family-name edit distance: 1 | keys: ['date_of_birth', 'family_name', 'given_names', 'school']

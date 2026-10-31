@@ -1,0 +1,31 @@
+2026-10-31T19:38:02Z
+search-forgives-spaces: planted in /Users/arnelaponin/Documents/Dev/wai-demo/mini-registry/_working/round-06-build/_evidence/planted/search-forgives-spaces/src/lib/search.js
+sc3-without-line: planted in /Users/arnelaponin/Documents/Dev/wai-demo/mini-registry/_working/round-06-build/_evidence/planted/sc3-without-line/src/lib/screens.js
+=== search-forgives-spaces: diff against the real src/
+diff -r /Users/arnelaponin/Documents/Dev/wai-demo/mini-registry/src/lib/search.js /Users/arnelaponin/Documents/Dev/wai-demo/mini-registry/_working/round-06-build/_evidence/planted/search-forgives-spaces/src/lib/search.js
+16c16
+<   return String(a).toLowerCase() === String(b).toLowerCase();
+---
+>   return String(a).toLowerCase().replace(/\s+/g, '') === String(b).toLowerCase().replace(/\s+/g, '');
+=== search-forgives-spaces: $ cd planted/search-forgives-spaces/src && node --test test/
+EXIT=1
+not ok 26 - F-5 — the same child entered with a difference but capitals: not caught, a new learner number, a second record
+not ok 53 - search: nothing but capitals forgiven (a space, a dropped name, another form of date)
+# tests 57
+# pass 55
+# fail 2
+=== sc3-without-line: diff against the real src/
+diff -r /Users/arnelaponin/Documents/Dev/wai-demo/mini-registry/src/lib/screens.js /Users/arnelaponin/Documents/Dev/wai-demo/mini-registry/_working/round-06-build/_evidence/planted/sc3-without-line/src/lib/screens.js
+36c36
+<     '<p class="notice"><strong>' + LINE + '</strong></p>\n' +
+---
+>     (id === 'SC-3' ? '' : '<p class="notice"><strong>' + LINE + '</strong></p>\n') +
+=== sc3-without-line: $ cd planted/sc3-without-line/src && node --test test/
+EXIT=1
+not ok 30 - R-17 — every screen any check of this file reached carries "Invented data, Progressa is fictional"
+not ok 41 - R-17 — every screen, shown in turn, says "Invented data, Progressa is fictional"
+not ok 45 - R-17 — every screen any check of this file reached carries the line
+# tests 57
+# pass 54
+# fail 3
+2026-10-31T19:38:06Z

@@ -1,0 +1,34 @@
+2026-10-31T19:38:41Z
+$ PORT=8126 node server.js   (the start script of package.json, run directly so that its process is the one stopped)
+$ lsof -nP -iTCP:8126 -sTCP:LISTEN
+COMMAND   PID        USER   FD   TYPE            DEVICE SIZE/OFF NODE NAME
+node    32090 arnelaponin   16u  IPv4 0x91cf73a2e9a6202      0t0  TCP 127.0.0.1:8126 (LISTEN)
+1_SC-1 HTTP 200
+2_new HTTP 200
+3_again HTTP 200
+4_refused HTTP 200
+5_cannot HTTP 200
+6_back_kept HTTP 200
+7_lookup HTTP 303 -> http://127.0.0.1:8126/
+$ node -e learners after the walk
+learners 65 last {"learner_number":65,"family_name":"Orlavin","given_names":"Tesmira Kolva","date_of_birth":"2016-04-17","school":"Kestrin Hill School"}
+server stopped
+mini registry: http://127.0.0.1:8126/ (Invented data, Progressa is fictional)
+$ node reset.js
+wrote data/enrolments.json 5083 bytes
+wrote data/exam_candidate_list.json 3623 bytes
+wrote data/key_table.json 5024 bytes
+wrote data/learners.json 11017 bytes
+wrote data/reads.json 296 bytes
+wrote data/school_census.json 3907 bytes
+wrote data/schools.json 85 bytes
+wrote data/social_grant_list.json 3566 bytes
+learners after reset 64
+$ grep -c "Invented data, Progressa is fictional" screens/*.html
+/Users/arnelaponin/Documents/Dev/wai-demo/mini-registry/_working/round-06-build/_evidence/screens/1_SC-1.html:1
+/Users/arnelaponin/Documents/Dev/wai-demo/mini-registry/_working/round-06-build/_evidence/screens/2_new.html:1
+/Users/arnelaponin/Documents/Dev/wai-demo/mini-registry/_working/round-06-build/_evidence/screens/3_again.html:1
+/Users/arnelaponin/Documents/Dev/wai-demo/mini-registry/_working/round-06-build/_evidence/screens/4_refused.html:1
+/Users/arnelaponin/Documents/Dev/wai-demo/mini-registry/_working/round-06-build/_evidence/screens/5_cannot.html:1
+/Users/arnelaponin/Documents/Dev/wai-demo/mini-registry/_working/round-06-build/_evidence/screens/6_back_kept.html:1
+2026-10-31T19:38:43Z

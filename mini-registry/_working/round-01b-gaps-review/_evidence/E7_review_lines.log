@@ -1,0 +1,27 @@
+Sat Oct 31 13:41:21 UTC 2026
+$ the lines the review cites, read at their source
+prompt:70 
+paper:83 **Position B — kept from arising, and refused if it does.** The registry holds at most one learner for any family name, given names and date
+paper:169 **Recommendation — a proposal for the owner's ruling, not a decision.** We recommend Position A, with three settings for round 2: a family n
+paper:250 **Position A — every view the clerk can see.** The entry form, the result after a new learner, the result after a found learner and every re
+paper:252 **Position B — the pages only.** The entry form and the two results are the screens; a message shown in a box of its own is part of the page
+paper:257 | (b) must not | every view a person sees says the words (line 33) | a refusal box can show without the words |
+paper:259 | (d) rounds 5 to 7 | round 6 puts the words in one frame every view shares; the windowless checks read each view | a dialog box is the hard
+paper:285 | (d) rounds 5 to 7 | round 5 writes the generator and its seed; the same seed gives line 29's same data | round 5 adds the statement |
+paper:298 **Position A — none.** The three lists are made-up data the prototype starts with (line 19), held inside it; the enrolment consults no body.
+reg:171 - *Set up:* the prototype's data reset, before any enrolment; the children of R-11.
+reg:214 ## What it must not do
+reg:225 - *Set up:* the prototype's source and its data after a reset.
+reg:226 - *Do:* list every source from which the data is made: every file and program the reset reads.
+reg:227 - *See:* each source is part of the prototype and makes invented records; none is a record of persons brought in from elsewhere. Pass if no 
+reg:262 
+reg:264 - *Set up:* the list of other bodies the prototype draws on (which they are: gap G-11).
+reg:292 - *See:* every check runs to its end and gives its result. **Expected:** windows opened: 0 at each reading. Pass if no window was added at a
+reg:293 
+reg:294 ## What it delivers
+   15266 _reviews/REVIEW_GAPS_2026-10-31.md
+Sat Oct 31 13:41:27 UTC 2026
+62:- every passage of the brief or the register that bears on it, quoted with its path and line — or the statement that 
+172:- *Do:* for each of them, compare the family name each list gives it, letter for letter; count the children whose fa
+264:- *Set up:* the list of other bodies the prototype draws on (which they are: gap G-11).
+266:- *See:* each body is answered by a simulation on the computer, and the part that uses it works.

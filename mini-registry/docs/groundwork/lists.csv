@@ -1,0 +1,17 @@
+table,field,meaning,source
+school_census,family_name,the child's family name as this list spells it,brief:19 · brief:26 · R-08 · R-12
+school_census,given_names,the child's given names as this list gives them; compared when the reset enrols the entry,brief:13 · ruling:G-03
+school_census,date_of_birth,"the child's date of birth as this list gives it; compared when the reset enrols the entry, and the date the child's age is reckoned from",brief:13 · R-13 · ruling:G-03
+exam_candidate_list,family_name,the child's family name as this list spells it,brief:19 · brief:26 · R-08 · R-12
+exam_candidate_list,given_names,the child's given names as this list gives them; compared when the reset enrols the entry,brief:13 · ruling:G-03
+exam_candidate_list,date_of_birth,"the child's date of birth as this list gives it; compared when the reset enrols the entry, and the date the child's age is reckoned from",brief:13 · R-13 · ruling:G-03
+social_grant_list,family_name,the child's family name as this list spells it,brief:19 · brief:26 · R-08 · R-12
+social_grant_list,given_names,the child's given names as this list gives them; compared when the reset enrols the entry,brief:13 · ruling:G-03
+social_grant_list,date_of_birth,"the child's date of birth as this list gives it; compared when the reset enrols the entry, and the date the child's age is reckoned from",brief:13 · R-13 · ruling:G-03
+learners,learner_number,"given by the registry by the setting learner_number, never twice",brief:14 · R-06 · ruling:G-01
+learners,family_name,the family name as entered by the clerk or enrolled from a list,brief:11 · R-03 · ruling:G-03
+learners,given_names,the given names as entered by the clerk or enrolled from a list,brief:11 · R-03 · ruling:G-03
+learners,date_of_birth,the date of birth as entered by the clerk or enrolled from a list,brief:11 · R-03 · ruling:G-03
+learners,school,the school as chosen by the clerk; saved and never searched on,brief:11 · R-03 · ruling:G-07
+key_table,list_entry,"an entry of one of the three lists; the table is read by the counts only and never by the search, which the reset's enrolment also runs",R-11 · ruling:G-03 · ruling:G-05
+key_table,same_child,"which entries are the same invented child, so that the 8 and the 4 can be counted and round 7 can count how many of the 8 the search catches",brief:54 · R-11 · R-12 · ruling:G-05

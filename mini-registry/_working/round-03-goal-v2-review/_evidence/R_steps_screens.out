@@ -1,0 +1,20 @@
+2026-10-31T17:36:34Z
+open the enrolment screen; enrolment the only thing offered    -> ['S-1']
+enter the four, school chosen from three, submit               -> ['S-2']
+the date held to YYYY-MM-DD, refused otherwise                 -> ['S-3']
+search first, three fields, capitals ignored, among learners   -> ['S-4']
+exactly one found: show it, enter nothing new                  -> ['S-5']
+none found: new learner number, save the record                -> ['S-6']
+the clerk sees which of the two happened                       -> ['S-7']
+steps: the review lists 7, the goal 7; missing from the goal: 0 []; in the goal and not the review: 0 []
+screens mentioned anywhere: 5 ['SC-1', 'SC-2', 'SC-3', 'SC-4', 'SC-5']
+screens listed: 5 ['SC-1', 'SC-2', 'SC-3', 'SC-4', 'SC-5']
+mentioned and not listed: []; listed and named by no step or failure: []
+  SC-1 The enrolment screen                   named by S-1, S-2.      carries the line: True
+  SC-2 A learner found                        named by S-5, S-7.      carries the line: True
+  SC-3 A new learner                          named by S-6, S-7, F-5. carries the line: True
+  SC-4 The date of birth refused              named by S-3, F-2.      carries the line: True
+  SC-5 The entry cannot be completed          named by F-4.           carries the line: True
+v1: steps 7, failures 5, screens listed 7, gaps 11
+v2: steps 7, failures 5, screens listed 5, gaps 13
+EXIT=0

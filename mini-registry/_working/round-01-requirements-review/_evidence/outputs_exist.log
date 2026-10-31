@@ -1,0 +1,36 @@
+$ date -u: 2026-10-31 13:15:45 UTC
+$ for each named output: ls -ld; shasum -a 256 (files)
+-rw-r--r--@ 1 arnelaponin  staff  18400 Oct 31 15:09 /Users/arnelaponin/Documents/Dev/wai-demo/mini-registry/docs/REQUIREMENTS.md
+exit=0
+ad583b3958fb5c5fdf6683b5c2487b6f0c425d66cebc7c46811e2e19af13f103  /Users/arnelaponin/Documents/Dev/wai-demo/mini-registry/docs/REQUIREMENTS.md
+drwxr-xr-x@ 19 arnelaponin  staff  608 Oct 31 15:13 /Users/arnelaponin/Documents/Dev/wai-demo/mini-registry/_working/round-01-requirements/_evidence
+exit=0
+-rw-r--r--@ 1 arnelaponin  staff  14860 Oct 31 15:13 /Users/arnelaponin/Documents/Dev/wai-demo/mini-registry/_reports/REPORT_REQUIREMENTS_2026-10-31.md
+exit=0
+e712f4843474ab561d665c7bbac875044dce73b080fa773d856788ea7df1edfd  /Users/arnelaponin/Documents/Dev/wai-demo/mini-registry/_reports/REPORT_REQUIREMENTS_2026-10-31.md
+-rw-r--r--@ 1 arnelaponin  staff  8503 Oct 31 15:10 /Users/arnelaponin/Documents/Dev/wai-demo/mini-registry/_working/round-01-requirements/_evidence/record/RECORD.txt
+exit=0
+62ab8a5e36961c64a9db50cc83957cee4b7bea07981d93f30f4c2c2d73a20433  /Users/arnelaponin/Documents/Dev/wai-demo/mini-registry/_working/round-01-requirements/_evidence/record/RECORD.txt
+-rw-r--r--@ 1 arnelaponin  staff  4417 Oct 31 15:08 /Users/arnelaponin/Documents/Dev/wai-demo/mini-registry/_working/round-01-requirements/_evidence/SENTENCES.md
+exit=0
+7af02bbce29941630e6b67110049da80df0200ea405844fbf1e3f7153a87610d  /Users/arnelaponin/Documents/Dev/wai-demo/mini-registry/_working/round-01-requirements/_evidence/SENTENCES.md
+-rw-r--r--@ 1 arnelaponin  staff  4611 Oct 31 15:07 /Users/arnelaponin/Documents/Dev/wai-demo/mini-registry/_working/round-01-requirements/_evidence/split_units.py
+exit=0
+798d06413ad0da19523c2ba76a704040f3e0ba2c68dc61a837a6e3a09fa5378d  /Users/arnelaponin/Documents/Dev/wai-demo/mini-registry/_working/round-01-requirements/_evidence/split_units.py
+-rw-r--r--@ 1 arnelaponin  staff  3552 Oct 31 15:09 /Users/arnelaponin/Documents/Dev/wai-demo/mini-registry/_working/round-01-requirements/_evidence/compare_register.py
+exit=0
+cc902d667c76ee51af4e396ccb0297378b404eb0468053175943861f9fcbdc56  /Users/arnelaponin/Documents/Dev/wai-demo/mini-registry/_working/round-01-requirements/_evidence/compare_register.py
+-rw-r--r--@ 1 arnelaponin  staff  930 Oct 31 15:07 /Users/arnelaponin/Documents/Dev/wai-demo/mini-registry/_working/round-01-requirements/_evidence/dispositions.tsv
+exit=0
+64e27ea9293b89ee72c64d852a8cca7c0645615c861f3873cc4b8501e28418c9  /Users/arnelaponin/Documents/Dev/wai-demo/mini-registry/_working/round-01-requirements/_evidence/dispositions.tsv
+-rw-r--r--@ 1 arnelaponin  staff  3619 Oct 31 15:13 /Users/arnelaponin/Documents/Dev/wai-demo/mini-registry/_working/round-01-requirements/_evidence/record/check.out
+exit=0
+fc503e51862ca8795af8f95304c41a3666da4dfe03a91b3b2b4714b0957e7ca3  /Users/arnelaponin/Documents/Dev/wai-demo/mini-registry/_working/round-01-requirements/_evidence/record/check.out
+-rw-r--r--@ 1 arnelaponin  staff  3011 Oct 31 15:13 /Users/arnelaponin/Documents/Dev/wai-demo/mini-registry/_working/round-01-requirements/_evidence/record/window.out
+exit=0
+43025efe4faec8df4eda5d28c063309e519826fc32749854decb72e75eba85a4  /Users/arnelaponin/Documents/Dev/wai-demo/mini-registry/_working/round-01-requirements/_evidence/record/window.out
+$ ls -1 evidence | wc -l
+      17
+$ shasum -a 256 brief
+ec6971e74a6a8387de0e5bd7a5e1cdead6ddf711b8fdac3ccc1d4b7555e11f64  /Users/arnelaponin/Documents/Dev/wai-demo/brief/MINI-REGISTRY-BRIEF.md
+exit=0

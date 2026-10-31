@@ -1,0 +1,87 @@
+## my sha256 14:20:22
+12f1cd7b52c890f986e746d07a339a595280a3bb7ab3bcee6013bda0827f2e57  _ledger/20261031T125439Z_MR_taken-up.yaml
+e4f2393f44681d7074bca69c7fa1e41779ea9222db79beed5e6b213ffea9ab52  _ledger/20261031T125512Z_MR_decision_D-2026-10-31-01.yaml
+2fc8d09d65eecbcfbad0a5cbbf7c79cf1fbaf9d32cff6d2db7a44bed81f2d817  _ledger/20261031T132216Z_MR_decision_D-2026-10-31-02.yaml
+e521e8f5c4772f5e4320be2b24ae4d5599a8fcd1e4980a9ed9197e7fa0388a12  _ledger/20261031T141136Z_MR_decision_D-2026-10-31-03.yaml
+59412d500e299f37ff380083c899851d639ce2fc736bc2405036888743ad17f9  _ledger/20261031T141250Z_MR_ruled_D-2026-10-31-02.yaml
+ad5b86749a9114e7611766f8400df071447bd8ddb8cb60ad02311db6843931b0  _ledger/20261031T141251Z_MR_ruled_D-2026-10-31-03.yaml
+8c7e7c2ed90daf5ac19a67fa34404e4eca5d7fb188205d064a27a9e8664dfc99  _ledger/20261031T141252Z_MR_ruled_D-2026-10-31-01.yaml
+bbae7c1432ac774bc1d25b34352fdb846e02440405c001e483c1179f614a034d  _ledger/README.md
+07733b9b92a94e5d8431ad788979cdbbd28caf598d795848f7f82a9946f2a66c  _guards/20261031T132400Z_placement_check_MR_4f1cc640de.yaml
+f520fe52fb4489309ac6e2c960e936cfe6d34f42b11b913bdb31fc01d00204c0  _guards/20261031T132400Z_placement_check_MR_4f28733df0.yaml
+906bd7bee5b0254a0400e31dc3c990ba08e4ea7f5b786b7e598f425aba12299e  _guards/20261031T141432Z_placement_check_MR_7b041a9d40.yaml
+0930790d3107ed71a18432eb527c5aae22253353657a1dcc2497c8b3b64284ec  _guards/20261031T141432Z_placement_check_MR_7b0f6bb0dd.yaml
+## before.sha256
+12f1cd7b52c890f986e746d07a339a595280a3bb7ab3bcee6013bda0827f2e57  _ledger/20261031T125439Z_MR_taken-up.yaml
+e4f2393f44681d7074bca69c7fa1e41779ea9222db79beed5e6b213ffea9ab52  _ledger/20261031T125512Z_MR_decision_D-2026-10-31-01.yaml
+2fc8d09d65eecbcfbad0a5cbbf7c79cf1fbaf9d32cff6d2db7a44bed81f2d817  _ledger/20261031T132216Z_MR_decision_D-2026-10-31-02.yaml
+e521e8f5c4772f5e4320be2b24ae4d5599a8fcd1e4980a9ed9197e7fa0388a12  _ledger/20261031T141136Z_MR_decision_D-2026-10-31-03.yaml
+59412d500e299f37ff380083c899851d639ce2fc736bc2405036888743ad17f9  _ledger/20261031T141250Z_MR_ruled_D-2026-10-31-02.yaml
+ad5b86749a9114e7611766f8400df071447bd8ddb8cb60ad02311db6843931b0  _ledger/20261031T141251Z_MR_ruled_D-2026-10-31-03.yaml
+8c7e7c2ed90daf5ac19a67fa34404e4eca5d7fb188205d064a27a9e8664dfc99  _ledger/20261031T141252Z_MR_ruled_D-2026-10-31-01.yaml
+07733b9b92a94e5d8431ad788979cdbbd28caf598d795848f7f82a9946f2a66c  _guards/20261031T132400Z_placement_check_MR_4f1cc640de.yaml
+f520fe52fb4489309ac6e2c960e936cfe6d34f42b11b913bdb31fc01d00204c0  _guards/20261031T132400Z_placement_check_MR_4f28733df0.yaml
+906bd7bee5b0254a0400e31dc3c990ba08e4ea7f5b786b7e598f425aba12299e  _guards/20261031T141432Z_placement_check_MR_7b041a9d40.yaml
+0930790d3107ed71a18432eb527c5aae22253353657a1dcc2497c8b3b64284ec  _guards/20261031T141432Z_placement_check_MR_7b0f6bb0dd.yaml
+## after.sha256
+12f1cd7b52c890f986e746d07a339a595280a3bb7ab3bcee6013bda0827f2e57  _ledger/20261031T125439Z_MR_taken-up.yaml
+e4f2393f44681d7074bca69c7fa1e41779ea9222db79beed5e6b213ffea9ab52  _ledger/20261031T125512Z_MR_decision_D-2026-10-31-01.yaml
+2fc8d09d65eecbcfbad0a5cbbf7c79cf1fbaf9d32cff6d2db7a44bed81f2d817  _ledger/20261031T132216Z_MR_decision_D-2026-10-31-02.yaml
+e521e8f5c4772f5e4320be2b24ae4d5599a8fcd1e4980a9ed9197e7fa0388a12  _ledger/20261031T141136Z_MR_decision_D-2026-10-31-03.yaml
+59412d500e299f37ff380083c899851d639ce2fc736bc2405036888743ad17f9  _ledger/20261031T141250Z_MR_ruled_D-2026-10-31-02.yaml
+ad5b86749a9114e7611766f8400df071447bd8ddb8cb60ad02311db6843931b0  _ledger/20261031T141251Z_MR_ruled_D-2026-10-31-03.yaml
+8c7e7c2ed90daf5ac19a67fa34404e4eca5d7fb188205d064a27a9e8664dfc99  _ledger/20261031T141252Z_MR_ruled_D-2026-10-31-01.yaml
+bbae7c1432ac774bc1d25b34352fdb846e02440405c001e483c1179f614a034d  _ledger/README.md
+07733b9b92a94e5d8431ad788979cdbbd28caf598d795848f7f82a9946f2a66c  _guards/20261031T132400Z_placement_check_MR_4f1cc640de.yaml
+f520fe52fb4489309ac6e2c960e936cfe6d34f42b11b913bdb31fc01d00204c0  _guards/20261031T132400Z_placement_check_MR_4f28733df0.yaml
+906bd7bee5b0254a0400e31dc3c990ba08e4ea7f5b786b7e598f425aba12299e  _guards/20261031T141432Z_placement_check_MR_7b041a9d40.yaml
+0930790d3107ed71a18432eb527c5aae22253353657a1dcc2497c8b3b64284ec  _guards/20261031T141432Z_placement_check_MR_7b0f6bb0dd.yaml
+## diff mine vs before (README excluded from before)
+exit 0
+## diff mine vs after
+exit 0
+## blobs vs disk
+same .gitignore
+same CONSTANTS.md
+same _guards/20261031T132400Z_placement_check_MR_4f1cc640de.yaml
+same _guards/20261031T132400Z_placement_check_MR_4f28733df0.yaml
+same _guards/20261031T141432Z_placement_check_MR_7b041a9d40.yaml
+same _guards/20261031T141432Z_placement_check_MR_7b0f6bb0dd.yaml
+same _ledger/20261031T125439Z_MR_taken-up.yaml
+same _ledger/20261031T125512Z_MR_decision_D-2026-10-31-01.yaml
+same _ledger/20261031T132216Z_MR_decision_D-2026-10-31-02.yaml
+same _ledger/20261031T141136Z_MR_decision_D-2026-10-31-03.yaml
+same _ledger/20261031T141250Z_MR_ruled_D-2026-10-31-02.yaml
+same _ledger/20261031T141251Z_MR_ruled_D-2026-10-31-03.yaml
+same _ledger/20261031T141252Z_MR_ruled_D-2026-10-31-01.yaml
+same _ledger/README.md
+same projects.txt
+## gitignore
+0000000    W   H   O   .   h   t   m   l  \n   M   E   A   S   U   R   E
+0000020    S   .   m   d  \n                                            
+0000025
+## README
+# The ledger of orchestrator events
+
+This folder holds the ledger of orchestrator events of Arne Laponin's orchestrators, one file per event.
+Every file in it is written by `ledger.py` and by nothing else.
+No entry is ever edited or deleted; a correction is a later entry.
+The ledger is described in section 9 of the orchestrator procedure, `/Users/arnelaponin/Library/Application Support/Claude/local-agent-mode-sessions/ffbe2f0e-bc4b-46d3-ad76-b08a7882aae9/7bbcb800-2754-4c5e-97ea-ccb874ea3fee/rpm/plugin_018SiGJfFaxxAvevS4xGQJgb/skills/orchestrator/SKILL.md`.
+941c16ca8c098aef1553a26ebd31d50b44dc5724b88161a35d595829323e5fb8  .gitignore
+bbae7c1432ac774bc1d25b34352fdb846e02440405c001e483c1179f614a034d  _ledger/README.md
+## config
+file:/Users/arnelaponin/.gitconfig	user.name=Arne Laponin
+file:/Users/arnelaponin/.gitconfig	user.email=arne.laponin@gmail.com
+file:/Users/arnelaponin/.gitconfig	credential.helper=
+file:/Users/arnelaponin/.gitconfig	credential.helper=/usr/local/share/gcm-core/git-credential-manager
+file:/Users/arnelaponin/.gitconfig	credential.https://dev.azure.com.usehttppath=true
+attr exit 1
+## hooks/other
+count: 19
+size: 76
+in-pack: 0
+packs: 0
+size-pack: 0
+prune-packable: 0
+garbage: 0
+size-garbage: 0

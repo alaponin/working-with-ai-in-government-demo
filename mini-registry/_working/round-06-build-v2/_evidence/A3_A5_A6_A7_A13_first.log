@@ -1,0 +1,53 @@
+2026-10-31T20:02:30Z
+=== A3: $ /usr/bin/python3 a3_checks.py docs/count/count.csv A2_tests.tap (the program of version 1, unchanged, copied here)
+requirements paired with an element of the goal: 13 R-01 R-02 R-03 R-04 R-05 R-06 R-07 R-14 R-15 R-17 R-18 R-20 R-22
+ways the goal goes wrong: 7 F-1 to F-7
+passing checks of the two new files (named with " — "): 27
+R-01  1  R-01 — a child enrolled twice: the first enrolment adds one learner, the second none
+R-02  1  R-02 — the screens offer one goal, enrolling a learner, and no other
+R-03  1  R-03 — the enrolment screen offers the four entries, and the record saved holds them as entered
+R-04  1  R-04 — in each enrolment the search is the first act on the data, before any write; the second has no write
+R-05  1  R-05 — exactly F, G and D, and F and G in other capitals: the learner of the set-up shown, nothing new
+R-06  1  R-06 — none found, then a family name one letter different: one record saved each time, each a number not held before
+R-07  1  R-07 — the clerk sees which of the two happened, and the two screens say different things
+R-14  1  R-14 — reset, count, enrol one child, reset again, count again: both runs give the known numbers
+R-15  1  R-15 — reset, copy, enrol one child, reset again, copy: the two copies are the same, record by record
+R-17  3  R-17 — every screen any check of this file reached carries "Invented data, Progressa is fictional"
+R-18  1  R-18 — every connection has both its ends on this computer
+R-20  1  R-20 — the list of windows read before and after: the prototype started, the data reset, a child enrolled through a windowless check, the prototype stopped; 0 windows added
+R-22  1  R-22 — on this computer the prototype starts and a child the registry does not hold is enrolled
+F-1   1  F-1 — an entry missing, or of spaces only: refused on SC-4, each entry missing named; nothing read, nothing saved
+F-2   2  F-2 — a date of birth not in the form YYYY-MM-DD, or naming no day: refused on SC-4; nothing read, nothing saved
+F-3   1  F-3 — a school not among the three, sent around SC-1: refused on SC-4; nothing read, nothing saved
+F-4   2  F-4 — on the reset's data the search never finds more than one: each learner's three fields find that learner alone
+F-5   1  F-5 — the same child entered with a difference but capitals: not caught, a new learner number, a second record
+F-6   1  F-6 — a record that cannot be saved: SC-5, nothing saved, no learner number given
+F-7   1  F-7 — a different child sharing a learner's three fields, at another school: taken for that learner on SC-2, no notice, nothing saved
+0 without a check
+EXIT=0
+=== A5: round 5 files and version 1 files, start of this round against its end: $ diff src.start.sha256 src.end.sha256
+13,14c13,14
+< afbf7a8a03f8…  ./test/goal.test.js
+< 3a095ee99b35…  ./test/requirements.test.js
+---
+> 1f83c42e8168…  ./test/goal.test.js
+> 53e5b9e003d0…  ./test/requirements.test.js
+files under src/ (data/ apart): 16; changed in this round: 2
+$ diff data.start.sha256 data.end.sha256
+data/: 8 files, unchanged
+=== A13: src/ against version 1: round 5 files of version 1 (src.end.sha256 of version 1) and the six files of version 1 report outputs line
+version 1 files listed: 16
+13,14c13,14
+< afbf7a8a03f8…  ./test/goal.test.js
+< 3a095ee99b35…  ./test/requirements.test.js
+---
+> 1f83c42e8168…  ./test/goal.test.js
+> 53e5b9e003d0…  ./test/requirements.test.js
+changed against version 1: ./test/goal.test.js ./test/requirements.test.js 
+=== A6: $ grep -rnE "listen|fetch|http\.request|https|[^a-z_]net[^a-z_]|dgram|child_process|execFile|osascript|open\(" over src/ (data/ left out)
+/Users/arnelaponin/Documents/Dev/wai-demo/mini-registry/_working/round-06-build-v2/_evidence/finals.sh:27: no matches found: --include=*.js
+$ grep -c dependencies package.json
+0
+=== A7: $ diff sources.start.sha256 sources.end.sha256
+sources: 15 of 15 unchanged
+2026-10-31T20:02:31Z

@@ -1,0 +1,32 @@
+# round_record.py window, run at 2026-10-31T14:40:14.068Z
+# run with: round_record.py window --ledger /Users/arnelaponin/Documents/Dev/wai-demo/_coordination/_ledger --code MR --id C-2026-10-31-07 --report /Users/arnelaponin/Documents/Dev/wai-demo/mini-registry/_reports/REPORT_GROUNDWORK_2026-10-31.md --record /Users/arnelaponin/Documents/Dev/wai-demo/mini-registry/_working/round-02-groundwork/_evidence/record --written /Users/arnelaponin/Documents/Dev/wai-demo/mini-registry/_working/round-02-groundwork/_evidence/A7_placement_2.out --written /Users/arnelaponin/Documents/Dev/wai-demo/mini-registry/_working/round-02-groundwork/_evidence/A7_trace.out --written /Users/arnelaponin/Documents/Dev/wai-demo/mini-registry/_working/round-02-groundwork/_evidence/ls_ld.out --write --out /Users/arnelaponin/Documents/Dev/wai-demo/mini-registry/_working/round-02-groundwork/_evidence/record/window.out
+# opens at the started entry 20261031T143024Z_MR_started_C-2026-10-31-07.yaml, its `written`: 2026-10-31T14:30:24.000Z
+# the finished entry: none yet
+# the record: /Users/arnelaponin/Documents/Dev/wai-demo/mini-registry/_working/round-02-groundwork/_evidence/record
+# wrote the line into /Users/arnelaponin/Documents/Dev/wai-demo/mini-registry/_reports/REPORT_GROUNDWORK_2026-10-31.md; its last write, read back by stat: 2026-10-31T14:40:14.089Z
+# files the round names as written: 19; the latest, /Users/arnelaponin/Documents/Dev/wai-demo/mini-registry/_reports/REPORT_GROUNDWORK_2026-10-31.md, last written 2026-10-31T14:40:14.089Z
+#   2026-10-31T14:35:18.613Z · /Users/arnelaponin/Documents/Dev/wai-demo/mini-registry/_working/round-02-groundwork/_evidence/list_settings_set.py · in a folder the outputs line names
+#   2026-10-31T14:35:29.286Z · /Users/arnelaponin/Documents/Dev/wai-demo/mini-registry/_working/round-02-groundwork/_evidence/SETTINGS_SET.md · in a folder the outputs line names
+#   2026-10-31T14:35:29.313Z · /Users/arnelaponin/Documents/Dev/wai-demo/mini-registry/_working/round-02-groundwork/_evidence/A1_list.out · in a folder the outputs line names
+#   2026-10-31T14:35:50.393Z · /Users/arnelaponin/Documents/Dev/wai-demo/mini-registry/docs/groundwork/settings.csv · named in the outputs line
+#   2026-10-31T14:35:52.220Z · /Users/arnelaponin/Documents/Dev/wai-demo/mini-registry/docs/groundwork/lists.csv · named in the outputs line
+#   2026-10-31T14:35:53.743Z · /Users/arnelaponin/Documents/Dev/wai-demo/mini-registry/docs/groundwork/search_rule.csv · named in the outputs line
+#   2026-10-31T14:36:19.253Z · /Users/arnelaponin/Documents/Dev/wai-demo/mini-registry/docs/GROUNDWORK.md · named in the outputs line
+#   2026-10-31T14:36:51.894Z · /Users/arnelaponin/Documents/Dev/wai-demo/mini-registry/_working/round-02-groundwork/_evidence/check_groundwork.py · in a folder the outputs line names
+#   2026-10-31T14:37:03.802Z · /Users/arnelaponin/Documents/Dev/wai-demo/mini-registry/_working/round-02-groundwork/_evidence/A1_check.out · in a folder the outputs line names
+#   2026-10-31T14:37:04.642Z · /Users/arnelaponin/Documents/Dev/wai-demo/mini-registry/_working/round-02-groundwork/_evidence/A2_check.out · in a folder the outputs line names
+#   2026-10-31T14:37:05.464Z · /Users/arnelaponin/Documents/Dev/wai-demo/mini-registry/_working/round-02-groundwork/_evidence/A3_check.out · in a folder the outputs line names
+#   2026-10-31T14:37:06.252Z · /Users/arnelaponin/Documents/Dev/wai-demo/mini-registry/_working/round-02-groundwork/_evidence/A4_check.out · in a folder the outputs line names
+#   2026-10-31T14:37:06.942Z · /Users/arnelaponin/Documents/Dev/wai-demo/mini-registry/_working/round-02-groundwork/_evidence/A5_check.out · in a folder the outputs line names
+#   2026-10-31T14:37:20.537Z · /Users/arnelaponin/Documents/Dev/wai-demo/mini-registry/_working/round-02-groundwork/_evidence/A6_shasum.out · in a folder the outputs line names
+#   2026-10-31T14:37:21.750Z · /Users/arnelaponin/Documents/Dev/wai-demo/mini-registry/_working/round-02-groundwork/_evidence/A7_placement.out · in a folder the outputs line names
+#   2026-10-31T14:38:44.235Z · /Users/arnelaponin/Documents/Dev/wai-demo/mini-registry/_working/round-02-groundwork/_evidence/A7_placement_2.out · in a folder the outputs line names
+#   2026-10-31T14:38:44.541Z · /Users/arnelaponin/Documents/Dev/wai-demo/mini-registry/_working/round-02-groundwork/_evidence/A7_trace.out · in a folder the outputs line names
+#   2026-10-31T14:38:51.173Z · /Users/arnelaponin/Documents/Dev/wai-demo/mini-registry/_working/round-02-groundwork/_evidence/ls_ld.out · in a folder the outputs line names
+#   2026-10-31T14:40:14.089Z · /Users/arnelaponin/Documents/Dev/wai-demo/mini-registry/_reports/REPORT_GROUNDWORK_2026-10-31.md · the report
+
+window: 2026-10-31 14:30:24 UTC to 2026-10-31 14:40:14 UTC, no pause; closed at the last write of the 19 files the round names as written, REPORT_GROUNDWORK_2026-10-31.md, read by stat; printed by round_record.py window, its command and output kept in /Users/arnelaponin/Documents/Dev/wai-demo/mini-registry/_working/round-02-groundwork/_evidence/record/window.out
+
+
+## Findings — 0
+none

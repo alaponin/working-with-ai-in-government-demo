@@ -1,0 +1,20 @@
+Sat Oct 31 13:40:01 UTC 2026
+$ awk: per section, Position lines, rows (a)-(d), recommendation lines, cells per row
+G-01 3 4 1 cells: 3 3 3 3
+G-02 2 4 1 cells: 2 2 2 2
+G-03 3 4 1 cells: 3 3 3 3
+G-04 2 4 1 cells: 2 2 2 2
+G-05 3 4 1 cells: 3 3 3 3
+G-06 2 4 1 cells: 2 2 2 2
+G-07 2 4 1 cells: 2 2 2 2
+G-08 2 4 1 cells: 2 2 2 2
+G-09 2 4 1 cells: 2 2 2 2
+G-10 2 4 1 cells: 2 2 2 2
+G-11 2 4 1 cells: 2 2 2 2
+G-12 2 4 1 cells: 2 2 2 2
+G-13 2 4 1 cells: 2 2 2 2
+exit=0
+$ decision wording
+0
+$ We recommend lines
+13

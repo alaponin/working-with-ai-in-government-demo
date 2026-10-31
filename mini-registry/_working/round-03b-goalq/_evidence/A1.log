@@ -1,0 +1,5 @@
+# A1 2026-10-31T18:02:09Z
+$ /usr/bin/python3 -B _working/round-03b-goalq/_evidence/list_questions.py /Users/arnelaponin/Documents/Dev/wai-demo/mini-registry _working/round-03b-goalq/_evidence/QUESTIONS.md
+13
+0 not found
+exit=0

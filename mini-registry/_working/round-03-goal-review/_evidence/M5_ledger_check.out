@@ -1,0 +1,3 @@
+# 2026-10-31T16:28:12Z ledger check
+check: clean
+EXIT=0

@@ -1,0 +1,38 @@
+## independent B2: before list (porcelain, dirs expanded by ls of the dir) vs git diff --name-only HEAD~1 HEAD
+/Users/arnelaponin/Documents/Dev/wai-demo/mini-registry: before-expanded       23 / diff       23
+missing:
+extra:
+/Users/arnelaponin/Documents/Dev/wai-demo/_coordination: before-expanded       15 / diff       15
+missing:
+extra:
+## outputs
+-rw-r--r--@ 1 arnelaponin  staff  5363 Oct 31 21:23 /Users/arnelaponin/Documents/Dev/wai-demo/mini-registry/_reports/REPORT_COMMIT3_2026-10-31_v2.md
+drwxr-xr-x@ 23 arnelaponin  staff  736 Oct 31 21:23 /Users/arnelaponin/Documents/Dev/wai-demo/mini-registry/_working/round-commit3-v2/_evidence
+      21
+21:23:12 /Users/arnelaponin/Documents/Dev/wai-demo/mini-registry/_reports/REPORT_COMMIT3_2026-10-31_v2.md
+21:23:05 /Users/arnelaponin/Documents/Dev/wai-demo/mini-registry/_working/round-commit3-v2/_evidence/final_checks.txt
+## v2 evidence B3_status, final_checks
+# git status --porcelain after step 5 (B3), 2026-10-31T19:22:41Z
+## mini-registry
+?? _working/round-commit3-v2/
+## _coordination
+## mini-registry status
+ M WHAT_IS_RUNNING.md
+?? _reports/REPORT_COMMIT3_2026-10-31_v2.md
+?? _working/round-commit3-v2/
+## _coordination status
+?? _ledger/20261031T192304Z_MR_finished_C-2026-10-31-23.yaml
+drwxr-xr-x@ 23 arnelaponin  staff  736 Oct 31 21:23 /Users/arnelaponin/Documents/Dev/wai-demo/mini-registry/_working/round-commit3-v2/_evidence
+-rw-r--r--@ 1 arnelaponin  staff  4494 Oct 31 21:22 /Users/arnelaponin/Documents/Dev/wai-demo/mini-registry/_reports/REPORT_COMMIT3_2026-10-31_v2.md
+## status now
+ M WHAT_IS_RUNNING.md
+?? _reports/REPORT_COMMIT3_2026-10-31_v2.md
+?? _working/round-commit3-v2-review/
+?? _working/round-commit3-v2/
+?? _ledger/20261031T192304Z_MR_finished_C-2026-10-31-23.yaml
+?? _ledger/20261031T192330Z_MR_started_C-2026-10-31-24.yaml
+ WHAT_IS_RUNNING.md | 8 ++++----
+ 1 file changed, 4 insertions(+), 4 deletions(-)
+## .gitignore ignored check of WHAT_IS_RUNNING
+ WHAT_IS_RUNNING.md | 8 ++++----
+ 1 file changed, 4 insertions(+), 4 deletions(-)

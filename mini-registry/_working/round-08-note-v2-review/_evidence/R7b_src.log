@@ -1,0 +1,7 @@
+2026-10-31T21:37:26Z
+# src/ against the round's start list, from the project root (its paths are relative)
+5d09b36143fbba7d397ea81bf5159bf619ba110b5b6f964872b9938ec43cee59  src/README.md
+src/test/reset.test.js: OK
+src/test/search.test.js: OK
+src files OK: 24 of 24
+SRC SHASUM -c EXIT=0

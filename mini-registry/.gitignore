@@ -1,0 +1,20 @@
+# What is never committed in this repository: the customer's material and secrets.
+# The list is the one the repository conventions give (the skill repo-ops in the plugin
+# imf-mission-report-kit). Only sanitised examples are let back in.
+*.docx
+*.doc
+*.pptx
+*.pdf
+*.xlsx
+*credentials*
+*secret*
+.env
+inputs/
+_inputs/
+drafts/
+out/
+!examples/**
+# What a machine leaves behind.
+.DS_Store
+__pycache__/
+*.pyc

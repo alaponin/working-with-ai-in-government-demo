@@ -1,0 +1,87 @@
+Sat Oct 31 14:05:17 UTC 2026
+## 1. passages
+passages 85: at the named line 85, elsewhere 0, nowhere 0
+## 2. 'register line N' named in a section, not quoted in that section
+G-01 named [93, 212] unquoted []
+G-04 named [121] unquoted []
+G-05 named [79, 172] unquoted []
+G-06 named [186] unquoted []
+G-07 named [54, 146] unquoted []
+G-08 named [40, 41] unquoted []
+G-09 named [238, 239] unquoted []
+G-10 named [226, 227] unquoted []
+G-11 named [253, 264, 266] unquoted []
+G-12 named [108, 199, 214, 294] unquoted []
+G-13 named [319] unquoted []
+unquoted register lines named: 0
+## 3. register lines (1-323) naming 'gap G-xx', against the section's quotations
+G-08 register:40 quoted
+G-07 register:53 quoted
+G-02 register:80 quoted
+G-01 register:91 quoted
+G-03 register:91 quoted
+G-04 register:133 quoted
+G-05 register:159 quoted
+G-06 register:185 quoted
+G-10 register:227 quoted
+G-09 register:238 quoted
+G-11 register:264 quoted
+G-12 register:305 quoted
+G-13 register:319 quoted
+gap-line pairs 13; unquoted 0
+## 4. bare 'line N' (the brief) in the paper, each with the brief's line
+paper:64 line 29: The numbers are fixed so that every later count has a known answer. The data is made the s
+paper:87 line 15: - the clerk sees which of the two happened.
+paper:87 line 13: - if it finds exactly one learner with the same family name, given names and date of birth
+paper:89 line 14: - if it finds none, it gives the child a new learner number and saves the record;
+paper:89 line 33: - Hold any real person's data. Every screen says "Invented data, Progressa is fictional".
+paper:91 line 13: - if it finds exactly one learner with the same family name, given names and date of birth
+paper:93 line 13: - if it finds exactly one learner with the same family name, given names and date of birth
+paper:100 line 15: - the clerk sees which of the two happened.
+paper:100 line 15: - the clerk sees which of the two happened.
+paper:103 line 13: - if it finds exactly one learner with the same family name, given names and date of birth
+paper:103 line 13: - if it finds exactly one learner with the same family name, given names and date of birth
+paper:118 line 13: - if it finds exactly one learner with the same family name, given names and date of birth
+paper:120 line 13: - if it finds exactly one learner with the same family name, given names and date of birth
+paper:120 line 14: - if it finds none, it gives the child a new learner number and saves the record;
+paper:122 line 13: - if it finds exactly one learner with the same family name, given names and date of birth
+paper:122 line 7: Progressa's Ministry of Education, Youth and Skills (MoEYS) wants one list of learners ins
+paper:122 line 13: - if it finds exactly one learner with the same family name, given names and date of birth
+paper:128 line 7: Progressa's Ministry of Education, Youth and Skills (MoEYS) wants one list of learners ins
+paper:128 line 54: | 7 | The duplicates count: how many of the 8 the search catches | checking |
+paper:134 line 7: Progressa's Ministry of Education, Youth and Skills (MoEYS) wants one list of learners ins
+paper:134 line 13: - if it finds exactly one learner with the same family name, given names and date of birth
+paper:149 line 25: | Children on more than one list | 8 |
+paper:149 line 19: The prototype starts with invented children spread over three lists: the school census, th
+paper:157 line 23: | Children | 60 |
+paper:157 line 25: | Children on more than one list | 8 |
+paper:161 line 25: | Children on more than one list | 8 |
+paper:179 line 13: - if it finds exactly one learner with the same family name, given names and date of birth
+paper:191 line 19: The prototype starts with invented children spread over three lists: the school census, th
+paper:193 line 13: - if it finds exactly one learner with the same family name, given names and date of birth
+paper:193 line 13: - if it finds exactly one learner with the same family name, given names and date of birth
+paper:197 line 13: - if it finds exactly one learner with the same family name, given names and date of birth
+paper:211 line 29: The numbers are fixed so that every later count has a known answer. The data is made the s
+paper:225 line 29: The numbers are fixed so that every later count has a known answer. The data is made the s
+paper:241 line 13: - if it finds exactly one learner with the same family name, given names and date of birth
+paper:241 line 11: One goal: **enrol a learner.** A school clerk enters a child's family name, given names, d
+paper:243 line 11: One goal: **enrol a learner.** A school clerk enters a child's family name, given names, d
+paper:255 line 11: One goal: **enrol a learner.** A school clerk enters a child's family name, given names, d
+paper:268 line 13: - if it finds exactly one learner with the same family name, given names and date of birth
+paper:276 line 11: One goal: **enrol a learner.** A school clerk enters a child's family name, given names, d
+paper:277 line 33: - Hold any real person's data. Every screen says "Invented data, Progressa is fictional".
+paper:282 line 11: One goal: **enrol a learner.** A school clerk enters a child's family name, given names, d
+paper:295 line 35: - Open a window on its own. Every check of the screens runs without one.
+paper:309 line 33: - Hold any real person's data. Every screen says "Invented data, Progressa is fictional".
+paper:323 line 33: - Hold any real person's data. Every screen says "Invented data, Progressa is fictional".
+paper:325 line 33: - Hold any real person's data. Every screen says "Invented data, Progressa is fictional".
+paper:334 line 33: - Hold any real person's data. Every screen says "Invented data, Progressa is fictional".
+paper:334 line 33: - Hold any real person's data. Every screen says "Invented data, Progressa is fictional".
+paper:336 line 29: The numbers are fixed so that every later count has a known answer. The data is made the s
+paper:354 line 19: The prototype starts with invented children spread over three lists: the school census, th
+paper:361 line 34: - Connect to anything outside your computer. Other bodies, if the project needs them, are 
+paper:366 line 19: The prototype starts with invented children spread over three lists: the school census, th
+paper:383 line 29: The numbers are fixed so that every later count has a known answer. The data is made the s
+paper:385 line 50: | 3 | The goal written in full: every step of enrolling a learner, and every way it can go
+paper:411 line 40: 2. A one-page note to the Permanent Secretary: what the prototype shows, and what it does 
+exit=0

@@ -1,0 +1,121 @@
+# round_record.py window, run at 2026-10-31T20:05:13.593Z
+# run with: round_record.py window --ledger /Users/arnelaponin/Documents/Dev/wai-demo/_coordination/_ledger --code MR --id C-2026-10-31-25 --version 2 --report /Users/arnelaponin/Documents/Dev/wai-demo/mini-registry/_reports/REPORT_BUILD_2026-10-31_v2.md --record /Users/arnelaponin/Documents/Dev/wai-demo/mini-registry/_working/round-06-build-v2/_evidence/record --write --out /Users/arnelaponin/Documents/Dev/wai-demo/mini-registry/_working/round-06-build-v2/_evidence/record/window.out
+# opens at the started entry 20261031T195553Z_MR_started_C-2026-10-31-25.yaml, its `written`: 2026-10-31T19:55:53.000Z
+# the finished entry: none yet
+# the record: /Users/arnelaponin/Documents/Dev/wai-demo/mini-registry/_working/round-06-build-v2/_evidence/record
+# wrote the line into /Users/arnelaponin/Documents/Dev/wai-demo/mini-registry/_reports/REPORT_BUILD_2026-10-31_v2.md; its last write, read back by stat: 2026-10-31T20:05:13.634Z
+# files the round names as written: 108; the latest, /Users/arnelaponin/Documents/Dev/wai-demo/mini-registry/_reports/REPORT_BUILD_2026-10-31_v2.md, last written 2026-10-31T20:05:13.634Z
+#   2026-10-31T19:58:09.566Z · /Users/arnelaponin/Documents/Dev/wai-demo/mini-registry/_working/round-06-build-v2/_evidence/sums.sh · in a folder the outputs line names
+#   2026-10-31T19:58:18.127Z · /Users/arnelaponin/Documents/Dev/wai-demo/mini-registry/_working/round-06-build-v2/_evidence/stage1.sh · in a folder the outputs line names
+#   2026-10-31T19:58:18.402Z · /Users/arnelaponin/Documents/Dev/wai-demo/mini-registry/_working/round-06-build-v2/_evidence/sources.start.sha256 · in a folder the outputs line names
+#   2026-10-31T19:58:18.447Z · /Users/arnelaponin/Documents/Dev/wai-demo/mini-registry/_working/round-06-build-v2/_evidence/src.start.sha256 · in a folder the outputs line names
+#   2026-10-31T19:58:18.492Z · /Users/arnelaponin/Documents/Dev/wai-demo/mini-registry/_working/round-06-build-v2/_evidence/data.start.sha256 · in a folder the outputs line names
+#   2026-10-31T19:58:20.004Z · /Users/arnelaponin/Documents/Dev/wai-demo/mini-registry/_working/round-06-build-v2/_evidence/A1_stage1.tap · in a folder the outputs line names
+#   2026-10-31T19:58:20.030Z · /Users/arnelaponin/Documents/Dev/wai-demo/mini-registry/_working/round-06-build-v2/_evidence/A1_stage1.log · in a folder the outputs line names
+#   2026-10-31T19:58:39.085Z · /Users/arnelaponin/Documents/Dev/wai-demo/mini-registry/_working/round-06-build-v2/_evidence/probe_windows.sh · in a folder the outputs line names
+#   2026-10-31T19:58:48.712Z · /Users/arnelaponin/Documents/Dev/wai-demo/mini-registry/_working/round-06-build-v2/_evidence/W0_probe.log · in a folder the outputs line names
+#   2026-10-31T19:59:42.029Z · /Users/arnelaponin/Documents/Dev/wai-demo/mini-registry/_working/round-06-build-v2/_evidence/edit_tests.py · in a folder the outputs line names
+#   2026-10-31T20:00:03.006Z · /Users/arnelaponin/Documents/Dev/wai-demo/mini-registry/_working/round-06-build-v2/_evidence/a2_run.sh · in a folder the outputs line names
+#   2026-10-31T20:00:12.268Z · /Users/arnelaponin/Documents/Dev/wai-demo/mini-registry/_working/round-06-build-v2/_evidence/A2_tests_first.tap · in a folder the outputs line names
+#   2026-10-31T20:00:12.306Z · /Users/arnelaponin/Documents/Dev/wai-demo/mini-registry/_working/round-06-build-v2/_evidence/A2_tests_first.log · in a folder the outputs line names
+#   2026-10-31T20:00:40.439Z · /Users/arnelaponin/Documents/Dev/wai-demo/mini-registry/_working/round-06-build-v2/_evidence/edit_tests_2.py · in a folder the outputs line names
+#   2026-10-31T20:00:49.871Z · /Users/arnelaponin/Documents/Dev/wai-demo/mini-registry/src/test/requirements.test.js · named in the outputs line
+#   2026-10-31T20:00:49.872Z · /Users/arnelaponin/Documents/Dev/wai-demo/mini-registry/src/test/goal.test.js · named in the outputs line
+#   2026-10-31T20:00:52.457Z · /Users/arnelaponin/Documents/Dev/wai-demo/mini-registry/_working/round-06-build-v2/_evidence/A2_tests.tap · in a folder the outputs line names
+#   2026-10-31T20:00:52.493Z · /Users/arnelaponin/Documents/Dev/wai-demo/mini-registry/_working/round-06-build-v2/_evidence/A2_tests.log · in a folder the outputs line names
+#   2026-10-31T20:01:13.975Z · /Users/arnelaponin/Documents/Dev/wai-demo/mini-registry/_working/round-06-build-v2/_evidence/planted_run.sh · in a folder the outputs line names
+#   2026-10-31T20:01:31.090Z · /Users/arnelaponin/Documents/Dev/wai-demo/mini-registry/_working/round-06-build-v2/_evidence/A4_A12_planted_first.log · in a folder the outputs line names
+#   2026-10-31T20:01:48.453Z · /Users/arnelaponin/Documents/Dev/wai-demo/mini-registry/_working/round-06-build-v2/_evidence/plant.py · in a folder the outputs line names
+#   2026-10-31T20:01:50.064Z · /Users/arnelaponin/Documents/Dev/wai-demo/mini-registry/_working/round-06-build-v2/_evidence/planted/search-forgives-spaces/src/reset.js · in a folder the outputs line names
+#   2026-10-31T20:01:50.065Z · /Users/arnelaponin/Documents/Dev/wai-demo/mini-registry/_working/round-06-build-v2/_evidence/planted/search-forgives-spaces/src/test/search.test.js · in a folder the outputs line names
+#   2026-10-31T20:01:50.067Z · /Users/arnelaponin/Documents/Dev/wai-demo/mini-registry/_working/round-06-build-v2/_evidence/planted/search-forgives-spaces/src/test/goal.test.js · in a folder the outputs line names
+#   2026-10-31T20:01:50.069Z · /Users/arnelaponin/Documents/Dev/wai-demo/mini-registry/_working/round-06-build-v2/_evidence/planted/search-forgives-spaces/src/test/requirements.test.js · in a folder the outputs line names
+#   2026-10-31T20:01:50.071Z · /Users/arnelaponin/Documents/Dev/wai-demo/mini-registry/_working/round-06-build-v2/_evidence/planted/search-forgives-spaces/src/test/reset.test.js · in a folder the outputs line names
+#   2026-10-31T20:01:50.072Z · /Users/arnelaponin/Documents/Dev/wai-demo/mini-registry/_working/round-06-build-v2/_evidence/planted/search-forgives-spaces/src/test/data.test.js · in a folder the outputs line names
+#   2026-10-31T20:01:50.074Z · /Users/arnelaponin/Documents/Dev/wai-demo/mini-registry/_working/round-06-build-v2/_evidence/planted/search-forgives-spaces/src/server.js · in a folder the outputs line names
+#   2026-10-31T20:01:50.076Z · /Users/arnelaponin/Documents/Dev/wai-demo/mini-registry/_working/round-06-build-v2/_evidence/planted/search-forgives-spaces/src/README.md · in a folder the outputs line names
+#   2026-10-31T20:01:50.077Z · /Users/arnelaponin/Documents/Dev/wai-demo/mini-registry/_working/round-06-build-v2/_evidence/planted/search-forgives-spaces/src/package.json · in a folder the outputs line names
+#   2026-10-31T20:01:50.079Z · /Users/arnelaponin/Documents/Dev/wai-demo/mini-registry/_working/round-06-build-v2/_evidence/planted/search-forgives-spaces/src/lib/random.js · in a folder the outputs line names
+#   2026-10-31T20:01:50.081Z · /Users/arnelaponin/Documents/Dev/wai-demo/mini-registry/_working/round-06-build-v2/_evidence/planted/search-forgives-spaces/src/lib/data_files.js · in a folder the outputs line names
+#   2026-10-31T20:01:50.083Z · /Users/arnelaponin/Documents/Dev/wai-demo/mini-registry/_working/round-06-build-v2/_evidence/planted/search-forgives-spaces/src/lib/lists.js · in a folder the outputs line names
+#   2026-10-31T20:01:50.086Z · /Users/arnelaponin/Documents/Dev/wai-demo/mini-registry/_working/round-06-build-v2/_evidence/planted/search-forgives-spaces/src/lib/screens.js · in a folder the outputs line names
+#   2026-10-31T20:01:50.088Z · /Users/arnelaponin/Documents/Dev/wai-demo/mini-registry/_working/round-06-build-v2/_evidence/planted/search-forgives-spaces/src/lib/enrol.js · in a folder the outputs line names
+#   2026-10-31T20:01:50.090Z · /Users/arnelaponin/Documents/Dev/wai-demo/mini-registry/_working/round-06-build-v2/_evidence/planted/search-forgives-spaces/src/lib/names.js · in a folder the outputs line names
+#   2026-10-31T20:01:50.116Z · /Users/arnelaponin/Documents/Dev/wai-demo/mini-registry/_working/round-06-build-v2/_evidence/planted/search-forgives-spaces/src/lib/search.js · in a folder the outputs line names
+#   2026-10-31T20:01:50.133Z · /Users/arnelaponin/Documents/Dev/wai-demo/mini-registry/_working/round-06-build-v2/_evidence/planted/sc3-without-line/src/reset.js · in a folder the outputs line names
+#   2026-10-31T20:01:50.136Z · /Users/arnelaponin/Documents/Dev/wai-demo/mini-registry/_working/round-06-build-v2/_evidence/planted/sc3-without-line/src/test/search.test.js · in a folder the outputs line names
+#   2026-10-31T20:01:50.138Z · /Users/arnelaponin/Documents/Dev/wai-demo/mini-registry/_working/round-06-build-v2/_evidence/planted/sc3-without-line/src/test/goal.test.js · in a folder the outputs line names
+#   2026-10-31T20:01:50.140Z · /Users/arnelaponin/Documents/Dev/wai-demo/mini-registry/_working/round-06-build-v2/_evidence/planted/sc3-without-line/src/test/requirements.test.js · in a folder the outputs line names
+#   2026-10-31T20:01:50.142Z · /Users/arnelaponin/Documents/Dev/wai-demo/mini-registry/_working/round-06-build-v2/_evidence/planted/sc3-without-line/src/test/reset.test.js · in a folder the outputs line names
+#   2026-10-31T20:01:50.144Z · /Users/arnelaponin/Documents/Dev/wai-demo/mini-registry/_working/round-06-build-v2/_evidence/planted/sc3-without-line/src/test/data.test.js · in a folder the outputs line names
+#   2026-10-31T20:01:50.146Z · /Users/arnelaponin/Documents/Dev/wai-demo/mini-registry/_working/round-06-build-v2/_evidence/planted/sc3-without-line/src/server.js · in a folder the outputs line names
+#   2026-10-31T20:01:50.148Z · /Users/arnelaponin/Documents/Dev/wai-demo/mini-registry/_working/round-06-build-v2/_evidence/planted/sc3-without-line/src/README.md · in a folder the outputs line names
+#   2026-10-31T20:01:50.150Z · /Users/arnelaponin/Documents/Dev/wai-demo/mini-registry/_working/round-06-build-v2/_evidence/planted/sc3-without-line/src/package.json · in a folder the outputs line names
+#   2026-10-31T20:01:50.153Z · /Users/arnelaponin/Documents/Dev/wai-demo/mini-registry/_working/round-06-build-v2/_evidence/planted/sc3-without-line/src/lib/random.js · in a folder the outputs line names
+#   2026-10-31T20:01:50.155Z · /Users/arnelaponin/Documents/Dev/wai-demo/mini-registry/_working/round-06-build-v2/_evidence/planted/sc3-without-line/src/lib/data_files.js · in a folder the outputs line names
+#   2026-10-31T20:01:50.157Z · /Users/arnelaponin/Documents/Dev/wai-demo/mini-registry/_working/round-06-build-v2/_evidence/planted/sc3-without-line/src/lib/lists.js · in a folder the outputs line names
+#   2026-10-31T20:01:50.161Z · /Users/arnelaponin/Documents/Dev/wai-demo/mini-registry/_working/round-06-build-v2/_evidence/planted/sc3-without-line/src/lib/enrol.js · in a folder the outputs line names
+#   2026-10-31T20:01:50.165Z · /Users/arnelaponin/Documents/Dev/wai-demo/mini-registry/_working/round-06-build-v2/_evidence/planted/sc3-without-line/src/lib/names.js · in a folder the outputs line names
+#   2026-10-31T20:01:50.170Z · /Users/arnelaponin/Documents/Dev/wai-demo/mini-registry/_working/round-06-build-v2/_evidence/planted/sc3-without-line/src/lib/search.js · in a folder the outputs line names
+#   2026-10-31T20:01:50.224Z · /Users/arnelaponin/Documents/Dev/wai-demo/mini-registry/_working/round-06-build-v2/_evidence/planted/sc3-without-line/src/lib/screens.js · in a folder the outputs line names
+#   2026-10-31T20:01:50.238Z · /Users/arnelaponin/Documents/Dev/wai-demo/mini-registry/_working/round-06-build-v2/_evidence/planted/window-added/src/reset.js · in a folder the outputs line names
+#   2026-10-31T20:01:50.240Z · /Users/arnelaponin/Documents/Dev/wai-demo/mini-registry/_working/round-06-build-v2/_evidence/planted/window-added/src/test/search.test.js · in a folder the outputs line names
+#   2026-10-31T20:01:50.248Z · /Users/arnelaponin/Documents/Dev/wai-demo/mini-registry/_working/round-06-build-v2/_evidence/planted/window-added/src/test/reset.test.js · in a folder the outputs line names
+#   2026-10-31T20:01:50.250Z · /Users/arnelaponin/Documents/Dev/wai-demo/mini-registry/_working/round-06-build-v2/_evidence/planted/window-added/src/test/data.test.js · in a folder the outputs line names
+#   2026-10-31T20:01:50.253Z · /Users/arnelaponin/Documents/Dev/wai-demo/mini-registry/_working/round-06-build-v2/_evidence/planted/window-added/src/server.js · in a folder the outputs line names
+#   2026-10-31T20:01:50.254Z · /Users/arnelaponin/Documents/Dev/wai-demo/mini-registry/_working/round-06-build-v2/_evidence/planted/window-added/src/README.md · in a folder the outputs line names
+#   2026-10-31T20:01:50.256Z · /Users/arnelaponin/Documents/Dev/wai-demo/mini-registry/_working/round-06-build-v2/_evidence/planted/window-added/src/package.json · in a folder the outputs line names
+#   2026-10-31T20:01:50.258Z · /Users/arnelaponin/Documents/Dev/wai-demo/mini-registry/_working/round-06-build-v2/_evidence/planted/window-added/src/lib/random.js · in a folder the outputs line names
+#   2026-10-31T20:01:50.259Z · /Users/arnelaponin/Documents/Dev/wai-demo/mini-registry/_working/round-06-build-v2/_evidence/planted/window-added/src/lib/data_files.js · in a folder the outputs line names
+#   2026-10-31T20:01:50.261Z · /Users/arnelaponin/Documents/Dev/wai-demo/mini-registry/_working/round-06-build-v2/_evidence/planted/window-added/src/lib/lists.js · in a folder the outputs line names
+#   2026-10-31T20:01:50.263Z · /Users/arnelaponin/Documents/Dev/wai-demo/mini-registry/_working/round-06-build-v2/_evidence/planted/window-added/src/lib/screens.js · in a folder the outputs line names
+#   2026-10-31T20:01:50.265Z · /Users/arnelaponin/Documents/Dev/wai-demo/mini-registry/_working/round-06-build-v2/_evidence/planted/window-added/src/lib/enrol.js · in a folder the outputs line names
+#   2026-10-31T20:01:50.267Z · /Users/arnelaponin/Documents/Dev/wai-demo/mini-registry/_working/round-06-build-v2/_evidence/planted/window-added/src/lib/names.js · in a folder the outputs line names
+#   2026-10-31T20:01:50.268Z · /Users/arnelaponin/Documents/Dev/wai-demo/mini-registry/_working/round-06-build-v2/_evidence/planted/window-added/src/lib/search.js · in a folder the outputs line names
+#   2026-10-31T20:01:50.287Z · /Users/arnelaponin/Documents/Dev/wai-demo/mini-registry/_working/round-06-build-v2/_evidence/planted/window-added/src/test/goal.test.js · in a folder the outputs line names
+#   2026-10-31T20:01:50.289Z · /Users/arnelaponin/Documents/Dev/wai-demo/mini-registry/_working/round-06-build-v2/_evidence/planted/window-added/src/test/requirements.test.js · in a folder the outputs line names
+#   2026-10-31T20:01:50.783Z · /Users/arnelaponin/Documents/Dev/wai-demo/mini-registry/_working/round-06-build-v2/_evidence/planted/search-forgives-spaces/src/data/enrolments.json · in a folder the outputs line names
+#   2026-10-31T20:01:50.784Z · /Users/arnelaponin/Documents/Dev/wai-demo/mini-registry/_working/round-06-build-v2/_evidence/planted/search-forgives-spaces/src/data/exam_candidate_list.json · in a folder the outputs line names
+#   2026-10-31T20:01:50.784Z · /Users/arnelaponin/Documents/Dev/wai-demo/mini-registry/_working/round-06-build-v2/_evidence/planted/search-forgives-spaces/src/data/key_table.json · in a folder the outputs line names
+#   2026-10-31T20:01:50.785Z · /Users/arnelaponin/Documents/Dev/wai-demo/mini-registry/_working/round-06-build-v2/_evidence/planted/search-forgives-spaces/src/data/learners.json · in a folder the outputs line names
+#   2026-10-31T20:01:50.785Z · /Users/arnelaponin/Documents/Dev/wai-demo/mini-registry/_working/round-06-build-v2/_evidence/planted/search-forgives-spaces/src/data/reads.json · in a folder the outputs line names
+#   2026-10-31T20:01:50.786Z · /Users/arnelaponin/Documents/Dev/wai-demo/mini-registry/_working/round-06-build-v2/_evidence/planted/search-forgives-spaces/src/data/school_census.json · in a folder the outputs line names
+#   2026-10-31T20:01:50.786Z · /Users/arnelaponin/Documents/Dev/wai-demo/mini-registry/_working/round-06-build-v2/_evidence/planted/search-forgives-spaces/src/data/schools.json · in a folder the outputs line names
+#   2026-10-31T20:01:50.786Z · /Users/arnelaponin/Documents/Dev/wai-demo/mini-registry/_working/round-06-build-v2/_evidence/planted/search-forgives-spaces/src/data/social_grant_list.json · in a folder the outputs line names
+#   2026-10-31T20:01:53.739Z · /Users/arnelaponin/Documents/Dev/wai-demo/mini-registry/_working/round-06-build-v2/_evidence/planted_search-forgives-spaces.tap · in a folder the outputs line names
+#   2026-10-31T20:01:53.940Z · /Users/arnelaponin/Documents/Dev/wai-demo/mini-registry/_working/round-06-build-v2/_evidence/planted/sc3-without-line/src/data/enrolments.json · in a folder the outputs line names
+#   2026-10-31T20:01:53.941Z · /Users/arnelaponin/Documents/Dev/wai-demo/mini-registry/_working/round-06-build-v2/_evidence/planted/sc3-without-line/src/data/exam_candidate_list.json · in a folder the outputs line names
+#   2026-10-31T20:01:53.941Z · /Users/arnelaponin/Documents/Dev/wai-demo/mini-registry/_working/round-06-build-v2/_evidence/planted/sc3-without-line/src/data/key_table.json · in a folder the outputs line names
+#   2026-10-31T20:01:53.942Z · /Users/arnelaponin/Documents/Dev/wai-demo/mini-registry/_working/round-06-build-v2/_evidence/planted/sc3-without-line/src/data/learners.json · in a folder the outputs line names
+#   2026-10-31T20:01:53.942Z · /Users/arnelaponin/Documents/Dev/wai-demo/mini-registry/_working/round-06-build-v2/_evidence/planted/sc3-without-line/src/data/reads.json · in a folder the outputs line names
+#   2026-10-31T20:01:53.942Z · /Users/arnelaponin/Documents/Dev/wai-demo/mini-registry/_working/round-06-build-v2/_evidence/planted/sc3-without-line/src/data/school_census.json · in a folder the outputs line names
+#   2026-10-31T20:01:53.943Z · /Users/arnelaponin/Documents/Dev/wai-demo/mini-registry/_working/round-06-build-v2/_evidence/planted/sc3-without-line/src/data/schools.json · in a folder the outputs line names
+#   2026-10-31T20:01:53.943Z · /Users/arnelaponin/Documents/Dev/wai-demo/mini-registry/_working/round-06-build-v2/_evidence/planted/sc3-without-line/src/data/social_grant_list.json · in a folder the outputs line names
+#   2026-10-31T20:01:56.827Z · /Users/arnelaponin/Documents/Dev/wai-demo/mini-registry/_working/round-06-build-v2/_evidence/planted_sc3-without-line.tap · in a folder the outputs line names
+#   2026-10-31T20:01:57.035Z · /Users/arnelaponin/Documents/Dev/wai-demo/mini-registry/_working/round-06-build-v2/_evidence/planted/window-added/src/data/enrolments.json · in a folder the outputs line names
+#   2026-10-31T20:01:57.035Z · /Users/arnelaponin/Documents/Dev/wai-demo/mini-registry/_working/round-06-build-v2/_evidence/planted/window-added/src/data/exam_candidate_list.json · in a folder the outputs line names
+#   2026-10-31T20:01:57.036Z · /Users/arnelaponin/Documents/Dev/wai-demo/mini-registry/_working/round-06-build-v2/_evidence/planted/window-added/src/data/key_table.json · in a folder the outputs line names
+#   2026-10-31T20:01:57.036Z · /Users/arnelaponin/Documents/Dev/wai-demo/mini-registry/_working/round-06-build-v2/_evidence/planted/window-added/src/data/learners.json · in a folder the outputs line names
+#   2026-10-31T20:01:57.037Z · /Users/arnelaponin/Documents/Dev/wai-demo/mini-registry/_working/round-06-build-v2/_evidence/planted/window-added/src/data/reads.json · in a folder the outputs line names
+#   2026-10-31T20:01:57.037Z · /Users/arnelaponin/Documents/Dev/wai-demo/mini-registry/_working/round-06-build-v2/_evidence/planted/window-added/src/data/school_census.json · in a folder the outputs line names
+#   2026-10-31T20:01:57.037Z · /Users/arnelaponin/Documents/Dev/wai-demo/mini-registry/_working/round-06-build-v2/_evidence/planted/window-added/src/data/schools.json · in a folder the outputs line names
+#   2026-10-31T20:01:57.038Z · /Users/arnelaponin/Documents/Dev/wai-demo/mini-registry/_working/round-06-build-v2/_evidence/planted/window-added/src/data/social_grant_list.json · in a folder the outputs line names
+#   2026-10-31T20:02:00.260Z · /Users/arnelaponin/Documents/Dev/wai-demo/mini-registry/_working/round-06-build-v2/_evidence/planted_window-added.tap · in a folder the outputs line names
+#   2026-10-31T20:02:00.310Z · /Users/arnelaponin/Documents/Dev/wai-demo/mini-registry/_working/round-06-build-v2/_evidence/A4_A12_planted.log · in a folder the outputs line names
+#   2026-10-31T20:02:30.166Z · /Users/arnelaponin/Documents/Dev/wai-demo/mini-registry/_working/round-06-build-v2/_evidence/a3_checks.py · in a folder the outputs line names
+#   2026-10-31T20:02:31.052Z · /Users/arnelaponin/Documents/Dev/wai-demo/mini-registry/_working/round-06-build-v2/_evidence/A3_A5_A6_A7_A13_first.log · in a folder the outputs line names
+#   2026-10-31T20:02:39.746Z · /Users/arnelaponin/Documents/Dev/wai-demo/mini-registry/_working/round-06-build-v2/_evidence/finals.sh · in a folder the outputs line names
+#   2026-10-31T20:02:40.150Z · /Users/arnelaponin/Documents/Dev/wai-demo/mini-registry/_working/round-06-build-v2/_evidence/sources.end.sha256 · in a folder the outputs line names
+#   2026-10-31T20:02:40.212Z · /Users/arnelaponin/Documents/Dev/wai-demo/mini-registry/_working/round-06-build-v2/_evidence/src.end.sha256 · in a folder the outputs line names
+#   2026-10-31T20:02:40.275Z · /Users/arnelaponin/Documents/Dev/wai-demo/mini-registry/_working/round-06-build-v2/_evidence/data.end.sha256 · in a folder the outputs line names
+#   2026-10-31T20:02:40.478Z · /Users/arnelaponin/Documents/Dev/wai-demo/mini-registry/_working/round-06-build-v2/_evidence/src.v1.sha256 · in a folder the outputs line names
+#   2026-10-31T20:02:40.588Z · /Users/arnelaponin/Documents/Dev/wai-demo/mini-registry/_working/round-06-build-v2/_evidence/A3_A5_A6_A7_A13.log · in a folder the outputs line names
+#   2026-10-31T20:02:49.056Z · /Users/arnelaponin/Documents/Dev/wai-demo/mini-registry/_working/round-06-build-v2/_evidence/outputs.log · in a folder the outputs line names
+#   2026-10-31T20:04:28.991Z · /Users/arnelaponin/Documents/Dev/wai-demo/mini-registry/_working/round-06-build-v2/_evidence/A8_checks.log · in a folder the outputs line names
+#   2026-10-31T20:05:13.634Z · /Users/arnelaponin/Documents/Dev/wai-demo/mini-registry/_reports/REPORT_BUILD_2026-10-31_v2.md · the report
+
+window: 2026-10-31 19:55:53 UTC to 2026-10-31 20:05:13 UTC, no pause; closed at the last write of the 108 files the round names as written, REPORT_BUILD_2026-10-31_v2.md, read by stat; printed by round_record.py window, its command and output kept in /Users/arnelaponin/Documents/Dev/wai-demo/mini-registry/_working/round-06-build-v2/_evidence/record/window.out
+
+
+## Findings — 0
+none

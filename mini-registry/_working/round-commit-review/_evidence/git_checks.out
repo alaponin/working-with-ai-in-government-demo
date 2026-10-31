@@ -1,0 +1,80 @@
+Sat Oct 31 15:15:46 UTC 2026
+#### mini-registry
+## A1 status
+ M WHAT_IS_RUNNING.md
+?? _reports/REPORT_COMMIT_2026-10-31.md
+?? _working/round-commit-review/
+?? _working/round-commit/_evidence/A4_reconcile.txt
+?? _working/round-commit/_evidence/after__coordination.txt
+?? _working/round-commit/_evidence/after_mini-registry.txt
+?? _working/round-commit/_evidence/commit_and_A1.txt
+?? _working/round-commit/_evidence/ledger_show.out
+?? _working/round-commit/_evidence/ls_outputs.txt
+?? _working/round-commit/_evidence/trace_check.out
+?? _working/round-commit/_evidence/trace_check_first.out
+?? _working/round-commit/_evidence/window.out
+exit=0
+## A2 log
+2fad722 The day's work of 31 October 2026, committed at the owner's word (D-2026-10-31-04, "Commit both now")
+74ca995 Start the mini registry: the places for instructions, reports and reviews, the record of what is running, the constants and the folders on the map of places
+## remote -v
+exit=0
+## A3
+exit=0
+## A4 route: diff --name-only
+     262
+## A4 route: ls-tree HEAD vs HEAD~1
+     277
+      17
+## diff-filter counts
+A      260
+M        2
+D        0
+## numstat M files
+21	0	WHAT_IS_RUNNING.md
+1	0	_kinds/analysis.md
+## ignored in tree?
+grep exit=1
+## HEAD info
+2fad72234a662b19423149e3904b905cf3afb23f
+Arne Laponin <arne.laponin@gmail.com>
+The day's work of 31 October 2026, committed at the owner's word (D-2026-10-31-04, "Commit both now")
+Register of requirements: _prompts/PROMPT_REQUIREMENTS_2026-10-31.md, reviewed by _prompts/PROMPT_REVIEW_REQUIREMENTS_2026-10-31.md
+Answers to the register's gaps, versions 1 and 2: _prompts/PROMPT_GAPS_2026-10-31.md, reviewed by _prompts/PROMPT_REVIEW_GAPS_2026-10-31.md
+The ledger under local git: _prompts/PROMPT_LEDGER_GIT_2026-10-31.md, reviewed by _prompts/PROMPT_REVIEW_LEDGER_GIT_2026-10-31.md
+Groundwork, versions 1 and 2: _prompts/PROMPT_GROUNDWORK_2026-10-31.md, reviewed by _prompts/PROMPT_REVIEW_GROUNDWORK_2026-10-31.md
+Commit of the day (this commit; its report follows it): _prompts/PROMPT_COMMIT_2026-10-31.md, reviewed by _prompts/PROMPT_REVIEW_COMMIT_2026-10-31.md
+Answers to the groundwork's questions (issued, not yet run): _prompts/PROMPT_QUESTIONS_2026-10-31.md, reviewed by _prompts/PROMPT_REVIEW_QUESTIONS_2026-10-31.md
+The record's cut-over to the ledger: _records/CUTOVER_2026-10-31.md
+
+#### _coordination
+## A1 status
+?? _guards/20261031T151430Z_trace_check_none_cb27e86684.yaml
+?? _ledger/20261031T151504Z_MR_finished_C-2026-10-31-09.yaml
+?? _ledger/20261031T151531Z_MR_started_C-2026-10-31-10.yaml
+exit=0
+## A2 log
+2ba3804 The day's work of 31 October 2026, committed at the owner's word (D-2026-10-31-04, "Commit both now")
+f30bc04 The coordination's ledger put under version control on this computer, by the owner's ruling on D-2026-10-31-01
+## remote -v
+exit=0
+## A3
+exit=0
+## A4 route: diff --name-only
+      30
+## A4 route: ls-tree HEAD vs HEAD~1
+      45
+      15
+## diff-filter counts
+A       30
+M        0
+D        0
+## numstat M files
+## ignored in tree?
+grep exit=1
+## HEAD info
+2ba38042672b7c46ffbed9dfae799a8b95c5b020
+Arne Laponin <arne.laponin@gmail.com>
+The day's work of 31 October 2026, committed at the owner's word (D-2026-10-31-04, "Commit both now")
+The ledger entries and guard records of the mini registry (MR) written since f30bc04, up to and including the started entry of C-2026-10-31-09.
+

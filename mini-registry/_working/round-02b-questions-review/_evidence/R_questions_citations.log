@@ -1,0 +1,155 @@
+Sat Oct 31 15:36:29 UTC 2026
+$ /usr/bin/python3 -I r_questions_and_citations.py /Users/arnelaponin/Documents/Dev/wai-demo/mini-registry
+groundwork: numbered items under 'Gaps against the sources': 14; numbers [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14]
+paper: Q- headings 14; blockquoted questions 14
+in the groundwork, not answered in the paper: 0 []
+in the paper, not in the groundwork: 0 []
+quoted at another line or not word for word: 0 []
+QUESTIONS.md lines 14; same as this listing: True; only in QUESTIONS.md 0; only here 0
+
+--- citations: paper line · cited path:line · substring found at that line · the full source line
+paper:9 · ../brief/MINI-REGISTRY-BRIEF.md:13 · yes
+    quoted: if it finds exactly one learner with the same family name, given names and date of birth (capitals ignored), it shows that learner and enters nothing new;
+    source: - if it finds exactly one learner with the same family name, given names and date of birth (capitals ignored), it shows that learner and enters nothing new;
+paper:9 · docs/groundwork/search_rule.csv:6 · yes
+    quoted: every difference but capitals makes two values differ
+    source: forgives_nothing_else,every difference but capitals makes two values differ,brief:13
+paper:9 · docs/groundwork/search_rule.csv:9 · yes
+    quoted: does_not_read,the key table
+    source: does_not_read,the key table,ruling:G-05
+paper:9 · docs/groundwork/search_rule.csv:7 · yes
+    quoted: school: entered and saved, never searched on
+    source: does_not_compare,"school: entered and saved, never searched on",brief:13 · ruling:G-07
+paper:10 · docs/groundwork/settings.csv:2 · yes
+    quoted: children,60 different children
+    source: children,60 different children,brief:23 · R-09 · R-14 · ruling:G-04
+paper:10 · docs/groundwork/settings.csv:3 · yes
+    quoted: schools,3
+    source: schools,3,brief:24 · R-10 · R-14
+paper:10 · docs/groundwork/settings.csv:4 · yes
+    quoted: children_on_more_than_one_list,8
+    source: children_on_more_than_one_list,8,brief:25 · R-11 · R-14
+paper:10 · docs/groundwork/settings.csv:5 · yes
+    quoted: of_those_family_name_spelt_differently_on_one_list,4
+    source: of_those_family_name_spelt_differently_on_one_list,4,brief:26 · R-12 · R-14
+paper:10 · docs/groundwork/settings.csv:6 · yes
+    quoted: ages,6 to 12
+    source: ages,6 to 12,brief:27 · R-13 · R-14
+paper:10 · docs/groundwork/settings.csv:7 · yes
+    quoted: list_entries,68
+    source: list_entries,68,ruling:G-04
+paper:10 · docs/groundwork/settings.csv:8 · yes
+    quoted: lists_carrying_each_of_the_8,exactly 2
+    source: lists_carrying_each_of_the_8,exactly 2,ruling:G-04
+paper:10 · docs/groundwork/settings.csv:14 · yes
+    quoted: of_the_8_caught_by_the_search,4
+    source: of_the_8_caught_by_the_search,4,ruling:G-05
+paper:11 · docs/GAPS-PAPER.md:26 · yes
+    quoted: A whole number in sequence, one above the highest held, never given twice
+    source: | G-01 | A whole number in sequence, one above the highest held, never given twice |
+paper:11 · docs/GAPS-PAPER.md:28 · yes
+    quoted: At reset every list entry is enrolled by the brief's own rule; the search then looks among learners only
+    source: | G-03 | At reset every list entry is enrolled by the brief's own rule; the search then looks among learners only |
+paper:11 · docs/GAPS-PAPER.md:30 · yes
+    quoted: A key table of the made-up data, read by the counts and never by the search; none of the 8 differs in capitals only
+    source: | G-05 | A key table of the made-up data, read by the counts and never by the search; none of the 8 differs in capitals only |
+paper:11 · docs/GAPS-PAPER.md:31 · yes
+    quoted: Age in completed years on one fixed date held in the settings; 6 and 12 included
+    source: | G-06 | Age in completed years on one fixed date held in the settings; 6 and 12 included |
+paper:11 · docs/GAPS-PAPER.md:32 · yes
+    quoted: Date as YYYY-MM-DD; school chosen from the three; all four entered before the search
+    source: | G-07 | Date as YYYY-MM-DD; school chosen from the three; all four entered before the search |
+paper:11 · docs/GAPS-PAPER.md:35 · yes
+    quoted: a generator in the source, a fixed seed
+    source: | G-10 | Evidence by construction: a generator in the source, a fixed seed, and the reset's reads recorded |
+paper:11 · docs/GAPS-PAPER.md:36 · yes
+    quoted: the three lists are data inside the prototype
+    source: | G-11 | None: the three lists are data inside the prototype, not bodies it connects to |
+paper:11 · docs/GAPS-PAPER.md:196 · yes
+    quoted: the 4 differ in at least one letter, the other 4 match letter for letter and in the same capitals
+    source: **Recommendation — a proposal for the owner's ruling, not a decision.** We recommend Position A, with settings 1 to 4 for round 2 — the 4 differ in at least one letter, the other 4 match letter for letter and in the same capitals, so none of the 8 differs in capitals only, and no two different children share all three fields — which gives round 7 the known answer of 4 of the 8 caught and R-12 a count of 4 whether or not its comparison heeds capitals.
+paper:12 · ../brief/MINI-REGISTRY-BRIEF.md:29 · yes
+    quoted: The data is made the same way every time it is reset.
+    source: The numbers are fixed so that every later count has a known answer. The data is made the same way every time it is reset.
+paper:14 · ../brief/MINI-REGISTRY-BRIEF.md:7 · yes
+    quoted: The prototype is for agreement. It is not the registry.
+    source: Progressa's Ministry of Education, Youth and Skills (MoEYS) wants one list of learners instead of three. Before anyone builds the real thing, the planning unit wants to see a small working prototype: a school clerk enrols a child, and the registry does not register the same child twice. The prototype is for agreement. It is not the registry.
+paper:14 · ../brief/MINI-REGISTRY-BRIEF.md:33 · yes
+    quoted: Hold any real person's data.
+    source: - Hold any real person's data. Every screen says "Invented data, Progressa is fictional".
+paper:14 · ../brief/MINI-REGISTRY-BRIEF.md:34 · yes
+    quoted: Connect to anything outside your computer.
+    source: - Connect to anything outside your computer. Other bodies, if the project needs them, are simulated.
+paper:14 · ../brief/MINI-REGISTRY-BRIEF.md:35 · yes
+    quoted: Open a window on its own.
+    source: - Open a window on its own. Every check of the screens runs without one.
+paper:14 · ../brief/MINI-REGISTRY-BRIEF.md:29 · yes
+    quoted: The numbers are fixed so that every later count has a known answer.
+    source: The numbers are fixed so that every later count has a known answer. The data is made the same way every time it is reset.
+paper:14 · ../brief/MINI-REGISTRY-BRIEF.md:52 · yes
+    quoted: The scaffold and the made-up data
+    source: | 5 | The scaffold and the made-up data, in the known numbers above | building |
+paper:14 · ../brief/MINI-REGISTRY-BRIEF.md:53 · yes
+    quoted: The goal built
+    source: | 6 | The goal built | building |
+paper:14 · ../brief/MINI-REGISTRY-BRIEF.md:54 · yes
+    quoted: how many of the 8 the search catches
+    source: | 7 | The duplicates count: how many of the 8 the search catches | checking |
+paper:26 · docs/GAPS-PAPER.md:31 · yes
+    quoted: one fixed date held in the settings
+    source: | G-06 | Age in completed years on one fixed date held in the settings; 6 and 12 included |
+paper:26 · docs/GROUNDWORK.md:5 · yes
+    quoted: the owner's ruling of 31 October 2026
+    source: **Where it comes from.** Three sources, in order of precedence: the brief (`../brief/MINI-REGISTRY-BRIEF.md`), the register of requirements (`docs/REQUIREMENTS.md`, R-01 to R-23), and the owner's ruling of 31 October 2026 on the thirteen recommendations of `docs/GAPS-PAPER.md` (decision D-2026-10-31-03). Of that paper, only the thirteen summary rows and the one-sentence recommendation closing each question's section are ruled. Every row of every table names its source in its own `source` column, as `brief:<line>`, `R-<nn>` or `ruling:G-<nn>`. A fact none of the three gives is not a row; it is a question in the closing section.
+paper:43 · ../brief/MINI-REGISTRY-BRIEF.md:19 · yes
+    quoted: the school census, the examinations authority's candidate list and the social grant programme's list
+    source: The prototype starts with invented children spread over three lists: the school census, the examinations authority's candidate list and the social grant programme's list.
+paper:60 · docs/GAPS-PAPER.md:35 · yes
+    quoted: a fixed seed
+    source: | G-10 | Evidence by construction: a generator in the source, a fixed seed, and the reset's reads recorded |
+paper:76 · docs/GAPS-PAPER.md:26 · yes
+    quoted: one above the highest held
+    source: | G-01 | A whole number in sequence, one above the highest held, never given twice |
+paper:93 · ../brief/MINI-REGISTRY-BRIEF.md:26 · yes
+    quoted: children whose family name is spelt differently on one list
+    source: | Of those, children whose family name is spelt differently on one list | 4 |
+paper:111 · ../brief/MINI-REGISTRY-BRIEF.md:19 · yes
+    quoted: invented children spread over three lists
+    source: The prototype starts with invented children spread over three lists: the school census, the examinations authority's candidate list and the social grant programme's list.
+paper:128 · docs/groundwork/settings.csv:3 · yes
+    quoted: schools,3
+    source: schools,3,brief:24 · R-10 · R-14
+paper:144 · docs/groundwork/settings.csv:14 · yes
+    quoted: of_the_8_caught_by_the_search,4
+    source: of_the_8_caught_by_the_search,4,ruling:G-05
+paper:161 · docs/REQUIREMENTS.md:49 · yes
+    quoted: the school clerk enters the child's family name, given names, date of birth and school.
+    source: **Requirement.** To enrol a child, the school clerk enters the child's family name, given names, date of birth and school.
+paper:161 · docs/GAPS-PAPER.md:32 · yes
+    quoted: school chosen from the three
+    source: | G-07 | Date as YYYY-MM-DD; school chosen from the three; all four entered before the search |
+paper:178 · docs/GAPS-PAPER.md:32 · yes
+    quoted: Date as YYYY-MM-DD
+    source: | G-07 | Date as YYYY-MM-DD; school chosen from the three; all four entered before the search |
+paper:195 · docs/groundwork/lists.csv:16 · yes
+    quoted: the table is read by the counts only and never by the search
+    source: key_table,list_entry,"an entry of one of the three lists; the table is read by the counts only and never by the search, which the reset's enrolment also runs",R-11 · ruling:G-03 · ruling:G-05
+paper:212 · ../brief/MINI-REGISTRY-BRIEF.md:54 · yes
+    quoted: how many of the 8 the search catches
+    source: | 7 | The duplicates count: how many of the 8 the search catches | checking |
+paper:229 · docs/GAPS-PAPER.md:40 · yes
+    quoted: 64
+    source: The thirteen fit together: G-03, G-04 and G-05 together give round 7 a known answer before it runs — **4 of the 8 caught** — and give round 5 a known number of learners after reset — **64** (60 children, and the 4 the rule does not catch each held twice). Both figures follow from the recommendations and stand or fall with your ruling on them.
+paper:245 · ../brief/MINI-REGISTRY-BRIEF.md:13 · yes
+    quoted: (capitals ignored)
+    source: - if it finds exactly one learner with the same family name, given names and date of birth (capitals ignored), it shows that learner and enters nothing new;
+
+citations 45; not found at their line 0
+prose reference paper:45 · "Position A — the order of the brief's line 19.** The census, then the candi"
+prose reference paper:54 · "we recommend the order of the brief's line 19, then entry number, because t"
+prose reference paper:122 · 'holds children of its own, as line 19\'s "spread" reads.'
+prose reference paper:152 · '(a) a miss shows the spelling line 26 names | yes | a miss may come'
+prose reference paper:210 · "the 8 the search catches (the brief's line 54), against the key table, whic"
+prose reference paper:227 · "rs after reset.** The paper's line 40 gives 64 learners after reset"
+prose reference paper:243 · 's are ignored in "share"; the brief\'s line 13 compares "the same family nam'
+EXIT=0

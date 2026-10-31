@@ -1,0 +1,5 @@
+$ date -u: 2026-10-31 13:15:28 UTC
+$ python3 ledger.py check --constants <coordination CONSTANTS>
+not-cut-over: MR — the taken-up entry names /Users/arnelaponin/Documents/Dev/wai-demo/mini-registry/WHAT_IS_RUNNING.md, which carries no markers — the orchestrator runs views --cut-over MR (section 6)
+check: 1 defect
+exit=1

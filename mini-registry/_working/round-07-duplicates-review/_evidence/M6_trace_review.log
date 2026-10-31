@@ -1,0 +1,17 @@
+trace check of /Users/arnelaponin/Documents/Dev/wai-demo/mini-registry/_reviews/REVIEW_DUPLICATES_2026-10-31.md (a review)
+  constants: /Users/arnelaponin/Documents/Dev/wai-demo/mini-registry/CONSTANTS.md
+  the estate's root: /Users/arnelaponin/Documents/Dev/wai-demo/mini-registry
+  the places: instruction _prompts/ = /Users/arnelaponin/Documents/Dev/wai-demo/mini-registry/_prompts, report _reports/ = /Users/arnelaponin/Documents/Dev/wai-demo/mini-registry/_reports, review _reviews/ = /Users/arnelaponin/Documents/Dev/wai-demo/mini-registry/_reviews
+  coordination: /Users/arnelaponin/Documents/Dev/wai-demo/_coordination/CONSTANTS.md
+  the report under review: /Users/arnelaponin/Documents/Dev/wai-demo/mini-registry/_reports/REPORT_DUPLICATES_2026-10-31.md
+  the instruction: the report under review: /Users/arnelaponin/Documents/Dev/wai-demo/mini-registry/_prompts/PROMPT_DUPLICATES_2026-10-31.md
+  agrees: the report under review: the report answers C-2026-10-31-29, the instruction's commission_id
+  agrees: the report under review: the instruction's downstream_artefact is this report
+  outputs: the report under review: 4 of 4 named exist
+  inputs: the report under review: 9 of 9 pinned by 20261031T201611Z_MR_issued_C-2026-10-31-29.yaml hash the same now
+  agrees: the review's of_instruction is the instruction the report answers
+  agrees: the review instruction /Users/arnelaponin/Documents/Dev/wai-demo/mini-registry/_prompts/PROMPT_REVIEW_DUPLICATES_2026-10-31.md names this review downstream and the report upstream
+  inputs: the review instruction: 3 of 4 pinned by 20261031T201612Z_MR_issued_C-2026-10-31-30.yaml hash the same now
+finding: input-changed: the review instruction: /Users/arnelaponin/Documents/Dev/wai-demo/mini-registry/_reports/REPORT_DUPLICATES_2026-10-31.md — absent at issue (20261031T201612Z_MR_issued_C-2026-10-31-30.yaml), sha256:7a0845ef1300 at start, sha256:7a0845ef1300 now
+trace check: 1 finding
+EXIT 1

@@ -1,0 +1,14 @@
+2026-10-31T20:00:09Z
+$ cd src && node reset.js && node --test test/
+not ok 31 - R-21 — every check of this file ran to its end; the list of windows read before, while they ran and when they ended: 0 windows added at each reading
+ok 43 - R-20 — the list of windows read before and after: the prototype started, the data reset, a child enrolled through a windowless check, the prototype stopped; 0 windows added
+ok 46 - R-21 — every check of this file ran to its end; the list of windows read before, while they ran and when they ended: 0 windows added at each reading
+# R-21: windows listed before the checks: 252; readings while they ran: 0; windows listed when they ended: 252; windows added at any reading: 0
+# R-20: windows listed before: 252; windows listed after: 252; windows added: 0
+# R-21: windows listed before the checks: 252; readings while they ran: 2; windows listed when they ended: 252; windows added at any reading: 0
+not ok 31 - R-21 — every check of this file ran to its end; the list of windows read before, while they ran and when they ended: 0 windows added at each reading
+# tests 57
+# pass 56
+# fail 1
+EXIT=1
+2026-10-31T20:00:12Z

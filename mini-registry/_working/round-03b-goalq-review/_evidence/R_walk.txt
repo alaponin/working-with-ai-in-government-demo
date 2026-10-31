@@ -1,0 +1,33 @@
+# The review's own walk through docs/GOAL.md with the 13 proposals of docs/GOAL-QUESTIONS-PAPER.md applied
+# Route: every step, failure and screen of GOAL.md (lines 15-142), and every path a proposal opens, followed to the
+# view the clerk is left looking at; each distinct view counted once (the ruling on G-09, GAPS-PAPER.md:308:
+# "every view the clerk can see, messages and refusals included, is a screen"). Not taken from "Taken together".
+# Written 2026-10-31 by MR · review · answers to the goal's questions.
+
+path                                             | proposals that bear     | view the clerk is left looking at
+S-1 open                                         | Q-13 (return)           | SC-1, empty
+S-2 enter, submit (entry may be missing)         | Q-5                     | SC-1 (submit allowed)
+S-3 all four entered? (spaces only = missing)    | Q-4, Q-5, Q-7           | fault -> SC-4; pass -> no view of its own
+S-3 date YYYY-MM-DD and a day of the calendar    | Q-1, Q-7                | fault -> SC-4; pass -> no view
+S-3 school one of the 3 (reached only by a check)| Q-6, Q-7                | fault -> SC-4; pass -> no view
+S-3 several faults at once                       | Q-9, Q-8                | SC-4, every fault one line each
+S-3 age                                          | Q-2                     | no check, no view
+S-4 search (only on an entry S-3 passes)         | Q-7                     | no view of its own
+S-5 exactly one found                            | Q-10, Q-11              | SC-2: number + four fields; no notice of school
+F-7 a different child sharing the three fields   | Q-12, Q-10, Q-11        | SC-2 (same view as S-5)
+S-6 none found, number given, record saved       | -                       | SC-3
+F-6 number not given / record not saved          | Q-3, Q-8                | SC-5 "cannot be completed", nothing saved
+F-4 more than one found                          | Q-8                     | SC-5 (same view as F-6)
+F-5 the same child, not caught                   | -                       | SC-3 (same view as S-6)
+S-7 which of the two                             | Q-10, Q-13              | SC-2 or SC-3
+after SC-2 / SC-3                                | Q-13                    | SC-1, empty (same screen as S-1)
+after SC-4 / SC-5                                | Q-13, Q-8               | SC-1, entries kept (same screen, filled)
+
+distinct views: SC-1, SC-2, SC-3, SC-4, SC-5  -> 5 screens
+views reached with no screen to show them: 0  (F-1 and F-3, which GOAL.md:112 leaves without a view, now reach SC-4)
+screens added by a proposal: 0 ; screens renamed: 1 (SC-4, "the date of birth refused" -> "the entry refused", Q-5)
+failures added: 2 (F-6, Q-3; F-7, Q-12) ; steps added: 0
+the paper's "Taken together" (GOAL-QUESTIONS-PAPER.md lines 315-321): five screens, none added -> agrees
+reading held here: SC-4 is one screen whose lines vary with the faults found, as GOAL.md:132-136 and the paper's
+SC-4 row hold it; counting each combination of fault lines as its own view would make SC-4 several screens, which
+no ruled line requires.

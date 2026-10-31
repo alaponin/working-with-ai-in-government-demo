@@ -1,0 +1,53 @@
+Sat Oct 31 19:15:09 UTC 2026
+### /Users/arnelaponin/Documents/Dev/wai-demo/mini-registry
+--- A1 status
+ M WHAT_IS_RUNNING.md
+ M _working/round-commit3/_evidence/commit_and_A1.txt
+?? _reports/REPORT_COMMIT3_2026-10-31.md
+?? _working/round-commit3-review/
+?? _working/round-commit3/_evidence/A4__coordination.txt
+?? _working/round-commit3/_evidence/A4_mini-registry.txt
+?? _working/round-commit3/_evidence/after__coordination.txt
+?? _working/round-commit3/_evidence/after_mini-registry.txt
+?? _working/round-commit3/_evidence/committed_list__coordination.txt
+?? _working/round-commit3/_evidence/committed_list_mini-registry.txt
+?? _working/round-commit3/_evidence/ledger_show.out
+?? _working/round-commit3/_evidence/ls_outputs.txt
+?? _working/round-commit3/_evidence/show_stat__coordination.txt
+?? _working/round-commit3/_evidence/show_stat_mini-registry.txt
+?? _working/round-commit3/_evidence/trace_check.out
+?? _working/round-commit3/_evidence/window.out
+--- A2 log
+7f8fa98 The day's work of 31 October 2026 since c419cf3, committed at the owner's word (D-2026-10-31-10, "Commit both now")
+c419cf3 The day's work of 31 October 2026 since 2fad722, committed at the owner's word (D-2026-10-31-06, "Commit both now") Commit of the day (its report and review, after 2fad722): _prompts/PROMPT_COMMIT_2026-10-31.md, reviewed by _prompts/PROMPT_REVIEW_COMMIT_2026-10-31.md Answers to the groundwork's questions, versions 1 and 2: _prompts/PROMPT_QUESTIONS_2026-10-31.md, reviewed by _prompts/PROMPT_REVIEW_QUESTIONS_2026-10-31.md The goal in full, versions 1 and 2: _prompts/PROMPT_GOAL_2026-10-31.md, reviewed by _prompts/PROMPT_REVIEW_GOAL_2026-10-31.md Second commit of the day (this commit; its report follows it): _prompts/PROMPT_COMMIT2_2026-10-31.md, reviewed by _prompts/PROMPT_REVIEW_COMMIT2_2026-10-31.md Answers to the goal's questions (issued, not yet run): _prompts/PROMPT_GOALQ_2026-10-31.md, reviewed by _prompts/PROMPT_REVIEW_GOALQ_2026-10-31.md
+2fad722 The day's work of 31 October 2026, committed at the owner's word (D-2026-10-31-04, "Commit both now")
+74ca995 Start the mini registry: the places for instructions, reports and reviews, the record of what is running, the constants and the folders on the map of places
+remote:
+[end remote]
+--- A3
+[end A3]
+--- counts
+diff --name-only count:      231
+ls-tree HEAD:      703  HEAD~1:      473
+added: 230  modified: 1 other: 0
+ 231 files changed, 35371 insertions(+), 4 deletions(-)
+7f8fa98f994c32c39cd1bde74b48427c44e859c5 Arne Laponin <arne.laponin@gmail.com> The day's work of 31 October 2026 since c419cf3, committed at the owner's word (D-2026-10-31-10, "Commit both now")
+### /Users/arnelaponin/Documents/Dev/wai-demo/_coordination
+--- A1 status
+?? _ledger/20261031T191435Z_MR_finished_C-2026-10-31-23.yaml
+?? _ledger/20261031T191452Z_MR_started_C-2026-10-31-24.yaml
+--- A2 log
+f4c9345 The day's work of 31 October 2026 since 42cfa12, committed at the owner's word (D-2026-10-31-10, "Commit both now")
+42cfa12 The day's work of 31 October 2026 since 2ba3804, committed at the owner's word (D-2026-10-31-06, "Commit both now"): the ledger's entries and the guards written since
+2ba3804 The day's work of 31 October 2026, committed at the owner's word (D-2026-10-31-04, "Commit both now")
+f30bc04 The coordination's ledger put under version control on this computer, by the owner's ruling on D-2026-10-31-01
+remote:
+[end remote]
+--- A3
+[end A3]
+--- counts
+diff --name-only count:       50
+ls-tree HEAD:      147  HEAD~1:       97
+added: 50  modified: 0 other: 0
+ 50 files changed, 597 insertions(+)
+f4c93457eb6a37f235b5ddb0a78ba5ac3c4a4f9b Arne Laponin <arne.laponin@gmail.com> The day's work of 31 October 2026 since 42cfa12, committed at the owner's word (D-2026-10-31-10, "Commit both now")

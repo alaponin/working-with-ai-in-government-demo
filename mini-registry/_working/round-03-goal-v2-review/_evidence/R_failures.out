@@ -1,0 +1,10 @@
+2026-10-31T17:36:02Z
+units in scope: 247; units carrying a marker: 100; every hit disposed: True
+  X-DATE     stated or ruled by 2 hit(s): G-rec@254, settings.csv:17
+  X-MANY     stated or ruled by 6 hit(s): G-row@27, G-rec@102, Q-prop@281, search_rule.csv:16, search_rule.csv:17, settings.csv:13
+  X-MISSED   stated or ruled by 15 hit(s): brief:7, brief:26, R-01@19, R-01@21, R-06@92, R-06@93, R-12@166, R-12@168, G-rec@196, Q-prop@113, Q-prop@168, Q-prop@263, search_rule.csv:6, settings.csv:5, settings.csv:10
+  X-MISSING  stated or ruled by 2 hit(s): G-row@32, G-rec@254
+  X-SCHOOL   stated or ruled by 2 hit(s): G-row@32, G-rec@254
+the figure, this route: 5 failures ['X-DATE', 'X-MANY', 'X-MISSED', 'X-MISSING', 'X-SCHOOL']
+the goal: 5 failures ['F-1 An entry missing', 'F-2 The date of birth in the wrong form', 'F-3 A school not among the three', 'F-4 More than one learner found', 'F-5 The same child, not caught']
+EXIT=0

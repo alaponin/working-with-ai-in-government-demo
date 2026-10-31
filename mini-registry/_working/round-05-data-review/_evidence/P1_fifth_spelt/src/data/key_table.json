@@ -1,0 +1,274 @@
+[
+  {
+    "list_entry": "school_census:1",
+    "same_child": "C36"
+  },
+  {
+    "list_entry": "school_census:2",
+    "same_child": "C05"
+  },
+  {
+    "list_entry": "school_census:3",
+    "same_child": "C59"
+  },
+  {
+    "list_entry": "school_census:4",
+    "same_child": "C30"
+  },
+  {
+    "list_entry": "school_census:5",
+    "same_child": "C53"
+  },
+  {
+    "list_entry": "school_census:6",
+    "same_child": "C27"
+  },
+  {
+    "list_entry": "school_census:7",
+    "same_child": "C32"
+  },
+  {
+    "list_entry": "school_census:8",
+    "same_child": "C40"
+  },
+  {
+    "list_entry": "school_census:9",
+    "same_child": "C33"
+  },
+  {
+    "list_entry": "school_census:10",
+    "same_child": "C16"
+  },
+  {
+    "list_entry": "school_census:11",
+    "same_child": "C13"
+  },
+  {
+    "list_entry": "school_census:12",
+    "same_child": "C19"
+  },
+  {
+    "list_entry": "school_census:13",
+    "same_child": "C31"
+  },
+  {
+    "list_entry": "school_census:14",
+    "same_child": "C46"
+  },
+  {
+    "list_entry": "school_census:15",
+    "same_child": "C17"
+  },
+  {
+    "list_entry": "school_census:16",
+    "same_child": "C37"
+  },
+  {
+    "list_entry": "school_census:17",
+    "same_child": "C28"
+  },
+  {
+    "list_entry": "school_census:18",
+    "same_child": "C43"
+  },
+  {
+    "list_entry": "school_census:19",
+    "same_child": "C50"
+  },
+  {
+    "list_entry": "school_census:20",
+    "same_child": "C60"
+  },
+  {
+    "list_entry": "school_census:21",
+    "same_child": "C15"
+  },
+  {
+    "list_entry": "school_census:22",
+    "same_child": "C24"
+  },
+  {
+    "list_entry": "school_census:23",
+    "same_child": "C47"
+  },
+  {
+    "list_entry": "school_census:24",
+    "same_child": "C56"
+  },
+  {
+    "list_entry": "exam_candidate_list:1",
+    "same_child": "C18"
+  },
+  {
+    "list_entry": "exam_candidate_list:2",
+    "same_child": "C11"
+  },
+  {
+    "list_entry": "exam_candidate_list:3",
+    "same_child": "C38"
+  },
+  {
+    "list_entry": "exam_candidate_list:4",
+    "same_child": "C09"
+  },
+  {
+    "list_entry": "exam_candidate_list:5",
+    "same_child": "C55"
+  },
+  {
+    "list_entry": "exam_candidate_list:6",
+    "same_child": "C41"
+  },
+  {
+    "list_entry": "exam_candidate_list:7",
+    "same_child": "C04"
+  },
+  {
+    "list_entry": "exam_candidate_list:8",
+    "same_child": "C03"
+  },
+  {
+    "list_entry": "exam_candidate_list:9",
+    "same_child": "C07"
+  },
+  {
+    "list_entry": "exam_candidate_list:10",
+    "same_child": "C53"
+  },
+  {
+    "list_entry": "exam_candidate_list:11",
+    "same_child": "C44"
+  },
+  {
+    "list_entry": "exam_candidate_list:12",
+    "same_child": "C57"
+  },
+  {
+    "list_entry": "exam_candidate_list:13",
+    "same_child": "C26"
+  },
+  {
+    "list_entry": "exam_candidate_list:14",
+    "same_child": "C58"
+  },
+  {
+    "list_entry": "exam_candidate_list:15",
+    "same_child": "C31"
+  },
+  {
+    "list_entry": "exam_candidate_list:16",
+    "same_child": "C12"
+  },
+  {
+    "list_entry": "exam_candidate_list:17",
+    "same_child": "C39"
+  },
+  {
+    "list_entry": "exam_candidate_list:18",
+    "same_child": "C21"
+  },
+  {
+    "list_entry": "exam_candidate_list:19",
+    "same_child": "C25"
+  },
+  {
+    "list_entry": "exam_candidate_list:20",
+    "same_child": "C10"
+  },
+  {
+    "list_entry": "exam_candidate_list:21",
+    "same_child": "C01"
+  },
+  {
+    "list_entry": "exam_candidate_list:22",
+    "same_child": "C24"
+  },
+  {
+    "list_entry": "social_grant_list:1",
+    "same_child": "C20"
+  },
+  {
+    "list_entry": "social_grant_list:2",
+    "same_child": "C54"
+  },
+  {
+    "list_entry": "social_grant_list:3",
+    "same_child": "C19"
+  },
+  {
+    "list_entry": "social_grant_list:4",
+    "same_child": "C08"
+  },
+  {
+    "list_entry": "social_grant_list:5",
+    "same_child": "C29"
+  },
+  {
+    "list_entry": "social_grant_list:6",
+    "same_child": "C52"
+  },
+  {
+    "list_entry": "social_grant_list:7",
+    "same_child": "C06"
+  },
+  {
+    "list_entry": "social_grant_list:8",
+    "same_child": "C34"
+  },
+  {
+    "list_entry": "social_grant_list:9",
+    "same_child": "C56"
+  },
+  {
+    "list_entry": "social_grant_list:10",
+    "same_child": "C35"
+  },
+  {
+    "list_entry": "social_grant_list:11",
+    "same_child": "C45"
+  },
+  {
+    "list_entry": "social_grant_list:12",
+    "same_child": "C48"
+  },
+  {
+    "list_entry": "social_grant_list:13",
+    "same_child": "C58"
+  },
+  {
+    "list_entry": "social_grant_list:14",
+    "same_child": "C22"
+  },
+  {
+    "list_entry": "social_grant_list:15",
+    "same_child": "C23"
+  },
+  {
+    "list_entry": "social_grant_list:16",
+    "same_child": "C49"
+  },
+  {
+    "list_entry": "social_grant_list:17",
+    "same_child": "C42"
+  },
+  {
+    "list_entry": "social_grant_list:18",
+    "same_child": "C51"
+  },
+  {
+    "list_entry": "social_grant_list:19",
+    "same_child": "C26"
+  },
+  {
+    "list_entry": "social_grant_list:20",
+    "same_child": "C02"
+  },
+  {
+    "list_entry": "social_grant_list:21",
+    "same_child": "C50"
+  },
+  {
+    "list_entry": "social_grant_list:22",
+    "same_child": "C14"
+  }
+]

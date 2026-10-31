@@ -1,0 +1,113 @@
+2026-10-31T15:00:12Z
+$ /usr/bin/python3 /Users/arnelaponin/Library/Application Support/Claude/local-agent-mode-sessions/ffbe2f0e-bc4b-46d3-ad76-b08a7882aae9/7bbcb800-2754-4c5e-97ea-ccb874ea3fee/rpm/plugin_018SiGJfFaxxAvevS4xGQJgb/skills/orchestrator/scripts/ledger.py show --constants /Users/arnelaponin/Documents/Dev/wai-demo/_coordination/CONSTANTS.md --code MR --id C-2026-10-31-07
+20261031T142740Z_MR_issued_C-2026-10-31-07.yaml
+  kind: issued
+  written: 2026-10-31T14:27:40Z
+  code: MR
+  by: "MR · orchestrator"
+  account: arne.laponin@gmail.com
+  computer: MacBookPro
+  id: C-2026-10-31-07
+  version: 1
+  instruction: ~/IdeaProjects/mini-registry/_prompts/PROMPT_GROUNDWORK_2026-10-31.md
+  session: "MR · work · groundwork"
+  model: Opus
+  effort: high
+  report: ~/IdeaProjects/mini-registry/_reports/REPORT_GROUNDWORK_2026-10-31.md
+  outputs: "~/IdeaProjects/mini-registry/docs/GROUNDWORK.md · ~/IdeaProjects/mini-registry/docs/groundwork/settings.csv · ~/IdeaProjects/mini-registry/docs/groundwork/lists.csv · ~/IdeaProjects/mini-registry/docs/groundwork/search_rule.csv · ~/IdeaProjects/mini-registry/_working/round-02-groundwork/_evidence/ · ~/IdeaProjects/mini-registry/_reports/REPORT_GROUNDWORK_2026-10-31.md"
+  serves: "the working prototype, deliverable 1 of the constants — round 2 of the brief, the groundwork: the tables the build reads (the lists, the settings, the search rule)"
+  inputs: "~/IdeaProjects/mini-registry/docs/REQUIREMENTS.md sha256:ad583b3958fb5c5fdf6683b5c2487b6f0c425d66cebc7c46811e2e19af13f103 · ~/IdeaProjects/brief/MINI-REGISTRY-BRIEF.md sha256:ec6971e74a6a8387de0e5bd7a5e1cdead6ddf711b8fdac3ccc1d4b7555e11f64 · ~/IdeaProjects/mini-registry/docs/GAPS-PAPER.md sha256:d03db64c6e49a1b92467c1e6e19929c321964bd89f6cb715d15dd570f37bc8bb · ~/IdeaProjects/_coordination/_ledger/20261031T141251Z_MR_ruled_D-2026-10-31-03.yaml sha256:ad5b86749a9114e7611766f8400df071447bd8ddb8cb60ad02311db6843931b0 · ~/IdeaProjects/mini-registry/_kinds/drafting.md sha256:f792a337a4620afeb4b3e2b220ae74878eeeca9e23c7d94b57ae46529414851d · ~/IdeaProjects/mini-registry/CONSTANTS.md sha256:ca7cc66035ca54212bb72d90b754e2e4eccff37af56db17a659b37ec7f93c976"
+  instruction_digest: sha256:f80796b5b1568cc43dad5927ed12a7660ce432df2228a593acf2ea21a67de18d
+  format: 2
+  on this computer, MacBookPro: instruction /Users/arnelaponin/Documents/Dev/wai-demo/mini-registry/_prompts/PROMPT_GROUNDWORK_2026-10-31.md — on disk
+  on this computer, MacBookPro: report /Users/arnelaponin/Documents/Dev/wai-demo/mini-registry/_reports/REPORT_GROUNDWORK_2026-10-31.md — on disk
+
+20261031T143024Z_MR_started_C-2026-10-31-07.yaml
+  kind: started
+  written: 2026-10-31T14:30:24Z
+  code: MR
+  by: "MR · work · groundwork"
+  account: arne.laponin@gmail.com
+  computer: MacBookPro
+  id: C-2026-10-31-07
+  version: 1
+  session: "MR · work · groundwork"
+  shell: native
+  instruction: ~/IdeaProjects/mini-registry/_prompts/PROMPT_GROUNDWORK_2026-10-31.md
+  effort: unknown
+  started_by: unknown
+  inputs: "~/IdeaProjects/mini-registry/docs/REQUIREMENTS.md sha256:ad583b3958fb5c5fdf6683b5c2487b6f0c425d66cebc7c46811e2e19af13f103 · ~/IdeaProjects/brief/MINI-REGISTRY-BRIEF.md sha256:ec6971e74a6a8387de0e5bd7a5e1cdead6ddf711b8fdac3ccc1d4b7555e11f64 · ~/IdeaProjects/mini-registry/docs/GAPS-PAPER.md sha256:d03db64c6e49a1b92467c1e6e19929c321964bd89f6cb715d15dd570f37bc8bb · ~/IdeaProjects/_coordination/_ledger/20261031T141251Z_MR_ruled_D-2026-10-31-03.yaml sha256:ad5b86749a9114e7611766f8400df071447bd8ddb8cb60ad02311db6843931b0 · ~/IdeaProjects/mini-registry/_kinds/drafting.md sha256:f792a337a4620afeb4b3e2b220ae74878eeeca9e23c7d94b57ae46529414851d · ~/IdeaProjects/mini-registry/CONSTANTS.md sha256:ca7cc66035ca54212bb72d90b754e2e4eccff37af56db17a659b37ec7f93c976"
+  format: 2
+  on this computer, MacBookPro: instruction /Users/arnelaponin/Documents/Dev/wai-demo/mini-registry/_prompts/PROMPT_GROUNDWORK_2026-10-31.md — on disk
+
+20261031T144026Z_MR_finished_C-2026-10-31-07.yaml
+  kind: finished
+  written: 2026-10-31T14:40:26Z
+  code: MR
+  by: "MR · work · groundwork"
+  account: arne.laponin@gmail.com
+  computer: MacBookPro
+  id: C-2026-10-31-07
+  version: 1
+  report: ~/IdeaProjects/mini-registry/_reports/REPORT_GROUNDWORK_2026-10-31.md
+  outcome: "Groundwork written: settings.csv 17 settings, lists.csv 16 fields over five tables, search_rule.csv 17 rows, GROUNDWORK.md with 13 gaps left open; 0 without source, 0 unresolved; set 0 missing, 0 extra; search compares the brief's three fields, capitals only forgiven, school not compared, key table not read; A1-A7 met; A8 not met: round_record check exit 1 on 10 reads by the layer's placement check not on the start list"
+  moved: "New: docs/GROUNDWORK.md and docs/groundwork/settings.csv, lists.csv, search_rule.csv, which rounds 3, 5, 6 and 7 read; the date of ages, the reset's order and the seed are open gaps"
+  format: 2
+  on this computer, MacBookPro: report /Users/arnelaponin/Documents/Dev/wai-demo/mini-registry/_reports/REPORT_GROUNDWORK_2026-10-31.md — on disk
+
+20261031T145031Z_MR_issued_C-2026-10-31-07.yaml
+  kind: issued
+  written: 2026-10-31T14:50:31Z
+  code: MR
+  by: "MR · orchestrator"
+  account: arne.laponin@gmail.com
+  computer: MacBookPro
+  id: C-2026-10-31-07
+  version: 2
+  instruction: ~/IdeaProjects/mini-registry/_prompts/PROMPT_GROUNDWORK_2026-10-31.md
+  session: "MR · work · groundwork"
+  model: Opus
+  effort: high
+  report: ~/IdeaProjects/mini-registry/_reports/REPORT_GROUNDWORK_2026-10-31_v2.md
+  outputs: "~/IdeaProjects/mini-registry/docs/GROUNDWORK.md · ~/IdeaProjects/mini-registry/_working/round-02-groundwork-v2/_evidence/ · ~/IdeaProjects/mini-registry/_reports/REPORT_GROUNDWORK_2026-10-31_v2.md"
+  subject: "MR C-2026-10-31-08"
+  serves: "the working prototype, deliverable 1 of the constants — round 2 of the brief, the groundwork: the tables the build reads (the lists, the settings, the search rule)"
+  inputs: "~/IdeaProjects/mini-registry/docs/REQUIREMENTS.md sha256:ad583b3958fb5c5fdf6683b5c2487b6f0c425d66cebc7c46811e2e19af13f103 · ~/IdeaProjects/brief/MINI-REGISTRY-BRIEF.md sha256:ec6971e74a6a8387de0e5bd7a5e1cdead6ddf711b8fdac3ccc1d4b7555e11f64 · ~/IdeaProjects/mini-registry/docs/GAPS-PAPER.md sha256:d03db64c6e49a1b92467c1e6e19929c321964bd89f6cb715d15dd570f37bc8bb · ~/IdeaProjects/_coordination/_ledger/20261031T141251Z_MR_ruled_D-2026-10-31-03.yaml sha256:ad5b86749a9114e7611766f8400df071447bd8ddb8cb60ad02311db6843931b0 · ~/IdeaProjects/mini-registry/_kinds/drafting.md sha256:f792a337a4620afeb4b3e2b220ae74878eeeca9e23c7d94b57ae46529414851d · ~/IdeaProjects/mini-registry/CONSTANTS.md sha256:ca7cc66035ca54212bb72d90b754e2e4eccff37af56db17a659b37ec7f93c976"
+  instruction_digest: sha256:17fbf9bd7acee2566953ecfb82a40cd909dad48b5b41c3e115da7beab59aca33
+  format: 2
+  on this computer, MacBookPro: instruction /Users/arnelaponin/Documents/Dev/wai-demo/mini-registry/_prompts/PROMPT_GROUNDWORK_2026-10-31.md — on disk
+  on this computer, MacBookPro: report /Users/arnelaponin/Documents/Dev/wai-demo/mini-registry/_reports/REPORT_GROUNDWORK_2026-10-31_v2.md — on disk
+
+20261031T145311Z_MR_started_C-2026-10-31-07.yaml
+  kind: started
+  written: 2026-10-31T14:53:11Z
+  code: MR
+  by: "MR · work · groundwork"
+  account: arne.laponin@gmail.com
+  computer: MacBookPro
+  id: C-2026-10-31-07
+  version: 2
+  session: "MR · work · groundwork"
+  shell: native
+  instruction: ~/IdeaProjects/mini-registry/_prompts/PROMPT_GROUNDWORK_2026-10-31.md
+  effort: unknown
+  started_by: unknown
+  inputs: "~/IdeaProjects/mini-registry/docs/REQUIREMENTS.md sha256:ad583b3958fb5c5fdf6683b5c2487b6f0c425d66cebc7c46811e2e19af13f103 · ~/IdeaProjects/brief/MINI-REGISTRY-BRIEF.md sha256:ec6971e74a6a8387de0e5bd7a5e1cdead6ddf711b8fdac3ccc1d4b7555e11f64 · ~/IdeaProjects/mini-registry/docs/GAPS-PAPER.md sha256:d03db64c6e49a1b92467c1e6e19929c321964bd89f6cb715d15dd570f37bc8bb · ~/IdeaProjects/_coordination/_ledger/20261031T141251Z_MR_ruled_D-2026-10-31-03.yaml sha256:ad5b86749a9114e7611766f8400df071447bd8ddb8cb60ad02311db6843931b0 · ~/IdeaProjects/mini-registry/_kinds/drafting.md sha256:f792a337a4620afeb4b3e2b220ae74878eeeca9e23c7d94b57ae46529414851d · ~/IdeaProjects/mini-registry/CONSTANTS.md sha256:ca7cc66035ca54212bb72d90b754e2e4eccff37af56db17a659b37ec7f93c976"
+  format: 2
+  on this computer, MacBookPro: instruction /Users/arnelaponin/Documents/Dev/wai-demo/mini-registry/_prompts/PROMPT_GROUNDWORK_2026-10-31.md — on disk
+
+20261031T145727Z_MR_finished_C-2026-10-31-07.yaml
+  kind: finished
+  written: 2026-10-31T14:57:27Z
+  code: MR
+  by: "MR · work · groundwork"
+  account: arne.laponin@gmail.com
+  computer: MacBookPro
+  id: C-2026-10-31-07
+  version: 2
+  report: ~/IdeaProjects/mini-registry/_reports/REPORT_GROUNDWORK_2026-10-31_v2.md
+  outcome: "Version 2 closes the review's gap G1: the three CSVs unchanged, GROUNDWORK.md changed by one added gap 14 (capitals in \"share\", left open); the A2-A4 checks re-run through run print as for version 1; placement and trace checks run outside run, clean; the record's check exits 0 (0 findings); B1-B6 met."
+  moved: "docs/GROUNDWORK.md gains gap 14 under 'Gaps against the sources'; the three CSVs unchanged"
+  format: 2
+  on this computer, MacBookPro: report /Users/arnelaponin/Documents/Dev/wai-demo/mini-registry/_reports/REPORT_GROUNDWORK_2026-10-31_v2.md — on disk
+EXIT=0

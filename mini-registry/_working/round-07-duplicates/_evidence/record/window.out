@@ -1,0 +1,44 @@
+# round_record.py window, run at 2026-10-31T20:25:57.231Z
+# run with: round_record.py window --ledger /Users/arnelaponin/Documents/Dev/wai-demo/_coordination/_ledger --code MR --id C-2026-10-31-29 --report /Users/arnelaponin/Documents/Dev/wai-demo/mini-registry/_reports/REPORT_DUPLICATES_2026-10-31.md --record /Users/arnelaponin/Documents/Dev/wai-demo/mini-registry/_working/round-07-duplicates/_evidence/record --write --out /Users/arnelaponin/Documents/Dev/wai-demo/mini-registry/_working/round-07-duplicates/_evidence/record/window.out
+# opens at the started entry 20261031T201935Z_MR_started_C-2026-10-31-29.yaml, its `written`: 2026-10-31T20:19:35.000Z
+# the finished entry: none yet
+# the record: /Users/arnelaponin/Documents/Dev/wai-demo/mini-registry/_working/round-07-duplicates/_evidence/record
+# wrote the line into /Users/arnelaponin/Documents/Dev/wai-demo/mini-registry/_reports/REPORT_DUPLICATES_2026-10-31.md; its last write, read back by stat: 2026-10-31T20:25:57.245Z
+# files the round names as written: 31; the latest, /Users/arnelaponin/Documents/Dev/wai-demo/mini-registry/_reports/REPORT_DUPLICATES_2026-10-31.md, last written 2026-10-31T20:25:57.245Z
+#   2026-10-31T20:20:59.979Z · /Users/arnelaponin/Documents/Dev/wai-demo/mini-registry/_working/round-07-duplicates/_evidence/src.start.sha256 · in a folder the outputs line names
+#   2026-10-31T20:21:00.014Z · /Users/arnelaponin/Documents/Dev/wai-demo/mini-registry/_working/round-07-duplicates/_evidence/sources.start.sha256 · in a folder the outputs line names
+#   2026-10-31T20:21:02.498Z · /Users/arnelaponin/Documents/Dev/wai-demo/mini-registry/_working/round-07-duplicates/_evidence/A1_stage1.log · in a folder the outputs line names
+#   2026-10-31T20:21:02.556Z · /Users/arnelaponin/Documents/Dev/wai-demo/mini-registry/_working/round-07-duplicates/_evidence/data.after_reset.sha256 · in a folder the outputs line names
+#   2026-10-31T20:21:28.288Z · /Users/arnelaponin/Documents/Dev/wai-demo/mini-registry/_working/round-07-duplicates/_evidence/count.py · in a folder the outputs line names
+#   2026-10-31T20:21:38.785Z · /Users/arnelaponin/Documents/Dev/wai-demo/mini-registry/_working/round-07-duplicates/_evidence/A2_set.txt · in a folder the outputs line names
+#   2026-10-31T20:21:38.813Z · /Users/arnelaponin/Documents/Dev/wai-demo/mini-registry/_working/round-07-duplicates/_evidence/A2_set.log · in a folder the outputs line names
+#   2026-10-31T20:21:50.907Z · /Users/arnelaponin/Documents/Dev/wai-demo/mini-registry/docs/count/duplicates.csv · named in the outputs line
+#   2026-10-31T20:21:50.937Z · /Users/arnelaponin/Documents/Dev/wai-demo/mini-registry/_working/round-07-duplicates/_evidence/A3_count.log · in a folder the outputs line names
+#   2026-10-31T20:22:06.966Z · /Users/arnelaponin/Documents/Dev/wai-demo/mini-registry/_working/round-07-duplicates/_evidence/a4_values.py · in a folder the outputs line names
+#   2026-10-31T20:22:08.004Z · /Users/arnelaponin/Documents/Dev/wai-demo/mini-registry/_working/round-07-duplicates/_evidence/a3_compare.py · in a folder the outputs line names
+#   2026-10-31T20:22:24.698Z · /Users/arnelaponin/Documents/Dev/wai-demo/mini-registry/_working/round-07-duplicates/_evidence/plant.py · in a folder the outputs line names
+#   2026-10-31T20:22:41.802Z · /Users/arnelaponin/Documents/Dev/wai-demo/mini-registry/_working/round-07-duplicates/_evidence/A3_compare.log · in a folder the outputs line names
+#   2026-10-31T20:22:42.314Z · /Users/arnelaponin/Documents/Dev/wai-demo/mini-registry/_working/round-07-duplicates/_evidence/A4_values.log · in a folder the outputs line names
+#   2026-10-31T20:22:42.816Z · /Users/arnelaponin/Documents/Dev/wai-demo/mini-registry/_working/round-07-duplicates/_evidence/planted/enrolments.P1.json · in a folder the outputs line names
+#   2026-10-31T20:22:42.821Z · /Users/arnelaponin/Documents/Dev/wai-demo/mini-registry/_working/round-07-duplicates/_evidence/planted/enrolments.P2.json · in a folder the outputs line names
+#   2026-10-31T20:22:42.826Z · /Users/arnelaponin/Documents/Dev/wai-demo/mini-registry/_working/round-07-duplicates/_evidence/planted/enrolments.P3.json · in a folder the outputs line names
+#   2026-10-31T20:22:43.386Z · /Users/arnelaponin/Documents/Dev/wai-demo/mini-registry/_working/round-07-duplicates/_evidence/planted/duplicates.P1.csv · in a folder the outputs line names
+#   2026-10-31T20:22:43.934Z · /Users/arnelaponin/Documents/Dev/wai-demo/mini-registry/_working/round-07-duplicates/_evidence/planted/duplicates.P2.csv · in a folder the outputs line names
+#   2026-10-31T20:22:44.564Z · /Users/arnelaponin/Documents/Dev/wai-demo/mini-registry/_working/round-07-duplicates/_evidence/planted/duplicates.P3.csv · in a folder the outputs line names
+#   2026-10-31T20:22:44.619Z · /Users/arnelaponin/Documents/Dev/wai-demo/mini-registry/_working/round-07-duplicates/_evidence/A5_planted.log · in a folder the outputs line names
+#   2026-10-31T20:23:02.289Z · /Users/arnelaponin/Documents/Dev/wai-demo/mini-registry/docs/DUPLICATES.md · named in the outputs line
+#   2026-10-31T20:23:15.261Z · /Users/arnelaponin/Documents/Dev/wai-demo/mini-registry/_working/round-07-duplicates/_evidence/a6_check.py · in a folder the outputs line names
+#   2026-10-31T20:23:28.813Z · /Users/arnelaponin/Documents/Dev/wai-demo/mini-registry/_working/round-07-duplicates/_evidence/A6_figure.log · in a folder the outputs line names
+#   2026-10-31T20:23:28.937Z · /Users/arnelaponin/Documents/Dev/wai-demo/mini-registry/_working/round-07-duplicates/_evidence/src.end.sha256 · in a folder the outputs line names
+#   2026-10-31T20:23:29.020Z · /Users/arnelaponin/Documents/Dev/wai-demo/mini-registry/_working/round-07-duplicates/_evidence/A7_unchanged.log · in a folder the outputs line names
+#   2026-10-31T20:23:41.954Z · /Users/arnelaponin/Documents/Dev/wai-demo/mini-registry/_working/round-07-duplicates/_evidence/A8_placement.log · in a folder the outputs line names
+#   2026-10-31T20:25:13.902Z · /Users/arnelaponin/Documents/Dev/wai-demo/mini-registry/_working/round-07-duplicates/_evidence/A8_placement_2.log · in a folder the outputs line names
+#   2026-10-31T20:25:14.186Z · /Users/arnelaponin/Documents/Dev/wai-demo/mini-registry/_working/round-07-duplicates/_evidence/A8_trace.log · in a folder the outputs line names
+#   2026-10-31T20:25:14.234Z · /Users/arnelaponin/Documents/Dev/wai-demo/mini-registry/_working/round-07-duplicates/_evidence/A10_outputs.log · in a folder the outputs line names
+#   2026-10-31T20:25:57.245Z · /Users/arnelaponin/Documents/Dev/wai-demo/mini-registry/_reports/REPORT_DUPLICATES_2026-10-31.md · the report
+
+window: 2026-10-31 20:19:35 UTC to 2026-10-31 20:25:57 UTC, no pause; closed at the last write of the 31 files the round names as written, REPORT_DUPLICATES_2026-10-31.md, read by stat; printed by round_record.py window, its command and output kept in /Users/arnelaponin/Documents/Dev/wai-demo/mini-registry/_working/round-07-duplicates/_evidence/record/window.out
+
+
+## Findings — 0
+none

@@ -1,0 +1,40 @@
+2026-10-31 18:37:55 UTC
+$ the tests of R-04, R-07, R-11 (the three members the report does not name), and the lines of R-01, R-05, R-06, R-17 the review turns on
+24:- *Set up:* the prototype started on the computer and its data reset; the number of learners the registry holds is read.
+25:- *Do:* as a school clerk, enrol a child with F, G, D and S that the registry does not yet hold; read the number of learners; enrol the same child again with the same F, G, D and S; read the number of learners again.
+26:- *See:* the first enrolment adds one learner; the second adds none. **Expected:** the count rises by 1 after the first enrolment and by 0 after the second. Pass if both hold.
+65:- *Set up:* the prototype started and its data reset; a program records, in order, every read and every write the registry makes on its data during an enrolment.
+66:- *Do:* enrol a child the registry does not hold (F, G, D, S); then enrol the same child again with the same entries.
+67:- *See:* in each enrolment the search is the first act on the data, before any write; in the second enrolment there is no write. Pass if a search precedes every write in both, and the second has none.
+78:- *Set up:* the prototype started and its data reset; enrol a child with F, G, D and S, and note the learner number it is given and the number of learners the registry then holds.
+79:- *Do:* (a) enrol a child with exactly F, G and D; (b) enrol a child with F and G written in other capitals — for example every letter a capital — and the same D.
+80:- *See:* in (a) and in (b), the screen shows the learner saved in the set-up, with its learner number, and the number of learners is unchanged. **Expected:** learners added: 0 in each of (a) and (b). Pass if both hold. (What the registry does when the search finds more than one: gap G-02.)
+91:- *Set up:* the prototype started and its data reset; read the number of learners and every learner number the registry holds (what a learner number looks like: gap G-01; where the search looks: gap G-03).
+92:- *Do:* (a) enrol a child whose family name, given names and date of birth, capitals ignored, match none of the records the search looks in; (b) then enrol a child with the same given names and date of birth as the child of (a), and a family name that differs from it by one letter, not by capitals alone.
+93:- *See:* after each of (a) and (b), one record is saved, holding the entries made and a learner number that no learner held before. **Expected:** learners added: 1 after (a) and 1 after (b); each new learner number unlike every number held before it. Pass if both hold.
+104:- *Set up:* the prototype started and its data reset.
+105:- *Do:* by a windowless check, enrol a child the registry does not hold, and read the screen that follows; then enrol the same child again, and read the screen that follows.
+106:- *See:* the first screen says that a new learner number was given, and shows it; the second says that an existing learner was found, and shows that learner. Pass if each screen says which of the two happened and the two screens say different things.
+158:- *Set up:* the prototype's data reset, before any enrolment.
+159:- *Do:* for each child, count the lists that carry it, by what the data records of which entries are the same child (gap G-05); count the children carried by two lists or more.
+238:- *Set up:* the prototype started and its data reset; the list of its screens (what counts as a screen: gap G-09).
+239:- *Do:* by a windowless check, show each screen in turn, among them the screen after a new learner is saved and the screen after an existing learner is found, and read its text.
+$ grep -c of R-04, R-07, R-11 in the report
+R-04 0
+R-07 0
+R-11 0
+$ GOAL.md lines on the reset, F-4, F-5, SC-4, SC-5
+7:**What it is not.** Enrolment is the only goal (the ruling on G-08): the reset of the made-up data is a command outside the clerk's screens and is not a step of this goal, and there is no screen for looking learners up.
+71:- **What sets it off:** one or more of the four — family name, given names, date of birth, school — not entered.
+79:- **What sets it off:** a date of birth not in the form YYYY-MM-DD.
+87:- **What sets it off:** a school that is not one of the data's 3 schools. The sources say only that the school is chosen from the data's 3; whether such a school can reach the registry at all is gap 6.
+95:- **What sets it off:** the search of S-4 finds more than one learner. Under the data's settings it is never reached: no two different children share all three fields, and "share" ignores capitals.
+103:- **What sets it off:** a child the registry already holds as a learner is entered with a family name, given names or date of birth that differs from that learner's in anything but capitals — a family name that differs by one letter among them. The search finds none.
+116:- **Named by:** S-1, S-2.
+122:- **Named by:** S-5, S-7.
+128:- **Named by:** S-6, S-7, F-5.
+134:- **Named by:** S-3, F-2.
+140:- **Named by:** F-4.
+$ search_rule.csv: at_reset
+13:at_reset,"every entry of the three lists is enrolled through this same rule, in a fixed order, so that the lists' children are learners with learner numbers",R-15 · ruling:G-03
+2026-10-31 18:37:55 UTC

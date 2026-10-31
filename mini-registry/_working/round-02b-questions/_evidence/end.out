@@ -1,0 +1,47 @@
+# The record of the round, produced by round_record.py from /Users/arnelaponin/Documents/Dev/wai-demo/mini-registry/_working/round-02b-questions/_evidence/record
+# window: from the start list 2026-10-31T15:25:39.626Z to the end list 2026-10-31T15:28:54.073Z
+# roots: /Users/arnelaponin/Documents/Dev/wai-demo/mini-registry
+# start list: 291 files; end list: 305 files; runs traced: 3
+
+## 1. Every file changed inside the window — 14
+change · path · before (bytes, sha256) · after (bytes, sha256, last changed) · by
+added · /Users/arnelaponin/Documents/Dev/wai-demo/mini-registry/_working/round-02b-questions/_evidence/A1_questions.log · absent · 103 ab8119b432b66ce3d0ae2ee46a93251c478474fc2421a8dd57f0b68419134760 2026-10-31T15:25:57.470Z · written by no traced run: by hand or by another round
+added · /Users/arnelaponin/Documents/Dev/wai-demo/mini-registry/_working/round-02b-questions/_evidence/A2_A3_A4_check.log · absent · 916 ae8510eb39848e9bb2b992bc7a2cdfa57bfee3161e5e658fc4e616eb6b69f1d3 2026-10-31T15:28:37.589Z · written by no traced run: by hand or by another round
+added · /Users/arnelaponin/Documents/Dev/wai-demo/mini-registry/_working/round-02b-questions/_evidence/A5_taken_together.log · absent · 606 d108ed0ed6b7bff6eecdbf4d0daea5f5339fbef11f190a48e27bb79434f63868 2026-10-31T15:26:41.821Z · written by no traced run: by hand or by another round
+added · /Users/arnelaponin/Documents/Dev/wai-demo/mini-registry/_working/round-02b-questions/_evidence/A7_size.log · absent · 184 3e8723bcb4ed5dbed6866fea2ba0587541c1ef92426d92a9474c826bb6fdc955 2026-10-31T15:28:53.784Z · written by no traced run: by hand or by another round
+added · /Users/arnelaponin/Documents/Dev/wai-demo/mini-registry/_working/round-02b-questions/_evidence/A8_sources.log · absent · 819 b6a2dcabb374bf0d75ce8934a57da49098c038d8dfdb7a371dfe324e1033cc50 2026-10-31T15:28:53.840Z · written by no traced run: by hand or by another round
+added · /Users/arnelaponin/Documents/Dev/wai-demo/mini-registry/_working/round-02b-questions/_evidence/QUESTIONS.md · absent · 3634 f1f5e910920a2d083d501dae6daf1843986d4d83c123ac22702ccb8ea97d40a1 2026-10-31T15:25:57.420Z · written by run 1
+added · /Users/arnelaponin/Documents/Dev/wai-demo/mini-registry/_working/round-02b-questions/_evidence/after.sha256 · absent · 750 7315e24761dce4795b3f6febe64d2e118e975f90874078add00119ec366d27cc 2026-10-31T15:28:53.827Z · written by no traced run: by hand or by another round
+added · /Users/arnelaponin/Documents/Dev/wai-demo/mini-registry/_working/round-02b-questions/_evidence/before.sha256 · absent · 750 ac72ee0bb1caaff449dc0feb346185feb84d65bf9aea02fc45024536f37ddebc 2026-10-31T15:25:39.827Z · written by no traced run: by hand or by another round
+added · /Users/arnelaponin/Documents/Dev/wai-demo/mini-registry/_working/round-02b-questions/_evidence/check_paper.py · absent · 3789 8031fa351e04b4e068a8ea9c522ef2d3b53038647844e1780a283b434556a28a 2026-10-31T15:28:29.738Z · written by no traced run: by hand or by another round
+added · /Users/arnelaponin/Documents/Dev/wai-demo/mini-registry/_working/round-02b-questions/_evidence/end.out · absent · 0 e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855 2026-10-31T15:28:53.847Z · written by no traced run: by hand or by another round
+added · /Users/arnelaponin/Documents/Dev/wai-demo/mini-registry/_working/round-02b-questions/_evidence/list_questions.py · absent · 1275 22888ec057ba36290f27ce6cdeee384abb202939ce3c9fd5cc702a1b60ad2d18 2026-10-31T15:25:49.397Z · written by no traced run: by hand or by another round
+added · /Users/arnelaponin/Documents/Dev/wai-demo/mini-registry/_working/round-02b-questions/_evidence/start.out · absent · 226 976a385ff46bb70437fe1449c0cd3803d9af54c0e5aee5a5497a4edafd4e456e 2026-10-31T15:25:39.729Z · written by no traced run: by hand or by another round
+added · /Users/arnelaponin/Documents/Dev/wai-demo/mini-registry/_working/round-02b-questions/_evidence/taken_together.py · absent · 6528 6dbc0b9c2a6e5be37e61ce9329ca1b809bea23416c65facc7a0aaccc231e4f17 2026-10-31T15:26:33.359Z · written by no traced run: by hand or by another round
+added · /Users/arnelaponin/Documents/Dev/wai-demo/mini-registry/docs/QUESTIONS-PAPER.md · absent · 18410 0bbc89264c1a0ee5f837e71aa3f1dbb03abb5ee10487c118aa3173f2ce4ae6cb 2026-10-31T15:28:09.431Z · written by no traced run: by hand or by another round
+
+## 2. Every file the round's programs read — 12
+path · on the start list · sha256 at the start · sha256 at the end · first read
+/Users/arnelaponin/Documents/Dev/wai-demo/brief/MINI-REGISTRY-BRIEF.md · yes · ec6971e74a6a8387de0e5bd7a5e1cdead6ddf711b8fdac3ccc1d4b7555e11f64 · ec6971e74a6a8387de0e5bd7a5e1cdead6ddf711b8fdac3ccc1d4b7555e11f64 · 2026-10-31T15:28:37.560Z
+/Users/arnelaponin/Documents/Dev/wai-demo/mini-registry/_working/round-02b-questions/_evidence/QUESTIONS.md · no · - · f1f5e910920a2d083d501dae6daf1843986d4d83c123ac22702ccb8ea97d40a1 · 2026-10-31T15:25:57.420Z
+/Users/arnelaponin/Documents/Dev/wai-demo/mini-registry/_working/round-02b-questions/_evidence/check_paper.py · no · - · 8031fa351e04b4e068a8ea9c522ef2d3b53038647844e1780a283b434556a28a · 2026-10-31T15:28:37.554Z
+/Users/arnelaponin/Documents/Dev/wai-demo/mini-registry/_working/round-02b-questions/_evidence/list_questions.py · no · - · 22888ec057ba36290f27ce6cdeee384abb202939ce3c9fd5cc702a1b60ad2d18 · 2026-10-31T15:25:57.400Z
+/Users/arnelaponin/Documents/Dev/wai-demo/mini-registry/_working/round-02b-questions/_evidence/taken_together.py · no · - · 6dbc0b9c2a6e5be37e61ce9329ca1b809bea23416c65facc7a0aaccc231e4f17 · 2026-10-31T15:26:41.737Z
+/Users/arnelaponin/Documents/Dev/wai-demo/mini-registry/docs/GAPS-PAPER.md · yes · d03db64c6e49a1b92467c1e6e19929c321964bd89f6cb715d15dd570f37bc8bb · d03db64c6e49a1b92467c1e6e19929c321964bd89f6cb715d15dd570f37bc8bb · 2026-10-31T15:28:37.561Z
+/Users/arnelaponin/Documents/Dev/wai-demo/mini-registry/docs/GROUNDWORK.md · yes · 5ed9b62f282d433df7c337a2da30e4830c56170dca1e646ae5aacc2cc2795dce · 5ed9b62f282d433df7c337a2da30e4830c56170dca1e646ae5aacc2cc2795dce · 2026-10-31T15:25:57.418Z
+/Users/arnelaponin/Documents/Dev/wai-demo/mini-registry/docs/QUESTIONS-PAPER.md · no · - · 0bbc89264c1a0ee5f837e71aa3f1dbb03abb5ee10487c118aa3173f2ce4ae6cb · 2026-10-31T15:28:37.558Z
+/Users/arnelaponin/Documents/Dev/wai-demo/mini-registry/docs/REQUIREMENTS.md · yes · ad583b3958fb5c5fdf6683b5c2487b6f0c425d66cebc7c46811e2e19af13f103 · ad583b3958fb5c5fdf6683b5c2487b6f0c425d66cebc7c46811e2e19af13f103 · 2026-10-31T15:28:37.563Z
+/Users/arnelaponin/Documents/Dev/wai-demo/mini-registry/docs/groundwork/lists.csv · yes · 1d08f58c5ea6d1caddfed7f6266800083bed696e7cd1b76c6efc53be72c9eef7 · 1d08f58c5ea6d1caddfed7f6266800083bed696e7cd1b76c6efc53be72c9eef7 · 2026-10-31T15:28:37.563Z
+/Users/arnelaponin/Documents/Dev/wai-demo/mini-registry/docs/groundwork/search_rule.csv · yes · 9a7c98ce9b57dde82ccca48c84c638b7efd5c08f26f1677e738ecc8d00386fdb · 9a7c98ce9b57dde82ccca48c84c638b7efd5c08f26f1677e738ecc8d00386fdb · 2026-10-31T15:28:37.560Z
+/Users/arnelaponin/Documents/Dev/wai-demo/mini-registry/docs/groundwork/settings.csv · yes · a94c31fe9fc96410910e425b1a0dfc708ea6acf09f3fb9ab1c990e71f8ef9cfd · a94c31fe9fc96410910e425b1a0dfc708ea6acf09f3fb9ab1c990e71f8ef9cfd · 2026-10-31T15:28:37.561Z
+
+## 3. Every run — 3
+run 1 · 2026-10-31T15:25:57.194Z to 2026-10-31T15:25:57.435Z · exit 0 · /usr/bin/python3 -B /Users/arnelaponin/Documents/Dev/wai-demo/mini-registry/_working/round-02b-questions/_evidence/list_questions.py /Users/arnelaponin/Documents/Dev/wai-demo/mini-registry/docs/GROUNDWORK.md /Users/arnelaponin/Documents/Dev/wai-demo/mini-registry/_working/round-02b-questions/_evidence/QUESTIONS.md · traced in full: a Python program and the Python programs it starts
+run 2 · 2026-10-31T15:26:41.444Z to 2026-10-31T15:26:41.795Z · exit 0 · /usr/bin/python3 -B /Users/arnelaponin/Documents/Dev/wai-demo/mini-registry/_working/round-02b-questions/_evidence/taken_together.py · traced in full: a Python program and the Python programs it starts
+run 3 · 2026-10-31T15:28:37.414Z to 2026-10-31T15:28:37.573Z · exit 0 · /usr/bin/python3 -B /Users/arnelaponin/Documents/Dev/wai-demo/mini-registry/_working/round-02b-questions/_evidence/check_paper.py /Users/arnelaponin/Documents/Dev/wai-demo/mini-registry /Users/arnelaponin/Documents/Dev/wai-demo/mini-registry/_working/round-02b-questions/_evidence/QUESTIONS.md /Users/arnelaponin/Documents/Dev/wai-demo/mini-registry/docs/QUESTIONS-PAPER.md · traced in full: a Python program and the Python programs it starts
+
+## 4. Findings — 0
+none
+
+wrote /Users/arnelaponin/Documents/Dev/wai-demo/mini-registry/_working/round-02b-questions/_evidence/record/end.json
+wrote /Users/arnelaponin/Documents/Dev/wai-demo/mini-registry/_working/round-02b-questions/_evidence/record/RECORD.txt

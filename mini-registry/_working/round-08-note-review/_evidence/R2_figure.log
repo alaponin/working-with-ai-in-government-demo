@@ -1,0 +1,26 @@
+2026-10-31T20:59:55Z
+== duplicates.csv by python csv module
+rows: 8 children distinct: 8
+caught (column): 4 ['C19', 'C26', 'C31', 'C53']
+missed (column): 4 ['C24', 'C50', 'C56', 'C58']
+caught (two learner numbers equal): 4 ['C19', 'C26', 'C31', 'C53']
+missed differing in family_name only: 4
+the search catches 4 of the 8
+EXIT=0
+== duplicates.csv by awk (a second, independent route)
+awk: caught 4 of 8
+== NOTE.pdf
+-rw-r--r--@ 1 arnelaponin  staff  57094 Oct 31 22:52 /Users/arnelaponin/Documents/Dev/wai-demo/mini-registry/docs/note/NOTE.pdf
+6ff1a6b80f6a305267db6805a57f28f1b2a5fb85fd6b72d787bd6b34a6fb5666  /Users/arnelaponin/Documents/Dev/wai-demo/mini-registry/docs/note/NOTE.pdf
+-- Spotlight metadata (mdls), no window
+kMDItemNumberOfPages = 1
+kMDItemPageHeight    = (null)
+kMDItemPageWidth     = (null)
+-- ghostscript, bbox device: one HiResBoundingBox line per page
+1
+-- raw bytes: /Type /Page objects and MediaBox
+page objects: 1
+/Pages /Count: ['1']
+MediaBox: ['0 0 595 842']
+EXIT=0
+SCRIPT EXIT=0

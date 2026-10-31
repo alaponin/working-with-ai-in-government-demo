@@ -1,0 +1,30 @@
+# 2026-10-31T16:31:07Z the outputs, the sources' checksums, and the times
+-rw-r--r--@ 1 arnelaponin  staff  13495 Oct 31 18:23 /Users/arnelaponin/Documents/Dev/wai-demo/mini-registry/_reports/REPORT_GOAL_2026-10-31.md
+-rw-r--r--@ 1 arnelaponin  staff  11777 Oct 31 18:21 /Users/arnelaponin/Documents/Dev/wai-demo/mini-registry/docs/GOAL.md
+5ed146df4878630c8f5d279f18fec3e440f3a83dabc36af9285b45f01db6c089  /Users/arnelaponin/Documents/Dev/wai-demo/mini-registry/docs/GOAL.md
+      17
+       8
+-- the sources (section 2 of the instruction)
+ec6971e74a6a8387de0e5bd7a5e1cdead6ddf711b8fdac3ccc1d4b7555e11f64  brief/MINI-REGISTRY-BRIEF.md
+ad583b3958fb5c5fdf6683b5c2487b6f0c425d66cebc7c46811e2e19af13f103  mini-registry/docs/REQUIREMENTS.md
+5ed9b62f282d433df7c337a2da30e4830c56170dca1e646ae5aacc2cc2795dce  mini-registry/docs/GROUNDWORK.md
+9a7c98ce9b57dde82ccca48c84c638b7efd5c08f26f1677e738ecc8d00386fdb  mini-registry/docs/groundwork/search_rule.csv
+a94c31fe9fc96410910e425b1a0dfc708ea6acf09f3fb9ab1c990e71f8ef9cfd  mini-registry/docs/groundwork/settings.csv
+1d08f58c5ea6d1caddfed7f6266800083bed696e7cd1b76c6efc53be72c9eef7  mini-registry/docs/groundwork/lists.csv
+d03db64c6e49a1b92467c1e6e19929c321964bd89f6cb715d15dd570f37bc8bb  mini-registry/docs/GAPS-PAPER.md
+5146d23a87cf9c0527c26c2965725bfa1125bd1a0a103ac83b68fb7dbd50cce0  mini-registry/docs/QUESTIONS-PAPER.md
+-- last writes (UTC)
+2026-10-31T16:21:35Z mini-registry/docs/GOAL.md
+2026-10-31T16:23:52Z mini-registry/_reports/REPORT_GOAL_2026-10-31.md
+2026-10-31T16:20:54Z mini-registry/_working/round-03-goal/_evidence/STEPS_SET.md
+2026-10-31T16:20:54Z mini-registry/_working/round-03-goal/_evidence/FAILURES_SET.md
+2026-10-31T16:23:53Z mini-registry/_working/round-03-goal/_evidence/record/check.out
+-rw-r--r--@ 1 arnelaponin  staff  2033 Oct 31 18:14 20261031T161417Z_MR_issued_C-2026-10-31-13.yaml
+-rw-r--r--@ 1 arnelaponin  staff  1556 Oct 31 18:14 20261031T161418Z_MR_issued_C-2026-10-31-14.yaml
+-rw-r--r--@ 1 arnelaponin  staff  1538 Oct 31 18:16 20261031T161636Z_MR_started_C-2026-10-31-13.yaml
+-rw-r--r--@ 1 arnelaponin  staff   581 Oct 31 18:24 20261031T162402Z_MR_finished_C-2026-10-31-13.yaml
+-rw-r--r--@ 1 arnelaponin  staff  1264 Oct 31 18:24 20261031T162423Z_MR_started_C-2026-10-31-14.yaml
+-- section 4 of the round: list_sets.py holds its members as typed lists
+14:STEPS = [
+74:FAILURES = [
+EXIT=0

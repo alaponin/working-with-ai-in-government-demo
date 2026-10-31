@@ -1,0 +1,16 @@
+2026-10-31T20:23:28Z
+log's figure line: ['the search catches 4 of the 8']
+DUPLICATES.md figure: 4 of 8
+figure agrees with log: True
+log line quoted in DUPLICATES.md: True
+C19 table 10 · 10 yes | csv 10 · 10 yes | agree
+C24 table 20 · 42 no | csv 20 · 42 no | agree
+C26 table 44 · 44 yes | csv 44 · 44 yes | agree
+C31 table 11 · 11 yes | csv 11 · 11 yes | agree
+C50 table 17 · 61 no | csv 17 · 61 no | agree
+C53 table 13 · 13 yes | csv 13 · 13 yes | agree
+C56 table 22 · 52 no | csv 22 · 52 no | agree
+C58 table 36 · 46 no | csv 36 · 46 no | agree
+table rows: 8; csv rows: 8; caught=yes in csv: 4; disagreements: 0
+EXIT 0
+2026-10-31T20:23:28Z

@@ -1,0 +1,13 @@
+# trace 2026-10-31T18:13:35Z
+trace check of /Users/arnelaponin/Documents/Dev/wai-demo/mini-registry/_reports/REPORT_GOALQ_2026-10-31.md (a report)
+  constants: /Users/arnelaponin/Documents/Dev/wai-demo/mini-registry/CONSTANTS.md
+  the estate's root: /Users/arnelaponin/Documents/Dev/wai-demo/mini-registry
+  the places: instruction _prompts/ = /Users/arnelaponin/Documents/Dev/wai-demo/mini-registry/_prompts, report _reports/ = /Users/arnelaponin/Documents/Dev/wai-demo/mini-registry/_reports, review _reviews/ = /Users/arnelaponin/Documents/Dev/wai-demo/mini-registry/_reviews
+  coordination: /Users/arnelaponin/Documents/Dev/wai-demo/_coordination/CONSTANTS.md
+  the instruction: /Users/arnelaponin/Documents/Dev/wai-demo/mini-registry/_prompts/PROMPT_GOALQ_2026-10-31.md
+  agrees: the report answers C-2026-10-31-17, the instruction's commission_id
+  agrees: the instruction's downstream_artefact is this report
+  outputs: 3 of 3 named exist
+  inputs: 8 of 8 pinned by 20261031T174355Z_MR_issued_C-2026-10-31-17.yaml hash the same now
+trace check: clean
+EXIT=0

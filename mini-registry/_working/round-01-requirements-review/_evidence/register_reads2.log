@@ -1,0 +1,25 @@
+$ date -u: 2026-10-31 13:16:17 UTC
+$ grep -c "^- \*\*G-[0-9][0-9]\*\*" REQUIREMENTS.md
+14
+$ grep -E "^### R-(1[6-9]|2[01])$|^\*\*Requirement\.\*\*" REQUIREMENTS.md | paste - - | sed -n 16,21p
+### R-16	**Requirement.** The prototype holds no real person's data.
+### R-17	**Requirement.** Every screen of the prototype says "Invented data, Progressa is fictional".
+### R-18	**Requirement.** The prototype connects to nothing outside the computer it runs on.
+### R-19	**Requirement.** Where the project needs another body, that body is simulated.
+### R-20	**Requirement.** The prototype opens no window on its own.
+### R-21	**Requirement.** Every check of the prototype's screens runs without a window.
+$ grep -c . runs.jsonl; first/last "at" stamps
+4
+$ stat UTC mtimes of WHAT_IS_RUNNING.md, start.json, end.json
+2026-10-31 13:13:33 /Users/arnelaponin/Documents/Dev/wai-demo/mini-registry/WHAT_IS_RUNNING.md
+2026-10-31 13:05:40 /Users/arnelaponin/Documents/Dev/wai-demo/mini-registry/_working/round-01-requirements/_evidence/record/start.json
+2026-10-31 13:10:54 /Users/arnelaponin/Documents/Dev/wai-demo/mini-registry/_working/round-01-requirements/_evidence/record/end.json
+$ git -C mini-registry status --short | head
+ M WHAT_IS_RUNNING.md
+?? _prompts/PROMPT_REQUIREMENTS_2026-10-31.md
+?? _prompts/PROMPT_REVIEW_REQUIREMENTS_2026-10-31.md
+?? _reports/REPORT_REQUIREMENTS_2026-10-31.md
+?? _working/round-01-requirements-review/
+?? _working/round-01-requirements/
+?? docs/REQUIREMENTS.md
+74ca995 Start the mini registry: the places for instructions, reports and reviews, the record of what is running, the constants and the folders on the map of places

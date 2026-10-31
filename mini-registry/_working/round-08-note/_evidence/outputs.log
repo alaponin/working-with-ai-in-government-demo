@@ -1,0 +1,33 @@
+2026-10-31T20:53:08Z
+-rw-r--r--@ 1 arnelaponin  staff  3542 Oct 31 22:46 /Users/arnelaponin/Documents/Dev/wai-demo/mini-registry/docs/NOTE.md
+exit 0
+drwxr-xr-x@ 6 arnelaponin  staff  192 Oct 31 22:52 /Users/arnelaponin/Documents/Dev/wai-demo/mini-registry/docs/note
+exit 0
+-rw-r--r--@ 1 arnelaponin  staff  6561 Oct 31 22:49 /Users/arnelaponin/Documents/Dev/wai-demo/mini-registry/docs/note/build.py
+exit 0
+-rw-r--r--@ 1 arnelaponin  staff  57094 Oct 31 22:52 /Users/arnelaponin/Documents/Dev/wai-demo/mini-registry/docs/note/NOTE.pdf
+exit 0
+-rw-r--r--@ 1 arnelaponin  staff  4226 Oct 31 22:52 /Users/arnelaponin/Documents/Dev/wai-demo/mini-registry/docs/note/NOTE.html
+exit 0
+-rw-r--r--@ 1 arnelaponin  staff  252 Oct 31 22:49 /Users/arnelaponin/Documents/Dev/wai-demo/mini-registry/docs/note/register_exceptions.txt
+exit 0
+drwxr-xr-x@ 31 arnelaponin  staff  992 Oct 31 22:53 /Users/arnelaponin/Documents/Dev/wai-demo/mini-registry/_working/round-08-note/_evidence
+exit 0
+drwxr-xr-x@ 26 arnelaponin  staff  832 Oct 31 22:25 /Users/arnelaponin/Documents/Dev/wai-demo/mini-registry/_reports
+exit 0
+total 152
+-rw-r--r--@ 1 arnelaponin  staff   4226 Oct 31 22:52 NOTE.html
+-rw-r--r--@ 1 arnelaponin  staff  57094 Oct 31 22:52 NOTE.pdf
+-rw-r--r--@ 1 arnelaponin  staff   6561 Oct 31 22:49 build.py
+-rw-r--r--@ 1 arnelaponin  staff    252 Oct 31 22:49 register_exceptions.txt
+19a7dba5c65fdd8e0627cbd770cf6c105808346e475c4baa310e6f2bff00b277  /Users/arnelaponin/Documents/Dev/wai-demo/mini-registry/docs/NOTE.md
+fea63b9a329ac97c26a93da5395338a465af290ca7b8bb4aa32f417f6d537799  /Users/arnelaponin/Documents/Dev/wai-demo/mini-registry/docs/note/NOTE.html
+6ff1a6b80f6a305267db6805a57f28f1b2a5fb85fd6b72d787bd6b34a6fb5666  /Users/arnelaponin/Documents/Dev/wai-demo/mini-registry/docs/note/NOTE.pdf
+1f3d3144ad255fed2de0547915ba412b7ce4f08aff3ed476b497587b2eee9549  /Users/arnelaponin/Documents/Dev/wai-demo/mini-registry/docs/note/build.py
+75c94433f420feb8fdb183e7459a780d7f5f18784d8d8a03f7f0cd8944ba680e  /Users/arnelaponin/Documents/Dev/wai-demo/mini-registry/docs/note/register_exceptions.txt
+    3542 /Users/arnelaponin/Documents/Dev/wai-demo/mini-registry/docs/NOTE.md
+    4226 /Users/arnelaponin/Documents/Dev/wai-demo/mini-registry/docs/note/NOTE.html
+   57094 /Users/arnelaponin/Documents/Dev/wai-demo/mini-registry/docs/note/NOTE.pdf
+    6561 /Users/arnelaponin/Documents/Dev/wai-demo/mini-registry/docs/note/build.py
+     252 /Users/arnelaponin/Documents/Dev/wai-demo/mini-registry/docs/note/register_exceptions.txt
+   71675 total

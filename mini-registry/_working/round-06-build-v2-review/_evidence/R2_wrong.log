@@ -1,0 +1,23 @@
+# r2_wrong.sh started 2026-10-31T20:08:38Z
+windows listed before: 252
+learners.json before: 32e01ac3a4a25a13 learners 64
+listening: node 127.0.0.1:8141
+POST /enrol (school left out): HTTP 200
+POST /enrol (school sent empty): HTTP 200
+--- X1 as returned, the lines that say what it shows
+9:<p class="notice"><strong>Invented data, Progressa is fictional</strong></p>
+10:<h1>The entry refused</h1>
+11:<p>The entry is refused:</p>
+13:<li>Date of birth: names no day of the calendar</li>
+14:<li>School: not entered</li>
+16:<form method="get" action="/">
+17:<input type="hidden" name="family_name" value="Ostervald">
+18:<input type="hidden" name="given_names" value="Mira Tamsin">
+19:<input type="hidden" name="date_of_birth" value="2019-02-30">
+20:<input type="hidden" name="school" value="">
+--- X2 differs from X1: no
+way back link: none; forms: <form method="get" action="/">
+learners.json after: 32e01ac3a4a25a13 learners 64
+listening on 8141 now: 0
+windows listed after: 252; added: 0
+# r2_wrong.sh ended 2026-10-31T20:08:42Z

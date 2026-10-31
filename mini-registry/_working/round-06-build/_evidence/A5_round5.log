@@ -1,0 +1,14 @@
+2026-10-31T19:39:19Z
+$ join round 5 files: start against end
+changed: ./package.json
+18 of 19 round 5 files unchanged, 1 changed
+$ new files under src/
+./lib/enrol.js
+./lib/screens.js
+./server.js
+./test/goal.test.js
+./test/requirements.test.js
+$ diff package.json.before src/package.json
+7a8
+>     "start": "node server.js",
+diff exit 1

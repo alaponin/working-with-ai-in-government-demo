@@ -1,0 +1,4 @@
+== mini-registry (commit time 2026-10-31T23:46:44+02:00 )
+?? _reports/REPORT_COMMIT4_2026-10-31.md | mtime 2026-10-31 23:47:25 +0200 
+?? _working/round-commit4/ | mtime 2026-10-31 23:47:05 +0200 
+== _coordination (commit time 2026-10-31T23:46:44+02:00 )

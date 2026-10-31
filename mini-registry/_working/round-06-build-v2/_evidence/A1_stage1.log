@@ -1,0 +1,48 @@
+2026-10-31T19:58:18Z
+$ node --version
+v20.5.1
+$ node reset.js && node --test test/
+wrote data/enrolments.json 5083 bytes
+wrote data/exam_candidate_list.json 3623 bytes
+wrote data/key_table.json 5024 bytes
+wrote data/learners.json 11017 bytes
+wrote data/reads.json 296 bytes
+wrote data/school_census.json 3907 bytes
+wrote data/schools.json 85 bytes
+wrote data/social_grant_list.json 3566 bytes
+# tests 57
+# pass 57
+# fail 0
+EXIT=0
+$ ls -R src
+README.md
+data
+lib
+package.json
+reset.js
+server.js
+test
+./data:
+enrolments.json
+exam_candidate_list.json
+key_table.json
+learners.json
+reads.json
+school_census.json
+schools.json
+social_grant_list.json
+./lib:
+data_files.js
+enrol.js
+lists.js
+names.js
+random.js
+screens.js
+search.js
+./test:
+data.test.js
+goal.test.js
+requirements.test.js
+reset.test.js
+search.test.js
+2026-10-31T19:58:20Z

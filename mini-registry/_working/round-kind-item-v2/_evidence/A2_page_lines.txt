@@ -1,0 +1,18 @@
+2026-10-31T19:40:26Z
+$ zsh _working/round-kind-item-v2/_evidence/check_lines.sh _working/round-kind-item/_evidence/PAGE_LINES.md .   (the page as it now stands)
+found     _kinds/analysis.md:14  7. **To judge the positions of one question under another question's a
+found     _kinds/analysis.md:26  - Where the questions depend on one another, the instruction asks for 
+found     _kinds/analysis.md:10  3. **To count over a set it has not listed.**
+found     _kinds/analysis.md:14  or to declare a dependency between two answers in one direction only.*
+found     _kinds/analysis.md:26  listed from every proposal's words and declared both ways
+found     _kinds/analysis.md:26  with a run that builds each rival beside them and reads it against the
+found     _prompts/PROMPT_COMMIT3_2026-10-31.md:118  **which lies in this instruction, not in the round**
+found     _prompts/PROMPT_COMMIT3_2026-10-31.md:124  1. **Keep every piece of evidence outside both repositories until step
+found     _prompts/PROMPT_COMMIT3_2026-10-31.md:128  5. Only then copy the folder's files into `/Users/arnelaponin/Document
+found     _prompts/PROMPT_COMMIT3_2026-10-31.md:132  - **B1** — The status recorded in step 4 is empty in both repositories
+found     _prompts/PROMPT_COMMIT3_2026-10-31.md:133  - **B2** — The files `git show --name-only HEAD` names in each reposit
+11 quotations, 0 not found
+exit=0
+$ wc -l _kinds/analysis.md
+26
+2026-10-31T19:40:26Z

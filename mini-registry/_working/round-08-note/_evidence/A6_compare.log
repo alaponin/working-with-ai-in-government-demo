@@ -1,0 +1,6 @@
+2026-10-31T20:52:33Z
+# A6: the extracted text of build 1 and build 2
+da5b40830ec8a6ba25a7f7372fcdb1b8c71ccbc065bcc1c666100d9240160492  text.build1.txt
+da5b40830ec8a6ba25a7f7372fcdb1b8c71ccbc065bcc1c666100d9240160492  text.build2.txt
+CMP EXIT=0
+INFO DIFF EXIT=0

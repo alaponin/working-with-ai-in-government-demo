@@ -1,0 +1,70 @@
+# The record of the round, produced by round_record.py from /Users/arnelaponin/Documents/Dev/wai-demo/mini-registry/_working/round-02-groundwork/_evidence/record
+# window: from the start list 2026-10-31T14:33:14.059Z to the end list 2026-10-31T14:37:42.768Z
+# roots: /Users/arnelaponin/Documents/Dev/wai-demo/mini-registry
+# start list: 185 files; end list: 200 files; runs traced: 8
+
+## 1. Every file changed inside the window — 15
+change · path · before (bytes, sha256) · after (bytes, sha256, last changed) · by
+added · /Users/arnelaponin/Documents/Dev/wai-demo/mini-registry/_working/round-02-groundwork/_evidence/A1_check.out · absent · 149 ff43b5f773c1cbc6b589fa8b40bf6b4c424f0df0cc9d99c396b2a6abd642ce08 2026-10-31T14:37:03.802Z · written by no traced run: by hand or by another round
+added · /Users/arnelaponin/Documents/Dev/wai-demo/mini-registry/_working/round-02-groundwork/_evidence/A1_list.out · absent · 326 59ca006b6b824f51f11d08af5dbb65d1a592dd69e9ea1eca909f40e4f20a9c81 2026-10-31T14:35:29.313Z · written by no traced run: by hand or by another round
+added · /Users/arnelaponin/Documents/Dev/wai-demo/mini-registry/_working/round-02-groundwork/_evidence/A2_check.out · absent · 198 de889b4d8dcbde66cbc30bd7db3d1fd321db1830686b8f17567d4eefed3d6b55 2026-10-31T14:37:04.642Z · written by no traced run: by hand or by another round
+added · /Users/arnelaponin/Documents/Dev/wai-demo/mini-registry/_working/round-02-groundwork/_evidence/A3_check.out · absent · 705 1061d927e664c3b6ab7becf3f91b5ea0519e0934a69c8788768563606db8c24f 2026-10-31T14:37:05.464Z · written by no traced run: by hand or by another round
+added · /Users/arnelaponin/Documents/Dev/wai-demo/mini-registry/_working/round-02-groundwork/_evidence/A4_check.out · absent · 565 766fd27b4aff5322e9b54069cc98554d0d46dba3e7539b4b105930d232761101 2026-10-31T14:37:06.252Z · written by no traced run: by hand or by another round
+added · /Users/arnelaponin/Documents/Dev/wai-demo/mini-registry/_working/round-02-groundwork/_evidence/A5_check.out · absent · 178 81d15a76351d3533fa339fddb70fe84b52775dea6eb4eb591474ddb9135243d4 2026-10-31T14:37:06.942Z · written by no traced run: by hand or by another round
+added · /Users/arnelaponin/Documents/Dev/wai-demo/mini-registry/_working/round-02-groundwork/_evidence/A6_shasum.out · absent · 444 807fbd4dacdfe64c06b45672b7b4ead491b70baa83a6695f55e5709b597b5325 2026-10-31T14:37:20.537Z · written by no traced run: by hand or by another round
+added · /Users/arnelaponin/Documents/Dev/wai-demo/mini-registry/_working/round-02-groundwork/_evidence/A7_placement.out · absent · 1797 64604c5caef5a06d960c707945e35aecb9c1a4bfdc5074e1358a2302b47ffb1c 2026-10-31T14:37:21.750Z · written by no traced run: by hand or by another round
+added · /Users/arnelaponin/Documents/Dev/wai-demo/mini-registry/_working/round-02-groundwork/_evidence/SETTINGS_SET.md · absent · 10042 4e3e7061f74f10b98f6cafcc69033cdd06ab22bffaadad6781c727935364449c 2026-10-31T14:35:29.286Z · written by run 1, 2
+added · /Users/arnelaponin/Documents/Dev/wai-demo/mini-registry/_working/round-02-groundwork/_evidence/check_groundwork.py · absent · 7737 86c107c9baf16e1933bb15932a23be2cf473358cbe08d8703512f9f042e53b00 2026-10-31T14:36:51.894Z · written by no traced run: by hand or by another round
+added · /Users/arnelaponin/Documents/Dev/wai-demo/mini-registry/_working/round-02-groundwork/_evidence/list_settings_set.py · absent · 7626 13d134661360de37b7c7e78a61c62d0efe9fee3e6d1bb5a0296a732a97f67f98 2026-10-31T14:35:18.613Z · written by no traced run: by hand or by another round
+added · /Users/arnelaponin/Documents/Dev/wai-demo/mini-registry/docs/GROUNDWORK.md · absent · 6850 f2284affe810c2886d8a1899681e3d16af96a547dea10f7acc6bcbfca2584df9 2026-10-31T14:36:19.253Z · written by no traced run: by hand or by another round
+added · /Users/arnelaponin/Documents/Dev/wai-demo/mini-registry/docs/groundwork/lists.csv · absent · 2391 1d08f58c5ea6d1caddfed7f6266800083bed696e7cd1b76c6efc53be72c9eef7 2026-10-31T14:35:52.220Z · written by no traced run: by hand or by another round
+added · /Users/arnelaponin/Documents/Dev/wai-demo/mini-registry/docs/groundwork/search_rule.csv · absent · 1335 9a7c98ce9b57dde82ccca48c84c638b7efd5c08f26f1677e738ecc8d00386fdb 2026-10-31T14:35:53.743Z · written by no traced run: by hand or by another round
+added · /Users/arnelaponin/Documents/Dev/wai-demo/mini-registry/docs/groundwork/settings.csv · absent · 1127 a94c31fe9fc96410910e425b1a0dfc708ea6acf09f3fb9ab1c990e71f8ef9cfd 2026-10-31T14:35:50.393Z · written by no traced run: by hand or by another round
+
+## 2. Every file the round's programs read — 22
+path · on the start list · sha256 at the start · sha256 at the end · first read
+/CONSTANTS.md · no · - · absent · 2026-10-31T14:37:21.682Z
+/Users/CONSTANTS.md · no · - · absent · 2026-10-31T14:37:21.682Z
+/Users/arnelaponin/CONSTANTS.md · no · - · absent · 2026-10-31T14:37:21.682Z
+/Users/arnelaponin/Documents/CONSTANTS.md · no · - · absent · 2026-10-31T14:37:21.682Z
+/Users/arnelaponin/Documents/Dev/CONSTANTS.md · no · - · absent · 2026-10-31T14:37:21.682Z
+/Users/arnelaponin/Documents/Dev/wai-demo/CONSTANTS.md · no · - · absent · 2026-10-31T14:37:21.681Z
+/Users/arnelaponin/Documents/Dev/wai-demo/brief/MINI-REGISTRY-BRIEF.md · yes · ec6971e74a6a8387de0e5bd7a5e1cdead6ddf711b8fdac3ccc1d4b7555e11f64 · ec6971e74a6a8387de0e5bd7a5e1cdead6ddf711b8fdac3ccc1d4b7555e11f64 · 2026-10-31T14:34:36.031Z
+/Users/arnelaponin/Documents/Dev/wai-demo/mini-registry/CONSTANTS.md · yes · ca7cc66035ca54212bb72d90b754e2e4eccff37af56db17a659b37ec7f93c976 · ca7cc66035ca54212bb72d90b754e2e4eccff37af56db17a659b37ec7f93c976 · 2026-10-31T14:37:21.701Z
+/Users/arnelaponin/Documents/Dev/wai-demo/mini-registry/_prompts/PROMPT_GROUNDWORK_2026-10-31.md · yes · f80796b5b1568cc43dad5927ed12a7660ce432df2228a593acf2ea21a67de18d · f80796b5b1568cc43dad5927ed12a7660ce432df2228a593acf2ea21a67de18d · 2026-10-31T14:37:21.703Z
+/Users/arnelaponin/Documents/Dev/wai-demo/mini-registry/_working/round-02-groundwork/_evidence/SETTINGS_SET.md · no · - · 4e3e7061f74f10b98f6cafcc69033cdd06ab22bffaadad6781c727935364449c · 2026-10-31T14:37:03.761Z
+/Users/arnelaponin/Documents/Dev/wai-demo/mini-registry/_working/round-02-groundwork/_evidence/check_groundwork.py · no · - · 86c107c9baf16e1933bb15932a23be2cf473358cbe08d8703512f9f042e53b00 · 2026-10-31T14:37:03.739Z
+/Users/arnelaponin/Documents/Dev/wai-demo/mini-registry/_working/round-02-groundwork/_evidence/list_settings_set.py · no · - · 13d134661360de37b7c7e78a61c62d0efe9fee3e6d1bb5a0296a732a97f67f98 · 2026-10-31T14:34:36.028Z
+/Users/arnelaponin/Documents/Dev/wai-demo/mini-registry/docs/GAPS-PAPER.md · yes · d03db64c6e49a1b92467c1e6e19929c321964bd89f6cb715d15dd570f37bc8bb · d03db64c6e49a1b92467c1e6e19929c321964bd89f6cb715d15dd570f37bc8bb · 2026-10-31T14:34:36.032Z
+/Users/arnelaponin/Documents/Dev/wai-demo/mini-registry/docs/GROUNDWORK.md · no · - · f2284affe810c2886d8a1899681e3d16af96a547dea10f7acc6bcbfca2584df9 · 2026-10-31T14:37:06.200Z
+/Users/arnelaponin/Documents/Dev/wai-demo/mini-registry/docs/REQUIREMENTS.md · yes · ad583b3958fb5c5fdf6683b5c2487b6f0c425d66cebc7c46811e2e19af13f103 · ad583b3958fb5c5fdf6683b5c2487b6f0c425d66cebc7c46811e2e19af13f103 · 2026-10-31T14:37:04.591Z
+/Users/arnelaponin/Documents/Dev/wai-demo/mini-registry/docs/groundwork/lists.csv · no · - · 1d08f58c5ea6d1caddfed7f6266800083bed696e7cd1b76c6efc53be72c9eef7 · 2026-10-31T14:37:04.595Z
+/Users/arnelaponin/Documents/Dev/wai-demo/mini-registry/docs/groundwork/search_rule.csv · no · - · 9a7c98ce9b57dde82ccca48c84c638b7efd5c08f26f1677e738ecc8d00386fdb · 2026-10-31T14:37:04.596Z
+/Users/arnelaponin/Documents/Dev/wai-demo/mini-registry/docs/groundwork/settings.csv · no · - · a94c31fe9fc96410910e425b1a0dfc708ea6acf09f3fb9ab1c990e71f8ef9cfd · 2026-10-31T14:37:03.763Z
+/Users/arnelaponin/Library/Application Support/Claude/local-agent-mode-sessions/ffbe2f0e-bc4b-46d3-ad76-b08a7882aae9/7bbcb800-2754-4c5e-97ea-ccb874ea3fee/rpm/plugin_018SiGJfFaxxAvevS4xGQJgb/skills/orchestrator/scripts/guard_log.py · no · - · 896325d9089550c84a4d0a2848640ae53f7bb66f33af1be03d885a9ed069a332 · 2026-10-31T14:37:21.667Z
+/Users/arnelaponin/Library/Application Support/Claude/local-agent-mode-sessions/ffbe2f0e-bc4b-46d3-ad76-b08a7882aae9/7bbcb800-2754-4c5e-97ea-ccb874ea3fee/rpm/plugin_018SiGJfFaxxAvevS4xGQJgb/skills/orchestrator/scripts/ledger.py · no · - · fe702aa9e6296a18b464100602f09e235c53f5f1397a79f910685607847e50c7 · 2026-10-31T14:37:21.510Z
+/Users/arnelaponin/Library/Application Support/Claude/local-agent-mode-sessions/ffbe2f0e-bc4b-46d3-ad76-b08a7882aae9/7bbcb800-2754-4c5e-97ea-ccb874ea3fee/rpm/plugin_018SiGJfFaxxAvevS4xGQJgb/skills/orchestrator/scripts/placement_check.py · no · - · 70ef500794e6678d9cc304bfae49244ff06bbf4d091f1dc8aabe3175034aff65 · 2026-10-31T14:37:21.488Z
+/Users/arnelaponin/_coordination/CONSTANTS.md · no · - · absent · 2026-10-31T14:37:21.701Z
+
+## 3. Every run — 8
+run 1 · 2026-10-31T14:34:35.896Z to 2026-10-31T14:34:36.042Z · exit 0 · /usr/bin/python3 /Users/arnelaponin/Documents/Dev/wai-demo/mini-registry/_working/round-02-groundwork/_evidence/list_settings_set.py · traced in full: a Python program and the Python programs it starts
+run 2 · 2026-10-31T14:35:29.137Z to 2026-10-31T14:35:29.295Z · exit 0 · /usr/bin/python3 /Users/arnelaponin/Documents/Dev/wai-demo/mini-registry/_working/round-02-groundwork/_evidence/list_settings_set.py · traced in full: a Python program and the Python programs it starts
+run 3 · 2026-10-31T14:37:03.455Z to 2026-10-31T14:37:03.779Z · exit 0 · /usr/bin/python3 /Users/arnelaponin/Documents/Dev/wai-demo/mini-registry/_working/round-02-groundwork/_evidence/check_groundwork.py a1 · traced in full: a Python program and the Python programs it starts
+run 4 · 2026-10-31T14:37:04.223Z to 2026-10-31T14:37:04.617Z · exit 0 · /usr/bin/python3 /Users/arnelaponin/Documents/Dev/wai-demo/mini-registry/_working/round-02-groundwork/_evidence/check_groundwork.py a2 · traced in full: a Python program and the Python programs it starts
+run 5 · 2026-10-31T14:37:05.133Z to 2026-10-31T14:37:05.436Z · exit 0 · /usr/bin/python3 /Users/arnelaponin/Documents/Dev/wai-demo/mini-registry/_working/round-02-groundwork/_evidence/check_groundwork.py a3 · traced in full: a Python program and the Python programs it starts
+run 6 · 2026-10-31T14:37:05.908Z to 2026-10-31T14:37:06.229Z · exit 0 · /usr/bin/python3 /Users/arnelaponin/Documents/Dev/wai-demo/mini-registry/_working/round-02-groundwork/_evidence/check_groundwork.py a4 · traced in full: a Python program and the Python programs it starts
+run 7 · 2026-10-31T14:37:06.657Z to 2026-10-31T14:37:06.920Z · exit 0 · /usr/bin/python3 /Users/arnelaponin/Documents/Dev/wai-demo/mini-registry/_working/round-02-groundwork/_evidence/check_groundwork.py a5 · traced in full: a Python program and the Python programs it starts
+run 8 · 2026-10-31T14:37:21.168Z to 2026-10-31T14:37:21.729Z · exit 1 · /usr/bin/python3 /Users/arnelaponin/Library/Application Support/Claude/local-agent-mode-sessions/ffbe2f0e-bc4b-46d3-ad76-b08a7882aae9/7bbcb800-2754-4c5e-97ea-ccb874ea3fee/rpm/plugin_018SiGJfFaxxAvevS4xGQJgb/skills/orchestrator/scripts/placement_check.py --constants /Users/arnelaponin/Documents/Dev/wai-demo/mini-registry/CONSTANTS.md /Users/arnelaponin/Documents/Dev/wai-demo/mini-registry/_prompts/PROMPT_GROUNDWORK_2026-10-31.md · traced in full: a Python program and the Python programs it starts
+
+## 4. Findings — 10
+read, not on the start list (no checksum at the start): /CONSTANTS.md
+read, not on the start list (no checksum at the start): /Users/CONSTANTS.md
+read, not on the start list (no checksum at the start): /Users/arnelaponin/CONSTANTS.md
+read, not on the start list (no checksum at the start): /Users/arnelaponin/Documents/CONSTANTS.md
+read, not on the start list (no checksum at the start): /Users/arnelaponin/Documents/Dev/CONSTANTS.md
+read, not on the start list (no checksum at the start): /Users/arnelaponin/Documents/Dev/wai-demo/CONSTANTS.md
+read, not on the start list (no checksum at the start): /Users/arnelaponin/Library/Application Support/Claude/local-agent-mode-sessions/ffbe2f0e-bc4b-46d3-ad76-b08a7882aae9/7bbcb800-2754-4c5e-97ea-ccb874ea3fee/rpm/plugin_018SiGJfFaxxAvevS4xGQJgb/skills/orchestrator/scripts/guard_log.py
+read, not on the start list (no checksum at the start): /Users/arnelaponin/Library/Application Support/Claude/local-agent-mode-sessions/ffbe2f0e-bc4b-46d3-ad76-b08a7882aae9/7bbcb800-2754-4c5e-97ea-ccb874ea3fee/rpm/plugin_018SiGJfFaxxAvevS4xGQJgb/skills/orchestrator/scripts/ledger.py
+read, not on the start list (no checksum at the start): /Users/arnelaponin/Library/Application Support/Claude/local-agent-mode-sessions/ffbe2f0e-bc4b-46d3-ad76-b08a7882aae9/7bbcb800-2754-4c5e-97ea-ccb874ea3fee/rpm/plugin_018SiGJfFaxxAvevS4xGQJgb/skills/orchestrator/scripts/placement_check.py
+read, not on the start list (no checksum at the start): /Users/arnelaponin/_coordination/CONSTANTS.md
+

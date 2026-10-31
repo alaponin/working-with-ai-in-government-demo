@@ -1,0 +1,6 @@
+$ date -u; write the window line into the report; stat the report
+close read: 2026-10-31 13:34:31 UTC
+window: 2026-10-31 13:25:50 UTC to 2026-10-31 13:34:31 UTC — opened at the round's first command (`date -u; hostname`), closed at this line's own write, the report's last; read by `date -u` and `stat` in one command, because `round_record.py window` needs a started entry in the ledger and this estate has none; the command and its output kept in /Users/arnelaponin/Documents/Dev/wai-demo/mini-registry/_working/round-01b-gaps/_evidence/record/window.out
+2026-10-31 15:34:31 15301 bytes /Users/arnelaponin/Documents/Dev/wai-demo/mini-registry/_reports/REPORT_GAPS_2026-10-31.md
+2026-10-31 13:34:31 UTC
+0bfa540084b20320ab49a443e419a4874aafc6c240f0a951c513f72f32c14c73  /Users/arnelaponin/Documents/Dev/wai-demo/mini-registry/_reports/REPORT_GAPS_2026-10-31.md

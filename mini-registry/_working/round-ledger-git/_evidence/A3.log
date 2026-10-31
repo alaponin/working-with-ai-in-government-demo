@@ -1,0 +1,7 @@
+Sat Oct 31 14:17:58 UTC 2026
+$ git -C /Users/arnelaponin/Documents/Dev/wai-demo/_coordination status --porcelain
+exit 0
+$ git -C /Users/arnelaponin/Documents/Dev/wai-demo/_coordination status --porcelain --ignored
+!! MEASURES.md
+!! WHO.html
+exit 0

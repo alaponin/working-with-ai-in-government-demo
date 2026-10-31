@@ -1,0 +1,17 @@
+2026-10-31T19:39:31Z
+src/server.js 3661 bytes sha256 f1e54e4fa0364985170b2f3322787fd36225e4011937911774d86658a2c490b0
+src/lib/enrol.js 5324 bytes sha256 378230f1b2f82d68ba94ec85acaa5c55d4981deb88124556ab625f4ede5b8a31
+src/lib/screens.js 4703 bytes sha256 446a49e6567b3adc57df514416f2bbf5ad3551cfcd38bbeeccdac82e899dfa0b
+src/test/goal.test.js 18739 bytes sha256 afbf7a8a03f8230fe5e8054d4767f426490caccc6e280b1356d5aca94d67a1e8
+src/test/requirements.test.js 17719 bytes sha256 3a095ee99b35c196712017edcd9f968e8808fedd7bfd96d8e579a07c3825d8a2
+src/package.json 286 bytes sha256 61bd479d6b29fb2018cfefc2cac6ab59cf47ac4adf0e91f2458e548b6f8983ca
+drwxr-xr-x@ 9 arnelaponin  staff  288 Oct 31 21:38 /Users/arnelaponin/Documents/Dev/wai-demo/mini-registry/src
+exit 0
+drwxr-xr-x@ 9 arnelaponin  staff  288 Oct 31 21:33 /Users/arnelaponin/Documents/Dev/wai-demo/mini-registry/src/lib
+exit 0
+drwxr-xr-x@ 7 arnelaponin  staff  224 Oct 31 21:36 /Users/arnelaponin/Documents/Dev/wai-demo/mini-registry/src/test
+exit 0
+drwxr-xr-x@ 25 arnelaponin  staff  800 Oct 31 21:39 /Users/arnelaponin/Documents/Dev/wai-demo/mini-registry/_working/round-06-build/_evidence
+exit 0
+drwxr-xr-x@ 22 arnelaponin  staff  704 Oct 31 21:32 /Users/arnelaponin/Documents/Dev/wai-demo/mini-registry/_reports
+exit 0

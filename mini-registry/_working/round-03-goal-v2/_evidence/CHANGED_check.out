@@ -1,0 +1,23 @@
+S-1   changed: The clerk, The registry
+S-2   changed: Source, The clerk, The registry
+S-3   changed: Screen, Source, The clerk, The registry, heading
+S-4   changed: Source, The clerk, The registry
+S-5   changed: The clerk
+S-6   changed: Source, The clerk, The registry
+S-7   changed: Source, The registry
+F-1   changed: At step, Source, What is saved, What sets it off, What the clerk sees
+F-2   changed: What is saved, What the clerk sees
+F-3   changed: At step, Source, What is saved, What sets it off, What the clerk sees
+F-4   changed: Source, What sets it off, What the clerk sees
+F-5   changed: Source, What is saved, What sets it off, What the clerk sees
+SC-1  changed: Named by, Shows
+SC-2  unchanged
+SC-3  unchanged
+SC-4  changed: Named by, Shows, heading
+SC-5  changed: Named by, Shows, heading
+SC-6  removed
+SC-7  removed
+steps: 7 in either version; changed 7, unchanged 0, added 0, removed 0
+failures: 5 in either version; changed 5, unchanged 0, added 0, removed 0
+screens: 7 in either version; changed 3, unchanged 2, added 0, removed 2
+gaps: version 1 11, version 2 13

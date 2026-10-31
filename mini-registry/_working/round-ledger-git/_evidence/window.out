@@ -1,0 +1,4 @@
+$ date -u; stat (after writing the window line)
+Sat Oct 31 14:19:13 UTC 2026
+2026-10-31 16:19:13 EET 9629 /Users/arnelaponin/Documents/Dev/wai-demo/mini-registry/_reports/REPORT_LEDGER_GIT_2026-10-31.md
+fa0e3e532b6a0a7e0fbf9c1d85e89b469a9b1cda7ca8b7a34c1d5d2a3f1f6bd3  /Users/arnelaponin/Documents/Dev/wai-demo/mini-registry/_reports/REPORT_LEDGER_GIT_2026-10-31.md

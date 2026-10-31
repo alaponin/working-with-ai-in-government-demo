@@ -1,0 +1,7 @@
+# A6 2026-10-31T18:02:48Z
+$ /usr/bin/python3 -B _working/round-03b-goalq/_evidence/check_paper.py /Users/arnelaponin/Documents/Dev/wai-demo/mini-registry A6
+goal's steps, failures, screens: 17 ['S-1', 'S-2', 'S-3', 'S-4', 'S-5', 'S-6', 'S-7', 'F-1', 'F-2', 'F-3', 'F-4', 'F-5', 'SC-1', 'SC-2', 'SC-3', 'SC-4', 'SC-5']
+rows of Taken together: 17
+0 missing, 0 extra
+screens in the final list: 5 ; without R-17's line: 0
+exit=0

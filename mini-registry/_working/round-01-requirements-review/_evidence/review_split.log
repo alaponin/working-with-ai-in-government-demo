@@ -1,0 +1,74 @@
+$ date -u: 2026-10-31 13:15:10 UTC
+$ /usr/bin/python3 -I -B review_split.py <brief> <SENTENCES.md> <REQUIREMENTS.md>
+reviewer's units (sentences, list-item sentences, data rows; no headings): 26
+reviewer's units marked requirement: 23; not: 3
+round's inventory units: 29; marked requirement: 20
+round's register requirements: 23
+
+== reviewer's units, row by row, against the inventory and the register ==
+L7   N | Progressa's Ministry of Education, Youth | inv U-02 (not a requirement) | reg -
+L7   R | Before anyone builds the real thing, the | inv U-03 (requirement) | reg R-01
+L7   N | The prototype is for agreement.          | inv U-04 (not a requirement) | reg -
+L7   N | It is not the registry.                  | inv U-05 (not a requirement) | reg -
+L11  R | One goal: **enrol a learner.             | inv U-07 (requirement) | reg R-02
+L11  R | A school clerk enters a child's family n | inv U-08 (requirement) | reg R-03
+L11  R | The registry searches for the child firs | inv U-09 (requirement) | reg R-04
+L13  R | if it finds exactly one learner with the | inv U-10 (requirement) | reg R-05
+L14  R | if it finds none, it gives the child a n | inv U-11 (requirement) | reg R-06
+L15  R | the clerk sees which of the two happened | inv U-12 (requirement) | reg R-07
+L19  R | The prototype starts with invented child | inv U-14 (requirement) | reg R-08
+L23  R | | Children | 60 |                        | inv U-16 (requirement) | reg R-09
+L24  R | | Schools | 3 |                          | inv U-17 (requirement) | reg R-10
+L25  R | | Children on more than one list | 8 |   | inv U-18 (requirement) | reg R-11
+L26  R | | Of those, children whose family name i | inv U-19 (requirement) | reg R-12
+L27  R | | Ages | 6 to 12 |                       | inv U-20 (requirement) | reg R-13
+L29  R | The numbers are fixed so that every late | inv U-21 (requirement) | reg R-14
+L29  R | The data is made the same way every time | inv U-22 (requirement) | reg R-15
+L33  R | Hold any real person's data.             | inv U-24 (requirement) | reg R-16,R-17
+L33  R | Every screen says "Invented data, Progre | inv U-24 (requirement) | reg R-16,R-17
+L34  R | Connect to anything outside your compute | inv U-25 (requirement) | reg R-18,R-19
+L34  R | Other bodies, if the project needs them, | inv U-25 (requirement) | reg R-18,R-19
+L35  R | Open a window on its own.                | inv U-26 (requirement) | reg R-20,R-21
+L35  R | Every check of the screens runs without  | inv U-26 (requirement) | reg R-20,R-21
+L39  R | The working prototype, on your computer, | inv U-28 (requirement) | reg R-22
+L40  R | A one-page note to the Permanent Secreta | inv U-29 (requirement) | reg R-23
+reviewer's units missing from the inventory: 0
+reviewer's requirement units with no R-: 0
+dispositions differing: 0
+
+== the other way: inventory units and R- numbers not matched by a reviewer's unit ==
+  inventory U-01 line 5 heading (not a requirement): no reviewer's unit — What it is for
+  inventory U-06 line 9 heading (not a requirement): no reviewer's unit — What it must do
+  inventory U-13 line 17 heading (not a requirement): no reviewer's unit — The made-up data, in known numbers
+  inventory U-15 line 21 table row (not a requirement): no reviewer's unit — | Setting | Value |
+  inventory U-23 line 31 heading (not a requirement): no reviewer's unit — What it must not do
+  inventory U-27 line 37 heading (not a requirement): no reviewer's unit — What it delivers
+inventory units with no reviewer's unit: 6 (of which marked requirement: 0)
+R- numbers resting on no reviewer's requirement unit: 0 []
+
+== every requirement looked up at its line in the brief ==
+  R-01 line 7 quote at that line: yes
+  R-02 line 11 quote at that line: yes
+  R-03 line 11 quote at that line: yes
+  R-04 line 11 quote at that line: yes
+  R-05 line 13 quote at that line: yes
+  R-06 line 14 quote at that line: yes
+  R-07 line 15 quote at that line: yes
+  R-08 line 19 quote at that line: yes
+  R-09 line 23 quote at that line: yes
+  R-10 line 24 quote at that line: yes
+  R-11 line 25 quote at that line: yes
+  R-12 line 26 quote at that line: yes
+  R-13 line 27 quote at that line: yes
+  R-14 line 29 quote at that line: yes
+  R-15 line 29 quote at that line: yes
+  R-16 line 33 quote at that line: yes
+  R-17 line 33 quote at that line: yes
+  R-18 line 34 quote at that line: yes
+  R-19 line 34 quote at that line: yes
+  R-20 line 35 quote at that line: yes
+  R-21 line 35 quote at that line: yes
+  R-22 line 39 quote at that line: yes
+  R-23 line 40 quote at that line: yes
+quotes not at their cited line: 0
+exit=0

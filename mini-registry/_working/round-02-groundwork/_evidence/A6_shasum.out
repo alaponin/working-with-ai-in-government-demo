@@ -1,0 +1,6 @@
+Sat Oct 31 14:37:20 UTC 2026
+$ shasum -a 256 brief/MINI-REGISTRY-BRIEF.md mini-registry/docs/REQUIREMENTS.md mini-registry/docs/GAPS-PAPER.md
+ec6971e74a6a8387de0e5bd7a5e1cdead6ddf711b8fdac3ccc1d4b7555e11f64  brief/MINI-REGISTRY-BRIEF.md
+ad583b3958fb5c5fdf6683b5c2487b6f0c425d66cebc7c46811e2e19af13f103  mini-registry/docs/REQUIREMENTS.md
+d03db64c6e49a1b92467c1e6e19929c321964bd89f6cb715d15dd570f37bc8bb  mini-registry/docs/GAPS-PAPER.md
+EXIT=0

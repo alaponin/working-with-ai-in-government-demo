@@ -1,0 +1,30 @@
+2026-10-31T19:40:26Z
+$ cat _working/round-kind-item/_evidence/A3_diff.txt   (version 1's diff, quoted)
+2026-10-31T19:30:07Z
+$ diff _working/round-kind-item/_evidence/analysis.before.md _kinds/analysis.md
+25a26
+> - Where the questions depend on one another, the instruction asks for every dependency, listed from every proposal's words and declared both ways, and for every rival judged under the other questions' recommendations, with a run that builds each rival beside them and reads it against the ruled settings and the other recommendations' words, not the counts alone. *(Added 31 October 2026 from the reviews `_reviews/REVIEW_QUESTIONS_2026-10-31.md`, gap G1, and `_reviews/REVIEW_QUESTIONS_2026-10-31_v2.md`, gap G1.)*
+exit=1
+$ diff ... | grep -c '^<'  (removed lines)
+0
+$ diff ... | grep -c '^>'  (added lines)
+1
+$ added lines ending with *(Added ... )*:
+1
+be2fdb717015c8ce4e04bdb12df0cd4c4944a4cffa55458f102077774b172ad4  _kinds/analysis.md
+      26    3350 _kinds/analysis.md
+2026-10-31T19:30:07Z
+$ shasum -a 256 _kinds/analysis.md _working/round-kind-item/_evidence/analysis.before.md
+be2fdb717015c8ce4e04bdb12df0cd4c4944a4cffa55458f102077774b172ad4  _kinds/analysis.md
+a5054bec7db874e744d0f042f348d099378b2cf0c6c6cedd027f0329843f7514  _working/round-kind-item/_evidence/analysis.before.md
+$ diff _working/round-kind-item/_evidence/analysis.before.md _kinds/analysis.md   (run again now)
+25a26
+> - Where the questions depend on one another, the instruction asks for every dependency, listed from every proposal's words and declared both ways, and for every rival judged under the other questions' recommendations, with a run that builds each rival beside them and reads it against the ruled settings and the other recommendations' words, not the counts alone. *(Added 31 October 2026 from the reviews `_reviews/REVIEW_QUESTIONS_2026-10-31.md`, gap G1, and `_reviews/REVIEW_QUESTIONS_2026-10-31_v2.md`, gap G1.)*
+exit=1
+$ diff ... | grep -c '^<'  (removed)
+0
+$ diff ... | grep -c '^>'  (added)
+1
+$ stat -f '%Sm %z' -t '%FT%TZ' (TZ=UTC) _kinds/analysis.md
+2026-10-31T19:29:59Z 3350
+2026-10-31T19:40:26Z

@@ -1,0 +1,25 @@
+Sat Oct 31 13:39:22 UTC 2026
+$ /usr/bin/python3 -I e4_figures.py
+entries: 68
+children (distinct keys): 60
+learners after reset: 64
+of the 8 on two lists, held as one learner (caught): 4
+exit=0
+$ grep -n the figures in the paper
+27:| G-04 | 60 different children; the entries counted apart — 68, if each of the 8 is on exactly two lists |
+38:The thirteen fit together: G-03, G-04 and G-05 together give round 7 a known answer before it runs — **4 of the 8 caught** — and give round 5 a known number 
+115:| (c) known numbers | learners after reset: 0 | learners after reset: 60 plus the duplicates the rule misses — known once G-05 is ruled (64 under its recomm
+138:| (c) known numbers | children 60; entries 60 plus the extra appearances of the 8 — 68 if each is on exactly two lists | entries 60; the number of children 
+141:**Recommendation — a proposal for the owner's ruling, not a decision.** We recommend Position A: 60 is the number of different children, and round 2 also fi
+169:**Recommendation — a proposal for the owner's ruling, not a decision.** We recommend Position A, with three settings for round 2: a family name "spelt diffe
+exit=0
+$ the analysis words in the paper: seed, refusal
+33:| G-10 | Evidence by construction: a generator in the source, a fixed seed, and the reset's reads recorded |
+57:**Position C — a random number.** An opaque number drawn at random, which can never be guessed and never collides in practice. It stands beside the brief's line 29, «The data is made the same way e
+83:**Position B — kept from arising, and refused if it does.** The registry holds at most one learner for any family name, given names and date of birth, capitals ignored: a learner is only ever added
+92:**Recommendation — a proposal for the owner's ruling, not a decision.** We recommend Position B: the registry and the made-up data are kept so that no two learners share family name, given names an
+250:**Position A — every view the clerk can see.** The entry form, the result after a new learner, the result after a found learner and every refusal or message are screens. Each is shown as a whole p
+276:**Position A — evidence by construction, recorded.** The data is made only by a generator in the prototype's source, from name parts written in that source and a fixed seed; the reset reads no fil
+285:| (d) rounds 5 to 7 | round 5 writes the generator and its seed; the same seed gives line 29's same data | round 5 adds the statement |
+287:**Recommendation — a proposal for the owner's ruling, not a decision.** We recommend Position A: the data is made only by a generator in the prototype's source from invented name parts and a fixed
+288:*Ground:* it is the only position that R-16's test can pass or fail by a program, and its fixed seed is what line 29 asks anyway.

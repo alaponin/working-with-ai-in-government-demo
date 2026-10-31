@@ -1,0 +1,27 @@
+Sat Oct 31 13:32:34 UTC 2026
+$ round_record.py run -- /usr/bin/python3 check_paper.py <root> QUESTIONS.md docs/GAPS-PAPER.md
+A2: questions listed 13, sections in the paper 13
+A2: 0 unanswered, 0 extra
+A3: passages quoted 49
+A3: 0 not found, 0 wrong line
+A4: question positions table-rows recommendations
+  G-01 3 4 1
+  G-02 2 4 1
+  G-03 3 4 1
+  G-04 2 4 1
+  G-05 3 4 1
+  G-06 2 4 1
+  G-07 2 4 1
+  G-08 2 4 1
+  G-09 2 4 1
+  G-10 2 4 1
+  G-11 2 4 1
+  G-12 2 4 1
+  G-13 2 4 1
+A4: questions short of 2 positions, 4 rows (a)-(d) or 1 recommendation: 0
+A5: lines closing G-14 with the brief's line 13 quoted: 1
+A5: sections headed G-14: 0
+A5: recommendation sentences naming anything a search could forgive (read each):
+  G-05: 'spelt'
+decision wording ('the registry will', 'we decide', 'is decided'): 0
+exit=0

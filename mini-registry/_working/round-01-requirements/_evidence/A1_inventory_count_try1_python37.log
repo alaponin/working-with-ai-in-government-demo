@@ -1,0 +1,13 @@
+$ date -u; python3 -B round_record.py run --record /Users/arnelaponin/Documents/Dev/wai-demo/mini-registry/_working/round-01-requirements/_evidence/record python3 /Users/arnelaponin/Documents/Dev/wai-demo/mini-registry/_working/round-01-requirements/_evidence/split_units.py <brief> /Users/arnelaponin/Documents/Dev/wai-demo/mini-registry/_working/round-01-requirements/_evidence/dispositions.tsv /Users/arnelaponin/Documents/Dev/wai-demo/mini-registry/_working/round-01-requirements/_evidence/SENTENCES.md
+Sat Oct 31 13:07:45 UTC 2026
+Error in sitecustomize; set PYTHONVERBOSE for traceback:
+AttributeError: module 'sys' has no attribute 'addaudithook'
+units: 29
+marked requirement: 20
+marked not a requirement: 9
+exit=0
+$ grep -c '^### U-' SENTENCES.md
+29
+$ grep -c '^### U-.* · requirement$' SENTENCES.md
+20
+Sat Oct 31 13:07:46 UTC 2026

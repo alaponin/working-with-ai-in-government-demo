@@ -1,0 +1,3 @@
+The day's work of 31 October 2026 since 42cfa12, committed at the owner's word (D-2026-10-31-10, "Commit both now")
+
+The ledger entries and guard records written since 42cfa12.

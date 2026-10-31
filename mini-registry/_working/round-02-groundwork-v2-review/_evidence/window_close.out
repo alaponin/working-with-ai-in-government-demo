@@ -1,0 +1,5 @@
+2026-10-31T15:02:23Z
+$ sed -i '' s/WINDOW_CLOSE/2026-10-31 15:02:23 UTC/ /Users/arnelaponin/Documents/Dev/wai-demo/mini-registry/_reviews/REVIEW_GROUNDWORK_2026-10-31_v2.md
+EXIT=0
+window: 2026-10-31 14:57:49 UTC to 2026-10-31 15:02:23 UTC — opened at `date -u; hostname`, closed at this file's last write (this line's substitution, its command and output kept in /Users/arnelaponin/Documents/Dev/wai-demo/mini-registry/_working/round-02-groundwork-v2-review/_evidence/window_close.out); no pause
+last modified 15:02:23, 13432 bytes

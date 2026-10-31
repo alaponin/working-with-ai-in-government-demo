@@ -1,0 +1,71 @@
+2026-10-31T21:20:48Z
+# stat (UTC): the lists against the note
+2026-10-31T21:19:03Z LIMITS.md
+2026-10-31T21:20:32Z CLAIMS.md
+2026-10-31T21:20:12Z /Users/arnelaponin/Documents/Dev/wai-demo/mini-registry/docs/NOTE.md
+2026-10-31T21:20:32Z PAIRS.md
+# K41c was appended to CLAIMS.md after the note's change; every other row before it (see the report)
+K01a  found     mini-registry/CONSTANTS.md:29  «the Permanent Secretary receives the note»
+K01b  found     brief/MINI-REGISTRY-BRIEF.md:40  «A one-page note to the Permanent Secretary: what the prototype shows, and what it does not»
+K02   found     brief/MINI-REGISTRY-BRIEF.md:7  «Progressa's Ministry of Education, Youth and Skills»
+K03   found     brief/MINI-REGISTRY-BRIEF.md:7  «a school clerk enrols a child, and the registry does not register the same child twice»
+K04   found     brief/MINI-REGISTRY-BRIEF.md:13  «if it finds exactly one learner with the same family name, given names and date of birth (»
+K05   found     mini-registry/docs/DUPLICATES.md:26  «Each missed child is held twice, under two learner numbers.»
+K06   found     brief/MINI-REGISTRY-BRIEF.md:7  «wants one list of learners instead of three»
+K07   found     brief/MINI-REGISTRY-BRIEF.md:7  «Before anyone builds the real thing, the planning unit wants to see a small working protot»
+K08   found     brief/MINI-REGISTRY-BRIEF.md:11  «A school clerk enters a child's family name, given names, date of birth and school.»
+K09   found     brief/MINI-REGISTRY-BRIEF.md:11  «The registry searches for the child first»
+K10   found     brief/MINI-REGISTRY-BRIEF.md:14  «if it finds none, it gives the child a new learner number and saves the record»
+K11   found     brief/MINI-REGISTRY-BRIEF.md:15  «the clerk sees which of the two happened»
+K12a  found     mini-registry/docs/GOAL-QUESTIONS-PAPER.md:297  «before the search (Q-7), holds: all four entered, spaces only missing (Q-4, Q-5); the date»
+K12b  found     mini-registry/docs/GOAL-QUESTIONS-PAPER.md:154  «such a school is refused on SC-4»
+K13a  found     mini-registry/docs/GOAL-QUESTIONS-PAPER.md:297  «every fault found (Q-9)»
+K13b  found     mini-registry/docs/GOAL-QUESTIONS-PAPER.md:192  «each refusal names its fault»
+K14   found     mini-registry/_reviews/REVIEW_BUILD_2026-10-31_v2.md:69  «nothing saved (Q-7)»
+K15   found     brief/MINI-REGISTRY-BRIEF.md:39  «The working prototype, on your computer, with its checks passing.»
+K16a  found     brief/MINI-REGISTRY-BRIEF.md:34  «Connect to anything outside your computer.»
+K16b  found     mini-registry/_reviews/REVIEW_BUILD_2026-10-31_v2.md:28  «A6 — nothing connects, nothing opens | met»
+K17   found     mini-registry/_reviews/REVIEW_BUILD_2026-10-31_v2.md:24  «`# fail 0`»
+K18a  found     brief/MINI-REGISTRY-BRIEF.md:35  «Open a window on its own. Every check of the screens runs without one.»
+K18b  found     mini-registry/_reviews/REVIEW_BUILD_2026-10-31_v2.md:33  «windows added: 0»
+K19a  found     brief/MINI-REGISTRY-BRIEF.md:23  «Children | 60»
+K19b  found     brief/MINI-REGISTRY-BRIEF.md:24  «Schools | 3»
+K20   found     brief/MINI-REGISTRY-BRIEF.md:19  «The prototype starts with invented children spread over three lists: the school census, th»
+K21a  found     brief/MINI-REGISTRY-BRIEF.md:25  «Children on more than one list | 8»
+K21b  found     mini-registry/docs/DUPLICATES.md:13  «8 children, each on exactly two entries»
+K22   found     mini-registry/docs/DUPLICATES.md:26  «Each of the four missed differs in its family name by one letter and in nothing else»
+K23   found     mini-registry/docs/DUPLICATES.md:5  «The search catches 4 of the 8.»
+K24a  found     mini-registry/docs/DUPLICATES.md:26  «each of the four caught matches on all three fields letter for letter»
+K24b  found     mini-registry/docs/DUPLICATES.md:13  «A child is **caught** where both its entries point to one learner»
+K25   found     mini-registry/docs/DUPLICATES.md:26  «Each missed child is held twice, under two learner numbers.»
+K26   found     mini-registry/docs/GOAL.md:39  «every difference but capitals makes two values differ»
+K27   found     mini-registry/docs/GOAL.md:105  «This is a limit of the search step, the brief's own rule»
+K28   found     mini-registry/docs/DUPLICATES.md:28  «it does not show how the real registry would fare on real lists, for the data is invented »
+K29   found     brief/MINI-REGISTRY-BRIEF.md:7  «The prototype is for agreement. It is not the registry.»
+K30   found     mini-registry/docs/GOAL.md:7  «there is no screen for looking learners up»
+K31a  found     brief/MINI-REGISTRY-BRIEF.md:3  «Everything in it is invented for Progressa, the fictional country»
+K31b  found     brief/MINI-REGISTRY-BRIEF.md:33  «Every screen says "Invented data, Progressa is fictional".»
+K31c  found     mini-registry/_reviews/REVIEW_BUILD_2026-10-31_v2.md:69  «R-17's line on the screen»
+K32   found     brief/MINI-REGISTRY-BRIEF.md:34  «Other bodies, if the project needs them, are simulated.»
+K33a  found     mini-registry/docs/GOAL-QUESTIONS-PAPER.md:259  «the child is shown as the learner on SC-2, nothing saved»
+K33b  found     _coordination/_ledger/20261031T181936Z_MR_ruled_D-2026-10-31-07.yaml:8  «Rule all 13 as recommended»
+K34   found     mini-registry/docs/GOAL.md:95  «no two different children share all three fields»
+K35   found     _coordination/_ledger/20261031T195657Z_MR_ruled_D-2026-10-31-11.yaml:8  «let's currently go with simplest approaches»
+K36a  found     mini-registry/_reviews/REVIEW_BUILD_2026-10-31_v2.md:104  «Q-4 (any whitespace read as "spaces")»
+K36b  found     mini-registry/docs/GOAL-QUESTIONS-PAPER.md:115  «spaces only are an entry missing»
+K37   found     mini-registry/_reviews/REVIEW_BUILD_2026-10-31_v2.md:104  «Q-6 with Q-8 (a fourth school lost on the way back)»
+K38a  found     mini-registry/docs/GOAL-QUESTIONS-PAPER.md:305  «SC-5 also says nothing was saved»
+K38b  found     mini-registry/docs/GOAL.md:95  «Under the data's settings it is never reached»
+K38c  found     mini-registry/_reviews/REVIEW_BUILD_2026-10-31_v2.md:82  «F-4's check writes its own record»
+K32b  found     mini-registry/docs/GAPS-PAPER.md:36  «None: the three lists are data inside the prototype, not bodies it connects to»
+K39a  found     mini-registry/docs/GOAL.md:32  «a date in any other form is refused (F-2)»
+K39b  found     mini-registry/docs/GAPS-PAPER.md:32  «Date as YYYY-MM-DD»
+K40a  found     mini-registry/docs/GOAL-QUESTIONS-PAPER.md:115  «We recommend no length and no character refused»
+K40b  found     _coordination/_ledger/20261031T141251Z_MR_ruled_D-2026-10-31-03.yaml:8  «Rule all 13 as recommended»
+K41a  found     mini-registry/docs/GAPS-PAPER.md:196  «so none of the 8 differs in capitals only»
+K41b  found     mini-registry/docs/DUPLICATES.md:26  «each of the four caught matches on all three fields letter for letter, in the same capital»
+K41c  found     mini-registry/docs/GAPS-PAPER.md:179  «so that line 13's «(capitals ignored)» is exercised by the data»
+claims: 60 rows, 0 not found
+note: 36 sentences; pairs: 36 rows; unpaired 0, mismatched 0, unknown claims 0, extra pairs 0
+0 not found
+A1 EXIT=0

@@ -1,0 +1,7 @@
+Sat Oct 31 14:17:58 UTC 2026
+$ diff before.sha256 after.sha256
+7a8
+> bbae7c1432ac774bc1d25b34352fdb846e02440405c001e483c1179f614a034d  _ledger/README.md
+exit 1
+$ diff before_other.sha256 after_other.sha256
+exit 0

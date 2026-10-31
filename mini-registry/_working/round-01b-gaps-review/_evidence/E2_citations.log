@@ -1,0 +1,110 @@
+Sat Oct 31 13:38:01 UTC 2026
+$ /usr/bin/python3 -I e2_citations.py /Users/arnelaponin/Documents/Dev/wai-demo/mini-registry
+## 1. passages: paper line | section | source:line | found at named line
+paper:9 | head | brief:7 | yes
+paper:10 | head | brief:33 | yes
+paper:10 | head | brief:34 | yes
+paper:10 | head | brief:35 | yes
+paper:11 | head | brief:29 | yes
+paper:12 | head | brief:52 | yes
+paper:12 | head | brief:53 | yes
+paper:12 | head | brief:54 | yes
+paper:14 | head | brief:13 | yes
+paper:18 | head | brief:13 | yes
+paper:47 | G-01 | brief:14 | yes
+paper:48 | G-01 | brief:29 | yes
+paper:49 | G-01 | register:93 | yes
+paper:74 | G-02 | brief:13 | yes
+paper:75 | G-02 | brief:14 | yes
+paper:76 | G-02 | brief:15 | yes
+paper:77 | G-02 | brief:7 | yes
+paper:100 | G-03 | brief:7 | yes
+paper:101 | G-03 | brief:13 | yes
+paper:102 | G-03 | brief:19 | yes
+paper:103 | G-03 | brief:54 | yes
+paper:126 | G-04 | brief:19 | yes
+paper:127 | G-04 | brief:23 | yes
+paper:128 | G-04 | brief:25 | yes
+paper:149 | G-05 | brief:25 | yes
+paper:150 | G-05 | brief:26 | yes
+paper:151 | G-05 | brief:54 | yes
+paper:152 | G-05 | register:173 | yes
+paper:177 | G-06 | brief:27 | yes
+paper:178 | G-06 | brief:29 | yes
+paper:201 | G-07 | brief:11 | yes
+paper:202 | G-07 | brief:13 | yes
+paper:203 | G-07 | brief:24 | yes
+paper:224 | G-08 | brief:11 | yes
+paper:225 | G-08 | brief:13 | yes
+paper:226 | G-08 | brief:29 | yes
+paper:247 | G-09 | brief:33 | yes
+paper:248 | G-09 | brief:35 | yes
+paper:269 | G-10 | brief:3 | yes
+paper:270 | G-10 | brief:19 | yes
+paper:271 | G-10 | brief:33 | yes
+paper:272 | G-10 | brief:29 | yes
+paper:295 | G-11 | brief:19 | yes
+paper:296 | G-11 | brief:34 | yes
+paper:317 | G-12 | brief:39 | yes
+paper:318 | G-12 | brief:50 | yes
+paper:319 | G-12 | brief:51 | yes
+paper:340 | G-13 | brief:40 | yes
+paper:341 | G-13 | brief:55 | yes
+passages 49: at the named line 49, elsewhere 0, nowhere 0
+
+## 2. bare 'line N' references, with the brief's line N
+paper:57 line 29 -> The numbers are fixed so that every later count has a known answer. The data is made the same way every time i
+paper:63 line 29 -> The numbers are fixed so that every later count has a known answer. The data is made the same way every time i
+paper:79 line 15 -> - the clerk sees which of the two happened.
+paper:83 line 14 -> - if it finds none, it gives the child a new learner number and saves the record;
+paper:87 line 15 -> - the clerk sees which of the two happened.
+paper:93 line 7 -> Progressa's Ministry of Education, Youth and Skills (MoEYS) wants one list of learners instead of three. Befor
+paper:93 line 15 -> - the clerk sees which of the two happened.
+paper:105 line 14 -> - if it finds none, it gives the child a new learner number and saves the record;
+paper:107 line 13 -> - if it finds exactly one learner with the same family name, given names and date of birth (capitals ignored),
+paper:107 line 7 -> Progressa's Ministry of Education, Youth and Skills (MoEYS) wants one list of learners instead of three. Befor
+paper:107 line 13 -> - if it finds exactly one learner with the same family name, given names and date of birth (capitals ignored),
+paper:119 line 7 -> Progressa's Ministry of Education, Youth and Skills (MoEYS) wants one list of learners instead of three. Befor
+paper:119 line 13 -> - if it finds exactly one learner with the same family name, given names and date of birth (capitals ignored),
+paper:130 line 19 -> The prototype starts with invented children spread over three lists: the school census, the examinations autho
+paper:142 line 25 -> | Children on more than one list | 8 |
+paper:160 line 13 -> - if it finds exactly one learner with the same family name, given names and date of birth (capitals ignored),
+paper:164 line 13 -> - if it finds exactly one learner with the same family name, given names and date of birth (capitals ignored),
+paper:170 line 13 -> - if it finds exactly one learner with the same family name, given names and date of birth (capitals ignored),
+paper:190 line 29 -> The numbers are fixed so that every later count has a known answer. The data is made the same way every time i
+paper:191 line 29 -> The numbers are fixed so that every later count has a known answer. The data is made the same way every time i
+paper:194 line 29 -> The numbers are fixed so that every later count has a known answer. The data is made the same way every time i
+paper:205 line 11 -> One goal: **enrol a learner.** A school clerk enters a child's family name, given names, date of birth and sch
+paper:205 line 13 -> - if it finds exactly one learner with the same family name, given names and date of birth (capitals ignored),
+paper:213 line 24 -> | Schools | 3 |
+paper:217 line 11 -> One goal: **enrol a learner.** A school clerk enters a child's family name, given names, date of birth and sch
+paper:228 line 13 -> - if it finds exactly one learner with the same family name, given names and date of birth (capitals ignored),
+paper:234 line 11 -> One goal: **enrol a learner.** A school clerk enters a child's family name, given names, date of birth and sch
+paper:240 line 11 -> One goal: **enrol a learner.** A school clerk enters a child's family name, given names, date of birth and sch
+paper:257 line 33 -> - Hold any real person's data. Every screen says "Invented data, Progressa is fictional".
+paper:262 line 33 -> - Hold any real person's data. Every screen says "Invented data, Progressa is fictional".
+paper:274 line 33 -> - Hold any real person's data. Every screen says "Invented data, Progressa is fictional".
+paper:283 line 33 -> - Hold any real person's data. Every screen says "Invented data, Progressa is fictional".
+paper:283 line 33 -> - Hold any real person's data. Every screen says "Invented data, Progressa is fictional".
+paper:285 line 29 -> The numbers are fixed so that every later count has a known answer. The data is made the same way every time i
+paper:288 line 29 -> The numbers are fixed so that every later count has a known answer. The data is made the same way every time i
+paper:298 line 19 -> The prototype starts with invented children spread over three lists: the school census, the examinations autho
+paper:305 line 34 -> - Connect to anything outside your computer. Other bodies, if the project needs them, are simulated.
+paper:310 line 19 -> The prototype starts with invented children spread over three lists: the school census, the examinations autho
+
+## 3. register lines (outside the gaps section) naming each question, and register passages the paper's section quotes
+G-01: register lines naming it [91]; register passages quoted in its section: 1
+G-02: register lines naming it [80]; register passages quoted in its section: 0
+G-03: register lines naming it [91]; register passages quoted in its section: 0
+G-04: register lines naming it [133]; register passages quoted in its section: 0
+G-05: register lines naming it [159]; register passages quoted in its section: 1
+G-06: register lines naming it [185]; register passages quoted in its section: 0
+G-07: register lines naming it [53]; register passages quoted in its section: 0
+G-08: register lines naming it [40]; register passages quoted in its section: 0
+G-09: register lines naming it [238]; register passages quoted in its section: 0
+G-10: register lines naming it [227]; register passages quoted in its section: 0
+G-11: register lines naming it [264]; register passages quoted in its section: 0
+G-12: register lines naming it [305]; register passages quoted in its section: 0
+G-13: register lines naming it [319]; register passages quoted in its section: 0
+questions whose section quotes no register passage: 11 of 13
+exit=0

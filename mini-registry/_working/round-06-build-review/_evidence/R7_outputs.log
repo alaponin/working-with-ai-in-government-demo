@@ -1,0 +1,36 @@
+2026-10-31T19:48:59Z
+$ the outputs the report names: size and sha256
+3661 f1e54e4fa0364985170b2f3322787fd36225e4011937911774d86658a2c490b0  src/server.js
+5324 378230f1b2f82d68ba94ec85acaa5c55d4981deb88124556ab625f4ede5b8a31  src/lib/enrol.js
+4703 446a49e6567b3adc57df514416f2bbf5ad3551cfcd38bbeeccdac82e899dfa0b  src/lib/screens.js
+18739 afbf7a8a03f8230fe5e8054d4767f426490caccc6e280b1356d5aca94d67a1e8  src/test/goal.test.js
+17719 3a095ee99b35c196712017edcd9f968e8808fedd7bfd96d8e579a07c3825d8a2  src/test/requirements.test.js
+286 61bd479d6b29fb2018cfefc2cac6ab59cf47ac4adf0e91f2458e548b6f8983ca  src/package.json
+17806 f5935887b876162271547fd7dc903bc2c977ac0d35324bf81a35ab28d565c90b  _reports/REPORT_BUILD_2026-10-31.md
+$ ls -ld the evidence folder, and its count of files
+drwxr-xr-x@ 27 arnelaponin  staff  864 Oct 31 21:42 _working/round-06-build/_evidence
+84
+$ the evidence files the report cites
+6929 _working/round-06-build/_evidence/A1_stage1.log
+13463 _working/round-06-build/_evidence/A2_tests.log
+2553 _working/round-06-build/_evidence/A3_checks.log
+2013 _working/round-06-build/_evidence/A4_planted.log
+337 _working/round-06-build/_evidence/A5_round5.log
+1809 _working/round-06-build/_evidence/A6_connects.log
+124 _working/round-06-build/_evidence/A7_sources.log
+2972 _working/round-06-build/_evidence/A8_checks.log
+11515 _working/round-06-build/_evidence/A10_ledger.log
+1890 _working/round-06-build/_evidence/clerk_walk.log
+1275 _working/round-06-build/_evidence/outputs.log
+6468 _working/round-06-build/_evidence/record/check.out
+19605 _working/round-06-build/_evidence/record/window.out
+542 _working/round-06-build/_evidence/screens/2_new.html
+669 _working/round-06-build/_evidence/screens/3_again.html
+836 _working/round-06-build/_evidence/screens/4_refused.html
+767 _working/round-06-build/_evidence/screens/5_cannot.html
+1129 _working/round-06-build/_evidence/screens/6_back_kept.html
+$ src/data against the reviewer start list
+data unchanged
+$ the review folder
+drwxr-xr-x@ 22 arnelaponin  staff  704 Oct 31 21:44 _reviews
+2026-10-31T19:49:00Z

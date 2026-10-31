@@ -1,0 +1,140 @@
+## trace 14:20:42
+trace check of /Users/arnelaponin/Documents/Dev/wai-demo/mini-registry/_reports/REPORT_LEDGER_GIT_2026-10-31.md (a report)
+  constants: /Users/arnelaponin/Documents/Dev/wai-demo/mini-registry/CONSTANTS.md
+  the estate's root: /Users/arnelaponin/Documents/Dev/wai-demo/mini-registry
+  the places: instruction _prompts/ = /Users/arnelaponin/Documents/Dev/wai-demo/mini-registry/_prompts, report _reports/ = /Users/arnelaponin/Documents/Dev/wai-demo/mini-registry/_reports, review _reviews/ = /Users/arnelaponin/Documents/Dev/wai-demo/mini-registry/_reviews
+  coordination: /Users/arnelaponin/Documents/Dev/wai-demo/_coordination/CONSTANTS.md
+  the instruction: /Users/arnelaponin/Documents/Dev/wai-demo/mini-registry/_prompts/PROMPT_LEDGER_GIT_2026-10-31.md
+  agrees: the report answers C-2026-10-31-05, the instruction's commission_id
+  agrees: the instruction's downstream_artefact is this report
+  outputs: 5 of 5 named exist
+  inputs: the ledger holds no issued entry for /Users/arnelaponin/Documents/Dev/wai-demo/mini-registry/_prompts/PROMPT_LEDGER_GIT_2026-10-31.md; no checksum to compare
+trace check: clean
+exit 0
+## placement
+placement check of /Users/arnelaponin/Documents/Dev/wai-demo/mini-registry/_prompts/PROMPT_LEDGER_GIT_2026-10-31.md
+  constants: /Users/arnelaponin/Documents/Dev/wai-demo/mini-registry/CONSTANTS.md (the nearest above the instruction)
+  the estate's root: /Users/arnelaponin/Documents/Dev/wai-demo/mini-registry
+  the places: instruction _prompts/ = /Users/arnelaponin/Documents/Dev/wai-demo/mini-registry/_prompts, report _reports/ = /Users/arnelaponin/Documents/Dev/wai-demo/mini-registry/_reports, review _reviews/ = /Users/arnelaponin/Documents/Dev/wai-demo/mini-registry/_reviews
+  not judged: /Users/arnelaponin/Documents/Dev/wai-demo/_coordination/.git/ — a folder
+  not judged: /Users/arnelaponin/Documents/Dev/wai-demo/_coordination/.gitignore — of none of the three kinds
+  not judged: /Users/arnelaponin/Documents/Dev/wai-demo/_coordination/_ledger/README.md — of none of the three kinds
+  not judged: /Users/arnelaponin/Documents/Dev/wai-demo/mini-registry/_working/round-ledger-git/_evidence/ — a folder
+  in its place: /Users/arnelaponin/Documents/Dev/wai-demo/mini-registry/_reports/REPORT_LEDGER_GIT_2026-10-31.md — a report, under /Users/arnelaponin/Documents/Dev/wai-demo/mini-registry/_reports
+  running_record: names the code MR (read from the constants)
+placement check: clean
+exit 0
+## ledger check
+not-cut-over: MR — the taken-up entry names /Users/arnelaponin/Documents/Dev/wai-demo/mini-registry/WHAT_IS_RUNNING.md, which carries no markers — the orchestrator runs views --cut-over MR (section 6)
+check: 1 defect
+exit 1
+## ledger show C-2026-10-31-05
+show: no entry for MR C-2026-10-31-05
+exit 1
+## stat report
+2026-10-31 16:19:13 +0200 9629 /Users/arnelaponin/Documents/Dev/wai-demo/mini-registry/_reports/REPORT_LEDGER_GIT_2026-10-31.md
+## utc date
+Sat Oct 31 14:20:44 UTC 2026
+## stat evidence of work
+16:17:58 /Users/arnelaponin/Documents/Dev/wai-demo/mini-registry/_working/round-ledger-git/_evidence/A1.log
+16:17:58 /Users/arnelaponin/Documents/Dev/wai-demo/mini-registry/_working/round-ledger-git/_evidence/A2.log
+16:17:58 /Users/arnelaponin/Documents/Dev/wai-demo/mini-registry/_working/round-ledger-git/_evidence/A3.log
+16:17:58 /Users/arnelaponin/Documents/Dev/wai-demo/mini-registry/_working/round-ledger-git/_evidence/A4.log
+16:17:59 /Users/arnelaponin/Documents/Dev/wai-demo/mini-registry/_working/round-ledger-git/_evidence/A5.log
+16:19:02 /Users/arnelaponin/Documents/Dev/wai-demo/mini-registry/_working/round-ledger-git/_evidence/A6.log
+16:17:58 /Users/arnelaponin/Documents/Dev/wai-demo/mini-registry/_working/round-ledger-git/_evidence/after.sha256
+16:17:58 /Users/arnelaponin/Documents/Dev/wai-demo/mini-registry/_working/round-ledger-git/_evidence/after_other.sha256
+16:17:21 /Users/arnelaponin/Documents/Dev/wai-demo/mini-registry/_working/round-ledger-git/_evidence/before.sha256
+16:17:28 /Users/arnelaponin/Documents/Dev/wai-demo/mini-registry/_working/round-ledger-git/_evidence/before_other.sha256
+16:18:51 /Users/arnelaponin/Documents/Dev/wai-demo/mini-registry/_working/round-ledger-git/_evidence/config.log
+16:18:51 /Users/arnelaponin/Documents/Dev/wai-demo/mini-registry/_working/round-ledger-git/_evidence/outputs.log
+16:17:21 /Users/arnelaponin/Documents/Dev/wai-demo/mini-registry/_working/round-ledger-git/_evidence/step1_before.log
+16:17:28 /Users/arnelaponin/Documents/Dev/wai-demo/mini-registry/_working/round-ledger-git/_evidence/step2_init.log
+16:17:46 /Users/arnelaponin/Documents/Dev/wai-demo/mini-registry/_working/round-ledger-git/_evidence/step5_commit.log
+16:17:58 /Users/arnelaponin/Documents/Dev/wai-demo/mini-registry/_working/round-ledger-git/_evidence/step6_after.log
+16:19:13 /Users/arnelaponin/Documents/Dev/wai-demo/mini-registry/_working/round-ledger-git/_evidence/window.out
+## window.out
+$ date -u; stat (after writing the window line)
+Sat Oct 31 14:19:13 UTC 2026
+2026-10-31 16:19:13 EET 9629 /Users/arnelaponin/Documents/Dev/wai-demo/mini-registry/_reports/REPORT_LEDGER_GIT_2026-10-31.md
+fa0e3e532b6a0a7e0fbf9c1d85e89b469a9b1cda7ca8b7a34c1d5d2a3f1f6bd3  /Users/arnelaponin/Documents/Dev/wai-demo/mini-registry/_reports/REPORT_LEDGER_GIT_2026-10-31.md
+## A1-A6 logs of work
+-- A1
+Sat Oct 31 14:17:58 UTC 2026
+$ git -C /Users/arnelaponin/Documents/Dev/wai-demo/_coordination rev-parse --show-toplevel
+/Users/arnelaponin/Documents/Dev/wai-demo/_coordination
+exit 0
+$ git -C /Users/arnelaponin/Documents/Dev/wai-demo/_coordination ls-files _ledger/README.md
+_ledger/README.md
+exit 0
+$ git -C /Users/arnelaponin/Documents/Dev/wai-demo/_coordination remote -v
+exit 0
+-- A5
+Sat Oct 31 14:17:58 UTC 2026
+$ /usr/bin/python3 "/Users/arnelaponin/Library/Application Support/Claude/local-agent-mode-sessions/ffbe2f0e-bc4b-46d3-ad76-b08a7882aae9/7bbcb800-2754-4c5e-97ea-ccb874ea3fee/rpm/plugin_018SiGJfFaxxAvevS4xGQJgb/skills/orchestrator/scripts/ledger.py" check --constants /Users/arnelaponin/Documents/Dev/wai-demo/_coordination/CONSTANTS.md
+not-cut-over: MR — the taken-up entry names /Users/arnelaponin/Documents/Dev/wai-demo/mini-registry/WHAT_IS_RUNNING.md, which carries no markers — the orchestrator runs views --cut-over MR (section 6)
+check: 1 defect
+exit 1
+-- A6
+Sat Oct 31 14:19:01 UTC 2026
+$ /usr/bin/python3 "/Users/arnelaponin/Library/Application Support/Claude/local-agent-mode-sessions/ffbe2f0e-bc4b-46d3-ad76-b08a7882aae9/7bbcb800-2754-4c5e-97ea-ccb874ea3fee/rpm/plugin_018SiGJfFaxxAvevS4xGQJgb/skills/orchestrator/scripts/trace_check.py" --constants /Users/arnelaponin/Documents/Dev/wai-demo/mini-registry/CONSTANTS.md --coordination /Users/arnelaponin/Documents/Dev/wai-demo/_coordination/CONSTANTS.md /Users/arnelaponin/Documents/Dev/wai-demo/mini-registry/_reports/REPORT_LEDGER_GIT_2026-10-31.md
+trace check of /Users/arnelaponin/Documents/Dev/wai-demo/mini-registry/_reports/REPORT_LEDGER_GIT_2026-10-31.md (a report)
+  constants: /Users/arnelaponin/Documents/Dev/wai-demo/mini-registry/CONSTANTS.md
+  the estate's root: /Users/arnelaponin/Documents/Dev/wai-demo/mini-registry
+  the places: instruction _prompts/ = /Users/arnelaponin/Documents/Dev/wai-demo/mini-registry/_prompts, report _reports/ = /Users/arnelaponin/Documents/Dev/wai-demo/mini-registry/_reports, review _reviews/ = /Users/arnelaponin/Documents/Dev/wai-demo/mini-registry/_reviews
+  coordination: /Users/arnelaponin/Documents/Dev/wai-demo/_coordination/CONSTANTS.md
+  the instruction: /Users/arnelaponin/Documents/Dev/wai-demo/mini-registry/_prompts/PROMPT_LEDGER_GIT_2026-10-31.md
+  agrees: the report answers C-2026-10-31-05, the instruction's commission_id
+  agrees: the instruction's downstream_artefact is this report
+  outputs: 5 of 5 named exist
+  inputs: the ledger holds no issued entry for /Users/arnelaponin/Documents/Dev/wai-demo/mini-registry/_prompts/PROMPT_LEDGER_GIT_2026-10-31.md; no checksum to compare
+trace check: clean
+exit 0
+## mini-registry newer than 14:15
+/Users/arnelaponin/Documents/Dev/wai-demo/mini-registry/_reports/REPORT_LEDGER_GIT_2026-10-31.md
+/Users/arnelaponin/Documents/Dev/wai-demo/mini-registry/WHAT_IS_RUNNING.md
+/Users/arnelaponin/Documents/Dev/wai-demo/mini-registry/_working/round-ledger-git/_evidence/step1_before.log
+/Users/arnelaponin/Documents/Dev/wai-demo/mini-registry/_working/round-ledger-git/_evidence/after_other.sha256
+/Users/arnelaponin/Documents/Dev/wai-demo/mini-registry/_working/round-ledger-git/_evidence/step2_init.log
+/Users/arnelaponin/Documents/Dev/wai-demo/mini-registry/_working/round-ledger-git/_evidence/before_other.sha256
+/Users/arnelaponin/Documents/Dev/wai-demo/mini-registry/_working/round-ledger-git/_evidence/before.sha256
+/Users/arnelaponin/Documents/Dev/wai-demo/mini-registry/_working/round-ledger-git/_evidence/outputs.log
+/Users/arnelaponin/Documents/Dev/wai-demo/mini-registry/_working/round-ledger-git/_evidence/config.log
+/Users/arnelaponin/Documents/Dev/wai-demo/mini-registry/_working/round-ledger-git/_evidence/A1.log
+/Users/arnelaponin/Documents/Dev/wai-demo/mini-registry/_working/round-ledger-git/_evidence/A3.log
+/Users/arnelaponin/Documents/Dev/wai-demo/mini-registry/_working/round-ledger-git/_evidence/window.out
+/Users/arnelaponin/Documents/Dev/wai-demo/mini-registry/_working/round-ledger-git/_evidence/A2.log
+/Users/arnelaponin/Documents/Dev/wai-demo/mini-registry/_working/round-ledger-git/_evidence/after.sha256
+/Users/arnelaponin/Documents/Dev/wai-demo/mini-registry/_working/round-ledger-git/_evidence/A6.log
+/Users/arnelaponin/Documents/Dev/wai-demo/mini-registry/_working/round-ledger-git/_evidence/step6_after.log
+/Users/arnelaponin/Documents/Dev/wai-demo/mini-registry/_working/round-ledger-git/_evidence/step5_commit.log
+/Users/arnelaponin/Documents/Dev/wai-demo/mini-registry/_working/round-ledger-git/_evidence/A5.log
+/Users/arnelaponin/Documents/Dev/wai-demo/mini-registry/_working/round-ledger-git/_evidence/A4.log
+## mini-registry repo status
+ M WHAT_IS_RUNNING.md
+ M _kinds/analysis.md
+?? _prompts/PROMPT_GAPS_2026-10-31.md
+?? _prompts/PROMPT_LEDGER_GIT_2026-10-31.md
+?? _prompts/PROMPT_REQUIREMENTS_2026-10-31.md
+?? _prompts/PROMPT_REVIEW_GAPS_2026-10-31.md
+?? _prompts/PROMPT_REVIEW_LEDGER_GIT_2026-10-31.md
+?? _prompts/PROMPT_REVIEW_REQUIREMENTS_2026-10-31.md
+?? _reports/REPORT_GAPS_2026-10-31.md
+?? _reports/REPORT_GAPS_2026-10-31_v2.md
+?? _reports/REPORT_LEDGER_GIT_2026-10-31.md
+?? _reports/REPORT_REQUIREMENTS_2026-10-31.md
+?? _reviews/REVIEW_GAPS_2026-10-31.md
+?? _reviews/REVIEW_GAPS_2026-10-31_v2.md
+?? _reviews/REVIEW_REQUIREMENTS_2026-10-31.md
+?? _working/round-01-requirements-review/
+?? _working/round-01-requirements/
+?? _working/round-01b-gaps-review/
+?? _working/round-01b-gaps-v2-review/
+?? _working/round-01b-gaps-v2/
+?? _working/round-01b-gaps/
+?? _working/round-ledger-git-review/
+?? _working/round-ledger-git/
+?? docs/GAPS-PAPER.md
+?? docs/REQUIREMENTS.md
+## coordination other repos?
+/Users/arnelaponin/Documents/Dev/wai-demo/mini-registry/.git

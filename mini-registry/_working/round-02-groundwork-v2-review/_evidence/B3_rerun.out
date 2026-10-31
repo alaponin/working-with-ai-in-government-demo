@@ -1,0 +1,7 @@
+2026-10-31T15:00:13Z
+check_groundwork.py a2 EXIT=0
+diff against v1 A2_check.out EXIT=0
+check_groundwork.py a3 EXIT=0
+diff against v1 A3_check.out EXIT=0
+check_groundwork.py a4 EXIT=0
+diff against v1 A4_check.out EXIT=0

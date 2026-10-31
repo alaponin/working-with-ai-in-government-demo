@@ -1,0 +1,15 @@
+2026-10-31T19:41:45Z
+$ trace_check.py --constants .../mini-registry/CONSTANTS.md --coordination .../_coordination/CONSTANTS.md .../REPORT_KIND_ITEM_2026-10-31_v2.md
+trace check of /Users/arnelaponin/Documents/Dev/wai-demo/mini-registry/_reports/REPORT_KIND_ITEM_2026-10-31_v2.md (a report)
+  constants: /Users/arnelaponin/Documents/Dev/wai-demo/mini-registry/CONSTANTS.md
+  the estate's root: /Users/arnelaponin/Documents/Dev/wai-demo/mini-registry
+  the places: instruction _prompts/ = /Users/arnelaponin/Documents/Dev/wai-demo/mini-registry/_prompts, report _reports/ = /Users/arnelaponin/Documents/Dev/wai-demo/mini-registry/_reports, review _reviews/ = /Users/arnelaponin/Documents/Dev/wai-demo/mini-registry/_reviews
+  coordination: /Users/arnelaponin/Documents/Dev/wai-demo/_coordination/CONSTANTS.md
+  the instruction: /Users/arnelaponin/Documents/Dev/wai-demo/mini-registry/_prompts/PROMPT_KIND_ITEM_2026-10-31.md
+  agrees: the report answers C-2026-10-31-27, the instruction's commission_id
+  agrees: the instruction's downstream_artefact is this report
+  outputs: 2 of 2 named exist
+  inputs: 5 of 5 pinned by 20261031T193606Z_MR_issued_C-2026-10-31-27.yaml hash the same now
+trace check: clean
+exit=0
+2026-10-31T19:41:45Z

@@ -1,0 +1,11 @@
+--- /Users/arnelaponin/Documents/Dev/wai-demo/mini-registry/src/lib/lists.js	2026-10-31 20:53:51
++++ P1_fifth_spelt/src/lib/lists.js	2026-10-31 21:01:50
+@@ -28,7 +28,7 @@
+   { lists: ['school_census', 'exam_candidate_list'], spelt_differently: false },
+   { lists: ['school_census', 'exam_candidate_list'], spelt_differently: false },
+   { lists: ['school_census', 'exam_candidate_list'], spelt_differently: true },
+-  { lists: ['school_census', 'social_grant_list'], spelt_differently: false },
++  { lists: ['school_census', 'social_grant_list'], spelt_differently: true }, // PLANTED: a fifth spelt differently
+   { lists: ['school_census', 'social_grant_list'], spelt_differently: true },
+   { lists: ['school_census', 'social_grant_list'], spelt_differently: true },
+   { lists: ['exam_candidate_list', 'social_grant_list'], spelt_differently: false },

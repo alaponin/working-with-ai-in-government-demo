@@ -1,0 +1,15 @@
+2026-10-31T20:21:38Z
+key_table: /Users/arnelaponin/Documents/Dev/wai-demo/mini-registry/src/data/key_table.json
+key table rows: 68; children named: 60
+children named on two or more entries:
+  C19  2 entries  school_census:10 · social_grant_list:7
+  C24  2 entries  school_census:20 · exam_candidate_list:20
+  C26  2 entries  exam_candidate_list:22 · social_grant_list:17
+  C31  2 entries  school_census:11 · exam_candidate_list:13
+  C50  2 entries  school_census:17 · social_grant_list:19
+  C53  2 entries  school_census:13 · exam_candidate_list:8
+  C56  2 entries  school_census:22 · social_grant_list:9
+  C58  2 entries  exam_candidate_list:14 · social_grant_list:2
+count of the set: 8
+EXIT 0
+2026-10-31T20:21:38Z

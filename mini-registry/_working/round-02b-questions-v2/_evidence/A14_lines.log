@@ -1,0 +1,25 @@
+10:- **The register**, every requirement and its test, R-01 to R-23: `docs/REQUIREMENTS.md:15-320`.
+11:- **The thirteen rulings**: the summary rows G-01 to G-13, `docs/GAPS-PAPER.md:26-38`, and the one-sentence recommendation closing each q
+12:- **The groundwork**: every settings row, `docs/groundwork/settings.csv:2-18` — the known numbers (rows 2 to 6), `docs/groundwork/setting
+26:**Depends on:** none. **Depended on by:** none.
+44:**Depends on:** Q-11, Q-14. **Depended on by:** Q-5, Q-9.
+63:**Depends on:** none. **Depended on by:** none.
+81:**Depends on:** Q-13. **Depended on by:** none.
+100:**Depends on:** Q-2, Q-6. **Depended on by:** Q-6, Q-9.
+115:## Q-6 — the spread over the lists
+119:**Depends on:** Q-5. **Depended on by:** Q-5, Q-9.
+125:**Position B — every child on the census: 60, 4 and 4**, the census holding every child at school, each of the 60 at one of the 3 school
+129:| (c) known numbers | yes | no: entries left per list after the 8, 54, −1, −1; needs Q-5's B | divides |
+131:**Proposal — not a decision.** We recommend 24, 22 and 22, the one of the two that can be built with Q-5 as recommended.
+137:**Depends on:** Q-9. **Depended on by:** Q-9.
+155:**Depends on:** none. **Depended on by:** none.
+170:## Q-9 — a school on the lists
+174:**Depends on:** Q-2, Q-5, Q-6, Q-7, Q-14. **Depended on by:** Q-7.
+180:**Position B, at its strongest — the census alone carries a school**, being the schools' own list, and the reset gives each learner made
+184:| (c) known numbers | yes | no: Q-7's 20 each cannot be read for the 36; needs Q-7 to spread the census's children only | divides |
+193:**Depends on:** none. **Depended on by:** none.
+212:**Depends on:** none. **Depended on by:** Q-2, Q-12.
+231:**Depends on:** Q-11. **Depended on by:** none.
+250:**Depends on:** Q-14. **Depended on by:** Q-4, Q-14.
+269:**Depends on:** Q-13. **Depended on by:** Q-2, Q-9, Q-13.
+285:## Taken together

@@ -1,0 +1,4 @@
+screens named by the steps and failures: 5 ['SC-1', 'SC-2', 'SC-3', 'SC-4', 'SC-5']
+screens mentioned anywhere in the goal, gaps included: 5 ['SC-1', 'SC-2', 'SC-3', 'SC-4', 'SC-5']
+screens listed: 5; listed screens stating the line: 5
+named, not listed: []; mentioned, not listed: []; listed, not named: []

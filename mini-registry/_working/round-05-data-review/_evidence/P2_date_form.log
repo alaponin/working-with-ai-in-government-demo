@@ -1,0 +1,183 @@
+# 2026-10-31 19:01:57 UTC host MacBookPro — scratch copy /Users/arnelaponin/Documents/Dev/wai-demo/mini-registry/_working/round-05-data-review/_evidence/P2_date_form/src
+$ node reset.js
+wrote data/enrolments.json 5083 bytes
+wrote data/exam_candidate_list.json 3623 bytes
+wrote data/key_table.json 5024 bytes
+wrote data/learners.json 11017 bytes
+wrote data/reads.json 296 bytes
+wrote data/school_census.json 3907 bytes
+wrote data/schools.json 85 bytes
+wrote data/social_grant_list.json 3566 bytes
+exit 0
+$ node --test test/
+TAP version 13
+# Subtest: R-08: three lists, by the names of brief line 19, and every child on at least one
+ok 1 - R-08: three lists, by the names of brief line 19, and every child on at least one
+  ---
+  duration_ms: 4.016315
+  ...
+# Subtest: R-09, G-04: 60 different children, named C01 to C60 (Q-11)
+ok 2 - R-09, G-04: 60 different children, named C01 to C60 (Q-11)
+  ---
+  duration_ms: 0.431595
+  ...
+# Subtest: R-10: 3 schools in the data, and every entry and learner at one of them
+ok 3 - R-10: 3 schools in the data, and every entry and learner at one of them
+  ---
+  duration_ms: 0.302583
+  ...
+# Subtest: Q-9: every entry carries a school, the same on both lists of a child
+ok 4 - Q-9: every entry carries a school, the same on both lists of a child
+  ---
+  duration_ms: 0.331222
+  ...
+# Subtest: Q-7: 20 children at each of the 3 schools
+ok 5 - Q-7: 20 children at each of the 3 schools
+  ---
+  duration_ms: 0.31926
+  ...
+# Subtest: G-04, Q-6: 68 entries, 24, 22 and 22 in the order of the lists
+ok 6 - G-04, Q-6: 68 entries, 24, 22 and 22 in the order of the lists
+  ---
+  duration_ms: 0.175852
+  ...
+# Subtest: Q-11: each list numbered 1 upwards
+ok 7 - Q-11: each list numbered 1 upwards
+  ---
+  duration_ms: 0.217668
+  ...
+# Subtest: Q-10, G-07: every date YYYY-MM-DD, a day of the calendar, on every entry and learner
+not ok 8 - Q-10, G-07: every date YYYY-MM-DD, a day of the calendar, on every entry and learner
+  ---
+  duration_ms: 1.947036
+  failureType: 'testCodeFailure'
+  error: 'social_grant_list:1 01.05.2015'
+  code: 'ERR_ASSERTION'
+  name: 'AssertionError'
+  expected: true
+  actual: false
+  operator: '=='
+  stack: |-
+    TestContext.<anonymous> (/Users/arnelaponin/Documents/Dev/wai-demo/mini-registry/_working/round-05-data-review/_evidence/P2_date_form/src/test/data.test.js:63:37)
+    Test.runInAsyncScope (node:async_hooks:206:9)
+    Test.run (node:internal/test_runner/test:580:25)
+    Test.processPendingSubtests (node:internal/test_runner/test:325:18)
+    Test.postRun (node:internal/test_runner/test:649:19)
+    Test.run (node:internal/test_runner/test:608:10)
+    async Test.processPendingSubtests (node:internal/test_runner/test:325:7)
+  ...
+# Subtest: R-13, G-06, Q-1: every age 6 to 12 in completed years on 2026-10-31
+ok 9 - R-13, G-06, Q-1: every age 6 to 12 in completed years on 2026-10-31
+  ---
+  duration_ms: 0.661915
+  ...
+# Subtest: R-11, G-04, Q-5: 8 children on exactly two lists, in the pairs of ruling Q-5
+ok 10 - R-11, G-04, Q-5: 8 children on exactly two lists, in the pairs of ruling Q-5
+  ---
+  duration_ms: 0.707162
+  ...
+# Subtest: R-12, G-05, Q-5: 4 of the 8 spelt differently, 1, 2 and 1 over the pairs; none in capitals only
+ok 11 - R-12, G-05, Q-5: 4 of the 8 spelt differently, 1, 2 and 1 over the pairs; none in capitals only
+  ---
+  duration_ms: 0.518678
+  ...
+# Subtest: Q-8: the 4 differ in the family name only; the other 4 match on all three fields, letter for letter and in the same capitals
+ok 12 - Q-8: the 4 differ in the family name only; the other 4 match on all three fields, letter for letter and in the same capitals
+  ---
+  duration_ms: 1.725085
+  ...
+# Subtest: Q-5: each of the 4 is spelt differently on the later list, which makes a second learner
+ok 13 - Q-5: each of the 4 is spelt differently on the later list, which makes a second learner
+  ---
+  duration_ms: 0.567251
+  ...
+# Subtest: Q-14, G-05: no two different children share all three fields, capitals ignored
+ok 14 - Q-14, G-05: no two different children share all three fields, capitals ignored
+  ---
+  duration_ms: 0.34127
+  ...
+# Subtest: Q-11: the key table, 68 rows, each entry named <list>:<number> once, each child C01 to C60
+ok 15 - Q-11: the key table, 68 rows, each entry named <list>:<number> once, each child C01 to C60
+  ---
+  duration_ms: 1.13334
+  ...
+# Subtest: Q-13, Q-4, G-01: 64 learners after reset, numbered 1 to 64, each once
+ok 16 - Q-13, Q-4, G-01: 64 learners after reset, numbered 1 to 64, each once
+  ---
+  duration_ms: 0.199252
+  ...
+# Subtest: Q-12: the record of entries, 68 rows, one for each entry, in the order of ruling Q-2
+ok 17 - Q-12: the record of entries, 68 rows, one for each entry, in the order of ruling Q-2
+  ---
+  duration_ms: 0.383516
+  ...
+# Subtest: G-03, G-01: each entry made or found a learner holding its three fields, capitals ignored; a new number one above the highest
+ok 18 - G-03, G-01: each entry made or found a learner holding its three fields, capitals ignored; a new number one above the highest
+  ---
+  duration_ms: 0.704146
+  ...
+# Subtest: R-15: the reset made twice gives byte for byte the same files
+ok 19 - R-15: the reset made twice gives byte for byte the same files
+  ---
+  duration_ms: 12.815886
+  ...
+# Subtest: R-15: data/ holds exactly what the reset makes, byte for byte
+ok 20 - R-15: data/ holds exactly what the reset makes, byte for byte
+  ---
+  duration_ms: 3.743648
+  ...
+# Subtest: G-10, R-16: the reset's record of its reads names only files under src/
+ok 21 - G-10, R-16: the reset's record of its reads names only files under src/
+  ---
+  duration_ms: 0.78527
+  ...
+# Subtest: search: the same three fields find the learner
+ok 22 - search: the same three fields find the learner
+  ---
+  duration_ms: 2.96614
+  ...
+# Subtest: search: capitals ignored, in each of the three fields
+ok 23 - search: capitals ignored, in each of the three fields
+  ---
+  duration_ms: 0.312873
+  ...
+# Subtest: search: one letter different in any of the three fields, not found
+ok 24 - search: one letter different in any of the three fields, not found
+  ---
+  duration_ms: 0.147737
+  ...
+# Subtest: search: nothing but capitals forgiven (a space, a dropped name, another form of date)
+ok 25 - search: nothing but capitals forgiven (a space, a dropped name, another form of date)
+  ---
+  duration_ms: 0.160053
+  ...
+# Subtest: search: the school is not compared, nor any field but the three
+ok 26 - search: the school is not compared, nor any field but the three
+  ---
+  duration_ms: 0.164224
+  ...
+# Subtest: enrol: none found gives the next learner number and saves; one found enters nothing new
+ok 27 - enrol: none found gives the next learner number and saves; one found enters nothing new
+  ---
+  duration_ms: 0.293981
+  ...
+# Subtest: enrol: more than one found enters nothing new
+ok 28 - enrol: more than one found enters nothing new
+  ---
+  duration_ms: 0.186704
+  ...
+# Subtest: search: the module reads neither the key table nor the record of entries, and needs no other module
+ok 29 - search: the module reads neither the key table nor the record of entries, and needs no other module
+  ---
+  duration_ms: 0.679651
+  ...
+1..29
+# tests 29
+# suites 0
+# pass 28
+# fail 1
+# cancelled 0
+# skipped 0
+# todo 0
+# duration_ms 173.871102
+exit 1

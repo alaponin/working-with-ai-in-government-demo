@@ -1,0 +1,13 @@
+2026-10-31T19:29:52Z
+$ /usr/bin/python3 _working/round-kind-item/_evidence/check_gaps.py _working/round-kind-item/_evidence/GAPS.md .
+found     _reviews/REVIEW_QUESTIONS_2026-10-31.md:107  **G1 (item) — Q-6 judges its rival without Q-5 as recommended, so the 
+found     _reviews/REVIEW_QUESTIONS_2026-10-31.md:107  The two positions of one table are judged under two different answers 
+found     _reviews/REVIEW_QUESTIONS_2026-10-31.md:109  *To judge the positions of one question under an answer to another que
+found     _reviews/REVIEW_QUESTIONS_2026-10-31_v2.md:99  **G1 (item): Q-10's rival is credited with meeting every number beside
+found     _reviews/REVIEW_QUESTIONS_2026-10-31_v2.md:116  The round's program says `can be met: yes` because it checks only the 
+found     _reviews/REVIEW_QUESTIONS_2026-10-31_v2.md:124  *To test whether positions can be built together on the counts alone, 
+found     _reviews/REVIEW_COMMIT3_2026-10-31.md:53  **G1 (item)** — A1 not met: the round's own evidence file was redirect
+found     _reviews/REVIEW_COMMIT3_2026-10-31.md:54  **G2 (item)** — A4 not met literally: the committed set exceeds the be
+8 quotations, 0 not found
+exit=0
+2026-10-31T19:29:52Z

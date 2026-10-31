@@ -1,0 +1,22 @@
+Sat Oct 31 13:10:25 UTC 2026
+$ grep -n "^## Gaps against the brief$" REQUIREMENTS.md
+324:## Gaps against the brief
+$ grep -c "^- \*\*G-[0-9][0-9]\*\*" REQUIREMENTS.md
+14
+$ grep -c "^- \*\*G-[0-9][0-9]\*\*.*?$" REQUIREMENTS.md
+14
+$ grep -o "gap G-[0-9][0-9]" REQUIREMENTS.md | sort | uniq -c
+   1 gap G-01
+   1 gap G-02
+   1 gap G-03
+   1 gap G-04
+   1 gap G-05
+   1 gap G-06
+   1 gap G-07
+   1 gap G-08
+   1 gap G-09
+   1 gap G-10
+   1 gap G-11
+   1 gap G-12
+   1 gap G-13
+Sat Oct 31 13:10:25 UTC 2026
