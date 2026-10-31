@@ -1,0 +1,19 @@
+kind: issued
+written: 2026-10-31T19:09:33Z
+code: MR
+by: "MR · orchestrator"
+account: arne.laponin@gmail.com
+computer: MacBookPro
+id: C-2026-10-31-25
+version: 1
+instruction: ~/IdeaProjects/mini-registry/_prompts/PROMPT_BUILD_2026-10-31.md
+session: "MR · work · the goal built"
+model: Opus
+effort: high
+report: ~/IdeaProjects/mini-registry/_reports/REPORT_BUILD_2026-10-31.md
+outputs: "~/IdeaProjects/mini-registry/src/server.js · ~/IdeaProjects/mini-registry/src/lib/enrol.js · ~/IdeaProjects/mini-registry/src/lib/screens.js · ~/IdeaProjects/mini-registry/src/test/goal.test.js · ~/IdeaProjects/mini-registry/src/test/requirements.test.js · ~/IdeaProjects/mini-registry/src/package.json · ~/IdeaProjects/mini-registry/_working/round-06-build/_evidence/ · ~/IdeaProjects/mini-registry/_reports/REPORT_BUILD_2026-10-31.md"
+serves: "the working prototype, deliverable 1 of the constants — round 6 of the brief, the goal built: a school clerk enrols a learner, and the registry does not register the same child twice"
+inputs: "~/IdeaProjects/mini-registry/docs/GOAL.md sha256:342515fd5ed96e45e23014568f67e8126edfeeccdb7f862dddd38e44acdb2aed · ~/IdeaProjects/mini-registry/docs/GOAL-QUESTIONS-PAPER.md sha256:9603caf1d95b8f89927a35969e33947da9e93776e04f98ccd27a3a7965ef0cef · ~/IdeaProjects/mini-registry/docs/REQUIREMENTS.md sha256:ad583b3958fb5c5fdf6683b5c2487b6f0c425d66cebc7c46811e2e19af13f103 · ~/IdeaProjects/mini-registry/docs/COUNT.md sha256:fc2b28435e20f94d3f79408e8afee9176c77c5a8bcdaace67df3344c091131a6 · ~/IdeaProjects/mini-registry/docs/count/count.csv sha256:5a0f28ea6bcccd0ad6c3bced2144fe8e681c542a60b703fe23cec6c55eb9d9a1 · ~/IdeaProjects/mini-registry/docs/groundwork/ sha256:05e359476e04fda3c7445f952e2ea481c4a8c73192fea0fb43bbbd80a33a5bf1 · ~/IdeaProjects/mini-registry/docs/GAPS-PAPER.md sha256:d03db64c6e49a1b92467c1e6e19929c321964bd89f6cb715d15dd570f37bc8bb · ~/IdeaProjects/mini-registry/docs/QUESTIONS-PAPER.md sha256:5146d23a87cf9c0527c26c2965725bfa1125bd1a0a103ac83b68fb7dbd50cce0 · ~/IdeaProjects/brief/MINI-REGISTRY-BRIEF.md sha256:ec6971e74a6a8387de0e5bd7a5e1cdead6ddf711b8fdac3ccc1d4b7555e11f64 · ~/IdeaProjects/mini-registry/_kinds/building.md sha256:ef6c8dc1cdea04ab1ea59f20ea41e3d6f4eb0ea59bcb1b84376fc23d02deac36"
+instruction_digest: sha256:2a9543ef8b76206ce874bed74df1f00e0dad7e8eeb96f07a0041288026a4a2fc
+waits_for: "MR C-2026-10-31-23"
+format: 2

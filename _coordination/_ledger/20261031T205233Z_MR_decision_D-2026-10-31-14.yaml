@@ -1,0 +1,11 @@
+kind: decision
+written: 2026-10-31T20:52:33Z
+code: MR
+by: "MR · orchestrator"
+account: arne.laponin@gmail.com
+computer: MacBookPro
+id: D-2026-10-31-14
+what: "Whether the note to the Permanent Secretary is sent, which decides whether its PDF is committed as the record of what went out and whether the ignore list needs an exception for it"
+recommendation: "Not sent: the PDF stays a build output, never committed (procedure 2.5.5); the ignore list unchanged; the note's source and its build program are committed"
+paper: none
+format: 2

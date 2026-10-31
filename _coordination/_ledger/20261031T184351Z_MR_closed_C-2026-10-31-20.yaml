@@ -1,0 +1,12 @@
+kind: closed
+written: 2026-10-31T18:43:51Z
+code: MR
+by: "MR · orchestrator"
+account: arne.laponin@gmail.com
+computer: MacBookPro
+id: C-2026-10-31-20
+version: 1
+outcome: accepted
+subject: "MR C-2026-10-31-19"
+ground: "the review _reviews/REVIEW_COUNT_2026-10-31.md is accepted, no gaps: the second route agrees where it should and the test route is right for every differing pair; the planted fault caught; trace check clean over the report, the review's one finding the report pinned absent at issue, as expected"
+format: 2

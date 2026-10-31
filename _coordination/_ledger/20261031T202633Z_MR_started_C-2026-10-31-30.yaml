@@ -1,0 +1,15 @@
+kind: started
+written: 2026-10-31T20:26:33Z
+code: MR
+by: "MR · review · the duplicates count"
+account: arne.laponin@gmail.com
+computer: MacBookPro
+id: C-2026-10-31-30
+version: 1
+session: "MR · review · the duplicates count"
+shell: native
+instruction: ~/IdeaProjects/mini-registry/_prompts/PROMPT_REVIEW_DUPLICATES_2026-10-31.md
+effort: unknown
+started_by: sub-session
+inputs: "~/IdeaProjects/mini-registry/_reports/REPORT_DUPLICATES_2026-10-31.md sha256:7a0845ef1300a143b3cf62bea5029cf0e11915a27cede9b9f4749d8573034d6a · ~/IdeaProjects/mini-registry/_prompts/PROMPT_DUPLICATES_2026-10-31.md sha256:066b7b53ca6291a20c013911031da707a7afebda87b5164005aa1d0139738c47 · ~/IdeaProjects/mini-registry/docs/groundwork/search_rule.csv sha256:9a7c98ce9b57dde82ccca48c84c638b7efd5c08f26f1677e738ecc8d00386fdb · ~/IdeaProjects/mini-registry/_kinds/checking.md sha256:172beca4e52e63f6ea3640a39af7ce1c9c5368cd91c44e6c3e00a0952bea2ea3"
+format: 2

@@ -1,0 +1,12 @@
+kind: finished
+written: 2026-10-31T20:55:34Z
+code: MR
+by: "MR · work · the note to the Permanent Secretary"
+account: arne.laponin@gmail.com
+computer: MacBookPro
+id: C-2026-10-31-31
+version: 1
+report: ~/IdeaProjects/mini-registry/_reports/REPORT_NOTE_2026-10-31.md
+outcome: "The note is written and built: one A4 page addressed to the Permanent Secretary, the answer first, the figure 'the search catches 4 of the 8' with its meaning, and what it does not show; 34 sentences on 52 claim rows, 0 not found; 20 limits, 12 in the note and 8 left out with reasons, 0 unaccounted; register check clean but for 'Skills' in the Ministry's name, a named exception; NOTE.pdf 1 page, 595 by 842, type 11 pt; two builds the same text; sources and src/ unchanged; 0 windows added; record check exit 1 on one finding, the brief read from outside the record's root; nothing sent"
+moved: "docs/NOTE.md and its build (docs/note/build.py, NOTE.pdf, NOTE.html, register_exceptions.txt) are new, for the owner to send"
+format: 2

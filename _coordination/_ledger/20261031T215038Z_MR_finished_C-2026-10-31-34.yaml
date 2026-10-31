@@ -1,0 +1,13 @@
+kind: finished
+written: 2026-10-31T21:50:38Z
+code: MR
+by: "MR · review · the delivery commit"
+account: arne.laponin@gmail.com
+computer: MacBookPro
+id: C-2026-10-31-34
+version: 1
+report: ~/IdeaProjects/mini-registry/_reviews/REVIEW_COMMIT4_2026-10-31.md
+outcome: "Accepted: B1 to B8 met on evidence re-read; file counts 676 and 81 re-established by git diff --name-only; trace and ledger checks clean; no gap, five items found-not-fixed"
+moved: nothing
+verdict: accepted
+format: 2

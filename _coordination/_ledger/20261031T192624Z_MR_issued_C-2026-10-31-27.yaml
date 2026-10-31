@@ -1,0 +1,20 @@
+kind: issued
+written: 2026-10-31T19:26:24Z
+code: MR
+by: "MR · orchestrator"
+account: arne.laponin@gmail.com
+computer: MacBookPro
+id: C-2026-10-31-27
+version: 1
+instruction: ~/IdeaProjects/mini-registry/_prompts/PROMPT_KIND_ITEM_2026-10-31.md
+session: "MR · work · the pages against the kind item"
+model: Sonnet
+effort: medium
+report: ~/IdeaProjects/mini-registry/_reports/REPORT_KIND_ITEM_2026-10-31.md
+outputs: "~/IdeaProjects/mini-registry/_kinds/analysis.md · ~/IdeaProjects/mini-registry/_working/round-kind-item/_evidence/ · ~/IdeaProjects/mini-registry/_reports/REPORT_KIND_ITEM_2026-10-31.md"
+serves: "the working prototype, deliverable 1 of the constants — the ledger's check names the kind item recurring in three reviews of MR (the setting ledger.recurring_kind, 3), and the procedure, section 3, has a task amend the page of the kind of work for it"
+inputs: "~/IdeaProjects/mini-registry/_reviews/REVIEW_QUESTIONS_2026-10-31.md sha256:c7c68f7b861d8b5ff0e3cf9effc03c91bf7045658bdc1a6aced6d691c2e92d48 · ~/IdeaProjects/mini-registry/_reviews/REVIEW_QUESTIONS_2026-10-31_v2.md sha256:d631fbeca9eee9fb22e16955d186c8dc6f7c546e06814a69a03c4121c2efcd06 · ~/IdeaProjects/mini-registry/_reviews/REVIEW_COMMIT3_2026-10-31.md sha256:3c418865d23bddfcc81828b226bff56b1c9b9d19ab34a74b7b01504d71cbbb13 · ~/IdeaProjects/mini-registry/_kinds/analysis.md sha256:a5054bec7db874e744d0f042f348d099378b2cf0c6c6cedd027f0329843f7514 · ~/IdeaProjects/mini-registry/_prompts/PROMPT_COMMIT3_2026-10-31.md sha256:b3fd861035221249af13d0f6fa99eaee3b6daa855bb29e5f13ae569032d3c90a · /Users/arnelaponin/Library/Application absent"
+instruction_digest: sha256:f00c63d526a62afc100fc98ad70ee152e26a632600cdec362400a891a170a41a
+waits_for: "MR none"
+answers_kind: item
+format: 2

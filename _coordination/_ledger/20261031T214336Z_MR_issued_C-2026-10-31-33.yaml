@@ -1,0 +1,17 @@
+kind: issued
+written: 2026-10-31T21:43:36Z
+code: MR
+by: "MR · orchestrator"
+account: arne.laponin@gmail.com
+computer: MacBookPro
+id: C-2026-10-31-33
+version: 1
+instruction: ~/IdeaProjects/mini-registry/_prompts/PROMPT_COMMIT4_2026-10-31.md
+session: "MR · work · the delivery commit"
+model: Sonnet
+effort: medium
+report: ~/IdeaProjects/mini-registry/_reports/REPORT_COMMIT4_2026-10-31.md
+outputs: "~/IdeaProjects/mini-registry/.git/ · ~/IdeaProjects/_coordination/.git/ · ~/IdeaProjects/mini-registry/_working/round-commit4/_evidence/ · ~/IdeaProjects/mini-registry/_reports/REPORT_COMMIT4_2026-10-31.md"
+serves: "both deliverables of the constants — the working prototype and the note to the Permanent Secretary, owed when round 8 is accepted; with the history kept local, an artefact is delivered when committed (procedure 2.5.3)"
+instruction_digest: sha256:5e66d09b44c9273fd737d94f7c770d8e644b80121dc34fad31ae00215cf5a2e1
+format: 2

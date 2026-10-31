@@ -1,0 +1,12 @@
+kind: finished
+written: 2026-10-31T18:32:33Z
+code: MR
+by: "MR · work · the count"
+account: arne.laponin@gmail.com
+computer: MacBookPro
+id: C-2026-10-31-19
+version: 1
+report: ~/IdeaProjects/mini-registry/_reports/REPORT_COUNT_2026-10-31.md
+outcome: "Requirements to goal: 13 of 23 reach at least one element, 10 reach none (R-08 to R-13, R-16, R-19, R-21, R-23); goal to requirements: 12 of 19 elements reached, 7 by none, every failure F-1 to F-7; 72 rows, 0 unknown, 0 absent, 0 grounds not found; planted fault caught; record check 0 findings"
+moved: "docs/COUNT.md and docs/count/count.csv are new, for round 6 to read what each requirement asks of the goal"
+format: 2

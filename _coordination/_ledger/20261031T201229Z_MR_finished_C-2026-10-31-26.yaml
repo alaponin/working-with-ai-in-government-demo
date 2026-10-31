@@ -1,0 +1,13 @@
+kind: finished
+written: 2026-10-31T20:12:29Z
+code: MR
+by: "MR · review · the goal built"
+account: arne.laponin@gmail.com
+computer: MacBookPro
+id: C-2026-10-31-26
+version: 2
+report: ~/IdeaProjects/mini-registry/_reviews/REVIEW_BUILD_2026-10-31_v2.md
+outcome: "Accepted, no gap: G1 closed - R-20 and R-21 read the list of windows before, while and after (252, 0 added, agreeing with the reviewer's own reading) and fail by name on a planted window or an unreadable list; 57 of 57 in the reviewer's run; only the two test files changed against version 1; the record check's exit 1 on /data, /lib, /test is the kit tracer's dir_fd fault (shutil.rmtree), not the round's"
+moved: nothing
+verdict: accepted
+format: 2

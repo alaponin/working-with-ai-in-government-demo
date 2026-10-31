@@ -1,0 +1,7 @@
+kind: guard
+written: "2026-10-31T14:50:18Z"
+guard: ledger
+stopped: "issued: --subject 'C-2026-10-31-08' is not of the form \"<code> <id>[ <part>]\""
+code: MR
+session: "MR · orchestrator"
+format: 1

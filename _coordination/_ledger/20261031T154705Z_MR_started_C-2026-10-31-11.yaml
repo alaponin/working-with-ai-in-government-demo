@@ -1,0 +1,15 @@
+kind: started
+written: 2026-10-31T15:47:05Z
+code: MR
+by: "MR · work · answers to the groundwork's questions"
+account: arne.laponin@gmail.com
+computer: MacBookPro
+id: C-2026-10-31-11
+version: 2
+session: "MR · work · answers to the groundwork's questions"
+shell: native
+instruction: ~/IdeaProjects/mini-registry/_prompts/PROMPT_QUESTIONS_2026-10-31.md
+effort: unknown
+started_by: owner
+inputs: "~/IdeaProjects/mini-registry/docs/GROUNDWORK.md sha256:5ed9b62f282d433df7c337a2da30e4830c56170dca1e646ae5aacc2cc2795dce · ~/IdeaProjects/mini-registry/docs/groundwork/ sha256:05e359476e04fda3c7445f952e2ea481c4a8c73192fea0fb43bbbd80a33a5bf1 · ~/IdeaProjects/mini-registry/docs/REQUIREMENTS.md sha256:ad583b3958fb5c5fdf6683b5c2487b6f0c425d66cebc7c46811e2e19af13f103 · ~/IdeaProjects/brief/MINI-REGISTRY-BRIEF.md sha256:ec6971e74a6a8387de0e5bd7a5e1cdead6ddf711b8fdac3ccc1d4b7555e11f64 · ~/IdeaProjects/mini-registry/docs/GAPS-PAPER.md sha256:d03db64c6e49a1b92467c1e6e19929c321964bd89f6cb715d15dd570f37bc8bb · ~/IdeaProjects/mini-registry/_kinds/analysis.md sha256:a5054bec7db874e744d0f042f348d099378b2cf0c6c6cedd027f0329843f7514"
+format: 2

@@ -1,0 +1,7 @@
+kind: guard
+written: "2026-10-31T15:07:55Z"
+guard: placement_check
+stopped: "/Users/arnelaponin/Documents/Dev/wai-demo/mini-registry/_prompts/PROMPT_REVIEW_COMMIT_2026-10-31.md: finding: missing: /Users/arnelaponin/Documents/Dev/wai-demo/mini-registry/_reviews/REVIEW_COMMIT_2026-10-31.md is named among the outputs and does not exist"
+code: MR
+session: "MR · review · commit of the day"
+format: 1

@@ -1,0 +1,13 @@
+kind: finished
+written: 2026-10-31T17:39:24Z
+code: MR
+by: "MR · review · the goal in full"
+account: arne.laponin@gmail.com
+computer: MacBookPro
+id: C-2026-10-31-14
+version: 2
+report: ~/IdeaProjects/mini-registry/_reviews/REVIEW_GOAL_2026-10-31_v2.md
+outcome: "Accepted: A1 to A13 met; G1 closed for every step and failure (0 of 17 registry-does, clerk-sees and is-saved fields state a fact their sources do not carry) and items 1 to 4 closed; the failures re-established by another route number 5, as the goal gives; the four mechanical checks clean"
+moved: nothing
+verdict: accepted
+format: 2

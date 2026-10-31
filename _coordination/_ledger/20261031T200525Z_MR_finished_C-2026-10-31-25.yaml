@@ -1,0 +1,12 @@
+kind: finished
+written: 2026-10-31T20:05:25Z
+code: MR
+by: "MR · work · the goal built"
+account: arne.laponin@gmail.com
+computer: MacBookPro
+id: C-2026-10-31-25
+version: 2
+report: ~/IdeaProjects/mini-registry/_reports/REPORT_BUILD_2026-10-31_v2.md
+outcome: "R-20 and R-21 now read the list of windows (CGWindowListCopyWindowInfo through osascript, no permission, no window): node --test passes 57 of 57, 252 windows before and after at every reading, 0 added; a planted extra window fails R-20 and both R-21 by name; only the two test files changed; trace and placement checks clean; record check exit 1 on 3 spurious reads (/data, /lib, /test) traced from plant.py's copytree, named in A9; Q-4 whitespace and Q-6/Q-8 fourth school put to the owner"
+moved: "src/test/goal.test.js and src/test/requirements.test.js changed: R-20 and R-21 read the list of windows; nothing else under src/ moved, so rounds 7 and 8 build on the same prototype, with R-20 and R-21 checked as their tests say"
+format: 2

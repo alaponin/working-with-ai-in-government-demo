@@ -1,0 +1,7 @@
+kind: guard
+written: "2026-10-31T22:18:06Z"
+guard: placement_check
+stopped: "/Users/arnelaponin/Documents/Dev/wai-demo/mini-registry/_prompts/PROMPT_FIRST_TASK_2026-11-01.md: finding: missing: /Users/arnelaponin/Documents/Dev/wai-demo/mini-registry/_reports/REPORT_FIRST_TASK_2026-11-01.md is named among the outputs and does not exist"
+code: MR
+session: "MR · orchestrator · from 2026-11-01"
+format: 1

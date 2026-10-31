@@ -1,0 +1,11 @@
+kind: decision
+written: 2026-10-31T14:11:36Z
+code: MR
+by: "MR · orchestrator"
+account: arne.laponin@gmail.com
+computer: MacBookPro
+id: D-2026-10-31-03
+what: "The answers to the register's open questions G-01 to G-13, which round 2 (the groundwork) needs: the decision paper was re-scoped after two reviews of not accepted (procedure 6.4), with its thirteen recommendations unchanged through both and none called wrong"
+recommendation: "Rule on the thirteen as the paper's summary gives them (docs/GAPS-PAPER.md, lines 26 to 38), knowing the reviews' open faults lie in how rival positions are argued in G-01 and G-10, not in what is recommended; round 2 is then issued from the brief, the register and this ruling. The rival: re-commission G-01 and G-10 alone as a narrow paper before ruling."
+paper: ~/IdeaProjects/mini-registry/docs/GAPS-PAPER.md
+format: 2

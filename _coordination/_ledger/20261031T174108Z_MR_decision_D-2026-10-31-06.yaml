@@ -1,0 +1,11 @@
+kind: decision
+written: 2026-10-31T17:41:08Z
+code: MR
+by: "MR · orchestrator"
+account: arne.laponin@gmail.com
+computer: MacBookPro
+id: D-2026-10-31-06
+what: "Round 3 of the brief, the goal in full (docs/GOAL.md: 7 steps, 5 ways it can go wrong, 5 screens, 13 questions left open): the owner's ruling, which the brief asks for after every round"
+recommendation: "Accept it as it stands: the review of its second version is accepted, every fact beside the source words that carry it. Its 13 open questions are answered before round 6, the first round that needs them; round 4, the count, does not."
+paper: ~/IdeaProjects/mini-registry/_reviews/REVIEW_GOAL_2026-10-31_v2.md
+format: 2

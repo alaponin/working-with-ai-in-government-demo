@@ -1,0 +1,14 @@
+kind: finished
+written: 2026-10-31T19:25:15Z
+code: MR
+by: "MR · review · third commit of the day"
+account: arne.laponin@gmail.com
+computer: MacBookPro
+id: C-2026-10-31-24
+version: 2
+report: ~/IdeaProjects/mini-registry/_reviews/REVIEW_COMMIT3_2026-10-31_v2.md
+outcome: "not accepted: commits sound (B1, B2, A2, A3, A6 re-run and hold) but report window typed by hand, ls -ld record omitted, and B3 unmeetable as written (WHAT_IS_RUNNING.md)"
+moved: nothing
+verdict: "not accepted"
+kinds: "item=1 · form=1 · other=1"
+format: 2

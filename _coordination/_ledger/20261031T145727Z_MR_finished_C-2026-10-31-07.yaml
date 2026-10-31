@@ -1,0 +1,12 @@
+kind: finished
+written: 2026-10-31T14:57:27Z
+code: MR
+by: "MR · work · groundwork"
+account: arne.laponin@gmail.com
+computer: MacBookPro
+id: C-2026-10-31-07
+version: 2
+report: ~/IdeaProjects/mini-registry/_reports/REPORT_GROUNDWORK_2026-10-31_v2.md
+outcome: "Version 2 closes the review's gap G1: the three CSVs unchanged, GROUNDWORK.md changed by one added gap 14 (capitals in \"share\", left open); the A2-A4 checks re-run through run print as for version 1; placement and trace checks run outside run, clean; the record's check exits 0 (0 findings); B1-B6 met."
+moved: "docs/GROUNDWORK.md gains gap 14 under 'Gaps against the sources'; the three CSVs unchanged"
+format: 2

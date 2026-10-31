@@ -1,0 +1,13 @@
+kind: finished
+written: 2026-10-31T17:50:30Z
+code: MR
+by: "MR · review · second commit of the day"
+account: arne.laponin@gmail.com
+computer: MacBookPro
+id: C-2026-10-31-16
+version: 1
+report: ~/IdeaProjects/mini-registry/_reviews/REVIEW_COMMIT2_2026-10-31.md
+outcome: "Accepted: A1-A6 met (A4 at file level, criterion wording defective), counts 201 and 52 re-established, nothing ignored committed, trace and ledger checks clean"
+moved: nothing
+verdict: accepted
+format: 2

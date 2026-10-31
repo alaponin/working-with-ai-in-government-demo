@@ -1,0 +1,15 @@
+kind: started
+written: 2026-10-31T18:33:01Z
+code: MR
+by: "MR · review · the count"
+account: arne.laponin@gmail.com
+computer: MacBookPro
+id: C-2026-10-31-20
+version: 1
+session: "MR · review · the count"
+shell: native
+instruction: ~/IdeaProjects/mini-registry/_prompts/PROMPT_REVIEW_COUNT_2026-10-31.md
+effort: unknown
+started_by: sub-session
+inputs: "~/IdeaProjects/mini-registry/_reports/REPORT_COUNT_2026-10-31.md sha256:6d1cb01e1b729dff093ad694f19fb348ed29aa7cb3f8f8a0374f8ef8958cf283 · ~/IdeaProjects/mini-registry/_prompts/PROMPT_COUNT_2026-10-31.md sha256:f55af9830035a27abe1b6a2e47c914728496da8b9fb4cd0596e96990227c6c29 · ~/IdeaProjects/mini-registry/docs/REQUIREMENTS.md sha256:ad583b3958fb5c5fdf6683b5c2487b6f0c425d66cebc7c46811e2e19af13f103 · ~/IdeaProjects/mini-registry/docs/GOAL.md sha256:342515fd5ed96e45e23014568f67e8126edfeeccdb7f862dddd38e44acdb2aed · ~/IdeaProjects/mini-registry/docs/GOAL-QUESTIONS-PAPER.md sha256:9603caf1d95b8f89927a35969e33947da9e93776e04f98ccd27a3a7965ef0cef · ~/IdeaProjects/mini-registry/_kinds/checking.md sha256:172beca4e52e63f6ea3640a39af7ce1c9c5368cd91c44e6c3e00a0952bea2ea3"
+format: 2

@@ -1,0 +1,11 @@
+kind: decision
+written: 2026-10-31T18:46:09Z
+code: MR
+by: "MR · orchestrator"
+account: arne.laponin@gmail.com
+computer: MacBookPro
+id: D-2026-10-31-09
+what: "What the prototype is built in: no source names a stack"
+recommendation: "Python 3.9 standard library only: nothing to install, nothing fetched"
+paper: none
+format: 2

@@ -1,0 +1,12 @@
+kind: finished
+written: 2026-10-31T18:59:12Z
+code: MR
+by: "MR · work · scaffold and made-up data"
+account: arne.laponin@gmail.com
+computer: MacBookPro
+id: C-2026-10-31-21
+version: 1
+report: ~/IdeaProjects/mini-registry/_reports/REPORT_DATA_2026-10-31.md
+outcome: "Scaffold in Node.js with no dependencies under src/; node reset.js exits 0 and node --test test/ passes 29 of 29 checks, each counting data/: 60 children, 3 schools of 20, 68 entries 24/22/22, 8 on two lists in Q-5's pairs, 4 spelt differently on the later list, ages 6-12, 64 learners numbered 1-64, 68 enrolment rows; planted fault fails 7 checks by name; reset twice identical; nothing connects or opens; reads under src/ only; sources unchanged; record check 0 findings"
+moved: "src/ is new: package.json, reset.js, lib/ (search rule as lib/search.js for round 6), test/, and data/ written by the reset (learners.json, key_table.json, enrolments.json for round 7)"
+format: 2

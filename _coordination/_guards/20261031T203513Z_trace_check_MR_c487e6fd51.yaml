@@ -1,0 +1,7 @@
+kind: guard
+written: "2026-10-31T20:35:13Z"
+guard: trace_check
+stopped: "/Users/arnelaponin/Documents/Dev/wai-demo/mini-registry/_reviews/REVIEW_DUPLICATES_2026-10-31.md: finding: input-changed: the review instruction: /Users/arnelaponin/Documents/Dev/wai-demo/mini-registry/_reports/REPORT_DUPLICATES_2026-10-31.md — absent at issue (20261031T201612Z_MR_issued_C-2026-10-31-30.yaml), sha256:7a0845ef1300 at start, sha256:7a0845ef1300 now"
+code: MR
+session: "MR · work · the duplicates count"
+format: 1

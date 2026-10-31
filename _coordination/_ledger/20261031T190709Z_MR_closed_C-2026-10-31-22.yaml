@@ -1,0 +1,12 @@
+kind: closed
+written: 2026-10-31T19:07:09Z
+code: MR
+by: "MR · orchestrator"
+account: arne.laponin@gmail.com
+computer: MacBookPro
+id: C-2026-10-31-22
+version: 1
+outcome: accepted
+subject: "MR C-2026-10-31-21"
+ground: "the review _reviews/REVIEW_DATA_2026-10-31.md is accepted, no gaps: its own run passes 29 of 29, its own Python count re-establishes every known number and 4 of the 8 joined, two planted faults caught, the search module agrees with search_rule.csv; trace check clean over the report, the review's one finding the report pinned absent at issue, as expected"
+format: 2

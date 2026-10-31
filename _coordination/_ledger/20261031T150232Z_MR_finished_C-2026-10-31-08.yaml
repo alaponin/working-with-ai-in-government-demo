@@ -1,0 +1,13 @@
+kind: finished
+written: 2026-10-31T15:02:32Z
+code: MR
+by: "MR · review · groundwork"
+account: arne.laponin@gmail.com
+computer: MacBookPro
+id: C-2026-10-31-08
+version: 2
+report: ~/IdeaProjects/mini-registry/_reviews/REVIEW_GROUNDWORK_2026-10-31_v2.md
+outcome: "Accepted: G1 closed, the v2 record check exits 0 with 0 findings when rerun; the three CSVs unchanged and GROUNDWORK.md changed only by gap 14, which quotes G-05, G-03 and brief line 13 exactly and answers nothing; B1-B6 and A9 met; settings re-established by hand, 17 against 17"
+moved: nothing
+verdict: accepted
+format: 2

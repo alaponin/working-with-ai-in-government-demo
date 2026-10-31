@@ -1,0 +1,7 @@
+kind: guard
+written: "2026-10-31T19:26:00Z"
+guard: trace_check
+stopped: "/Users/arnelaponin/Documents/Dev/wai-demo/mini-registry/_reviews/REVIEW_COMMIT3_2026-10-31_v2.md: finding: input-changed: the review instruction: /Users/arnelaponin/Documents/Dev/wai-demo/mini-registry/_reports/REPORT_COMMIT3_2026-10-31_v2.md — absent at issue (20261031T191906Z_MR_issued_C-2026-10-31-24.yaml), sha256:1595b6d1cf16 at start, sha256:1595b6d1cf16 now"
+code: MR
+session: "MR · work · third commit of the day"
+format: 1

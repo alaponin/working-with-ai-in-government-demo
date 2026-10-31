@@ -1,0 +1,12 @@
+kind: finished
+written: 2026-10-31T19:42:35Z
+code: MR
+by: "MR · work · the goal built"
+account: arne.laponin@gmail.com
+computer: MacBookPro
+id: C-2026-10-31-25
+version: 1
+report: ~/IdeaProjects/mini-registry/_reports/REPORT_BUILD_2026-10-31.md
+outcome: "The goal is built under src/: lib/enrol.js (S-1 to S-7, F-1 to F-7 as ruled, search by round 5's lib/search.js unchanged), lib/screens.js (SC-1 to SC-5, each with R-17's line), server.js on 127.0.0.1 only; node --test passes 57 of 57 (round 5's 29 and 28 new), 0 of 20 paired requirements and failures without a check; both planted faults fail by name; round 5's files unchanged but package.json's start script; sources unchanged; placement, trace and record checks exit 0; F-4 is reached only on a record the check writes, and the window list was not read (report sections 3, 4)"
+moved: "src/ gains server.js, lib/enrol.js, lib/screens.js, test/goal.test.js, test/requirements.test.js and a start script in package.json: round 7 counts the 8 with lib/search.js and src/data as they stand, round 8 describes the five screens as the server returns them"
+format: 2

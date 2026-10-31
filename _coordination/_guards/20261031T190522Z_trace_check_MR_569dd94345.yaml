@@ -1,0 +1,7 @@
+kind: guard
+written: "2026-10-31T19:05:22Z"
+guard: trace_check
+stopped: "/Users/arnelaponin/Documents/Dev/wai-demo/mini-registry/_reviews/REVIEW_DATA_2026-10-31.md: finding: input-changed: the review instruction: /Users/arnelaponin/Documents/Dev/wai-demo/mini-registry/_reports/REPORT_DATA_2026-10-31.md — absent at issue (20261031T184748Z_MR_issued_C-2026-10-31-22.yaml), sha256:ac43579f604c at start, sha256:ac43579f604c now"
+code: MR
+session: "MR · work · scaffold and made-up data"
+format: 1

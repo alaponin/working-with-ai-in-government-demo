@@ -1,0 +1,15 @@
+kind: started
+written: 2026-10-31T21:48:31Z
+code: MR
+by: "MR · review · the delivery commit"
+account: arne.laponin@gmail.com
+computer: MacBookPro
+id: C-2026-10-31-34
+version: 1
+session: "MR · review · the delivery commit"
+shell: native
+instruction: ~/IdeaProjects/mini-registry/_prompts/PROMPT_REVIEW_COMMIT4_2026-10-31.md
+effort: unknown
+started_by: sub-session
+inputs: "~/IdeaProjects/mini-registry/_reports/REPORT_COMMIT4_2026-10-31.md sha256:c637630b31c26282ffda3a031c6e08022506cdd938388a51bbac06a225626035 · ~/IdeaProjects/mini-registry/_prompts/PROMPT_COMMIT4_2026-10-31.md sha256:5e66d09b44c9273fd737d94f7c770d8e644b80121dc34fad31ae00215cf5a2e1"
+format: 2

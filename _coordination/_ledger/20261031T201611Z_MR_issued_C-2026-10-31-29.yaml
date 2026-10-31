@@ -1,0 +1,18 @@
+kind: issued
+written: 2026-10-31T20:16:11Z
+code: MR
+by: "MR · orchestrator"
+account: arne.laponin@gmail.com
+computer: MacBookPro
+id: C-2026-10-31-29
+version: 1
+instruction: ~/IdeaProjects/mini-registry/_prompts/PROMPT_DUPLICATES_2026-10-31.md
+session: "MR · work · the duplicates count"
+model: Opus
+effort: high
+report: ~/IdeaProjects/mini-registry/_reports/REPORT_DUPLICATES_2026-10-31.md
+outputs: "~/IdeaProjects/mini-registry/docs/DUPLICATES.md · ~/IdeaProjects/mini-registry/docs/count/duplicates.csv · ~/IdeaProjects/mini-registry/_working/round-07-duplicates/_evidence/ · ~/IdeaProjects/mini-registry/_reports/REPORT_DUPLICATES_2026-10-31.md"
+serves: "the working prototype, deliverable 1 of the constants — round 7 of the brief, the duplicates count: how many of the 8 the search catches"
+inputs: "~/IdeaProjects/mini-registry/src/data/key_table.json sha256:ae86a420f759f3927a108ee58b2dbd10ab3fd688447e248815f3979d7bbd30da · ~/IdeaProjects/mini-registry/src/data/enrolments.json sha256:4435bfa8398d2230c2a45738b633afcb2d3063f523e3390458328be0400bb3dd · ~/IdeaProjects/mini-registry/src/data/learners.json sha256:32e01ac3a4a25a130d4b54cbaca140252690e13aa3c20a122210ce0232350b66 · ~/IdeaProjects/mini-registry/src/lib/search.js sha256:fc8c5ead71e0cd20d36c92eb8d035646eca408a10616dc893224c5b64285a17a · ~/IdeaProjects/mini-registry/src/reset.js sha256:4cb5e74df1671e7ee9c42b1f12d0967be7b78b824465427e1c7806c9c925b254 · ~/IdeaProjects/mini-registry/docs/groundwork/search_rule.csv sha256:9a7c98ce9b57dde82ccca48c84c638b7efd5c08f26f1677e738ecc8d00386fdb · ~/IdeaProjects/mini-registry/docs/QUESTIONS-PAPER.md sha256:5146d23a87cf9c0527c26c2965725bfa1125bd1a0a103ac83b68fb7dbd50cce0 · ~/IdeaProjects/brief/MINI-REGISTRY-BRIEF.md sha256:ec6971e74a6a8387de0e5bd7a5e1cdead6ddf711b8fdac3ccc1d4b7555e11f64 · ~/IdeaProjects/mini-registry/_kinds/checking.md sha256:172beca4e52e63f6ea3640a39af7ce1c9c5368cd91c44e6c3e00a0952bea2ea3"
+instruction_digest: sha256:066b7b53ca6291a20c013911031da707a7afebda87b5164005aa1d0139738c47
+format: 2

@@ -1,0 +1,11 @@
+kind: decision
+written: 2026-10-31T13:22:16Z
+code: MR
+by: "MR · orchestrator"
+account: arne.laponin@gmail.com
+computer: MacBookPro
+id: D-2026-10-31-02
+what: "Round 1 of the brief, the register of requirements (docs/REQUIREMENTS.md, 23 requirements, 14 open questions): the owner's ruling, which the brief asks for after every round"
+recommendation: "Accept it as it stands: the review is accepted with 0 gaps and the trace check is clean. G-14 is closed by the brief's line 13 (capitals ignored, nothing else). G-01 to G-13 are answered by the decision paper commissioned next, on which the owner rules before round 2 is issued."
+paper: ~/IdeaProjects/mini-registry/_reviews/REVIEW_REQUIREMENTS_2026-10-31.md
+format: 2

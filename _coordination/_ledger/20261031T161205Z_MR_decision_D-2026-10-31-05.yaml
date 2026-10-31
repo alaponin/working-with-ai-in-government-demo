@@ -1,0 +1,11 @@
+kind: decision
+written: 2026-10-31T16:12:05Z
+code: MR
+by: "MR · orchestrator"
+account: arne.laponin@gmail.com
+computer: MacBookPro
+id: D-2026-10-31-05
+what: "The answers to the groundwork's 14 open questions, which round 5 needs: the paper was re-scoped after two reviews of not accepted, every fault in how a rival is judged, none in a recommendation"
+recommendation: "Rule the 14 recommendations as the paper's proposals give them (docs/QUESTIONS-PAPER.md, each section's closing proposal); together they reach the brief's known numbers, 64 learners after reset and 4 of the 8 caught. Do not rule Q-10's rival (date forms differing by list): beside Q-8 as recommended it breaks the letter-for-letter match, which the paper does not say. The rivals of Q-6 and Q-9 cannot be built with the other recommendations, as the paper says."
+paper: ~/IdeaProjects/mini-registry/docs/QUESTIONS-PAPER.md
+format: 2

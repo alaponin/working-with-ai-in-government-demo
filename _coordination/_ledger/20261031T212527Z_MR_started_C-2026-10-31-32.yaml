@@ -1,0 +1,15 @@
+kind: started
+written: 2026-10-31T21:25:27Z
+code: MR
+by: "MR · review · the note to the Permanent Secretary"
+account: arne.laponin@gmail.com
+computer: MacBookPro
+id: C-2026-10-31-32
+version: 2
+session: "MR · review · the note to the Permanent Secretary"
+shell: native
+instruction: ~/IdeaProjects/mini-registry/_prompts/PROMPT_REVIEW_NOTE_2026-10-31.md
+effort: unknown
+started_by: sub-session
+inputs: "~/IdeaProjects/mini-registry/_reports/REPORT_NOTE_2026-10-31_v2.md sha256:32698107493debda4d658cf98b8b6392a140b55d32bfac2e3e2978c8fe81ad4c · ~/IdeaProjects/mini-registry/_prompts/PROMPT_NOTE_2026-10-31.md sha256:6177a9c0ecc7bb7b9cec7b741daef6e6a10b139dad276533d3730289f3918d83 · ~/IdeaProjects/mini-registry/docs/DUPLICATES.md sha256:7cd458b0e03accfed051e47249a27eb9f5534a025162b1c5bb78c9d959ed0f88 · ~/IdeaProjects/mini-registry/docs/REQUIREMENTS.md sha256:ad583b3958fb5c5fdf6683b5c2487b6f0c425d66cebc7c46811e2e19af13f103 · /Users/arnelaponin/Library/Application absent · ~/IdeaProjects/mini-registry/_kinds/drafting.md sha256:4eca6a27d8ef9ee5f76725fca6d0f8f26b26893068dc30d54ec87e07e7ee4b65"
+format: 2

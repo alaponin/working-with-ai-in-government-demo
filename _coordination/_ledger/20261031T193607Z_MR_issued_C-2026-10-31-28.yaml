@@ -1,0 +1,19 @@
+kind: issued
+written: 2026-10-31T19:36:07Z
+code: MR
+by: "MR · orchestrator"
+account: arne.laponin@gmail.com
+computer: MacBookPro
+id: C-2026-10-31-28
+version: 2
+instruction: ~/IdeaProjects/mini-registry/_prompts/PROMPT_REVIEW_KIND_ITEM_2026-10-31.md
+session: "MR · review · the pages against the kind item"
+model: Sonnet
+effort: medium
+report: ~/IdeaProjects/mini-registry/_reviews/REVIEW_KIND_ITEM_2026-10-31_v2.md
+outputs: "~/IdeaProjects/mini-registry/_reviews/REVIEW_KIND_ITEM_2026-10-31_v2.md · ~/IdeaProjects/mini-registry/_working/round-kind-item-v2-review/_evidence/"
+subject: "MR C-2026-10-31-27"
+serves: "the verdict on C-2026-10-31-27, the pages against the kind item"
+inputs: "~/IdeaProjects/mini-registry/_reports/REPORT_KIND_ITEM_2026-10-31_v2.md absent · ~/IdeaProjects/mini-registry/_prompts/PROMPT_KIND_ITEM_2026-10-31.md sha256:751802f3d7dce45b0b27f88bc15f547adc95a5de921ea529994782ab02fb9288"
+instruction_digest: sha256:c34a469e678da4c79dbff75bdfa4f47b20d637fc4aed880fab617b8fc564ea6a
+format: 2
