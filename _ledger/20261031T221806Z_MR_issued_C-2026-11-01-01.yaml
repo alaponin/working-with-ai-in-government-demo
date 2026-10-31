@@ -1,0 +1,18 @@
+kind: issued
+written: 2026-10-31T22:18:06Z
+code: MR
+by: "MR · orchestrator"
+account: arne.laponin@gmail.com
+computer: MacBookPro
+id: C-2026-11-01-01
+version: 1
+instruction: ~/IdeaProjects/mini-registry/_prompts/PROMPT_FIRST_TASK_2026-11-01.md
+session: "MR · orchestrator · from 2026-11-01"
+model: Opus
+effort: high
+report: ~/IdeaProjects/mini-registry/_reports/REPORT_FIRST_TASK_2026-11-01.md
+outputs: ~/IdeaProjects/mini-registry/_reports/REPORT_FIRST_TASK_2026-11-01.md
+serves: "the change of hands on the mini registry — the role passes at the incoming session's taken-up entry, and this file is the report of its first task"
+inputs: "~/IdeaProjects/mini-registry/_records/HANDOVER_2026-11-01.md sha256:5dfa64849fe6a980b2cb9fa082671442b776f8569f5d43bbdbff6b7a30c99a39"
+instruction_digest: sha256:28ef22618df5db0ced41967434d1bc09ae848623b24aa9c914df23f3a33f1736
+format: 2

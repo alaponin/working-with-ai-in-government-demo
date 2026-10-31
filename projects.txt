@@ -1,5 +1,5 @@
 <!-- ledger:begin registry — produced by ledger.py views from the ledger; do not hand-edit -->
-## MR — the mini registry
+## MR — the mini registry — no session holds the role since 2026-10-31T22:18:16Z
 
 CODE: MR
 SESSION: MR · orchestrator

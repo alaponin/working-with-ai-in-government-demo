@@ -1,0 +1,12 @@
+kind: closed
+written: 2026-10-31T21:53:32Z
+code: MR
+by: "MR · orchestrator"
+account: arne.laponin@gmail.com
+computer: MacBookPro
+id: C-2026-10-31-34
+version: 1
+outcome: accepted
+subject: "MR C-2026-10-31-33"
+ground: "the review _reviews/REVIEW_COMMIT4_2026-10-31.md is accepted, no gaps: commits 8484d16 (mini registry, 676 files) and ab3cc36 (_coordination, 81 files), no push, the note's PDF not committed; both deliverables delivered under the history kept local"
+format: 2
