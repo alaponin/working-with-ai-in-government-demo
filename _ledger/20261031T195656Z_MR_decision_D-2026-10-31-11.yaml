@@ -1,0 +1,11 @@
+kind: decision
+written: 2026-10-31T19:56:56Z
+code: MR
+by: "MR · orchestrator"
+account: arne.laponin@gmail.com
+computer: MacBookPro
+id: D-2026-10-31-11
+what: "Three questions round 6 and its review raised: (1) F-4 can be checked only on a record the test writes, against the building page's item 3; (2) an entry of any whitespace, not spaces only, is taken as missing, wider than the ruling on Q-4; (3) a refused fourth school is not kept on the way back to SC-1, which offers the three only, against Q-8's entries kept"
+recommendation: "The simplest: keep all three as round 6 built them, no change to the code — F-4 checked on a written record, any whitespace taken as missing, a fourth school not kept — each named as a limit in the note to the Permanent Secretary where it bears"
+paper: ~/IdeaProjects/mini-registry/_reviews/REVIEW_BUILD_2026-10-31.md
+format: 2

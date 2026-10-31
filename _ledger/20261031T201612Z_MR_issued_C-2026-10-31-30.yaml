@@ -1,0 +1,19 @@
+kind: issued
+written: 2026-10-31T20:16:12Z
+code: MR
+by: "MR · orchestrator"
+account: arne.laponin@gmail.com
+computer: MacBookPro
+id: C-2026-10-31-30
+version: 1
+instruction: ~/IdeaProjects/mini-registry/_prompts/PROMPT_REVIEW_DUPLICATES_2026-10-31.md
+session: "MR · review · the duplicates count"
+model: Opus
+effort: high
+report: ~/IdeaProjects/mini-registry/_reviews/REVIEW_DUPLICATES_2026-10-31.md
+outputs: "~/IdeaProjects/mini-registry/_reviews/REVIEW_DUPLICATES_2026-10-31.md · ~/IdeaProjects/mini-registry/_working/round-07-duplicates-review/_evidence/"
+subject: "MR C-2026-10-31-29"
+serves: "the verdict on C-2026-10-31-29, the duplicates count"
+inputs: "~/IdeaProjects/mini-registry/_reports/REPORT_DUPLICATES_2026-10-31.md absent · ~/IdeaProjects/mini-registry/_prompts/PROMPT_DUPLICATES_2026-10-31.md sha256:066b7b53ca6291a20c013911031da707a7afebda87b5164005aa1d0139738c47 · ~/IdeaProjects/mini-registry/docs/groundwork/search_rule.csv sha256:9a7c98ce9b57dde82ccca48c84c638b7efd5c08f26f1677e738ecc8d00386fdb · ~/IdeaProjects/mini-registry/_kinds/checking.md sha256:172beca4e52e63f6ea3640a39af7ce1c9c5368cd91c44e6c3e00a0952bea2ea3"
+instruction_digest: sha256:50bb067f92bc8dbe6687537d83cfb72060a8871327bc09b88c36450dba9dfa9b
+format: 2

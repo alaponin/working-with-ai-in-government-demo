@@ -1,0 +1,19 @@
+kind: issued
+written: 2026-10-31T19:53:53Z
+code: MR
+by: "MR · orchestrator"
+account: arne.laponin@gmail.com
+computer: MacBookPro
+id: C-2026-10-31-26
+version: 2
+instruction: ~/IdeaProjects/mini-registry/_prompts/PROMPT_REVIEW_BUILD_2026-10-31.md
+session: "MR · review · the goal built"
+model: Opus
+effort: high
+report: ~/IdeaProjects/mini-registry/_reviews/REVIEW_BUILD_2026-10-31_v2.md
+outputs: "~/IdeaProjects/mini-registry/_reviews/REVIEW_BUILD_2026-10-31_v2.md · ~/IdeaProjects/mini-registry/_working/round-06-build-v2-review/_evidence/"
+subject: "MR C-2026-10-31-25"
+serves: "the verdict on C-2026-10-31-25, the goal built"
+inputs: "~/IdeaProjects/mini-registry/_reports/REPORT_BUILD_2026-10-31_v2.md absent · ~/IdeaProjects/mini-registry/_prompts/PROMPT_BUILD_2026-10-31.md sha256:3928a9befbda263fb3efa24f2385bf710a659ca80eb3e459f590be85347a70d7 · ~/IdeaProjects/mini-registry/docs/GOAL.md sha256:342515fd5ed96e45e23014568f67e8126edfeeccdb7f862dddd38e44acdb2aed · ~/IdeaProjects/mini-registry/docs/GOAL-QUESTIONS-PAPER.md sha256:9603caf1d95b8f89927a35969e33947da9e93776e04f98ccd27a3a7965ef0cef · ~/IdeaProjects/mini-registry/docs/REQUIREMENTS.md sha256:ad583b3958fb5c5fdf6683b5c2487b6f0c425d66cebc7c46811e2e19af13f103 · ~/IdeaProjects/mini-registry/docs/count/count.csv sha256:5a0f28ea6bcccd0ad6c3bced2144fe8e681c542a60b703fe23cec6c55eb9d9a1 · ~/IdeaProjects/mini-registry/_kinds/building.md sha256:c857d50000d9ea00c9f75e5a912079f40abe28812d182a0e5f84444e2eb1233c"
+instruction_digest: sha256:050c22b39b5763b1e103fe2b03ba1fcc4f0a11ef0ad534d1b31f47f2103a9813
+format: 2

@@ -1,0 +1,12 @@
+kind: closed
+written: 2026-10-31T19:26:22Z
+code: MR
+by: "MR · orchestrator"
+account: arne.laponin@gmail.com
+computer: MacBookPro
+id: C-2026-10-31-24
+version: 2
+outcome: re-scoped
+subject: "MR C-2026-10-31-23"
+ground: "procedure 6.4, after two verdicts of not accepted: the review of version 2, _reviews/REVIEW_COMMIT3_2026-10-31_v2.md, finds the commits sound (e184746 and 62659d9, both statuses empty after; B1, B2, A2, A3, A6 hold on re-run) and three gaps, one of them (B3) a criterion of this role's instruction that cannot be met, WHAT_IS_RUNNING.md being rebuilt by every ledger entry. The act is done; no third version. The cure is the orchestrator's: a commit instruction's criteria read the status of everything but the files the ledger and the round itself write after the commit"
+format: 2

@@ -1,0 +1,7 @@
+kind: guard
+written: "2026-10-31T21:39:23Z"
+guard: trace_check
+stopped: "/Users/arnelaponin/Documents/Dev/wai-demo/mini-registry/_reviews/REVIEW_NOTE_2026-10-31_v2.md: finding: input-changed: the review instruction: /Users/arnelaponin/Documents/Dev/wai-demo/mini-registry/_reports/REPORT_NOTE_2026-10-31_v2.md — absent at issue (20261031T210828Z_MR_issued_C-2026-10-31-32.yaml), sha256:32698107493d at start, sha256:32698107493d now"
+code: MR
+session: "MR · work · the note to the Permanent Secretary"
+format: 1

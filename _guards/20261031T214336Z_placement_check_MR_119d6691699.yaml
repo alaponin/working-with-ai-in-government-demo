@@ -1,0 +1,7 @@
+kind: guard
+written: "2026-10-31T21:43:36Z"
+guard: placement_check
+stopped: "/Users/arnelaponin/Documents/Dev/wai-demo/mini-registry/_prompts/PROMPT_COMMIT4_2026-10-31.md: finding: missing: /Users/arnelaponin/Documents/Dev/wai-demo/mini-registry/_working/round-commit4/_evidence/ is named among the outputs and does not exist"
+code: MR
+session: "MR · work · the delivery commit"
+format: 1

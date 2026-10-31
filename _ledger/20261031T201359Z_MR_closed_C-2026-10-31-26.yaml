@@ -1,0 +1,12 @@
+kind: closed
+written: 2026-10-31T20:13:59Z
+code: MR
+by: "MR · orchestrator"
+account: arne.laponin@gmail.com
+computer: MacBookPro
+id: C-2026-10-31-26
+version: 2
+outcome: accepted
+subject: "MR C-2026-10-31-25"
+ground: "the review of version 2, _reviews/REVIEW_BUILD_2026-10-31_v2.md, is accepted, no gap: R-20 and R-21 read the list of windows, 57 of 57 in the reviewer's run, only the test files changed; the record check's exit 1 is the kit tracer's fault on shutil.rmtree, not the round's; trace check clean over the report"
+format: 2

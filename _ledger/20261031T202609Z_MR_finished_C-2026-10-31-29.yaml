@@ -1,0 +1,12 @@
+kind: finished
+written: 2026-10-31T20:26:09Z
+code: MR
+by: "MR · work · the duplicates count"
+account: arne.laponin@gmail.com
+computer: MacBookPro
+id: C-2026-10-31-29
+version: 1
+report: ~/IdeaProjects/mini-registry/_reports/REPORT_DUPLICATES_2026-10-31.md
+outcome: "The search catches 4 of the 8: in enrolments.json C19, C26, C31 and C53 each point to one learner; C24, C50, C56 and C58 to two, each differing between its two entries in the family name only, by one letter; reset 57 of 57; planted faults give 4, 3 and 5 as they must; nothing under src/ changed; record check 0 findings; placement and trace checks clean"
+moved: "docs/DUPLICATES.md and docs/count/duplicates.csv are new, for round 8's note"
+format: 2

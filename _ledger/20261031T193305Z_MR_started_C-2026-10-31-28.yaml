@@ -1,0 +1,15 @@
+kind: started
+written: 2026-10-31T19:33:05Z
+code: MR
+by: "MR · review · the pages against the kind item"
+account: arne.laponin@gmail.com
+computer: MacBookPro
+id: C-2026-10-31-28
+version: 1
+session: "MR · review · the pages against the kind item"
+shell: native
+instruction: ~/IdeaProjects/mini-registry/_prompts/PROMPT_REVIEW_KIND_ITEM_2026-10-31.md
+effort: unknown
+started_by: sub-session
+inputs: "~/IdeaProjects/mini-registry/_reports/REPORT_KIND_ITEM_2026-10-31.md sha256:1fa54de2912ac5d793eff2bf362d25dab22008f7f68a47707d20d76eb073cd00 · ~/IdeaProjects/mini-registry/_prompts/PROMPT_KIND_ITEM_2026-10-31.md sha256:e33fbea077fd044a8a254a05218a20227e59f449b53378bf48b1c3ba88077eed · ~/IdeaProjects/mini-registry/_kinds/analysis.md sha256:be2fdb717015c8ce4e04bdb12df0cd4c4944a4cffa55458f102077774b172ad4"
+format: 2

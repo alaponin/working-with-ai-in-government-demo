@@ -1,0 +1,11 @@
+kind: closed
+written: 2026-10-31T19:47:49Z
+code: MR
+by: "MR · orchestrator"
+account: arne.laponin@gmail.com
+computer: MacBookPro
+id: C-2026-10-31-28
+version: 2
+outcome: accepted
+ground: "the review of version 2, _reviews/REVIEW_KIND_ITEM_2026-10-31_v2.md, is accepted: the page _kinds/analysis.md carries the two analysis gaps of kind item (part 1 item 7, part 3) and the commit gaps' cure stands in that instruction's version 2; trace check clean over the report"
+format: 2

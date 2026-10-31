@@ -1,0 +1,14 @@
+kind: finished
+written: 2026-10-31T19:34:48Z
+code: MR
+by: "MR · review · the pages against the kind item"
+account: arne.laponin@gmail.com
+computer: MacBookPro
+id: C-2026-10-31-28
+version: 1
+report: ~/IdeaProjects/mini-registry/_reviews/REVIEW_KIND_ITEM_2026-10-31.md
+outcome: "not accepted: A1, A2, A3, A5 met and the page line carries each gap, but A4 (trace check exit 0) cannot be met because the page is both input and output of the instruction"
+moved: nothing
+verdict: "not accepted"
+kinds: form=1
+format: 2

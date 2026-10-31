@@ -1,0 +1,7 @@
+kind: guard
+written: "2026-10-31T20:16:11Z"
+guard: placement_check
+stopped: "/Users/arnelaponin/Documents/Dev/wai-demo/mini-registry/_prompts/PROMPT_DUPLICATES_2026-10-31.md: finding: missing: /Users/arnelaponin/Documents/Dev/wai-demo/mini-registry/docs/DUPLICATES.md is named among the outputs and does not exist"
+code: MR
+session: "MR · work · the duplicates count"
+format: 1

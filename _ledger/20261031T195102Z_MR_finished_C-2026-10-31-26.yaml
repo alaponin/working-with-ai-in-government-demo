@@ -1,0 +1,14 @@
+kind: finished
+written: 2026-10-31T19:51:02Z
+code: MR
+by: "MR · review · the goal built"
+account: arne.laponin@gmail.com
+computer: MacBookPro
+id: C-2026-10-31-26
+version: 1
+report: ~/IdeaProjects/mini-registry/_reviews/REVIEW_BUILD_2026-10-31.md
+outcome: "Not accepted, 1 gap: G1 (item) — R-20's check does not read the list of windows as the register's test says, and the report's reason (a permission and a dialog) does not hold: the list was read here without either, 0 windows added; checks 57 of 57 in the reviewer's run, the clerk's walk, 2019-02-30 with no school, and a planted F-4 fault all as ruled; the four mechanical checks clean"
+moved: nothing
+verdict: "not accepted"
+kinds: item=1
+format: 2

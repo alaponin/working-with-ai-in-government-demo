@@ -1,0 +1,11 @@
+kind: decision
+written: 2026-10-31T20:14:00Z
+code: MR
+by: "MR · orchestrator"
+account: arne.laponin@gmail.com
+computer: MacBookPro
+id: D-2026-10-31-12
+what: "Round 6 of the brief, the goal built (src/: server on 127.0.0.1, five screens, 57 checks): the owner's ruling, which the brief asks for after every round"
+recommendation: "Accept it as it stands: accepted by its review on the second version, every check passing in the reviewer's own run, the windows read and none added; the three limits ruled at 21:56 stand as built."
+paper: ~/IdeaProjects/mini-registry/_reviews/REVIEW_BUILD_2026-10-31_v2.md
+format: 2

@@ -1,0 +1,15 @@
+kind: started
+written: 2026-10-31T19:55:53Z
+code: MR
+by: "MR · work · the goal built"
+account: arne.laponin@gmail.com
+computer: MacBookPro
+id: C-2026-10-31-25
+version: 2
+session: "MR · work · the goal built"
+shell: native
+instruction: ~/IdeaProjects/mini-registry/_prompts/PROMPT_BUILD_2026-10-31.md
+effort: unknown
+started_by: unknown
+inputs: "~/IdeaProjects/mini-registry/docs/GOAL.md sha256:342515fd5ed96e45e23014568f67e8126edfeeccdb7f862dddd38e44acdb2aed · ~/IdeaProjects/mini-registry/docs/GOAL-QUESTIONS-PAPER.md sha256:9603caf1d95b8f89927a35969e33947da9e93776e04f98ccd27a3a7965ef0cef · ~/IdeaProjects/mini-registry/docs/REQUIREMENTS.md sha256:ad583b3958fb5c5fdf6683b5c2487b6f0c425d66cebc7c46811e2e19af13f103 · ~/IdeaProjects/mini-registry/docs/COUNT.md sha256:fc2b28435e20f94d3f79408e8afee9176c77c5a8bcdaace67df3344c091131a6 · ~/IdeaProjects/mini-registry/docs/count/count.csv sha256:5a0f28ea6bcccd0ad6c3bced2144fe8e681c542a60b703fe23cec6c55eb9d9a1 · ~/IdeaProjects/mini-registry/docs/groundwork/ sha256:05e359476e04fda3c7445f952e2ea481c4a8c73192fea0fb43bbbd80a33a5bf1 · ~/IdeaProjects/mini-registry/docs/GAPS-PAPER.md sha256:d03db64c6e49a1b92467c1e6e19929c321964bd89f6cb715d15dd570f37bc8bb · ~/IdeaProjects/mini-registry/docs/QUESTIONS-PAPER.md sha256:5146d23a87cf9c0527c26c2965725bfa1125bd1a0a103ac83b68fb7dbd50cce0 · ~/IdeaProjects/brief/MINI-REGISTRY-BRIEF.md sha256:ec6971e74a6a8387de0e5bd7a5e1cdead6ddf711b8fdac3ccc1d4b7555e11f64 · ~/IdeaProjects/mini-registry/_kinds/building.md sha256:c857d50000d9ea00c9f75e5a912079f40abe28812d182a0e5f84444e2eb1233c"
+format: 2

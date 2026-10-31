@@ -1,0 +1,7 @@
+kind: guard
+written: "2026-10-31T19:33:32Z"
+guard: trace_check
+stopped: "/Users/arnelaponin/Documents/Dev/wai-demo/mini-registry/_reports/REPORT_KIND_ITEM_2026-10-31.md: finding: input-changed: /Users/arnelaponin/Documents/Dev/wai-demo/mini-registry/_kinds/analysis.md — sha256:a5054bec7db8 at issue (20261031T192637Z_MR_issued_C-2026-10-31-27.yaml), sha256:a5054bec7db8 at start, sha256:be2fdb717015 now"
+code: MR
+session: "MR · work · the pages against the kind item"
+format: 1

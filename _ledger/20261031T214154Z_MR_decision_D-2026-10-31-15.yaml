@@ -1,0 +1,11 @@
+kind: decision
+written: 2026-10-31T21:41:54Z
+code: MR
+by: "MR · orchestrator"
+account: arne.laponin@gmail.com
+computer: MacBookPro
+id: D-2026-10-31-15
+what: "Round 8 of the brief, the note to the Permanent Secretary (docs/NOTE.md, built to one A4 page; not sent, by the owner's word): the owner's ruling, which the brief asks for after every round, and with it the two deliverables owed when round 8 is accepted"
+recommendation: "Accept it as it stands; then one commit of both repositories, the PDF excepted, delivers both deliverables under the history kept local."
+paper: ~/IdeaProjects/mini-registry/_reviews/REVIEW_NOTE_2026-10-31_v2.md
+format: 2
