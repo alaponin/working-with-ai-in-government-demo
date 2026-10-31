@@ -1,0 +1,57 @@
+ M WHAT_IS_RUNNING.md
+ M _kinds/analysis.md
+ M _kinds/building.md
+ M _prompts/PROMPT_BUILD_2026-10-31.md
+ M _prompts/PROMPT_KIND_ITEM_2026-10-31.md
+ M _prompts/PROMPT_REVIEW_BUILD_2026-10-31.md
+ M _prompts/PROMPT_REVIEW_KIND_ITEM_2026-10-31.md
+ M src/package.json
+?? _prompts/PROMPT_COMMIT4_2026-10-31.md
+?? _prompts/PROMPT_DUPLICATES_2026-10-31.md
+?? _prompts/PROMPT_NOTE_2026-10-31.md
+?? _prompts/PROMPT_REVIEW_COMMIT4_2026-10-31.md
+?? _prompts/PROMPT_REVIEW_DUPLICATES_2026-10-31.md
+?? _prompts/PROMPT_REVIEW_NOTE_2026-10-31.md
+?? _reports/REPORT_BUILD_2026-10-31.md
+?? _reports/REPORT_BUILD_2026-10-31_v2.md
+?? _reports/REPORT_COMMIT3_2026-10-31_v2.md
+?? _reports/REPORT_DUPLICATES_2026-10-31.md
+?? _reports/REPORT_KIND_ITEM_2026-10-31.md
+?? _reports/REPORT_KIND_ITEM_2026-10-31_v2.md
+?? _reports/REPORT_NOTE_2026-10-31.md
+?? _reports/REPORT_NOTE_2026-10-31_v2.md
+?? _reviews/REVIEW_BUILD_2026-10-31.md
+?? _reviews/REVIEW_BUILD_2026-10-31_v2.md
+?? _reviews/REVIEW_COMMIT3_2026-10-31_v2.md
+?? _reviews/REVIEW_DUPLICATES_2026-10-31.md
+?? _reviews/REVIEW_KIND_ITEM_2026-10-31.md
+?? _reviews/REVIEW_KIND_ITEM_2026-10-31_v2.md
+?? _reviews/REVIEW_NOTE_2026-10-31.md
+?? _reviews/REVIEW_NOTE_2026-10-31_v2.md
+?? _working/round-06-build-review/
+?? _working/round-06-build-v2-review/
+?? _working/round-06-build-v2/
+?? _working/round-06-build/
+?? _working/round-07-duplicates-review/
+?? _working/round-07-duplicates/
+?? _working/round-08-note-review/
+?? _working/round-08-note-v2-review/
+?? _working/round-08-note-v2/
+?? _working/round-08-note/
+?? _working/round-commit3-v2-review/
+?? _working/round-commit3-v2/
+?? _working/round-kind-item-review/
+?? _working/round-kind-item-v2-review/
+?? _working/round-kind-item-v2/
+?? _working/round-kind-item/
+?? docs/DUPLICATES.md
+?? docs/NOTE.md
+?? docs/count/duplicates.csv
+?? docs/note/
+?? src/lib/enrol.js
+?? src/lib/screens.js
+?? src/server.js
+?? src/test/goal.test.js
+?? src/test/requirements.test.js
+!! .DS_Store
+!! docs/note/NOTE.pdf

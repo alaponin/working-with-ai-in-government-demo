@@ -1,0 +1,105 @@
+## before_mini-registry.txt
+ M WHAT_IS_RUNNING.md
+ M _kinds/analysis.md
+ M _kinds/building.md
+ M _prompts/PROMPT_BUILD_2026-10-31.md
+ M _prompts/PROMPT_KIND_ITEM_2026-10-31.md
+ M _prompts/PROMPT_REVIEW_BUILD_2026-10-31.md
+ M _prompts/PROMPT_REVIEW_KIND_ITEM_2026-10-31.md
+ M src/package.json
+?? _prompts/PROMPT_COMMIT4_2026-10-31.md
+?? _prompts/PROMPT_DUPLICATES_2026-10-31.md
+?? _prompts/PROMPT_NOTE_2026-10-31.md
+?? _prompts/PROMPT_REVIEW_COMMIT4_2026-10-31.md
+?? _prompts/PROMPT_REVIEW_DUPLICATES_2026-10-31.md
+?? _prompts/PROMPT_REVIEW_NOTE_2026-10-31.md
+?? _reports/REPORT_BUILD_2026-10-31.md
+?? _reports/REPORT_BUILD_2026-10-31_v2.md
+?? _reports/REPORT_COMMIT3_2026-10-31_v2.md
+?? _reports/REPORT_DUPLICATES_2026-10-31.md
+?? _reports/REPORT_KIND_ITEM_2026-10-31.md
+?? _reports/REPORT_KIND_ITEM_2026-10-31_v2.md
+?? _reports/REPORT_NOTE_2026-10-31.md
+?? _reports/REPORT_NOTE_2026-10-31_v2.md
+?? _reviews/REVIEW_BUILD_2026-10-31.md
+?? _reviews/REVIEW_BUILD_2026-10-31_v2.md
+?? _reviews/REVIEW_COMMIT3_2026-10-31_v2.md
+?? _reviews/REVIEW_DUPLICATES_2026-10-31.md
+?? _reviews/REVIEW_KIND_ITEM_2026-10-31.md
+?? _reviews/REVIEW_KIND_ITEM_2026-10-31_v2.md
+?? _reviews/REVIEW_NOTE_2026-10-31.md
+?? _reviews/REVIEW_NOTE_2026-10-31_v2.md
+?? _working/round-06-build-review/
+?? _working/round-06-build-v2-review/
+?? _working/round-06-build-v2/
+?? _working/round-06-build/
+?? _working/round-07-duplicates-review/
+?? _working/round-07-duplicates/
+?? _working/round-08-note-review/
+?? _working/round-08-note-v2-review/
+?? _working/round-08-note-v2/
+?? _working/round-08-note/
+?? _working/round-commit3-v2-review/
+?? _working/round-commit3-v2/
+?? _working/round-kind-item-review/
+?? _working/round-kind-item-v2-review/
+?? _working/round-kind-item-v2/
+?? _working/round-kind-item/
+?? docs/DUPLICATES.md
+?? docs/NOTE.md
+?? docs/count/duplicates.csv
+?? docs/note/
+?? src/lib/enrol.js
+?? src/lib/screens.js
+?? src/server.js
+?? src/test/goal.test.js
+?? src/test/requirements.test.js
+!! .DS_Store
+!! docs/note/NOTE.pdf
+## before__coordination ignored
+!! MEASURES.md
+!! WHO.html
+## independent B2
+     676
+       0
+      81
+       0
+ 668 A
+   8 M
+   1 WHAT_IS_RUNNING.md
+   2 _kinds
+  10 _prompts
+   8 _reports
+   8 _reviews
+ 635 _working
+   6 docs
+   6 src
+## mtimes of evidence last writes
+23:48:15 /Users/arnelaponin/Documents/Dev/wai-demo/mini-registry/_working/round-commit4/_evidence/ledger_show.out
+23:48:15 /Users/arnelaponin/Documents/Dev/wai-demo/mini-registry/_working/round-commit4/_evidence/trace_check.out
+23:48:14 /Users/arnelaponin/Documents/Dev/wai-demo/mini-registry/_working/round-commit4/_evidence/window.out
+23:48:14 _reports/REPORT_COMMIT4_2026-10-31.md
+## window.out head
+# round_record.py window, run at 2026-10-31T21:48:13.749Z
+# run with: round_record.py window --ledger _coordination/_ledger --code MR --id C-2026-10-31-33 --report mini-registry/_reports/REPORT_COMMIT4_2026-10-31.md --write --out mini-registry/_working/round-commit4/_evidence/window.out
+# opens at the started entry 20261031T214616Z_MR_started_C-2026-10-31-33.yaml, its `written`: 2026-10-31T21:46:16.000Z
+# the finished entry: none yet
+# the record: none named
+# wrote the line into /Users/arnelaponin/Documents/Dev/wai-demo/mini-registry/_reports/REPORT_COMMIT4_2026-10-31.md; its last write, read back by stat: 2026-10-31T21:48:14.208Z
+# files the round names as written: 1636; the latest, /Users/arnelaponin/Documents/Dev/wai-demo/mini-registry/_reports/REPORT_COMMIT4_2026-10-31.md, last written 2026-10-31T21:48:14.208Z
+#   2026-10-31T12:49:30.747Z · /Users/arnelaponin/Documents/Dev/wai-demo/mini-registry/.git/info/exclude · in a folder the outputs line names
+#   2026-10-31T12:49:30.747Z · /Users/arnelaponin/Documents/Dev/wai-demo/mini-registry/.git/description · in a folder the outputs line names
+#   2026-10-31T12:49:30.747Z · /Users/arnelaponin/Documents/Dev/wai-demo/mini-registry/.git/hooks/commit-msg.sample · in a folder the outputs line names
+#   2026-10-31T12:49:30.748Z · /Users/arnelaponin/Documents/Dev/wai-demo/mini-registry/.git/hooks/pre-rebase.sample · in a folder the outputs line names
+#   2026-10-31T12:49:30.748Z · /Users/arnelaponin/Documents/Dev/wai-demo/mini-registry/.git/hooks/sendemail-validate.sample · in a folder the outputs line names
+## ledger lines naming MR in check
+1918:20261031T214815Z_MR_finished_C-2026-10-31-33.yaml
+1921:  code: MR
+1922:  by: "MR · work · the delivery commit"
+## log message full mini
+cat: illegal option -- A
+usage: cat [-belnstuv] [file ...]
+## HEAD file in commit?
+       0
+## ledger_show of round vs mine
+head: illegal line count -- 0

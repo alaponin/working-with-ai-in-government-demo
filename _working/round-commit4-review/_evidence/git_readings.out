@@ -1,0 +1,47 @@
+=== mini-registry
+8484d16 The delivery of the mini registry's two deliverables, the working prototype and the note to the Permanent Secretary, committed at the owner's word (D-2026-10-31-15, "One commit round, tests fixed") Kind item, versions 1 and 2: _prompts/PROMPT_KIND_ITEM_2026-10-31.md, reviewed by _prompts/PROMPT_REVIEW_KIND_ITEM_2026-10-31.md The goal built (round 6), versions 1 and 2: _prompts/PROMPT_BUILD_2026-10-31.md, reviewed by _prompts/PROMPT_REVIEW_BUILD_2026-10-31.md The duplicates count (round 7): _prompts/PROMPT_DUPLICATES_2026-10-31.md, reviewed by _prompts/PROMPT_REVIEW_DUPLICATES_2026-10-31.md The note to the Permanent Secretary (round 8), versions 1 and 2, kept as a source and not sent: _prompts/PROMPT_NOTE_2026-10-31.md, reviewed by _prompts/PROMPT_REVIEW_NOTE_2026-10-31.md Third commit of the day, version 2, report and review: _reports/REPORT_COMMIT3_2026-10-31_v2.md This delivery commit (its report follows it): _prompts/PROMPT_COMMIT4_2026-10-31.md, reviewed by _prompts/PROMPT_REVIEW_COMMIT4_2026-10-31.md
+e184746 The day's work of 31 October 2026, completing the third commit of the day (version 2), committed at the owner's word (D-2026-10-31-10, "Commit both now")
+7f8fa98 The day's work of 31 October 2026 since c419cf3, committed at the owner's word (D-2026-10-31-10, "Commit both now")
+8484d1681011457502f6398f87f36bfa49aa5b40 2026-10-31T23:46:44+02:00
+-- status
+M WHAT_IS_RUNNING.md  mtime=2026-10-31T23:48:31
+?? _reports/REPORT_COMMIT4_2026-10-31.md  mtime=2026-10-31T23:48:14
+?? _working/round-commit4-review/  mtime=2026-10-31T23:48:40
+?? _working/round-commit4/  mtime=2026-10-31T23:48:35
+-- status ignoring? count
+       4
+-- ci
+       0
+-- remote
+       0
+-- diff count
+     676
+-- show count
+     676
+-- NOTE.pdf
+0
+-- HEAD~1
+e184746 The day's work of 31 October 2026, completing the third commit of the day (version 2), committed at the owner's word (D-2026-10-31-10, "Commit both now")
+=== _coordination
+ab3cc36 The delivery of the mini registry's two deliverables, committed at the owner's word (D-2026-10-31-15, "One commit round, tests fixed"): the ledger entries and guard entries written since 62659d9
+62659d9 The day's work of 31 October 2026 since f4c9345, completing the third commit of the day (version 2), committed at the owner's word (D-2026-10-31-10, "Commit both now"): the ledger's entries and the guards written since
+f4c9345 The day's work of 31 October 2026 since 42cfa12, committed at the owner's word (D-2026-10-31-10, "Commit both now")
+ab3cc36c58896fcbc29ede71b7ae8f2f2e650a4f 2026-10-31T23:46:44+02:00
+-- status
+?? _ledger/20261031T214815Z_MR_finished_C-2026-10-31-33.yaml  mtime=2026-10-31T23:48:15
+?? _ledger/20261031T214831Z_MR_started_C-2026-10-31-34.yaml  mtime=2026-10-31T23:48:31
+-- status ignoring? count
+       2
+-- ci
+       0
+-- remote
+       0
+-- diff count
+      81
+-- show count
+      81
+-- NOTE.pdf
+0
+-- HEAD~1
+62659d9 The day's work of 31 October 2026 since f4c9345, completing the third commit of the day (version 2), committed at the owner's word (D-2026-10-31-10, "Commit both now"): the ledger's entries and the guards written since
+Sat Oct 31 21:48:41 UTC 2026

@@ -1,0 +1,59 @@
+before mini non-ignored lines: 55; ignored: 2
+before coord non-ignored lines: 81
+ledger_show.out 1793483295.9011676
+trace_check.out 1793483295.0554173
+window.out 1793483294.717825
+ls_ld_after_report.txt 1793483252.2089653
+b3_status_with_mtimes.txt 1793483252.128652
+report 1793483294.20852
+2025-10-31 21:46:14.208000
+--- commit message body
+The delivery of the mini registry's two deliverables, the working prototype and the note to the Permanent Secretary, committed at the owner's word (D-2026-10-31-15, "One commit round, tests fixed")
+Kind item, versions 1 and 2: _prompts/PROMPT_KIND_ITEM_2026-10-31.md, reviewed by _prompts/PROMPT_REVIEW_KIND_ITEM_2026-10-31.md
+The goal built (round 6), versions 1 and 2: _prompts/PROMPT_BUILD_2026-10-31.md, reviewed by _prompts/PROMPT_REVIEW_BUILD_2026-10-31.md
+The duplicates count (round 7): _prompts/PROMPT_DUPLICATES_2026-10-31.md, reviewed by _prompts/PROMPT_REVIEW_DUPLICATES_2026-10-31.md
+The note to the Permanent Secretary (round 8), versions 1 and 2, kept as a source and not sent: _prompts/PROMPT_NOTE_2026-10-31.md, reviewed by _prompts/PROMPT_REVIEW_NOTE_2026-10-31.md
+Third commit of the day, version 2, report and review: _reports/REPORT_COMMIT3_2026-10-31_v2.md
+This delivery commit (its report follows it): _prompts/PROMPT_COMMIT4_2026-10-31.md, reviewed by _prompts/PROMPT_REVIEW_COMMIT4_2026-10-31.md
+
+--- coord commit message
+The delivery of the mini registry's two deliverables, committed at the owner's word (D-2026-10-31-15, "One commit round, tests fixed"): the ledger entries and guard entries written since 62659d9
+
+--- b3 file
+== mini-registry (commit time 2026-10-31T23:46:44+02:00 )
+?? _reports/REPORT_COMMIT4_2026-10-31.md | mtime 2026-10-31 23:47:25 +0200 
+?? _working/round-commit4/ | mtime 2026-10-31 23:47:05 +0200 
+== _coordination (commit time 2026-10-31T23:46:44+02:00 )
+--- commit_facts
+== mini-registry
+8484d1681011457502f6398f87f36bfa49aa5b40 Arne Laponin <arne.laponin@gmail.com> 2026-10-31 23:46:44 +0200
+ 676 files changed, 120828 insertions(+), 24 deletions(-)
+== _coordination
+ab3cc36c58896fcbc29ede71b7ae8f2f2e650a4f Arne Laponin <arne.laponin@gmail.com> 2026-10-31 23:46:44 +0200
+ 81 files changed, 1034 insertions(+)
+--- trace_check.out
+trace check of /Users/arnelaponin/Documents/Dev/wai-demo/mini-registry/_reports/REPORT_COMMIT4_2026-10-31.md (a report)
+  constants: /Users/arnelaponin/Documents/Dev/wai-demo/mini-registry/CONSTANTS.md
+  the estate's root: /Users/arnelaponin/Documents/Dev/wai-demo/mini-registry
+--- ls_ld
+$ ls -ld "/Users/arnelaponin/Documents/Dev/wai-demo/mini-registry/.git"
+drwxr-xr-x@ 13 arnelaponin  staff  416 Oct 31 23:47 /Users/arnelaponin/Documents/Dev/wai-demo/mini-registry/.git
+exit 0
+$ ls -ld "/Users/arnelaponin/Documents/Dev/wai-demo/_coordination/.git"
+drwxr-xr-x@ 12 arnelaponin  staff  384 Oct 31 23:47 /Users/arnelaponin/Documents/Dev/wai-demo/_coordination/.git
+exit 0
+$ ls -ld "/Users/arnelaponin/Documents/Dev/wai-demo/mini-registry/_working/round-commit4/_evidence"
+drwxr-xr-x@ 33 arnelaponin  staff  1056 Oct 31 23:47 /Users/arnelaponin/Documents/Dev/wai-demo/mini-registry/_working/round-commit4/_evidence
+exit 0
+$ ls -ld "/Users/arnelaponin/Documents/Dev/wai-demo/mini-registry/_reports/REPORT_COMMIT4_2026-10-31.md"
+-rw-r--r--@ 1 arnelaponin  staff  5322 Oct 31 23:47 /Users/arnelaponin/Documents/Dev/wai-demo/mini-registry/_reports/REPORT_COMMIT4_2026-10-31.md
+exit 0
+--- git user
+Arne Laponin <arne.laponin@gmail.com>
+Arne Laponin
+arne.laponin@gmail.com
+--- diff stat wir
+WHAT_IS_RUNNING.md
+_kinds/analysis.md
+_kinds/building.md
+src/package.json

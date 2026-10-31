@@ -1,0 +1,52 @@
+20261031T214336Z_MR_issued_C-2026-10-31-33.yaml
+  kind: issued
+  written: 2026-10-31T21:43:36Z
+  code: MR
+  by: "MR · orchestrator"
+  account: arne.laponin@gmail.com
+  computer: MacBookPro
+  id: C-2026-10-31-33
+  version: 1
+  instruction: ~/IdeaProjects/mini-registry/_prompts/PROMPT_COMMIT4_2026-10-31.md
+  session: "MR · work · the delivery commit"
+  model: Sonnet
+  effort: medium
+  report: ~/IdeaProjects/mini-registry/_reports/REPORT_COMMIT4_2026-10-31.md
+  outputs: "~/IdeaProjects/mini-registry/.git/ · ~/IdeaProjects/_coordination/.git/ · ~/IdeaProjects/mini-registry/_working/round-commit4/_evidence/ · ~/IdeaProjects/mini-registry/_reports/REPORT_COMMIT4_2026-10-31.md"
+  serves: "both deliverables of the constants — the working prototype and the note to the Permanent Secretary, owed when round 8 is accepted; with the history kept local, an artefact is delivered when committed (procedure 2.5.3)"
+  instruction_digest: sha256:5e66d09b44c9273fd737d94f7c770d8e644b80121dc34fad31ae00215cf5a2e1
+  format: 2
+  on this computer, MacBookPro: instruction /Users/arnelaponin/Documents/Dev/wai-demo/mini-registry/_prompts/PROMPT_COMMIT4_2026-10-31.md — on disk
+  on this computer, MacBookPro: report /Users/arnelaponin/Documents/Dev/wai-demo/mini-registry/_reports/REPORT_COMMIT4_2026-10-31.md — on disk
+
+20261031T214616Z_MR_started_C-2026-10-31-33.yaml
+  kind: started
+  written: 2026-10-31T21:46:16Z
+  code: MR
+  by: "MR · work · the delivery commit"
+  account: arne.laponin@gmail.com
+  computer: MacBookPro
+  id: C-2026-10-31-33
+  version: 1
+  session: "MR · work · the delivery commit"
+  shell: native
+  instruction: ~/IdeaProjects/mini-registry/_prompts/PROMPT_COMMIT4_2026-10-31.md
+  effort: unknown
+  started_by: unknown
+  format: 2
+  on this computer, MacBookPro: instruction /Users/arnelaponin/Documents/Dev/wai-demo/mini-registry/_prompts/PROMPT_COMMIT4_2026-10-31.md — on disk
+
+20261031T214815Z_MR_finished_C-2026-10-31-33.yaml
+  kind: finished
+  written: 2026-10-31T21:48:15Z
+  code: MR
+  by: "MR · work · the delivery commit"
+  account: arne.laponin@gmail.com
+  computer: MacBookPro
+  id: C-2026-10-31-33
+  version: 1
+  report: ~/IdeaProjects/mini-registry/_reports/REPORT_COMMIT4_2026-10-31.md
+  outcome: "Two commits, no push, no remote: mini-registry 8484d16 (676 files), _coordination ab3cc36 (81 files); both statuses empty straight after; 0 missing, 0 extra against the before lists; nothing ignored committed, NOTE.pdf out"
+  moved: "The two commits; nothing else"
+  format: 2
+  on this computer, MacBookPro: report /Users/arnelaponin/Documents/Dev/wai-demo/mini-registry/_reports/REPORT_COMMIT4_2026-10-31.md — on disk

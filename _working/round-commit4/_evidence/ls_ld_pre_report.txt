@@ -1,0 +1,12 @@
+$ ls -ld "/Users/arnelaponin/Documents/Dev/wai-demo/mini-registry/.git"
+drwxr-xr-x@ 13 arnelaponin  staff  416 Oct 31 23:46 /Users/arnelaponin/Documents/Dev/wai-demo/mini-registry/.git
+exit 0
+$ ls -ld "/Users/arnelaponin/Documents/Dev/wai-demo/_coordination/.git"
+drwxr-xr-x@ 12 arnelaponin  staff  384 Oct 31 23:46 /Users/arnelaponin/Documents/Dev/wai-demo/_coordination/.git
+exit 0
+$ ls -ld "/Users/arnelaponin/Documents/Dev/wai-demo/mini-registry/_working/round-commit4/_evidence"
+drwxr-xr-x@ 31 arnelaponin  staff  992 Oct 31 23:47 /Users/arnelaponin/Documents/Dev/wai-demo/mini-registry/_working/round-commit4/_evidence
+exit 0
+$ ls -ld "/Users/arnelaponin/Documents/Dev/wai-demo/mini-registry/_reports/REPORT_COMMIT4_2026-10-31.md"
+ls: /Users/arnelaponin/Documents/Dev/wai-demo/mini-registry/_reports/REPORT_COMMIT4_2026-10-31.md: No such file or directory
+exit 1
