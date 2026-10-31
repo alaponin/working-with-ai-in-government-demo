@@ -1,0 +1,4 @@
+# 2026-10-31 15:12:45 UTC git -C /Users/arnelaponin/Documents/Dev/wai-demo/_coordination log --oneline -3; remote -v; config user
+f30bc04 The coordination's ledger put under version control on this computer, by the owner's ruling on D-2026-10-31-01
+# remote:
+# user: Arne Laponin <arne.laponin@gmail.com>

@@ -1,0 +1,5 @@
+Sat Oct 31 14:54:16 UTC 2026
+$ round_record.py start --record .../round-02-groundwork-v2/_evidence/record --root .../mini-registry --read .../brief/MINI-REGISTRY-BRIEF.md
+start list taken at 2026-10-31T14:54:16.602Z: 226 files, 0 absent, under 1 roots and 1 further files named
+wrote /Users/arnelaponin/Documents/Dev/wai-demo/mini-registry/_working/round-02-groundwork-v2/_evidence/record/start.json
+EXIT=0

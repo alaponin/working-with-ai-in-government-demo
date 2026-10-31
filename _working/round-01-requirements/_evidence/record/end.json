@@ -1,0 +1,175 @@
+{
+ "files": {
+  "/Users/arnelaponin/Documents/Dev/wai-demo/brief/MINI-REGISTRY-BRIEF.md": {
+   "mtime": "2026-10-31T12:39:38.953Z",
+   "sha256": "ec6971e74a6a8387de0e5bd7a5e1cdead6ddf711b8fdac3ccc1d4b7555e11f64",
+   "size": 2996
+  },
+  "/Users/arnelaponin/Documents/Dev/wai-demo/mini-registry/.gitignore": {
+   "mtime": "2026-10-31T12:49:30.760Z",
+   "sha256": "821264e4a1f099a84568a0f6545d2038d817189d386c1e9744ae9fdb5c5b9d0f",
+   "size": 404
+  },
+  "/Users/arnelaponin/Documents/Dev/wai-demo/mini-registry/CONSTANTS.md": {
+   "mtime": "2026-10-31T12:48:23.829Z",
+   "sha256": "ca7cc66035ca54212bb72d90b754e2e4eccff37af56db17a659b37ec7f93c976",
+   "size": 8354
+  },
+  "/Users/arnelaponin/Documents/Dev/wai-demo/mini-registry/WHAT_IS_RUNNING.md": {
+   "mtime": "2026-10-31T13:05:32.739Z",
+   "sha256": "267a25dca8324882ef9a1ff81fa98ed1731ad7bd4627e13e27d49ea96bd8ac54",
+   "size": 4055
+  },
+  "/Users/arnelaponin/Documents/Dev/wai-demo/mini-registry/_kinds/README.md": {
+   "mtime": "2026-10-31T12:48:16.927Z",
+   "sha256": "bf58daf76d35c8e3466e468f315d57c177ad775aed2d784f883330b4eb0d6a2d",
+   "size": 548
+  },
+  "/Users/arnelaponin/Documents/Dev/wai-demo/mini-registry/_kinds/analysis.md": {
+   "mtime": "2026-10-31T12:48:23.712Z",
+   "sha256": "4010e28503cf97f2e019960160bc7a5fdf3dd9a02703b8bc2ca15338beb8cb10",
+   "size": 2136
+  },
+  "/Users/arnelaponin/Documents/Dev/wai-demo/mini-registry/_kinds/building.md": {
+   "mtime": "2026-10-31T12:48:23.716Z",
+   "sha256": "ef6c8dc1cdea04ab1ea59f20ea41e3d6f4eb0ea59bcb1b84376fc23d02deac36",
+   "size": 2002
+  },
+  "/Users/arnelaponin/Documents/Dev/wai-demo/mini-registry/_kinds/checking.md": {
+   "mtime": "2026-10-31T12:48:23.721Z",
+   "sha256": "172beca4e52e63f6ea3640a39af7ce1c9c5368cd91c44e6c3e00a0952bea2ea3",
+   "size": 1630
+  },
+  "/Users/arnelaponin/Documents/Dev/wai-demo/mini-registry/_kinds/drafting.md": {
+   "mtime": "2026-10-31T12:48:23.725Z",
+   "sha256": "f792a337a4620afeb4b3e2b220ae74878eeeca9e23c7d94b57ae46529414851d",
+   "size": 2149
+  },
+  "/Users/arnelaponin/Documents/Dev/wai-demo/mini-registry/_prompts/PROMPT_REQUIREMENTS_2026-10-31.md": {
+   "mtime": "2026-10-31T13:00:24.499Z",
+   "sha256": "6f400df791ba795e929b83e8303cec7917b16c82e27c1e3a85fa60748159d5c2",
+   "size": 18469
+  },
+  "/Users/arnelaponin/Documents/Dev/wai-demo/mini-registry/_prompts/PROMPT_REVIEW_REQUIREMENTS_2026-10-31.md": {
+   "mtime": "2026-10-31T13:00:24.500Z",
+   "sha256": "3813a73d8f1d67b5afd47d7702ecc93cd946f82fd29723f76ed5d496a396beac",
+   "size": 10705
+  },
+  "/Users/arnelaponin/Documents/Dev/wai-demo/mini-registry/_prompts/README.md": {
+   "mtime": "2026-10-31T12:48:16.925Z",
+   "sha256": "0558da95b4bc44a281238671de97932a72ee5469786e1c41b33f198dd2ac15fa",
+   "size": 900
+  },
+  "/Users/arnelaponin/Documents/Dev/wai-demo/mini-registry/_records/README.md": {
+   "mtime": "2026-10-31T12:48:16.927Z",
+   "sha256": "e0a998e12bf0d8a34b2a880783026bb7edcece5ff7f96e7d9371f2d78193326a",
+   "size": 441
+  },
+  "/Users/arnelaponin/Documents/Dev/wai-demo/mini-registry/_records/delivery/README.md": {
+   "mtime": "2026-10-31T12:48:16.928Z",
+   "sha256": "e119223c9150e51666e8b16142b8626bda842992e0aee07ac909fac24309496f",
+   "size": 456
+  },
+  "/Users/arnelaponin/Documents/Dev/wai-demo/mini-registry/_reports/README.md": {
+   "mtime": "2026-10-31T12:48:16.925Z",
+   "sha256": "8f00b40eaa61576b73217c2cf83f983d2ca7cd1bdfd77177fc3aadf0db7387bd",
+   "size": 755
+  },
+  "/Users/arnelaponin/Documents/Dev/wai-demo/mini-registry/_reports/REPORT_INCEPTION_2026-10-31.md": {
+   "mtime": "2026-10-31T12:49:18.442Z",
+   "sha256": "339048c902ddf0d5433ec5feec23aec8f20cc2bc7ee77e80e94ec2cafb687341",
+   "size": 6777
+  },
+  "/Users/arnelaponin/Documents/Dev/wai-demo/mini-registry/_reviews/README.md": {
+   "mtime": "2026-10-31T12:48:16.925Z",
+   "sha256": "0dfe5c08aefd41d20af6abbf016095bd344b7563b67e083d90c250e3350adcfa",
+   "size": 759
+  },
+  "/Users/arnelaponin/Documents/Dev/wai-demo/mini-registry/_working/README.md": {
+   "mtime": "2026-10-31T12:48:16.927Z",
+   "sha256": "c16062c338c8e7df23f827379f0aa016a1c2dc777465fd483d7cc64842bdde93",
+   "size": 620
+  },
+  "/Users/arnelaponin/Documents/Dev/wai-demo/mini-registry/_working/round-01-requirements/_evidence/A1_inventory_count.log": {
+   "mtime": "2026-10-31T13:08:01.836Z",
+   "sha256": "a53194fb214b61b0415073302dec04c8428f11faa5579c53fc93cff83a98ef91",
+   "size": 795
+  },
+  "/Users/arnelaponin/Documents/Dev/wai-demo/mini-registry/_working/round-01-requirements/_evidence/A1_inventory_count_try1_python37.log": {
+   "mtime": "2026-10-31T13:07:46.194Z",
+   "sha256": "925cda4124e50c42c2b70041fd12bf3c557cc3a0b873d5d69ff978bc04fbc96c",
+   "size": 841
+  },
+  "/Users/arnelaponin/Documents/Dev/wai-demo/mini-registry/_working/round-01-requirements/_evidence/A2_A3_compare.log": {
+   "mtime": "2026-10-31T13:10:00.776Z",
+   "sha256": "d9edead50d814b4b47e79744b2542a97ab0bc52567fef53ca0594aad210a64fe",
+   "size": 2546
+  },
+  "/Users/arnelaponin/Documents/Dev/wai-demo/mini-registry/_working/round-01-requirements/_evidence/A2_A3_planted.log": {
+   "mtime": "2026-10-31T13:10:14.168Z",
+   "sha256": "f0947ea02502ab7751c88904ebec49251bdd63f4a882fec236d1b0acfcc5c59b",
+   "size": 919
+  },
+  "/Users/arnelaponin/Documents/Dev/wai-demo/mini-registry/_working/round-01-requirements/_evidence/A4_known_numbers.log": {
+   "mtime": "2026-10-31T13:10:33.465Z",
+   "sha256": "26ee1849f6ff31e0f2b7fcc02bacd6705328f4f2193df3c107e7267dfb2e2b0b",
+   "size": 3116
+  },
+  "/Users/arnelaponin/Documents/Dev/wai-demo/mini-registry/_working/round-01-requirements/_evidence/A5_gaps.log": {
+   "mtime": "2026-10-31T13:10:25.428Z",
+   "sha256": "8cecbf5addd9c2be664904ee94998855f287dbd99681c416a375abd12141ab3f",
+   "size": 502
+  },
+  "/Users/arnelaponin/Documents/Dev/wai-demo/mini-registry/_working/round-01-requirements/_evidence/A6_brief_sha.log": {
+   "mtime": "2026-10-31T13:10:44.931Z",
+   "sha256": "fa73db901365a856dcb1a4beb04b3f691400d4e48a50414a1badd6c297b6f9b5",
+   "size": 260
+  },
+  "/Users/arnelaponin/Documents/Dev/wai-demo/mini-registry/_working/round-01-requirements/_evidence/A7_placement_check.log": {
+   "mtime": "2026-10-31T13:10:45.171Z",
+   "sha256": "11a17985a7acc0ce454667780b4b2ae0871adf18e4cbdf82bee2a6dd2729ea9f",
+   "size": 1752
+  },
+  "/Users/arnelaponin/Documents/Dev/wai-demo/mini-registry/_working/round-01-requirements/_evidence/SENTENCES.md": {
+   "mtime": "2026-10-31T13:08:01.797Z",
+   "sha256": "7af02bbce29941630e6b67110049da80df0200ea405844fbf1e3f7153a87610d",
+   "size": 4417
+  },
+  "/Users/arnelaponin/Documents/Dev/wai-demo/mini-registry/_working/round-01-requirements/_evidence/compare_register.py": {
+   "mtime": "2026-10-31T13:09:52.215Z",
+   "sha256": "cc902d667c76ee51af4e396ccb0297378b404eb0468053175943861f9fcbdc56",
+   "size": 3552
+  },
+  "/Users/arnelaponin/Documents/Dev/wai-demo/mini-registry/_working/round-01-requirements/_evidence/dispositions.tsv": {
+   "mtime": "2026-10-31T13:07:36.758Z",
+   "sha256": "64e27ea9293b89ee72c64d852a8cca7c0645615c861f3873cc4b8501e28418c9",
+   "size": 930
+  },
+  "/Users/arnelaponin/Documents/Dev/wai-demo/mini-registry/_working/round-01-requirements/_evidence/planted/REQUIREMENTS_planted.md": {
+   "mtime": "2026-10-31T13:10:13.730Z",
+   "sha256": "cbc4c82149553150a52bd7ce881eac0558b7500251c3e496e19424cff6da8d95",
+   "size": 17874
+  },
+  "/Users/arnelaponin/Documents/Dev/wai-demo/mini-registry/_working/round-01-requirements/_evidence/split_units.py": {
+   "mtime": "2026-10-31T13:07:36.758Z",
+   "sha256": "798d06413ad0da19523c2ba76a704040f3e0ba2c68dc61a837a6e3a09fa5378d",
+   "size": 4611
+  },
+  "/Users/arnelaponin/Documents/Dev/wai-demo/mini-registry/docs/README.md": {
+   "mtime": "2026-10-31T12:48:16.928Z",
+   "sha256": "25ef3fb2dfea400ffff3dcce7bcc0883f0cb1f9e035cf815eec24ac8feac7eea",
+   "size": 549
+  },
+  "/Users/arnelaponin/Documents/Dev/wai-demo/mini-registry/docs/REQUIREMENTS.md": {
+   "mtime": "2026-10-31T13:09:34.087Z",
+   "sha256": "ad583b3958fb5c5fdf6683b5c2487b6f0c425d66cebc7c46811e2e19af13f103",
+   "size": 18400
+  },
+  "/Users/arnelaponin/Documents/Dev/wai-demo/mini-registry/src/README.md": {
+   "mtime": "2026-10-31T12:48:16.928Z",
+   "sha256": "5d09b36143fbba7d397ea81bf5159bf619ba110b5b6f964872b9938ec43cee59",
+   "size": 452
+  }
+ },
+ "taken": "2026-10-31T13:10:54.863Z"
+}

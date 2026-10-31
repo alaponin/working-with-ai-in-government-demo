@@ -1,0 +1,17 @@
+$ date -u: 2026-10-31 13:15:28 UTC
+$ which python3; python3 --version
+/usr/local/bin/python3
+Python 3.7.9
+$ python3 trace_check.py --constants <MR CONSTANTS> --coordination <coordination CONSTANTS> <REPORT>
+trace check of /Users/arnelaponin/Documents/Dev/wai-demo/mini-registry/_reports/REPORT_REQUIREMENTS_2026-10-31.md (a report)
+  constants: /Users/arnelaponin/Documents/Dev/wai-demo/mini-registry/CONSTANTS.md
+  the estate's root: /Users/arnelaponin/Documents/Dev/wai-demo/mini-registry
+  the places: instruction _prompts/ = /Users/arnelaponin/Documents/Dev/wai-demo/mini-registry/_prompts, report _reports/ = /Users/arnelaponin/Documents/Dev/wai-demo/mini-registry/_reports, review _reviews/ = /Users/arnelaponin/Documents/Dev/wai-demo/mini-registry/_reviews
+  coordination: /Users/arnelaponin/Documents/Dev/wai-demo/_coordination/CONSTANTS.md
+  the instruction: /Users/arnelaponin/Documents/Dev/wai-demo/mini-registry/_prompts/PROMPT_REQUIREMENTS_2026-10-31.md
+  agrees: the report answers C-2026-10-31-01, the instruction's commission_id
+  agrees: the instruction's downstream_artefact is this report
+  outputs: 3 of 3 named exist
+  inputs: the ledger holds no issued entry for /Users/arnelaponin/Documents/Dev/wai-demo/mini-registry/_prompts/PROMPT_REQUIREMENTS_2026-10-31.md; no checksum to compare
+trace check: clean
+exit=0

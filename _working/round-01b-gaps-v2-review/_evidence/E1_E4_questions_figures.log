@@ -1,0 +1,16 @@
+Sat Oct 31 14:06:18 UTC 2026
+## E1 — the open questions, by awk over the register's closing section
+question lines in the section: 14
+open (G-14 set aside, closed from brief line 13): 13
+paper sections: 13; summary rows: 13
+register only vs sections: 0; sections only: 0
+register only vs summary: 0; summary only: 0
+## E1b — each question as the paper quotes it (line after '## G-'), against the register's line
+questions quoted differently: 0
+## E4 — the figures, by awk over a toy list of entries built to settings 1 to 4
+entries: 68
+children: 60
+on two lists: 8
+learners after reset (distinct keys, capitals ignored): 64
+of the 8, held as one learner (caught): 4
+exit=0

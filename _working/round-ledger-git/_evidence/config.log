@@ -1,0 +1,6 @@
+Sat Oct 31 14:18:51 UTC 2026
+$ git -C /Users/arnelaponin/Documents/Dev/wai-demo/_coordination config --show-origin --get-regexp 'autocrlf|eol|attributes|safecrlf|filter'
+exit 1
+$ ls -a /Users/arnelaponin/Documents/Dev/wai-demo/_coordination/.gitattributes
+ls: /Users/arnelaponin/Documents/Dev/wai-demo/_coordination/.gitattributes: No such file or directory
+exit 1

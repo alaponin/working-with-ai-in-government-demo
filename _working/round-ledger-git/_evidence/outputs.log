@@ -1,0 +1,15 @@
+$ ls -ld "/Users/arnelaponin/Documents/Dev/wai-demo/_coordination/.git"
+drwxr-xr-x@ 12 arnelaponin  staff  384 Oct 31 16:18 /Users/arnelaponin/Documents/Dev/wai-demo/_coordination/.git
+exit 0
+$ ls -ld "/Users/arnelaponin/Documents/Dev/wai-demo/_coordination/.gitignore"
+-rw-r--r--@ 1 arnelaponin  staff  21 Oct 31 16:17 /Users/arnelaponin/Documents/Dev/wai-demo/_coordination/.gitignore
+exit 0
+$ ls -ld "/Users/arnelaponin/Documents/Dev/wai-demo/_coordination/_ledger/README.md"
+-rw-r--r--@ 1 arnelaponin  staff  563 Oct 31 16:17 /Users/arnelaponin/Documents/Dev/wai-demo/_coordination/_ledger/README.md
+exit 0
+$ ls -ld "/Users/arnelaponin/Documents/Dev/wai-demo/mini-registry/_working/round-ledger-git/_evidence"
+drwxr-xr-x@ 17 arnelaponin  staff  544 Oct 31 16:18 /Users/arnelaponin/Documents/Dev/wai-demo/mini-registry/_working/round-ledger-git/_evidence
+exit 0
+$ ls -ld "/Users/arnelaponin/Documents/Dev/wai-demo/mini-registry/_reports/REPORT_LEDGER_GIT_2026-10-31.md"
+-rw-r--r--@ 1 arnelaponin  staff  8267 Oct 31 16:18 /Users/arnelaponin/Documents/Dev/wai-demo/mini-registry/_reports/REPORT_LEDGER_GIT_2026-10-31.md
+exit 0

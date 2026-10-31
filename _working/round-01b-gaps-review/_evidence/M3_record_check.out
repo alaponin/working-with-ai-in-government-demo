@@ -1,0 +1,47 @@
+# round_record.py check, run at 2026-10-31T13:39:02.741Z, over the record /Users/arnelaponin/Documents/Dev/wai-demo/mini-registry/_working/round-01b-gaps/_evidence/record
+# run with: --record /Users/arnelaponin/Documents/Dev/wai-demo/mini-registry/_working/round-01b-gaps/_evidence/record --report /Users/arnelaponin/Documents/Dev/wai-demo/mini-registry/_reports/REPORT_GAPS_2026-10-31.md --tolerance 2 --out /Users/arnelaponin/Documents/Dev/wai-demo/mini-registry/_working/round-01b-gaps-review/_evidence/M3_record_check.out
+# report: /Users/arnelaponin/Documents/Dev/wai-demo/mini-registry/_reports/REPORT_GAPS_2026-10-31.md
+# files changed after the end list inside the window: 3
+
+## Findings — 0
+none
+
+## Read and found as stated
+the window closes at 2026-10-31T13:34:31.000Z
+added after the window closed (2026-10-31T13:37:40.453Z), by another hand or later: /Users/arnelaponin/Documents/Dev/wai-demo/mini-registry/_working/round-01b-gaps-review/_evidence/E1_questions.log
+added after the window closed (2026-10-31T13:37:35.504Z), by another hand or later: /Users/arnelaponin/Documents/Dev/wai-demo/mini-registry/_working/round-01b-gaps-review/_evidence/E1_questions.sh
+added after the window closed (2026-10-31T13:38:02.015Z), by another hand or later: /Users/arnelaponin/Documents/Dev/wai-demo/mini-registry/_working/round-01b-gaps-review/_evidence/E2_citations.log
+added after the window closed (2026-10-31T13:39:01.502Z), by another hand or later: /Users/arnelaponin/Documents/Dev/wai-demo/mini-registry/_working/round-01b-gaps-review/_evidence/E3_checks.sh
+added after the window closed (2026-10-31T13:39:02.110Z), by another hand or later: /Users/arnelaponin/Documents/Dev/wai-demo/mini-registry/_working/round-01b-gaps-review/_evidence/E3_checksums.log
+added after the window closed (2026-10-31T13:39:02.076Z), by another hand or later: /Users/arnelaponin/Documents/Dev/wai-demo/mini-registry/_working/round-01b-gaps-review/_evidence/E3_outputs.log
+added after the window closed (2026-10-31T13:39:02.343Z), by another hand or later: /Users/arnelaponin/Documents/Dev/wai-demo/mini-registry/_working/round-01b-gaps-review/_evidence/M1_trace_check.log
+added after the window closed (2026-10-31T13:39:02.529Z), by another hand or later: /Users/arnelaponin/Documents/Dev/wai-demo/mini-registry/_working/round-01b-gaps-review/_evidence/M2_placement_check.log
+added after the window closed (2026-10-31T13:39:02.533Z), by another hand or later: /Users/arnelaponin/Documents/Dev/wai-demo/mini-registry/_working/round-01b-gaps-review/_evidence/M3_record_check.log
+added after the window closed (2026-10-31T13:38:01.372Z), by another hand or later: /Users/arnelaponin/Documents/Dev/wai-demo/mini-registry/_working/round-01b-gaps-review/_evidence/e2_citations.py
+added after the window closed (2026-10-31T13:37:40.427Z), by another hand or later: /Users/arnelaponin/Documents/Dev/wai-demo/mini-registry/_working/round-01b-gaps-review/_evidence/paper_q_text.txt
+added after the window closed (2026-10-31T13:37:40.367Z), by another hand or later: /Users/arnelaponin/Documents/Dev/wai-demo/mini-registry/_working/round-01b-gaps-review/_evidence/paper_sections.txt
+added after the window closed (2026-10-31T13:37:40.379Z), by another hand or later: /Users/arnelaponin/Documents/Dev/wai-demo/mini-registry/_working/round-01b-gaps-review/_evidence/paper_summary.txt
+added after the window closed (2026-10-31T13:37:40.428Z), by another hand or later: /Users/arnelaponin/Documents/Dev/wai-demo/mini-registry/_working/round-01b-gaps-review/_evidence/q_diff.txt
+added after the window closed (2026-10-31T13:37:40.349Z), by another hand or later: /Users/arnelaponin/Documents/Dev/wai-demo/mini-registry/_working/round-01b-gaps-review/_evidence/reg_ids.txt
+added after the window closed (2026-10-31T13:37:40.354Z), by another hand or later: /Users/arnelaponin/Documents/Dev/wai-demo/mini-registry/_working/round-01b-gaps-review/_evidence/reg_ids_open.txt
+added after the window closed (2026-10-31T13:37:40.421Z), by another hand or later: /Users/arnelaponin/Documents/Dev/wai-demo/mini-registry/_working/round-01b-gaps-review/_evidence/reg_q_text.txt
+added after the window closed (2026-10-31T13:37:40.337Z), by another hand or later: /Users/arnelaponin/Documents/Dev/wai-demo/mini-registry/_working/round-01b-gaps-review/_evidence/reg_questions.txt
+added after the end list, inside the window, named in the report: /Users/arnelaponin/Documents/Dev/wai-demo/mini-registry/_working/round-01b-gaps/_evidence/A7_placement_check.log
+added after the end list, inside the window, named in the report: /Users/arnelaponin/Documents/Dev/wai-demo/mini-registry/_working/round-01b-gaps/_evidence/A7_trace_check.log
+added after the end list, inside the window, named in the report: /Users/arnelaponin/Documents/Dev/wai-demo/mini-registry/_working/round-01b-gaps/_evidence/ls_outputs.log
+changed after the end list, by the ledger's own entries: /Users/arnelaponin/Documents/Dev/wai-demo/mini-registry/WHAT_IS_RUNNING.md
+the report's record line names this record: /Users/arnelaponin/Documents/Dev/wai-demo/mini-registry/_working/round-01b-gaps/_evidence/record
+output as declared: /Users/arnelaponin/Documents/Dev/wai-demo/mini-registry/docs/GAPS-PAPER.md 34390 bytes d52fd3fcbf25b163…
+named in the item beside its output: /Users/arnelaponin/Documents/Dev/wai-demo/mini-registry/_working/round-01b-gaps/_evidence/record/RECORD.txt — found, /Users/arnelaponin/Documents/Dev/wai-demo/mini-registry/_working/round-01b-gaps/_evidence/record/RECORD.txt
+declared output is a folder, read as such: /Users/arnelaponin/Documents/Dev/wai-demo/mini-registry/_working/round-01b-gaps/_evidence
+report line 34: quoted block of 5 lines found in /Users/arnelaponin/Documents/Dev/wai-demo/mini-registry/_working/round-01b-gaps/_evidence/A1_questions.log
+report line 49: quoted block of 2 lines found in /Users/arnelaponin/Documents/Dev/wai-demo/mini-registry/_working/round-01b-gaps/_evidence/A2_A5_check_paper.log
+report line 57: quoted block of 8 lines found in /Users/arnelaponin/Documents/Dev/wai-demo/mini-registry/_working/round-01b-gaps/_evidence/A2_A5_planted.log
+report line 73: quoted block of 2 lines found in /Users/arnelaponin/Documents/Dev/wai-demo/mini-registry/_working/round-01b-gaps/_evidence/A2_A5_check_paper.log
+report line 85: quoted block of 14 lines found in /Users/arnelaponin/Documents/Dev/wai-demo/mini-registry/_working/round-01b-gaps/_evidence/A2_A5_check_paper.log
+report line 109: quoted block of 5 lines found in /Users/arnelaponin/Documents/Dev/wai-demo/mini-registry/_working/round-01b-gaps/_evidence/A2_A5_check_paper.log
+report line 122: quoted block of 3 lines found in /Users/arnelaponin/Documents/Dev/wai-demo/mini-registry/_working/round-01b-gaps/_evidence/A6_checksums.log
+report line 135: quoted block of 2 lines found in /Users/arnelaponin/Documents/Dev/wai-demo/mini-registry/_working/round-01b-gaps/_evidence/A7_placement_check.log
+report line 141: quoted block of 6 lines found in /Users/arnelaponin/Documents/Dev/wai-demo/mini-registry/_working/round-01b-gaps/_evidence/A7_trace_check.log
+report line 188: quoted block of 8 lines found in /Users/arnelaponin/Documents/Dev/wai-demo/mini-registry/_working/round-01b-gaps/_evidence/ls_outputs.log
+quoted blocks read against the file they name: 10

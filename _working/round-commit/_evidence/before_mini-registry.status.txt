@@ -1,0 +1,47 @@
+# 2026-10-31 15:12:45 UTC git -C /Users/arnelaponin/Documents/Dev/wai-demo/mini-registry status --porcelain --ignored
+ M WHAT_IS_RUNNING.md
+ M _kinds/analysis.md
+?? _prompts/PROMPT_COMMIT_2026-10-31.md
+?? _prompts/PROMPT_GAPS_2026-10-31.md
+?? _prompts/PROMPT_GROUNDWORK_2026-10-31.md
+?? _prompts/PROMPT_LEDGER_GIT_2026-10-31.md
+?? _prompts/PROMPT_QUESTIONS_2026-10-31.md
+?? _prompts/PROMPT_REQUIREMENTS_2026-10-31.md
+?? _prompts/PROMPT_REVIEW_COMMIT_2026-10-31.md
+?? _prompts/PROMPT_REVIEW_GAPS_2026-10-31.md
+?? _prompts/PROMPT_REVIEW_GROUNDWORK_2026-10-31.md
+?? _prompts/PROMPT_REVIEW_LEDGER_GIT_2026-10-31.md
+?? _prompts/PROMPT_REVIEW_QUESTIONS_2026-10-31.md
+?? _prompts/PROMPT_REVIEW_REQUIREMENTS_2026-10-31.md
+?? _records/CUTOVER_2026-10-31.md
+?? _reports/REPORT_GAPS_2026-10-31.md
+?? _reports/REPORT_GAPS_2026-10-31_v2.md
+?? _reports/REPORT_GROUNDWORK_2026-10-31.md
+?? _reports/REPORT_GROUNDWORK_2026-10-31_v2.md
+?? _reports/REPORT_LEDGER_GIT_2026-10-31.md
+?? _reports/REPORT_REQUIREMENTS_2026-10-31.md
+?? _reviews/REVIEW_GAPS_2026-10-31.md
+?? _reviews/REVIEW_GAPS_2026-10-31_v2.md
+?? _reviews/REVIEW_GROUNDWORK_2026-10-31.md
+?? _reviews/REVIEW_GROUNDWORK_2026-10-31_v2.md
+?? _reviews/REVIEW_LEDGER_GIT_2026-10-31.md
+?? _reviews/REVIEW_REQUIREMENTS_2026-10-31.md
+?? _working/round-01-requirements-review/
+?? _working/round-01-requirements/
+?? _working/round-01b-gaps-review/
+?? _working/round-01b-gaps-v2-review/
+?? _working/round-01b-gaps-v2/
+?? _working/round-01b-gaps/
+?? _working/round-02-groundwork-review/
+?? _working/round-02-groundwork-v2-review/
+?? _working/round-02-groundwork-v2/
+?? _working/round-02-groundwork/
+?? _working/round-commit/
+?? _working/round-ledger-git-review/
+?? _working/round-ledger-git/
+?? docs/GAPS-PAPER.md
+?? docs/GROUNDWORK.md
+?? docs/REQUIREMENTS.md
+?? docs/groundwork/
+!! .DS_Store
+# exit=0

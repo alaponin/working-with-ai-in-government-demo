@@ -1,0 +1,21 @@
+Sat Oct 31 13:37:40 UTC 2026
+# 1. the register's closing section, every question line
+question lines in the section: 14
+open (G-14 set aside as closed by the instruction): 13
+# 2. the paper's sections headed by a question
+sections: 13
+# 3. the paper's summary rows
+summary rows: 13
+# 4. compared both ways (comm): in register not in paper / in paper not in register
+register-not-sections: 0
+sections-not-register: 0
+register-not-summary: 0
+summary-not-register: 0
+# 5. each question as the paper quotes it (> line) against the register's line, by diff
+diff exit=0 lines differing: 0
+# 6. G-14 in the paper
+3:**What this is.** The register of requirements (`docs/REQUIREMENTS.md`) closes with fourteen open questions. G-14 is already closed (below). This paper answers the other thirteen, G-01 to G-13, so that you can rule on them in one act and round 2, the groundwork, can be drafted from the brief, the register and your ruling. **Every recommendation here is a proposal for your ruling, not a decision.** Nothing in this paper changes the brief or the register.
+18:**G-14 — closed, not reopened.** The orchestrator closed it from the brief, which forgives capitals and nothing else: `../brief/MINI-REGISTRY-BRIEF.md:13` «(capitals ignored)» — so a space is part of a name.
+# 7. the round's QUESTIONS.md, its listed ids
+diff with the reviewer's list exit=0
+exit=0

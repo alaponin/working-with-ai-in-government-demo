@@ -1,0 +1,9 @@
+Sat Oct 31 14:17:58 UTC 2026
+$ git -C /Users/arnelaponin/Documents/Dev/wai-demo/_coordination rev-parse --show-toplevel
+/Users/arnelaponin/Documents/Dev/wai-demo/_coordination
+exit 0
+$ git -C /Users/arnelaponin/Documents/Dev/wai-demo/_coordination ls-files _ledger/README.md
+_ledger/README.md
+exit 0
+$ git -C /Users/arnelaponin/Documents/Dev/wai-demo/_coordination remote -v
+exit 0

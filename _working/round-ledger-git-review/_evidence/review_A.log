@@ -1,0 +1,115 @@
+## A1 14:20:13
+$ git -C /Users/arnelaponin/Documents/Dev/wai-demo/_coordination rev-parse --show-toplevel
+/Users/arnelaponin/Documents/Dev/wai-demo/_coordination
+exit 0
+$ git -C /Users/arnelaponin/Documents/Dev/wai-demo/_coordination ls-files _ledger/README.md
+_ledger/README.md
+exit 0
+$ git remote -v
+exit 0
+$ git -C /Users/arnelaponin/Documents/Dev/wai-demo/_coordination remote
+exit 0
+## A2 14:20:13
+tracked yaml: 7
+disk yaml:        7
+## A3 14:20:13
+$ status --porcelain
+exit 0
+$ status --porcelain --ignored
+!! MEASURES.md
+!! WHO.html
+## stat HEAD (count route)
+$ git -C /Users/arnelaponin/Documents/Dev/wai-demo/_coordination show --stat --format=fuller HEAD
+commit f30bc0451cbd52f947832c417af6c64ec8375b8a
+Author:     Arne Laponin <arne.laponin@gmail.com>
+AuthorDate: Sat Oct 31 16:17:46 2026 +0200
+Commit:     Arne Laponin <arne.laponin@gmail.com>
+CommitDate: Sat Oct 31 16:17:46 2026 +0200
+
+    The coordination's ledger put under version control on this computer, by the owner's ruling on D-2026-10-31-01
+
+ .gitignore                                         |  2 +
+ CONSTANTS.md                                       | 68 ++++++++++++++++++++++
+ ...1031T132400Z_placement_check_MR_4f1cc640de.yaml |  7 +++
+ ...1031T132400Z_placement_check_MR_4f28733df0.yaml |  7 +++
+ ...1031T141432Z_placement_check_MR_7b041a9d40.yaml |  7 +++
+ ...1031T141432Z_placement_check_MR_7b0f6bb0dd.yaml |  7 +++
+ _ledger/20261031T125439Z_MR_taken-up.yaml          | 15 +++++
+ ...261031T125512Z_MR_decision_D-2026-10-31-01.yaml | 11 ++++
+ ...261031T132216Z_MR_decision_D-2026-10-31-02.yaml | 11 ++++
+ ...261031T141136Z_MR_decision_D-2026-10-31-03.yaml | 11 ++++
+ .../20261031T141250Z_MR_ruled_D-2026-10-31-02.yaml | 10 ++++
+ .../20261031T141251Z_MR_ruled_D-2026-10-31-03.yaml | 10 ++++
+ .../20261031T141252Z_MR_ruled_D-2026-10-31-01.yaml | 10 ++++
+ _ledger/README.md                                  |  6 ++
+ projects.txt                                       | 10 ++++
+ 15 files changed, 192 insertions(+)
+exit 0
+## ls-tree count
+.gitignore
+CONSTANTS.md
+_guards/20261031T132400Z_placement_check_MR_4f1cc640de.yaml
+_guards/20261031T132400Z_placement_check_MR_4f28733df0.yaml
+_guards/20261031T141432Z_placement_check_MR_7b041a9d40.yaml
+_guards/20261031T141432Z_placement_check_MR_7b0f6bb0dd.yaml
+_ledger/20261031T125439Z_MR_taken-up.yaml
+_ledger/20261031T125512Z_MR_decision_D-2026-10-31-01.yaml
+_ledger/20261031T132216Z_MR_decision_D-2026-10-31-02.yaml
+_ledger/20261031T141136Z_MR_decision_D-2026-10-31-03.yaml
+_ledger/20261031T141250Z_MR_ruled_D-2026-10-31-02.yaml
+_ledger/20261031T141251Z_MR_ruled_D-2026-10-31-03.yaml
+_ledger/20261031T141252Z_MR_ruled_D-2026-10-31-01.yaml
+_ledger/README.md
+projects.txt
+      15
+## log
+$ git -C /Users/arnelaponin/Documents/Dev/wai-demo/_coordination log --all --format=%H %an <%ae> %ad | %cd | %s --date=iso
+f30bc0451cbd52f947832c417af6c64ec8375b8a Arne Laponin <arne.laponin@gmail.com> 2026-10-31 16:17:46 +0200 | 2026-10-31 16:17:46 +0200 | The coordination's ledger put under version control on this computer, by the owner's ruling on D-2026-10-31-01
+exit 0
+## diff HEAD
+$ git -C /Users/arnelaponin/Documents/Dev/wai-demo/_coordination diff --stat HEAD
+exit 0
+$ git -C /Users/arnelaponin/Documents/Dev/wai-demo/_coordination diff --stat
+exit 0
+## ignore
+$ git -C /Users/arnelaponin/Documents/Dev/wai-demo/_coordination check-ignore -v WHO.html MEASURES.md
+.gitignore:1:WHO.html	WHO.html
+.gitignore:2:MEASURES.md	MEASURES.md
+exit 0
+cat: illegal option -- A
+usage: cat [-belnstuv] [file ...]
+## ls disk
+/Users/arnelaponin/Documents/Dev/wai-demo/_coordination:
+total 40
+drwxr-xr-x@ 10 arnelaponin  staff   320 Oct 31 16:18 .
+drwxr-xr-x   7 arnelaponin  staff   224 Oct 31 16:20 ..
+drwxr-xr-x@ 12 arnelaponin  staff   384 Oct 31 16:20 .git
+-rw-r--r--@  1 arnelaponin  staff    21 Oct 31 16:17 .gitignore
+-rw-r--r--@  1 arnelaponin  staff  3134 Oct 31 14:48 CONSTANTS.md
+-rw-r--r--@  1 arnelaponin  staff  1023 Oct 31 14:54 MEASURES.md
+-rw-r--r--@  1 arnelaponin  staff  2092 Oct 31 16:12 WHO.html
+drwxr-xr-x@  6 arnelaponin  staff   192 Oct 31 16:14 _guards
+drwxr-xr-x@ 10 arnelaponin  staff   320 Oct 31 16:17 _ledger
+-rw-r--r--@  1 arnelaponin  staff   345 Oct 31 14:54 projects.txt
+
+/Users/arnelaponin/Documents/Dev/wai-demo/_coordination/_guards:
+total 32
+drwxr-xr-x@  6 arnelaponin  staff  192 Oct 31 16:14 .
+drwxr-xr-x@ 10 arnelaponin  staff  320 Oct 31 16:18 ..
+-rw-r--r--@  1 arnelaponin  staff  384 Oct 31 15:24 20261031T132400Z_placement_check_MR_4f1cc640de.yaml
+-rw-r--r--@  1 arnelaponin  staff  409 Oct 31 15:24 20261031T132400Z_placement_check_MR_4f28733df0.yaml
+-rw-r--r--@  1 arnelaponin  staff  369 Oct 31 16:14 20261031T141432Z_placement_check_MR_7b041a9d40.yaml
+-rw-r--r--@  1 arnelaponin  staff  413 Oct 31 16:14 20261031T141432Z_placement_check_MR_7b0f6bb0dd.yaml
+
+/Users/arnelaponin/Documents/Dev/wai-demo/_coordination/_ledger:
+total 64
+drwxr-xr-x@ 10 arnelaponin  staff  320 Oct 31 16:17 .
+drwxr-xr-x@ 10 arnelaponin  staff  320 Oct 31 16:18 ..
+-rw-r--r--@  1 arnelaponin  staff  394 Oct 31 14:54 20261031T125439Z_MR_taken-up.yaml
+-rw-r--r--@  1 arnelaponin  staff  816 Oct 31 14:55 20261031T125512Z_MR_decision_D-2026-10-31-01.yaml
+-rw-r--r--@  1 arnelaponin  staff  720 Oct 31 15:22 20261031T132216Z_MR_decision_D-2026-10-31-02.yaml
+-rw-r--r--@  1 arnelaponin  staff  860 Oct 31 16:11 20261031T141136Z_MR_decision_D-2026-10-31-03.yaml
+-rw-r--r--@  1 arnelaponin  staff  311 Oct 31 16:12 20261031T141250Z_MR_ruled_D-2026-10-31-02.yaml
+-rw-r--r--@  1 arnelaponin  staff  389 Oct 31 16:12 20261031T141251Z_MR_ruled_D-2026-10-31-03.yaml
+-rw-r--r--@  1 arnelaponin  staff  322 Oct 31 16:12 20261031T141252Z_MR_ruled_D-2026-10-31-01.yaml
+-rw-r--r--@  1 arnelaponin  staff  563 Oct 31 16:17 README.md

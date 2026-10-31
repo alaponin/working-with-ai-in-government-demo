@@ -1,0 +1,103 @@
+2026-10-31T14:44:45Z
+# command: /usr/bin/python3 -I -B review_check.py
+ruled questions found: 13 ; lines per question: [2]
+  G-01: lines [26, 73]
+  G-02: lines [27, 102]
+  G-03: lines [28, 133]
+  G-04: lines [29, 160]
+  G-05: lines [30, 196]
+  G-06: lines [31, 224]
+  G-07: lines [32, 254]
+  G-08: lines [33, 281]
+  G-09: lines [34, 308]
+  G-10: lines [35, 338]
+  G-11: lines [36, 365]
+  G-12: lines [37, 398]
+  G-13: lines [38, 424]
+
+[1] brief table rows: 5 [23, 24, 25, 26, 27]
+  G-01 found «one higher than the highest the registry holds, never given twice» -> learner_number
+  G-04 found «60 is the number of different children» -> children
+  G-04 found «which is 68» -> list_entries
+  G-04 found «each of the 8 on exactly two lists» -> lists_carrying_each_of_the_8
+  G-05 found «the 4 differ in at least one letter» -> spelt_differently
+  G-05 found «none of the 8 differs in capitals only» -> children_of_the_8_differing_in_capitals_only
+  G-05 found «the other 4 match letter for letter and in the same capitals» -> the_other_4_of_the_8
+  G-05 found «no two different children share all three fields» -> different_children_sharing_family_name_given_names_and_date_of_birth
+  G-05 found «4 of the 8 caught» -> of_the_8_caught_by_the_search
+  G-06 found «completed years» -> age_unit
+  G-06 found «6 and 12 both included» -> age_bounds
+  G-07 found «YYYY-MM-DD and refused otherwise» -> date_of_birth_entry_form
+  G-07 found «the school chosen from the data's three» -> school_entry
+  G-06 found «one fixed date held in round 2's settings» -> not a setting: named, not fixed: a gap (GROUNDWORK gap 1)
+  G-03 found «in a fixed order» -> not a setting: named, not fixed: a gap (gap 2)
+  G-10 found «a fixed seed» -> not a setting: named, not fixed: a gap (gap 3)
+  G-02 found «Never reached under the data's settings» -> not a setting: a step of the search: search_rule on_more_than_one
+  G-07 found «all four entered before the search runs» -> not a setting: a step of the search: search_rule when
+  G-13 found «one A4 page, portrait, as a PDF with body type no smaller than 11 point» -> not a setting: the note, not the build
+  G-12 found «R-01 to R-21» -> not a setting: the checks of round 6, not a value the tables carry
+  reviewer's set: 17 settings; settings.csv: 17 rows; fragments not found in ruled text: 0
+  missing from settings.csv: []; extra in settings.csv: []
+
+[2] every row looked up
+  settings:2 [children] brief:23 ok «| 60 |»; ruling:G-04 ok «60 different children»
+  settings:3 [schools] brief:24 ok «| 3 |»
+  settings:4 [children_on_more_than_one_list] brief:25 ok «| 8 |»
+  settings:5 [of_those_family_name_spelt_differently_on_one_list] brief:26 ok «| 4 |»
+  settings:6 [ages] brief:27 ok «6 to 12»
+  settings:7 [list_entries] ruling:G-04 ok «68»
+  settings:8 [lists_carrying_each_of_the_8] ruling:G-04 ok «exactly two lists»
+  settings:9 [learner_number] ruling:G-01 ok «never given twice»
+  settings:10 [spelt_differently] ruling:G-05 ok «differ in at least one letter»; ruling:G-05 ok «capitals only»
+  settings:11 [children_of_the_8_differing_in_capitals_only] ruling:G-05 ok «none of the 8 differs in capitals only»
+  settings:12 [the_other_4_of_the_8] ruling:G-05 ok «match letter for letter and in the same capitals»
+  settings:13 [different_children_sharing_family_name_given_names_and_date_of_birth] ruling:G-05 ok «no two different children share all three fields»
+  settings:14 [of_the_8_caught_by_the_search] ruling:G-05 ok «4 of the 8 caught»
+  settings:15 [age_unit] ruling:G-06 ok «completed years»
+  settings:16 [age_bounds] brief:27 ok «6 to 12»; ruling:G-06 ok «6 and 12 both included»
+  settings:17 [date_of_birth_entry_form] ruling:G-07 ok «refused otherwise»
+  settings:18 [school_entry] brief:24 ok «Schools»; ruling:G-07 ok «school chosen from the»
+  lists:2 [school_census.family_name] brief:19 ok «three lists»; brief:26 ok «family name is spelt differently on one list»
+  lists:3 [school_census.given_names] brief:13 ok «given names»; ruling:G-03 ok «enrols every list entry»
+  lists:4 [school_census.date_of_birth] brief:13 ok «date of birth»; ruling:G-03 ok «enrols every list entry»
+  lists:5 [exam_candidate_list.family_name] brief:19 ok «three lists»; brief:26 ok «family name is spelt differently on one list»
+  lists:6 [exam_candidate_list.given_names] brief:13 ok «given names»; ruling:G-03 ok «enrols every list entry»
+  lists:7 [exam_candidate_list.date_of_birth] brief:13 ok «date of birth»; ruling:G-03 ok «enrols every list entry»
+  lists:8 [social_grant_list.family_name] brief:19 ok «three lists»; brief:26 ok «family name is spelt differently on one list»
+  lists:9 [social_grant_list.given_names] brief:13 ok «given names»; ruling:G-03 ok «enrols every list entry»
+  lists:10 [social_grant_list.date_of_birth] brief:13 ok «date of birth»; ruling:G-03 ok «enrols every list entry»
+  lists:11 [learners.learner_number] brief:14 ok «new learner number»; ruling:G-01 ok «never given twice»
+  lists:12 [learners.family_name] brief:11 ok «family name»; ruling:G-03 ok «learners with numbers»
+  lists:13 [learners.given_names] brief:11 ok «given names»; ruling:G-03 ok «learners with numbers»
+  lists:14 [learners.date_of_birth] brief:11 ok «date of birth»; ruling:G-03 ok «learners with numbers»
+  lists:15 [learners.school] brief:11 ok «and school»; ruling:G-07 ok «the school not searched on»
+  lists:16 [key_table.list_entry] ruling:G-05 ok «never by the search»; ruling:G-03 ok «enrols every list entry»
+  lists:17 [key_table.same_child] ruling:G-05 ok «A key table of the made-up data, read by the counts»; brief:54 ok «how many of the 8 the search catches»
+  search_rule:2 [compares] brief:13 ok «same family name, given names and date of birth»
+  search_rule:3 [compares] brief:13 ok «same family name, given names and date of birth»
+  search_rule:4 [compares] brief:13 ok «same family name, given names and date of birth»
+  search_rule:5 [forgives] brief:13 ok «(capitals ignored)»
+  search_rule:6 [forgives_nothing_else] brief:13 ok «(capitals ignored)»
+  search_rule:7 [does_not_compare] ruling:G-07 ok «the school not searched on»
+  search_rule:8 [does_not_compare] brief:13 ok «family name, given names and date of birth»
+  search_rule:9 [does_not_read] ruling:G-05 ok «never by the search»
+  search_rule:10 [when] brief:11 ok «enters a child's family name, given names, date of birth and school»; ruling:G-07 ok «all four entered before the search runs»
+  search_rule:11 [when] brief:11 ok «searches for the child first»
+  search_rule:12 [where] ruling:G-03 ok «looks among learners only»
+  search_rule:13 [at_reset] ruling:G-03 ok «enrols every list entry, in a fixed order, through the brief's own rule»
+  search_rule:14 [on_exactly_one] brief:13 ok «it shows that learner and enters nothing new»
+  search_rule:15 [on_none] brief:14 ok «gives the child a new learner number and saves the record»; ruling:G-01 ok «never given twice»
+  search_rule:16 [on_more_than_one] ruling:G-02 ok «enters nothing new and says the entry cannot be completed»
+  search_rule:17 [on_more_than_one] ruling:G-02 ok «Never reached under the data's settings»
+  search_rule:18 [tells] brief:15 ok «the clerk sees which of the two happened»
+  rows: settings 17, lists 16, search_rule 17; rows with a source problem: 0; support not found: 0
+
+[3] requirements under the two headings: 14 ['R-02', 'R-03', 'R-04', 'R-05', 'R-06', 'R-07', 'R-08', 'R-09', 'R-10', 'R-11', 'R-12', 'R-13', 'R-14', 'R-15']
+  cited by a row: ['R-03', 'R-04', 'R-05', 'R-06', 'R-07', 'R-08', 'R-09', 'R-10', 'R-11', 'R-12', 'R-13', 'R-14', 'R-15']; named in GROUNDWORK.md: ['R-02']; uncovered: 0 []
+
+[4] probes
+  rows outside the key table's own naming the key table: []
+  learners' fields: ['learner_number', 'family_name', 'given_names', 'date_of_birth', 'school'] ; a field linking a learner to a list entry or key: []
+  words of the paper's unruled lines (seed, 64, check digit) or of rulings outside the build, in a table: []
+  calendar dates in a table: [] ; capitalised name pairs in a value or rule: []
+EXIT=0

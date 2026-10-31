@@ -1,0 +1,4 @@
+# 2026-10-31 15:12:45 UTC git -C /Users/arnelaponin/Documents/Dev/wai-demo/mini-registry log --oneline -3; remote -v; config user
+74ca995 Start the mini registry: the places for instructions, reports and reviews, the record of what is running, the constants and the folders on the map of places
+# remote:
+# user: Arne Laponin <arne.laponin@gmail.com>

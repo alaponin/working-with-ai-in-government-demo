@@ -1,0 +1,13 @@
+Sat Oct 31 13:12:47 UTC 2026
+$ ls -ld "/Users/arnelaponin/Documents/Dev/wai-demo/mini-registry/docs/REQUIREMENTS.md"
+-rw-r--r--@ 1 arnelaponin  staff  18400 Oct 31 15:09 /Users/arnelaponin/Documents/Dev/wai-demo/mini-registry/docs/REQUIREMENTS.md
+exit=0
+$ ls -ld "/Users/arnelaponin/Documents/Dev/wai-demo/mini-registry/_working/round-01-requirements/_evidence"
+drwxr-xr-x@ 19 arnelaponin  staff  608 Oct 31 15:12 /Users/arnelaponin/Documents/Dev/wai-demo/mini-registry/_working/round-01-requirements/_evidence
+exit=0
+$ ls -ld "/Users/arnelaponin/Documents/Dev/wai-demo/mini-registry/_reports/REPORT_REQUIREMENTS_2026-10-31.md"
+-rw-r--r--@ 1 arnelaponin  staff  13150 Oct 31 15:12 /Users/arnelaponin/Documents/Dev/wai-demo/mini-registry/_reports/REPORT_REQUIREMENTS_2026-10-31.md
+exit=0
+$ ls -ld "/Users/arnelaponin/Documents/Dev/wai-demo/mini-registry/WHAT_IS_RUNNING.md"
+-rw-r--r--@ 1 arnelaponin  staff  4055 Oct 31 15:05 /Users/arnelaponin/Documents/Dev/wai-demo/mini-registry/WHAT_IS_RUNNING.md
+exit=0

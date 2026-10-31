@@ -1,0 +1,12 @@
+# planted faults: R-23 removed; R-10 quote altered to 4; R-02 made to cite U-02
+$ /usr/bin/python3 -B round_record.py run --record /Users/arnelaponin/Documents/Dev/wai-demo/mini-registry/_working/round-01-requirements/_evidence/record /usr/bin/python3 /Users/arnelaponin/Documents/Dev/wai-demo/mini-registry/_working/round-01-requirements/_evidence/compare_register.py /Users/arnelaponin/Documents/Dev/wai-demo/mini-registry/_working/round-01-requirements/_evidence/SENTENCES.md /Users/arnelaponin/Documents/Dev/wai-demo/mini-registry/_working/round-01-requirements/_evidence/planted/REQUIREMENTS_planted.md <brief>
+Sat Oct 31 13:10:13 UTC 2026
+UNCITED U-07
+UNCITED U-29
+UNSUPPORTED R-02: cites U-02, not a unit marked requirement
+UNSUPPORTED R-10: line or quote differs from the inventory's U-17
+NOT FOUND R-10
+A2: 2 uncited, 2 unsupported
+A3: 1 not found
+tests without the three parts: 0
+Sat Oct 31 13:10:14 UTC 2026

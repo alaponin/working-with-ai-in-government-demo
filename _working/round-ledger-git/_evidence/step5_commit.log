@@ -1,0 +1,60 @@
+Sat Oct 31 14:17:46 UTC 2026
+$ ls _ledger
+20261031T125439Z_MR_taken-up.yaml
+20261031T125512Z_MR_decision_D-2026-10-31-01.yaml
+20261031T132216Z_MR_decision_D-2026-10-31-02.yaml
+20261031T141136Z_MR_decision_D-2026-10-31-03.yaml
+20261031T141250Z_MR_ruled_D-2026-10-31-02.yaml
+20261031T141251Z_MR_ruled_D-2026-10-31-03.yaml
+20261031T141252Z_MR_ruled_D-2026-10-31-01.yaml
+README.md
+$ ls _ledger/*.yaml | wc -l
+       7
+$ git add -A
+exit 0
+$ git status --porcelain --ignored
+A  .gitignore
+A  CONSTANTS.md
+A  _guards/20261031T132400Z_placement_check_MR_4f1cc640de.yaml
+A  _guards/20261031T132400Z_placement_check_MR_4f28733df0.yaml
+A  _guards/20261031T141432Z_placement_check_MR_7b041a9d40.yaml
+A  _guards/20261031T141432Z_placement_check_MR_7b0f6bb0dd.yaml
+A  _ledger/20261031T125439Z_MR_taken-up.yaml
+A  _ledger/20261031T125512Z_MR_decision_D-2026-10-31-01.yaml
+A  _ledger/20261031T132216Z_MR_decision_D-2026-10-31-02.yaml
+A  _ledger/20261031T141136Z_MR_decision_D-2026-10-31-03.yaml
+A  _ledger/20261031T141250Z_MR_ruled_D-2026-10-31-02.yaml
+A  _ledger/20261031T141251Z_MR_ruled_D-2026-10-31-03.yaml
+A  _ledger/20261031T141252Z_MR_ruled_D-2026-10-31-01.yaml
+A  _ledger/README.md
+A  projects.txt
+!! MEASURES.md
+!! WHO.html
+$ git commit -q -m "..."
+exit 0
+$ git log --format=fuller --stat
+commit f30bc0451cbd52f947832c417af6c64ec8375b8a
+Author:     Arne Laponin <arne.laponin@gmail.com>
+AuthorDate: Sat Oct 31 16:17:46 2026 +0200
+Commit:     Arne Laponin <arne.laponin@gmail.com>
+CommitDate: Sat Oct 31 16:17:46 2026 +0200
+
+    The coordination's ledger put under version control on this computer, by the owner's ruling on D-2026-10-31-01
+
+ .gitignore                                         |  2 +
+ CONSTANTS.md                                       | 68 ++++++++++++++++++++++
+ ...1031T132400Z_placement_check_MR_4f1cc640de.yaml |  7 +++
+ ...1031T132400Z_placement_check_MR_4f28733df0.yaml |  7 +++
+ ...1031T141432Z_placement_check_MR_7b041a9d40.yaml |  7 +++
+ ...1031T141432Z_placement_check_MR_7b0f6bb0dd.yaml |  7 +++
+ _ledger/20261031T125439Z_MR_taken-up.yaml          | 15 +++++
+ ...261031T125512Z_MR_decision_D-2026-10-31-01.yaml | 11 ++++
+ ...261031T132216Z_MR_decision_D-2026-10-31-02.yaml | 11 ++++
+ ...261031T141136Z_MR_decision_D-2026-10-31-03.yaml | 11 ++++
+ .../20261031T141250Z_MR_ruled_D-2026-10-31-02.yaml | 10 ++++
+ .../20261031T141251Z_MR_ruled_D-2026-10-31-03.yaml | 10 ++++
+ .../20261031T141252Z_MR_ruled_D-2026-10-31-01.yaml | 10 ++++
+ _ledger/README.md                                  |  6 ++
+ projects.txt                                       | 10 ++++
+ 15 files changed, 192 insertions(+)
+Sat Oct 31 14:17:46 UTC 2026

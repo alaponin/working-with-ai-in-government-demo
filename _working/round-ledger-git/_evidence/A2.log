@@ -1,0 +1,7 @@
+Sat Oct 31 14:17:58 UTC 2026
+$ git -C /Users/arnelaponin/Documents/Dev/wai-demo/_coordination ls-files _ledger | grep -c '\.yaml$'
+7
+exit 0
+$ ls /Users/arnelaponin/Documents/Dev/wai-demo/_coordination/_ledger/*.yaml | wc -l
+       7
+exit 0

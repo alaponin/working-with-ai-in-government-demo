@@ -1,0 +1,18 @@
+setting,value,source
+children,60 different children,brief:23 · R-09 · R-14 · ruling:G-04
+schools,3,brief:24 · R-10 · R-14
+children_on_more_than_one_list,8,brief:25 · R-11 · R-14
+of_those_family_name_spelt_differently_on_one_list,4,brief:26 · R-12 · R-14
+ages,6 to 12,brief:27 · R-13 · R-14
+list_entries,68,ruling:G-04
+lists_carrying_each_of_the_8,exactly 2,ruling:G-04
+learner_number,"a whole number in sequence, one higher than the highest held, never given twice",R-06 · ruling:G-01
+spelt_differently,"differs in at least one letter, not in capitals only",R-12 · ruling:G-05
+children_of_the_8_differing_in_capitals_only,0,ruling:G-05
+the_other_4_of_the_8,match letter for letter and in the same capitals,ruling:G-05
+different_children_sharing_family_name_given_names_and_date_of_birth,0,ruling:G-05
+of_the_8_caught_by_the_search,4,ruling:G-05
+age_unit,completed years,R-13 · ruling:G-06
+age_bounds,6 and 12 both included,brief:27 · R-13 · ruling:G-06
+date_of_birth_entry_form,YYYY-MM-DD; any other form refused,R-03 · ruling:G-07
+school_entry,chosen from the data's 3 schools,brief:24 · R-03 · ruling:G-07

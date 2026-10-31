@@ -1,0 +1,32 @@
+Sat Oct 31 14:06:29 UTC 2026
+## sanity: E1b strings non-empty
+> **G-07** (R-03) In what form does the clerk enter a date o
+## E3 outputs
+-rw-r--r--@  1 arnelaponin  staff  15695 Oct 31 16:00 _reports/REPORT_GAPS_2026-10-31_v2.md
+drwxr-xr-x@ 21 arnelaponin  staff    672 Oct 31 16:00 _working/round-01b-gaps-v2/_evidence
+-rw-r--r--@  1 arnelaponin  staff  10782 Oct 31 15:58 _working/round-01b-gaps-v2/_evidence/record/RECORD.txt
+-rw-r--r--@  1 arnelaponin  staff  47002 Oct 31 15:57 docs/GAPS-PAPER.md
+evidence files: 26
+d03db64c6e49a1b92467c1e6e19929c321964bd89f6cb715d15dd570f37bc8bb  docs/GAPS-PAPER.md
+1f28ce55537c40f2cc584d55a1906810fa3dec51f615ea62cc0969c88f41498c  _reports/REPORT_GAPS_2026-10-31_v2.md
+ec6971e74a6a8387de0e5bd7a5e1cdead6ddf711b8fdac3ccc1d4b7555e11f64  ../brief/MINI-REGISTRY-BRIEF.md
+ad583b3958fb5c5fdf6683b5c2487b6f0c425d66cebc7c46811e2e19af13f103  docs/REQUIREMENTS.md
+2026-10-31 15:57:06 47002 docs/GAPS-PAPER.md
+2026-10-31 16:00:42 15695 _reports/REPORT_GAPS_2026-10-31_v2.md
+exit=0
+## E8 the report's own G3 table, counted
+ G-02 | all 8 cells at 97–100 
+ G-03 | A (a), C (a) at 128; A (c), C (c) at 130 (68 entries; "no screen… added") 
+ G-04 | A (c), B (c) at 157; A (d), B (d) at 158 (B: 52 children) 
+ G-05 | B (a), B (c), C (c) at 191, 193; B (d) at 194 (B cut back to a key on entries) 
+ G-07 | A (a), B (a) at 249 — a refusal of dates under both 
+ G-09 | A (a), B (a) at 303 
+ G-10 | B (a) at 333 (statement open to both) 
+exit=0
+Sat Oct 31 14:06:41 UTC 2026
+## E8b tokens 'X (y)' in the G3 column of the report's A11 table, plus G-02's 'all 8'
+17
+7
+## the report's stated figure
+_reports/REPORT_GAPS_2026-10-31_v2.md:83:**G2:** 9 cells in 4 sections (G-01, G-06, G-07, G-09). **G3:** 23 cells in 6 sections (G-02, G-03, G-04, G-05, G-07, G
+WHAT_IS_RUNNING.md:36:| 31 Oct 2026, 13:48 UTC — version 2 issued 31 Oct 2026, 2026-10-31 13:45 UTC by `MR · orchestrator`; taken up by the working session on `

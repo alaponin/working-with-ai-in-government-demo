@@ -1,0 +1,52 @@
+$ /usr/bin/python3 -B round_record.py run --record /Users/arnelaponin/Documents/Dev/wai-demo/mini-registry/_working/round-01-requirements/_evidence/record /usr/bin/python3 /Users/arnelaponin/Documents/Dev/wai-demo/mini-registry/_working/round-01-requirements/_evidence/compare_register.py /Users/arnelaponin/Documents/Dev/wai-demo/mini-registry/_working/round-01-requirements/_evidence/SENTENCES.md /Users/arnelaponin/Documents/Dev/wai-demo/mini-registry/docs/REQUIREMENTS.md /Users/arnelaponin/Documents/Dev/wai-demo/brief/MINI-REGISTRY-BRIEF.md
+Sat Oct 31 13:10:00 UTC 2026
+inventory units: 29; marked requirement: 20
+register requirements: 23 (R-01 to R-23)
+  R-01 cites U-03 line 7 — test parts: Do, See, Set up
+  R-02 cites U-07 line 11 — test parts: Do, See, Set up
+  R-03 cites U-08 line 11 — test parts: Do, See, Set up
+  R-04 cites U-09 line 11 — test parts: Do, See, Set up
+  R-05 cites U-10 line 13 — test parts: Do, See, Set up
+  R-06 cites U-11 line 14 — test parts: Do, See, Set up
+  R-07 cites U-12 line 15 — test parts: Do, See, Set up
+  R-08 cites U-14 line 19 — test parts: Do, See, Set up
+  R-09 cites U-16 line 23 — test parts: Do, See, Set up
+  R-10 cites U-17 line 24 — test parts: Do, See, Set up
+  R-11 cites U-18 line 25 — test parts: Do, See, Set up
+  R-12 cites U-19 line 26 — test parts: Do, See, Set up
+  R-13 cites U-20 line 27 — test parts: Do, See, Set up
+  R-14 cites U-21 line 29 — test parts: Do, See, Set up
+  R-15 cites U-22 line 29 — test parts: Do, See, Set up
+  R-16 cites U-24 line 33 — test parts: Do, See, Set up
+  R-17 cites U-24 line 33 — test parts: Do, See, Set up
+  R-18 cites U-25 line 34 — test parts: Do, See, Set up
+  R-19 cites U-25 line 34 — test parts: Do, See, Set up
+  R-20 cites U-26 line 35 — test parts: Do, See, Set up
+  R-21 cites U-26 line 35 — test parts: Do, See, Set up
+  R-22 cites U-28 line 39 — test parts: Do, See, Set up
+  R-23 cites U-29 line 40 — test parts: Do, See, Set up
+  U-03 cited by R-01
+  U-07 cited by R-02
+  U-08 cited by R-03
+  U-09 cited by R-04
+  U-10 cited by R-05
+  U-11 cited by R-06
+  U-12 cited by R-07
+  U-14 cited by R-08
+  U-16 cited by R-09
+  U-17 cited by R-10
+  U-18 cited by R-11
+  U-19 cited by R-12
+  U-20 cited by R-13
+  U-21 cited by R-14
+  U-22 cited by R-15
+  U-24 cited by R-16, R-17
+  U-25 cited by R-18, R-19
+  U-26 cited by R-20, R-21
+  U-28 cited by R-22
+  U-29 cited by R-23
+A2: 0 uncited, 0 unsupported
+A3: 0 not found
+tests without the three parts: 0
+exit=0
+Sat Oct 31 13:10:00 UTC 2026

@@ -1,0 +1,9 @@
+Sat Oct 31 13:28:38 UTC 2026
+$ round_record.py run -- /usr/bin/python3 list_questions.py REQUIREMENTS.md QUESTIONS.md
+questions in the section: 14
+questions listed (G-01 to G-13): 13
+exit=0
+$ grep -c "^- `docs/REQUIREMENTS.md:[0-9]*` \*\*G-" QUESTIONS.md
+13
+$ each quoted question a substring of REQUIREMENTS.md
+0 not found

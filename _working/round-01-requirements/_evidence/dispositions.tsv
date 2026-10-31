@@ -1,0 +1,30 @@
+# unit id	disposition	reason (for a unit that is not a requirement)
+U-01	not a requirement	a heading
+U-02	not a requirement	context: what the ministry wants of the real registry, not of the prototype
+U-03	requirement	
+U-04	not a requirement	purpose: what the prototype is for
+U-05	not a requirement	context: a statement of scope that names nothing the prototype must do, be, hold or deliver
+U-06	not a requirement	a heading
+U-07	requirement	
+U-08	requirement	
+U-09	requirement	
+U-10	requirement	
+U-11	requirement	
+U-12	requirement	
+U-13	not a requirement	a heading
+U-14	requirement	
+U-15	not a requirement	the table's header row: names its columns
+U-16	requirement	
+U-17	requirement	
+U-18	requirement	
+U-19	requirement	
+U-20	requirement	
+U-21	requirement	
+U-22	requirement	
+U-23	not a requirement	a heading
+U-24	requirement	
+U-25	requirement	
+U-26	requirement	
+U-27	not a requirement	a heading
+U-28	requirement	
+U-29	requirement	

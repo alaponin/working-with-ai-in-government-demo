@@ -1,0 +1,5 @@
+Sat Oct 31 14:35:28 UTC 2026
+$ round_record.py run -- /usr/bin/python3 list_settings_set.py   (second run, after the children row named its G-04 meaning)
+settings in the set: 17; fragments not found: 0
+wrote /Users/arnelaponin/Documents/Dev/wai-demo/mini-registry/_working/round-02-groundwork/_evidence/SETTINGS_SET.md
+EXIT=0

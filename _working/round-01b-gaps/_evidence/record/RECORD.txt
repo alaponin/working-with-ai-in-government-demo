@@ -1,0 +1,39 @@
+# The record of the round, produced by round_record.py from /Users/arnelaponin/Documents/Dev/wai-demo/mini-registry/_working/round-01b-gaps/_evidence/record
+# window: from the start list 2026-10-31T13:26:52.589Z to the end list 2026-10-31T13:33:07.485Z
+# roots: /Users/arnelaponin/Documents/Dev/wai-demo/mini-registry
+# start list: 61 files; end list: 72 files; runs traced: 4
+
+## 1. Every file changed inside the window — 11
+change · path · before (bytes, sha256) · after (bytes, sha256, last changed) · by
+added · /Users/arnelaponin/Documents/Dev/wai-demo/mini-registry/_working/round-01b-gaps/_evidence/A1_questions.log · absent · 324 5e31c412c76b8b62032bf6aa97c30e38f3cb6f965d833bde5d66db6cc1b4477f 2026-10-31T13:28:38.787Z · written by no traced run: by hand or by another round
+added · /Users/arnelaponin/Documents/Dev/wai-demo/mini-registry/_working/round-01b-gaps/_evidence/A2_A5_check_paper.log · absent · 806 b0bff827229d217590d918684101651facf917dbd1e964ca766463ca51a765d6 2026-10-31T13:32:35.323Z · written by no traced run: by hand or by another round
+added · /Users/arnelaponin/Documents/Dev/wai-demo/mini-registry/_working/round-01b-gaps/_evidence/A2_A5_planted.log · absent · 1055 eaf3581a0f74b8f8ec287529eb39b1f4036647399ccb785b3d8b644f999f1691 2026-10-31T13:32:54.002Z · written by no traced run: by hand or by another round
+added · /Users/arnelaponin/Documents/Dev/wai-demo/mini-registry/_working/round-01b-gaps/_evidence/A6_checksums.log · absent · 347 c8f870c78fcfbc3b7b0311dcd068c4fa263371b1c869f6c950960a21ef283f09 2026-10-31T13:33:07.239Z · written by no traced run: by hand or by another round
+added · /Users/arnelaponin/Documents/Dev/wai-demo/mini-registry/_working/round-01b-gaps/_evidence/QUESTIONS.md · absent · 2530 fb1ed06457be6690c9230ea50e8daed09b818789c6afba9ebecbd8eb8b356db2 2026-10-31T13:28:38.685Z · written by run 1
+added · /Users/arnelaponin/Documents/Dev/wai-demo/mini-registry/_working/round-01b-gaps/_evidence/check_paper.py · absent · 4218 80b04ba9ab6791232e465ca980cd8a240a382aeb7f4d5698c5eb39ff6ef93594 2026-10-31T13:32:26.001Z · written by no traced run: by hand or by another round
+added · /Users/arnelaponin/Documents/Dev/wai-demo/mini-registry/_working/round-01b-gaps/_evidence/list_questions.py · absent · 1410 221fb7c2f9be267d52022e7f4bdac6ef13cf249c32de44b2fa5f320188811345 2026-10-31T13:28:29.527Z · written by no traced run: by hand or by another round
+added · /Users/arnelaponin/Documents/Dev/wai-demo/mini-registry/_working/round-01b-gaps/_evidence/paper_size.log · absent · 307 493a4e0f45197001eed64b626a200d7ea2e8eacd658cdc0bdf5da824a3e5c2ba 2026-10-31T13:33:07.278Z · written by no traced run: by hand or by another round
+added · /Users/arnelaponin/Documents/Dev/wai-demo/mini-registry/_working/round-01b-gaps/_evidence/plant_faults.py · absent · 1193 c01c7a54e24b504af886a8b4fdd57ea213d80137457d95300e30a34bb05f4957 2026-10-31T13:32:45.208Z · written by no traced run: by hand or by another round
+added · /Users/arnelaponin/Documents/Dev/wai-demo/mini-registry/_working/round-01b-gaps/_evidence/planted/GAPS-PAPER_planted.md · absent · 34361 99d2a4a54b858ddae574471bc8ecc858cd6338184676c47b7270c129e117f966 2026-10-31T13:32:53.590Z · written by run 3
+added · /Users/arnelaponin/Documents/Dev/wai-demo/mini-registry/docs/GAPS-PAPER.md · absent · 34390 d52fd3fcbf25b163b05f0a18cebef001f95fc364c17cf7e53e60216515f811bb 2026-10-31T13:32:01.205Z · written by no traced run: by hand or by another round
+
+## 2. Every file the round's programs read — 8
+path · on the start list · sha256 at the start · sha256 at the end · first read
+/Users/arnelaponin/Documents/Dev/wai-demo/brief/MINI-REGISTRY-BRIEF.md · yes · ec6971e74a6a8387de0e5bd7a5e1cdead6ddf711b8fdac3ccc1d4b7555e11f64 · ec6971e74a6a8387de0e5bd7a5e1cdead6ddf711b8fdac3ccc1d4b7555e11f64 · 2026-10-31T13:32:35.292Z
+/Users/arnelaponin/Documents/Dev/wai-demo/mini-registry/_working/round-01b-gaps/_evidence/QUESTIONS.md · no · - · fb1ed06457be6690c9230ea50e8daed09b818789c6afba9ebecbd8eb8b356db2 · 2026-10-31T13:32:35.289Z
+/Users/arnelaponin/Documents/Dev/wai-demo/mini-registry/_working/round-01b-gaps/_evidence/check_paper.py · no · - · 80b04ba9ab6791232e465ca980cd8a240a382aeb7f4d5698c5eb39ff6ef93594 · 2026-10-31T13:32:35.286Z
+/Users/arnelaponin/Documents/Dev/wai-demo/mini-registry/_working/round-01b-gaps/_evidence/list_questions.py · no · - · 221fb7c2f9be267d52022e7f4bdac6ef13cf249c32de44b2fa5f320188811345 · 2026-10-31T13:28:38.662Z
+/Users/arnelaponin/Documents/Dev/wai-demo/mini-registry/_working/round-01b-gaps/_evidence/plant_faults.py · no · - · c01c7a54e24b504af886a8b4fdd57ea213d80137457d95300e30a34bb05f4957 · 2026-10-31T13:32:53.587Z
+/Users/arnelaponin/Documents/Dev/wai-demo/mini-registry/_working/round-01b-gaps/_evidence/planted/GAPS-PAPER_planted.md · no · - · 99d2a4a54b858ddae574471bc8ecc858cd6338184676c47b7270c129e117f966 · 2026-10-31T13:32:53.974Z
+/Users/arnelaponin/Documents/Dev/wai-demo/mini-registry/docs/GAPS-PAPER.md · no · - · d52fd3fcbf25b163b05f0a18cebef001f95fc364c17cf7e53e60216515f811bb · 2026-10-31T13:32:35.290Z
+/Users/arnelaponin/Documents/Dev/wai-demo/mini-registry/docs/REQUIREMENTS.md · yes · ad583b3958fb5c5fdf6683b5c2487b6f0c425d66cebc7c46811e2e19af13f103 · ad583b3958fb5c5fdf6683b5c2487b6f0c425d66cebc7c46811e2e19af13f103 · 2026-10-31T13:28:38.664Z
+
+## 3. Every run — 4
+run 1 · 2026-10-31T13:28:38.534Z to 2026-10-31T13:28:38.691Z · exit 0 · /usr/bin/python3 /Users/arnelaponin/Documents/Dev/wai-demo/mini-registry/_working/round-01b-gaps/_evidence/list_questions.py /Users/arnelaponin/Documents/Dev/wai-demo/mini-registry/docs/REQUIREMENTS.md /Users/arnelaponin/Documents/Dev/wai-demo/mini-registry/_working/round-01b-gaps/_evidence/QUESTIONS.md · traced in full: a Python program and the Python programs it starts
+run 2 · 2026-10-31T13:32:35.149Z to 2026-10-31T13:32:35.308Z · exit 0 · /usr/bin/python3 /Users/arnelaponin/Documents/Dev/wai-demo/mini-registry/_working/round-01b-gaps/_evidence/check_paper.py /Users/arnelaponin/Documents/Dev/wai-demo/mini-registry /Users/arnelaponin/Documents/Dev/wai-demo/mini-registry/_working/round-01b-gaps/_evidence/QUESTIONS.md /Users/arnelaponin/Documents/Dev/wai-demo/mini-registry/docs/GAPS-PAPER.md · traced in full: a Python program and the Python programs it starts
+run 3 · 2026-10-31T13:32:53.454Z to 2026-10-31T13:32:53.598Z · exit 0 · /usr/bin/python3 /Users/arnelaponin/Documents/Dev/wai-demo/mini-registry/_working/round-01b-gaps/_evidence/plant_faults.py /Users/arnelaponin/Documents/Dev/wai-demo/mini-registry/docs/GAPS-PAPER.md /Users/arnelaponin/Documents/Dev/wai-demo/mini-registry/_working/round-01b-gaps/_evidence/planted/GAPS-PAPER_planted.md · traced in full: a Python program and the Python programs it starts
+run 4 · 2026-10-31T13:32:53.843Z to 2026-10-31T13:32:53.990Z · exit 0 · /usr/bin/python3 /Users/arnelaponin/Documents/Dev/wai-demo/mini-registry/_working/round-01b-gaps/_evidence/check_paper.py /Users/arnelaponin/Documents/Dev/wai-demo/mini-registry /Users/arnelaponin/Documents/Dev/wai-demo/mini-registry/_working/round-01b-gaps/_evidence/QUESTIONS.md /Users/arnelaponin/Documents/Dev/wai-demo/mini-registry/_working/round-01b-gaps/_evidence/planted/GAPS-PAPER_planted.md · traced in full: a Python program and the Python programs it starts
+
+## 4. Findings — 0
+none
+

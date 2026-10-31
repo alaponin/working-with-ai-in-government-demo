@@ -1,0 +1,34 @@
+2026-10-31T15:01:19Z
+found   B:23  children
+found   B:24  schools
+found   B:25  children_on_more_than_one_list
+found   B:26  of_those_family_name_spelt_differently_on_one_list
+found   B:27  ages
+found   P:73  learner_number
+found   P:160  list_entries
+found   P:160  lists_carrying_each_of_the_8
+found   P:196  spelt_differently
+found   P:196  children_of_the_8_differing_in_capitals_only
+found   P:196  the_other_4_of_the_8
+found   P:196  different_children_sharing_family_name_given_names_and_date_of_birth
+found   P:196  of_the_8_caught_by_the_search
+found   P:224  age_unit
+found   P:224  age_bounds
+found   P:254  date_of_birth_entry_form
+found   P:254  school_entry
+## the ruled lines the list was read from (recommendation lines, by grep):
+73 102 133 160 196 224 254 281 308 338 365 398 424 
+reviewer's list: 17 settings; phrases not found at their line: 0
+settings.csv: 17 rows
+missing from settings.csv: 0 
+extra in settings.csv: 0 
+## gap 14 re-traced: each quotation at its source line
+1
+1
+1
+## gaps in GROUNDWORK.md: numbered, and those not ending in ?
+14
+0
+## gap 14's words in any of the three CSVs (an answer would show here)
+grep EXIT=1
+EXIT=0

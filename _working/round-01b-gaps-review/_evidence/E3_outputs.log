@@ -1,0 +1,11 @@
+Sat Oct 31 13:39:02 UTC 2026
+$ ls -ld + shasum over every output the report names
+-rw-r--r--@  1 arnelaponin  staff  15301 Oct 31 15:34 /Users/arnelaponin/Documents/Dev/wai-demo/mini-registry/_reports/REPORT_GAPS_2026-10-31.md
+drwxr-xr-x@ 16 arnelaponin  staff    512 Oct 31 15:34 /Users/arnelaponin/Documents/Dev/wai-demo/mini-registry/_working/round-01b-gaps/_evidence
+-rw-r--r--@  1 arnelaponin  staff   7402 Oct 31 15:33 /Users/arnelaponin/Documents/Dev/wai-demo/mini-registry/_working/round-01b-gaps/_evidence/record/RECORD.txt
+-rw-r--r--@  1 arnelaponin  staff  34390 Oct 31 15:32 /Users/arnelaponin/Documents/Dev/wai-demo/mini-registry/docs/GAPS-PAPER.md
+exit=0
+d52fd3fcbf25b163b05f0a18cebef001f95fc364c17cf7e53e60216515f811bb  /Users/arnelaponin/Documents/Dev/wai-demo/mini-registry/docs/GAPS-PAPER.md
+0bfa540084b20320ab49a443e419a4874aafc6c240f0a951c513f72f32c14c73  /Users/arnelaponin/Documents/Dev/wai-demo/mini-registry/_reports/REPORT_GAPS_2026-10-31.md
+exit=0
+files in the evidence folder: 21

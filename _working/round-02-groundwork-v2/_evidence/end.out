@@ -1,0 +1,39 @@
+Sat Oct 31 14:55:06 UTC 2026
+$ round_record.py end --record .../round-02-groundwork-v2/_evidence/record
+# The record of the round, produced by round_record.py from /Users/arnelaponin/Documents/Dev/wai-demo/mini-registry/_working/round-02-groundwork-v2/_evidence/record
+# window: from the start list 2026-10-31T14:54:16.602Z to the end list 2026-10-31T14:55:06.244Z
+# roots: /Users/arnelaponin/Documents/Dev/wai-demo/mini-registry
+# start list: 226 files; end list: 233 files; runs traced: 3
+
+## 1. Every file changed inside the window — 8
+change · path · before (bytes, sha256) · after (bytes, sha256, last changed) · by
+added · /Users/arnelaponin/Documents/Dev/wai-demo/mini-registry/_working/round-02-groundwork-v2/_evidence/A2_check.out · absent · 237 314ceadaa45fc6831f832ad068ccde54758228089f1817a3f5421e48b4efafb4 2026-10-31T14:54:45.971Z · written by no traced run: by hand or by another round
+added · /Users/arnelaponin/Documents/Dev/wai-demo/mini-registry/_working/round-02-groundwork-v2/_evidence/A3_check.out · absent · 744 ae19e81a6f4f2ef15c83988a4cfa664b821aa2dce96eb90fcbe95201d67891ab 2026-10-31T14:54:46.323Z · written by no traced run: by hand or by another round
+added · /Users/arnelaponin/Documents/Dev/wai-demo/mini-registry/_working/round-02-groundwork-v2/_evidence/A4_check.out · absent · 604 16a136ebb51b9f5e99f357638bba1ad3a3da55f141de28e565f858b175db4602 2026-10-31T14:54:46.674Z · written by no traced run: by hand or by another round
+added · /Users/arnelaponin/Documents/Dev/wai-demo/mini-registry/_working/round-02-groundwork-v2/_evidence/B1_B2_diff.out · absent · 1008 3d5d87af6448588a1ff9a08b994de6a9e2ce7844e6b12f92f10d3fbee68976fd 2026-10-31T14:54:57.540Z · written by no traced run: by hand or by another round
+added · /Users/arnelaponin/Documents/Dev/wai-demo/mini-registry/_working/round-02-groundwork-v2/_evidence/B3_compare.out · absent · 251 9f94f153b831957333091fe1804fd6b9bcc2e473ed555d3b0e50c20419efa55e 2026-10-31T14:54:57.571Z · written by no traced run: by hand or by another round
+added · /Users/arnelaponin/Documents/Dev/wai-demo/mini-registry/_working/round-02-groundwork-v2/_evidence/GROUNDWORK_v1.md · absent · 6850 f2284affe810c2886d8a1899681e3d16af96a547dea10f7acc6bcbfca2584df9 2026-10-31T14:54:16.747Z · written by no traced run: by hand or by another round
+added · /Users/arnelaponin/Documents/Dev/wai-demo/mini-registry/_working/round-02-groundwork-v2/_evidence/start.out · absent · 407 20f3677ee41eb5143bf79c9c37d3fb66253beca0466d4502673351853ea3a3ef 2026-10-31T14:54:16.740Z · written by no traced run: by hand or by another round
+changed · /Users/arnelaponin/Documents/Dev/wai-demo/mini-registry/docs/GROUNDWORK.md · 6850 f2284affe810c2886d8a1899681e3d16af96a547dea10f7acc6bcbfca2584df9 · 7429 5ed9b62f282d433df7c337a2da30e4830c56170dca1e646ae5aacc2cc2795dce 2026-10-31T14:54:34.259Z · written by no traced run: by hand or by another round
+
+## 2. Every file the round's programs read — 7
+path · on the start list · sha256 at the start · sha256 at the end · first read
+/Users/arnelaponin/Documents/Dev/wai-demo/brief/MINI-REGISTRY-BRIEF.md · yes · ec6971e74a6a8387de0e5bd7a5e1cdead6ddf711b8fdac3ccc1d4b7555e11f64 · ec6971e74a6a8387de0e5bd7a5e1cdead6ddf711b8fdac3ccc1d4b7555e11f64 · 2026-10-31T14:54:45.946Z
+/Users/arnelaponin/Documents/Dev/wai-demo/mini-registry/_working/round-02-groundwork/_evidence/check_groundwork.py · yes · 86c107c9baf16e1933bb15932a23be2cf473358cbe08d8703512f9f042e53b00 · 86c107c9baf16e1933bb15932a23be2cf473358cbe08d8703512f9f042e53b00 · 2026-10-31T14:54:45.940Z
+/Users/arnelaponin/Documents/Dev/wai-demo/mini-registry/docs/GROUNDWORK.md · yes · f2284affe810c2886d8a1899681e3d16af96a547dea10f7acc6bcbfca2584df9 · 5ed9b62f282d433df7c337a2da30e4830c56170dca1e646ae5aacc2cc2795dce · 2026-10-31T14:54:46.648Z · changed inside the window by no traced run of this round
+/Users/arnelaponin/Documents/Dev/wai-demo/mini-registry/docs/REQUIREMENTS.md · yes · ad583b3958fb5c5fdf6683b5c2487b6f0c425d66cebc7c46811e2e19af13f103 · ad583b3958fb5c5fdf6683b5c2487b6f0c425d66cebc7c46811e2e19af13f103 · 2026-10-31T14:54:45.946Z
+/Users/arnelaponin/Documents/Dev/wai-demo/mini-registry/docs/groundwork/lists.csv · yes · 1d08f58c5ea6d1caddfed7f6266800083bed696e7cd1b76c6efc53be72c9eef7 · 1d08f58c5ea6d1caddfed7f6266800083bed696e7cd1b76c6efc53be72c9eef7 · 2026-10-31T14:54:45.948Z
+/Users/arnelaponin/Documents/Dev/wai-demo/mini-registry/docs/groundwork/search_rule.csv · yes · 9a7c98ce9b57dde82ccca48c84c638b7efd5c08f26f1677e738ecc8d00386fdb · 9a7c98ce9b57dde82ccca48c84c638b7efd5c08f26f1677e738ecc8d00386fdb · 2026-10-31T14:54:45.948Z
+/Users/arnelaponin/Documents/Dev/wai-demo/mini-registry/docs/groundwork/settings.csv · yes · a94c31fe9fc96410910e425b1a0dfc708ea6acf09f3fb9ab1c990e71f8ef9cfd · a94c31fe9fc96410910e425b1a0dfc708ea6acf09f3fb9ab1c990e71f8ef9cfd · 2026-10-31T14:54:45.947Z
+
+## 3. Every run — 3
+run 1 · 2026-10-31T14:54:45.824Z to 2026-10-31T14:54:45.955Z · exit 0 · /usr/bin/python3 check_groundwork.py a2 · traced in full: a Python program and the Python programs it starts
+run 2 · 2026-10-31T14:54:46.181Z to 2026-10-31T14:54:46.306Z · exit 0 · /usr/bin/python3 check_groundwork.py a3 · traced in full: a Python program and the Python programs it starts
+run 3 · 2026-10-31T14:54:46.518Z to 2026-10-31T14:54:46.657Z · exit 0 · /usr/bin/python3 check_groundwork.py a4 · traced in full: a Python program and the Python programs it starts
+
+## 4. Findings — 0
+none
+
+wrote /Users/arnelaponin/Documents/Dev/wai-demo/mini-registry/_working/round-02-groundwork-v2/_evidence/record/end.json
+wrote /Users/arnelaponin/Documents/Dev/wai-demo/mini-registry/_working/round-02-groundwork-v2/_evidence/record/RECORD.txt
+EXIT=0

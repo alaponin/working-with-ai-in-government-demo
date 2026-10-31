@@ -1,0 +1,21 @@
+Sat Oct 31 14:07:51 UTC 2026
+## E6 per section: positions, table rows (a)-(d), recommendations, 'We recommend'
+G-01 3 4 1 1
+G-02 2 4 1 1
+G-03 3 4 1 1
+G-04 2 4 1 1
+G-05 3 4 1 1
+G-06 2 4 1 1
+G-07 2 4 1 1
+G-08 2 4 1 1
+G-09 2 4 1 1
+G-10 2 4 1 1
+G-11 2 4 1 1
+G-12 2 4 1 1
+G-13 2 4 1 1
+## cells per row = positions + 1 (rows that differ)
+rows checked
+## decision wording
+0
+## R-12 on the toy entries: family names of the 8 compared letter for letter, capitals heeded
+4

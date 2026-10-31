@@ -1,0 +1,7 @@
+$ T=$(date -u); sed -i "" "s/__CLOSE__/$T/" REVIEW; stat (UTC); wc -c; shasum -a 256
+date -u at the write: 2026-10-31 13:18:00 UTC
+2026-10-31 13:18:00 UTC /Users/arnelaponin/Documents/Dev/wai-demo/mini-registry/_reviews/REVIEW_REQUIREMENTS_2026-10-31.md
+   15766 /Users/arnelaponin/Documents/Dev/wai-demo/mini-registry/_reviews/REVIEW_REQUIREMENTS_2026-10-31.md
+454a3984bb119e991ba6998d46b2295b0d7de3e90af48014f89cef1d34093ef9  /Users/arnelaponin/Documents/Dev/wai-demo/mini-registry/_reviews/REVIEW_REQUIREMENTS_2026-10-31.md
+12:window: 2026-10-31 13:13:24 UTC to 2026-10-31 13:18:00 UTC — opened at `date -u; hostname`, closed at this file's last write (the substitution of this line, made in the command whose output is kept in /Users/arnelaponin/Documents/Dev/wai-demo/mini-registry/_working/round-01-requirements-review/_evidence/window_close.log); no pause
+0

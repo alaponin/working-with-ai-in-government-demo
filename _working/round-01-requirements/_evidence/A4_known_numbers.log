@@ -1,0 +1,29 @@
+Sat Oct 31 13:10:33 UTC 2026
+$ grep -n -E "^### R-(0[89]|1[0-4])$|Expected" REQUIREMENTS.md
+26:- *See:* the first enrolment adds one learner; the second adds none. **Expected:** the count rises by 1 after the first enrolment and by 0 after the second. Pass if both hold.
+41:- *See:* **Expected:** one goal, enrolling a learner. Pass if the list holds that goal and no other.
+80:- *See:* in (a) and in (b), the screen shows the learner saved in the set-up, with its learner number, and the number of learners is unchanged. **Expected:** learners added: 0 in each of (a) and (b). Pass if both hold. (What the registry does when the search finds more than one: gap G-02.)
+93:- *See:* after each of (a) and (b), one record is saved, holding the entries made and a learner number that no learner held before. **Expected:** learners added: 1 after (a) and 1 after (b); each new learner number unlike every number held before it. Pass if both hold.
+110:### R-08
+121:- *See:* **Expected:** 3 lists — the school census, the examinations authority's candidate list and the social grant programme's list — and every child on at least one of them. Pass if both hold.
+123:### R-09
+134:- *See:* **Expected:** 60. Pass if the count is 60.
+136:### R-10
+147:- *See:* **Expected:** 3. Pass if the count is 3.
+149:### R-11
+160:- *See:* **Expected:** 8. Pass if the count is 8.
+162:### R-12
+173:- *See:* **Expected:** 4. Pass if the count is 4. This test counts the data; how many of these children the registry's search catches is not tested here.
+175:### R-13
+186:- *See:* **Expected:** every age within 6 to 12; children outside: 0. Pass if the count is 0.
+188:### R-14
+199:- *See:* **Expected**, after each reset: children 60, schools 3, children on more than one list 8, of those with the family name spelt differently on one list 4, ages within 6 to 12 (children outside: 0). Pass if both runs give these numbers.
+212:- *See:* compare the two copies record by record. **Expected:** records that differ: 0. Pass if the two copies are the same.
+240:- *See:* the text of each screen holds the words "Invented data, Progressa is fictional". **Expected:** screens without them: 0. Pass if the count is 0.
+253:- *See:* every recorded connection has both its ends on the computer itself. **Expected:** connections to anything outside the computer: 0. Pass if the count is 0.
+266:- *See:* each body is answered by a simulation on the computer, and the part that uses it works. **Expected:** bodies reached outside the computer: 0. Pass if every body on the list is simulated.
+279:- *See:* **Expected:** windows opened: 0 — the second list is the first. Pass if no window was added.
+292:- *See:* every check runs to its end and gives its result. **Expected:** windows opened: 0 at each reading. Pass if no window was added at any reading.
+307:- *See:* **Expected:** checks failing: 0; the enrolment completes on that computer. Pass if both hold.
+320:- *See:* **Expected:** 1 page, addressed to the Permanent Secretary, saying what the prototype shows and saying what it does not. Pass if all three hold.
+Sat Oct 31 13:10:33 UTC 2026
