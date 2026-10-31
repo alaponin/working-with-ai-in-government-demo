@@ -1,0 +1,13 @@
+kind: finished
+written: 2026-10-31T15:17:16Z
+code: MR
+by: "MR · review · commit of the day"
+account: arne.laponin@gmail.com
+computer: MacBookPro
+id: C-2026-10-31-10
+version: 1
+report: ~/IdeaProjects/mini-registry/_reviews/REVIEW_COMMIT_2026-10-31.md
+outcome: "accepted: A1 to A6 met on re-run; both commits 2fad722 (262 files) and 2ba3804 (30 files) re-counted by another route; nothing ignored committed; no gaps"
+moved: nothing
+verdict: accepted
+format: 2

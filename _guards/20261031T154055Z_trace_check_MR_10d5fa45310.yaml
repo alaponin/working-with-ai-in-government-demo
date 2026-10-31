@@ -1,0 +1,7 @@
+kind: guard
+written: "2026-10-31T15:40:55Z"
+guard: trace_check
+stopped: "_reviews/REVIEW_QUESTIONS_2026-10-31.md: finding: input-changed: the review instruction: /Users/arnelaponin/Documents/Dev/wai-demo/mini-registry/_reports/REPORT_QUESTIONS_2026-10-31.md — absent at issue (20261031T150758Z_MR_issued_C-2026-10-31-12.yaml), sha256:84a719bda9ec at start, sha256:84a719bda9ec now"
+code: MR
+session: "MR · work · answers to the groundwork's questions"
+format: 1

@@ -1,0 +1,12 @@
+kind: closed
+written: 2026-10-31T17:41:07Z
+code: MR
+by: "MR · orchestrator"
+account: arne.laponin@gmail.com
+computer: MacBookPro
+id: C-2026-10-31-14
+version: 2
+outcome: accepted
+subject: "MR C-2026-10-31-13"
+ground: "the review of version 2, _reviews/REVIEW_GOAL_2026-10-31_v2.md, is accepted: G1 closed for every step and failure, items 1 to 4 closed, A1 to A13 met; trace check clean over the report, the review's one finding the report pinned absent at issue, as expected"
+format: 2

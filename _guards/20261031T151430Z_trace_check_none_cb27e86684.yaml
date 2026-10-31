@@ -1,0 +1,5 @@
+kind: guard
+written: "2026-10-31T15:14:30Z"
+guard: trace_check
+stopped: "/Users/arnelaponin/Documents/Dev/wai-demo/mini-registry/_reports/REPORT_COMMIT_2026-10-31.md: finding: names-no-instruction: the report's upstream_artefact names no file"
+format: 1

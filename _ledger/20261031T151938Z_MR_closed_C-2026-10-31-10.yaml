@@ -1,0 +1,12 @@
+kind: closed
+written: 2026-10-31T15:19:38Z
+code: MR
+by: "MR · orchestrator"
+account: arne.laponin@gmail.com
+computer: MacBookPro
+id: C-2026-10-31-10
+version: 1
+outcome: accepted
+subject: "MR C-2026-10-31-09"
+ground: "the review _reviews/REVIEW_COMMIT_2026-10-31.md is accepted, no gaps: commits 2fad722 (mini registry, 262 files) and 2ba3804 (_coordination, 30 files), no push; trace check clean over the report, the review's one finding the report pinned absent at issue, as expected"
+format: 2
