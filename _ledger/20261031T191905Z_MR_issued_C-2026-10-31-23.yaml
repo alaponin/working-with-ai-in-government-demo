@@ -1,0 +1,18 @@
+kind: issued
+written: 2026-10-31T19:19:05Z
+code: MR
+by: "MR · orchestrator"
+account: arne.laponin@gmail.com
+computer: MacBookPro
+id: C-2026-10-31-23
+version: 2
+instruction: ~/IdeaProjects/mini-registry/_prompts/PROMPT_COMMIT3_2026-10-31.md
+session: "MR · work · third commit of the day"
+model: Sonnet
+effort: medium
+report: ~/IdeaProjects/mini-registry/_reports/REPORT_COMMIT3_2026-10-31_v2.md
+outputs: "~/IdeaProjects/mini-registry/.git/ · ~/IdeaProjects/_coordination/.git/ · ~/IdeaProjects/mini-registry/_working/round-commit3-v2/_evidence/ · ~/IdeaProjects/mini-registry/_reports/REPORT_COMMIT3_2026-10-31_v2.md"
+subject: "MR C-2026-10-31-24"
+serves: "the working prototype, deliverable 1 of the constants — an artefact is delivered when it is committed, the history being kept local (procedure 2.5.3), and nothing since the commits c419cf3 and 42cfa12 of 19:48 Tallinn time is"
+instruction_digest: sha256:b3fd861035221249af13d0f6fa99eaee3b6daa855bb29e5f13ae569032d3c90a
+format: 2

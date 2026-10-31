@@ -1,0 +1,7 @@
+kind: guard
+written: "2026-10-31T19:19:06Z"
+guard: ledger
+stopped: "issued: the field answers_kind of /Users/arnelaponin/Documents/Dev/wai-demo/mini-registry/_prompts/PROMPT_KIND_ITEM_2026-10-31.md names '19:16 utc', which is not in the list of the kinds of a gap (/Users/arnelaponin/Library/Application Support/Claude/local-agent-mode-sessions/ffbe2f0e-bc4b-46d3-ad76-b08a7882aae9/7bbcb800-2754-4c5e-97ea-ccb874ea3fee/rpm/plugin_018SiGJfFaxxAvevS4xGQJgb/skills/orche…"
+code: MR
+session: "MR · orchestrator"
+format: 1

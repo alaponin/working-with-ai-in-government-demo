@@ -1,0 +1,14 @@
+kind: finished
+written: 2026-10-31T19:16:03Z
+code: MR
+by: "MR · review · third commit of the day"
+account: arne.laponin@gmail.com
+computer: MacBookPro
+id: C-2026-10-31-24
+version: 1
+report: ~/IdeaProjects/mini-registry/_reviews/REVIEW_COMMIT3_2026-10-31.md
+outcome: "not accepted: A1 not met (round's own evidence file left mini-registry status unclean) and A4 off by two evidence files; A2, A3, A5, A6 met, counts 231/50 re-established"
+moved: nothing
+verdict: "not accepted"
+kinds: item=2
+format: 2
