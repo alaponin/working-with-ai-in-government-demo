@@ -1,0 +1,118 @@
+## commit bodies
+The day's work of 31 October 2026 since c419cf3, committed at the owner's word (D-2026-10-31-10, "Commit both now")
+
+Answers to the goal's questions (its report and review): _prompts/PROMPT_GOALQ_2026-10-31.md, reviewed by _prompts/PROMPT_REVIEW_GOALQ_2026-10-31.md
+Second commit of the day (its report and review): _prompts/PROMPT_COMMIT2_2026-10-31.md, reviewed by _prompts/PROMPT_REVIEW_COMMIT2_2026-10-31.md
+The count: _prompts/PROMPT_COUNT_2026-10-31.md, reviewed by _prompts/PROMPT_REVIEW_COUNT_2026-10-31.md
+The data: _prompts/PROMPT_DATA_2026-10-31.md, reviewed by _prompts/PROMPT_REVIEW_DATA_2026-10-31.md
+Third commit of the day (this commit; its report follows it): _prompts/PROMPT_COMMIT3_2026-10-31.md, reviewed by _prompts/PROMPT_REVIEW_COMMIT3_2026-10-31.md
+The goal built (issued, not yet run): _prompts/PROMPT_BUILD_2026-10-31.md, reviewed by _prompts/PROMPT_REVIEW_BUILD_2026-10-31.md
+
+---
+The day's work of 31 October 2026 since 42cfa12, committed at the owner's word (D-2026-10-31-10, "Commit both now")
+
+The ledger entries and guard records written since 42cfa12.
+
+## A4 mine: before list vs committed
+A4__coordination.txt
+A4_mini-registry.txt
+after__coordination.txt
+after_mini-registry.txt
+before__coordination.txt
+before_list__coordination.txt
+before_list_mini-registry.txt
+before_mini-registry.txt
+commit_and_A1.txt
+committed_list__coordination.txt
+committed_list_mini-registry.txt
+ledger_show.out
+ls_outputs.txt
+msg__coordination.txt
+msg_mini-registry.txt
+show_stat__coordination.txt
+show_stat_mini-registry.txt
+trace_check.out
+window.out
+-- mini-registry
+     229 /Users/arnelaponin/Documents/Dev/wai-demo/mini-registry/_working/round-commit3/_evidence/before_list_mini-registry.txt
+-- _coordination
+      50 /Users/arnelaponin/Documents/Dev/wai-demo/mini-registry/_working/round-commit3/_evidence/before_list__coordination.txt
+_working/round-commit3/_evidence/before_list__coordination.txt
+_working/round-commit3/_evidence/commit_and_A1.txt
+[mini: only-in-committed above]
+[mini: only-in-before above]
+[coord diff above]
+## trace_check
+trace check of /Users/arnelaponin/Documents/Dev/wai-demo/mini-registry/_reports/REPORT_COMMIT3_2026-10-31.md (a report)
+  constants: /Users/arnelaponin/Documents/Dev/wai-demo/mini-registry/CONSTANTS.md
+  the estate's root: /Users/arnelaponin/Documents/Dev/wai-demo/mini-registry
+  the places: instruction _prompts/ = /Users/arnelaponin/Documents/Dev/wai-demo/mini-registry/_prompts, report _reports/ = /Users/arnelaponin/Documents/Dev/wai-demo/mini-registry/_reports, review _reviews/ = /Users/arnelaponin/Documents/Dev/wai-demo/mini-registry/_reviews
+  coordination: /Users/arnelaponin/Documents/Dev/wai-demo/_coordination/CONSTANTS.md
+  the instruction: /Users/arnelaponin/Documents/Dev/wai-demo/mini-registry/_prompts/PROMPT_COMMIT3_2026-10-31.md
+  agrees: the report answers C-2026-10-31-23, the instruction's commission_id
+  agrees: the instruction's downstream_artefact is this report
+  outputs: 4 of 4 named exist
+  inputs: the issued entry 20261031T190931Z_MR_issued_C-2026-10-31-23.yaml pins no input (written before the field, or the instruction names none)
+trace check: clean
+exit=0
+## ledger show
+20261031T190931Z_MR_issued_C-2026-10-31-23.yaml
+  kind: issued
+  written: 2026-10-31T19:09:31Z
+  code: MR
+  by: "MR · orchestrator"
+  account: arne.laponin@gmail.com
+  computer: MacBookPro
+  id: C-2026-10-31-23
+  version: 1
+  instruction: ~/IdeaProjects/mini-registry/_prompts/PROMPT_COMMIT3_2026-10-31.md
+  session: "MR · work · third commit of the day"
+  model: Sonnet
+  effort: medium
+  report: ~/IdeaProjects/mini-registry/_reports/REPORT_COMMIT3_2026-10-31.md
+  outputs: "~/IdeaProjects/mini-registry/.git/ · ~/IdeaProjects/_coordination/.git/ · ~/IdeaProjects/mini-registry/_working/round-commit3/_evidence/ · ~/IdeaProjects/mini-registry/_reports/REPORT_COMMIT3_2026-10-31.md"
+  serves: "the working prototype, deliverable 1 of the constants — an artefact is delivered when it is committed, the history being kept local (procedure 2.5.3), and nothing since the commits c419cf3 and 42cfa12 of 19:48 Tallinn time is"
+  instruction_digest: sha256:8a579cb25cf1b7a743a47badcc749d61e34df5b1704c6ad14c388333c06c50ef
+  format: 2
+  on this computer, MacBookPro: instruction /Users/arnelaponin/Documents/Dev/wai-demo/mini-registry/_prompts/PROMPT_COMMIT3_2026-10-31.md — on disk
+  on this computer, MacBookPro: report /Users/arnelaponin/Documents/Dev/wai-demo/mini-registry/_reports/REPORT_COMMIT3_2026-10-31.md — on disk
+
+20261031T191233Z_MR_started_C-2026-10-31-23.yaml
+  kind: started
+  written: 2026-10-31T19:12:33Z
+  code: MR
+  by: "MR · work · third commit of the day"
+  account: arne.laponin@gmail.com
+  computer: MacBookPro
+  id: C-2026-10-31-23
+  version: 1
+  session: "MR · work · third commit of the day"
+  shell: native
+  instruction: ~/IdeaProjects/mini-registry/_prompts/PROMPT_COMMIT3_2026-10-31.md
+  effort: unknown
+  started_by: owner
+  format: 2
+  on this computer, MacBookPro: instruction /Users/arnelaponin/Documents/Dev/wai-demo/mini-registry/_prompts/PROMPT_COMMIT3_2026-10-31.md — on disk
+
+20261031T191435Z_MR_finished_C-2026-10-31-23.yaml
+  kind: finished
+  written: 2026-10-31T19:14:35Z
+  code: MR
+  by: "MR · work · third commit of the day"
+  account: arne.laponin@gmail.com
+  computer: MacBookPro
+  id: C-2026-10-31-23
+  version: 1
+  report: ~/IdeaProjects/mini-registry/_reports/REPORT_COMMIT3_2026-10-31.md
+  outcome: "mini-registry 7f8fa98 (231 files) and _coordination f4c9345 (50 files) committed, no push; A1 not met in mini-registry: its own evidence file commit_and_A1.txt showed modified straight after (coordination clean); trace check exit 0"
+  moved: "two commits: mini-registry 7f8fa98 over c419cf3, _coordination f4c9345 over 42cfa12; nothing else"
+  format: 2
+  on this computer, MacBookPro: report /Users/arnelaponin/Documents/Dev/wai-demo/mini-registry/_reports/REPORT_COMMIT3_2026-10-31.md — on disk
+exit=0
+## ledger check
+check: clean
+exit=0
+## stat report
+2026-10-31 21:14:19 /Users/arnelaponin/Documents/Dev/wai-demo/mini-registry/_reports/REPORT_COMMIT3_2026-10-31.md
+## A1 file lines
+       2

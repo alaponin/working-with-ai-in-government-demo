@@ -1,0 +1,8 @@
+$ diff before_list_mini-registry.txt committed_list_mini-registry.txt
+204a205
+> _working/round-commit3/_evidence/before_list__coordination.txt
+206a208
+> _working/round-commit3/_evidence/commit_and_A1.txt
+diff exit=1
+     229
+     231

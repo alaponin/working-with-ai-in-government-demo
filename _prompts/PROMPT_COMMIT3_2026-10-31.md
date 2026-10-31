@@ -1,18 +1,18 @@
 ---
 kind: instruction
 commission_id: C-2026-10-31-23
-version: 1
+version: 2
 session_name: MR · work · third commit of the day
 kind_of_work: none — the operations of the estate: committing the day's files in the two local repositories
 upstream_artefact: none — the owner's word, "Commit both now (Recommended)", on the question form in MR · orchestrator, 21:08 Tallinn time, 31 October 2026 ("Commit, then round 6"), recorded with the ruling on D-2026-10-31-10
-downstream_artefact: /Users/arnelaponin/Documents/Dev/wai-demo/mini-registry/_reports/REPORT_COMMIT3_2026-10-31.md
+downstream_artefact: /Users/arnelaponin/Documents/Dev/wai-demo/mini-registry/_reports/REPORT_COMMIT3_2026-10-31_v2.md
 serves: the working prototype, deliverable 1 of the constants — an artefact is delivered when it is committed, the history being kept local (procedure 2.5.3), and nothing since the commits c419cf3 and 42cfa12 of 19:48 Tallinn time is
 model: Sonnet — mechanical, admitting no judgement: the test is a clean git status in each repository and every file accounted for
 effort: medium — two repositories, one commit each; the one risk is a file committed that the ignore list keeps out, or one left out
 reviewer: a separate session started from the review instruction below, as a sub-agent of this session; Sonnet, effort medium — the review re-reads both repositories' status and log
 review_instruction: /Users/arnelaponin/Documents/Dev/wai-demo/mini-registry/_prompts/PROMPT_REVIEW_COMMIT3_2026-10-31.md
 waits_for: none
-outputs: /Users/arnelaponin/Documents/Dev/wai-demo/mini-registry/.git/ · /Users/arnelaponin/Documents/Dev/wai-demo/_coordination/.git/ · /Users/arnelaponin/Documents/Dev/wai-demo/mini-registry/_working/round-commit3/_evidence/ · /Users/arnelaponin/Documents/Dev/wai-demo/mini-registry/_reports/REPORT_COMMIT3_2026-10-31.md
+outputs: /Users/arnelaponin/Documents/Dev/wai-demo/mini-registry/.git/ · /Users/arnelaponin/Documents/Dev/wai-demo/_coordination/.git/ · /Users/arnelaponin/Documents/Dev/wai-demo/mini-registry/_working/round-commit3-v2/_evidence/ · /Users/arnelaponin/Documents/Dev/wai-demo/mini-registry/_reports/REPORT_COMMIT3_2026-10-31_v2.md
 running_record: MR — the issued entry is written in the ledger by ledger.py from this declaration, once this file is complete and before the start message is handed over
 ---
 
@@ -110,3 +110,25 @@ Load the shell tool this session has for commands on the computer (desktop-comma
 ```
 
 Never create a scheduled task to start it. Wait for it, and end with one line: its verdict line and its path, or why it could not run. Do not judge it; route nothing.
+
+---
+
+## Version 2 — 31 October 2026, 2026-10-31 19:19 UTC: the gaps of the review
+
+The review of version 1, `/Users/arnelaponin/Documents/Dev/wai-demo/mini-registry/_reviews/REVIEW_COMMIT3_2026-10-31.md`, is **not accepted** on two gaps of one cause, **which lies in this instruction, not in the round**: it put the evidence folder inside the repository being committed and asked for an empty status straight after the commit, which cannot hold once any evidence is written there (G1); and it asked the committed set to equal the "before" list, which the evidence files then exceeded (G2). The commits of version 1, `7f8fa98` and `f4c9345`, stand; nothing is undone.
+
+This version is carried out by a new session with an empty memory. Your entries are those of sections 1 and 9, with `--report` in the `finished` entry naming `/Users/arnelaponin/Documents/Dev/wai-demo/mini-registry/_reports/REPORT_COMMIT3_2026-10-31_v2.md`; the program reads the version from this declaration.
+
+**What this version does, in place of section 3:**
+
+1. **Keep every piece of evidence outside both repositories until step 5**: write it to a folder made with `mktemp -d`, and name that folder in the report.
+2. In each repository, record `git status --porcelain --ignored` into that folder — the "before" list. It will hold version 1's report, its evidence, the first edition of its review and the ledger entries written since.
+3. `git add -A` and commit, one commit per repository, as section 3 said, with a message naming it the completion of the third commit of the day, version 2.
+4. Straight after, record `git status --porcelain` of each into the same folder (it must be empty), `git log --oneline -3`, and `git show --stat --name-only HEAD`.
+5. Only then copy the folder's files into `/Users/arnelaponin/Documents/Dev/wai-demo/mini-registry/_working/round-commit3-v2/_evidence/`, and write the report. Those files and the report are this round's own and stay uncommitted; the report names them.
+
+**The tests of success of this version**, in place of A1 and A4 (A2, A3, A5 and A6 stand):
+
+- **B1** — The status recorded in step 4 is empty in both repositories, quoted from the file in the temporary folder.
+- **B2** — The files `git show --name-only HEAD` names in each repository are exactly the new and changed paths of that repository's "before" list — every one, and no other — compared by a command, file by file → `0 missing, 0 extra`.
+- **B3** — After step 5, `git status --porcelain` of the mini registry names only this round's evidence and report, and of the coordination only the ledger entries this round wrote; quoted.

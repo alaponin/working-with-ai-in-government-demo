@@ -1,18 +1,18 @@
 ---
 kind: instruction
 commission_id: C-2026-10-31-24
-version: 1
+version: 2
 session_name: MR · review · third commit of the day
 kind_of_work: none — the operations of the estate: committing the day's files in the two local repositories
-upstream_artefact: /Users/arnelaponin/Documents/Dev/wai-demo/mini-registry/_reports/REPORT_COMMIT3_2026-10-31.md
+upstream_artefact: /Users/arnelaponin/Documents/Dev/wai-demo/mini-registry/_reports/REPORT_COMMIT3_2026-10-31_v2.md
 inputs: /Users/arnelaponin/Documents/Dev/wai-demo/mini-registry/_prompts/PROMPT_COMMIT3_2026-10-31.md
-downstream_artefact: /Users/arnelaponin/Documents/Dev/wai-demo/mini-registry/_reviews/REVIEW_COMMIT3_2026-10-31.md
+downstream_artefact: /Users/arnelaponin/Documents/Dev/wai-demo/mini-registry/_reviews/REVIEW_COMMIT3_2026-10-31_v2.md
 serves: the verdict on C-2026-10-31-23, the commit of the day
 model: Sonnet — named in the instruction under review's reviewer line; mechanical readings of two repositories
 effort: medium — named in the same line
 reviewer: not applicable — this instruction is the review
 waits_for: none
-outputs: /Users/arnelaponin/Documents/Dev/wai-demo/mini-registry/_reviews/REVIEW_COMMIT3_2026-10-31.md · /Users/arnelaponin/Documents/Dev/wai-demo/mini-registry/_working/round-commit3-review/_evidence/
+outputs: /Users/arnelaponin/Documents/Dev/wai-demo/mini-registry/_reviews/REVIEW_COMMIT3_2026-10-31_v2.md · /Users/arnelaponin/Documents/Dev/wai-demo/mini-registry/_working/round-commit3-v2-review/_evidence/
 running_record: MR — the issued entry is written in the ledger by ledger.py from this declaration, once this file is complete and before the start message is handed over
 ---
 
@@ -59,3 +59,9 @@ The eight things of part one of the review form, in order, written to `downstrea
 ```text
 /usr/bin/python3 "/Users/arnelaponin/Library/Application Support/Claude/local-agent-mode-sessions/ffbe2f0e-bc4b-46d3-ad76-b08a7882aae9/7bbcb800-2754-4c5e-97ea-ccb874ea3fee/rpm/plugin_018SiGJfFaxxAvevS4xGQJgb/skills/orchestrator/scripts/ledger.py" finished --constants /Users/arnelaponin/Documents/Dev/wai-demo/_coordination/CONSTANTS.md --code MR --id C-2026-10-31-24 --report /Users/arnelaponin/Documents/Dev/wai-demo/mini-registry/_reviews/REVIEW_COMMIT3_2026-10-31.md --verdict <accepted or not-accepted> [--kinds "<count by kind; left out, brackets and all, where there is no gap>"] --outcome "<one line: the verdict and its ground>" --moved nothing --account <the same account as your started entry> --by "MR · review · third commit of the day"
 ```
+
+---
+
+## Version 2 — 31 October 2026, 2026-10-31 19:19 UTC: the review of the second attempt
+
+The first edition, `/Users/arnelaponin/Documents/Dev/wai-demo/mini-registry/_reviews/REVIEW_COMMIT3_2026-10-31.md`, found gaps G1 and G2, both from the instruction's own criteria. The working instruction is now at version 2, which keeps its evidence outside the repositories until after the commit and judges by B1 to B3 with A2, A3, A5 and A6. This edition is written by a new session with an empty memory, as `/Users/arnelaponin/Documents/Dev/wai-demo/mini-registry/_reviews/REVIEW_COMMIT3_2026-10-31_v2.md`; its evidence goes to `/Users/arnelaponin/Documents/Dev/wai-demo/mini-registry/_working/round-commit3-v2-review/_evidence/`. Your entries are those of sections 1 and 4, with `--report` in the `finished` entry naming this edition's file. Judge B1 to B3 and A2, A3, A5, A6 by your own reading of both repositories; re-establish the file count of each new commit by a route the report did not use.

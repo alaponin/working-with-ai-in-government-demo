@@ -1,0 +1,16 @@
+Sat Oct 31 19:13:08 UTC 2026
+$ git -C /Users/arnelaponin/Documents/Dev/wai-demo/_coordination status --porcelain --ignored
+!! MEASURES.md
+!! WHO.html
+$ git -C /Users/arnelaponin/Documents/Dev/wai-demo/_coordination log --oneline -3
+f4c9345 The day's work of 31 October 2026 since 42cfa12, committed at the owner's word (D-2026-10-31-10, "Commit both now")
+42cfa12 The day's work of 31 October 2026 since 2ba3804, committed at the owner's word (D-2026-10-31-06, "Commit both now"): the ledger's entries and the guards written since
+2ba3804 The day's work of 31 October 2026, committed at the owner's word (D-2026-10-31-04, "Commit both now")
+$ git -C /Users/arnelaponin/Documents/Dev/wai-demo/_coordination remote -v
+[end remote]
+$ git -C /Users/arnelaponin/Documents/Dev/wai-demo/_coordination ls-files -ci --exclude-standard
+[end ls-files]
+$ git -C /Users/arnelaponin/Documents/Dev/wai-demo/_coordination show --stat HEAD
+ .../20261031T190934Z_MR_issued_C-2026-10-31-26.yaml   | 19 +++++++++++++++++++
+ .../20261031T191233Z_MR_started_C-2026-10-31-23.yaml  | 14 ++++++++++++++
+ 50 files changed, 597 insertions(+)
