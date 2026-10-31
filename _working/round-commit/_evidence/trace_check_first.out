@@ -1,0 +1,9 @@
+# 2026-10-31 15:14:30 UTC trace_check
+trace check of /Users/arnelaponin/Documents/Dev/wai-demo/mini-registry/_reports/REPORT_COMMIT_2026-10-31.md (a report)
+  constants: /Users/arnelaponin/Documents/Dev/wai-demo/mini-registry/CONSTANTS.md
+  the estate's root: /Users/arnelaponin/Documents/Dev/wai-demo/mini-registry
+  the places: instruction _prompts/ = /Users/arnelaponin/Documents/Dev/wai-demo/mini-registry/_prompts, report _reports/ = /Users/arnelaponin/Documents/Dev/wai-demo/mini-registry/_reports, review _reviews/ = /Users/arnelaponin/Documents/Dev/wai-demo/mini-registry/_reviews
+  coordination: /Users/arnelaponin/Documents/Dev/wai-demo/_coordination/CONSTANTS.md
+finding: names-no-instruction: the report's upstream_artefact names no file
+trace check: 1 finding
+# exit=1

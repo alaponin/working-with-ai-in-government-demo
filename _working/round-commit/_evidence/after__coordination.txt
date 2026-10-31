@@ -1,0 +1,54 @@
+# 2026-10-31 15:13:17 UTC after, _coordination
+## status --porcelain --ignored
+!! MEASURES.md
+!! WHO.html
+## log --oneline -3
+2ba3804 The day's work of 31 October 2026, committed at the owner's word (D-2026-10-31-04, "Commit both now")
+f30bc04 The coordination's ledger put under version control on this computer, by the owner's ruling on D-2026-10-31-01
+## remote -v
+# remote exit=0
+## ls-files -ci --exclude-standard
+# exit=0
+## files in HEAD: 30
+## show --stat HEAD
+commit 2ba38042672b7c46ffbed9dfae799a8b95c5b020
+Author:     Arne Laponin <arne.laponin@gmail.com>
+AuthorDate: Sat Oct 31 17:13:09 2026 +0200
+Commit:     Arne Laponin <arne.laponin@gmail.com>
+CommitDate: Sat Oct 31 17:13:09 2026 +0200
+
+    The day's work of 31 October 2026, committed at the owner's word (D-2026-10-31-04, "Commit both now")
+    
+    The ledger entries and guard records of the mini registry (MR) written since f30bc04, up to and including the started entry of C-2026-10-31-09.
+
+ _guards/20261031T142739Z_placement_check_MR_87658ceae5.yaml |  7 +++++++
+ _guards/20261031T142740Z_placement_check_MR_87713452a5.yaml |  7 +++++++
+ _guards/20261031T144907Z_trace_check_MR_9cb6d4afc5.yaml     |  7 +++++++
+ _guards/20261031T145018Z_ledger_MR_9e8e993729.yaml          |  7 +++++++
+ _guards/20261031T145018Z_ledger_MR_9e8f483ef5.yaml          |  7 +++++++
+ _guards/20261031T150357Z_trace_check_MR_b8cde82dde.yaml     |  7 +++++++
+ _guards/20261031T150754Z_placement_check_MR_bd78867445.yaml |  7 +++++++
+ _guards/20261031T150755Z_placement_check_MR_bd87bfeb48.yaml |  7 +++++++
+ _guards/20261031T150755Z_placement_check_MR_bd952e9627.yaml |  7 +++++++
+ _guards/20261031T150755Z_placement_check_MR_bd98e07c1f.yaml |  7 +++++++
+ _ledger/20261031T142740Z_MR_issued_C-2026-10-31-07.yaml     | 18 ++++++++++++++++++
+ _ledger/20261031T142741Z_MR_issued_C-2026-10-31-08.yaml     | 19 +++++++++++++++++++
+ _ledger/20261031T143024Z_MR_started_C-2026-10-31-07.yaml    | 15 +++++++++++++++
+ _ledger/20261031T144026Z_MR_finished_C-2026-10-31-07.yaml   | 12 ++++++++++++
+ _ledger/20261031T144054Z_MR_started_C-2026-10-31-08.yaml    | 15 +++++++++++++++
+ _ledger/20261031T144733Z_MR_finished_C-2026-10-31-08.yaml   | 14 ++++++++++++++
+ _ledger/20261031T145031Z_MR_issued_C-2026-10-31-07.yaml     | 19 +++++++++++++++++++
+ _ledger/20261031T145032Z_MR_issued_C-2026-10-31-08.yaml     | 19 +++++++++++++++++++
+ _ledger/20261031T145311Z_MR_started_C-2026-10-31-07.yaml    | 15 +++++++++++++++
+ _ledger/20261031T145727Z_MR_finished_C-2026-10-31-07.yaml   | 12 ++++++++++++
+ _ledger/20261031T145749Z_MR_started_C-2026-10-31-08.yaml    | 15 +++++++++++++++
+ _ledger/20261031T150232Z_MR_finished_C-2026-10-31-08.yaml   | 13 +++++++++++++
+ _ledger/20261031T150419Z_MR_closed_C-2026-10-31-08.yaml     | 12 ++++++++++++
+ _ledger/20261031T150420Z_MR_decision_D-2026-10-31-04.yaml   | 11 +++++++++++
+ _ledger/20261031T150530Z_MR_ruled_D-2026-10-31-04.yaml      | 10 ++++++++++
+ _ledger/20261031T150755Z_MR_issued_C-2026-10-31-09.yaml     | 17 +++++++++++++++++
+ _ledger/20261031T150756Z_MR_issued_C-2026-10-31-10.yaml     | 19 +++++++++++++++++++
+ _ledger/20261031T150757Z_MR_issued_C-2026-10-31-11.yaml     | 19 +++++++++++++++++++
+ _ledger/20261031T150758Z_MR_issued_C-2026-10-31-12.yaml     | 19 +++++++++++++++++++
+ _ledger/20261031T151215Z_MR_started_C-2026-10-31-09.yaml    | 14 ++++++++++++++
+ 30 files changed, 377 insertions(+)

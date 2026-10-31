@@ -1,0 +1,44 @@
+# 2026-10-31T16:30:43Z /usr/bin/python3 -B R_inventory.py
+units enumerated from the sources: 117; without a disposition: 0 []; dispositions for no unit: 0 []
+units carrying a step or failure: 49; screen units: 3; units of no step or failure: 65
+
+steps: the review lists 7, the goal 7; missing from the goal: 0 []; in the goal and not the review: 0 []
+  m-open    -> S-1  units  7, cited by the goal  5, not cited ['brief:24', 'groundwork:settings.csv:3']
+  m-enter   -> S-2  units  4, cited by the goal  4, not cited []
+  m-gate    -> S-3  units  3, cited by the goal  3, not cited []
+  m-search  -> S-4  units 17, cited by the goal 16, not cited ['groundwork:lists.csv:16']
+  m-one     -> S-5  units  4, cited by the goal  3, not cited ['R-01']
+  m-none    -> S-6  units 12, cited by the goal 12, not cited []
+  m-tell    -> S-7  units  4, cited by the goal  4, not cited []
+failures: the review lists 5, the goal 5; missing from the goal: 0 []; in the goal and not the review: 0 []
+  x-missing -> F-1  units  2, cited by the goal  2, not cited []
+  x-date    -> F-2  units  2, cited by the goal  2, not cited []
+  x-school  -> F-3  units  3, cited by the goal  3, not cited []
+  x-many    -> F-4  units  7, cited by the goal  5, not cited ['R-05', 'ruling:G-05']
+  x-missed  -> F-5  units  5, cited by the goal  5, not cited []
+
+the figure: failures the sources state or rule, listed source first: 5 ['x-missing', 'x-date', 'x-school', 'x-many', 'x-missed']
+
+what each failure shows the clerk, against the ruled or stated words of its own sources:
+  F-1 sees: SC-4: the entry is refused; the search does not run.
+      ruling:G-07: «** We recommend Position A: the date entered as YYYY-MM-DD and refused otherwise, the school chosen from the data's three, and all four entered before the search runs, the school not searched on»
+      ruling:G-09: «Every view the clerk can see is a screen, messages and refusals included»
+      ruling:G-09: «** We recommend Position A: every view the clerk can see, messages and refusals included, is a screen on the list of register line 238 and carries the words»
+  F-2 sees: SC-5: the entry is refused; the search does not run.
+      ruling:G-07: «** We recommend Position A: the date entered as YYYY-MM-DD and refused otherwise, the school chosen from the data's three, and all four entered before the search runs, the school not searched on»
+      ruling:G-09: «Every view the clerk can see is a screen, messages and refusals included»
+      ruling:G-09: «** We recommend Position A: every view the clerk can see, messages and refusals included, is a screen on the list of register line 238 and carries the words»
+      groundwork:settings.csv:17: «any other form refused,R-03 · ruling:G-07»
+  F-3 sees: SC-6: the entry is refused; the search does not run.
+      ruling:G-07: «** We recommend Position A: the date entered as YYYY-MM-DD and refused otherwise, the school chosen from the data's three, and all four entered before the search runs, the school not searched on»
+      ruling:G-09: «Every view the clerk can see is a screen, messages and refusals included»
+      ruling:G-09: «** We recommend Position A: every view the clerk can see, messages and refusals included, is a screen on the list of register line 238 and carries the words»
+  F-4 sees: SC-7: the entry cannot be completed.
+      ruling:G-02: «if it is, enter nothing new and refuse the entry»
+      ruling:G-02: «** We recommend Position B: under the settings given to both the case is never met, and if it is met the registry enters nothing new and says the entry cannot be completed»
+      ruling:G-09: «Every view the clerk can see is a screen, messages and refusals included»
+      ruling:G-09: «** We recommend Position A: every view the clerk can see, messages and refusals included, is a screen on the list of register line 238 and carries the words»
+      groundwork:search_rule.csv:16: «on_more_than_one,enters nothing new and says the entry cannot be completed,ruling:G-02»
+  F-5 sees: SC-3, the screen of a new learner, as for a child the registry does not hold.
+      (no cited source carries a refusal or "cannot be completed")
+EXIT=0

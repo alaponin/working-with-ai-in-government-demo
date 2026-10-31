@@ -1,0 +1,12 @@
+S-4, the registry: searches first, before it does anything else with the entry and before any write; it looks among learners only; it compares the family name, the given names and the date of birth, and nothing else; two values that differ in capitals only are the same, and every other difference makes two values differ; it does not compare the school, which is entered and saved and never searched on, nor any field but the three; it does not read the key table. On exactly one learner found the goal goes on at S-5, on none at S-6, on more than one at F-4.
+  groundwork:search_rule.csv:2  compares,family name,brief:13 · R-05
+  groundwork:search_rule.csv:3  compares,given names,brief:13 · R-05
+  groundwork:search_rule.csv:4  compares,date of birth,brief:13 · R-05
+  groundwork:search_rule.csv:5  forgives,capitals: two values that differ in capitals only are the same,brief:13 · R-05
+  groundwork:search_rule.csv:6  forgives_nothing_else,every difference but capitals makes two values differ,brief:13
+  groundwork:search_rule.csv:7  does_not_compare,"school: entered and saved, never searched on",brief:13 · ruling:G-07
+  groundwork:search_rule.csv:8  does_not_compare,any field but the three compared,brief:13
+  groundwork:search_rule.csv:9  does_not_read,the key table,ruling:G-05
+  groundwork:search_rule.csv:11  when,first: before the registry does anything else with the entry,brief:11 · R-04
+  groundwork:search_rule.csv:12  where,among learners only,ruling:G-03
+rows cited: 10; compares rows in the file: 3

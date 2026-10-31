@@ -1,0 +1,123 @@
+units enumerated from the sources: 118; without a disposition: 0 []; dispositions for no unit: 0 []; unresolved: 0 []
+units carrying a member or the screens' line: 50; units carrying none: 68
+steps: 7, each with at least one source: True; tokens: 52
+failures: 5, each with at least one source: True; tokens: 27
+screens' line: brief:33 · R-17 · ruling:G-09
+  brief:7                            F-5
+  brief:11                           S-1, S-2, S-4, F-1
+  brief:13                           S-4, S-5, F-5
+  brief:14                           S-4, S-6, F-1, F-5
+  brief:15                           S-7
+  brief:19                           none: the made-up data or its reset, not a step of enrolment (ruling:G-08: reset is a command outside the screens)
+  brief:21                           none: table head
+  brief:23                           none: the made-up data or its reset, not a step of enrolment (ruling:G-08: reset is a command outside the screens)
+  brief:24                           F-3
+  brief:25                           none: the made-up data or its reset, not a step of enrolment (ruling:G-08: reset is a command outside the screens)
+  brief:26                           none: the made-up data or its reset, not a step of enrolment (ruling:G-08: reset is a command outside the screens)
+  brief:27                           none: ages of the made-up data; an age entered by the clerk is a gap (gap 2)
+  brief:29                           none: the made-up data or its reset, not a step of enrolment (ruling:G-08: reset is a command outside the screens)
+  brief:33                           SC
+  brief:34                           none: a constraint on the prototype as a whole, not a step or a way the goal goes wrong
+  brief:35                           none: a constraint on the prototype as a whole, not a step or a way the goal goes wrong
+  brief:39                           none: a deliverable
+  brief:40                           none: a deliverable
+  R-01                               F-5
+  R-02                               S-1
+  R-03                               S-1, S-2, S-6
+  R-04                               S-4
+  R-05                               S-4, S-5, S-7
+  R-06                               S-6, F-5
+  R-07                               S-7, F-5
+  R-08                               none: the made-up data or its reset, not a step of enrolment (ruling:G-08: reset is a command outside the screens)
+  R-09                               none: the made-up data or its reset, not a step of enrolment (ruling:G-08: reset is a command outside the screens)
+  R-10                               none: the made-up data or its reset, not a step of enrolment (ruling:G-08: reset is a command outside the screens)
+  R-11                               none: the made-up data or its reset, not a step of enrolment (ruling:G-08: reset is a command outside the screens)
+  R-12                               none: the made-up data or its reset, not a step of enrolment (ruling:G-08: reset is a command outside the screens)
+  R-13                               none: the made-up data or its reset, not a step of enrolment (ruling:G-08: reset is a command outside the screens)
+  R-14                               none: the made-up data or its reset, not a step of enrolment (ruling:G-08: reset is a command outside the screens)
+  R-15                               none: the made-up data or its reset, not a step of enrolment (ruling:G-08: reset is a command outside the screens)
+  R-16                               none: a constraint on the prototype as a whole, not a step or a way the goal goes wrong
+  R-17                               SC
+  R-18                               none: a constraint on the prototype as a whole, not a step or a way the goal goes wrong
+  R-19                               none: a constraint on the prototype as a whole, not a step or a way the goal goes wrong
+  R-20                               none: a constraint on the prototype as a whole, not a step or a way the goal goes wrong
+  R-21                               none: a constraint on the prototype as a whole, not a step or a way the goal goes wrong
+  R-22                               none: a deliverable
+  R-23                               none: a deliverable
+  ruling:G-01                        S-6
+  ruling:G-02                        F-4
+  ruling:G-03                        S-4
+  ruling:G-04                        none: the made-up data or its reset, not a step of enrolment (ruling:G-08: reset is a command outside the screens)
+  ruling:G-05                        S-4, F-4, F-5
+  ruling:G-06                        none: how ages of the made-up data are reckoned; an age entered by the clerk is a gap (gap 2)
+  ruling:G-07                        S-1, S-2, S-3, S-4, F-1, F-2, F-3
+  ruling:G-08                        S-1
+  ruling:G-09                        SC, F-2, F-4
+  ruling:G-10                        none: a constraint on the prototype as a whole, not a step or a way the goal goes wrong
+  ruling:G-11                        none: a constraint on the prototype as a whole, not a step or a way the goal goes wrong
+  ruling:G-12                        none: what the prototype's checks are; it is why each failure here is named (the goal's opening), not a step
+  ruling:G-13                        none: a deliverable
+  ruling:Q-1                         none: the date ages are reckoned on, for the made-up data; an age entered by the clerk is a gap (gap 2)
+  ruling:Q-2                         none: the made-up data or its reset, not a step of enrolment (ruling:G-08: reset is a command outside the screens)
+  ruling:Q-3                         none: the made-up data or its reset, not a step of enrolment (ruling:G-08: reset is a command outside the screens)
+  ruling:Q-4                         S-6
+  ruling:Q-5                         none: the made-up data or its reset, not a step of enrolment (ruling:G-08: reset is a command outside the screens)
+  ruling:Q-6                         none: the made-up data or its reset, not a step of enrolment (ruling:G-08: reset is a command outside the screens)
+  ruling:Q-7                         none: the made-up data or its reset, not a step of enrolment (ruling:G-08: reset is a command outside the screens)
+  ruling:Q-8                         none: the made-up data or its reset, not a step of enrolment (ruling:G-08: reset is a command outside the screens)
+  ruling:Q-9                         none: the made-up data or its reset, not a step of enrolment (ruling:G-08: reset is a command outside the screens)
+  ruling:Q-10                        none: the made-up data or its reset, not a step of enrolment (ruling:G-08: reset is a command outside the screens)
+  ruling:Q-11                        none: the made-up data or its reset, not a step of enrolment (ruling:G-08: reset is a command outside the screens)
+  ruling:Q-12                        none: the made-up data or its reset, not a step of enrolment (ruling:G-08: reset is a command outside the screens)
+  ruling:Q-13                        none: the made-up data or its reset, not a step of enrolment (ruling:G-08: reset is a command outside the screens)
+  ruling:Q-14                        F-4
+  groundwork:search_rule.csv:2       S-4
+  groundwork:search_rule.csv:3       S-4
+  groundwork:search_rule.csv:4       S-4
+  groundwork:search_rule.csv:5       S-4, F-5
+  groundwork:search_rule.csv:6       S-4, F-5
+  groundwork:search_rule.csv:7       S-4
+  groundwork:search_rule.csv:8       S-4
+  groundwork:search_rule.csv:9       S-4
+  groundwork:search_rule.csv:10      S-2, S-4, F-1
+  groundwork:search_rule.csv:11      S-4
+  groundwork:search_rule.csv:12      S-4
+  groundwork:search_rule.csv:13      none: the made-up data or its reset, not a step of enrolment (ruling:G-08: reset is a command outside the screens)
+  groundwork:search_rule.csv:14      S-5
+  groundwork:search_rule.csv:15      S-6
+  groundwork:search_rule.csv:16      S-4, F-4
+  groundwork:search_rule.csv:17      F-4
+  groundwork:search_rule.csv:18      S-7
+  groundwork:settings.csv:2          none: the made-up data or its reset, not a step of enrolment (ruling:G-08: reset is a command outside the screens)
+  groundwork:settings.csv:3          none: the made-up data or its reset, not a step of enrolment (ruling:G-08: reset is a command outside the screens)
+  groundwork:settings.csv:4          none: the made-up data or its reset, not a step of enrolment (ruling:G-08: reset is a command outside the screens)
+  groundwork:settings.csv:5          none: the made-up data or its reset, not a step of enrolment (ruling:G-08: reset is a command outside the screens)
+  groundwork:settings.csv:6          none: the made-up data or its reset, not a step of enrolment (ruling:G-08: reset is a command outside the screens)
+  groundwork:settings.csv:7          none: the made-up data or its reset, not a step of enrolment (ruling:G-08: reset is a command outside the screens)
+  groundwork:settings.csv:8          none: the made-up data or its reset, not a step of enrolment (ruling:G-08: reset is a command outside the screens)
+  groundwork:settings.csv:9          S-6
+  groundwork:settings.csv:10         none: the made-up data or its reset, not a step of enrolment (ruling:G-08: reset is a command outside the screens)
+  groundwork:settings.csv:11         none: the made-up data or its reset, not a step of enrolment (ruling:G-08: reset is a command outside the screens)
+  groundwork:settings.csv:12         none: the made-up data or its reset, not a step of enrolment (ruling:G-08: reset is a command outside the screens)
+  groundwork:settings.csv:13         F-4
+  groundwork:settings.csv:14         F-5
+  groundwork:settings.csv:15         none: the made-up data or its reset, not a step of enrolment (ruling:G-08: reset is a command outside the screens)
+  groundwork:settings.csv:16         none: the made-up data or its reset, not a step of enrolment (ruling:G-08: reset is a command outside the screens)
+  groundwork:settings.csv:17         S-2, S-3, F-2
+  groundwork:settings.csv:18         S-1, F-3
+  groundwork:lists.csv:2             none: the made-up data or its reset, not a step of enrolment (ruling:G-08: reset is a command outside the screens)
+  groundwork:lists.csv:3             none: the made-up data or its reset, not a step of enrolment (ruling:G-08: reset is a command outside the screens)
+  groundwork:lists.csv:4             none: the made-up data or its reset, not a step of enrolment (ruling:G-08: reset is a command outside the screens)
+  groundwork:lists.csv:5             none: the made-up data or its reset, not a step of enrolment (ruling:G-08: reset is a command outside the screens)
+  groundwork:lists.csv:6             none: the made-up data or its reset, not a step of enrolment (ruling:G-08: reset is a command outside the screens)
+  groundwork:lists.csv:7             none: the made-up data or its reset, not a step of enrolment (ruling:G-08: reset is a command outside the screens)
+  groundwork:lists.csv:8             none: the made-up data or its reset, not a step of enrolment (ruling:G-08: reset is a command outside the screens)
+  groundwork:lists.csv:9             none: the made-up data or its reset, not a step of enrolment (ruling:G-08: reset is a command outside the screens)
+  groundwork:lists.csv:10            none: the made-up data or its reset, not a step of enrolment (ruling:G-08: reset is a command outside the screens)
+  groundwork:lists.csv:11            S-6
+  groundwork:lists.csv:12            S-6
+  groundwork:lists.csv:13            S-6
+  groundwork:lists.csv:14            S-6
+  groundwork:lists.csv:15            S-6
+  groundwork:lists.csv:16            none: the key table, read by the counts; S-4 says it is not read through search_rule.csv:9
+  groundwork:lists.csv:17            none: the key table, read by the counts

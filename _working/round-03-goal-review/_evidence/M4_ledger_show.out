@@ -1,0 +1,56 @@
+# 2026-10-31T16:28:12Z ledger show
+20261031T161417Z_MR_issued_C-2026-10-31-13.yaml
+  kind: issued
+  written: 2026-10-31T16:14:17Z
+  code: MR
+  by: "MR · orchestrator"
+  account: arne.laponin@gmail.com
+  computer: MacBookPro
+  id: C-2026-10-31-13
+  version: 1
+  instruction: ~/IdeaProjects/mini-registry/_prompts/PROMPT_GOAL_2026-10-31.md
+  session: "MR · work · the goal in full"
+  model: Opus
+  effort: high
+  report: ~/IdeaProjects/mini-registry/_reports/REPORT_GOAL_2026-10-31.md
+  outputs: "~/IdeaProjects/mini-registry/docs/GOAL.md · ~/IdeaProjects/mini-registry/_working/round-03-goal/_evidence/ · ~/IdeaProjects/mini-registry/_reports/REPORT_GOAL_2026-10-31.md"
+  serves: "the working prototype, deliverable 1 of the constants — round 3 of the brief, the goal written in full: every step of enrolling a learner, and every way it can go wrong"
+  inputs: "~/IdeaProjects/mini-registry/docs/REQUIREMENTS.md sha256:ad583b3958fb5c5fdf6683b5c2487b6f0c425d66cebc7c46811e2e19af13f103 · ~/IdeaProjects/brief/MINI-REGISTRY-BRIEF.md sha256:ec6971e74a6a8387de0e5bd7a5e1cdead6ddf711b8fdac3ccc1d4b7555e11f64 · ~/IdeaProjects/mini-registry/docs/GROUNDWORK.md sha256:5ed9b62f282d433df7c337a2da30e4830c56170dca1e646ae5aacc2cc2795dce · ~/IdeaProjects/mini-registry/docs/groundwork/ sha256:05e359476e04fda3c7445f952e2ea481c4a8c73192fea0fb43bbbd80a33a5bf1 · ~/IdeaProjects/mini-registry/docs/GAPS-PAPER.md sha256:d03db64c6e49a1b92467c1e6e19929c321964bd89f6cb715d15dd570f37bc8bb · ~/IdeaProjects/mini-registry/docs/QUESTIONS-PAPER.md sha256:5146d23a87cf9c0527c26c2965725bfa1125bd1a0a103ac83b68fb7dbd50cce0 · ~/IdeaProjects/_coordination/_ledger/20261031T141251Z_MR_ruled_D-2026-10-31-03.yaml sha256:ad5b86749a9114e7611766f8400df071447bd8ddb8cb60ad02311db6843931b0 · ~/IdeaProjects/_coordination/_ledger/20261031T161245Z_MR_ruled_D-2026-10-31-05.yaml sha256:6a3506ef0745bcc30ad74a81e072ca720f6f78a1b31d516b3adc2c41429fbff9 · ~/IdeaProjects/mini-registry/_kinds/drafting.md sha256:f792a337a4620afeb4b3e2b220ae74878eeeca9e23c7d94b57ae46529414851d"
+  instruction_digest: sha256:eb32d7cd389e70bb49dac467805b77afeecb00797c2d3452db9a5027df76559b
+  format: 2
+  on this computer, MacBookPro: instruction /Users/arnelaponin/Documents/Dev/wai-demo/mini-registry/_prompts/PROMPT_GOAL_2026-10-31.md — on disk
+  on this computer, MacBookPro: report /Users/arnelaponin/Documents/Dev/wai-demo/mini-registry/_reports/REPORT_GOAL_2026-10-31.md — on disk
+
+20261031T161636Z_MR_started_C-2026-10-31-13.yaml
+  kind: started
+  written: 2026-10-31T16:16:36Z
+  code: MR
+  by: "MR · work · the goal in full"
+  account: arne.laponin@gmail.com
+  computer: MacBookPro
+  id: C-2026-10-31-13
+  version: 1
+  session: "MR · work · the goal in full"
+  shell: native
+  instruction: ~/IdeaProjects/mini-registry/_prompts/PROMPT_GOAL_2026-10-31.md
+  effort: unknown
+  started_by: owner
+  inputs: "~/IdeaProjects/mini-registry/docs/REQUIREMENTS.md sha256:ad583b3958fb5c5fdf6683b5c2487b6f0c425d66cebc7c46811e2e19af13f103 · ~/IdeaProjects/brief/MINI-REGISTRY-BRIEF.md sha256:ec6971e74a6a8387de0e5bd7a5e1cdead6ddf711b8fdac3ccc1d4b7555e11f64 · ~/IdeaProjects/mini-registry/docs/GROUNDWORK.md sha256:5ed9b62f282d433df7c337a2da30e4830c56170dca1e646ae5aacc2cc2795dce · ~/IdeaProjects/mini-registry/docs/groundwork/ sha256:05e359476e04fda3c7445f952e2ea481c4a8c73192fea0fb43bbbd80a33a5bf1 · ~/IdeaProjects/mini-registry/docs/GAPS-PAPER.md sha256:d03db64c6e49a1b92467c1e6e19929c321964bd89f6cb715d15dd570f37bc8bb · ~/IdeaProjects/mini-registry/docs/QUESTIONS-PAPER.md sha256:5146d23a87cf9c0527c26c2965725bfa1125bd1a0a103ac83b68fb7dbd50cce0 · ~/IdeaProjects/_coordination/_ledger/20261031T141251Z_MR_ruled_D-2026-10-31-03.yaml sha256:ad5b86749a9114e7611766f8400df071447bd8ddb8cb60ad02311db6843931b0 · ~/IdeaProjects/_coordination/_ledger/20261031T161245Z_MR_ruled_D-2026-10-31-05.yaml sha256:6a3506ef0745bcc30ad74a81e072ca720f6f78a1b31d516b3adc2c41429fbff9 · ~/IdeaProjects/mini-registry/_kinds/drafting.md sha256:f792a337a4620afeb4b3e2b220ae74878eeeca9e23c7d94b57ae46529414851d"
+  format: 2
+  on this computer, MacBookPro: instruction /Users/arnelaponin/Documents/Dev/wai-demo/mini-registry/_prompts/PROMPT_GOAL_2026-10-31.md — on disk
+
+20261031T162402Z_MR_finished_C-2026-10-31-13.yaml
+  kind: finished
+  written: 2026-10-31T16:24:02Z
+  code: MR
+  by: "MR · work · the goal in full"
+  account: arne.laponin@gmail.com
+  computer: MacBookPro
+  id: C-2026-10-31-13
+  version: 1
+  report: ~/IdeaProjects/mini-registry/_reports/REPORT_GOAL_2026-10-31.md
+  outcome: "docs/GOAL.md written: 7 steps, 5 ways it can go wrong, 7 screens each with R-17's line, 11 gaps left open as questions; the sets listed first by program (73 sources, 0 not found) and matched 0 missing, 0 extra; A1-A8 met, the record's check exit 0 with 0 findings"
+  moved: "docs/GOAL.md is new; nothing else moved"
+  format: 2
+  on this computer, MacBookPro: report /Users/arnelaponin/Documents/Dev/wai-demo/mini-registry/_reports/REPORT_GOAL_2026-10-31.md — on disk
+EXIT=0

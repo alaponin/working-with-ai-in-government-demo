@@ -1,0 +1,195 @@
+2026-10-31T16:04:52Z
+== THE SET, from GROUNDWORK.md's section 'Gaps against the sources'
+numbered items: 14 [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14]
+question sections in the paper: 14 [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14]
+in the groundwork, not answered: 0 []
+in the paper, not in the groundwork: 0 []
+question quoted not word for word or at another line: 0 []
+
+== EVERY CITATION, beside its source line
+paper:9 ../brief/MINI-REGISTRY-BRIEF.md:13 OK
+   quoted: if it finds exactly one learner with the same family name, given names and date of birth (capitals ignored), it shows that learner and enters nothing new;
+   source: - if it finds exactly one learner with the same family name, given names and date of birth (capitals ignored), it shows that learner and enters nothing new;
+paper:9 ../brief/MINI-REGISTRY-BRIEF.md:29 OK
+   quoted: The data is made the same way every time it is reset.
+   source: The numbers are fixed so that every later count has a known answer. The data is made the same way every time it is reset.
+paper:10 docs/REQUIREMENTS.md:15-320 RANGE first='### R-01' | last='- *See:* **Expected:** 1 page, addressed to the Permanent Secretary, s' OK
+paper:11 docs/GAPS-PAPER.md:26-38 RANGE first='| G-01 | A whole number in sequence, one above the highest held, never' | last='| G-13 | One A4 page, as a PDF, counted by its page count |' OK
+paper:11 docs/GAPS-PAPER.md:196 OK (whole line)
+   quoted: **Recommendation — a proposal for the owner's ruling, not a decision.** We recommend Position A, with settings 1 to 4 for round 2 — the 4 differ in at least one letter, the other 4 match letter for le
+   source: **Recommendation — a proposal for the owner's ruling, not a decision.** We recommend Position A, with settings 1 to 4 for round 2 — the 4 differ in at least one letter, the other 4 match letter for letter and in the same capitals, so none of the 8 differs in capitals only, and no two different children share all three fields — which gives round 7 the known answer of 4 of the 8 caught and R-12 a co
+paper:12 docs/groundwork/settings.csv:2-18 RANGE first='children,60 different children,brief:23 · R-09 · R-14 · ruling:G-04' | last="school_entry,chosen from the data's 3 schools,brief:24 · R-03 · ruling" OK
+paper:12 docs/groundwork/settings.csv:7 OK
+   quoted: list_entries,68
+   source: list_entries,68,ruling:G-04
+paper:12 docs/groundwork/settings.csv:8 OK
+   quoted: lists_carrying_each_of_the_8,exactly 2
+   source: lists_carrying_each_of_the_8,exactly 2,ruling:G-04
+paper:12 docs/groundwork/settings.csv:14 OK
+   quoted: of_the_8_caught_by_the_search,4
+   source: of_the_8_caught_by_the_search,4,ruling:G-05
+paper:12 docs/groundwork/lists.csv:2-17 RANGE first="school_census,family_name,the child's family name as this list spells " | last='key_table,same_child,"which entries are the same invented child, so th' OK
+paper:12 docs/groundwork/search_rule.csv:2-18 RANGE first='compares,family name,brief:13 · R-05' | last='tells,the clerk sees which of the two happened,brief:15 · R-07' OK
+paper:12 docs/groundwork/search_rule.csv:6 OK
+   quoted: every difference but capitals makes two values differ
+   source: forgives_nothing_else,every difference but capitals makes two values differ,brief:13
+paper:12 docs/groundwork/search_rule.csv:9 OK
+   quoted: does_not_read,the key table
+   source: does_not_read,the key table,ruling:G-05
+paper:14 ../brief/MINI-REGISTRY-BRIEF.md:7 OK
+   quoted: wants one list of learners instead of three
+   source: Progressa's Ministry of Education, Youth and Skills (MoEYS) wants one list of learners instead of three. Before anyone builds the real thing, the planning unit wants to see a small working prototype: a school clerk enrols a child, and the registry does not register the same child twice. The prototype is for agreement. It is not the registry.
+paper:14 ../brief/MINI-REGISTRY-BRIEF.md:33 OK
+   quoted: Hold any real person's data.
+   source: - Hold any real person's data. Every screen says "Invented data, Progressa is fictional".
+paper:14 ../brief/MINI-REGISTRY-BRIEF.md:34 OK
+   quoted: Connect to anything outside your computer.
+   source: - Connect to anything outside your computer. Other bodies, if the project needs them, are simulated.
+paper:14 ../brief/MINI-REGISTRY-BRIEF.md:35 OK
+   quoted: Open a window on its own.
+   source: - Open a window on its own. Every check of the screens runs without one.
+paper:14 ../brief/MINI-REGISTRY-BRIEF.md:29 OK
+   quoted: The numbers are fixed so that every later count has a known answer.
+   source: The numbers are fixed so that every later count has a known answer. The data is made the same way every time it is reset.
+paper:14 ../brief/MINI-REGISTRY-BRIEF.md:52 OK
+   quoted: The scaffold and the made-up data
+   source: | 5 | The scaffold and the made-up data, in the known numbers above | building |
+paper:14 ../brief/MINI-REGISTRY-BRIEF.md:53 OK
+   quoted: The goal built
+   source: | 6 | The goal built | building |
+paper:14 ../brief/MINI-REGISTRY-BRIEF.md:54 OK
+   quoted: how many of the 8 the search catches
+   source: | 7 | The duplicates count: how many of the 8 the search catches | checking |
+paper:24 docs/GROUNDWORK.md:43 NO QUOTE source='1. **The date ages are reckoned on.** The ruling on G-06 holds ages to "one fixed date held in round 2\'s settings", and '
+paper:28 docs/GAPS-PAPER.md:31 OK
+   quoted: one fixed date held in the settings
+   source: | G-06 | Age in completed years on one fixed date held in the settings; 6 and 12 included |
+paper:30 docs/GROUNDWORK.md:5 OK
+   quoted: the owner's ruling of 31 October 2026
+   source: **Where it comes from.** Three sources, in order of precedence: the brief (`../brief/MINI-REGISTRY-BRIEF.md`), the register of requirements (`docs/REQUIREMENTS.md`, R-01 to R-23), and the owner's ruling of 31 October 2026 on the thirteen recommendations of `docs/GAPS-PAPER.md` (decision D-2026-10-31-03). Of that paper, only the thirteen summary rows and the one-sentence recommendation closing each
+paper:42 docs/GROUNDWORK.md:44 NO QUOTE source='2. **The order of the reset\'s enrolment.** The ruling on G-03 has the reset enrol every list entry "in a fixed order", a'
+paper:46 ../brief/MINI-REGISTRY-BRIEF.md:19 OK
+   quoted: the school census, the examinations authority's candidate list and the social grant programme's list
+   source: The prototype starts with invented children spread over three lists: the school census, the examinations authority's candidate list and the social grant programme's list.
+paper:61 docs/GROUNDWORK.md:45 NO QUOTE source='3. **The seed.** The ruling on G-10 makes the data "from invented name parts and a fixed seed", and gives no seed: what '
+paper:65 docs/GAPS-PAPER.md:35 OK
+   quoted: a fixed seed
+   source: | G-10 | Evidence by construction: a generator in the source, a fixed seed, and the reset's reads recorded |
+paper:79 docs/GROUNDWORK.md:46 NO QUOTE source='4. **The first learner number.** The ruling on G-01 gives each new learner "one higher than the highest the registry hol'
+paper:83 docs/GAPS-PAPER.md:26 OK
+   quoted: one above the highest held
+   source: | G-01 | A whole number in sequence, one above the highest held, never given twice |
+paper:98 docs/GROUNDWORK.md:47 NO QUOTE source='5. **Which lists carry the 8.** The ruling on G-04 puts each of the 8 on exactly two lists: which two lists carry each o'
+paper:102 ../brief/MINI-REGISTRY-BRIEF.md:26 OK
+   quoted: children whose family name is spelt differently on one list
+   source: | Of those, children whose family name is spelt differently on one list | 4 |
+paper:117 docs/GROUNDWORK.md:48 NO QUOTE source='6. **The spread over the lists.** The ruling on G-04 fixes 68 entries in all: how many entries does each of the three li'
+paper:121 ../brief/MINI-REGISTRY-BRIEF.md:19 OK
+   quoted: invented children spread over three lists
+   source: The prototype starts with invented children spread over three lists: the school census, the examinations authority's candidate list and the social grant programme's list.
+paper:135 docs/GROUNDWORK.md:49 NO QUOTE source='7. **The spread over the schools.** The brief fixes 3 schools: how are the 60 children spread over them?'
+paper:139 docs/groundwork/settings.csv:3 OK
+   quoted: schools,3
+   source: schools,3,brief:24 · R-10 · R-14
+paper:153 docs/GROUNDWORK.md:50 NO QUOTE source='8. **The other fields of the 4.** The ruling on G-05 says "the 4 differ in at least one letter" and "the other 4 match l'
+paper:157 docs/groundwork/settings.csv:14 OK
+   quoted: of_the_8_caught_by_the_search,4
+   source: of_the_8_caught_by_the_search,4,ruling:G-05
+paper:172 docs/GROUNDWORK.md:51 NO QUOTE source="9. **A school on the lists.** The learner's record holds a school (R-03), and the reset makes learners from list entries"
+paper:176 docs/REQUIREMENTS.md:49 OK
+   quoted: the school clerk enters the child's family name, given names, date of birth and school.
+   source: **Requirement.** To enrol a child, the school clerk enters the child's family name, given names, date of birth and school.
+paper:176 docs/groundwork/search_rule.csv:10 OK
+   quoted: after the clerk has entered all four
+   source: when,"after the clerk has entered all four: family name, given names, date of birth and school",brief:11 · ruling:G-07
+paper:176 docs/groundwork/search_rule.csv:13 OK
+   quoted: every entry of the three lists is enrolled through this same rule
+   source: at_reset,"every entry of the three lists is enrolled through this same rule, in a fixed order, so that the lists' children are learners with learner numbers",R-15 · ruling:G-03
+paper:191 docs/GROUNDWORK.md:52 NO QUOTE source='10. **The form of a date on the lists.** The ruling on G-07 fixes the form the clerk enters, YYYY-MM-DD: in what form do'
+paper:195 docs/GAPS-PAPER.md:32 OK
+   quoted: Date as YYYY-MM-DD
+   source: | G-07 | Date as YYYY-MM-DD; school chosen from the three; all four entered before the search |
+paper:210 docs/GROUNDWORK.md:53 NO QUOTE source="11. **The key table's keys.** The ruling on G-05 gives a key table read by the counts: how does it name a list entry, in"
+paper:214 docs/groundwork/lists.csv:16 OK
+   quoted: the table is read by the counts only and never by the search
+   source: key_table,list_entry,"an entry of one of the three lists; the table is read by the counts only and never by the search, which the reset's enrolment also runs",R-11 · ruling:G-03 · ruling:G-05
+paper:229 docs/GROUNDWORK.md:54 NO QUOTE source="12. **A learner and the entries it came from.** Round 7 counts how many of the 8 the search catches (the brief's line 54"
+paper:233 ../brief/MINI-REGISTRY-BRIEF.md:54 OK
+   quoted: how many of the 8 the search catches
+   source: | 7 | The duplicates count: how many of the 8 the search catches | checking |
+paper:248 docs/GROUNDWORK.md:55 NO QUOTE source="13. **The learners after reset.** The paper's line 40 gives 64 learners after reset, and that line is not ruled: is the "
+paper:252 docs/GAPS-PAPER.md:40 OK
+   quoted: 64
+   source: The thirteen fit together: G-03, G-04 and G-05 together give round 7 a known answer before it runs — **4 of the 8 caught** — and give round 5 a known number of learners after reset — **64** (60 children, and the 4 the rule does not catch each held twice). Both figures follow from the recommendations and stand or fall with your ruling on them.
+paper:267 docs/GROUNDWORK.md:56 NO QUOTE source='14. **Capitals in "share".** The ruling on G-05 says "no two different children share all three fields", and does not sa'
+paper:271 ../brief/MINI-REGISTRY-BRIEF.md:13 OK
+   quoted: (capitals ignored)
+   source: - if it finds exactly one learner with the same family name, given names and date of birth (capitals ignored), it shows that learner and enters nothing new;
+citations read: 52; not holding: 0
+
+== prose references to a line of the brief or the paper
+paper:18 'QUESTIONS.md` from `docs/GROUNDWORK.md` lines 43 to 56; it printed `14` and `0 not f'
+paper:48 '**Position A — the order of line 19:** the census, the candidate '
+paper:57 "ixed order serves equally; we recommend line 19's order, then entry number, b"
+paper:166 "| (d) round 7: each miss is line 26's spelling | yes | a miss may"
+paper:229 "f the 8 the search catches (the brief's line 54), against the key table, whic"
+paper:248 "The learners after reset.** The paper's line 40 gives 64 learners after reset"
+paper:267 'als are ignored in "share"; the brief\'s line 13 compares "the same family nam'
+paper:293 'entries: 68; per list in the order of line 19: [24, 22, 22]'
+
+== GAPS-PAPER.md:196 quoted whole?
+quoted == source line 196: True
+
+== A4: positions, tables, proposals per section; table rows
+Q-1 positions 2 tables 1 proposals 1 rows 1
+Q-2 positions 2 tables 1 proposals 1 rows 2
+Q-3 positions 2 tables 1 proposals 1 rows 1
+Q-4 positions 2 tables 1 proposals 1 rows 2
+Q-5 positions 2 tables 1 proposals 1 rows 2
+Q-6 positions 2 tables 1 proposals 1 rows 1
+Q-7 positions 2 tables 1 proposals 1 rows 1
+Q-8 positions 2 tables 1 proposals 1 rows 2
+Q-9 positions 2 tables 1 proposals 1 rows 2
+Q-10 positions 2 tables 1 proposals 1 rows 2
+Q-11 positions 2 tables 1 proposals 1 rows 2
+Q-12 positions 2 tables 1 proposals 1 rows 2
+Q-13 positions 2 tables 1 proposals 1 rows 2
+Q-14 positions 2 tables 1 proposals 1 rows 1
+rows 23 both meet 14 divides 9
+rows marked 'divides' whose two cells both begin 'yes':
+  Q-14 paper:279 | (c) known numbers | yes | yes if it lays no pair; one pair gives 63 learners against Q-13's 64 | divides |
+
+== A12: dependency lines, both ways
+Q-1 depends on []; depended on by []
+Q-2 depends on [11, 14]; depended on by [5, 9]
+Q-3 depends on []; depended on by []
+Q-4 depends on [13]; depended on by []
+Q-5 depends on [2, 6]; depended on by [6, 9]
+Q-6 depends on [5]; depended on by [5, 9]
+Q-7 depends on [9]; depended on by [9]
+Q-8 depends on []; depended on by []
+Q-9 depends on [2, 5, 6, 7, 14]; depended on by [7]
+Q-10 depends on []; depended on by []
+Q-11 depends on []; depended on by [2, 12]
+Q-12 depends on [11]; depended on by []
+Q-13 depends on [14]; depended on by [4, 14]
+Q-14 depends on [13]; depended on by [2, 9, 13]
+pairs declared: 15; one-way: 0 []
+other questions named in a section but not in its dependency line:
+
+== every row (c), A and B cells
+Q-1 paper:36 | (c) known numbers | yes | yes | both meet |
+Q-2 paper:54 | (c) known numbers | yes | yes | both meet |
+Q-3 paper:73 | (c) known numbers | yes | yes | both meet |
+Q-4 paper:91 | (c) known numbers | yes | yes | both meet |
+Q-5 paper:111 | (c) known numbers | yes | yes | both meet |
+Q-6 paper:129 | (c) known numbers | yes | no: entries left per list after the 8, 54, −1, −1; needs Q-5's B | divides |
+Q-7 paper:147 | (c) known numbers | yes | yes | both meet |
+Q-8 paper:165 | (c) known numbers | yes | yes | both meet |
+Q-9 paper:184 | (c) known numbers | yes | no: Q-7's 20 each cannot be read for the 36; needs Q-7 to spread the census's children only | divides |
+Q-10 paper:203 | (c) known numbers | yes | yes | both meet |
+Q-11 paper:222 | (c) known numbers | yes | yes: 60 = 52 + 8 | both meet |
+Q-12 paper:241 | (c) known numbers | yes | yes | both meet |
+Q-13 paper:260 | (c) known numbers | yes | yes: 64, derived | both meet |
+Q-14 paper:279 | (c) known numbers | yes | yes if it lays no pair; one pair gives 63 learners against Q-13's 64 | divides |
+EXIT=0

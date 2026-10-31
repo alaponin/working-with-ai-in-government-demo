@@ -1,0 +1,14 @@
+2026-10-31T15:53:08Z
+the 14 recommendations together, seed 20261031
+children: 60
+schools: 3
+entries: 68; per list in the order of line 19: [24, 22, 22]
+children on more than one list: 8
+of those spelt differently: 4 (capitals ignored: 4)
+ages: 6 to 12
+children per school: [20, 20, 20]
+learners after reset: 64; highest learner number: 64; learners without a school: 0
+searches finding more than one: 0
+of the 8, caught by the brief's rule: 4
+every known number met: yes
+EXIT=0

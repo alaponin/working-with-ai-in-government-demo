@@ -1,0 +1,36 @@
+# round_record.py check, run at 2026-10-31T16:06:43.559Z, over the record /Users/arnelaponin/Documents/Dev/wai-demo/mini-registry/_working/round-02b-questions-v2/_evidence/record
+# run with: --record /Users/arnelaponin/Documents/Dev/wai-demo/mini-registry/_working/round-02b-questions-v2/_evidence/record --report /Users/arnelaponin/Documents/Dev/wai-demo/mini-registry/_reports/REPORT_QUESTIONS_2026-10-31_v2.md --tolerance 2 --out /Users/arnelaponin/Documents/Dev/wai-demo/mini-registry/_working/round-02b-questions-v2-review/_evidence/R_record_check.out
+# report: /Users/arnelaponin/Documents/Dev/wai-demo/mini-registry/_reports/REPORT_QUESTIONS_2026-10-31_v2.md
+# files changed after the end list inside the window: 4
+
+## Findings — 0
+none
+
+## Read and found as stated
+the window closes at 2026-10-31T15:58:34.000Z
+added after the window closed (2026-10-31T16:04:52.211Z), by another hand or later: /Users/arnelaponin/Documents/Dev/wai-demo/mini-registry/_working/round-02b-questions-v2-review/_evidence/R_paper.log
+added after the window closed (2026-10-31T16:06:43.259Z), by another hand or later: /Users/arnelaponin/Documents/Dev/wai-demo/mini-registry/_working/round-02b-questions-v2-review/_evidence/R_placement.out
+added after the window closed (2026-10-31T16:06:43.280Z), by another hand or later: /Users/arnelaponin/Documents/Dev/wai-demo/mini-registry/_working/round-02b-questions-v2-review/_evidence/R_record_check.log
+added after the window closed (2026-10-31T16:05:58.791Z), by another hand or later: /Users/arnelaponin/Documents/Dev/wai-demo/mini-registry/_working/round-02b-questions-v2-review/_evidence/R_toy.log
+added after the window closed (2026-10-31T16:06:42.986Z), by another hand or later: /Users/arnelaponin/Documents/Dev/wai-demo/mini-registry/_working/round-02b-questions-v2-review/_evidence/R_trace.out
+added after the window closed (2026-10-31T16:06:42.202Z), by another hand or later: /Users/arnelaponin/Documents/Dev/wai-demo/mini-registry/_working/round-02b-questions-v2-review/_evidence/r_mechanical.sh
+added after the window closed (2026-10-31T16:04:51.000Z), by another hand or later: /Users/arnelaponin/Documents/Dev/wai-demo/mini-registry/_working/round-02b-questions-v2-review/_evidence/r_paper.py
+added after the window closed (2026-10-31T16:05:47.512Z), by another hand or later: /Users/arnelaponin/Documents/Dev/wai-demo/mini-registry/_working/round-02b-questions-v2-review/_evidence/r_toy.py
+added after the end list, inside the window, named in the report: /Users/arnelaponin/Documents/Dev/wai-demo/mini-registry/_working/round-02b-questions-v2/_evidence/A9_placement.out
+added after the end list, inside the window, named in the report: /Users/arnelaponin/Documents/Dev/wai-demo/mini-registry/_working/round-02b-questions-v2/_evidence/A9_trace.out
+added after the end list, inside the window, named in the report: /Users/arnelaponin/Documents/Dev/wai-demo/mini-registry/_working/round-02b-questions-v2/_evidence/ls_ld.out
+changed after the end list, by the ledger's own entries: /Users/arnelaponin/Documents/Dev/wai-demo/mini-registry/WHAT_IS_RUNNING.md
+changed after the end list, inside the window, named in the report: /Users/arnelaponin/Documents/Dev/wai-demo/mini-registry/_working/round-02b-questions-v2/_evidence/end.out
+the report's record line names this record: /Users/arnelaponin/Documents/Dev/wai-demo/mini-registry/_working/round-02b-questions-v2/_evidence/record
+output as declared: /Users/arnelaponin/Documents/Dev/wai-demo/mini-registry/docs/QUESTIONS-PAPER.md 19962 bytes 5146d23a87cf9c05…
+declared output is a folder, read as such: /Users/arnelaponin/Documents/Dev/wai-demo/mini-registry/_working/round-02b-questions-v2/_evidence
+report line 33: quoted block of 3 lines found in /Users/arnelaponin/Documents/Dev/wai-demo/mini-registry/_working/round-02b-questions-v2/_evidence/A1_questions.log
+report line 43: quoted block of 6 lines found in /Users/arnelaponin/Documents/Dev/wai-demo/mini-registry/_working/round-02b-questions-v2/_evidence/A2_A3_A4_A12_A13_check.log
+report line 58: quoted block of 10 lines found in /Users/arnelaponin/Documents/Dev/wai-demo/mini-registry/_working/round-02b-questions-v2/_evidence/A5_taken_together.log
+report line 77: quoted block of 2 lines found in /Users/arnelaponin/Documents/Dev/wai-demo/mini-registry/_working/round-02b-questions-v2/_evidence/A13_rivals.log
+report line 112: quoted block of 1 lines found in /Users/arnelaponin/Documents/Dev/wai-demo/mini-registry/_working/round-02b-questions-v2/_evidence/A7_size.log
+report line 122: quoted block of 5 lines found in /Users/arnelaponin/Documents/Dev/wai-demo/mini-registry/_working/round-02b-questions-v2/_evidence/A8_sources.log
+report line 136: quoted block of 2 lines found in /Users/arnelaponin/Documents/Dev/wai-demo/mini-registry/_working/round-02b-questions-v2/_evidence/A9_placement.out
+report line 143: quoted block of 2 lines found in /Users/arnelaponin/Documents/Dev/wai-demo/mini-registry/_working/round-02b-questions-v2/_evidence/A9_trace.out
+report line 192: quoted block of 8 lines found in /Users/arnelaponin/Documents/Dev/wai-demo/mini-registry/_working/round-02b-questions-v2/_evidence/ls_ld.out
+quoted blocks read against the file they name: 9

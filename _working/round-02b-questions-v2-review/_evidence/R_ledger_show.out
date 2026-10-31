@@ -1,0 +1,113 @@
+2026-10-31T16:06:43Z
+20261031T150757Z_MR_issued_C-2026-10-31-11.yaml
+  kind: issued
+  written: 2026-10-31T15:07:57Z
+  code: MR
+  by: "MR · orchestrator"
+  account: arne.laponin@gmail.com
+  computer: MacBookPro
+  id: C-2026-10-31-11
+  version: 1
+  instruction: ~/IdeaProjects/mini-registry/_prompts/PROMPT_QUESTIONS_2026-10-31.md
+  session: "MR · work · answers to the groundwork's questions"
+  model: Opus
+  effort: high
+  report: ~/IdeaProjects/mini-registry/_reports/REPORT_QUESTIONS_2026-10-31.md
+  outputs: "~/IdeaProjects/mini-registry/docs/QUESTIONS-PAPER.md · ~/IdeaProjects/mini-registry/_working/round-02b-questions/_evidence/ · ~/IdeaProjects/mini-registry/_reports/REPORT_QUESTIONS_2026-10-31.md"
+  serves: "the working prototype, deliverable 1 of the constants — the answers round 5, the made-up data, needs to the 14 questions the accepted groundwork leaves open; the owner ruled at 17:05 Tallinn time, 31 October 2026, that they are answered now, before round 3"
+  inputs: "~/IdeaProjects/mini-registry/docs/GROUNDWORK.md sha256:5ed9b62f282d433df7c337a2da30e4830c56170dca1e646ae5aacc2cc2795dce · ~/IdeaProjects/mini-registry/docs/groundwork/ sha256:05e359476e04fda3c7445f952e2ea481c4a8c73192fea0fb43bbbd80a33a5bf1 · ~/IdeaProjects/mini-registry/docs/REQUIREMENTS.md sha256:ad583b3958fb5c5fdf6683b5c2487b6f0c425d66cebc7c46811e2e19af13f103 · ~/IdeaProjects/brief/MINI-REGISTRY-BRIEF.md sha256:ec6971e74a6a8387de0e5bd7a5e1cdead6ddf711b8fdac3ccc1d4b7555e11f64 · ~/IdeaProjects/mini-registry/docs/GAPS-PAPER.md sha256:d03db64c6e49a1b92467c1e6e19929c321964bd89f6cb715d15dd570f37bc8bb · ~/IdeaProjects/mini-registry/_kinds/analysis.md sha256:be91db0cfe1b487a39be43f898bea736153ba5d7ef579a7219a8a91b92fcd45c"
+  instruction_digest: sha256:a1ed6841bde7929000eccc26589730d0ce1ab992346f52a06007e9bd186dc0f3
+  waits_for: "MR C-2026-10-31-09"
+  format: 2
+  on this computer, MacBookPro: instruction /Users/arnelaponin/Documents/Dev/wai-demo/mini-registry/_prompts/PROMPT_QUESTIONS_2026-10-31.md — on disk
+  on this computer, MacBookPro: report /Users/arnelaponin/Documents/Dev/wai-demo/mini-registry/_reports/REPORT_QUESTIONS_2026-10-31.md — on disk
+
+20261031T152148Z_MR_started_C-2026-10-31-11.yaml
+  kind: started
+  written: 2026-10-31T15:21:48Z
+  code: MR
+  by: "MR · work · answers to the groundwork's questions"
+  account: arne.laponin@gmail.com
+  computer: MacBookPro
+  id: C-2026-10-31-11
+  version: 1
+  session: "MR · work · answers to the groundwork's questions"
+  shell: native
+  instruction: ~/IdeaProjects/mini-registry/_prompts/PROMPT_QUESTIONS_2026-10-31.md
+  effort: unknown
+  started_by: unknown
+  inputs: "~/IdeaProjects/mini-registry/docs/GROUNDWORK.md sha256:5ed9b62f282d433df7c337a2da30e4830c56170dca1e646ae5aacc2cc2795dce · ~/IdeaProjects/mini-registry/docs/groundwork/ sha256:05e359476e04fda3c7445f952e2ea481c4a8c73192fea0fb43bbbd80a33a5bf1 · ~/IdeaProjects/mini-registry/docs/REQUIREMENTS.md sha256:ad583b3958fb5c5fdf6683b5c2487b6f0c425d66cebc7c46811e2e19af13f103 · ~/IdeaProjects/brief/MINI-REGISTRY-BRIEF.md sha256:ec6971e74a6a8387de0e5bd7a5e1cdead6ddf711b8fdac3ccc1d4b7555e11f64 · ~/IdeaProjects/mini-registry/docs/GAPS-PAPER.md sha256:d03db64c6e49a1b92467c1e6e19929c321964bd89f6cb715d15dd570f37bc8bb · ~/IdeaProjects/mini-registry/_kinds/analysis.md sha256:be91db0cfe1b487a39be43f898bea736153ba5d7ef579a7219a8a91b92fcd45c"
+  format: 2
+  on this computer, MacBookPro: instruction /Users/arnelaponin/Documents/Dev/wai-demo/mini-registry/_prompts/PROMPT_QUESTIONS_2026-10-31.md — on disk
+
+20261031T153040Z_MR_finished_C-2026-10-31-11.yaml
+  kind: finished
+  written: 2026-10-31T15:30:40Z
+  code: MR
+  by: "MR · work · answers to the groundwork's questions"
+  account: arne.laponin@gmail.com
+  computer: MacBookPro
+  id: C-2026-10-31-11
+  version: 1
+  report: ~/IdeaProjects/mini-registry/_reports/REPORT_QUESTIONS_2026-10-31.md
+  outcome: "QUESTIONS-PAPER.md (18410 bytes) recommends an answer to each of the groundwork's 14 questions; taken together they yield 60 children, 3 schools, 68 entries, 8 on two lists, 4 spelt differently, ages 6 to 12, 64 learners after reset and 4 of the 8 caught"
+  moved: "docs/QUESTIONS-PAPER.md added; nothing the groundwork or sources hold changed"
+  format: 2
+  on this computer, MacBookPro: report /Users/arnelaponin/Documents/Dev/wai-demo/mini-registry/_reports/REPORT_QUESTIONS_2026-10-31.md — on disk
+
+20261031T154408Z_MR_issued_C-2026-10-31-11.yaml
+  kind: issued
+  written: 2026-10-31T15:44:08Z
+  code: MR
+  by: "MR · orchestrator"
+  account: arne.laponin@gmail.com
+  computer: MacBookPro
+  id: C-2026-10-31-11
+  version: 2
+  instruction: ~/IdeaProjects/mini-registry/_prompts/PROMPT_QUESTIONS_2026-10-31.md
+  session: "MR · work · answers to the groundwork's questions"
+  model: Opus
+  effort: high
+  report: ~/IdeaProjects/mini-registry/_reports/REPORT_QUESTIONS_2026-10-31_v2.md
+  outputs: "~/IdeaProjects/mini-registry/docs/QUESTIONS-PAPER.md · ~/IdeaProjects/mini-registry/_working/round-02b-questions-v2/_evidence/ · ~/IdeaProjects/mini-registry/_reports/REPORT_QUESTIONS_2026-10-31_v2.md"
+  subject: "MR C-2026-10-31-12"
+  serves: "the working prototype, deliverable 1 of the constants — the answers round 5, the made-up data, needs to the 14 questions the accepted groundwork leaves open; the owner ruled at 17:05 Tallinn time, 31 October 2026, that they are answered now, before round 3"
+  inputs: "~/IdeaProjects/mini-registry/docs/GROUNDWORK.md sha256:5ed9b62f282d433df7c337a2da30e4830c56170dca1e646ae5aacc2cc2795dce · ~/IdeaProjects/mini-registry/docs/groundwork/ sha256:05e359476e04fda3c7445f952e2ea481c4a8c73192fea0fb43bbbd80a33a5bf1 · ~/IdeaProjects/mini-registry/docs/REQUIREMENTS.md sha256:ad583b3958fb5c5fdf6683b5c2487b6f0c425d66cebc7c46811e2e19af13f103 · ~/IdeaProjects/brief/MINI-REGISTRY-BRIEF.md sha256:ec6971e74a6a8387de0e5bd7a5e1cdead6ddf711b8fdac3ccc1d4b7555e11f64 · ~/IdeaProjects/mini-registry/docs/GAPS-PAPER.md sha256:d03db64c6e49a1b92467c1e6e19929c321964bd89f6cb715d15dd570f37bc8bb · ~/IdeaProjects/mini-registry/_kinds/analysis.md sha256:a5054bec7db874e744d0f042f348d099378b2cf0c6c6cedd027f0329843f7514"
+  instruction_digest: sha256:7a8e7259d5fc23cb672aca685bcef8561f162f6819f9148e65dc7268bfc46bb0
+  format: 2
+  on this computer, MacBookPro: instruction /Users/arnelaponin/Documents/Dev/wai-demo/mini-registry/_prompts/PROMPT_QUESTIONS_2026-10-31.md — on disk
+  on this computer, MacBookPro: report /Users/arnelaponin/Documents/Dev/wai-demo/mini-registry/_reports/REPORT_QUESTIONS_2026-10-31_v2.md — on disk
+
+20261031T154705Z_MR_started_C-2026-10-31-11.yaml
+  kind: started
+  written: 2026-10-31T15:47:05Z
+  code: MR
+  by: "MR · work · answers to the groundwork's questions"
+  account: arne.laponin@gmail.com
+  computer: MacBookPro
+  id: C-2026-10-31-11
+  version: 2
+  session: "MR · work · answers to the groundwork's questions"
+  shell: native
+  instruction: ~/IdeaProjects/mini-registry/_prompts/PROMPT_QUESTIONS_2026-10-31.md
+  effort: unknown
+  started_by: owner
+  inputs: "~/IdeaProjects/mini-registry/docs/GROUNDWORK.md sha256:5ed9b62f282d433df7c337a2da30e4830c56170dca1e646ae5aacc2cc2795dce · ~/IdeaProjects/mini-registry/docs/groundwork/ sha256:05e359476e04fda3c7445f952e2ea481c4a8c73192fea0fb43bbbd80a33a5bf1 · ~/IdeaProjects/mini-registry/docs/REQUIREMENTS.md sha256:ad583b3958fb5c5fdf6683b5c2487b6f0c425d66cebc7c46811e2e19af13f103 · ~/IdeaProjects/brief/MINI-REGISTRY-BRIEF.md sha256:ec6971e74a6a8387de0e5bd7a5e1cdead6ddf711b8fdac3ccc1d4b7555e11f64 · ~/IdeaProjects/mini-registry/docs/GAPS-PAPER.md sha256:d03db64c6e49a1b92467c1e6e19929c321964bd89f6cb715d15dd570f37bc8bb · ~/IdeaProjects/mini-registry/_kinds/analysis.md sha256:a5054bec7db874e744d0f042f348d099378b2cf0c6c6cedd027f0329843f7514"
+  format: 2
+  on this computer, MacBookPro: instruction /Users/arnelaponin/Documents/Dev/wai-demo/mini-registry/_prompts/PROMPT_QUESTIONS_2026-10-31.md — on disk
+
+20261031T155856Z_MR_finished_C-2026-10-31-11.yaml
+  kind: finished
+  written: 2026-10-31T15:58:56Z
+  code: MR
+  by: "MR · work · answers to the groundwork's questions"
+  account: arne.laponin@gmail.com
+  computer: MacBookPro
+  id: C-2026-10-31-11
+  version: 2
+  report: ~/IdeaProjects/mini-registry/_reports/REPORT_QUESTIONS_2026-10-31_v2.md
+  outcome: "QUESTIONS-PAPER.md changed in place, 19962 bytes: every dependency declared both ways (15 pairs, 0 one-way), each rival built with every other recommendation (Q-6 and Q-9 rivals cannot be, and say so; 0 disagreements); together 60, 3, 68, 8, 4, ages 6-12, 64 learners, 4 of 8 caught"
+  moved: nothing
+  format: 2
+  on this computer, MacBookPro: report /Users/arnelaponin/Documents/Dev/wai-demo/mini-registry/_reports/REPORT_QUESTIONS_2026-10-31_v2.md — on disk
+EXIT=0

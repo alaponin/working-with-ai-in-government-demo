@@ -1,0 +1,31 @@
+# round_record.py window, run at 2026-10-31T15:30:29.673Z
+# run with: round_record.py window --ledger /Users/arnelaponin/Documents/Dev/wai-demo/_coordination/_ledger --code MR --id C-2026-10-31-11 --report /Users/arnelaponin/Documents/Dev/wai-demo/mini-registry/_reports/REPORT_QUESTIONS_2026-10-31.md --record /Users/arnelaponin/Documents/Dev/wai-demo/mini-registry/_working/round-02b-questions/_evidence/record --write --out /Users/arnelaponin/Documents/Dev/wai-demo/mini-registry/_working/round-02b-questions/_evidence/record/window.out
+# opens at the started entry 20261031T152148Z_MR_started_C-2026-10-31-11.yaml, its `written`: 2026-10-31T15:21:48.000Z
+# the finished entry: none yet
+# the record: /Users/arnelaponin/Documents/Dev/wai-demo/mini-registry/_working/round-02b-questions/_evidence/record
+# wrote the line into /Users/arnelaponin/Documents/Dev/wai-demo/mini-registry/_reports/REPORT_QUESTIONS_2026-10-31.md; its last write, read back by stat: 2026-10-31T15:30:29.685Z
+# files the round names as written: 18; the latest, /Users/arnelaponin/Documents/Dev/wai-demo/mini-registry/_reports/REPORT_QUESTIONS_2026-10-31.md, last written 2026-10-31T15:30:29.685Z
+#   2026-10-31T15:25:39.729Z · /Users/arnelaponin/Documents/Dev/wai-demo/mini-registry/_working/round-02b-questions/_evidence/start.out · in a folder the outputs line names
+#   2026-10-31T15:25:39.827Z · /Users/arnelaponin/Documents/Dev/wai-demo/mini-registry/_working/round-02b-questions/_evidence/before.sha256 · in a folder the outputs line names
+#   2026-10-31T15:25:49.397Z · /Users/arnelaponin/Documents/Dev/wai-demo/mini-registry/_working/round-02b-questions/_evidence/list_questions.py · in a folder the outputs line names
+#   2026-10-31T15:25:57.420Z · /Users/arnelaponin/Documents/Dev/wai-demo/mini-registry/_working/round-02b-questions/_evidence/QUESTIONS.md · in a folder the outputs line names
+#   2026-10-31T15:25:57.470Z · /Users/arnelaponin/Documents/Dev/wai-demo/mini-registry/_working/round-02b-questions/_evidence/A1_questions.log · in a folder the outputs line names
+#   2026-10-31T15:26:33.359Z · /Users/arnelaponin/Documents/Dev/wai-demo/mini-registry/_working/round-02b-questions/_evidence/taken_together.py · in a folder the outputs line names
+#   2026-10-31T15:26:41.821Z · /Users/arnelaponin/Documents/Dev/wai-demo/mini-registry/_working/round-02b-questions/_evidence/A5_taken_together.log · in a folder the outputs line names
+#   2026-10-31T15:28:09.431Z · /Users/arnelaponin/Documents/Dev/wai-demo/mini-registry/docs/QUESTIONS-PAPER.md · named in the outputs line
+#   2026-10-31T15:28:29.738Z · /Users/arnelaponin/Documents/Dev/wai-demo/mini-registry/_working/round-02b-questions/_evidence/check_paper.py · in a folder the outputs line names
+#   2026-10-31T15:28:37.589Z · /Users/arnelaponin/Documents/Dev/wai-demo/mini-registry/_working/round-02b-questions/_evidence/A2_A3_A4_check.log · in a folder the outputs line names
+#   2026-10-31T15:28:53.784Z · /Users/arnelaponin/Documents/Dev/wai-demo/mini-registry/_working/round-02b-questions/_evidence/A7_size.log · in a folder the outputs line names
+#   2026-10-31T15:28:53.827Z · /Users/arnelaponin/Documents/Dev/wai-demo/mini-registry/_working/round-02b-questions/_evidence/after.sha256 · in a folder the outputs line names
+#   2026-10-31T15:28:53.840Z · /Users/arnelaponin/Documents/Dev/wai-demo/mini-registry/_working/round-02b-questions/_evidence/A8_sources.log · in a folder the outputs line names
+#   2026-10-31T15:28:54.135Z · /Users/arnelaponin/Documents/Dev/wai-demo/mini-registry/_working/round-02b-questions/_evidence/end.out · in a folder the outputs line names
+#   2026-10-31T15:28:59.489Z · /Users/arnelaponin/Documents/Dev/wai-demo/mini-registry/_working/round-02b-questions/_evidence/ls_ld.out · in a folder the outputs line names
+#   2026-10-31T15:29:53.973Z · /Users/arnelaponin/Documents/Dev/wai-demo/mini-registry/_working/round-02b-questions/_evidence/A9_placement.out · in a folder the outputs line names
+#   2026-10-31T15:29:54.225Z · /Users/arnelaponin/Documents/Dev/wai-demo/mini-registry/_working/round-02b-questions/_evidence/A9_trace.out · in a folder the outputs line names
+#   2026-10-31T15:30:29.685Z · /Users/arnelaponin/Documents/Dev/wai-demo/mini-registry/_reports/REPORT_QUESTIONS_2026-10-31.md · the report
+
+window: 2026-10-31 15:21:48 UTC to 2026-10-31 15:30:29 UTC, no pause; closed at the last write of the 18 files the round names as written, REPORT_QUESTIONS_2026-10-31.md, read by stat; printed by round_record.py window, its command and output kept in /Users/arnelaponin/Documents/Dev/wai-demo/mini-registry/_working/round-02b-questions/_evidence/record/window.out
+
+
+## Findings — 0
+none

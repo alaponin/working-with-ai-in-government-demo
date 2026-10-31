@@ -1,0 +1,50 @@
+Sat Oct 31 15:39:44 UTC 2026
+$ /usr/bin/python3 -I r_toy.py
+THE RECOMMENDATIONS TOGETHER (Q-2 order census, candidate, grant):
+  children: 60
+  schools: 3
+  entries: 68
+  per_list: [24, 22, 22]
+  on_two: 8
+  spelt_differently: 4
+  spelt_differently_capitals_ignored: 4
+  ages: (6, 12)
+  learners: 64
+  highest: 64
+  without_school: 0
+  more_than_one: 0
+  caught: 4
+
+Q-1 A bounds: age on 2026-10-31 of 2013-10-31 13, 2013-11-01 12, 2020-10-31 6, 2020-11-01 5
+
+Q-2 B: every other order of the three lists, and each list's entries reversed:
+  order (0, 1, 2): learners 64 caught 4 · entries reversed: learners 64 caught 4
+  order (0, 2, 1): learners 64 caught 4 · entries reversed: learners 64 caught 4
+  order (1, 0, 2): learners 64 caught 4 · entries reversed: learners 64 caught 4
+  order (1, 2, 0): learners 64 caught 4 · entries reversed: learners 64 caught 4
+  order (2, 0, 1): learners 64 caught 4 · entries reversed: learners 64 caught 4
+  order (2, 1, 0): learners 64 caught 4 · entries reversed: learners 64 caught 4
+
+Q-3 B (names and dates laid another way, as another seed would):
+  shift 1: children 60 entries 68 on_two 8 differ 4 learners 64 caught 4
+  shift 7: children 60 entries 68 on_two 8 differ 4 learners 64 caught 4
+  shift 123: children 60 entries 68 on_two 8 differ 4 learners 64 caught 4
+
+Q-6 A with Q-5 A, children on one list only per list: [18, 17, 17]
+Q-6 B (60, 4, 4) with Q-5 A as recommended:
+  cannot be built: entries still needed per list after the 8 are laid [54, -1, -1] - the candidate and grant lists already hold 5 each from Q-5 A
+Q-6 A with Q-5 B (all 8 on the census, 4 with each other list, 2 differing in each):
+  children 60 entries 68 per_list [24, 22, 22] on_two 8 learners 64 caught 4
+
+Q-9 B (the census alone carries a school), all else as recommended:
+  learners 64 without a school 40
+  Q-9 B under order (0, 1, 2): without a school 40
+  Q-9 B under order (0, 2, 1): without a school 40
+  Q-9 B under order (1, 0, 2): without a school 42
+  Q-9 B under order (1, 2, 0): without a school 43
+  Q-9 B under order (2, 0, 1): without a school 41
+  Q-9 B under order (2, 1, 0): without a school 43
+
+Q-14 B (one pair of different children differing in capitals only), all else as recommended:
+  children 60 learners 63 caught 4
+EXIT=0

@@ -1,0 +1,31 @@
+# round_record.py window, run at 2026-10-31T16:23:52.727Z
+# run with: round_record.py window --ledger /Users/arnelaponin/Documents/Dev/wai-demo/_coordination/_ledger --code MR --id C-2026-10-31-13 --report /Users/arnelaponin/Documents/Dev/wai-demo/mini-registry/_reports/REPORT_GOAL_2026-10-31.md --record /Users/arnelaponin/Documents/Dev/wai-demo/mini-registry/_working/round-03-goal/_evidence/record --written /Users/arnelaponin/Documents/Dev/wai-demo/mini-registry/_working/round-03-goal/_evidence/A8_placement.out --written /Users/arnelaponin/Documents/Dev/wai-demo/mini-registry/_working/round-03-goal/_evidence/A8_trace.out --written /Users/arnelaponin/Documents/Dev/wai-demo/mini-registry/_working/round-03-goal/_evidence/ls_ld.out --write --out /Users/arnelaponin/Documents/Dev/wai-demo/mini-registry/_working/round-03-goal/_evidence/record/window.out
+# opens at the started entry 20261031T161636Z_MR_started_C-2026-10-31-13.yaml, its `written`: 2026-10-31T16:16:36.000Z
+# the finished entry: none yet
+# the record: /Users/arnelaponin/Documents/Dev/wai-demo/mini-registry/_working/round-03-goal/_evidence/record
+# wrote the line into /Users/arnelaponin/Documents/Dev/wai-demo/mini-registry/_reports/REPORT_GOAL_2026-10-31.md; its last write, read back by stat: 2026-10-31T16:23:52.741Z
+# files the round names as written: 18; the latest, /Users/arnelaponin/Documents/Dev/wai-demo/mini-registry/_reports/REPORT_GOAL_2026-10-31.md, last written 2026-10-31T16:23:52.741Z
+#   2026-10-31T16:20:17.163Z · /Users/arnelaponin/Documents/Dev/wai-demo/mini-registry/_working/round-03-goal/_evidence/sources.py · in a folder the outputs line names
+#   2026-10-31T16:20:47.332Z · /Users/arnelaponin/Documents/Dev/wai-demo/mini-registry/_working/round-03-goal/_evidence/list_sets.py · in a folder the outputs line names
+#   2026-10-31T16:20:54.871Z · /Users/arnelaponin/Documents/Dev/wai-demo/mini-registry/_working/round-03-goal/_evidence/STEPS_SET.md · in a folder the outputs line names
+#   2026-10-31T16:20:54.951Z · /Users/arnelaponin/Documents/Dev/wai-demo/mini-registry/_working/round-03-goal/_evidence/FAILURES_SET.md · in a folder the outputs line names
+#   2026-10-31T16:20:54.952Z · /Users/arnelaponin/Documents/Dev/wai-demo/mini-registry/_working/round-03-goal/_evidence/A1_list.out · in a folder the outputs line names
+#   2026-10-31T16:21:35.046Z · /Users/arnelaponin/Documents/Dev/wai-demo/mini-registry/docs/GOAL.md · named in the outputs line
+#   2026-10-31T16:22:04.435Z · /Users/arnelaponin/Documents/Dev/wai-demo/mini-registry/_working/round-03-goal/_evidence/check_goal.py · in a folder the outputs line names
+#   2026-10-31T16:22:13.332Z · /Users/arnelaponin/Documents/Dev/wai-demo/mini-registry/_working/round-03-goal/_evidence/A1_check.out · in a folder the outputs line names
+#   2026-10-31T16:22:14.111Z · /Users/arnelaponin/Documents/Dev/wai-demo/mini-registry/_working/round-03-goal/_evidence/A2_check.out · in a folder the outputs line names
+#   2026-10-31T16:22:14.768Z · /Users/arnelaponin/Documents/Dev/wai-demo/mini-registry/_working/round-03-goal/_evidence/A3_check.out · in a folder the outputs line names
+#   2026-10-31T16:22:15.393Z · /Users/arnelaponin/Documents/Dev/wai-demo/mini-registry/_working/round-03-goal/_evidence/A4_check.out · in a folder the outputs line names
+#   2026-10-31T16:22:16.050Z · /Users/arnelaponin/Documents/Dev/wai-demo/mini-registry/_working/round-03-goal/_evidence/A5_check.out · in a folder the outputs line names
+#   2026-10-31T16:22:16.718Z · /Users/arnelaponin/Documents/Dev/wai-demo/mini-registry/_working/round-03-goal/_evidence/A6_check.out · in a folder the outputs line names
+#   2026-10-31T16:22:26.202Z · /Users/arnelaponin/Documents/Dev/wai-demo/mini-registry/_working/round-03-goal/_evidence/A7_shasum.out · in a folder the outputs line names
+#   2026-10-31T16:23:27.911Z · /Users/arnelaponin/Documents/Dev/wai-demo/mini-registry/_working/round-03-goal/_evidence/A8_placement.out · in a folder the outputs line names
+#   2026-10-31T16:23:28.288Z · /Users/arnelaponin/Documents/Dev/wai-demo/mini-registry/_working/round-03-goal/_evidence/A8_trace.out · in a folder the outputs line names
+#   2026-10-31T16:23:28.342Z · /Users/arnelaponin/Documents/Dev/wai-demo/mini-registry/_working/round-03-goal/_evidence/ls_ld.out · in a folder the outputs line names
+#   2026-10-31T16:23:52.741Z · /Users/arnelaponin/Documents/Dev/wai-demo/mini-registry/_reports/REPORT_GOAL_2026-10-31.md · the report
+
+window: 2026-10-31 16:16:36 UTC to 2026-10-31 16:23:52 UTC, no pause; closed at the last write of the 18 files the round names as written, REPORT_GOAL_2026-10-31.md, read by stat; printed by round_record.py window, its command and output kept in /Users/arnelaponin/Documents/Dev/wai-demo/mini-registry/_working/round-03-goal/_evidence/record/window.out
+
+
+## Findings — 0
+none

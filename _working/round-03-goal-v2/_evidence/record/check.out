@@ -1,0 +1,29 @@
+# round_record.py check, run at 2026-10-31T17:30:51.146Z, over the record /Users/arnelaponin/Documents/Dev/wai-demo/mini-registry/_working/round-03-goal-v2/_evidence/record
+# run with: --record /Users/arnelaponin/Documents/Dev/wai-demo/mini-registry/_working/round-03-goal-v2/_evidence/record --report /Users/arnelaponin/Documents/Dev/wai-demo/mini-registry/_reports/REPORT_GOAL_2026-10-31_v2.md --tolerance 2 --out /Users/arnelaponin/Documents/Dev/wai-demo/mini-registry/_working/round-03-goal-v2/_evidence/record/check.out
+# report: /Users/arnelaponin/Documents/Dev/wai-demo/mini-registry/_reports/REPORT_GOAL_2026-10-31_v2.md
+# files changed after the end list inside the window: 3
+
+## Findings — 0
+none
+
+## Read and found as stated
+the window closes at 2026-10-31T17:30:50.000Z
+added after the end list, inside the window, named in the report: /Users/arnelaponin/Documents/Dev/wai-demo/mini-registry/_working/round-03-goal-v2/_evidence/A8_trace.out
+added after the end list, inside the window, named in the report: /Users/arnelaponin/Documents/Dev/wai-demo/mini-registry/_working/round-03-goal-v2/_evidence/ls_ld.out
+changed after the end list, inside the window, named in the report: /Users/arnelaponin/Documents/Dev/wai-demo/mini-registry/_working/round-03-goal-v2/_evidence/A8_placement.out
+the report's record line names this record: /Users/arnelaponin/Documents/Dev/wai-demo/mini-registry/_working/round-03-goal-v2/_evidence/record
+output as declared: /Users/arnelaponin/Documents/Dev/wai-demo/mini-registry/docs/GOAL.md 13891 bytes 342515fd5ed96e45…
+declared output is a folder, read as such: /Users/arnelaponin/Documents/Dev/wai-demo/mini-registry/_working/round-03-goal-v2/_evidence
+report line 33: quoted block of 4 lines found in /Users/arnelaponin/Documents/Dev/wai-demo/mini-registry/_working/round-03-goal-v2/_evidence/A1_inventory.out
+report line 42: quoted block of 2 lines found in /Users/arnelaponin/Documents/Dev/wai-demo/mini-registry/_working/round-03-goal-v2/_evidence/A1_check.out
+report line 51: quoted block of 2 lines found in /Users/arnelaponin/Documents/Dev/wai-demo/mini-registry/_working/round-03-goal-v2/_evidence/A2_check.out
+report line 60: quoted block of 1 lines found in /Users/arnelaponin/Documents/Dev/wai-demo/mini-registry/_working/round-03-goal-v2/_evidence/A3_check.out
+report line 70: quoted block of 13 lines found in /Users/arnelaponin/Documents/Dev/wai-demo/mini-registry/_working/round-03-goal-v2/_evidence/A4_check.out
+report line 92: quoted block of 3 lines found in /Users/arnelaponin/Documents/Dev/wai-demo/mini-registry/_working/round-03-goal-v2/_evidence/A5_check.out
+report line 102: quoted block of 2 lines found in /Users/arnelaponin/Documents/Dev/wai-demo/mini-registry/_working/round-03-goal-v2/_evidence/A6_check.out
+report line 117: quoted block of 2 lines found in /Users/arnelaponin/Documents/Dev/wai-demo/mini-registry/_working/round-03-goal-v2/_evidence/A8_placement.out
+report line 124: quoted block of 4 lines found in /Users/arnelaponin/Documents/Dev/wai-demo/mini-registry/_working/round-03-goal-v2/_evidence/A8_trace.out
+report line 145: quoted block of 2 lines found in /Users/arnelaponin/Documents/Dev/wai-demo/mini-registry/_working/round-03-goal-v2/_evidence/A11_quotes.out
+report line 178: quoted block of 2 lines found in /Users/arnelaponin/Documents/Dev/wai-demo/mini-registry/_working/round-03-goal-v2/_evidence/CHANGED_check.out
+report line 206: quoted block of 6 lines found in /Users/arnelaponin/Documents/Dev/wai-demo/mini-registry/_working/round-03-goal-v2/_evidence/ls_ld.out
+quoted blocks read against the file they name: 12

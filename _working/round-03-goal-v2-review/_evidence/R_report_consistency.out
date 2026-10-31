@@ -1,0 +1,21 @@
+2026-10-31T17:37:03Z
+search_rule row  2 cited by: ['S-4']
+search_rule row  3 cited by: ['S-4']
+search_rule row  4 cited by: ['S-4']
+search_rule row  5 cited by: ['S-4', 'F-5']
+search_rule row  6 cited by: ['S-4', 'F-5']
+search_rule row  7 cited by: ['S-4']
+search_rule row  8 cited by: ['S-4']
+search_rule row  9 cited by: ['S-4']
+search_rule row 10 cited by: ['S-2', 'S-4', 'F-1']
+search_rule row 11 cited by: ['S-4']
+search_rule row 12 cited by: ['S-4']
+search_rule row 13 cited by: []
+search_rule row 14 cited by: ['S-5']
+search_rule row 15 cited by: ['S-6']
+search_rule row 16 cited by: ['S-4', 'F-4']
+search_rule row 17 cited by: ['F-4']
+search_rule row 18 cited by: ['S-7']
+--- report section 1 first sentence vs finished outcome
+identical: True
+Version 2 of the goal closes G1 for every step and every failure: each fact of each field now stands beside the source words that carry it, or names the gap that holds it open (0 unquoted), and the refusal screens that only an unsourced fact made, for an entry missing and for a school not among the three, are gone.

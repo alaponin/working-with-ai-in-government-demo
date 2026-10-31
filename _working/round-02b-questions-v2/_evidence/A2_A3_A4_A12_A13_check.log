@@ -1,0 +1,55 @@
+2026-10-31T15:56:19Z
+A2: questions listed 14, question sections 14
+A2: 0 unanswered, 0 extra
+A3: passages quoted 33, by file [('../brief/MINI-REGISTRY-BRIEF.md', 15), ('docs/GAPS-PAPER.md', 6), ('docs/GROUNDWORK.md', 1), ('docs/REQUIREMENTS.md', 1), ('docs/groundwork/lists.csv', 1), ('docs/groundwork/search_rule.csv', 4), ('docs/groundwork/settings.csv', 5)]; questions quoted 14; ranges cited 5, out of their file 0
+A3: 0 not found, 0 wrong line
+A4: question positions tables proposals
+  Q-1 2 1 1
+  Q-2 2 1 1
+  Q-3 2 1 1
+  Q-4 2 1 1
+  Q-5 2 1 1
+  Q-6 2 1 1
+  Q-7 2 1 1
+  Q-8 2 1 1
+  Q-9 2 1 1
+  Q-10 2 1 1
+  Q-11 2 1 1
+  Q-12 2 1 1
+  Q-13 2 1 1
+  Q-14 2 1 1
+A4: sections not reading 2, 1, 1: 0
+A4: table rows 23: both meet 14, divides 9, unmarked 0
+  Q-2 depends on Q-11: declared in Q-2 yes, in Q-11 yes
+  Q-2 depends on Q-14: declared in Q-2 yes, in Q-14 yes
+  Q-4 depends on Q-13: declared in Q-4 yes, in Q-13 yes
+  Q-5 depends on Q-2: declared in Q-5 yes, in Q-2 yes
+  Q-5 depends on Q-6: declared in Q-5 yes, in Q-6 yes
+  Q-6 depends on Q-5: declared in Q-6 yes, in Q-5 yes
+  Q-7 depends on Q-9: declared in Q-7 yes, in Q-9 yes
+  Q-9 depends on Q-2: declared in Q-9 yes, in Q-2 yes
+  Q-9 depends on Q-5: declared in Q-9 yes, in Q-5 yes
+  Q-9 depends on Q-6: declared in Q-9 yes, in Q-6 yes
+  Q-9 depends on Q-7: declared in Q-9 yes, in Q-7 yes
+  Q-9 depends on Q-14: declared in Q-9 yes, in Q-14 yes
+  Q-12 depends on Q-11: declared in Q-12 yes, in Q-11 yes
+  Q-13 depends on Q-14: declared in Q-13 yes, in Q-14 yes
+  Q-14 depends on Q-13: declared in Q-14 yes, in Q-13 yes
+A12: pairs in the table 15; declared in the paper 15; 0 one-way; 0 not in the table
+A13: question, rival's (c) cell in the paper, the program's verdict
+  Q-1 paper A yes, B yes; program B yes
+  Q-2 paper A yes, B yes; program B yes
+  Q-3 paper A yes, B yes; program B yes
+  Q-4 paper A yes, B yes; program B yes
+  Q-5 paper A yes, B yes; program B yes
+  Q-6 paper A yes, B no; program B no
+  Q-7 paper A yes, B yes; program B yes
+  Q-8 paper A yes, B yes; program B yes
+  Q-9 paper A yes, B no; program B no
+  Q-10 paper A yes, B yes; program B yes
+  Q-11 paper A yes, B yes; program B yes
+  Q-12 paper A yes, B yes; program B yes
+  Q-13 paper A yes, B yes; program B yes
+  Q-14 paper A yes, B yes; program B yes
+A13: 0 disagreements
+EXIT=0

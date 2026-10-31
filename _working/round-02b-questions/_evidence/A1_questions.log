@@ -1,0 +1,5 @@
+Sat Oct 31 15:25:56 UTC 2026
+$ list_questions.py docs/GROUNDWORK.md QUESTIONS.md
+14
+0 not found
+EXIT=0

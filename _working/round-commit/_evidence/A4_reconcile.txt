@@ -1,0 +1,10 @@
+# 2026-10-31 15:13:26 UTC A4 reconciliation
+## mini-registry: committed files not in the -uall before listing
+_working/round-commit/_evidence/before__coordination.status_uall.txt
+## mini-registry: before listing not committed
+## _coordination: committed files not in the -uall before listing
+## _coordination: before listing not committed
+## numstat of modified files, mini-registry
+21	0	WHAT_IS_RUNNING.md
+1	0	_kinds/analysis.md
+## diff-filter of HEAD:  260 A    2 M  / coord:   30 A 

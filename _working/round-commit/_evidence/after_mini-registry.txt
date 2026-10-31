@@ -1,0 +1,293 @@
+# 2026-10-31 15:13:17 UTC after, mini-registry
+## status --porcelain --ignored
+?? _working/round-commit/_evidence/after_mini-registry.txt
+?? _working/round-commit/_evidence/commit_and_A1.txt
+!! .DS_Store
+## log --oneline -3
+2fad722 The day's work of 31 October 2026, committed at the owner's word (D-2026-10-31-04, "Commit both now")
+74ca995 Start the mini registry: the places for instructions, reports and reviews, the record of what is running, the constants and the folders on the map of places
+## remote -v
+# remote exit=0
+## ls-files -ci --exclude-standard
+# exit=0
+## files in HEAD: 262
+## show --stat HEAD
+commit 2fad72234a662b19423149e3904b905cf3afb23f
+Author:     Arne Laponin <arne.laponin@gmail.com>
+AuthorDate: Sat Oct 31 17:13:09 2026 +0200
+Commit:     Arne Laponin <arne.laponin@gmail.com>
+CommitDate: Sat Oct 31 17:13:09 2026 +0200
+
+    The day's work of 31 October 2026, committed at the owner's word (D-2026-10-31-04, "Commit both now")
+    
+    Register of requirements: _prompts/PROMPT_REQUIREMENTS_2026-10-31.md, reviewed by _prompts/PROMPT_REVIEW_REQUIREMENTS_2026-10-31.md
+    Answers to the register's gaps, versions 1 and 2: _prompts/PROMPT_GAPS_2026-10-31.md, reviewed by _prompts/PROMPT_REVIEW_GAPS_2026-10-31.md
+    The ledger under local git: _prompts/PROMPT_LEDGER_GIT_2026-10-31.md, reviewed by _prompts/PROMPT_REVIEW_LEDGER_GIT_2026-10-31.md
+    Groundwork, versions 1 and 2: _prompts/PROMPT_GROUNDWORK_2026-10-31.md, reviewed by _prompts/PROMPT_REVIEW_GROUNDWORK_2026-10-31.md
+    Commit of the day (this commit; its report follows it): _prompts/PROMPT_COMMIT_2026-10-31.md, reviewed by _prompts/PROMPT_REVIEW_COMMIT_2026-10-31.md
+    Answers to the groundwork's questions (issued, not yet run): _prompts/PROMPT_QUESTIONS_2026-10-31.md, reviewed by _prompts/PROMPT_REVIEW_QUESTIONS_2026-10-31.md
+    The record's cut-over to the ledger: _records/CUTOVER_2026-10-31.md
+
+ WHAT_IS_RUNNING.md                                                            |   21 +++
+ _kinds/analysis.md                                                            |    1 +
+ _prompts/PROMPT_COMMIT_2026-10-31.md                                          |  112 +++++++++++
+ _prompts/PROMPT_GAPS_2026-10-31.md                                            |  156 +++++++++++++++
+ _prompts/PROMPT_GROUNDWORK_2026-10-31.md                                      |  167 ++++++++++++++++
+ _prompts/PROMPT_LEDGER_GIT_2026-10-31.md                                      |  110 +++++++++++
+ _prompts/PROMPT_QUESTIONS_2026-10-31.md                                       |  124 ++++++++++++
+ _prompts/PROMPT_REQUIREMENTS_2026-10-31.md                                    |  137 ++++++++++++++
+ _prompts/PROMPT_REVIEW_COMMIT_2026-10-31.md                                   |   61 ++++++
+ _prompts/PROMPT_REVIEW_GAPS_2026-10-31.md                                     |   92 +++++++++
+ _prompts/PROMPT_REVIEW_GROUNDWORK_2026-10-31.md                               |   84 +++++++++
+ _prompts/PROMPT_REVIEW_LEDGER_GIT_2026-10-31.md                               |   59 ++++++
+ _prompts/PROMPT_REVIEW_QUESTIONS_2026-10-31.md                                |   60 ++++++
+ _prompts/PROMPT_REVIEW_REQUIREMENTS_2026-10-31.md                             |   85 +++++++++
+ _records/CUTOVER_2026-10-31.md                                                |   30 +++
+ _reports/REPORT_GAPS_2026-10-31.md                                            |  199 ++++++++++++++++++++
+ _reports/REPORT_GAPS_2026-10-31_v2.md                                         |  123 ++++++++++++
+ _reports/REPORT_GROUNDWORK_2026-10-31.md                                      |  162 ++++++++++++++++
+ _reports/REPORT_GROUNDWORK_2026-10-31_v2.md                                   |  147 +++++++++++++++
+ _reports/REPORT_LEDGER_GIT_2026-10-31.md                                      |  103 ++++++++++
+ _reports/REPORT_REQUIREMENTS_2026-10-31.md                                    |  184 ++++++++++++++++++
+ _reviews/REVIEW_GAPS_2026-10-31.md                                            |  108 +++++++++++
+ _reviews/REVIEW_GAPS_2026-10-31_v2.md                                         |  122 ++++++++++++
+ _reviews/REVIEW_GROUNDWORK_2026-10-31.md                                      |   86 +++++++++
+ _reviews/REVIEW_GROUNDWORK_2026-10-31_v2.md                                   |   80 ++++++++
+ _reviews/REVIEW_LEDGER_GIT_2026-10-31.md                                      |   66 +++++++
+ _reviews/REVIEW_REQUIREMENTS_2026-10-31.md                                    |  104 ++++++++++
+ _working/round-01-requirements-review/_evidence/M1_trace_check.log            |   17 ++
+ _working/round-01-requirements-review/_evidence/M2_placement_check.log        |   12 ++
+ _working/round-01-requirements-review/_evidence/M3_check.out                  |   33 ++++
+ _working/round-01-requirements-review/_evidence/M3_round_record_check.log     |   37 ++++
+ _working/round-01-requirements-review/_evidence/M4_ledger_check.log           |    5 +
+ _working/round-01-requirements-review/_evidence/brief_numbered.log            |   41 ++++
+ _working/round-01-requirements-review/_evidence/outputs_exist.log             |   36 ++++
+ _working/round-01-requirements-review/_evidence/register_reads.log            |   38 ++++
+ _working/round-01-requirements-review/_evidence/register_reads2.log           |   25 +++
+ _working/round-01-requirements-review/_evidence/review_split.log              |   74 ++++++++
+ _working/round-01-requirements-review/_evidence/review_split.py               |  172 +++++++++++++++++
+ _working/round-01-requirements-review/_evidence/window_close.log              |    7 +
+ _working/round-01-requirements/_evidence/A1_inventory_count.log               |   11 ++
+ _working/round-01-requirements/_evidence/A1_inventory_count_try1_python37.log |   13 ++
+ _working/round-01-requirements/_evidence/A2_A3_compare.log                    |   52 +++++
+ _working/round-01-requirements/_evidence/A2_A3_planted.log                    |   12 ++
+ _working/round-01-requirements/_evidence/A4_known_numbers.log                 |   29 +++
+ _working/round-01-requirements/_evidence/A5_gaps.log                          |   22 +++
+ _working/round-01-requirements/_evidence/A6_brief_sha.log                     |    4 +
+ _working/round-01-requirements/_evidence/A7_placement_check.log               |   13 ++
+ _working/round-01-requirements/_evidence/A7_placement_check_before_report.log |   14 ++
+ _working/round-01-requirements/_evidence/A7_trace_check.log                   |   15 ++
+ _working/round-01-requirements/_evidence/SENTENCES.md                         |  141 ++++++++++++++
+ _working/round-01-requirements/_evidence/compare_register.py                  |   83 ++++++++
+ _working/round-01-requirements/_evidence/dispositions.tsv                     |   30 +++
+ _working/round-01-requirements/_evidence/ls_outputs.log                       |   13 ++
+ _working/round-01-requirements/_evidence/planted/REQUIREMENTS_planted.md      |  328 ++++++++++++++++++++++++++++++++
+ _working/round-01-requirements/_evidence/record/RECORD.txt                    |   41 ++++
+ _working/round-01-requirements/_evidence/record/_hook/sitecustomize.py        |   88 +++++++++
+ _working/round-01-requirements/_evidence/record/check.out                     |   27 +++
+ _working/round-01-requirements/_evidence/record/end.json                      |  175 +++++++++++++++++
+ _working/round-01-requirements/_evidence/record/opened.jsonl                  |   18 ++
+ _working/round-01-requirements/_evidence/record/runs.jsonl                    |    4 +
+ _working/round-01-requirements/_evidence/record/start.json                    |  112 +++++++++++
+ _working/round-01-requirements/_evidence/record/window.out                    |   22 +++
+ _working/round-01-requirements/_evidence/split_units.py                       |  104 ++++++++++
+ _working/round-01b-gaps-review/_evidence/E1_questions.log                     |   21 +++
+ _working/round-01b-gaps-review/_evidence/E1_questions.sh                      |   30 +++
+ _working/round-01b-gaps-review/_evidence/E2_citations.log                     |  110 +++++++++++
+ _working/round-01b-gaps-review/_evidence/E3_checks.sh                         |   38 ++++
+ _working/round-01b-gaps-review/_evidence/E3_checksums.log                     |    5 +
+ _working/round-01b-gaps-review/_evidence/E3_outputs.log                       |   11 ++
+ _working/round-01b-gaps-review/_evidence/E4_figures.log                       |   25 +++
+ _working/round-01b-gaps-review/_evidence/E5_cells.log                         |   21 +++
+ _working/round-01b-gaps-review/_evidence/E6_positions.log                     |   20 ++
+ _working/round-01b-gaps-review/_evidence/E7_review_lines.log                  |   27 +++
+ _working/round-01b-gaps-review/_evidence/M1_trace_check.log                   |   14 ++
+ _working/round-01b-gaps-review/_evidence/M2_placement_check.log               |   12 ++
+ _working/round-01b-gaps-review/_evidence/M3_record_check.log                  |   51 +++++
+ _working/round-01b-gaps-review/_evidence/M3_record_check.out                  |   47 +++++
+ _working/round-01b-gaps-review/_evidence/M4_ledger_check.log                  |    5 +
+ _working/round-01b-gaps-review/_evidence/e2_citations.py                      |   78 ++++++++
+ _working/round-01b-gaps-review/_evidence/e4_figures.py                        |   36 ++++
+ _working/round-01b-gaps-review/_evidence/paper_q_text.txt                     |   13 ++
+ _working/round-01b-gaps-review/_evidence/paper_sections.txt                   |   13 ++
+ _working/round-01b-gaps-review/_evidence/paper_summary.txt                    |   13 ++
+ _working/round-01b-gaps-review/_evidence/q_diff.txt                           |    0
+ _working/round-01b-gaps-review/_evidence/reg_ids.txt                          |   14 ++
+ _working/round-01b-gaps-review/_evidence/reg_ids_open.txt                     |   13 ++
+ _working/round-01b-gaps-review/_evidence/reg_q_text.txt                       |   13 ++
+ _working/round-01b-gaps-review/_evidence/reg_questions.txt                    |   14 ++
+ _working/round-01b-gaps-review/_evidence/window.out                           |    6 +
+ _working/round-01b-gaps-v2-review/_evidence/E1_E4_questions_figures.log       |   16 ++
+ _working/round-01b-gaps-v2-review/_evidence/E2_citations.log                  |   87 +++++++++
+ _working/round-01b-gaps-v2-review/_evidence/E3_E8_outputs.log                 |   32 ++++
+ _working/round-01b-gaps-v2-review/_evidence/E6_positions_r12.log              |   21 +++
+ _working/round-01b-gaps-v2-review/_evidence/E7_cells_grep.log                 |   44 +++++
+ _working/round-01b-gaps-v2-review/_evidence/M1_trace_check.log                |   14 ++
+ _working/round-01b-gaps-v2-review/_evidence/M2_placement_check.log            |   12 ++
+ _working/round-01b-gaps-v2-review/_evidence/M3_record_check.log               |   38 ++++
+ _working/round-01b-gaps-v2-review/_evidence/M3_record_check.out               |   34 ++++
+ _working/round-01b-gaps-v2-review/_evidence/M4_ledger_check.log               |    5 +
+ _working/round-01b-gaps-v2-review/_evidence/e1_run.sh                         |   34 ++++
+ _working/round-01b-gaps-v2-review/_evidence/e2_citations.py                   |   58 ++++++
+ _working/round-01b-gaps-v2-review/_evidence/paper_sections.txt                |   13 ++
+ _working/round-01b-gaps-v2-review/_evidence/paper_summary.txt                 |   13 ++
+ _working/round-01b-gaps-v2-review/_evidence/reg_ids.txt                       |   14 ++
+ _working/round-01b-gaps-v2-review/_evidence/reg_open.txt                      |   13 ++
+ _working/round-01b-gaps-v2-review/_evidence/toy_entries.tsv                   |   68 +++++++
+ _working/round-01b-gaps-v2-review/_evidence/window.out                        |    5 +
+ _working/round-01b-gaps-v2/_evidence/A10_register_lines.log                   |   21 +++
+ _working/round-01b-gaps-v2/_evidence/A11_A12_cells_diff.log                   |   17 ++
+ _working/round-01b-gaps-v2/_evidence/A1_questions.log                         |    6 +
+ _working/round-01b-gaps-v2/_evidence/A2_A5_A10_check_paper.log                |   43 +++++
+ _working/round-01b-gaps-v2/_evidence/A6_checksums.log                         |    4 +
+ _working/round-01b-gaps-v2/_evidence/A7_placement_check.log                   |   11 ++
+ _working/round-01b-gaps-v2/_evidence/A7_trace_check.log                       |   13 ++
+ _working/round-01b-gaps-v2/_evidence/GAPS-PAPER_v1_rebuilt.md                 |  355 ++++++++++++++++++++++++++++++++++
+ _working/round-01b-gaps-v2/_evidence/QUESTIONS.md                             |   19 ++
+ _working/round-01b-gaps-v2/_evidence/REGISTER_LINES.md                        |   19 ++
+ _working/round-01b-gaps-v2/_evidence/cells_diff.py                            |   59 ++++++
+ _working/round-01b-gaps-v2/_evidence/check_paper_v2.py                        |  140 ++++++++++++++
+ _working/round-01b-gaps-v2/_evidence/figures.log                              |    7 +
+ _working/round-01b-gaps-v2/_evidence/figures.py                               |   43 +++++
+ _working/round-01b-gaps-v2/_evidence/list_questions.py                        |   29 +++
+ _working/round-01b-gaps-v2/_evidence/ls_outputs.log                           |    9 +
+ _working/round-01b-gaps-v2/_evidence/paper_size.log                           |    3 +
+ _working/round-01b-gaps-v2/_evidence/record/RECORD.txt                        |   49 +++++
+ _working/round-01b-gaps-v2/_evidence/record/_hook/sitecustomize.py            |   88 +++++++++
+ _working/round-01b-gaps-v2/_evidence/record/check.out                         |   19 ++
+ _working/round-01b-gaps-v2/_evidence/record/end.json                          |  635 +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+ _working/round-01b-gaps-v2/_evidence/record/opened.jsonl                      |   35 ++++
+ _working/round-01b-gaps-v2/_evidence/record/runs.jsonl                        |    6 +
+ _working/round-01b-gaps-v2/_evidence/record/start.json                        |  567 +++++++++++++++++++++++++++++++++++++++++++++++++++++++
+ _working/round-01b-gaps-v2/_evidence/record/window.out                        |    6 +
+ _working/round-01b-gaps-v2/_evidence/register_lines.py                        |   27 +++
+ _working/round-01b-gaps/_evidence/A1_questions.log                            |    9 +
+ _working/round-01b-gaps/_evidence/A2_A5_check_paper.log                       |   27 +++
+ _working/round-01b-gaps/_evidence/A2_A5_planted.log                           |   33 ++++
+ _working/round-01b-gaps/_evidence/A6_checksums.log                            |    5 +
+ _working/round-01b-gaps/_evidence/A7_placement_check.log                      |   11 ++
+ _working/round-01b-gaps/_evidence/A7_trace_check.log                          |   13 ++
+ _working/round-01b-gaps/_evidence/QUESTIONS.md                                |   19 ++
+ _working/round-01b-gaps/_evidence/check_paper.py                              |   99 ++++++++++
+ _working/round-01b-gaps/_evidence/list_questions.py                           |   29 +++
+ _working/round-01b-gaps/_evidence/ls_outputs.log                              |   13 ++
+ _working/round-01b-gaps/_evidence/paper_size.log                              |    4 +
+ _working/round-01b-gaps/_evidence/plant_faults.py                             |   26 +++
+ _working/round-01b-gaps/_evidence/planted/GAPS-PAPER_planted.md               |  355 ++++++++++++++++++++++++++++++++++
+ _working/round-01b-gaps/_evidence/record/RECORD.txt                           |   39 ++++
+ _working/round-01b-gaps/_evidence/record/_hook/sitecustomize.py               |   88 +++++++++
+ _working/round-01b-gaps/_evidence/record/check.out                            |   28 +++
+ _working/round-01b-gaps/_evidence/record/end.json                             |  365 +++++++++++++++++++++++++++++++++++
+ _working/round-01b-gaps/_evidence/record/opened.jsonl                         |   24 +++
+ _working/round-01b-gaps/_evidence/record/runs.jsonl                           |    4 +
+ _working/round-01b-gaps/_evidence/record/start.json                           |  317 +++++++++++++++++++++++++++++++
+ _working/round-01b-gaps/_evidence/record/window.out                           |    6 +
+ _working/round-02-groundwork-review/_evidence/M1_trace.out                    |   14 ++
+ _working/round-02-groundwork-review/_evidence/M2_placement.out                |   15 ++
+ _working/round-02-groundwork-review/_evidence/M3_record_check.check.out       |   44 +++++
+ _working/round-02-groundwork-review/_evidence/M3_record_check.out             |   48 +++++
+ _working/round-02-groundwork-review/_evidence/M4_ledger_show.out              |   57 ++++++
+ _working/round-02-groundwork-review/_evidence/M5_ledger_check.out             |    4 +
+ _working/round-02-groundwork-review/_evidence/R1_review_check.out             |  103 ++++++++++
+ _working/round-02-groundwork-review/_evidence/R2_outputs.out                  |   47 +++++
+ _working/round-02-groundwork-review/_evidence/review_check.py                 |  211 +++++++++++++++++++++
+ _working/round-02-groundwork-review/_evidence/run_mech.sh                     |   13 ++
+ _working/round-02-groundwork-review/_evidence/run_outputs.sh                  |   20 ++
+ _working/round-02-groundwork-review/_evidence/window_close.out                |    2 +
+ _working/round-02-groundwork-v2-review/_evidence/B3_a2.out                    |    4 +
+ _working/round-02-groundwork-v2-review/_evidence/B3_a3.out                    |    7 +
+ _working/round-02-groundwork-v2-review/_evidence/B3_a4.out                    |   16 ++
+ _working/round-02-groundwork-v2-review/_evidence/B3_rerun.out                 |    7 +
+ _working/round-02-groundwork-v2-review/_evidence/F1_count.out                 |   34 ++++
+ _working/round-02-groundwork-v2-review/_evidence/F1_count.sh                  |   31 +++
+ _working/round-02-groundwork-v2-review/_evidence/F1_csv.txt                   |   17 ++
+ _working/round-02-groundwork-v2-review/_evidence/F1_mine.txt                  |   17 ++
+ _working/round-02-groundwork-v2-review/_evidence/F1_reviewer_settings.tsv     |   17 ++
+ _working/round-02-groundwork-v2-review/_evidence/M1_trace.out                 |   14 ++
+ _working/round-02-groundwork-v2-review/_evidence/M2_placement.out             |   12 ++
+ _working/round-02-groundwork-v2-review/_evidence/M3_record_check.check.out    |   42 +++++
+ _working/round-02-groundwork-v2-review/_evidence/M3_record_check.out          |   46 +++++
+ _working/round-02-groundwork-v2-review/_evidence/M4_ledger_show.out           |  113 +++++++++++
+ _working/round-02-groundwork-v2-review/_evidence/M5_ledger_check.out          |    4 +
+ _working/round-02-groundwork-v2-review/_evidence/R2_outputs.out               |   27 +++
+ _working/round-02-groundwork-v2-review/_evidence/run_mech.sh                  |   42 +++++
+ _working/round-02-groundwork-v2-review/_evidence/window_close.out             |    5 +
+ _working/round-02-groundwork-v2/_evidence/A2_check.out                        |    7 +
+ _working/round-02-groundwork-v2/_evidence/A3_check.out                        |   10 +
+ _working/round-02-groundwork-v2/_evidence/A4_check.out                        |   19 ++
+ _working/round-02-groundwork-v2/_evidence/B1_B2_diff.out                      |   13 ++
+ _working/round-02-groundwork-v2/_evidence/B1_B6_sha.out                       |   14 ++
+ _working/round-02-groundwork-v2/_evidence/B3_compare.out                      |    7 +
+ _working/round-02-groundwork-v2/_evidence/B4_placement.out                    |   13 ++
+ _working/round-02-groundwork-v2/_evidence/B4_placement_2.out                  |   12 ++
+ _working/round-02-groundwork-v2/_evidence/B4_trace.out                        |   14 ++
+ _working/round-02-groundwork-v2/_evidence/GROUNDWORK_v1.md                    |   55 ++++++
+ _working/round-02-groundwork-v2/_evidence/after.sha256                        |    5 +
+ _working/round-02-groundwork-v2/_evidence/before.sha256                       |    5 +
+ _working/round-02-groundwork-v2/_evidence/end.out                             |   39 ++++
+ _working/round-02-groundwork-v2/_evidence/ls_ld.out                           |    9 +
+ _working/round-02-groundwork-v2/_evidence/record/RECORD.txt                   |   34 ++++
+ _working/round-02-groundwork-v2/_evidence/record/_hook/sitecustomize.py       |   88 +++++++++
+ _working/round-02-groundwork-v2/_evidence/record/check.out                    |   29 +++
+ _working/round-02-groundwork-v2/_evidence/record/end.json                     | 1170 +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+ _working/round-02-groundwork-v2/_evidence/record/opened.jsonl                 |   21 +++
+ _working/round-02-groundwork-v2/_evidence/record/runs.jsonl                   |    3 +
+ _working/round-02-groundwork-v2/_evidence/record/start.json                   | 1142 ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+ _working/round-02-groundwork-v2/_evidence/record/window.out                   |   30 +++
+ _working/round-02-groundwork-v2/_evidence/start.out                           |    5 +
+ _working/round-02-groundwork/_evidence/A1_check.out                           |    5 +
+ _working/round-02-groundwork/_evidence/A1_list.out                            |    5 +
+ _working/round-02-groundwork/_evidence/A2_check.out                           |    7 +
+ _working/round-02-groundwork/_evidence/A3_check.out                           |   10 +
+ _working/round-02-groundwork/_evidence/A4_check.out                           |   19 ++
+ _working/round-02-groundwork/_evidence/A5_check.out                           |    4 +
+ _working/round-02-groundwork/_evidence/A6_shasum.out                          |    6 +
+ _working/round-02-groundwork/_evidence/A7_placement.out                       |   16 ++
+ _working/round-02-groundwork/_evidence/A7_placement_2.out                     |   15 ++
+ _working/round-02-groundwork/_evidence/A7_trace.out                           |   14 ++
+ _working/round-02-groundwork/_evidence/SETTINGS_SET.md                        |   87 +++++++++
+ _working/round-02-groundwork/_evidence/check_groundwork.py                    |  145 ++++++++++++++
+ _working/round-02-groundwork/_evidence/list_settings_set.py                   |  127 +++++++++++++
+ _working/round-02-groundwork/_evidence/ls_ld.out                              |   16 ++
+ _working/round-02-groundwork/_evidence/record/RECORD.txt                      |   70 +++++++
+ _working/round-02-groundwork/_evidence/record/_hook/sitecustomize.py          |   88 +++++++++
+ _working/round-02-groundwork/_evidence/record/check.out                       |   39 ++++
+ _working/round-02-groundwork/_evidence/record/end.json                        | 1005 +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+ _working/round-02-groundwork/_evidence/record/opened.jsonl                    |   61 ++++++
+ _working/round-02-groundwork/_evidence/record/runs.jsonl                      |    8 +
+ _working/round-02-groundwork/_evidence/record/start.json                      |  937 ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+ _working/round-02-groundwork/_evidence/record/window.out                      |   32 ++++
+ _working/round-commit/_evidence/before__coordination.log.txt                  |    4 +
+ _working/round-commit/_evidence/before__coordination.status.txt               |   34 ++++
+ _working/round-commit/_evidence/before__coordination.status_uall.txt          |   34 ++++
+ _working/round-commit/_evidence/before_mini-registry.log.txt                  |    4 +
+ _working/round-commit/_evidence/before_mini-registry.status.txt               |   47 +++++
+ _working/round-commit/_evidence/before_mini-registry.status_uall.txt          |  264 ++++++++++++++++++++++++++
+ _working/round-ledger-git-review/_evidence/my.sha256                          |   12 ++
+ _working/round-ledger-git-review/_evidence/review_A.log                       |  115 ++++++++++++
+ _working/round-ledger-git-review/_evidence/review_B.log                       |   87 +++++++++
+ _working/round-ledger-git-review/_evidence/review_C.log                       |  140 ++++++++++++++
+ _working/round-ledger-git/_evidence/A1.log                                    |    9 +
+ _working/round-ledger-git/_evidence/A2.log                                    |    7 +
+ _working/round-ledger-git/_evidence/A3.log                                    |    7 +
+ _working/round-ledger-git/_evidence/A4.log                                    |    7 +
+ _working/round-ledger-git/_evidence/A5.log                                    |    5 +
+ _working/round-ledger-git/_evidence/A6.log                                    |   14 ++
+ _working/round-ledger-git/_evidence/after.sha256                              |   12 ++
+ _working/round-ledger-git/_evidence/after_other.sha256                        |    2 +
+ _working/round-ledger-git/_evidence/before.sha256                             |   11 ++
+ _working/round-ledger-git/_evidence/before_other.sha256                       |    2 +
+ _working/round-ledger-git/_evidence/config.log                                |    6 +
+ _working/round-ledger-git/_evidence/outputs.log                               |   15 ++
+ _working/round-ledger-git/_evidence/step1_before.log                          |    3 +
+ _working/round-ledger-git/_evidence/step2_init.log                            |    8 +
+ _working/round-ledger-git/_evidence/step5_commit.log                          |   60 ++++++
+ _working/round-ledger-git/_evidence/step6_after.log                           |    3 +
+ _working/round-ledger-git/_evidence/window.out                                |    4 +
+ docs/GAPS-PAPER.md                                                            |  425 +++++++++++++++++++++++++++++++++++++++++
+ docs/GROUNDWORK.md                                                            |   56 ++++++
+ docs/REQUIREMENTS.md                                                          |  341 +++++++++++++++++++++++++++++++++
+ docs/groundwork/lists.csv                                                     |   17 ++
+ docs/groundwork/search_rule.csv                                               |   18 ++
+ docs/groundwork/settings.csv                                                  |   18 ++
+ 262 files changed, 17850 insertions(+)

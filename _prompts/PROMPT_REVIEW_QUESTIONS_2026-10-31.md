@@ -1,18 +1,18 @@
 ---
 kind: instruction
 commission_id: C-2026-10-31-12
-version: 1
+version: 2
 session_name: MR · review · answers to the groundwork's questions
 kind_of_work: analysis
-upstream_artefact: /Users/arnelaponin/Documents/Dev/wai-demo/mini-registry/_reports/REPORT_QUESTIONS_2026-10-31.md
+upstream_artefact: /Users/arnelaponin/Documents/Dev/wai-demo/mini-registry/_reports/REPORT_QUESTIONS_2026-10-31_v2.md
 inputs: /Users/arnelaponin/Documents/Dev/wai-demo/mini-registry/_prompts/PROMPT_QUESTIONS_2026-10-31.md · /Users/arnelaponin/Documents/Dev/wai-demo/mini-registry/docs/GROUNDWORK.md · /Users/arnelaponin/Documents/Dev/wai-demo/mini-registry/docs/groundwork/ · /Users/arnelaponin/Documents/Dev/wai-demo/mini-registry/docs/REQUIREMENTS.md · /Users/arnelaponin/Documents/Dev/wai-demo/brief/MINI-REGISTRY-BRIEF.md · /Users/arnelaponin/Documents/Dev/wai-demo/mini-registry/_kinds/analysis.md
-downstream_artefact: /Users/arnelaponin/Documents/Dev/wai-demo/mini-registry/_reviews/REVIEW_QUESTIONS_2026-10-31.md
+downstream_artefact: /Users/arnelaponin/Documents/Dev/wai-demo/mini-registry/_reviews/REVIEW_QUESTIONS_2026-10-31_v2.md
 serves: the verdict on C-2026-10-31-11, the answers to the groundwork's questions
 model: Opus — named in the instruction under review's reviewer line
 effort: high — named in the same line
 reviewer: not applicable — this instruction is the review
 waits_for: none
-outputs: /Users/arnelaponin/Documents/Dev/wai-demo/mini-registry/_reviews/REVIEW_QUESTIONS_2026-10-31.md · /Users/arnelaponin/Documents/Dev/wai-demo/mini-registry/_working/round-02b-questions-review/_evidence/
+outputs: /Users/arnelaponin/Documents/Dev/wai-demo/mini-registry/_reviews/REVIEW_QUESTIONS_2026-10-31_v2.md · /Users/arnelaponin/Documents/Dev/wai-demo/mini-registry/_working/round-02b-questions-v2-review/_evidence/
 running_record: MR — the issued entry is written in the ledger by ledger.py from this declaration, once this file is complete and before the start message is handed over
 ---
 
@@ -58,3 +58,11 @@ The eight things of part one of the review form, in order, written to `downstrea
 ```text
 /usr/bin/python3 "/Users/arnelaponin/Library/Application Support/Claude/local-agent-mode-sessions/ffbe2f0e-bc4b-46d3-ad76-b08a7882aae9/7bbcb800-2754-4c5e-97ea-ccb874ea3fee/rpm/plugin_018SiGJfFaxxAvevS4xGQJgb/skills/orchestrator/scripts/ledger.py" finished --constants /Users/arnelaponin/Documents/Dev/wai-demo/_coordination/CONSTANTS.md --code MR --id C-2026-10-31-12 --report /Users/arnelaponin/Documents/Dev/wai-demo/mini-registry/_reviews/REVIEW_QUESTIONS_2026-10-31.md --verdict <accepted or not-accepted> [--kinds "<count by kind; left out, brackets and all, where there is no gap>"] --outcome "<one line: the verdict and its ground>" --moved nothing --account <the same account as your started entry> --by "MR · review · answers to the groundwork's questions"
 ```
+
+---
+
+## Version 2 — 31 October 2026, 2026-10-31 15:45 UTC: the review of the second attempt
+
+The first edition, `/Users/arnelaponin/Documents/Dev/wai-demo/mini-registry/_reviews/REVIEW_QUESTIONS_2026-10-31.md`, found the paper not accepted on G1. The working instruction is now at version 2, which appends G1 and four of the first edition's "found, not fixed" items, with tests A12 to A14. This edition is written by a new session with an empty memory, as `/Users/arnelaponin/Documents/Dev/wai-demo/mini-registry/_reviews/REVIEW_QUESTIONS_2026-10-31_v2.md`, beside the first; its evidence goes to `/Users/arnelaponin/Documents/Dev/wai-demo/mini-registry/_working/round-02b-questions-v2-review/_evidence/`. Your entries are those of sections 1 and 4, with `--report` in the `finished` entry naming this edition's file.
+
+**What this edition judges:** tests A1 to A14 of the working instruction's version 2; whether G1 is closed **for every question** — build each rival with every other recommendation by your own program, not the round's, and compare with what each table says; and whether the four items taken up are closed. A gap closed only for Q-6 is not closed. As before, the verdict judges whether the paper does what its instruction asks; a gap is a fault a ruling would carry into round 5.

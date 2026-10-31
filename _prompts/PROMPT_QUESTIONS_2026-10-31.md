@@ -1,19 +1,19 @@
 ---
 kind: instruction
 commission_id: C-2026-10-31-11
-version: 1
+version: 2
 session_name: MR · work · answers to the groundwork's questions
 kind_of_work: analysis
 upstream_artefact: /Users/arnelaponin/Documents/Dev/wai-demo/mini-registry/docs/GROUNDWORK.md
 inputs: /Users/arnelaponin/Documents/Dev/wai-demo/mini-registry/docs/groundwork/ · /Users/arnelaponin/Documents/Dev/wai-demo/mini-registry/docs/REQUIREMENTS.md · /Users/arnelaponin/Documents/Dev/wai-demo/brief/MINI-REGISTRY-BRIEF.md · /Users/arnelaponin/Documents/Dev/wai-demo/mini-registry/docs/GAPS-PAPER.md · /Users/arnelaponin/Documents/Dev/wai-demo/mini-registry/_kinds/analysis.md
-downstream_artefact: /Users/arnelaponin/Documents/Dev/wai-demo/mini-registry/_reports/REPORT_QUESTIONS_2026-10-31.md
+downstream_artefact: /Users/arnelaponin/Documents/Dev/wai-demo/mini-registry/_reports/REPORT_QUESTIONS_2026-10-31_v2.md
 serves: the working prototype, deliverable 1 of the constants — the answers round 5, the made-up data, needs to the 14 questions the accepted groundwork leaves open; the owner ruled at 17:05 Tallinn time, 31 October 2026, that they are answered now, before round 3
 model: Opus — every position is bounded by the brief, the register, the owner's thirteen rulings and the groundwork, and most questions fix a value that any choice within the sources meets; the risk is inexactness and inconsistency across questions, not open judgement
 effort: high — fourteen questions whose answers must hold together, so that round 5 can make the data to the known numbers
 reviewer: a separate session started from the review instruction below, as a sub-agent of this session; Opus, effort high — the review checks every citation and runs the recommendations together by its own route
 review_instruction: /Users/arnelaponin/Documents/Dev/wai-demo/mini-registry/_prompts/PROMPT_REVIEW_QUESTIONS_2026-10-31.md
-waits_for: C-2026-10-31-09 — the commit of the day accepted first, so that this round writes into a clean repository
-outputs: /Users/arnelaponin/Documents/Dev/wai-demo/mini-registry/docs/QUESTIONS-PAPER.md · /Users/arnelaponin/Documents/Dev/wai-demo/mini-registry/_working/round-02b-questions/_evidence/ · /Users/arnelaponin/Documents/Dev/wai-demo/mini-registry/_reports/REPORT_QUESTIONS_2026-10-31.md
+waits_for: none
+outputs: /Users/arnelaponin/Documents/Dev/wai-demo/mini-registry/docs/QUESTIONS-PAPER.md · /Users/arnelaponin/Documents/Dev/wai-demo/mini-registry/_working/round-02b-questions-v2/_evidence/ · /Users/arnelaponin/Documents/Dev/wai-demo/mini-registry/_reports/REPORT_QUESTIONS_2026-10-31_v2.md
 running_record: MR — the issued entry is written in the ledger by ledger.py from this declaration, once this file is complete and before the start message is handed over
 ---
 
@@ -122,3 +122,26 @@ Load the shell tool this session has for commands on the computer (desktop-comma
 ```
 
 Never create a scheduled task to start it. Wait for it, add nothing, and end with one line: its verdict line and its path, or why it could not run. Do not judge it; route nothing.
+
+---
+
+## Version 2 — 31 October 2026, 2026-10-31 15:45 UTC: the gap of the review
+
+The review of version 1, `/Users/arnelaponin/Documents/Dev/wai-demo/mini-registry/_reviews/REVIEW_QUESTIONS_2026-10-31.md`, is **not accepted** on one gap, G1: Q-6 judges its rival without Q-5 as recommended, so the paper credits that rival with 60, 8 and 68, which it cannot reach alongside Q-5's recommendation; and the dependency between Q-5 and Q-6 is declared in one direction only. A ruling taken from the paper as it stands could hand round 5 settings no data meets. Read the review's sections 7 and 8 in full, after the declaration.
+
+This version is carried out by a new session with an empty memory. It changes `/Users/arnelaponin/Documents/Dev/wai-demo/mini-registry/docs/QUESTIONS-PAPER.md` in place, still **under 20 KB**; its evidence and record go to `/Users/arnelaponin/Documents/Dev/wai-demo/mini-registry/_working/round-02b-questions-v2/_evidence/` (record at `…/record`), and its report to `/Users/arnelaponin/Documents/Dev/wai-demo/mini-registry/_reports/REPORT_QUESTIONS_2026-10-31_v2.md`. Version 1's report and evidence stay as written. Your `started` and `finished` entries are those of sections 1 and 9, with the same commands but for `--report` in the `finished` entry, which names this version's report; the program reads the version from this declaration. The task no longer waits for anything.
+
+**What this version must do, beyond version 1:**
+
+- **G1, for every question, not for Q-6 alone.** List every pair of questions where one answer bears on the other. Declare each dependency **in both sections**. Judge **both** positions of each question under the **recommended** answer of every question it depends on. Where a rival cannot be built alongside the other recommendations, its table says so in the row of the known numbers, and the section says which other answer it would need. Q-6's rival is the case the review found; check every other.
+- **The review's "found, not fixed", items 1, 2, 3 and 7:**
+  - item 1: "Given to every position" cites, by range where a list is long, the register, all thirteen ruled summary rows and the settings rows of `docs/groundwork/settings.csv`, and quotes the ruled line `GAPS-PAPER.md:196` whole;
+  - item 2: Q-9 names every question its figures rest on;
+  - item 3: Q-6's recommendation says no more than the brief's line 19 says;
+  - item 7: Q-9's rival is stated at its strongest, weighing the form the review names, a school on the census only that still gives every learner one.
+
+**Further tests of success for this version** (A1 to A11 stand, read with this version's paths):
+
+- **A12** — A table in the evidence folder lists every pair of dependent questions; a command shows each pair declared in both sections → `0 one-way`.
+- **A13** — A program, saved in the evidence folder, builds each question's rival together with every other question's recommendation and prints, per rival, whether the brief's known numbers can be met; the paper's table for each rival agrees with that output → the report quotes it and names `0 disagreements`.
+- **A14** — The verdict of the review of version 1 is answered item by item: the report has one row each for G1 and the four "found, not fixed" items taken up, with what changed and the lines of the new paper where it shows.
