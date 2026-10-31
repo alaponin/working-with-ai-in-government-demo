@@ -1,0 +1,19 @@
+kind: issued
+written: 2026-10-31T15:07:56Z
+code: MR
+by: "MR · orchestrator"
+account: arne.laponin@gmail.com
+computer: MacBookPro
+id: C-2026-10-31-10
+version: 1
+instruction: ~/IdeaProjects/mini-registry/_prompts/PROMPT_REVIEW_COMMIT_2026-10-31.md
+session: "MR · review · commit of the day"
+model: Sonnet
+effort: medium
+report: ~/IdeaProjects/mini-registry/_reviews/REVIEW_COMMIT_2026-10-31.md
+outputs: "~/IdeaProjects/mini-registry/_reviews/REVIEW_COMMIT_2026-10-31.md · ~/IdeaProjects/mini-registry/_working/round-commit-review/_evidence/"
+subject: "MR C-2026-10-31-09"
+serves: "the verdict on C-2026-10-31-09, the commit of the day"
+inputs: "~/IdeaProjects/mini-registry/_reports/REPORT_COMMIT_2026-10-31.md absent · ~/IdeaProjects/mini-registry/_prompts/PROMPT_COMMIT_2026-10-31.md sha256:ddd4b3936e25e4d3feef2a68d66e7aea8c96d419b236d92968f6c13209bb9dde"
+instruction_digest: sha256:83ba91bbb7abb20502b3cfa77f4198def06032691310586fd3a23da27a84614f
+format: 2

@@ -1,0 +1,19 @@
+kind: issued
+written: 2026-10-31T14:50:32Z
+code: MR
+by: "MR · orchestrator"
+account: arne.laponin@gmail.com
+computer: MacBookPro
+id: C-2026-10-31-08
+version: 2
+instruction: ~/IdeaProjects/mini-registry/_prompts/PROMPT_REVIEW_GROUNDWORK_2026-10-31.md
+session: "MR · review · groundwork"
+model: Opus
+effort: high
+report: ~/IdeaProjects/mini-registry/_reviews/REVIEW_GROUNDWORK_2026-10-31_v2.md
+outputs: "~/IdeaProjects/mini-registry/_reviews/REVIEW_GROUNDWORK_2026-10-31_v2.md · ~/IdeaProjects/mini-registry/_working/round-02-groundwork-v2-review/_evidence/"
+subject: "MR C-2026-10-31-07"
+serves: "the verdict on C-2026-10-31-07, the groundwork"
+inputs: "~/IdeaProjects/mini-registry/_reports/REPORT_GROUNDWORK_2026-10-31_v2.md absent · ~/IdeaProjects/mini-registry/_prompts/PROMPT_GROUNDWORK_2026-10-31.md sha256:17fbf9bd7acee2566953ecfb82a40cd909dad48b5b41c3e115da7beab59aca33 · ~/IdeaProjects/brief/MINI-REGISTRY-BRIEF.md sha256:ec6971e74a6a8387de0e5bd7a5e1cdead6ddf711b8fdac3ccc1d4b7555e11f64 · ~/IdeaProjects/mini-registry/docs/REQUIREMENTS.md sha256:ad583b3958fb5c5fdf6683b5c2487b6f0c425d66cebc7c46811e2e19af13f103 · ~/IdeaProjects/mini-registry/docs/GAPS-PAPER.md sha256:d03db64c6e49a1b92467c1e6e19929c321964bd89f6cb715d15dd570f37bc8bb · ~/IdeaProjects/mini-registry/_kinds/drafting.md sha256:f792a337a4620afeb4b3e2b220ae74878eeeca9e23c7d94b57ae46529414851d"
+instruction_digest: sha256:f608c3520a44a13483c84a2c6c6ea93dd59d138247dd4686e272de15854a09ba
+format: 2

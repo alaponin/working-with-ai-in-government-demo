@@ -1,0 +1,12 @@
+kind: closed
+written: 2026-10-31T15:04:19Z
+code: MR
+by: "MR · orchestrator"
+account: arne.laponin@gmail.com
+computer: MacBookPro
+id: C-2026-10-31-08
+version: 2
+outcome: accepted
+subject: "MR C-2026-10-31-07"
+ground: "the review of version 2, _reviews/REVIEW_GROUNDWORK_2026-10-31_v2.md, is accepted: G1 closed, the record check exits 0, the tables unchanged, gap 14 added; trace check clean over the report and the review (15:03 UTC), its one finding the report pinned absent at issue, as the review form expects"
+format: 2

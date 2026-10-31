@@ -1,0 +1,15 @@
+kind: started
+written: 2026-10-31T14:40:54Z
+code: MR
+by: "MR · review · groundwork"
+account: arne.laponin@gmail.com
+computer: MacBookPro
+id: C-2026-10-31-08
+version: 1
+session: "MR · review · groundwork"
+shell: native
+instruction: ~/IdeaProjects/mini-registry/_prompts/PROMPT_REVIEW_GROUNDWORK_2026-10-31.md
+effort: high
+started_by: sub-session
+inputs: "~/IdeaProjects/mini-registry/_reports/REPORT_GROUNDWORK_2026-10-31.md sha256:8b2c536b9c73cae7e6d30475c5092ac5cb69437b3e43ab18005936e9fd43a6d9 · ~/IdeaProjects/mini-registry/_prompts/PROMPT_GROUNDWORK_2026-10-31.md sha256:f80796b5b1568cc43dad5927ed12a7660ce432df2228a593acf2ea21a67de18d · ~/IdeaProjects/brief/MINI-REGISTRY-BRIEF.md sha256:ec6971e74a6a8387de0e5bd7a5e1cdead6ddf711b8fdac3ccc1d4b7555e11f64 · ~/IdeaProjects/mini-registry/docs/REQUIREMENTS.md sha256:ad583b3958fb5c5fdf6683b5c2487b6f0c425d66cebc7c46811e2e19af13f103 · ~/IdeaProjects/mini-registry/docs/GAPS-PAPER.md sha256:d03db64c6e49a1b92467c1e6e19929c321964bd89f6cb715d15dd570f37bc8bb · ~/IdeaProjects/mini-registry/_kinds/drafting.md sha256:f792a337a4620afeb4b3e2b220ae74878eeeca9e23c7d94b57ae46529414851d"
+format: 2

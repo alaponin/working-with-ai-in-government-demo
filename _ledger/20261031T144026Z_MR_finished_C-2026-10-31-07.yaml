@@ -1,0 +1,12 @@
+kind: finished
+written: 2026-10-31T14:40:26Z
+code: MR
+by: "MR · work · groundwork"
+account: arne.laponin@gmail.com
+computer: MacBookPro
+id: C-2026-10-31-07
+version: 1
+report: ~/IdeaProjects/mini-registry/_reports/REPORT_GROUNDWORK_2026-10-31.md
+outcome: "Groundwork written: settings.csv 17 settings, lists.csv 16 fields over five tables, search_rule.csv 17 rows, GROUNDWORK.md with 13 gaps left open; 0 without source, 0 unresolved; set 0 missing, 0 extra; search compares the brief's three fields, capitals only forgiven, school not compared, key table not read; A1-A7 met; A8 not met: round_record check exit 1 on 10 reads by the layer's placement check not on the start list"
+moved: "New: docs/GROUNDWORK.md and docs/groundwork/settings.csv, lists.csv, search_rule.csv, which rounds 3, 5, 6 and 7 read; the date of ages, the reset's order and the seed are open gaps"
+format: 2

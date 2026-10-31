@@ -1,0 +1,14 @@
+kind: finished
+written: 2026-10-31T14:47:33Z
+code: MR
+by: "MR · review · groundwork"
+account: arne.laponin@gmail.com
+computer: MacBookPro
+id: C-2026-10-31-08
+version: 1
+report: ~/IdeaProjects/mini-registry/_reviews/REVIEW_GROUNDWORK_2026-10-31.md
+outcome: "Not accepted, one gap: A8 fails, round_record.py check exits 1 on 10 reads by the layer's placement check not on the start list; A1-A7 and A9 met, all 50 rows traced to allowed sources, settings 17 by the reviewer's own route, 0 missing, 0 extra"
+moved: nothing
+verdict: "not accepted"
+kinds: other=1
+format: 2
