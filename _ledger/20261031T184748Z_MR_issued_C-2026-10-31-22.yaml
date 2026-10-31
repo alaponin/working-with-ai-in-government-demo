@@ -1,0 +1,19 @@
+kind: issued
+written: 2026-10-31T18:47:48Z
+code: MR
+by: "MR · orchestrator"
+account: arne.laponin@gmail.com
+computer: MacBookPro
+id: C-2026-10-31-22
+version: 1
+instruction: ~/IdeaProjects/mini-registry/_prompts/PROMPT_REVIEW_DATA_2026-10-31.md
+session: "MR · review · scaffold and made-up data"
+model: Opus
+effort: high
+report: ~/IdeaProjects/mini-registry/_reviews/REVIEW_DATA_2026-10-31.md
+outputs: "~/IdeaProjects/mini-registry/_reviews/REVIEW_DATA_2026-10-31.md · ~/IdeaProjects/mini-registry/_working/round-05-data-review/_evidence/"
+subject: "MR C-2026-10-31-21"
+serves: "the verdict on C-2026-10-31-21, the scaffold and the made-up data"
+inputs: "~/IdeaProjects/mini-registry/_reports/REPORT_DATA_2026-10-31.md absent · ~/IdeaProjects/mini-registry/_prompts/PROMPT_DATA_2026-10-31.md sha256:2514e59fc107ee94768de2b4c4559b4ca24df5454e9b0cc9d5a678948e570c3c · ~/IdeaProjects/mini-registry/docs/groundwork/ sha256:05e359476e04fda3c7445f952e2ea481c4a8c73192fea0fb43bbbd80a33a5bf1 · ~/IdeaProjects/mini-registry/docs/QUESTIONS-PAPER.md sha256:5146d23a87cf9c0527c26c2965725bfa1125bd1a0a103ac83b68fb7dbd50cce0 · ~/IdeaProjects/mini-registry/docs/REQUIREMENTS.md sha256:ad583b3958fb5c5fdf6683b5c2487b6f0c425d66cebc7c46811e2e19af13f103 · ~/IdeaProjects/mini-registry/_kinds/building.md sha256:ef6c8dc1cdea04ab1ea59f20ea41e3d6f4eb0ea59bcb1b84376fc23d02deac36"
+instruction_digest: sha256:3274a6fccb98cf6a082f2730bdbd2c0b9fec9bbf44d71a674c5a886ca710ad58
+format: 2

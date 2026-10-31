@@ -1,0 +1,7 @@
+kind: guard
+written: "2026-10-31T19:09:31Z"
+guard: placement_check
+stopped: "/Users/arnelaponin/Documents/Dev/wai-demo/mini-registry/_prompts/PROMPT_REVIEW_BUILD_2026-10-31.md: finding: missing: /Users/arnelaponin/Documents/Dev/wai-demo/mini-registry/_reviews/REVIEW_BUILD_2026-10-31.md is named among the outputs and does not exist"
+code: MR
+session: "MR · review · the goal built"
+format: 1

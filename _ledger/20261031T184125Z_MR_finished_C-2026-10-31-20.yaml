@@ -1,0 +1,13 @@
+kind: finished
+written: 2026-10-31T18:41:25Z
+code: MR
+by: "MR · review · the count"
+account: arne.laponin@gmail.com
+computer: MacBookPro
+id: C-2026-10-31-20
+version: 1
+report: ~/IdeaProjects/mini-registry/_reviews/REVIEW_COUNT_2026-10-31.md
+outcome: "Accepted, no gaps: A1 to A9 met; the goal's citations give 8/15 requirements and 12/7 elements against the count's 13/10 and 12/7, and the test route is right for every differing pair (R-01, R-06, R-07 with F-5 fail on F-5's trigger; 47 extra pairs each carried by their test); planted fault (R-17 and R-23 removed) caught"
+moved: nothing
+verdict: accepted
+format: 2

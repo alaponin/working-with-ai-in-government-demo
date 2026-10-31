@@ -1,0 +1,15 @@
+kind: started
+written: 2026-10-31T18:50:17Z
+code: MR
+by: "MR · work · scaffold and made-up data"
+account: arne.laponin@gmail.com
+computer: MacBookPro
+id: C-2026-10-31-21
+version: 1
+session: "MR · work · scaffold and made-up data"
+shell: native
+instruction: ~/IdeaProjects/mini-registry/_prompts/PROMPT_DATA_2026-10-31.md
+effort: unknown
+started_by: unknown
+inputs: "~/IdeaProjects/mini-registry/docs/GROUNDWORK.md sha256:5ed9b62f282d433df7c337a2da30e4830c56170dca1e646ae5aacc2cc2795dce · ~/IdeaProjects/mini-registry/docs/groundwork/ sha256:05e359476e04fda3c7445f952e2ea481c4a8c73192fea0fb43bbbd80a33a5bf1 · ~/IdeaProjects/brief/MINI-REGISTRY-BRIEF.md sha256:ec6971e74a6a8387de0e5bd7a5e1cdead6ddf711b8fdac3ccc1d4b7555e11f64 · ~/IdeaProjects/mini-registry/docs/REQUIREMENTS.md sha256:ad583b3958fb5c5fdf6683b5c2487b6f0c425d66cebc7c46811e2e19af13f103 · ~/IdeaProjects/mini-registry/docs/GAPS-PAPER.md sha256:d03db64c6e49a1b92467c1e6e19929c321964bd89f6cb715d15dd570f37bc8bb · ~/IdeaProjects/mini-registry/docs/QUESTIONS-PAPER.md sha256:5146d23a87cf9c0527c26c2965725bfa1125bd1a0a103ac83b68fb7dbd50cce0 · ~/IdeaProjects/mini-registry/docs/COUNT.md sha256:fc2b28435e20f94d3f79408e8afee9176c77c5a8bcdaace67df3344c091131a6 · ~/IdeaProjects/_coordination/_ledger/20261031T184610Z_MR_ruled_D-2026-10-31-09.yaml sha256:f4e0a19f41bf6b0f893c12049e254e3e5b93e7ad7a31c337b049021328a1d9e4 · ~/IdeaProjects/mini-registry/_kinds/building.md sha256:ef6c8dc1cdea04ab1ea59f20ea41e3d6f4eb0ea59bcb1b84376fc23d02deac36"
+format: 2

@@ -1,0 +1,11 @@
+kind: decision
+written: 2026-10-31T18:19:02Z
+code: MR
+by: "MR · orchestrator"
+account: arne.laponin@gmail.com
+computer: MacBookPro
+id: D-2026-10-31-07
+what: "The answers to the goal's 13 open questions, which round 6 (the build) needs; the paper was accepted by its review at the first attempt"
+recommendation: "Rule the 13 recommendations as the closing proposal of each section of docs/GOAL-QUESTIONS-PAPER.md gives them: applied together they add two failures (F-6, F-7), no step and no screen, the goal keeping five screens each with R-17's line."
+paper: ~/IdeaProjects/mini-registry/docs/GOAL-QUESTIONS-PAPER.md
+format: 2

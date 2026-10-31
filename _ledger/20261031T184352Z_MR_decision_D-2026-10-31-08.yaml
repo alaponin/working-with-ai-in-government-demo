@@ -1,0 +1,11 @@
+kind: decision
+written: 2026-10-31T18:43:52Z
+code: MR
+by: "MR · orchestrator"
+account: arne.laponin@gmail.com
+computer: MacBookPro
+id: D-2026-10-31-08
+what: "Round 4 of the brief, the count (docs/COUNT.md, docs/count/count.csv: 13 of 23 requirements reach the goal, 12 of 19 elements are reached): the owner's ruling, which the brief asks for after every round"
+recommendation: "Accept it as it stands: the review is accepted with no gaps, the second route confirming every pair. The 10 requirements no goal step reaches are rounds 5, 6 and 8's work; the 7 failures no test reaches are tested by round 6's own checks under the ruling on G-12."
+paper: ~/IdeaProjects/mini-registry/_reviews/REVIEW_COUNT_2026-10-31.md
+format: 2

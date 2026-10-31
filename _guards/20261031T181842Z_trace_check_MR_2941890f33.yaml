@@ -1,0 +1,7 @@
+kind: guard
+written: "2026-10-31T18:18:42Z"
+guard: trace_check
+stopped: "/Users/arnelaponin/Documents/Dev/wai-demo/mini-registry/_reviews/REVIEW_GOALQ_2026-10-31.md: finding: input-changed: the review instruction: /Users/arnelaponin/Documents/Dev/wai-demo/mini-registry/_reports/REPORT_GOALQ_2026-10-31.md — absent at issue (20261031T174356Z_MR_issued_C-2026-10-31-18.yaml), sha256:c5c249ec62f9 at start, sha256:c5c249ec62f9 now"
+code: MR
+session: "MR · work · answers to the goal's questions"
+format: 1

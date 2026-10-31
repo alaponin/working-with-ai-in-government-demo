@@ -1,0 +1,11 @@
+kind: decision
+written: 2026-10-31T19:07:10Z
+code: MR
+by: "MR · orchestrator"
+account: arne.laponin@gmail.com
+computer: MacBookPro
+id: D-2026-10-31-10
+what: "Round 5 of the brief, the scaffold and the made-up data (src/, Node.js, no dependencies; 29 checks): the owner's ruling, which the brief asks for after every round"
+recommendation: "Accept it as it stands: accepted by its review at the first attempt, every known number re-established by an independent Python count."
+paper: ~/IdeaProjects/mini-registry/_reviews/REVIEW_DATA_2026-10-31.md
+format: 2

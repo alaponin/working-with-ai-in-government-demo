@@ -1,0 +1,15 @@
+kind: started
+written: 2026-10-31T18:59:27Z
+code: MR
+by: "MR · review · scaffold and made-up data"
+account: arne.laponin@gmail.com
+computer: MacBookPro
+id: C-2026-10-31-22
+version: 1
+session: "MR · review · scaffold and made-up data"
+shell: native
+instruction: ~/IdeaProjects/mini-registry/_prompts/PROMPT_REVIEW_DATA_2026-10-31.md
+effort: unknown
+started_by: sub-session
+inputs: "~/IdeaProjects/mini-registry/_reports/REPORT_DATA_2026-10-31.md sha256:ac43579f604ca7c03b5cab9003c9935fabd719222534cbccd814f96aace8d923 · ~/IdeaProjects/mini-registry/_prompts/PROMPT_DATA_2026-10-31.md sha256:2514e59fc107ee94768de2b4c4559b4ca24df5454e9b0cc9d5a678948e570c3c · ~/IdeaProjects/mini-registry/docs/groundwork/ sha256:05e359476e04fda3c7445f952e2ea481c4a8c73192fea0fb43bbbd80a33a5bf1 · ~/IdeaProjects/mini-registry/docs/QUESTIONS-PAPER.md sha256:5146d23a87cf9c0527c26c2965725bfa1125bd1a0a103ac83b68fb7dbd50cce0 · ~/IdeaProjects/mini-registry/docs/REQUIREMENTS.md sha256:ad583b3958fb5c5fdf6683b5c2487b6f0c425d66cebc7c46811e2e19af13f103 · ~/IdeaProjects/mini-registry/_kinds/building.md sha256:ef6c8dc1cdea04ab1ea59f20ea41e3d6f4eb0ea59bcb1b84376fc23d02deac36"
+format: 2

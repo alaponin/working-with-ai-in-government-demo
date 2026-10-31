@@ -1,0 +1,13 @@
+kind: finished
+written: 2026-10-31T19:06:14Z
+code: MR
+by: "MR · review · scaffold and made-up data"
+account: arne.laponin@gmail.com
+computer: MacBookPro
+id: C-2026-10-31-22
+version: 1
+report: ~/IdeaProjects/mini-registry/_reviews/REVIEW_DATA_2026-10-31.md
+outcome: "Accepted, no gap: A1-A10 met on evidence read or produced here; own run of reset and node --test passes 29 of 29; own Python count re-establishes 60 children, 3 schools of 20, 68 entries 24/22/22, the 8 in Q-5's pairs, the 4 on the later list, ages 6-12, 64 learners, and 4 of the 8 joined by the rule; two planted faults fail by name; search module agrees with search_rule.csv row by row; trace, placement, record and ledger checks clean"
+moved: nothing
+verdict: accepted
+format: 2
