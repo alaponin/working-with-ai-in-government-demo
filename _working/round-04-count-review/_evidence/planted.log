@@ -1,0 +1,46 @@
+2026-10-31 18:37:33 UTC
+$ grep -v "^R-17," docs/count/count.csv > planted_no_R17.csv
+      73 docs/count/count.csv
+      66 /Users/arnelaponin/Documents/Dev/wai-demo/mini-registry/_working/round-04-count-review/_evidence/planted_no_R17.csv
+     139 total
+0
+$ /usr/bin/python3 -I count.py <root> planted_no_R17.csv <sets>   (lines on which it turns)
+exit 0
+absent requirement: R-17
+0 unknown, 1 absent
+  R-17 -> none
+reach at least one element: 12
+reach none: 11
+  R-17 — (no ground: absent from the CSV)
+  SC-1 <- R-02 R-03
+  SC-2 <- R-05 R-07
+  SC-3 <- R-07
+  SC-4 <- none
+  SC-5 <- none
+reached by at least one requirement: 10
+reached by none: 9
+      docs/GOAL-QUESTIONS-PAPER.md:304 | F-3 | refused on SC-4 where it reaches the registry (Q-6) |
+  SC-4
+  SC-5
+
+$ grep -v "^R-23," docs/count/count.csv > planted_no_R23.csv   (a requirement written only as none)
+exit 0
+absent requirement: R-23
+0 unknown, 1 absent
+  R-23 -> none
+reach at least one element: 13
+reach none: 10
+  R-23 — (no ground: absent from the CSV)
+reached by at least one requirement: 12
+reached by none: 7
+      docs/GOAL-QUESTIONS-PAPER.md:304 | F-3 | refused on SC-4 where it reaches the registry (Q-6) |
+
+$ sed one ground of count.csv to words not in its test (R-05,SC-2) > planted_ground.csv; check_grounds.py on it
+26c26
+< R-05,SC-2,"the screen shows the learner saved in the set-up"
+---
+> R-05,SC-2,"the screen shows the learner and its school"
+NOT FOUND R-05,SC-2 'the screen shows the learner and its school'
+72 rows, 23 tests read, 1 not found
+exit 0
+2026-10-31 18:37:34 UTC

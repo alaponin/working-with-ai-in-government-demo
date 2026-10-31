@@ -1,0 +1,12 @@
+# A5 — 2026-10-31T18:56:28Z, in /Users/arnelaponin/Documents/Dev/wai-demo/mini-registry/src (data/ included)
+$ grep -rnE "fetch|http|https|\bnet\b|dgram|child_process|open\(" --include=*.js --include=*.json --include=*.md .
+exit 1  (1: no occurrence)
+$ grep -rniE "net" .   (every "net", case ignored, as a substring, every file)
+exit 1  (1: no occurrence)
+$ grep -c dependencies package.json
+0
+exit 1  (1: no dependencies key)
+$ ls node_modules package-lock.json
+ls: node_modules: No such file or directory
+ls: package-lock.json: No such file or directory
+exit 1

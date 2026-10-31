@@ -1,0 +1,15 @@
+# A1 Stage 1 — 2026-10-31T18:51:33Z, before any write under src/
+$ node --version
+v20.5.1
+exit 0
+$ npm --version
+10.9.2
+exit 0
+$ node -e "require('node:test')"
+exit 0
+$ ls -la /Users/arnelaponin/Documents/Dev/wai-demo/mini-registry/src
+total 8
+drwxr-xr-x@  3 arnelaponin  staff   96 Oct 31 14:48 .
+drwxr-xr-x@ 15 arnelaponin  staff  480 Oct 31 20:51 ..
+-rw-r--r--@  1 arnelaponin  staff  452 Oct 31 14:48 README.md
+exit 0

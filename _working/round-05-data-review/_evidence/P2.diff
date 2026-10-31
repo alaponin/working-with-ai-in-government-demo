@@ -1,0 +1,11 @@
+--- /Users/arnelaponin/Documents/Dev/wai-demo/mini-registry/src/lib/lists.js	2026-10-31 20:53:51
++++ P2_date_form/src/lib/lists.js	2026-10-31 21:01:50
+@@ -133,7 +133,7 @@
+       entry: n + 1,
+       family_name: e.family_name,
+       given_names: e.given_names,
+-      date_of_birth: e.date_of_birth,
++      date_of_birth: (list === 'social_grant_list' && n === 0) ? e.date_of_birth.split('-').reverse().join('.') : e.date_of_birth, // PLANTED: one date in another form
+       school: e.school,
+     }));
+     shuffled.forEach((e, n) => {

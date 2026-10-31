@@ -1,0 +1,309 @@
+# A3 planted fault — 2026-10-31T18:56:00Z, in a scratch copy at /Users/arnelaponin/Documents/Dev/wai-demo/mini-registry/_working/round-05-data/_evidence/A3_planted/src
+$ diff -u <real src>/lib/lists.js <scratch>/lib/lists.js
+--- /Users/arnelaponin/Documents/Dev/wai-demo/mini-registry/src/lib/lists.js	2026-10-31 20:53:51
++++ lib/lists.js	2026-10-31 20:56:00
+@@ -123,6 +123,7 @@
+   }
+   if (at !== CHILDREN) throw new Error('generator: ' + at + ' children placed, not ' + CHILDREN);
+ 
++  entries.school_census.pop(); // PLANTED FAULT (A3): one child missing
+   // Each list numbered 1 upwards after a shuffle by the seed (ruling Q-11), so
+   // that a number tells nothing of the child.
+   const lists = {};
+$ node reset.js
+wrote data/enrolments.json 5010 bytes
+wrote data/exam_candidate_list.json 3623 bytes
+wrote data/key_table.json 4953 bytes
+wrote data/learners.json 10842 bytes
+wrote data/reads.json 296 bytes
+wrote data/school_census.json 3741 bytes
+wrote data/schools.json 85 bytes
+wrote data/social_grant_list.json 3566 bytes
+exit 0
+$ node --test test/
+TAP version 13
+# Subtest: R-08: three lists, by the names of brief line 19, and every child on at least one
+ok 1 - R-08: three lists, by the names of brief line 19, and every child on at least one
+  ---
+  duration_ms: 3.210179
+  ...
+# Subtest: R-09, G-04: 60 different children, named C01 to C60 (Q-11)
+not ok 2 - R-09, G-04: 60 different children, named C01 to C60 (Q-11)
+  ---
+  duration_ms: 5.35133
+  failureType: 'testCodeFailure'
+  error: |-
+    Expected values to be strictly equal:
+    
+    59 !== 60
+    
+  code: 'ERR_ASSERTION'
+  name: 'AssertionError'
+  expected: 60
+  actual: 59
+  operator: 'strictEqual'
+  stack: |-
+    TestContext.<anonymous> (/Users/arnelaponin/Documents/Dev/wai-demo/mini-registry/_working/round-05-data/_evidence/A3_planted/src/test/data.test.js:22:10)
+    Test.runInAsyncScope (node:async_hooks:206:9)
+    Test.run (node:internal/test_runner/test:580:25)
+    Test.processPendingSubtests (node:internal/test_runner/test:325:18)
+    Test.postRun (node:internal/test_runner/test:649:19)
+    Test.run (node:internal/test_runner/test:608:10)
+    async startSubtest (node:internal/test_runner/harness:204:3)
+  ...
+# Subtest: R-10: 3 schools in the data, and every entry and learner at one of them
+ok 3 - R-10: 3 schools in the data, and every entry and learner at one of them
+  ---
+  duration_ms: 0.294718
+  ...
+# Subtest: Q-9: every entry carries a school, the same on both lists of a child
+ok 4 - Q-9: every entry carries a school, the same on both lists of a child
+  ---
+  duration_ms: 0.288003
+  ...
+# Subtest: Q-7: 20 children at each of the 3 schools
+not ok 5 - Q-7: 20 children at each of the 3 schools
+  ---
+  duration_ms: 0.621985
+  failureType: 'testCodeFailure'
+  error: 'Kestrin Hill School'
+  code: 'ERR_ASSERTION'
+  name: 'AssertionError'
+  expected: 20
+  actual: 19
+  operator: 'strictEqual'
+  stack: |-
+    TestContext.<anonymous> (/Users/arnelaponin/Documents/Dev/wai-demo/mini-registry/_working/round-05-data/_evidence/A3_planted/src/test/data.test.js:48:37)
+    Test.runInAsyncScope (node:async_hooks:206:9)
+    Test.run (node:internal/test_runner/test:580:25)
+    Test.processPendingSubtests (node:internal/test_runner/test:325:18)
+    Test.postRun (node:internal/test_runner/test:649:19)
+    Test.run (node:internal/test_runner/test:608:10)
+    async Test.processPendingSubtests (node:internal/test_runner/test:325:7)
+  ...
+# Subtest: G-04, Q-6: 68 entries, 24, 22 and 22 in the order of the lists
+not ok 6 - G-04, Q-6: 68 entries, 24, 22 and 22 in the order of the lists
+  ---
+  duration_ms: 0.349617
+  failureType: 'testCodeFailure'
+  error: |-
+    Expected values to be strictly equal:
+    
+    67 !== 68
+    
+  code: 'ERR_ASSERTION'
+  name: 'AssertionError'
+  expected: 68
+  actual: 67
+  operator: 'strictEqual'
+  stack: |-
+    TestContext.<anonymous> (/Users/arnelaponin/Documents/Dev/wai-demo/mini-registry/_working/round-05-data/_evidence/A3_planted/src/test/data.test.js:52:10)
+    Test.runInAsyncScope (node:async_hooks:206:9)
+    Test.run (node:internal/test_runner/test:580:25)
+    Test.processPendingSubtests (node:internal/test_runner/test:325:18)
+    Test.postRun (node:internal/test_runner/test:649:19)
+    Test.run (node:internal/test_runner/test:608:10)
+    async Test.processPendingSubtests (node:internal/test_runner/test:325:7)
+  ...
+# Subtest: Q-11: each list numbered 1 upwards
+ok 7 - Q-11: each list numbered 1 upwards
+  ---
+  duration_ms: 0.447021
+  ...
+# Subtest: Q-10, G-07: every date YYYY-MM-DD, a day of the calendar, on every entry and learner
+ok 8 - Q-10, G-07: every date YYYY-MM-DD, a day of the calendar, on every entry and learner
+  ---
+  duration_ms: 0.829069
+  ...
+# Subtest: R-13, G-06, Q-1: every age 6 to 12 in completed years on 2026-10-31
+ok 9 - R-13, G-06, Q-1: every age 6 to 12 in completed years on 2026-10-31
+  ---
+  duration_ms: 0.47518
+  ...
+# Subtest: R-11, G-04, Q-5: 8 children on exactly two lists, in the pairs of ruling Q-5
+ok 10 - R-11, G-04, Q-5: 8 children on exactly two lists, in the pairs of ruling Q-5
+  ---
+  duration_ms: 0.769237
+  ...
+# Subtest: R-12, G-05, Q-5: 4 of the 8 spelt differently, 1, 2 and 1 over the pairs; none in capitals only
+ok 11 - R-12, G-05, Q-5: 4 of the 8 spelt differently, 1, 2 and 1 over the pairs; none in capitals only
+  ---
+  duration_ms: 1.702507
+  ...
+# Subtest: Q-8: the 4 differ in the family name only; the other 4 match on all three fields, letter for letter and in the same capitals
+ok 12 - Q-8: the 4 differ in the family name only; the other 4 match on all three fields, letter for letter and in the same capitals
+  ---
+  duration_ms: 0.432063
+  ...
+# Subtest: Q-5: each of the 4 is spelt differently on the later list, which makes a second learner
+ok 13 - Q-5: each of the 4 is spelt differently on the later list, which makes a second learner
+  ---
+  duration_ms: 0.33553
+  ...
+# Subtest: Q-14, G-05: no two different children share all three fields, capitals ignored
+ok 14 - Q-14, G-05: no two different children share all three fields, capitals ignored
+  ---
+  duration_ms: 0.266684
+  ...
+# Subtest: Q-11: the key table, 68 rows, each entry named <list>:<number> once, each child C01 to C60
+not ok 15 - Q-11: the key table, 68 rows, each entry named <list>:<number> once, each child C01 to C60
+  ---
+  duration_ms: 0.336032
+  failureType: 'testCodeFailure'
+  error: |-
+    Expected values to be strictly equal:
+    
+    67 !== 68
+    
+  code: 'ERR_ASSERTION'
+  name: 'AssertionError'
+  expected: 68
+  actual: 67
+  operator: 'strictEqual'
+  stack: |-
+    TestContext.<anonymous> (/Users/arnelaponin/Documents/Dev/wai-demo/mini-registry/_working/round-05-data/_evidence/A3_planted/src/test/data.test.js:152:10)
+    Test.runInAsyncScope (node:async_hooks:206:9)
+    Test.run (node:internal/test_runner/test:580:25)
+    Test.processPendingSubtests (node:internal/test_runner/test:325:18)
+    Test.postRun (node:internal/test_runner/test:649:19)
+    Test.run (node:internal/test_runner/test:608:10)
+    async Test.processPendingSubtests (node:internal/test_runner/test:325:7)
+  ...
+# Subtest: Q-13, Q-4, G-01: 64 learners after reset, numbered 1 to 64, each once
+not ok 16 - Q-13, Q-4, G-01: 64 learners after reset, numbered 1 to 64, each once
+  ---
+  duration_ms: 0.260619
+  failureType: 'testCodeFailure'
+  error: |-
+    Expected values to be strictly equal:
+    
+    63 !== 64
+    
+  code: 'ERR_ASSERTION'
+  name: 'AssertionError'
+  expected: 64
+  actual: 63
+  operator: 'strictEqual'
+  stack: |-
+    TestContext.<anonymous> (/Users/arnelaponin/Documents/Dev/wai-demo/mini-registry/_working/round-05-data/_evidence/A3_planted/src/test/data.test.js:166:10)
+    Test.runInAsyncScope (node:async_hooks:206:9)
+    Test.run (node:internal/test_runner/test:580:25)
+    Test.processPendingSubtests (node:internal/test_runner/test:325:18)
+    Test.postRun (node:internal/test_runner/test:649:19)
+    Test.run (node:internal/test_runner/test:608:10)
+    async Test.processPendingSubtests (node:internal/test_runner/test:325:7)
+  ...
+# Subtest: Q-12: the record of entries, 68 rows, one for each entry, in the order of ruling Q-2
+not ok 17 - Q-12: the record of entries, 68 rows, one for each entry, in the order of ruling Q-2
+  ---
+  duration_ms: 0.546728
+  failureType: 'testCodeFailure'
+  error: |-
+    Expected values to be strictly equal:
+    
+    67 !== 68
+    
+  code: 'ERR_ASSERTION'
+  name: 'AssertionError'
+  expected: 68
+  actual: 67
+  operator: 'strictEqual'
+  stack: |-
+    TestContext.<anonymous> (/Users/arnelaponin/Documents/Dev/wai-demo/mini-registry/_working/round-05-data/_evidence/A3_planted/src/test/data.test.js:171:10)
+    Test.runInAsyncScope (node:async_hooks:206:9)
+    Test.run (node:internal/test_runner/test:580:25)
+    Test.processPendingSubtests (node:internal/test_runner/test:325:18)
+    Test.postRun (node:internal/test_runner/test:649:19)
+    Test.run (node:internal/test_runner/test:608:10)
+    async Test.processPendingSubtests (node:internal/test_runner/test:325:7)
+  ...
+# Subtest: G-03, G-01: each entry made or found a learner holding its three fields, capitals ignored; a new number one above the highest
+not ok 18 - G-03, G-01: each entry made or found a learner holding its three fields, capitals ignored; a new number one above the highest
+  ---
+  duration_ms: 0.868637
+  failureType: 'testCodeFailure'
+  error: |-
+    Expected values to be strictly equal:
+    
+    63 !== 64
+    
+  code: 'ERR_ASSERTION'
+  name: 'AssertionError'
+  expected: 64
+  actual: 63
+  operator: 'strictEqual'
+  stack: |-
+    TestContext.<anonymous> (/Users/arnelaponin/Documents/Dev/wai-demo/mini-registry/_working/round-05-data/_evidence/A3_planted/src/test/data.test.js:191:10)
+    Test.runInAsyncScope (node:async_hooks:206:9)
+    Test.run (node:internal/test_runner/test:580:25)
+    Test.processPendingSubtests (node:internal/test_runner/test:325:18)
+    Test.postRun (node:internal/test_runner/test:649:19)
+    Test.run (node:internal/test_runner/test:608:10)
+    async Test.processPendingSubtests (node:internal/test_runner/test:325:7)
+  ...
+# Subtest: R-15: the reset made twice gives byte for byte the same files
+ok 19 - R-15: the reset made twice gives byte for byte the same files
+  ---
+  duration_ms: 10.531019
+  ...
+# Subtest: R-15: data/ holds exactly what the reset makes, byte for byte
+ok 20 - R-15: data/ holds exactly what the reset makes, byte for byte
+  ---
+  duration_ms: 3.674041
+  ...
+# Subtest: G-10, R-16: the reset's record of its reads names only files under src/
+ok 21 - G-10, R-16: the reset's record of its reads names only files under src/
+  ---
+  duration_ms: 0.615107
+  ...
+# Subtest: search: the same three fields find the learner
+ok 22 - search: the same three fields find the learner
+  ---
+  duration_ms: 2.125853
+  ...
+# Subtest: search: capitals ignored, in each of the three fields
+ok 23 - search: capitals ignored, in each of the three fields
+  ---
+  duration_ms: 0.305993
+  ...
+# Subtest: search: one letter different in any of the three fields, not found
+ok 24 - search: one letter different in any of the three fields, not found
+  ---
+  duration_ms: 0.139269
+  ...
+# Subtest: search: nothing but capitals forgiven (a space, a dropped name, another form of date)
+ok 25 - search: nothing but capitals forgiven (a space, a dropped name, another form of date)
+  ---
+  duration_ms: 0.133483
+  ...
+# Subtest: search: the school is not compared, nor any field but the three
+ok 26 - search: the school is not compared, nor any field but the three
+  ---
+  duration_ms: 0.133262
+  ...
+# Subtest: enrol: none found gives the next learner number and saves; one found enters nothing new
+ok 27 - enrol: none found gives the next learner number and saves; one found enters nothing new
+  ---
+  duration_ms: 0.259468
+  ...
+# Subtest: enrol: more than one found enters nothing new
+ok 28 - enrol: more than one found enters nothing new
+  ---
+  duration_ms: 0.145355
+  ...
+# Subtest: search: the module reads neither the key table nor the record of entries, and needs no other module
+ok 29 - search: the module reads neither the key table nor the record of entries, and needs no other module
+  ---
+  duration_ms: 0.541302
+  ...
+1..29
+# tests 29
+# suites 0
+# pass 22
+# fail 7
+# cancelled 0
+# skipped 0
+# todo 0
+# duration_ms 157.491383
+exit 1
+# end 2026-10-31T18:56:01Z

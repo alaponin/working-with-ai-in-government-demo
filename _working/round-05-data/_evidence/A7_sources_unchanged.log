@@ -1,0 +1,5 @@
+# A7 — 2026-10-31T18:56:45Z
+$ diff <(tail -n +2 sources_sha256_start.txt) <(tail -n +2 sources_sha256_end.txt)
+exit 0  (0: all 15 unchanged)
+$ tail -n +2 sources_sha256_end.txt | wc -l
+      15

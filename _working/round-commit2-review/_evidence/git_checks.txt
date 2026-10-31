@@ -1,0 +1,62 @@
+##### mini-registry
+Sat Oct 31 17:49:18 UTC 2026
+## A1 status --porcelain
+ M WHAT_IS_RUNNING.md
+?? _reports/REPORT_COMMIT2_2026-10-31.md
+?? _working/round-commit2-review/
+?? _working/round-commit2/_evidence/A4_reconcile.txt
+?? _working/round-commit2/_evidence/after__coordination.txt
+?? _working/round-commit2/_evidence/after_mini-registry.txt
+?? _working/round-commit2/_evidence/commit_and_A1.txt
+?? _working/round-commit2/_evidence/ledger_show.out
+?? _working/round-commit2/_evidence/ls_outputs.txt
+?? _working/round-commit2/_evidence/trace_check.out
+?? _working/round-commit2/_evidence/window.out
+exit=0
+## A2 log
+c419cf3 The day's work of 31 October 2026 since 2fad722, committed at the owner's word (D-2026-10-31-06, "Commit both now") Commit of the day (its report and review, after 2fad722): _prompts/PROMPT_COMMIT_2026-10-31.md, reviewed by _prompts/PROMPT_REVIEW_COMMIT_2026-10-31.md Answers to the groundwork's questions, versions 1 and 2: _prompts/PROMPT_QUESTIONS_2026-10-31.md, reviewed by _prompts/PROMPT_REVIEW_QUESTIONS_2026-10-31.md The goal in full, versions 1 and 2: _prompts/PROMPT_GOAL_2026-10-31.md, reviewed by _prompts/PROMPT_REVIEW_GOAL_2026-10-31.md Second commit of the day (this commit; its report follows it): _prompts/PROMPT_COMMIT2_2026-10-31.md, reviewed by _prompts/PROMPT_REVIEW_COMMIT2_2026-10-31.md Answers to the goal's questions (issued, not yet run): _prompts/PROMPT_GOALQ_2026-10-31.md, reviewed by _prompts/PROMPT_REVIEW_GOALQ_2026-10-31.md
+2fad722 The day's work of 31 October 2026, committed at the owner's word (D-2026-10-31-04, "Commit both now")
+74ca995 Start the mini registry: the places for instructions, reports and reviews, the record of what is running, the constants and the folders on the map of places
+## remote -v
+exit=0
+## A3 ls-files -ci
+exit=0
+## count HEAD~1..HEAD diff --name-only
+     201
+## diff --name-status summary
+ 196 A
+   5 M
+## ls-tree count HEAD / HEAD~1
+     473
+     277
+## HEAD hash
+c419cf3b6317ca733d54ce4993ac56389114251d
+2fad72234a662b19423149e3904b905cf3afb23f
+## shortstat
+ 201 files changed, 27231 insertions(+), 12 deletions(-)
+##### _coordination
+Sat Oct 31 17:49:19 UTC 2026
+## A1 status --porcelain
+?? _ledger/20261031T174844Z_MR_finished_C-2026-10-31-15.yaml
+?? _ledger/20261031T174911Z_MR_started_C-2026-10-31-16.yaml
+exit=0
+## A2 log
+42cfa12 The day's work of 31 October 2026 since 2ba3804, committed at the owner's word (D-2026-10-31-06, "Commit both now"): the ledger's entries and the guards written since
+2ba3804 The day's work of 31 October 2026, committed at the owner's word (D-2026-10-31-04, "Commit both now")
+f30bc04 The coordination's ledger put under version control on this computer, by the owner's ruling on D-2026-10-31-01
+## remote -v
+exit=0
+## A3 ls-files -ci
+exit=0
+## count HEAD~1..HEAD diff --name-only
+      52
+## diff --name-status summary
+  52 A
+## ls-tree count HEAD / HEAD~1
+      97
+      45
+## HEAD hash
+42cfa12939401241f6e4b6c271e4a99fb1e1cd4b
+2ba38042672b7c46ffbed9dfae799a8b95c5b020
+## shortstat
+ 52 files changed, 645 insertions(+)

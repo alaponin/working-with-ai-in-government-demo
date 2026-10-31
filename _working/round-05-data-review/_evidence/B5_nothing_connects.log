@@ -1,0 +1,31 @@
+# 2026-10-31 19:03:00 UTC host MacBookPro — the reviewer's own search over src/
+$ grep -rnE "fetch|https?|net|dgram|child_process|open\(|require\(" . (every file)
+./reset.js:10:const fs = require('node:fs');
+./reset.js:11:const path = require('node:path');
+./reset.js:12:const { SEED } = require('./lib/random');
+./reset.js:13:const { LISTS, generate } = require('./lib/lists');
+./reset.js:14:const { enrol } = require('./lib/search');
+./test/search.test.js:6:const test = require('node:test');
+./test/search.test.js:7:const assert = require('node:assert/strict');
+./test/search.test.js:8:const fs = require('node:fs');
+./test/search.test.js:9:const path = require('node:path');
+./test/search.test.js:10:const { search, enrol } = require('../lib/search');
+./test/reset.test.js:5:const test = require('node:test');
+./test/reset.test.js:6:const assert = require('node:assert/strict');
+./test/reset.test.js:7:const path = require('node:path');
+./test/reset.test.js:8:const { bytes, dataFiles, read } = require('../lib/data_files');
+./test/reset.test.js:9:const { build } = require('../reset');
+./test/data.test.js:6:const test = require('node:test');
+./test/data.test.js:7:const assert = require('node:assert/strict');
+./test/data.test.js:8:const { LIST_NAMES, load, ageOn, isIsoDate } = require('../lib/data_files');
+./lib/data_files.js:5:const fs = require('node:fs');
+./lib/data_files.js:6:const path = require('node:path');
+./lib/lists.js:8:const { makeRandom } = require('./random');
+./lib/lists.js:9:const names = require('./names');
+exit 0
+$ grep -rniE "spawn|exec|socket|listen|createServer|XMLHttp|WebSocket" .
+exit 1
+$ grep -n dependencies package.json
+exit 1
+ls: node_modules: No such file or directory
+ls: package-lock.json: No such file or directory

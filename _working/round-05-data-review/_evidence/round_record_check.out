@@ -1,0 +1,85 @@
+# round_record.py check, run at 2026-10-31T19:02:22.931Z, over the record /Users/arnelaponin/Documents/Dev/wai-demo/mini-registry/_working/round-05-data/_evidence/record
+# run with: --record /Users/arnelaponin/Documents/Dev/wai-demo/mini-registry/_working/round-05-data/_evidence/record --report /Users/arnelaponin/Documents/Dev/wai-demo/mini-registry/_reports/REPORT_DATA_2026-10-31.md --tolerance 2 --out /Users/arnelaponin/Documents/Dev/wai-demo/mini-registry/_working/round-05-data-review/_evidence/round_record_check.out
+# report: /Users/arnelaponin/Documents/Dev/wai-demo/mini-registry/_reports/REPORT_DATA_2026-10-31.md
+# files changed after the end list inside the window: 0
+
+## Findings — 0
+none
+
+## Read and found as stated
+the window closes at 2026-10-31T18:58:59.000Z
+added after the window closed (2026-10-31T19:00:49.060Z), by another hand or later: /Users/arnelaponin/Documents/Dev/wai-demo/mini-registry/_working/round-05-data-review/_evidence/B1_src_before.sha256
+added after the window closed (2026-10-31T19:00:49.724Z), by another hand or later: /Users/arnelaponin/Documents/Dev/wai-demo/mini-registry/_working/round-05-data-review/_evidence/B2_project_checks.log
+added after the window closed (2026-10-31T19:00:49.770Z), by another hand or later: /Users/arnelaponin/Documents/Dev/wai-demo/mini-registry/_working/round-05-data-review/_evidence/B3_src_after.sha256
+added after the window closed (2026-10-31T19:01:34.115Z), by another hand or later: /Users/arnelaponin/Documents/Dev/wai-demo/mini-registry/_working/round-05-data-review/_evidence/B4_own_count.log
+added after the window closed (2026-10-31T19:02:22.712Z), by another hand or later: /Users/arnelaponin/Documents/Dev/wai-demo/mini-registry/_working/round-05-data-review/_evidence/M_mechanical_checks.log
+added after the window closed (2026-10-31T19:01:50.694Z), by another hand or later: /Users/arnelaponin/Documents/Dev/wai-demo/mini-registry/_working/round-05-data-review/_evidence/P1.diff
+added after the window closed (2026-10-31T19:01:57.632Z), by another hand or later: /Users/arnelaponin/Documents/Dev/wai-demo/mini-registry/_working/round-05-data-review/_evidence/P1_fifth_spelt.log
+added after the window closed (2026-10-31T19:01:50.506Z), by another hand or later: /Users/arnelaponin/Documents/Dev/wai-demo/mini-registry/_working/round-05-data-review/_evidence/P1_fifth_spelt/src/README.md
+added after the window closed (2026-10-31T19:01:57.325Z), by another hand or later: /Users/arnelaponin/Documents/Dev/wai-demo/mini-registry/_working/round-05-data-review/_evidence/P1_fifth_spelt/src/data/enrolments.json
+added after the window closed (2026-10-31T19:01:57.325Z), by another hand or later: /Users/arnelaponin/Documents/Dev/wai-demo/mini-registry/_working/round-05-data-review/_evidence/P1_fifth_spelt/src/data/exam_candidate_list.json
+added after the window closed (2026-10-31T19:01:57.326Z), by another hand or later: /Users/arnelaponin/Documents/Dev/wai-demo/mini-registry/_working/round-05-data-review/_evidence/P1_fifth_spelt/src/data/key_table.json
+added after the window closed (2026-10-31T19:01:57.326Z), by another hand or later: /Users/arnelaponin/Documents/Dev/wai-demo/mini-registry/_working/round-05-data-review/_evidence/P1_fifth_spelt/src/data/learners.json
+added after the window closed (2026-10-31T19:01:57.326Z), by another hand or later: /Users/arnelaponin/Documents/Dev/wai-demo/mini-registry/_working/round-05-data-review/_evidence/P1_fifth_spelt/src/data/reads.json
+added after the window closed (2026-10-31T19:01:57.327Z), by another hand or later: /Users/arnelaponin/Documents/Dev/wai-demo/mini-registry/_working/round-05-data-review/_evidence/P1_fifth_spelt/src/data/school_census.json
+added after the window closed (2026-10-31T19:01:57.327Z), by another hand or later: /Users/arnelaponin/Documents/Dev/wai-demo/mini-registry/_working/round-05-data-review/_evidence/P1_fifth_spelt/src/data/schools.json
+added after the window closed (2026-10-31T19:01:57.327Z), by another hand or later: /Users/arnelaponin/Documents/Dev/wai-demo/mini-registry/_working/round-05-data-review/_evidence/P1_fifth_spelt/src/data/social_grant_list.json
+added after the window closed (2026-10-31T19:01:50.508Z), by another hand or later: /Users/arnelaponin/Documents/Dev/wai-demo/mini-registry/_working/round-05-data-review/_evidence/P1_fifth_spelt/src/lib/data_files.js
+added after the window closed (2026-10-31T19:01:50.618Z), by another hand or later: /Users/arnelaponin/Documents/Dev/wai-demo/mini-registry/_working/round-05-data-review/_evidence/P1_fifth_spelt/src/lib/lists.js
+added after the window closed (2026-10-31T19:01:50.509Z), by another hand or later: /Users/arnelaponin/Documents/Dev/wai-demo/mini-registry/_working/round-05-data-review/_evidence/P1_fifth_spelt/src/lib/names.js
+added after the window closed (2026-10-31T19:01:50.507Z), by another hand or later: /Users/arnelaponin/Documents/Dev/wai-demo/mini-registry/_working/round-05-data-review/_evidence/P1_fifth_spelt/src/lib/random.js
+added after the window closed (2026-10-31T19:01:50.510Z), by another hand or later: /Users/arnelaponin/Documents/Dev/wai-demo/mini-registry/_working/round-05-data-review/_evidence/P1_fifth_spelt/src/lib/search.js
+added after the window closed (2026-10-31T19:01:50.506Z), by another hand or later: /Users/arnelaponin/Documents/Dev/wai-demo/mini-registry/_working/round-05-data-review/_evidence/P1_fifth_spelt/src/package.json
+added after the window closed (2026-10-31T19:01:50.502Z), by another hand or later: /Users/arnelaponin/Documents/Dev/wai-demo/mini-registry/_working/round-05-data-review/_evidence/P1_fifth_spelt/src/reset.js
+added after the window closed (2026-10-31T19:01:50.505Z), by another hand or later: /Users/arnelaponin/Documents/Dev/wai-demo/mini-registry/_working/round-05-data-review/_evidence/P1_fifth_spelt/src/test/data.test.js
+added after the window closed (2026-10-31T19:01:50.504Z), by another hand or later: /Users/arnelaponin/Documents/Dev/wai-demo/mini-registry/_working/round-05-data-review/_evidence/P1_fifth_spelt/src/test/reset.test.js
+added after the window closed (2026-10-31T19:01:50.503Z), by another hand or later: /Users/arnelaponin/Documents/Dev/wai-demo/mini-registry/_working/round-05-data-review/_evidence/P1_fifth_spelt/src/test/search.test.js
+added after the window closed (2026-10-31T19:01:50.701Z), by another hand or later: /Users/arnelaponin/Documents/Dev/wai-demo/mini-registry/_working/round-05-data-review/_evidence/P2.diff
+added after the window closed (2026-10-31T19:01:58.052Z), by another hand or later: /Users/arnelaponin/Documents/Dev/wai-demo/mini-registry/_working/round-05-data-review/_evidence/P2_date_form.log
+added after the window closed (2026-10-31T19:01:50.526Z), by another hand or later: /Users/arnelaponin/Documents/Dev/wai-demo/mini-registry/_working/round-05-data-review/_evidence/P2_date_form/src/README.md
+added after the window closed (2026-10-31T19:01:57.759Z), by another hand or later: /Users/arnelaponin/Documents/Dev/wai-demo/mini-registry/_working/round-05-data-review/_evidence/P2_date_form/src/data/enrolments.json
+added after the window closed (2026-10-31T19:01:57.759Z), by another hand or later: /Users/arnelaponin/Documents/Dev/wai-demo/mini-registry/_working/round-05-data-review/_evidence/P2_date_form/src/data/exam_candidate_list.json
+added after the window closed (2026-10-31T19:01:57.760Z), by another hand or later: /Users/arnelaponin/Documents/Dev/wai-demo/mini-registry/_working/round-05-data-review/_evidence/P2_date_form/src/data/key_table.json
+added after the window closed (2026-10-31T19:01:57.760Z), by another hand or later: /Users/arnelaponin/Documents/Dev/wai-demo/mini-registry/_working/round-05-data-review/_evidence/P2_date_form/src/data/learners.json
+added after the window closed (2026-10-31T19:01:57.761Z), by another hand or later: /Users/arnelaponin/Documents/Dev/wai-demo/mini-registry/_working/round-05-data-review/_evidence/P2_date_form/src/data/reads.json
+added after the window closed (2026-10-31T19:01:57.761Z), by another hand or later: /Users/arnelaponin/Documents/Dev/wai-demo/mini-registry/_working/round-05-data-review/_evidence/P2_date_form/src/data/school_census.json
+added after the window closed (2026-10-31T19:01:57.761Z), by another hand or later: /Users/arnelaponin/Documents/Dev/wai-demo/mini-registry/_working/round-05-data-review/_evidence/P2_date_form/src/data/schools.json
+added after the window closed (2026-10-31T19:01:57.762Z), by another hand or later: /Users/arnelaponin/Documents/Dev/wai-demo/mini-registry/_working/round-05-data-review/_evidence/P2_date_form/src/data/social_grant_list.json
+added after the window closed (2026-10-31T19:01:50.530Z), by another hand or later: /Users/arnelaponin/Documents/Dev/wai-demo/mini-registry/_working/round-05-data-review/_evidence/P2_date_form/src/lib/data_files.js
+added after the window closed (2026-10-31T19:01:50.681Z), by another hand or later: /Users/arnelaponin/Documents/Dev/wai-demo/mini-registry/_working/round-05-data-review/_evidence/P2_date_form/src/lib/lists.js
+added after the window closed (2026-10-31T19:01:50.532Z), by another hand or later: /Users/arnelaponin/Documents/Dev/wai-demo/mini-registry/_working/round-05-data-review/_evidence/P2_date_form/src/lib/names.js
+added after the window closed (2026-10-31T19:01:50.529Z), by another hand or later: /Users/arnelaponin/Documents/Dev/wai-demo/mini-registry/_working/round-05-data-review/_evidence/P2_date_form/src/lib/random.js
+added after the window closed (2026-10-31T19:01:50.533Z), by another hand or later: /Users/arnelaponin/Documents/Dev/wai-demo/mini-registry/_working/round-05-data-review/_evidence/P2_date_form/src/lib/search.js
+added after the window closed (2026-10-31T19:01:50.527Z), by another hand or later: /Users/arnelaponin/Documents/Dev/wai-demo/mini-registry/_working/round-05-data-review/_evidence/P2_date_form/src/package.json
+added after the window closed (2026-10-31T19:01:50.522Z), by another hand or later: /Users/arnelaponin/Documents/Dev/wai-demo/mini-registry/_working/round-05-data-review/_evidence/P2_date_form/src/reset.js
+added after the window closed (2026-10-31T19:01:50.525Z), by another hand or later: /Users/arnelaponin/Documents/Dev/wai-demo/mini-registry/_working/round-05-data-review/_evidence/P2_date_form/src/test/data.test.js
+added after the window closed (2026-10-31T19:01:50.524Z), by another hand or later: /Users/arnelaponin/Documents/Dev/wai-demo/mini-registry/_working/round-05-data-review/_evidence/P2_date_form/src/test/reset.test.js
+added after the window closed (2026-10-31T19:01:50.523Z), by another hand or later: /Users/arnelaponin/Documents/Dev/wai-demo/mini-registry/_working/round-05-data-review/_evidence/P2_date_form/src/test/search.test.js
+added after the window closed (2026-10-31T19:01:26.288Z), by another hand or later: /Users/arnelaponin/Documents/Dev/wai-demo/mini-registry/_working/round-05-data-review/_evidence/count_data.py
+changed after the end list, by the ledger's own entries: /Users/arnelaponin/Documents/Dev/wai-demo/mini-registry/WHAT_IS_RUNNING.md
+the report's record line names this record: /Users/arnelaponin/Documents/Dev/wai-demo/mini-registry/_working/round-05-data/_evidence/record
+output as declared: /Users/arnelaponin/Documents/Dev/wai-demo/mini-registry/src/package.json 255 bytes 5edcd8ce79490309…
+output as declared: /Users/arnelaponin/Documents/Dev/wai-demo/mini-registry/src/reset.js 2800 bytes 4cb5e74df1671e7e…
+output as declared: /Users/arnelaponin/Documents/Dev/wai-demo/mini-registry/src/lib/data_files.js 2366 bytes f53200d909b75b6f…
+output as declared: /Users/arnelaponin/Documents/Dev/wai-demo/mini-registry/src/lib/lists.js 6044 bytes 28672ec0926001c9…
+output as declared: /Users/arnelaponin/Documents/Dev/wai-demo/mini-registry/src/lib/names.js 2378 bytes 9faa617d8891d79e…
+output as declared: /Users/arnelaponin/Documents/Dev/wai-demo/mini-registry/src/lib/random.js 1004 bytes f7165787e7e27f71…
+output as declared: /Users/arnelaponin/Documents/Dev/wai-demo/mini-registry/src/lib/search.js 2303 bytes fc8c5ead71e0cd20…
+output as declared: /Users/arnelaponin/Documents/Dev/wai-demo/mini-registry/src/test/data.test.js 8738 bytes 7e2dd9896dc3f99f…
+output as declared: /Users/arnelaponin/Documents/Dev/wai-demo/mini-registry/src/test/reset.test.js 1585 bytes c608d4f851b95809…
+output as declared: /Users/arnelaponin/Documents/Dev/wai-demo/mini-registry/src/test/search.test.js 3520 bytes 3eb9433df671b906…
+output as declared: /Users/arnelaponin/Documents/Dev/wai-demo/mini-registry/src/data/enrolments.json 5083 bytes 4435bfa8398d2230…
+output as declared: /Users/arnelaponin/Documents/Dev/wai-demo/mini-registry/src/data/exam_candidate_list.json 3623 bytes 6be0ea384c1e95e1…
+output as declared: /Users/arnelaponin/Documents/Dev/wai-demo/mini-registry/src/data/key_table.json 5024 bytes ae86a420f759f392…
+output as declared: /Users/arnelaponin/Documents/Dev/wai-demo/mini-registry/src/data/learners.json 11017 bytes 32e01ac3a4a25a13…
+output as declared: /Users/arnelaponin/Documents/Dev/wai-demo/mini-registry/src/data/reads.json 296 bytes 62ffc8413ccf864c…
+output as declared: /Users/arnelaponin/Documents/Dev/wai-demo/mini-registry/src/data/school_census.json 3907 bytes 9c62470ee7bb8372…
+output as declared: /Users/arnelaponin/Documents/Dev/wai-demo/mini-registry/src/data/schools.json 85 bytes ba3aef875bd398e2…
+output as declared: /Users/arnelaponin/Documents/Dev/wai-demo/mini-registry/src/data/social_grant_list.json 3566 bytes ed1c694c37603d60…
+declared output is a folder, read as such: /Users/arnelaponin/Documents/Dev/wai-demo/mini-registry/_working/round-05-data/_evidence
+report line 33: quoted block of 8 lines found in /Users/arnelaponin/Documents/Dev/wai-demo/mini-registry/_working/round-05-data/_evidence/A1_stage1.log
+report line 52: quoted block of 4 lines found in /Users/arnelaponin/Documents/Dev/wai-demo/mini-registry/_working/round-05-data/_evidence/A2_reset_and_checks.log
+report line 87: quoted block of 1 lines found in /Users/arnelaponin/Documents/Dev/wai-demo/mini-registry/_working/round-05-data/_evidence/A3_planted_fault.log
+report line 99: quoted block of 1 lines found in /Users/arnelaponin/Documents/Dev/wai-demo/mini-registry/_working/round-05-data/_evidence/A4_reset_twice.log
+report line 115: quoted block of 1 lines found in /Users/arnelaponin/Documents/Dev/wai-demo/mini-registry/_working/round-05-data/_evidence/A7_sources_unchanged.log
+quoted blocks read against the file they name: 5

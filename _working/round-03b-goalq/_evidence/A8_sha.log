@@ -1,0 +1,3 @@
+# A8 sources 2026-10-31T18:03:00Z
+$ diff <(tail -n +2 sha256_start.txt) <(tail -n +2 sha256_end.txt); lines compared
+identical: 14 files, 0 changed

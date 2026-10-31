@@ -1,0 +1,13 @@
+2026-10-31 18:31:41 UTC
+$ ls -ld "/Users/arnelaponin/Documents/Dev/wai-demo/mini-registry/docs"
+drwxr-xr-x@ 12 arnelaponin  staff  384 Oct 31 20:30 /Users/arnelaponin/Documents/Dev/wai-demo/mini-registry/docs
+exit 0
+$ ls -ld "/Users/arnelaponin/Documents/Dev/wai-demo/mini-registry/docs/count"
+drwxr-xr-x@ 3 arnelaponin  staff  96 Oct 31 20:28 /Users/arnelaponin/Documents/Dev/wai-demo/mini-registry/docs/count
+exit 0
+$ ls -ld "/Users/arnelaponin/Documents/Dev/wai-demo/mini-registry/_working/round-04-count/_evidence"
+drwxr-xr-x@ 19 arnelaponin  staff  608 Oct 31 20:31 /Users/arnelaponin/Documents/Dev/wai-demo/mini-registry/_working/round-04-count/_evidence
+exit 0
+$ ls -ld "/Users/arnelaponin/Documents/Dev/wai-demo/mini-registry/_reports"
+drwxr-xr-x@ 18 arnelaponin  staff  576 Oct 31 20:31 /Users/arnelaponin/Documents/Dev/wai-demo/mini-registry/_reports
+exit 0

@@ -1,0 +1,20 @@
+# A5 2026-10-31T18:02:47Z
+$ /usr/bin/python3 -B _working/round-03b-goalq/_evidence/check_paper.py /Users/arnelaponin/Documents/Dev/wai-demo/mini-registry A5
+pairs in the table: 18
+0 one-way
+per section: other questions named in its positions and table, against its Depends on
+Q-1 depends on [7]; judged under the recommendations of [7]; named outside its dependencies: none
+Q-2 depends on none; judged under the recommendations of none; named outside its dependencies: none
+Q-3 depends on none; judged under the recommendations of none; named outside its dependencies: none
+Q-4 depends on [5]; judged under the recommendations of [5]; named outside its dependencies: none
+Q-5 depends on [7]; judged under the recommendations of [7]; named outside its dependencies: none
+Q-6 depends on [7]; judged under the recommendations of [7]; named outside its dependencies: none
+Q-7 depends on none; judged under the recommendations of none; named outside its dependencies: none
+Q-8 depends on [1, 3, 5, 6, 7]; judged under the recommendations of [1, 3, 5, 6, 7]; named outside its dependencies: none
+Q-9 depends on [1, 5, 6, 7, 8]; judged under the recommendations of [1, 5, 6, 7, 8]; named outside its dependencies: none
+Q-10 depends on none; judged under the recommendations of none; named outside its dependencies: none
+Q-11 depends on [10]; judged under the recommendations of [10]; named outside its dependencies: none
+Q-12 depends on [10, 11]; judged under the recommendations of [10, 11]; named outside its dependencies: none
+Q-13 depends on [8]; judged under the recommendations of [8]; named outside its dependencies: none
+0 judged under an answer it does not depend on
+exit=0

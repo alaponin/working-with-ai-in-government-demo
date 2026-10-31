@@ -1,0 +1,96 @@
+2026-10-31 18:37:09 UTC
+$ /usr/bin/python3 -I route2.py <root> docs/count/count.csv
+elements with a heading in GOAL.md: 17  S-1 S-2 S-3 S-4 S-5 S-6 S-7 F-1 F-2 F-3 F-4 F-5 SC-1 SC-2 SC-3 SC-4 SC-5
+screens' prose, docs/GOAL.md:112 cites R-17
+ruled lines read in the paper: 45 (13 proposals, 32 lines of 'Taken together' from line 291)
+ruled lines citing a requirement: 0
+
+== route 2: pairs from the goal's citations: 18
+  S-1 <- R-02 (docs/GOAL.md:20) R-03 (docs/GOAL.md:20)
+  S-2 <- R-03 (docs/GOAL.md:27)
+  S-3 <- none
+  S-4 <- R-04 (docs/GOAL.md:41) R-05 (docs/GOAL.md:41)
+  S-5 <- R-05 (docs/GOAL.md:48)
+  S-6 <- R-03 (docs/GOAL.md:55) R-06 (docs/GOAL.md:55)
+  S-7 <- R-05 (docs/GOAL.md:62) R-07 (docs/GOAL.md:62)
+  F-1 <- none
+  F-2 <- none
+  F-3 <- none
+  F-4 <- none
+  F-5 <- R-01 (docs/GOAL.md:106) R-06 (docs/GOAL.md:106) R-07 (docs/GOAL.md:106)
+  F-6 <- none
+  F-7 <- none
+  SC-1 <- R-17 (docs/GOAL.md:112 (section 3 prose))
+  SC-2 <- R-17 (docs/GOAL.md:112 (section 3 prose))
+  SC-3 <- R-17 (docs/GOAL.md:112 (section 3 prose))
+  SC-4 <- R-17 (docs/GOAL.md:112 (section 3 prose))
+  SC-5 <- R-17 (docs/GOAL.md:112 (section 3 prose))
+== route 1: pairs of count.csv (element not none): 62
+
+route 1 (count.csv): requirements reaching >=1 element 13, none 10; elements reached 12, none 7
+    requirements reaching none: R-08 R-09 R-10 R-11 R-12 R-13 R-16 R-19 R-21 R-23
+    elements reached by none:   F-1 F-2 F-3 F-4 F-5 F-6 F-7
+route 2 (goal's citations): requirements reaching >=1 element 8, none 15; elements reached 12, none 7
+    requirements reaching none: R-08 R-09 R-10 R-11 R-12 R-13 R-14 R-15 R-16 R-18 R-19 R-20 R-21 R-22 R-23
+    elements reached by none:   S-3 F-1 F-2 F-3 F-4 F-6 F-7
+
+requirements reached in route 1 only: R-14 R-15 R-18 R-20 R-22
+requirements reached in route 2 only: none
+elements reached in route 1 only: S-3
+elements reached in route 2 only: F-5
+
+pairs in both routes: 15
+pairs in route 2 only (the goal cites, count.csv lacks): 3
+  R-01,F-5  cited at docs/GOAL.md:106
+  R-06,F-5  cited at docs/GOAL.md:106
+  R-07,F-5  cited at docs/GOAL.md:106
+pairs in route 1 only (count.csv has, the goal does not cite): 47
+  R-01,S-2  ground: enrol a child with F, G, D and S that the registry does not yet hold
+  R-01,S-3  ground: enrol a child with F, G, D and S
+  R-01,S-4  ground: that the registry does not yet hold
+  R-01,S-5  ground: enrol the same child again with the same F, G, D and S
+  R-01,S-6  ground: the first enrolment adds one learner
+  R-02,SC-1  ground: one goal, enrolling a learner
+  R-03,S-3  ground: the form of a date and of a school
+  R-03,S-4  ground: a child the registry does not yet hold
+  R-03,SC-1  ground: the screen offers an entry for each of the four
+  R-04,S-2  ground: enrol a child the registry does not hold (F, G, D, S)
+  R-04,S-3  ground: enrol a child the registry does not hold (F, G, D, S)
+  R-04,S-5  ground: in the second enrolment there is no write
+  R-04,S-6  ground: enrol a child the registry does not hold
+  R-05,S-2  ground: enrol a child with exactly F, G and D
+  R-05,S-3  ground: enrol a child with exactly F, G and D
+  R-05,S-6  ground: note the learner number it is given
+  R-05,SC-2  ground: the screen shows the learner saved in the set-up
+  R-06,S-2  ground: enrol a child whose family name, given names and date of birth
+  R-06,S-3  ground: enrol a child whose family name, given names and date of birth
+  R-06,S-4  ground: match none of the records the search looks in
+  R-07,S-2  ground: enrol a child the registry does not hold
+  R-07,S-3  ground: enrol a child the registry does not hold
+  R-07,S-4  ground: enrol a child the registry does not hold
+  R-07,S-5  ground: then enrol the same child again
+  R-07,S-6  ground: the first screen says that a new learner number was given
+  R-07,SC-2  ground: the second says that an existing learner was found, and shows that learner
+  R-07,SC-3  ground: the first screen says that a new learner number was given, and shows it
+  R-14,S-2  ground: enrol one child
+  R-14,S-3  ground: enrol one child
+  R-14,S-4  ground: enrol one child
+  R-15,S-2  ground: enrol one child
+  R-15,S-3  ground: enrol one child
+  R-15,S-4  ground: enrol one child
+  R-17,S-5  ground: the screen after an existing learner is found
+  R-17,S-6  ground: the screen after a new learner is saved
+  R-18,S-2  ground: enrol a child the registry does not hold
+  R-18,S-3  ground: enrol a child the registry does not hold
+  R-18,S-4  ground: enrol a child the registry does not hold
+  R-18,S-5  ground: enrol the same child again
+  R-18,S-6  ground: enrol a child the registry does not hold
+  R-20,S-2  ground: enrol a child through a windowless check
+  R-20,S-3  ground: enrol a child through a windowless check
+  R-20,S-4  ground: enrol a child through a windowless check
+  R-22,S-2  ground: enrol a child the registry does not hold
+  R-22,S-3  ground: enrol a child the registry does not hold
+  R-22,S-4  ground: enrol a child the registry does not hold
+  R-22,S-6  ground: enrol a child the registry does not hold
+exit 0
+2026-10-31 18:37:09 UTC

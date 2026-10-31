@@ -1,0 +1,9 @@
+# 2026-10-31 17:48:27 UTC
+drwxr-xr-x@ 13 arnelaponin  staff  416 Oct 31 19:48 /Users/arnelaponin/Documents/Dev/wai-demo/mini-registry/.git
+# exit=0
+drwxr-xr-x@ 12 arnelaponin  staff  384 Oct 31 19:48 /Users/arnelaponin/Documents/Dev/wai-demo/_coordination/.git
+# exit=0
+drwxr-xr-x@ 11 arnelaponin  staff  352 Oct 31 19:48 /Users/arnelaponin/Documents/Dev/wai-demo/mini-registry/_working/round-commit2/_evidence
+# exit=0
+-rw-r--r--@ 1 arnelaponin  staff  9196 Oct 31 19:48 /Users/arnelaponin/Documents/Dev/wai-demo/mini-registry/_reports/REPORT_COMMIT2_2026-10-31.md
+# exit=0

@@ -1,0 +1,57 @@
+# ledger show 2026-10-31T18:13:36Z
+20261031T174355Z_MR_issued_C-2026-10-31-17.yaml
+  kind: issued
+  written: 2026-10-31T17:43:55Z
+  code: MR
+  by: "MR · orchestrator"
+  account: arne.laponin@gmail.com
+  computer: MacBookPro
+  id: C-2026-10-31-17
+  version: 1
+  instruction: ~/IdeaProjects/mini-registry/_prompts/PROMPT_GOALQ_2026-10-31.md
+  session: "MR · work · answers to the goal's questions"
+  model: Opus
+  effort: high
+  report: ~/IdeaProjects/mini-registry/_reports/REPORT_GOALQ_2026-10-31.md
+  outputs: "~/IdeaProjects/mini-registry/docs/GOAL-QUESTIONS-PAPER.md · ~/IdeaProjects/mini-registry/_working/round-03b-goalq/_evidence/ · ~/IdeaProjects/mini-registry/_reports/REPORT_GOALQ_2026-10-31.md"
+  serves: "the working prototype, deliverable 1 of the constants — the answers round 6, the build, needs to the 13 questions the accepted goal leaves open; the owner ruled at 19:42 Tallinn time, 31 October 2026, that they are answered now, before round 4"
+  inputs: "~/IdeaProjects/mini-registry/docs/GOAL.md sha256:342515fd5ed96e45e23014568f67e8126edfeeccdb7f862dddd38e44acdb2aed · ~/IdeaProjects/brief/MINI-REGISTRY-BRIEF.md sha256:ec6971e74a6a8387de0e5bd7a5e1cdead6ddf711b8fdac3ccc1d4b7555e11f64 · ~/IdeaProjects/mini-registry/docs/REQUIREMENTS.md sha256:ad583b3958fb5c5fdf6683b5c2487b6f0c425d66cebc7c46811e2e19af13f103 · ~/IdeaProjects/mini-registry/docs/GROUNDWORK.md sha256:5ed9b62f282d433df7c337a2da30e4830c56170dca1e646ae5aacc2cc2795dce · ~/IdeaProjects/mini-registry/docs/groundwork/ sha256:05e359476e04fda3c7445f952e2ea481c4a8c73192fea0fb43bbbd80a33a5bf1 · ~/IdeaProjects/mini-registry/docs/GAPS-PAPER.md sha256:d03db64c6e49a1b92467c1e6e19929c321964bd89f6cb715d15dd570f37bc8bb · ~/IdeaProjects/mini-registry/docs/QUESTIONS-PAPER.md sha256:5146d23a87cf9c0527c26c2965725bfa1125bd1a0a103ac83b68fb7dbd50cce0 · ~/IdeaProjects/mini-registry/_kinds/analysis.md sha256:a5054bec7db874e744d0f042f348d099378b2cf0c6c6cedd027f0329843f7514"
+  instruction_digest: sha256:5406b202bc31baaa66b1e67ff16d5573dcedad0bb4206ed25705486ec2c1876f
+  waits_for: "MR C-2026-10-31-15"
+  format: 2
+  on this computer, MacBookPro: instruction /Users/arnelaponin/Documents/Dev/wai-demo/mini-registry/_prompts/PROMPT_GOALQ_2026-10-31.md — on disk
+  on this computer, MacBookPro: report /Users/arnelaponin/Documents/Dev/wai-demo/mini-registry/_reports/REPORT_GOALQ_2026-10-31.md — on disk
+
+20261031T175434Z_MR_started_C-2026-10-31-17.yaml
+  kind: started
+  written: 2026-10-31T17:54:34Z
+  code: MR
+  by: "MR · work · answers to the goal's questions"
+  account: arne.laponin@gmail.com
+  computer: MacBookPro
+  id: C-2026-10-31-17
+  version: 1
+  session: "MR · work · answers to the goal's questions"
+  shell: native
+  instruction: ~/IdeaProjects/mini-registry/_prompts/PROMPT_GOALQ_2026-10-31.md
+  effort: unknown
+  started_by: unknown
+  inputs: "~/IdeaProjects/mini-registry/docs/GOAL.md sha256:342515fd5ed96e45e23014568f67e8126edfeeccdb7f862dddd38e44acdb2aed · ~/IdeaProjects/brief/MINI-REGISTRY-BRIEF.md sha256:ec6971e74a6a8387de0e5bd7a5e1cdead6ddf711b8fdac3ccc1d4b7555e11f64 · ~/IdeaProjects/mini-registry/docs/REQUIREMENTS.md sha256:ad583b3958fb5c5fdf6683b5c2487b6f0c425d66cebc7c46811e2e19af13f103 · ~/IdeaProjects/mini-registry/docs/GROUNDWORK.md sha256:5ed9b62f282d433df7c337a2da30e4830c56170dca1e646ae5aacc2cc2795dce · ~/IdeaProjects/mini-registry/docs/groundwork/ sha256:05e359476e04fda3c7445f952e2ea481c4a8c73192fea0fb43bbbd80a33a5bf1 · ~/IdeaProjects/mini-registry/docs/GAPS-PAPER.md sha256:d03db64c6e49a1b92467c1e6e19929c321964bd89f6cb715d15dd570f37bc8bb · ~/IdeaProjects/mini-registry/docs/QUESTIONS-PAPER.md sha256:5146d23a87cf9c0527c26c2965725bfa1125bd1a0a103ac83b68fb7dbd50cce0 · ~/IdeaProjects/mini-registry/_kinds/analysis.md sha256:a5054bec7db874e744d0f042f348d099378b2cf0c6c6cedd027f0329843f7514"
+  format: 2
+  on this computer, MacBookPro: instruction /Users/arnelaponin/Documents/Dev/wai-demo/mini-registry/_prompts/PROMPT_GOALQ_2026-10-31.md — on disk
+
+20261031T180503Z_MR_finished_C-2026-10-31-17.yaml
+  kind: finished
+  written: 2026-10-31T18:05:03Z
+  code: MR
+  by: "MR · work · answers to the goal's questions"
+  account: arne.laponin@gmail.com
+  computer: MacBookPro
+  id: C-2026-10-31-17
+  version: 1
+  report: ~/IdeaProjects/mini-registry/_reports/REPORT_GOALQ_2026-10-31.md
+  outcome: "The paper recommends one answer to each of the goal's 13 questions in 19,984 bytes, with 18 dependencies declared both ways; applied together they add two failures (F-6, F-7), no step and no screen, the goal keeping five screens each with R-17's line"
+  moved: "docs/GOAL-QUESTIONS-PAPER.md is new, for the owner's ruling"
+  format: 2
+  on this computer, MacBookPro: report /Users/arnelaponin/Documents/Dev/wai-demo/mini-registry/_reports/REPORT_GOALQ_2026-10-31.md — on disk
+EXIT=0

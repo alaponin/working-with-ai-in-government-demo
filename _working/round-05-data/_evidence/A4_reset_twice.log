@@ -1,0 +1,27 @@
+# A4 — 2026-10-31T18:56:11Z
+$ node reset.js   (first)
+exit 0
+$ shasum -a 256 data/*
+4435bfa8398d2230c2a45738b633afcb2d3063f523e3390458328be0400bb3dd  data/enrolments.json
+6be0ea384c1e95e1ff1c59fabe157a5f54ad9fc54d0a3e5050a6eb21476b4224  data/exam_candidate_list.json
+ae86a420f759f3927a108ee58b2dbd10ab3fd688447e248815f3979d7bbd30da  data/key_table.json
+32e01ac3a4a25a130d4b54cbaca140252690e13aa3c20a122210ce0232350b66  data/learners.json
+62ffc8413ccf864c57e238644419881854b992cfb18b9652cdc0eaae7f4b6f25  data/reads.json
+9c62470ee7bb837245f1e4d6b60348ca5d941e240be4ded670fe065adf6a137c  data/school_census.json
+ba3aef875bd398e24c0cd29322b3173bb6c2b94457927c24532de000e4fa8512  data/schools.json
+ed1c694c37603d608b2c43bc0cd21c68cdb891e9393e7d2c1b1d674228ca166e  data/social_grant_list.json
+# 2026-10-31T18:56:12Z
+$ node reset.js   (second)
+exit 0
+$ shasum -a 256 data/*
+4435bfa8398d2230c2a45738b633afcb2d3063f523e3390458328be0400bb3dd  data/enrolments.json
+6be0ea384c1e95e1ff1c59fabe157a5f54ad9fc54d0a3e5050a6eb21476b4224  data/exam_candidate_list.json
+ae86a420f759f3927a108ee58b2dbd10ab3fd688447e248815f3979d7bbd30da  data/key_table.json
+32e01ac3a4a25a130d4b54cbaca140252690e13aa3c20a122210ce0232350b66  data/learners.json
+62ffc8413ccf864c57e238644419881854b992cfb18b9652cdc0eaae7f4b6f25  data/reads.json
+9c62470ee7bb837245f1e4d6b60348ca5d941e240be4ded670fe065adf6a137c  data/school_census.json
+ba3aef875bd398e24c0cd29322b3173bb6c2b94457927c24532de000e4fa8512  data/schools.json
+ed1c694c37603d608b2c43bc0cd21c68cdb891e9393e7d2c1b1d674228ca166e  data/social_grant_list.json
+$ diff A4_first.sha256 A4_second.sha256
+exit 0  (0: identical)
+# end 2026-10-31T18:56:13Z

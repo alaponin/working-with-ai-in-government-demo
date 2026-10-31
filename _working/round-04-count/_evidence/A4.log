@@ -1,0 +1,94 @@
+2026-10-31 18:29:47 UTC
+$ round_record.py run -- /usr/bin/python3 plant.py docs/count/count.csv _evidence/planted.csv
+removed: R-17,SC-4,"show each screen in turn"
+added:   R-24,S-1,"open the enrolment screen"
+rows in /Users/arnelaponin/Documents/Dev/wai-demo/mini-registry/docs/count/count.csv: 72; in /Users/arnelaponin/Documents/Dev/wai-demo/mini-registry/_working/round-04-count/_evidence/planted.csv: 72
+exit 0
+$ round_record.py run -- /usr/bin/python3 count.py <root> _evidence/planted.csv REQUIREMENTS_SET.txt GOAL_SET.txt
+rows read: 72 (/Users/arnelaponin/Documents/Dev/wai-demo/mini-registry/_working/round-04-count/_evidence/planted.csv)
+unknown row: R-24,S-1
+1 unknown, 0 absent
+
+== Requirements -> goal (23 requirements)
+  R-01 -> S-2 S-3 S-4 S-5 S-6
+  R-02 -> S-1 SC-1
+  R-03 -> S-1 S-2 S-3 S-4 S-6 SC-1
+  R-04 -> S-2 S-3 S-4 S-5 S-6
+  R-05 -> S-2 S-3 S-4 S-5 S-6 S-7 SC-2
+  R-06 -> S-2 S-3 S-4 S-6
+  R-07 -> S-2 S-3 S-4 S-5 S-6 S-7 SC-2 SC-3
+  R-08 -> none
+  R-09 -> none
+  R-10 -> none
+  R-11 -> none
+  R-12 -> none
+  R-13 -> none
+  R-14 -> S-2 S-3 S-4
+  R-15 -> S-2 S-3 S-4
+  R-16 -> none
+  R-17 -> S-5 S-6 SC-1 SC-2 SC-3 SC-5
+  R-18 -> S-2 S-3 S-4 S-5 S-6
+  R-19 -> none
+  R-20 -> S-2 S-3 S-4
+  R-21 -> none
+  R-22 -> S-2 S-3 S-4 S-6
+  R-23 -> none
+reach at least one element: 13
+reach none: 10
+  R-08 — the made-up data: the prototype's data reset, before any enrolment
+  R-09 — the made-up data: the prototype's data reset, before any enrolment
+  R-10 — the made-up data: the prototype's data reset, before any enrolment
+  R-11 — the made-up data: the prototype's data reset, before any enrolment
+  R-12 — the made-up data: how many of these children the registry's search catches is not tested here
+  R-13 — the made-up data: the prototype's data reset, before any enrolment
+  R-16 — the made-up data: list every source from which the data is made
+  R-19 — what the prototype must not do outside the goal: the list of other bodies the prototype draws on
+  R-21 — what the prototype must not do outside the goal: run every check of the screens; while they run and when they end, read the list of windows again
+  R-23 — the delivery: the note as delivered
+
+== Goal -> requirements (19 elements)
+  S-1 <- R-02 R-03
+  S-2 <- R-01 R-03 R-04 R-05 R-06 R-07 R-14 R-15 R-18 R-20 R-22
+  S-3 <- R-01 R-03 R-04 R-05 R-06 R-07 R-14 R-15 R-18 R-20 R-22
+  S-4 <- R-01 R-03 R-04 R-05 R-06 R-07 R-14 R-15 R-18 R-20 R-22
+  S-5 <- R-01 R-04 R-05 R-07 R-17 R-18
+  S-6 <- R-01 R-03 R-04 R-05 R-06 R-07 R-17 R-18 R-22
+  S-7 <- R-05 R-07
+  F-1 <- none
+  F-2 <- none
+  F-3 <- none
+  F-4 <- none
+  F-5 <- none
+  F-6 <- none
+  F-7 <- none
+  SC-1 <- R-02 R-03 R-17
+  SC-2 <- R-05 R-07 R-17
+  SC-3 <- R-07 R-17
+  SC-4 <- none
+  SC-5 <- R-17
+reached by at least one requirement: 11
+reached by none: 8
+  F-1
+      docs/GOAL.md:74 **Source:** brief:11 · brief:14 · ruling:G-07 · groundwork:search_rule.csv:10
+      docs/GOAL-QUESTIONS-PAPER.md:302 | F-1 | seen on SC-4, each entry missing named (Q-4, Q-5, Q-8) |
+  F-2
+      docs/GOAL.md:82 **Source:** ruling:G-07 · ruling:G-09 · groundwork:settings.csv:17
+      docs/GOAL-QUESTIONS-PAPER.md:303 | F-2 | a date naming no day refused too (Q-1); before the search (Q-7) |
+  F-3
+      docs/GOAL.md:90 **Source:** brief:24 · ruling:G-07 · groundwork:settings.csv:18
+      docs/GOAL-QUESTIONS-PAPER.md:304 | F-3 | refused on SC-4 where it reaches the registry (Q-6) |
+  F-4
+      docs/GOAL.md:98 **Source:** ruling:G-02 · ruling:G-05 · ruling:G-09 · ruling:Q-14 · groundwork:search_rule.csv:16 · groundwork:search_rule.csv:17 · groundwork:settings.csv:13
+      docs/GOAL-QUESTIONS-PAPER.md:305 | F-4 | SC-5 also says nothing was saved (Q-8) |
+  F-5
+      docs/GOAL.md:106 **Source:** brief:7 · brief:13 · brief:14 · R-01 · R-06 · R-07 · ruling:G-05 · groundwork:search_rule.csv:5 · groundwork:search_rule.csv:6 · groundwork:settings.csv:14
+      docs/GOAL-QUESTIONS-PAPER.md:306 | F-5 | unchanged |
+  F-6
+      docs/GOAL-QUESTIONS-PAPER.md:313 **Added:** F-6, a record not saved (Q-3), and F-7, a different child taken for a learner (Q-12); no screen, no step.
+  F-7
+      docs/GOAL-QUESTIONS-PAPER.md:313 **Added:** F-6, a record not saved (Q-3), and F-7, a different child taken for a learner (Q-12); no screen, no step.
+  SC-4
+      docs/GOAL.md:134 **Named by:** S-3, F-2.
+      docs/GOAL-QUESTIONS-PAPER.md:310 | SC-4 | renamed "the entry refused"; names each fault of F-1 to F-3 (Q-5, Q-6, Q-8, Q-9); way back (Q-13) |
+exit 0
+2026-10-31 18:29:47 UTC

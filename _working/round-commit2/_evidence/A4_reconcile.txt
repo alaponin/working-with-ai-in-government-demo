@@ -1,0 +1,23 @@
+# 2026-10-31 17:47:24 UTC A4 reconciliation
+## mini-registry
+new/changed lines in before (--ignored, not !!): 42
+  of which M: 5, ?? : 37, ?? directories: 10
+files in before -uall listing: 200
+files in git show HEAD: 201
+files in HEAD not in -uall listing:
+_working/round-commit2/_evidence/before_uall__coordination.txt
+files in -uall listing not in HEAD:
+## _coordination
+new/changed lines in before (--ignored, not !!): 52
+  of which M: 0, ?? : 52, ?? directories: 0
+files in before -uall listing: 52
+files in git show HEAD: 52
+files in HEAD not in -uall listing:
+files in -uall listing not in HEAD:
+# 2026-10-31 17:47:45 UTC mini-registry: git show --numstat --format= HEAD, the modified files
+10	4	WHAT_IS_RUNNING.md
+1	0	_kinds/analysis.md
+1	0	_kinds/drafting.md
+27	4	_prompts/PROMPT_QUESTIONS_2026-10-31.md
+12	4	_prompts/PROMPT_REVIEW_QUESTIONS_2026-10-31.md
+# exit=0

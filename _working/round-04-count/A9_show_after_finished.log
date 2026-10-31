@@ -1,0 +1,54 @@
+20261031T182102Z_MR_issued_C-2026-10-31-19.yaml
+  kind: issued
+  written: 2026-10-31T18:21:02Z
+  code: MR
+  by: "MR · orchestrator"
+  account: arne.laponin@gmail.com
+  computer: MacBookPro
+  id: C-2026-10-31-19
+  version: 1
+  instruction: ~/IdeaProjects/mini-registry/_prompts/PROMPT_COUNT_2026-10-31.md
+  session: "MR · work · the count"
+  model: Opus
+  effort: high
+  report: ~/IdeaProjects/mini-registry/_reports/REPORT_COUNT_2026-10-31.md
+  outputs: "~/IdeaProjects/mini-registry/docs/COUNT.md · ~/IdeaProjects/mini-registry/docs/count/count.csv · ~/IdeaProjects/mini-registry/_working/round-04-count/_evidence/ · ~/IdeaProjects/mini-registry/_reports/REPORT_COUNT_2026-10-31.md"
+  serves: "the working prototype, deliverable 1 of the constants — round 4 of the brief, the count: every requirement against the goal, both ways"
+  inputs: "~/IdeaProjects/mini-registry/docs/GOAL.md sha256:342515fd5ed96e45e23014568f67e8126edfeeccdb7f862dddd38e44acdb2aed · ~/IdeaProjects/mini-registry/docs/REQUIREMENTS.md sha256:ad583b3958fb5c5fdf6683b5c2487b6f0c425d66cebc7c46811e2e19af13f103 · ~/IdeaProjects/mini-registry/docs/GOAL-QUESTIONS-PAPER.md sha256:9603caf1d95b8f89927a35969e33947da9e93776e04f98ccd27a3a7965ef0cef · ~/IdeaProjects/_coordination/_ledger/20261031T181936Z_MR_ruled_D-2026-10-31-07.yaml sha256:d0076dddc8edb8ecee4dd7171fba1b554b6471d7cfeb44234a6e071116887ae7 · ~/IdeaProjects/mini-registry/_kinds/checking.md sha256:172beca4e52e63f6ea3640a39af7ce1c9c5368cd91c44e6c3e00a0952bea2ea3"
+  instruction_digest: sha256:f55af9830035a27abe1b6a2e47c914728496da8b9fb4cd0596e96990227c6c29
+  format: 2
+  on this computer, MacBookPro: instruction /Users/arnelaponin/Documents/Dev/wai-demo/mini-registry/_prompts/PROMPT_COUNT_2026-10-31.md — on disk
+  on this computer, MacBookPro: report /Users/arnelaponin/Documents/Dev/wai-demo/mini-registry/_reports/REPORT_COUNT_2026-10-31.md — on disk
+
+20261031T182355Z_MR_started_C-2026-10-31-19.yaml
+  kind: started
+  written: 2026-10-31T18:23:55Z
+  code: MR
+  by: "MR · work · the count"
+  account: arne.laponin@gmail.com
+  computer: MacBookPro
+  id: C-2026-10-31-19
+  version: 1
+  session: "MR · work · the count"
+  shell: native
+  instruction: ~/IdeaProjects/mini-registry/_prompts/PROMPT_COUNT_2026-10-31.md
+  effort: unknown
+  started_by: unknown
+  inputs: "~/IdeaProjects/mini-registry/docs/GOAL.md sha256:342515fd5ed96e45e23014568f67e8126edfeeccdb7f862dddd38e44acdb2aed · ~/IdeaProjects/mini-registry/docs/REQUIREMENTS.md sha256:ad583b3958fb5c5fdf6683b5c2487b6f0c425d66cebc7c46811e2e19af13f103 · ~/IdeaProjects/mini-registry/docs/GOAL-QUESTIONS-PAPER.md sha256:9603caf1d95b8f89927a35969e33947da9e93776e04f98ccd27a3a7965ef0cef · ~/IdeaProjects/_coordination/_ledger/20261031T181936Z_MR_ruled_D-2026-10-31-07.yaml sha256:d0076dddc8edb8ecee4dd7171fba1b554b6471d7cfeb44234a6e071116887ae7 · ~/IdeaProjects/mini-registry/_kinds/checking.md sha256:172beca4e52e63f6ea3640a39af7ce1c9c5368cd91c44e6c3e00a0952bea2ea3"
+  format: 2
+  on this computer, MacBookPro: instruction /Users/arnelaponin/Documents/Dev/wai-demo/mini-registry/_prompts/PROMPT_COUNT_2026-10-31.md — on disk
+
+20261031T183233Z_MR_finished_C-2026-10-31-19.yaml
+  kind: finished
+  written: 2026-10-31T18:32:33Z
+  code: MR
+  by: "MR · work · the count"
+  account: arne.laponin@gmail.com
+  computer: MacBookPro
+  id: C-2026-10-31-19
+  version: 1
+  report: ~/IdeaProjects/mini-registry/_reports/REPORT_COUNT_2026-10-31.md
+  outcome: "Requirements to goal: 13 of 23 reach at least one element, 10 reach none (R-08 to R-13, R-16, R-19, R-21, R-23); goal to requirements: 12 of 19 elements reached, 7 by none, every failure F-1 to F-7; 72 rows, 0 unknown, 0 absent, 0 grounds not found; planted fault caught; record check 0 findings"
+  moved: "docs/COUNT.md and docs/count/count.csv are new, for round 6 to read what each requirement asks of the goal"
+  format: 2
+  on this computer, MacBookPro: report /Users/arnelaponin/Documents/Dev/wai-demo/mini-registry/_reports/REPORT_COUNT_2026-10-31.md — on disk

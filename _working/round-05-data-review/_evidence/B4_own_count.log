@@ -1,0 +1,55 @@
+# 2026-10-31 19:01:33 UTC host MacBookPro
+$ /usr/bin/python3 -I count_data.py /Users/arnelaponin/Documents/Dev/wai-demo/mini-registry
+files read: enrolments.json, exam_candidate_list.json, key_table.json, learners.json, reads.json, school_census.json, schools.json, social_grant_list.json
+figure                                                     counted here                 fixed by
+children (distinct same_child in key_table)                60                           settings.csv:2 children 60 · G-04
+entries without a child in key_table                       0                            Q-11 (all 68 keyed)
+schools in schools.json                                    3                            settings.csv:3 schools 3
+children whose entries name two schools                    0                            Q-9 (same on both lists)
+children per school                                        [20, 20, 20]                 Q-7 20 each
+entries without a school                                   0                            Q-9 every list carries one
+entries per list (census, candidate, grant)                [24, 22, 22]                 Q-6 24, 22, 22
+entries in all                                             68                           settings.csv:7 list_entries 68 · G-04
+key_table rows                                             68                           Q-11 all 68
+each list numbered 1 upwards                               True                         Q-11
+children on more than one list                             8                            settings.csv:4 · 8
+of those, on exactly two different lists                   8                            settings.csv:8 exactly 2 · G-04
+  the 8 on school_census+exam_candidate_list               3                            Q-5 A: 3, 3, 2
+  the 8 on school_census+social_grant_list                 3                            Q-5 A: 3, 3, 2
+  the 8 on exam_candidate_list+social_grant_list           2                            Q-5 A: 3, 3, 2
+of the 8, family name spelt differently                    4                            settings.csv:5 · 4
+  of those, differing in capitals only                     0                            settings.csv:11 · 0 (G-05)
+  of those, given names or date also differing             0                            Q-8 A · 0
+  the 4 on school_census+exam_candidate_list               1                            Q-5 A: 1, 2, 1
+  the 4 on school_census+social_grant_list                 2                            Q-5 A: 1, 2, 1
+  the 4 on exam_candidate_list+social_grant_list           1                            Q-5 A: 1, 2, 1
+    C24  school_census:20=Prarasel  ->  exam_candidate_list:20=Praresel   (given 'Linbrimel Osrin', born 2016-03-07)
+    C50  school_census:17=Temnok  ->  social_grant_list:19=Tomnok   (given 'Ostovvin', born 2018-12-10)
+    C56  school_census:22=Orowes  ->  social_grant_list:9=Orowus   (given 'Etovn', born 2020-04-14)
+    C58  exam_candidate_list:14=Tumitem  ->  social_grant_list:2=Tomitem   (given 'Brihallo Niahaln', born 2014-04-12)
+of the 8, all three fields letter for letter               4                            settings.csv:12 · the other 4
+dates not YYYY-MM-DD (entries)                             0                            Q-10 · 0
+ages on 2026-10-31, lowest and highest                     (6, 12)                      settings.csv:6,16 · 6 to 12 (Q-1, G-06)
+ages counted                                               [(6, 11), (7, 10), (8, 3), (9, 12), (10, 9), (11, 11), (12, 12)] 
+three-field keys shared by two different children          0                            settings.csv:13 · 0 (Q-14)
+rule compares, from search_rule.csv: ['family_name', 'given_names', 'date_of_birth'] ; forgives: ['capitals: two values that differ in capitals only are the same']
+learners by this rule, applied here                        64                           Q-13 · 64
+searches finding more than one                             0                            search_rule.csv:17 · never reached
+of the 8, joined by the rule (both entries one learner)    4                            settings.csv:14 · 4 (G-05)
+  of the 4 spelt differently, joined                       0                            0: the rule misses them
+learners.json, rows                                        64                           Q-13 · 64
+learners.json numbers are 1..64 in order                   True                         Q-4 · G-01
+learners.json equals the learners made here                True                         G-03
+enrolments.json, rows                                      68                           Q-12 · 68
+enrolments.json equals the record made here                True                         Q-12 · Q-2
+reads.json files                                           ['lib/lists.js', 'lib/names.js', 'lib/random.js', 'lib/search.js', 'reset.js'] G-10
+sha256 of data/:
+  4435bfa8398d2230c2a45738b633afcb2d3063f523e3390458328be0400bb3dd   5083 enrolments.json
+  6be0ea384c1e95e1ff1c59fabe157a5f54ad9fc54d0a3e5050a6eb21476b4224   3623 exam_candidate_list.json
+  ae86a420f759f3927a108ee58b2dbd10ab3fd688447e248815f3979d7bbd30da   5024 key_table.json
+  32e01ac3a4a25a130d4b54cbaca140252690e13aa3c20a122210ce0232350b66  11017 learners.json
+  62ffc8413ccf864c57e238644419881854b992cfb18b9652cdc0eaae7f4b6f25    296 reads.json
+  9c62470ee7bb837245f1e4d6b60348ca5d941e240be4ded670fe065adf6a137c   3907 school_census.json
+  ba3aef875bd398e24c0cd29322b3173bb6c2b94457927c24532de000e4fa8512     85 schools.json
+  ed1c694c37603d608b2c43bc0cd21c68cdb891e9393e7d2c1b1d674228ca166e   3566 social_grant_list.json
+exit 0

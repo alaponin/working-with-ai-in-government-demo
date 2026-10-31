@@ -1,0 +1,234 @@
+# 2026-10-31 17:47:13 UTC after
+## git status --porcelain --ignored
+?? _working/round-commit2/_evidence/commit_and_A1.txt
+!! .DS_Store
+# exit=0
+## git log --oneline -3
+c419cf3 The day's work of 31 October 2026 since 2fad722, committed at the owner's word (D-2026-10-31-06, "Commit both now") Commit of the day (its report and review, after 2fad722): _prompts/PROMPT_COMMIT_2026-10-31.md, reviewed by _prompts/PROMPT_REVIEW_COMMIT_2026-10-31.md Answers to the groundwork's questions, versions 1 and 2: _prompts/PROMPT_QUESTIONS_2026-10-31.md, reviewed by _prompts/PROMPT_REVIEW_QUESTIONS_2026-10-31.md The goal in full, versions 1 and 2: _prompts/PROMPT_GOAL_2026-10-31.md, reviewed by _prompts/PROMPT_REVIEW_GOAL_2026-10-31.md Second commit of the day (this commit; its report follows it): _prompts/PROMPT_COMMIT2_2026-10-31.md, reviewed by _prompts/PROMPT_REVIEW_COMMIT2_2026-10-31.md Answers to the goal's questions (issued, not yet run): _prompts/PROMPT_GOALQ_2026-10-31.md, reviewed by _prompts/PROMPT_REVIEW_GOALQ_2026-10-31.md
+2fad722 The day's work of 31 October 2026, committed at the owner's word (D-2026-10-31-04, "Commit both now")
+74ca995 Start the mini registry: the places for instructions, reports and reviews, the record of what is running, the constants and the folders on the map of places
+# exit=0
+## git show --stat HEAD
+c419cf3b6317ca733d54ce4993ac56389114251d
+Arne Laponin <arne.laponin@gmail.com>
+Sat Oct 31 19:47:03 2026 +0200
+The day's work of 31 October 2026 since 2fad722, committed at the owner's word (D-2026-10-31-06, "Commit both now")
+Commit of the day (its report and review, after 2fad722): _prompts/PROMPT_COMMIT_2026-10-31.md, reviewed by _prompts/PROMPT_REVIEW_COMMIT_2026-10-31.md
+Answers to the groundwork's questions, versions 1 and 2: _prompts/PROMPT_QUESTIONS_2026-10-31.md, reviewed by _prompts/PROMPT_REVIEW_QUESTIONS_2026-10-31.md
+The goal in full, versions 1 and 2: _prompts/PROMPT_GOAL_2026-10-31.md, reviewed by _prompts/PROMPT_REVIEW_GOAL_2026-10-31.md
+Second commit of the day (this commit; its report follows it): _prompts/PROMPT_COMMIT2_2026-10-31.md, reviewed by _prompts/PROMPT_REVIEW_COMMIT2_2026-10-31.md
+Answers to the goal's questions (issued, not yet run): _prompts/PROMPT_GOALQ_2026-10-31.md, reviewed by _prompts/PROMPT_REVIEW_GOALQ_2026-10-31.md
+
+
+ WHAT_IS_RUNNING.md                                 |   14 +-
+ _kinds/analysis.md                                 |    1 +
+ _kinds/drafting.md                                 |    1 +
+ _prompts/PROMPT_COMMIT2_2026-10-31.md              |  112 +
+ _prompts/PROMPT_GOALQ_2026-10-31.md                |  125 ++
+ _prompts/PROMPT_GOAL_2026-10-31.md                 |  155 ++
+ _prompts/PROMPT_QUESTIONS_2026-10-31.md            |   31 +-
+ _prompts/PROMPT_REVIEW_COMMIT2_2026-10-31.md       |   61 +
+ _prompts/PROMPT_REVIEW_GOALQ_2026-10-31.md         |   60 +
+ _prompts/PROMPT_REVIEW_GOAL_2026-10-31.md          |   68 +
+ _prompts/PROMPT_REVIEW_QUESTIONS_2026-10-31.md     |   16 +-
+ _reports/REPORT_COMMIT_2026-10-31.md               |   94 +
+ _reports/REPORT_GOAL_2026-10-31.md                 |  187 ++
+ _reports/REPORT_GOAL_2026-10-31_v2.md              |  215 ++
+ _reports/REPORT_QUESTIONS_2026-10-31.md            |  173 ++
+ _reports/REPORT_QUESTIONS_2026-10-31_v2.md         |  203 ++
+ _reviews/REVIEW_COMMIT_2026-10-31.md               |   67 +
+ _reviews/REVIEW_GOAL_2026-10-31.md                 |  147 ++
+ _reviews/REVIEW_GOAL_2026-10-31_v2.md              |  159 ++
+ _reviews/REVIEW_QUESTIONS_2026-10-31.md            |  123 ++
+ _reviews/REVIEW_QUESTIONS_2026-10-31_v2.md         |  135 ++
+ .../_evidence/R_ledger_check.out                   |    4 +
+ .../_evidence/R_ledger_show.out                    |   58 +
+ .../_evidence/R_outputs.out                        |   17 +
+ .../_evidence/R_placement.out                      |   12 +
+ .../_evidence/R_questions_citations.log            |  155 ++
+ .../_evidence/R_record_check.log                   |   39 +
+ .../_evidence/R_record_check.out                   |   35 +
+ .../round-02b-questions-review/_evidence/R_toy.log |   50 +
+ .../_evidence/R_trace.out                          |   14 +
+ .../_evidence/r_mechanical.sh                      |   24 +
+ .../_evidence/r_questions_and_citations.py         |  102 +
+ .../round-02b-questions-review/_evidence/r_toy.py  |  157 ++
+ .../_evidence/R_ledger_check.out                   |    3 +
+ .../_evidence/R_ledger_show.out                    |  113 +
+ .../_evidence/R_outputs.out                        |   19 +
+ .../_evidence/R_paper.log                          |  195 ++
+ .../_evidence/R_placement.out                      |   11 +
+ .../_evidence/R_record_check.log                   |   39 +
+ .../_evidence/R_record_check.out                   |   36 +
+ .../_evidence/R_toy.log                            |   80 +
+ .../_evidence/R_trace.out                          |   13 +
+ .../_evidence/r_mechanical.sh                      |   20 +
+ .../_evidence/r_paper.py                           |  126 ++
+ .../_evidence/r_toy.py                             |  208 ++
+ .../_evidence/A13_rivals.log                       |   38 +
+ .../round-02b-questions-v2/_evidence/A14_lines.log |   25 +
+ .../_evidence/A1_questions.log                     |    4 +
+ .../_evidence/A2_A3_A4_A12_A13_check.log           |   55 +
+ .../_evidence/A5_taken_together.log                |   14 +
+ .../round-02b-questions-v2/_evidence/A7_size.log   |    3 +
+ .../_evidence/A8_sources.log                       |    9 +
+ .../_evidence/A9_placement.out                     |   11 +
+ .../round-02b-questions-v2/_evidence/A9_trace.out  |   13 +
+ .../_evidence/DEPENDENCIES.csv                     |   16 +
+ .../round-02b-questions-v2/_evidence/QUESTIONS.md  |   16 +
+ .../round-02b-questions-v2/_evidence/after.sha256  |    8 +
+ .../round-02b-questions-v2/_evidence/before.sha256 |    8 +
+ .../_evidence/build_paper.log                      |    4 +
+ .../_evidence/build_paper.py                       |   21 +
+ .../_evidence/check_paper.py                       |  143 ++
+ _working/round-02b-questions-v2/_evidence/end.out  |   61 +
+ .../_evidence/list_questions.py                    |   33 +
+ .../round-02b-questions-v2/_evidence/ls_ld.out     |    9 +
+ .../round-02b-questions-v2/_evidence/paper_src.md  |  293 +++
+ .../_evidence/record/RECORD.txt                    |   58 +
+ .../_evidence/record/_hook/sitecustomize.py        |   88 +
+ .../_evidence/record/check.out                     |   27 +
+ .../_evidence/record/check_first_run.out           |   26 +
+ .../_evidence/record/end.json                      | 1755 ++++++++++++++++
+ .../_evidence/record/opened.jsonl                  |   34 +
+ .../_evidence/record/runs.jsonl                    |    5 +
+ .../_evidence/record/start.json                    | 1672 +++++++++++++++
+ .../_evidence/record/window.out                    |   37 +
+ .../round-02b-questions-v2/_evidence/start.out     |    3 +
+ _working/round-02b-questions-v2/_evidence/toy.py   |  245 +++
+ .../round-02b-questions/_evidence/A1_questions.log |    5 +
+ .../_evidence/A2_A3_A4_check.log                   |   25 +
+ .../_evidence/A5_taken_together.log                |   15 +
+ _working/round-02b-questions/_evidence/A7_size.log |    4 +
+ .../round-02b-questions/_evidence/A8_sources.log   |   10 +
+ .../round-02b-questions/_evidence/A9_placement.out |   11 +
+ .../round-02b-questions/_evidence/A9_trace.out     |   13 +
+ .../round-02b-questions/_evidence/QUESTIONS.md     |   16 +
+ .../round-02b-questions/_evidence/after.sha256     |    8 +
+ .../round-02b-questions/_evidence/before.sha256    |    8 +
+ .../round-02b-questions/_evidence/check_paper.py   |   96 +
+ _working/round-02b-questions/_evidence/end.out     |   47 +
+ .../_evidence/list_questions.py                    |   34 +
+ _working/round-02b-questions/_evidence/ls_ld.out   |    9 +
+ .../_evidence/record/RECORD.txt                    |   45 +
+ .../_evidence/record/_hook/sitecustomize.py        |   88 +
+ .../round-02b-questions/_evidence/record/check.out |   26 +
+ .../_evidence/record/check_first_run.out           |   25 +
+ .../round-02b-questions/_evidence/record/end.json  | 1530 ++++++++++++++
+ .../_evidence/record/opened.jsonl                  |   22 +
+ .../_evidence/record/runs.jsonl                    |    3 +
+ .../_evidence/record/start.json                    | 1467 +++++++++++++
+ .../_evidence/record/window.out                    |   31 +
+ _working/round-02b-questions/_evidence/start.out   |    2 +
+ .../_evidence/taken_together.py                    |  127 ++
+ .../round-03-goal-review/_evidence/M1_trace.out    |   14 +
+ .../_evidence/M2_placement.out                     |   12 +
+ .../_evidence/M3_record_check.out                  |   33 +
+ .../_evidence/M3_record_run.out                    |   36 +
+ .../_evidence/M4_ledger_show.out                   |   56 +
+ .../_evidence/M5_ledger_check.out                  |    3 +
+ .../round-03-goal-review/_evidence/R_inventory.out |   44 +
+ .../round-03-goal-review/_evidence/R_inventory.py  |  153 ++
+ .../round-03-goal-review/_evidence/R_lookup.out    |  264 +++
+ .../round-03-goal-review/_evidence/R_lookup.py     |  112 +
+ .../round-03-goal-review/_evidence/R_outputs.out   |   30 +
+ .../round-03-goal-review/_evidence/R_screens.out   |   13 +
+ .../round-03-goal-review/_evidence/R_screens.py    |   32 +
+ .../round-03-goal-v2-review/_evidence/M1_trace.out |   14 +
+ .../_evidence/M2_placement.out                     |   12 +
+ .../round-03-goal-v2-review/_evidence/M3_check.out |   33 +
+ .../_evidence/M3_record_run.out                    |   37 +
+ .../_evidence/M4_ledger_show.out                   |  113 +
+ .../_evidence/M5_ledger_check.out                  |    4 +
+ .../_evidence/R_failures.out                       |   10 +
+ .../_evidence/R_failures.py                        |   64 +
+ .../_evidence/R_failures_dispositions.py           |   44 +
+ .../round-03-goal-v2-review/_evidence/R_lookup.out |  243 +++
+ .../round-03-goal-v2-review/_evidence/R_lookup.py  |   99 +
+ .../_evidence/R_outputs.out                        |   62 +
+ .../_evidence/R_report_consistency.out             |   21 +
+ .../_evidence/R_steps_screens.out                  |   20 +
+ .../_evidence/R_steps_screens.py                   |   50 +
+ _working/round-03-goal-v2/_evidence/A11_quotes.out |    2 +
+ _working/round-03-goal-v2/_evidence/A12_check.out  |   15 +
+ _working/round-03-goal-v2/_evidence/A1_check.out   |    4 +
+ .../round-03-goal-v2/_evidence/A1_inventory.out    |  123 ++
+ _working/round-03-goal-v2/_evidence/A2_check.out   |    2 +
+ _working/round-03-goal-v2/_evidence/A3_check.out   |    6 +
+ _working/round-03-goal-v2/_evidence/A4_check.out   |   14 +
+ _working/round-03-goal-v2/_evidence/A5_check.out   |    4 +
+ _working/round-03-goal-v2/_evidence/A6_check.out   |    2 +
+ _working/round-03-goal-v2/_evidence/A7_shasum.out  |    9 +
+ .../round-03-goal-v2/_evidence/A8_placement.out    |   11 +
+ _working/round-03-goal-v2/_evidence/A8_trace.out   |   13 +
+ .../round-03-goal-v2/_evidence/CHANGED_check.out   |   23 +
+ .../round-03-goal-v2/_evidence/FAILURES_SET.md     |   11 +
+ _working/round-03-goal-v2/_evidence/GOAL_v1.md     |  170 ++
+ _working/round-03-goal-v2/_evidence/QUOTES.md      |   18 +
+ _working/round-03-goal-v2/_evidence/STEPS_SET.md   |   13 +
+ _working/round-03-goal-v2/_evidence/check_goal.py  |  218 ++
+ _working/round-03-goal-v2/_evidence/inventory.py   |  188 ++
+ _working/round-03-goal-v2/_evidence/keep_v1.py     |   14 +
+ _working/round-03-goal-v2/_evidence/ls_ld.out      |    7 +
+ _working/round-03-goal-v2/_evidence/quotes.py      |  328 +++
+ .../round-03-goal-v2/_evidence/record/RECORD.txt   |   70 +
+ .../_evidence/record/_hook/sitecustomize.py        |   88 +
+ .../round-03-goal-v2/_evidence/record/check.out    |   29 +
+ .../round-03-goal-v2/_evidence/record/end.json     | 2205 ++++++++++++++++++++
+ .../round-03-goal-v2/_evidence/record/opened.jsonl |  161 ++
+ .../round-03-goal-v2/_evidence/record/runs.jsonl   |   14 +
+ .../round-03-goal-v2/_evidence/record/start.json   | 2102 +++++++++++++++++++
+ .../round-03-goal-v2/_evidence/record/window.out   |   38 +
+ _working/round-03-goal-v2/_evidence/sources.py     |  117 ++
+ _working/round-03-goal/_evidence/A1_check.out      |    4 +
+ _working/round-03-goal/_evidence/A1_list.out       |    1 +
+ _working/round-03-goal/_evidence/A2_check.out      |    2 +
+ _working/round-03-goal/_evidence/A3_check.out      |    6 +
+ _working/round-03-goal/_evidence/A4_check.out      |   12 +
+ _working/round-03-goal/_evidence/A5_check.out      |    3 +
+ _working/round-03-goal/_evidence/A6_check.out      |    2 +
+ _working/round-03-goal/_evidence/A7_shasum.out     |    9 +
+ _working/round-03-goal/_evidence/A8_placement.out  |   11 +
+ _working/round-03-goal/_evidence/A8_trace.out      |   13 +
+ _working/round-03-goal/_evidence/FAILURES_SET.md   |   11 +
+ _working/round-03-goal/_evidence/STEPS_SET.md      |   13 +
+ _working/round-03-goal/_evidence/check_goal.py     |  156 ++
+ _working/round-03-goal/_evidence/list_sets.py      |  147 ++
+ _working/round-03-goal/_evidence/ls_ld.out         |    7 +
+ _working/round-03-goal/_evidence/record/RECORD.txt |   50 +
+ .../_evidence/record/_hook/sitecustomize.py        |   88 +
+ _working/round-03-goal/_evidence/record/check.out  |   29 +
+ _working/round-03-goal/_evidence/record/end.json   | 1975 ++++++++++++++++++
+ .../round-03-goal/_evidence/record/opened.jsonl    |  494 +++++
+ _working/round-03-goal/_evidence/record/runs.jsonl |    7 +
+ _working/round-03-goal/_evidence/record/start.json | 1914 +++++++++++++++++
+ _working/round-03-goal/_evidence/record/window.out |   31 +
+ _working/round-03-goal/_evidence/sources.py        |  107 +
+ .../round-commit-review/_evidence/git_checks.out   |   80 +
+ .../round-commit-review/_evidence/mech_checks.out  |  627 ++++++
+ _working/round-commit/_evidence/A4_reconcile.txt   |   10 +
+ .../round-commit/_evidence/after__coordination.txt |   54 +
+ .../round-commit/_evidence/after_mini-registry.txt |  293 +++
+ _working/round-commit/_evidence/commit_and_A1.txt  |    9 +
+ _working/round-commit/_evidence/ledger_show.out    |   54 +
+ _working/round-commit/_evidence/ls_outputs.txt     |    9 +
+ _working/round-commit/_evidence/trace_check.out    |   13 +
+ .../round-commit/_evidence/trace_check_first.out   |    9 +
+ _working/round-commit/_evidence/window.out         |  445 ++++
+ .../_evidence/before__coordination.txt             |   56 +
+ .../_evidence/before_mini-registry.txt             |   45 +
+ .../_evidence/before_uall__coordination.txt        |   54 +
+ .../_evidence/before_uall_mini-registry.txt        |  202 ++
+ docs/GOAL.md                                       |  162 ++
+ docs/QUESTIONS-PAPER.md                            |  304 +++
+ 201 files changed, 27231 insertions(+), 12 deletions(-)
+# exit=0
+## git remote -v
+# exit=0
+## git ls-files -ci --exclude-standard
+# exit=0
+## git show --name-status --format= HEAD | cut -f1 | sort | uniq -c
+ 196 A
+   5 M
+## file count: git show --name-only --format= HEAD | grep -c .
+201

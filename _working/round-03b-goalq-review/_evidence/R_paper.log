@@ -1,0 +1,156 @@
+2026-10-31T18:08:22Z
+== paper /Users/arnelaponin/Documents/Dev/wai-demo/mini-registry/docs/GOAL-QUESTIONS-PAPER.md 19984 bytes sha256 9603caf1d95b8f89927a35969e33947da9e93776e04f98ccd27a3a7965ef0cef
+
+== 1. questions in GOAL.md (numbered items after line 146): 13 [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13]
+sections Q-n in the paper: 13 [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13]
+in GOAL, not in the paper: []
+in the paper, not in GOAL: []
+  Q-1 paper line 39 quotes GOAL.md:150 word for word at its line: True
+  Q-2 paper line 59 quotes GOAL.md:151 word for word at its line: True
+  Q-3 paper line 79 quotes GOAL.md:152 word for word at its line: True
+  Q-4 paper line 98 quotes GOAL.md:153 word for word at its line: True
+  Q-5 paper line 117 quotes GOAL.md:154 word for word at its line: True
+  Q-6 paper line 136 quotes GOAL.md:155 word for word at its line: True
+  Q-7 paper line 156 quotes GOAL.md:156 word for word at its line: True
+  Q-8 paper line 175 quotes GOAL.md:157 word for word at its line: True
+  Q-9 paper line 194 quotes GOAL.md:158 word for word at its line: True
+  Q-10 paper line 213 quotes GOAL.md:159 word for word at its line: True
+  Q-11 paper line 232 quotes GOAL.md:160 word for word at its line: True
+  Q-12 paper line 251 quotes GOAL.md:161 word for word at its line: True
+  Q-13 paper line 270 quotes GOAL.md:162 word for word at its line: True
+questions quoted not word for word or at another line: 0
+
+== 2. citations
+  paper:9 RANGE ../brief/MINI-REGISTRY-BRIEF.md:9-15 (file has 58 lines)
+      first: ## What it must do
+      last:  - the clerk sees which of the two happened.
+      next:  
+  paper:9 ../brief/MINI-REGISTRY-BRIEF.md:13 «it shows that learner and enters nothing new;» HOLDS
+      source: - if it finds exactly one learner with the same family name, given names and date of birth (capitals ignored), it shows that learner and enters nothing new;
+  paper:9 ../brief/MINI-REGISTRY-BRIEF.md:14 «if it finds none, it gives the child a new learner number and saves the record;» HOLDS
+      source: - if it finds none, it gives the child a new learner number and saves the record;
+  paper:10 RANGE docs/REQUIREMENTS.md:30-106 (file has 342 lines)
+      first: ### R-02
+      last:  - *See:* the first screen says that a new learner number was given, and shows it; the second says that an exis
+      next:  
+  paper:10 RANGE docs/REQUIREMENTS.md:216-292 (file has 342 lines)
+      first: ### R-16
+      last:  - *See:* every check runs to its end and gives its result. **Expected:** windows opened: 0 at each reading. Pa
+      next:  
+  paper:11 RANGE docs/groundwork/search_rule.csv:2-18 (file has 19 lines)
+      first: compares,family name,brief:13 · R-05
+      last:  tells,the clerk sees which of the two happened,brief:15 · R-07
+      next:  
+  paper:11 RANGE docs/groundwork/settings.csv:2-18 (file has 19 lines)
+      first: children,60 different children,brief:23 · R-09 · R-14 · ruling:G-04
+      last:  school_entry,chosen from the data's 3 schools,brief:24 · R-03 · ruling:G-07
+      next:  
+  paper:11 RANGE docs/groundwork/lists.csv:2-17 (file has 18 lines)
+      first: school_census,family_name,the child's family name as this list spells it,brief:19 · brief:26 · R-08 · R-12
+      last:  key_table,same_child,"which entries are the same invented child, so that the 8 and the 4 can be counted and ro
+      next:  
+  paper:12 RANGE docs/GAPS-PAPER.md:26-38 (file has 426 lines)
+      first: | G-01 | A whole number in sequence, one above the highest held, never given twice |
+      last:  | G-13 | One A4 page, as a PDF, counted by its page count |
+      next:  
+  paper:12 docs/GAPS-PAPER.md:308 «every view the clerk can see, messages and refusals included, is a screen» HOLDS
+      source: **Recommendation — a proposal for the owner's ruling, not a decision.** We recommend Position A: every view the clerk can see, messages and refusals included, is a screen on the list of register line 238 and carries the words.
+  paper:13 docs/QUESTIONS-PAPER.md:38 «we recommend 2026-10-31» HOLDS
+      source: **Proposal — not a decision.** Any date serves equally; we recommend 2026-10-31, because the record already holds it.
+  paper:14 RANGE docs/GOAL.md:15-62 (file has 163 lines)
+      first: ### S-1 — The clerk opens the enrolment screen
+      last:  - **Source:** brief:15 · R-05 · R-07 · groundwork:search_rule.csv:18
+      next:  
+  paper:14 RANGE docs/GOAL.md:68-106 (file has 163 lines)
+      first: ### F-1 — An entry missing
+      last:  - **Source:** brief:7 · brief:13 · brief:14 · R-01 · R-06 · R-07 · ruling:G-05 · groundwork:search_rule.csv:5 
+      next:  
+  paper:14 RANGE docs/GOAL.md:112-142 (file has 163 lines)
+      first: Every view the clerk can see is a screen, messages and refusals included (the ruling on G-09). Each screen bel
+      last:  - **Carries the line:** "Invented data, Progressa is fictional".
+      next:  
+  paper:16 ../brief/MINI-REGISTRY-BRIEF.md:7 «The prototype is for agreement. It is not the registry.» HOLDS
+      source: Progressa's Ministry of Education, Youth and Skills (MoEYS) wants one list of learners instead of three. Before anyone builds the real thing, the planning unit wants to see a small working prototype: a school clerk enrols a child, and the registry does not register the same child twice. The prototype is for agreement. It is not the registry.
+  paper:16 RANGE ../brief/MINI-REGISTRY-BRIEF.md:33-35 (file has 58 lines)
+      first: - Hold any real person's data. Every screen says "Invented data, Progressa is fictional".
+      last:  - Open a window on its own. Every check of the screens runs without one.
+      next:  
+  paper:16 docs/REQUIREMENTS.md:235 «Every screen of the prototype says "Invented data, Progressa is fictional".» HOLDS
+      source: **Requirement.** Every screen of the prototype says "Invented data, Progressa is fictional".
+  paper:16 ../brief/MINI-REGISTRY-BRIEF.md:51 «The count: every requirement against the goal, both ways» HOLDS
+      source: | 4 | The count: every requirement against the goal, both ways | checking |
+  paper:16 ../brief/MINI-REGISTRY-BRIEF.md:53 «The goal built» HOLDS
+      source: | 6 | The goal built | building |
+  paper:16 ../brief/MINI-REGISTRY-BRIEF.md:54 «how many of the 8 the search catches» HOLDS
+      source: | 7 | The duplicates count: how many of the 8 the search catches | checking |
+  paper:45 docs/groundwork/settings.csv:17 «YYYY-MM-DD; any other form refused» HOLDS
+      source: date_of_birth_entry_form,YYYY-MM-DD; any other form refused,R-03 · ruling:G-07
+  paper:65 docs/groundwork/settings.csv:6 «ages,6 to 12» HOLDS
+      source: ages,6 to 12,brief:27 · R-13 · R-14
+  paper:65 docs/REQUIREMENTS.md:184 «the prototype's data reset, before any enrolment.» HOLDS
+      source: - *Set up:* the prototype's data reset, before any enrolment.
+  paper:85 docs/groundwork/settings.csv:9 «never given twice» HOLDS
+      source: learner_number,"a whole number in sequence, one higher than the highest held, never given twice",R-06 · ruling:G-01
+  paper:104 ../brief/MINI-REGISTRY-BRIEF.md:13 «(capitals ignored)» HOLDS
+      source: - if it finds exactly one learner with the same family name, given names and date of birth (capitals ignored), it shows that learner and enters nothing new;
+  paper:104 docs/groundwork/search_rule.csv:6 «every difference but capitals makes two values differ» HOLDS
+      source: forgives_nothing_else,every difference but capitals makes two values differ,brief:13
+  paper:123 docs/groundwork/search_rule.csv:10 «after the clerk has entered all four» HOLDS
+      source: when,"after the clerk has entered all four: family name, given names, date of birth and school",brief:11 · ruling:G-07
+  paper:123 docs/GAPS-PAPER.md:398 «with a check for each way the goal can go wrong that round 3 names» HOLDS
+      source: **Recommendation — a proposal for the owner's ruling, not a decision.** We recommend Position A: its checks are the tests of R-01 to R-21 written as programs, with a check for each way the goal can go wrong that round 3 names, listed together by round 6.
+  paper:142 docs/groundwork/settings.csv:18 «chosen from the data's 3 schools» HOLDS
+      source: school_entry,chosen from the data's 3 schools,brief:24 · R-03 · ruling:G-07
+  paper:162 ../brief/MINI-REGISTRY-BRIEF.md:11 «The registry searches for the child first:» HOLDS
+      source: One goal: **enrol a learner.** A school clerk enters a child's family name, given names, date of birth and school. The registry searches for the child first:
+  paper:162 docs/REQUIREMENTS.md:67 «in each enrolment the search is the first act on the data, before any write» HOLDS
+      source: - *See:* in each enrolment the search is the first act on the data, before any write; in the second enrolment there is no write. Pass if a search precedes every write in both, and the second has none.
+  paper:162 LINE docs/groundwork/search_rule.csv:10 (no words quoted) -> when,"after the clerk has entered all four: family name, given names, date of birth and school",brief:11 · ruling:G-07
+  paper:170 LINE docs/REQUIREMENTS.md:67 (no words quoted) -> - *See:* in each enrolment the search is the first act on the data, before any write; in the second enrolment there is no write. Pass if a search precedes every
+  paper:181 docs/groundwork/search_rule.csv:16 «enters nothing new and says the entry cannot be completed» HOLDS
+      source: on_more_than_one,enters nothing new and says the entry cannot be completed,ruling:G-02
+  paper:219 ../brief/MINI-REGISTRY-BRIEF.md:13 «it shows that learner and enters nothing new;» HOLDS
+      source: - if it finds exactly one learner with the same family name, given names and date of birth (capitals ignored), it shows that learner and enters nothing new;
+  paper:219 docs/REQUIREMENTS.md:80 «the screen shows the learner saved in the set-up, with its learner number» HOLDS
+      source: - *See:* in (a) and in (b), the screen shows the learner saved in the set-up, with its learner number, and the number of learners is unchanged. **Expected:** learners added: 0 in each of (a) and (b). Pass if both hold. (What the registry does when the search finds more than one: gap G-02.)
+  paper:238 ../brief/MINI-REGISTRY-BRIEF.md:13 «enters nothing new» HOLDS
+      source: - if it finds exactly one learner with the same family name, given names and date of birth (capitals ignored), it shows that learner and enters nothing new;
+  paper:238 docs/groundwork/search_rule.csv:7 «school: entered and saved, never searched on» HOLDS
+      source: does_not_compare,"school: entered and saved, never searched on",brief:13 · ruling:G-07
+  paper:257 docs/groundwork/settings.csv:13 «different_children_sharing_family_name_given_names_and_date_of_birth,0» HOLDS
+      source: different_children_sharing_family_name_given_names_and_date_of_birth,0,ruling:G-05
+  paper:257 docs/GAPS-PAPER.md:281 «enrolment is the only thing the clerk's screens offer» HOLDS
+      source: **Recommendation — a proposal for the owner's ruling, not a decision.** We recommend Position A: enrolment is the only thing the clerk's screens offer, reset is a command outside them, and there is no screen for looking learners up.
+quoted passages: 27; ranges or bare lines: 13; not holding: 0
+
+== 3. per section
+  Q-1 positions 2 tables 1 proposals 1 | depends on [7] | depended on by [8, 9] | Q-n named in body [7] | rows 3 both meet 2 divides 1
+  Q-2 positions 2 tables 1 proposals 1 | depends on [] | depended on by [] | Q-n named in body [] | rows 3 both meet 2 divides 1
+  Q-3 positions 2 tables 1 proposals 1 | depends on [] | depended on by [8] | Q-n named in body [] | rows 2 both meet 1 divides 1
+  Q-4 positions 2 tables 1 proposals 1 | depends on [5] | depended on by [] | Q-n named in body [5] | rows 2 both meet 1 divides 1
+  Q-5 positions 2 tables 1 proposals 1 | depends on [7] | depended on by [4, 8, 9] | Q-n named in body [7] | rows 2 both meet 1 divides 1
+  Q-6 positions 2 tables 1 proposals 1 | depends on [7] | depended on by [8, 9] | Q-n named in body [7] | rows 3 both meet 1 divides 2
+  Q-7 positions 2 tables 1 proposals 1 | depends on [] | depended on by [1, 5, 6, 8, 9] | Q-n named in body [] | rows 2 both meet 1 divides 1
+  Q-8 positions 2 tables 1 proposals 1 | depends on [1, 3, 5, 6, 7] | depended on by [9, 13] | Q-n named in body [1, 3, 5, 6, 7] | rows 2 both meet 1 divides 1
+  Q-9 positions 2 tables 1 proposals 1 | depends on [1, 5, 6, 7, 8] | depended on by [] | Q-n named in body [1, 5, 6, 7, 8] | rows 2 both meet 1 divides 1
+  Q-10 positions 2 tables 1 proposals 1 | depends on [] | depended on by [11, 12] | Q-n named in body [] | rows 2 both meet 1 divides 1
+  Q-11 positions 2 tables 1 proposals 1 | depends on [10] | depended on by [12] | Q-n named in body [10] | rows 2 both meet 1 divides 1
+  Q-12 positions 2 tables 1 proposals 1 | depends on [10, 11] | depended on by [] | Q-n named in body [10, 11] | rows 2 both meet 1 divides 1
+  Q-13 positions 2 tables 1 proposals 1 | depends on [8] | depended on by [] | Q-n named in body [8] | rows 2 both meet 1 divides 1
+declared pairs (B depends on A): 18
+one-way between sections: 0
+pairs in the dependency table: 18
+in table, not in sections: []
+in sections, not in table: []
+
+== 4. Taken together
+goal headings: 17 ['S-1', 'S-2', 'S-3', 'S-4', 'S-5', 'S-6', 'S-7', 'F-1', 'F-2', 'F-3', 'F-4', 'F-5', 'SC-1', 'SC-2', 'SC-3', 'SC-4', 'SC-5']
+rows of Taken together: 17 ['S-1', 'S-2', 'S-3', 'S-4', 'S-5', 'S-6', 'S-7', 'F-1', 'F-2', 'F-3', 'F-4', 'F-5', 'SC-1', 'SC-2', 'SC-3', 'SC-4', 'SC-5']
+missing: [] extra: []
+screens in the final list: 5
+   - SC-1 — the enrolment screen — "Invented data, Progressa is fictional" | R-17 line: True
+   - SC-2 — a learner found — "Invented data, Progressa is fictional" | R-17 line: True
+   - SC-3 — a new learner — "Invented data, Progressa is fictional" | R-17 line: True
+   - SC-4 — the entry refused — "Invented data, Progressa is fictional" | R-17 line: True
+   - SC-5 — the entry cannot be completed — "Invented data, Progressa is fictional" | R-17 line: True
+exit=0
